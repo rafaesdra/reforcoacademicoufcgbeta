@@ -1,0 +1,45 @@
+{
+  "assunto": "Produto Escalar",
+  "resumo": {
+    "definicao": "O produto escalar é uma operação entre dois vetores que resulta em um número real (escalar).",
+    "formula_coordenadas": "u · v = x1*x2 + y1*y2 + z1*z2",
+    "interpretacao_geometrica": "u · v = |u| * |v| * cos(theta)",
+    "angulo": "cos(theta) = (u · v) / (|u| * |v|)",
+    "perpendicularidade": "Dois vetores são perpendiculares se u · v = 0",
+    "projecao": "proj_v(u) = (u · v / |v|^2) * v",
+    "propriedades": {
+      "comutativa": "u · v = v · u",
+      "distributiva": "u · (v + w) = u · v + u · w",
+      "escalar": "(k*u) · v = k*(u · v)"
+    },
+    "produto_por_si": "v · v = |v|^2",
+    "interpretacao_sinal": {
+      "positivo": "ângulo menor que 90 graus",
+      "zero": "ângulo de 90 graus (perpendicular)",
+      "negativo": "ângulo maior que 90 graus"
+    },
+    "aplicacao": "Trabalho de uma força: W = F · d"
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Dados os vetores u = (2, 3) e v = (4, -1), calcule o produto escalar u · v."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Calcule o produto escalar entre u = (1, 2, 3) e v = (0, -1, 4)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine o ângulo entre os vetores u = (1, 0, 0) e v = (1, 1, 0)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Verifique se os vetores u = (2, -1, 1) e v = (1, 2, -1) são perpendiculares."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Considere os vetores u = (1, 2, 2) e v = (2, 0, 1): calcule o produto escalar, determine o ângulo entre eles e a projeção de u sobre v."
+    }
+  ]
+}
