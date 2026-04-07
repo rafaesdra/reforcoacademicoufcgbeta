@@ -1,0 +1,74 @@
+{
+  "id": "equacoes_inequacoes",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Equações e Inequações",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Equações buscam valores que tornam uma igualdade verdadeira, enquanto inequações envolvem desigualdades.",
+
+    "explicacao": "Uma equação é uma igualdade matemática com uma incógnita.\n\nExemplo:\n2x + 3 = 7\n\nResolver significa encontrar o valor de x que torna a igualdade verdadeira.\n\nPassos básicos:\n- Isolar a variável\n- Manter o equilíbrio da equação (fazer a mesma operação dos dois lados)\n\nExemplo:\n2x + 3 = 7\n2x = 4\nx = 2\n\nEquações do 2º grau:\n\nax² + bx + c = 0\n\nPodem ser resolvidas por fatoração ou fórmula de Bhaskara.\n\nInequações são semelhantes, mas usam sinais como:\n> , < , ≥ , ≤\n\nExemplo:\n2x + 1 > 5\n2x > 4\nx > 2\n\nIMPORTANTE:\nAo multiplicar ou dividir por número negativo, o sinal da desigualdade inverte.\n\nExemplo:\n-2x > 4\nx < -2",
+
+    "intuicao": "Resolver equação é como equilibrar uma balança. Tudo que você faz de um lado, precisa fazer do outro. Já nas inequações, você está definindo um intervalo de valores possíveis.",
+
+    "aplicacoes": [
+      "Cálculo de correntes e tensões",
+      "Análise de limites de operação",
+      "Modelagem de sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Não inverter o sinal na inequação ao multiplicar por número negativo",
+      "Esquecer de isolar corretamente a variável",
+      "Errar sinais ao passar termos de um lado para o outro"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de x na equação 2x + 4 = 10?",
+      "alternativas": ["2", "3", "4", "5"],
+      "resposta": "3",
+      "explicacao": "2x + 4 = 10 → 2x = 6 → x = 3."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução da inequação x - 2 > 3?",
+      "alternativas": ["x > 1", "x > 5", "x < 5", "x < 1"],
+      "resposta": "x > 5",
+      "explicacao": "x - 2 > 3 → x > 5."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução da equação x² - 9 = 0?",
+      "alternativas": ["x = 3", "x = -3", "x = ±3", "x = 0"],
+      "resposta": "x = ±3",
+      "explicacao": "x² - 9 = 0 → x² = 9 → x = ±3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução da inequação -2x > 6?",
+      "alternativas": ["x > -3", "x < -3", "x > 3", "x < 3"],
+      "resposta": "x < -3",
+      "explicacao": "-2x > 6 → ao dividir por -2, inverte o sinal → x < -3."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução da equação 2x² - 8x = 0?",
+      "alternativas": ["x = 0", "x = 4", "x = 0 ou x = 4", "x = 2"],
+      "resposta": "x = 0 ou x = 4",
+      "explicacao": "2x² - 8x = 0 → 2x(x - 4) = 0 → x = 0 ou x = 4."
+    }
+  ]
+}
