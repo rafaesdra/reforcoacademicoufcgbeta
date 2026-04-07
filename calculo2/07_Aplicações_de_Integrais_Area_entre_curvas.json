@@ -1,0 +1,104 @@
+{
+  "id": "area_entre_curvas",
+  "disciplina": "Cálculo II",
+  "assunto": "Aplicações de Integrais — Área entre Curvas",
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "A área entre curvas é calculada pela integral da diferença entre a função de cima e a função de baixo.",
+
+    "explicacao": "A área entre duas curvas é uma aplicação direta de integrais.\n\nSe temos duas funções:\n\nf(x) (curva superior)\ng(x) (curva inferior)\n\nA área entre elas no intervalo [a, b] é dada por:\n\nA = ∫[a,b] (f(x) - g(x)) dx\n\n---\n\nPASSOS:\n\n1) Encontrar os pontos de interseção (resolver f(x) = g(x))\n\n2) Identificar qual função está acima\n\n3) Montar a integral (superior - inferior)\n\n4) Resolver a integral\n\n---\n\nExemplo:\n\nf(x) = x²\ng(x) = x\n\nInterseção:\n\nx² = x → x(x - 1) = 0 → x = 0 e x = 1\n\nNo intervalo [0,1]:\n\nx ≥ x² → função superior: x\n\nÁrea:\n\nA = ∫₀¹ (x - x²) dx\n\nCalculando:\n\n= [x²/2 - x³/3]₀¹\n\n= 1/2 - 1/3 = 1/6\n\n---\n\nIMPORTANTE:\n\n✔ Sempre (função de cima - função de baixo)\n✔ A área deve ser positiva\n✔ Se inverter, pode dar valor negativo\n\n---\n\nCASO EM y (quando necessário):\n\nA = ∫ (direita - esquerda) dy\n\nUsado quando é mais fácil integrar em y.",
+
+    "intuicao": "A área entre curvas mede o espaço entre duas funções ao longo de um intervalo.",
+
+    "analogia": "Imagine duas montanhas: a área entre elas é o espaço de terra entre a de cima e a de baixo.",
+
+    "aplicacoes": [
+      "Cálculo de áreas entre funções",
+      "Economia (lucro e custo)",
+      "Física (diferença de trajetórias)",
+      "Engenharia"
+    ],
+
+    "erros_comuns": [
+      "Trocar a ordem (inferior - superior)",
+      "Não encontrar os pontos de interseção",
+      "Esquecer de dividir o intervalo quando necessário",
+      "Não verificar qual função está acima",
+      "Esquecer que área deve ser positiva"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da área entre duas curvas?",
+      "alternativas": [
+        "∫ (f + g) dx",
+        "∫ (f - g) dx",
+        "∫ f·g dx",
+        "∫ f/g dx"
+      ],
+      "resposta": "∫ (f - g) dx",
+      "explicacao": "Área é dada pela diferença entre a função superior e inferior."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que devemos fazer primeiro?",
+      "alternativas": [
+        "Integrar direto",
+        "Derivar",
+        "Encontrar os pontos de interseção",
+        "Multiplicar as funções"
+      ],
+      "resposta": "Encontrar os pontos de interseção",
+      "explicacao": "Eles definem o intervalo de integração."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se invertermos (inferior - superior), o resultado será:",
+      "alternativas": [
+        "Correto",
+        "Zero",
+        "Negativo",
+        "Indefinido"
+      ],
+      "resposta": "Negativo",
+      "explicacao": "A ordem incorreta gera valor negativo."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a área entre f(x)=x e g(x)=x² no intervalo [0,1]?",
+      "alternativas": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "1"
+      ],
+      "resposta": "1/6",
+      "explicacao": "Área = ∫₀¹ (x - x²) dx = 1/6."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando usamos integração em relação a y?",
+      "alternativas": [
+        "Sempre",
+        "Nunca",
+        "Quando for mais fácil expressar as funções em y",
+        "Apenas em derivadas"
+      ],
+      "resposta": "Quando for mais fácil expressar as funções em y",
+      "explicacao": "Às vezes a integração em y simplifica o problema."
+    }
+  ]
+}
