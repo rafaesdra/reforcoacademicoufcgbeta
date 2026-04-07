@@ -1,0 +1,104 @@
+{
+  "id": "derivadas_parametricas",
+  "disciplina": "Cálculo II",
+  "assunto": "Funções Paramétricas — Derivadas em Equações Paramétricas",
+  "ordem": 27,
+
+  "teoria": {
+    "resumo": "A derivada em equações paramétricas é calculada como a razão entre dx/dt e dy/dt.",
+
+    "explicacao": "Quando uma curva é dada por equações paramétricas:\n\nx = f(t)\ny = g(t)\n\nnão temos y diretamente como função de x.\n\n---\n\nIDEIA PRINCIPAL:\n\nCalculamos a derivada dy/dx usando o parâmetro t:\n\n---\n\nFÓRMULA:\n\n dy/dx = (dy/dt) / (dx/dt)\n\n---\n\nINTERPRETAÇÃO:\n\nA inclinação da reta tangente depende de como x e y variam em relação ao parâmetro.\n\n---\n\nEXEMPLO 1:\n\nx = t²\ny = t³\n\nDerivando:\n\ndx/dt = 2t\ndy/dt = 3t²\n\nLogo:\n\ndy/dx = (3t²)/(2t) = 3t/2\n\n---\n\nEXEMPLO 2:\n\nx = cos(t)\ny = sen(t)\n\nDerivando:\n\ndx/dt = -sen(t)\ndy/dt = cos(t)\n\nLogo:\n\ndy/dx = cos(t)/(-sen(t)) = -cot(t)\n\n---\n\nRETA TANGENTE:\n\nPodemos encontrar a equação da reta tangente substituindo o valor de t.\n\n---\n\nDERIVADA SEGUNDA:\n\nPara a segunda derivada:\n\n d²y/dx² = [d/dt(dy/dx)] / (dx/dt)\n\n---\n\nEXEMPLO 3:\n\nContinuando x = t², y = t³:\n\ndy/dx = 3t/2\n\nDerivando em relação a t:\n\nd/dt(3t/2) = 3/2\n\nEntão:\n\nd²y/dx² = (3/2)/(2t) = 3/(4t)\n\n---\n\nPASSO A PASSO:\n\n1) Calcular dx/dt\n\n2) Calcular dy/dt\n\n3) Dividir (dy/dt) por (dx/dt)\n\n4) Simplificar\n\n---\n\nQUANDO NÃO EXISTE DERIVADA:\n\nSe dx/dt = 0:\n\n👉 Tangente vertical\n\n---\n\nCASOS IMPORTANTES:\n\n✔ dy/dx = 0 → tangente horizontal\n✔ dx/dt = 0 → tangente vertical\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Nunca derive y em relação a x diretamente\n✔ Sempre use o parâmetro t\n✔ Simplifique antes de interpretar\n✔ Substitua t no final, se necessário\n\n---\n\nIDEIA CENTRAL:\n\nA derivada é obtida comparando como x e y variam com o tempo.",
+
+    "intuicao": "A inclinação depende de quão rápido y muda em relação a quão rápido x muda.",
+
+    "analogia": "É como comparar duas velocidades: se y cresce rápido e x devagar, a inclinação é grande.",
+
+    "aplicacoes": [
+      "Cálculo de retas tangentes",
+      "Movimento de partículas",
+      "Análise de trajetórias",
+      "Física e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Tentar derivar y em função de x diretamente",
+      "Esquecer de dividir por dx/dt",
+      "Errar a derivada em relação a t",
+      "Não simplificar a expressão",
+      "Ignorar quando dx/dt = 0"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A derivada dy/dx em equações paramétricas é:",
+      "alternativas": [
+        "dy/dt",
+        "dx/dt",
+        "(dy/dt)/(dx/dt)",
+        "y/x"
+      ],
+      "resposta": "(dy/dt)/(dx/dt)",
+      "explicacao": "Essa é a fórmula principal."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dx/dt = 0, temos:",
+      "alternativas": [
+        "Tangente horizontal",
+        "Tangente vertical",
+        "Sem derivada",
+        "Curva constante"
+      ],
+      "resposta": "Tangente vertical",
+      "explicacao": "A inclinação tende ao infinito."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para x = t² e y = t³, dy/dx é:",
+      "alternativas": [
+        "t",
+        "3t/2",
+        "2t/3",
+        "t²"
+      ],
+      "resposta": "3t/2",
+      "explicacao": "dy/dx = (3t²)/(2t) = 3t/2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para x = cos(t), y = sen(t), dy/dx é:",
+      "alternativas": [
+        "tan(t)",
+        "-cot(t)",
+        "cot(t)",
+        "-tan(t)"
+      ],
+      "resposta": "-cot(t)",
+      "explicacao": "dy/dx = cos(t)/(-sen(t))."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A segunda derivada em paramétricas é dada por:",
+      "alternativas": [
+        "d²y/dt²",
+        "(d/dt(dy/dx))/(dx/dt)",
+        "(dy/dt)²",
+        "dx/dy"
+      ],
+      "resposta": "(d/dt(dy/dx))/(dx/dt)",
+      "explicacao": "Essa é a fórmula correta da segunda derivada."
+    }
+  ]
+}
