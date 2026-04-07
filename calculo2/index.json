@@ -1,5 +1,5 @@
 {
-  "disciplina": "Cálculo I",
+  "disciplina": "Cálculo II",
   "assuntos": [
     {"titulo": "Técnicas de integração - Substituição", "path": "01_Técnicas_de_Integração_Substituição.json"},
     {"titulo": "Técnicas de integração - Integração por Partes", "path": "02_Técnicas_de_Integração_Integracao_por_partes.json"},
