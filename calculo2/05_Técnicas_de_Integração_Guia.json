@@ -1,0 +1,104 @@
+{
+  "id": "guia_escolha_tecnica_integracao",
+  "disciplina": "Cálculo II",
+  "assunto": "Guia — Como Escolher a Técnica de Integração",
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Escolher a técnica correta de integração depende de reconhecer padrões na expressão da integral.",
+
+    "explicacao": "Resolver integrais não é sobre decorar tudo, mas sim reconhecer padrões.\n\nAqui está um guia prático:\n\nPASSO 1: Olhe a estrutura da integral\n\nPergunte:\n👉 É produto?\n👉 É fração?\n👉 Tem função dentro de outra?\n👉 Tem trigonometria?\n\n---\n\nCASO 1: Substituição\n\nUse quando:\n- Existe função dentro de outra\n- A derivada da parte interna aparece\n\nExemplo:\n∫ 2x·cos(x²) dx\n\nSinal clássico:\n👉 f(g(x)) · g'(x)\n\n---\n\nCASO 2: Integração por partes\n\nUse quando:\n- Produto de funções diferentes\n\nExemplo:\n∫ x·ln(x) dx\n\nDica:\nUse LIATE para escolher u\n\n---\n\nCASO 3: Frações parciais\n\nUse quando:\n- Tem divisão de polinômios\n\nExemplo:\n∫ 1/(x² - 1) dx\n\nPassos:\n👉 Fatorar\n👉 Decompor\n\n---\n\nCASO 4: Integrais trigonométricas\n\nUse quando:\n- Tem seno, cosseno, tangente\n- Potências ou produtos trigonométricos\n\nExemplo:\n∫ sen³(x) dx\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre tente simplificar antes\n✔ Se não funcionar, tente outra técnica\n✔ Algumas integrais precisam de mais de um método\n✔ Prática é essencial\n\n---\n\nRESUMO RÁPIDO:\n\nFunção composta → Substituição\nProduto → Por partes\nFração → Frações parciais\nTrigonometria → Identidades trigonométricas\n\nEsse processo de decisão é o que diferencia quem entende de quem decora.",
+
+    "intuicao": "Escolher a técnica é como identificar qual ferramenta usar para resolver um problema.",
+
+    "analogia": "É como uma caixa de ferramentas: você não usa um martelo para apertar um parafuso — cada problema pede uma ferramenta específica.",
+
+    "aplicacoes": [
+      "Resolução eficiente de integrais",
+      "Provas e avaliações",
+      "Problemas de engenharia",
+      "Modelagem matemática"
+    ],
+
+    "erros_comuns": [
+      "Tentar sempre a mesma técnica",
+      "Não analisar a estrutura da integral",
+      "Ignorar simplificações iniciais",
+      "Desistir rápido ao errar a escolha",
+      "Achar que existe uma única forma de resolver"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual técnica usar em ∫ 2x·e^(x²) dx?",
+      "alternativas": [
+        "Por partes",
+        "Substituição",
+        "Frações parciais",
+        "Trigonométrica"
+      ],
+      "resposta": "Substituição",
+      "explicacao": "Existe uma função interna (x²) com sua derivada (2x)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual técnica usar em ∫ x·ln(x) dx?",
+      "alternativas": [
+        "Substituição",
+        "Frações parciais",
+        "Por partes",
+        "Trigonométrica"
+      ],
+      "resposta": "Por partes",
+      "explicacao": "É um produto de funções diferentes."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual técnica usar em ∫ 1/(x² - 1) dx?",
+      "alternativas": [
+        "Substituição",
+        "Por partes",
+        "Frações parciais",
+        "Derivação"
+      ],
+      "resposta": "Frações parciais",
+      "explicacao": "É uma função racional (divisão de polinômios)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual técnica usar em ∫ sen³(x) dx?",
+      "alternativas": [
+        "Frações parciais",
+        "Trigonométrica",
+        "Por partes",
+        "Substituição"
+      ],
+      "resposta": "Trigonométrica",
+      "explicacao": "Envolve potência de função trigonométrica."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma técnica não funciona, o que fazer?",
+      "alternativas": [
+        "Parar",
+        "Trocar a técnica",
+        "Derivar a função",
+        "Ignorar o problema"
+      ],
+      "resposta": "Trocar a técnica",
+      "explicacao": "Integração exige tentativa e reconhecimento de padrões."
+    }
+  ]
+}
