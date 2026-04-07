@@ -1,0 +1,104 @@
+{
+  "id": "graficos_polares",
+  "disciplina": "Cálculo II",
+  "assunto": "Coordenadas Polares — Gráficos",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "Coordenadas polares representam pontos no plano usando distância e ângulo em vez de x e y.",
+
+    "explicacao": "Nas coordenadas polares, um ponto é representado por:\n\n(r, θ)\n\nonde:\n\n✔ r = distância até a origem\n✔ θ = ângulo em relação ao eixo horizontal\n\n---\n\nRELAÇÃO COM CARTESIANO:\n\nx = r cos(θ)\ny = r sen(θ)\n\n---\n\nIDEIA PRINCIPAL:\n\nEm vez de usar (x, y), usamos distância e direção.\n\n---\n\nCOMO FAZER O GRÁFICO:\n\n1) Escolher valores de θ\n\n2) Calcular r\n\n3) Marcar os pontos\n\n4) Ligar suavemente\n\n---\n\nEXEMPLO 1:\n\nr = 1\n\n👉 Circunferência de raio 1\n\n---\n\nEXEMPLO 2:\n\nr = θ\n\n👉 Espiral (espiral de Arquimedes)\n\n---\n\nEXEMPLO 3:\n\nr = 2 cos(θ)\n\nConvertendo:\n\nr² = 2r cos(θ)\n\nx² + y² = 2x\n\n(x - 1)² + y² = 1\n\n👉 Círculo deslocado\n\n---\n\nEXEMPLO 4:\n\nr = a sen(θ)\n\n👉 Círculo acima do eixo\n\n---\n\nCURVAS IMPORTANTES:\n\n✔ r = constante → círculo\n✔ r = θ → espiral\n✔ r = a cos(θ) → círculo horizontal\n✔ r = a sen(θ) → círculo vertical\n\n---\n\nSIMETRIAS:\n\n✔ Substituir θ por -θ → simetria no eixo x\n✔ Substituir r por -r → ponto oposto\n✔ Substituir θ por π - θ → simetria no eixo y\n\n---\n\nVALORES NEGATIVOS DE r:\n\nSe r < 0:\n\n👉 O ponto é refletido na direção oposta\n\n---\n\nPASSO A PASSO:\n\n1) Fazer tabela de valores\n\n2) Observar comportamento de r\n\n3) Identificar simetria\n\n4) Desenhar curva\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Teste θ = 0, π/2, π, 3π/2\n✔ Observe periodicidade\n✔ Use simetria para facilitar\n✔ Cuidado com r negativo\n\n---\n\nIDEIA CENTRAL:\n\nVocê constrói a curva girando e variando a distância ao mesmo tempo.",
+
+    "intuicao": "Em vez de andar para os lados e para cima, você gira e se afasta ou aproxima da origem.",
+
+    "analogia": "É como um radar: ele gira (ângulo) e mede distância (r) para localizar pontos.",
+
+    "aplicacoes": [
+      "Movimento circular",
+      "Ondas e oscilações",
+      "Engenharia e física",
+      "Modelagem de formas naturais"
+    ],
+
+    "erros_comuns": [
+      "Confundir r com x ou y",
+      "Ignorar valores negativos de r",
+      "Não considerar simetria",
+      "Usar poucos pontos no gráfico",
+      "Esquecer periodicidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em coordenadas polares, r representa:",
+      "alternativas": [
+        "Ângulo",
+        "Distância à origem",
+        "Inclinação",
+        "Área"
+      ],
+      "resposta": "Distância à origem",
+      "explicacao": "r é a distância do ponto até a origem."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação r = 1 representa:",
+      "alternativas": [
+        "Uma reta",
+        "Uma parábola",
+        "Um círculo",
+        "Uma espiral"
+      ],
+      "resposta": "Um círculo",
+      "explicacao": "Todos os pontos estão a distância 1 da origem."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação r = θ representa:",
+      "alternativas": [
+        "Um círculo",
+        "Uma reta",
+        "Uma espiral",
+        "Uma parábola"
+      ],
+      "resposta": "Uma espiral",
+      "explicacao": "A distância cresce conforme o ângulo aumenta."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se r < 0, o ponto:",
+      "alternativas": [
+        "Desaparece",
+        "Vai para o infinito",
+        "É refletido na direção oposta",
+        "Fica na origem"
+      ],
+      "resposta": "É refletido na direção oposta",
+      "explicacao": "r negativo inverte a direção."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação r = 2 cos(θ) representa:",
+      "alternativas": [
+        "Uma reta",
+        "Um círculo deslocado",
+        "Uma espiral",
+        "Uma parábola"
+      ],
+      "resposta": "Um círculo deslocado",
+      "explicacao": "Equivale a (x - 1)² + y² = 1."
+    }
+  ]
+}
