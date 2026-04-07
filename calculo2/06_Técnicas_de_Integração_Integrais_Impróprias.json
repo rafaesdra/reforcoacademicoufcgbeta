@@ -1,0 +1,104 @@
+{
+  "id": "integrais_improprias",
+  "disciplina": "Cálculo II",
+  "assunto": "Integrais Impróprias",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "Integrais impróprias são aquelas que envolvem limites infinitos ou descontinuidades no intervalo de integração.",
+
+    "explicacao": "Uma integral imprópria ocorre em dois casos principais:\n\nCASO 1: Intervalo infinito\n\nExemplo:\n\n∫₁^∞ 1/x² dx\n\nDefinimos como limite:\n\nlim (b → ∞) ∫₁^b 1/x² dx\n\nCalculando:\n\n∫ 1/x² dx = -1/x\n\nEntão:\n\nlim (b → ∞) [-1/x]₁^b = lim (b → ∞) (-1/b + 1)\n\n= 1\n\n👉 A integral converge.\n\n---\n\nCASO 2: Descontinuidade no intervalo\n\nExemplo:\n\n∫₀¹ 1/√x dx\n\nA função não está definida em x = 0.\n\nDefinimos:\n\nlim (a → 0⁺) ∫ₐ¹ 1/√x dx\n\nCalculando:\n\n∫ x^(-1/2) dx = 2√x\n\nEntão:\n\nlim (a → 0⁺) [2√x]ₐ¹ = 2 - 0 = 2\n\n👉 A integral converge.\n\n---\n\nQUANDO DIVERGE?\n\nSe o limite não existe ou tende ao infinito.\n\nExemplo:\n\n∫₁^∞ 1/x dx\n\n= lim (b → ∞) ln(b)\n\n→ ∞ (diverge)\n\n---\n\nIDEIA PRINCIPAL:\n\nIntegrais impróprias são resolvidas usando limites.\n\nSe o resultado for finito → converge\nSe for infinito → diverge",
+
+    "intuicao": "Integrais impróprias analisam áreas infinitas ou com falhas, usando limites para dar sentido ao cálculo.",
+
+    "analogia": "É como tentar medir algo que nunca termina — você observa até onde isso vai usando limites.",
+
+    "aplicacoes": [
+      "Cálculo de áreas infinitas",
+      "Probabilidade e estatística",
+      "Física (campos e distribuições)",
+      "Engenharia e sinais"
+    ],
+
+    "erros_comuns": [
+      "Não transformar em limite",
+      "Avaliar diretamente sem considerar infinito",
+      "Ignorar pontos de descontinuidade",
+      "Confundir convergência com divergência",
+      "Esquecer limites laterais (ex: 0⁺)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma integral é considerada imprópria?",
+      "alternativas": [
+        "Quando tem derivada",
+        "Quando envolve infinito ou descontinuidade",
+        "Quando é trigonométrica",
+        "Quando é polinomial"
+      ],
+      "resposta": "Quando envolve infinito ou descontinuidade",
+      "explicacao": "Esses são os dois casos principais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Como resolvemos integrais impróprias?",
+      "alternativas": [
+        "Derivando",
+        "Usando limites",
+        "Multiplicando",
+        "Fatorando"
+      ],
+      "resposta": "Usando limites",
+      "explicacao": "Transformamos a integral em um limite."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral ∫₁^∞ 1/x² dx:",
+      "alternativas": [
+        "Diverge",
+        "Converge para 1",
+        "É zero",
+        "Não existe"
+      ],
+      "resposta": "Converge para 1",
+      "explicacao": "O limite resulta em valor finito."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral ∫₁^∞ 1/x dx:",
+      "alternativas": [
+        "Converge",
+        "Diverge",
+        "É zero",
+        "Vale 1"
+      ],
+      "resposta": "Diverge",
+      "explicacao": "O resultado tende ao infinito."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma integral imprópria resulta em valor finito, ela:",
+      "alternativas": [
+        "Diverge",
+        "Converge",
+        "É indefinida",
+        "Não pode ser calculada"
+      ],
+      "resposta": "Converge",
+      "explicacao": "Valor finito indica convergência."
+    }
+  ]
+}
