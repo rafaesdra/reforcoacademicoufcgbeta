@@ -1,0 +1,104 @@
+{
+  "id": "teste_comparacao",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Teste da Comparação",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "O teste da comparação determina a convergência de uma série comparando com outra série conhecida.",
+
+    "explicacao": "O teste da comparação é usado quando temos uma série difícil e queremos compará-la com uma série mais simples.\n\n---\n\nIDEIA PRINCIPAL:\n\nComparamos com séries conhecidas:\n\n✔ Série geométrica\n✔ Série harmônica\n✔ Série p\n\n---\n\nREGRA:\n\nSe 0 ≤ aₙ ≤ bₙ:\n\n1) Se ∑ bₙ converge → ∑ aₙ também converge\n\n2) Se ∑ aₙ diverge → ∑ bₙ também diverge\n\n---\n\nINTUIÇÃO:\n\nSe aₙ é menor que algo que já sabemos que converge → também converge\n\nSe aₙ é maior que algo que diverge → também diverge\n\n---\n\nEXEMPLO 1:\n\n∑ 1/(n² + 1)\n\nSabemos que:\n\n1/(n² + 1) < 1/n²\n\nE:\n\n∑ 1/n² converge\n\n👉 Logo, a série também converge\n\n---\n\nEXEMPLO 2:\n\n∑ 1/n\n\nComparando com ela mesma (harmônica):\n\n👉 Diverge\n\n---\n\nEXEMPLO 3:\n\n∑ 1/(n + 1)\n\n1/(n + 1) > 1/(2n)\n\nE ∑ 1/n diverge\n\n👉 Também diverge\n\n---\n\nPASSOS:\n\n1) Identificar uma série conhecida\n\n2) Comparar os termos\n\n3) Aplicar a regra\n\n---\n\nIDEIA CENTRAL:\n\nComparar com algo que você já conhece resolve o problema.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Compare com 1/n ou 1/n²\n✔ Ignore constantes\n✔ Foque no comportamento para n grande\n✔ Simplifique a expressão\n\n---\n\nSÉRIES DE REFERÊNCIA:\n\n∑ 1/n → diverge\n∑ 1/n² → converge\n∑ rⁿ → depende de r",
+
+    "intuicao": "Se algo é menor que algo pequeno, também será pequeno; se é maior que algo grande, também será grande.",
+
+    "analogia": "É como comparar alturas: se alguém é menor que uma pessoa baixa, também é baixo; se é maior que alguém alto, também é alto.",
+
+    "aplicacoes": [
+      "Determinar convergência de séries difíceis",
+      "Base para outros testes",
+      "Análise matemática",
+      "Engenharia e física"
+    ],
+
+    "erros_comuns": [
+      "Comparar com série errada",
+      "Não verificar desigualdade corretamente",
+      "Ignorar comportamento para n grande",
+      "Usar igualdade ao invés de desigualdade",
+      "Confundir direção da comparação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O teste da comparação usa:",
+      "alternativas": [
+        "Derivadas",
+        "Limites",
+        "Séries conhecidas",
+        "Integrais"
+      ],
+      "resposta": "Séries conhecidas",
+      "explicacao": "Comparamos com séries que já sabemos o comportamento."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se aₙ ≤ bₙ e ∑ bₙ converge, então ∑ aₙ:",
+      "alternativas": [
+        "Diverge",
+        "Converge",
+        "Oscila",
+        "Não existe"
+      ],
+      "resposta": "Converge",
+      "explicacao": "A série menor também converge."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/(n²+1) é:",
+      "alternativas": [
+        "Divergente",
+        "Convergente",
+        "Oscilante",
+        "Indefinida"
+      ],
+      "resposta": "Convergente",
+      "explicacao": "Comparando com 1/n²."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/(n+1) é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Zero",
+        "Constante"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "Se comporta como 1/n."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual série é melhor referência para ∑ 1/(n³ + 2)?",
+      "alternativas": [
+        "∑ 1/n",
+        "∑ 1/n²",
+        "∑ 1/n³",
+        "∑ 2ⁿ"
+      ],
+      "resposta": "∑ 1/n³",
+      "explicacao": "O termo dominante é n³."
+    }
+  ]
+}
