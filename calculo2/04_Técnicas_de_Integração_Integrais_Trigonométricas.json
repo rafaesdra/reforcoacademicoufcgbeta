@@ -1,0 +1,104 @@
+{
+  "id": "integracao_trigonometrica",
+  "disciplina": "Cálculo II",
+  "assunto": "Técnicas de Integração — Integrais Trigonométricas",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Integrais trigonométricas envolvem funções como seno, cosseno e tangente, utilizando identidades para simplificar a integração.",
+
+    "explicacao": "Integrais trigonométricas aparecem quando temos potências ou produtos de funções trigonométricas.\n\nExemplos comuns:\n\n∫ sen^n(x) · cos^m(x) dx\n\n∫ tan(x) dx\n\nPara resolver, usamos identidades trigonométricas.\n\nCASO 1: Potências de seno e cosseno\n\nSe um dos expoentes for ímpar:\n\n👉 separe um termo e use:\n\nsen²(x) = 1 - cos²(x)\ncos²(x) = 1 - sen²(x)\n\nExemplo:\n\n∫ sen³(x) dx\n\n= ∫ sen²(x)·sen(x) dx\n\n= ∫ (1 - cos²(x))·sen(x) dx\n\nSubstituição:\n\nu = cos(x)\n\ndu = -sen(x) dx\n\nResultado:\n\n= -∫ (1 - u²) du\n\n= -(u - u³/3) + C\n\n= -cos(x) + cos³(x)/3 + C\n\nCASO 2: Potências pares\n\nUsamos identidade:\n\ncos²(x) = (1 + cos(2x))/2\nsen²(x) = (1 - cos(2x))/2\n\nExemplo:\n\n∫ cos²(x) dx\n\n= ∫ (1 + cos(2x))/2 dx\n\n= x/2 + sen(2x)/4 + C\n\nCASO 3: Tangente e secante\n\n∫ tan(x) dx = -ln|cos(x)| + C\n\n∫ sec²(x) dx = tan(x) + C\n\nA chave é reconhecer padrões e aplicar identidades corretas.",
+
+    "intuicao": "Integrais trigonométricas usam identidades para transformar expressões complicadas em formas integráveis.",
+
+    "analogia": "É como reescrever uma frase difícil com palavras mais simples para conseguir entender e resolver.",
+
+    "aplicacoes": [
+      "Problemas envolvendo ondas e oscilações",
+      "Física (movimento harmônico)",
+      "Engenharia elétrica",
+      "Modelagem periódica"
+    ],
+
+    "erros_comuns": [
+      "Não usar identidades trigonométricas",
+      "Escolher substituição errada",
+      "Esquecer fórmulas básicas",
+      "Errar sinais",
+      "Não reconhecer padrões de seno e cosseno"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual identidade é usada para reduzir cos²(x)?",
+      "alternativas": [
+        "cos²(x) = 1 - sen²(x)",
+        "cos²(x) = (1 + cos(2x))/2",
+        "cos²(x) = sen(x)",
+        "cos²(x) = tan(x)"
+      ],
+      "resposta": "cos²(x) = (1 + cos(2x))/2",
+      "explicacao": "Essa identidade facilita a integração de potências pares."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a integral de tan(x)?",
+      "alternativas": [
+        "ln|tan(x)| + C",
+        "ln|cos(x)| + C",
+        "-ln|cos(x)| + C",
+        "sen(x) + C"
+      ],
+      "resposta": "-ln|cos(x)| + C",
+      "explicacao": "A integral de tan(x) pode ser escrita como -ln|cos(x)|."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual estratégia usar em ∫ sen³(x) dx?",
+      "alternativas": [
+        "Substituição direta",
+        "Separar um seno e usar identidade",
+        "Frações parciais",
+        "Derivação"
+      ],
+      "resposta": "Separar um seno e usar identidade",
+      "explicacao": "Quando o expoente é ímpar, essa é a melhor abordagem."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de ∫ cos²(x) dx?",
+      "alternativas": [
+        "sen(x) + C",
+        "x/2 + sen(2x)/4 + C",
+        "cos(x) + C",
+        "x + C"
+      ],
+      "resposta": "x/2 + sen(2x)/4 + C",
+      "explicacao": "Usando a identidade de redução de potência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando devemos usar identidades trigonométricas em integrais?",
+      "alternativas": [
+        "Sempre",
+        "Nunca",
+        "Quando há potências ou produtos trigonométricos",
+        "Apenas em derivadas"
+      ],
+      "resposta": "Quando há potências ou produtos trigonométricos",
+      "explicacao": "Identidades ajudam a simplificar expressões complexas."
+    }
+  ]
+}
