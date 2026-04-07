@@ -1,0 +1,12 @@
+{
+  "disciplinas": [
+    {
+      "nome": "Pré-Cálculo",
+      "path": "pré-calculo/index.json"
+    },
+    {
+      "nome": "Cálculo I",
+      "path": "calculo1/index.json"
+    }
+  ]
+}
