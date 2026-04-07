@@ -1,0 +1,104 @@
+{
+  "id": "equacoes_diferenciais_separaveis",
+  "disciplina": "Cálculo II",
+  "assunto": "Equações Diferenciais — Equações Separáveis",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "Equações diferenciais separáveis são aquelas em que as variáveis podem ser separadas em lados diferentes da equação.",
+
+    "explicacao": "Uma equação diferencial separável tem a forma:\n\n dy/dx = f(x) · g(y)\n\n---\n\nIDEIA PRINCIPAL:\n\nReorganizar a equação para colocar termos de y de um lado e termos de x do outro.\n\n---\n\nFORMA SEPARADA:\n\n dy/g(y) = f(x) dx\n\n---\n\nPASSO A PASSO:\n\n1) Separar as variáveis\n\n2) Integrar ambos os lados\n\n3) Encontrar a solução geral\n\n4) (Opcional) aplicar condição inicial\n\n---\n\nEXEMPLO 1:\n\n dy/dx = x y\n\nSeparando:\n\n dy/y = x dx\n\nIntegrando:\n\n ln|y| = x²/2 + C\n\nSolução:\n\n y = Ce^(x²/2)\n\n---\n\nEXEMPLO 2:\n\n dy/dx = y²\n\nSeparando:\n\n dy/y² = dx\n\nIntegrando:\n\n -1/y = x + C\n\n---\n\nEXEMPLO 3:\n\n dy/dx = x/(y + 1)\n\nSeparando:\n\n (y + 1) dy = x dx\n\nIntegrando:\n\n y²/2 + y = x²/2 + C\n\n---\n\nSOLUÇÃO GERAL:\n\nContém uma constante arbitrária C.\n\n---\n\nSOLUÇÃO PARTICULAR:\n\nObtida usando condição inicial (ex: y(0) = 1).\n\n---\n\nINTERPRETAÇÃO:\n\nA equação descreve como uma quantidade varia em relação a outra.\n\n---\n\nCASOS IMPORTANTES:\n\n✔ Crescimento exponencial\n✔ Decaimento exponencial\n✔ Modelos simples de física\n\n---\n\nQUANDO USAR:\n\n✔ Quando a equação pode ser separada\n✔ Quando há produto de funções de x e y\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Verifique se é separável antes\n✔ Use integrais corretamente\n✔ Não esqueça a constante C\n✔ Simplifique a solução final\n\n---\n\nIDEIA CENTRAL:\n\nSeparar variáveis transforma uma equação diferencial em duas integrais simples.",
+
+    "intuicao": "Você transforma um problema de derivada em dois problemas de integração separados.",
+
+    "analogia": "É como separar ingredientes antes de cozinhar: cada parte é tratada separadamente e depois combinada.",
+
+    "aplicacoes": [
+      "Crescimento populacional",
+      "Decaimento radioativo",
+      "Resfriamento de corpos",
+      "Modelos simples em física e biologia"
+    ],
+
+    "erros_comuns": [
+      "Não separar corretamente as variáveis",
+      "Esquecer de integrar ambos os lados",
+      "Perder a constante de integração",
+      "Errar integrais básicas",
+      "Não aplicar condição inicial corretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma equação separável permite:",
+      "alternativas": [
+        "Derivar diretamente",
+        "Separar x e y em lados diferentes",
+        "Eliminar variáveis",
+        "Resolver por matriz"
+      ],
+      "resposta": "Separar x e y em lados diferentes",
+      "explicacao": "Essa é a ideia central do método."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Após separar as variáveis, o próximo passo é:",
+      "alternativas": [
+        "Derivar",
+        "Somar",
+        "Integrar",
+        "Multiplicar"
+      ],
+      "resposta": "Integrar",
+      "explicacao": "Integramos ambos os lados."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A solução de dy/dx = x y envolve:",
+      "alternativas": [
+        "Logaritmo",
+        "Exponencial",
+        "Raiz",
+        "Seno"
+      ],
+      "resposta": "Exponencial",
+      "explicacao": "A solução é do tipo y = Ce^(x²/2)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A constante C aparece:",
+      "alternativas": [
+        "Antes da integração",
+        "Durante a derivação",
+        "Após integrar",
+        "Nunca aparece"
+      ],
+      "resposta": "Após integrar",
+      "explicacao": "Ela surge da integração."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação dy/dx = y² tem solução geral:",
+      "alternativas": [
+        "y = Ce^x",
+        "y = 1/(C - x)",
+        "y = x² + C",
+        "y = ln x"
+      ],
+      "resposta": "y = 1/(C - x)",
+      "explicacao": "Resolvendo, obtemos -1/y = x + C."
+    }
+  ]
+}
