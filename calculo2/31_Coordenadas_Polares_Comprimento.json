@@ -1,0 +1,104 @@
+{
+  "id": "comprimento_curva_polar",
+  "disciplina": "Cálculo II",
+  "assunto": "Coordenadas Polares — Comprimento de Curva",
+  "ordem": 31,
+
+  "teoria": {
+    "resumo": "O comprimento de uma curva em coordenadas polares é calculado usando uma integral que envolve o raio e sua derivada.",
+
+    "explicacao": "Em coordenadas polares, uma curva é dada por:\n\nr = f(θ)\n\n---\n\nIDEIA PRINCIPAL:\n\nO comprimento da curva depende tanto do valor de r quanto de como ele varia com θ.\n\n---\n\nFÓRMULA:\n\nL = ∫ √[r² + (dr/dθ)²] dθ\n\n---\n\nINTERPRETAÇÃO:\n\nA expressão dentro da raiz representa a variação total da curva (distância radial + variação angular).\n\n---\n\nEXEMPLO 1:\n\nr = 1, de 0 a 2π\n\nDerivada:\n\ndr/dθ = 0\n\nComprimento:\n\nL = ∫₀²π √(1² + 0) dθ\n\n= ∫₀²π 1 dθ\n\n= 2π\n\n👉 Circunferência de raio 1\n\n---\n\nEXEMPLO 2:\n\nr = θ, de 0 a 1\n\nDerivada:\n\ndr/dθ = 1\n\nL = ∫₀¹ √(θ² + 1) dθ\n\n👉 Integral que pode exigir substituição\n\n---\n\nEXEMPLO 3:\n\nr = 2 cos(θ), de -π/2 a π/2\n\nDerivada:\n\ndr/dθ = -2 sen(θ)\n\nL = ∫ √[(2cosθ)² + (-2senθ)²] dθ\n\n= ∫ √[4(cos²θ + sen²θ)] dθ\n\n= ∫ 2 dθ\n\n👉 Comprimento simples após simplificação\n\n---\n\nPASSO A PASSO:\n\n1) Calcular dr/dθ\n\n2) Substituir na fórmula\n\n3) Simplificar a expressão\n\n4) Resolver a integral\n\n---\n\nCASOS IMPORTANTES:\n\n✔ r constante → círculo\n✔ Pode simplificar usando identidades trigonométricas\n✔ Nem sempre tem solução elementar\n\n---\n\nQUANDO USAR:\n\n✔ Curvas em coordenadas polares\n✔ Espirais\n✔ Problemas com simetria radial\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre eleve ao quadrado corretamente\n✔ Use cos² + sen² = 1\n✔ Simplifique antes de integrar\n✔ Verifique limites de θ\n\n---\n\nIDEIA CENTRAL:\n\nO comprimento depende da distância ao centro e da variação do raio ao longo do ângulo.",
+
+    "intuicao": "A curva cresce não só porque gira, mas também porque se afasta ou se aproxima da origem.",
+
+    "analogia": "É como caminhar em espiral: você anda ao redor e também se afasta do centro, aumentando o percurso.",
+
+    "aplicacoes": [
+      "Cálculo de trajetórias em espiral",
+      "Movimentos circulares e radiais",
+      "Engenharia e física",
+      "Modelagem de curvas naturais"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de calcular dr/dθ",
+      "Errar os quadrados na fórmula",
+      "Não simplificar usando identidades trigonométricas",
+      "Usar limites incorretos",
+      "Confundir com fórmula cartesiana"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O comprimento em polares usa:",
+      "alternativas": [
+        "r apenas",
+        "r² + (dr/dθ)²",
+        "√[r² + (dr/dθ)²]",
+        "dr/dθ apenas"
+      ],
+      "resposta": "√[r² + (dr/dθ)²]",
+      "explicacao": "Essa é a expressão dentro da integral."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para r = constante, o comprimento é:",
+      "alternativas": [
+        "Zero",
+        "Uma reta",
+        "Um círculo",
+        "Uma parábola"
+      ],
+      "resposta": "Um círculo",
+      "explicacao": "Raio constante define uma circunferência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dr/dθ = 0, a expressão da raiz fica:",
+      "alternativas": [
+        "0",
+        "r",
+        "r²",
+        "1"
+      ],
+      "resposta": "r",
+      "explicacao": "√(r²) = r."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para r = θ, a expressão dentro da raiz é:",
+      "alternativas": [
+        "θ",
+        "θ²",
+        "θ² + 1",
+        "1"
+      ],
+      "resposta": "θ² + 1",
+      "explicacao": "dr/dθ = 1, então θ² + 1."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A curva r = 2 cos(θ) leva a uma expressão que simplifica usando:",
+      "alternativas": [
+        "logaritmo",
+        "cos² + sen² = 1",
+        "derivada de produto",
+        "limites"
+      ],
+      "resposta": "cos² + sen² = 1",
+      "explicacao": "A soma dos quadrados simplifica a raiz."
+    }
+  ]
+}
