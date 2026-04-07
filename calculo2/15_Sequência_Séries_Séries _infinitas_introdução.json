@@ -1,0 +1,104 @@
+{
+  "id": "series_infinitas_introducao",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Introdução",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "Uma série infinita é a soma dos termos de uma sequência, podendo convergir para um valor finito ou divergir.",
+
+    "explicacao": "Uma série infinita é a soma de uma sequência:\n\n∑ aₙ = a₁ + a₂ + a₃ + ...\n\n---\n\nSOMA PARCIAL:\n\nPara entender uma série, analisamos a soma dos primeiros termos:\n\nSₙ = a₁ + a₂ + ... + aₙ\n\n---\n\nIDEIA PRINCIPAL:\n\nA série converge se a sequência das somas parciais converge.\n\nOu seja:\n\nlim (n → ∞) Sₙ = L\n\nSe L existe → série converge\nSe não existe → diverge\n\n---\n\nEXEMPLO 1:\n\n∑ (1/2)ⁿ\n\nSérie geométrica com razão r = 1/2\n\nSoma:\n\nS = 1 / (1 - 1/2) = 2\n\n👉 Converge\n\n---\n\nEXEMPLO 2:\n\n∑ 1/n\n\nSoma cresce sem limite\n\n👉 Diverge\n\n---\n\nCONDIÇÃO NECESSÁRIA:\n\nSe lim (n → ∞) aₙ ≠ 0\n\n👉 A série diverge\n\nIMPORTANTE:\n\nSe lim aₙ = 0\n\n👉 Não garante convergência\n\n---\n\nIDEIA CENTRAL:\n\nSequência → termos\nSérie → soma dos termos\n\n---\n\nDICAS:\n\n✔ Sempre verifique o limite de aₙ\n✔ Analise o comportamento da soma\n✔ Reconheça padrões (geométrica, harmônica)",
+
+    "intuicao": "Uma série soma infinitos termos e pode resultar em um valor finito.",
+
+    "analogia": "É como somar pedaços cada vez menores — às vezes o total para em um valor, às vezes cresce sem parar.",
+
+    "aplicacoes": [
+      "Modelagem matemática",
+      "Física (séries de aproximação)",
+      "Engenharia",
+      "Cálculo avançado"
+    ],
+
+    "erros_comuns": [
+      "Confundir sequência com série",
+      "Achar que todo limite zero implica convergência",
+      "Não analisar soma parcial",
+      "Ignorar divergência da série harmônica",
+      "Aplicar fórmulas sem verificar condições"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é uma série infinita?",
+      "alternativas": [
+        "Uma derivada",
+        "Uma soma de termos de uma sequência",
+        "Um limite",
+        "Um gráfico"
+      ],
+      "resposta": "Uma soma de termos de uma sequência",
+      "explicacao": "Série é a soma dos termos da sequência."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma série converge?",
+      "alternativas": [
+        "Quando a soma cresce",
+        "Quando o limite das somas parciais existe",
+        "Quando os termos aumentam",
+        "Nunca"
+      ],
+      "resposta": "Quando o limite das somas parciais existe",
+      "explicacao": "Convergência depende da soma parcial."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se lim aₙ ≠ 0, a série:",
+      "alternativas": [
+        "Converge",
+        "Diverge",
+        "É constante",
+        "É zero"
+      ],
+      "resposta": "Diverge",
+      "explicacao": "Essa é uma condição necessária."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ (1/2)ⁿ é:",
+      "alternativas": [
+        "Divergente",
+        "Convergente",
+        "Oscilante",
+        "Indefinida"
+      ],
+      "resposta": "Convergente",
+      "explicacao": "É uma série geométrica com razão menor que 1."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/n é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Zero",
+        "Constante"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "É a série harmônica, que diverge."
+    }
+  ]
+}
