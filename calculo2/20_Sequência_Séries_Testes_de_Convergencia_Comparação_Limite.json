@@ -1,0 +1,104 @@
+{
+  "id": "teste_comparacao_limite",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Teste da Comparação pelo Limite",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "O teste da comparação pelo limite determina a convergência comparando o comportamento assintótico de duas séries.",
+
+    "explicacao": "O teste da comparação pelo limite é uma versão mais poderosa do teste da comparação direta.\n\nEle é usado quando não conseguimos fazer uma desigualdade facilmente.\n\n---\n\nCONDIÇÃO IMPORTANTE:\n\nAs séries devem ter termos positivos:\naₙ ≥ 0 e bₙ ≥ 0\n\n---\n\nIDEIA PRINCIPAL:\n\nComparar o comportamento de duas séries usando um limite:\n\nlim (n→∞) aₙ / bₙ = L\n\n---\n\nREGRA:\n\nSe:\n\nlim (n→∞) aₙ / bₙ = L\n\nE:\n\n0 < L < ∞\n\nEntão:\n\n👉 ∑ aₙ e ∑ bₙ têm o MESMO comportamento\n\n(ou ambas convergem ou ambas divergem)\n\n---\n\nINTERPRETAÇÃO:\n\nSe o limite é um número finito e positivo, então as séries crescem (ou decaem) na mesma velocidade.\n\n---\n\nEXEMPLO 1:\n\n∑ 1/(n² + 1)\n\nComparando com:\n\nbₙ = 1/n²\n\nlim (n→∞) (1/(n²+1)) / (1/n²)\n\n= lim n²/(n²+1)\n\n= 1\n\nComo L = 1:\n\n👉 Mesmo comportamento de ∑ 1/n² → converge\n\n---\n\nEXEMPLO 2:\n\n∑ (3n + 1)/(n² + 5)\n\nComparando com:\n\nbₙ = 1/n\n\nlim (n→∞) [(3n+1)/(n²+5)] / (1/n)\n\n= lim (3n+1)n/(n²+5)\n\n≈ 3\n\nComo L é finito e positivo:\n\n👉 Mesmo comportamento de ∑ 1/n → diverge\n\n---\n\nEXEMPLO 3:\n\n∑ (n² + 3)/(n³ + 1)\n\nComparando com:\n\nbₙ = 1/n\n\nlim (n→∞) [(n²+3)/(n³+1)] / (1/n)\n\n= lim (n³+3n)/(n³+1)\n\n= 1\n\n👉 Mesmo comportamento de ∑ 1/n → diverge\n\n---\n\nPASSO A PASSO:\n\n1) Escolher uma série de referência (geralmente 1/n^p)\n\n2) Montar o limite aₙ/bₙ\n\n3) Calcular o limite\n\n4) Aplicar a regra\n\n---\n\nCASOS IMPORTANTES:\n\n✔ Se 0 < L < ∞ → mesmo comportamento\n✔ Se L = 0 ou L = ∞ → teste inconclusivo\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Foque no termo dominante\n✔ Ignore constantes\n✔ Simplifique antes de calcular o limite\n✔ Use divisão por maior potência de n\n\n---\n\nQUANDO USAR:\n\n✔ Quando a comparação direta é difícil\n✔ Quando há polinômios ou raízes\n\n---\n\nIDEIA CENTRAL:\n\nSe duas séries são \"proporcionalmente iguais\" no infinito, elas têm o mesmo comportamento.",
+
+    "intuicao": "Se duas expressões crescem na mesma velocidade, elas terão o mesmo destino: ambas convergem ou ambas divergem.",
+
+    "analogia": "É como comparar duas corridas: se dois corredores mantêm a mesma proporção de velocidade, eles chegam juntos ao mesmo resultado.",
+
+    "aplicacoes": [
+      "Determinar convergência de séries complexas",
+      "Comparar funções assintoticamente",
+      "Base para análise matemática avançada",
+      "Engenharia e modelagem de sistemas"
+    ],
+
+    "erros_comuns": [
+      "Não verificar se os termos são positivos",
+      "Escolher uma série de comparação inadequada",
+      "Errar o cálculo do limite",
+      "Concluir algo quando L = 0 ou infinito",
+      "Não simplificar a expressão antes do limite"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O teste da comparação pelo limite usa:",
+      "alternativas": [
+        "Derivadas",
+        "Limite de uma razão entre termos",
+        "Integrais",
+        "Logaritmos"
+      ],
+      "resposta": "Limite de uma razão entre termos",
+      "explicacao": "O teste calcula o limite de aₙ/bₙ quando n tende ao infinito."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se lim (aₙ/bₙ) = 2, então:",
+      "alternativas": [
+        "As séries sempre convergem",
+        "As séries sempre divergem",
+        "As séries têm o mesmo comportamento",
+        "Nada pode ser concluído"
+      ],
+      "resposta": "As séries têm o mesmo comportamento",
+      "explicacao": "Como o limite é positivo e finito, as duas séries têm o mesmo comportamento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/(n² + 3) comparada com 1/n² tem limite igual a:",
+      "alternativas": [
+        "0",
+        "1",
+        "∞",
+        "3"
+      ],
+      "resposta": "1",
+      "explicacao": "Dividindo, temos n²/(n²+3) → 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se lim (aₙ/bₙ) = 0, o teste da comparação pelo limite:",
+      "alternativas": [
+        "Garante convergência",
+        "Garante divergência",
+        "É inconclusivo",
+        "Sempre funciona"
+      ],
+      "resposta": "É inconclusivo",
+      "explicacao": "Quando o limite é 0, o teste não permite concluir diretamente."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ (2n² + 1)/(n³ + 4) é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Oscilante",
+        "Constante"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "Comparando com 1/n, o limite é finito e positivo. Como ∑ 1/n diverge, a série também diverge."
+    }
+  ]
+}
