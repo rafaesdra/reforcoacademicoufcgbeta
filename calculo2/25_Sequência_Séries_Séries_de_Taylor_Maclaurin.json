@@ -1,0 +1,104 @@
+{
+  "id": "series_taylor_maclaurin",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries de Taylor e Maclaurin",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "As séries de Taylor e Maclaurin representam funções como somas infinitas usando derivadas.",
+
+    "explicacao": "As séries de Taylor permitem representar uma função como uma soma infinita baseada em suas derivadas.\n\n---\n\nIDEIA PRINCIPAL:\n\nAproximar funções por polinômios infinitos.\n\n---\n\nSÉRIE DE TAYLOR:\n\nUma função f(x) pode ser escrita como:\n\n∑ [f⁽ⁿ⁾(a) / n!] (x - a)ⁿ\n\nonde:\n\n✔ f⁽ⁿ⁾(a) é a n-ésima derivada\n✔ a é o ponto central\n\n---\n\nSÉRIE DE MACLAURIN:\n\nÉ um caso especial de Taylor com a = 0:\n\n∑ [f⁽ⁿ⁾(0) / n!] xⁿ\n\n---\n\nEXEMPLO 1:\n\nf(x) = eˣ\n\nSérie de Maclaurin:\n\n∑ xⁿ / n!\n\n---\n\nEXEMPLO 2:\n\nf(x) = sen x\n\nx - x³/3! + x⁵/5! - ...\n\n---\n\nEXEMPLO 3:\n\nf(x) = cos x\n\n1 - x²/2! + x⁴/4! - ...\n\n---\n\nEXEMPLO 4:\n\nf(x) = 1/(1 - x)\n\n∑ xⁿ, para |x| < 1\n\n---\n\nPASSO A PASSO:\n\n1) Escolher a função\n\n2) Calcular derivadas sucessivas\n\n3) Avaliar em x = a\n\n4) Substituir na fórmula\n\n---\n\nPOLINÔMIO DE TAYLOR:\n\nUsamos apenas os primeiros termos para aproximar:\n\nf(x) ≈ soma finita\n\n---\n\nAPROXIMAÇÃO:\n\nQuanto mais termos, melhor a aproximação.\n\n---\n\nCASOS IMPORTANTES:\n\n✔ eˣ → ∑ xⁿ/n!\n✔ sen x → alternada\n✔ cos x → alternada\n✔ 1/(1-x) → geométrica\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Memorize séries clássicas\n✔ Observe padrões de derivadas\n✔ Use fatoriais corretamente\n✔ Preste atenção nos sinais\n\n---\n\nIDEIA CENTRAL:\n\nFunções complicadas podem ser escritas como somas de termos simples.",
+
+    "intuicao": "Você aproxima uma função curva usando polinômios, que são mais fáceis de trabalhar.",
+
+    "analogia": "É como aproximar um desenho complexo usando vários segmentos pequenos de reta.",
+
+    "aplicacoes": [
+      "Aproximação de funções",
+      "Cálculo numérico",
+      "Física e engenharia",
+      "Resolução de equações diferenciais"
+    ],
+
+    "erros_comuns": [
+      "Errar derivadas",
+      "Esquecer o fatorial",
+      "Confundir Taylor com Maclaurin",
+      "Errar os sinais das séries",
+      "Usar poucos termos na aproximação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série de Maclaurin é um caso especial de:",
+      "alternativas": [
+        "Série geométrica",
+        "Série harmônica",
+        "Série de Taylor",
+        "Série p"
+      ],
+      "resposta": "Série de Taylor",
+      "explicacao": "Maclaurin é Taylor com a = 0."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série de eˣ é:",
+      "alternativas": [
+        "∑ xⁿ",
+        "∑ xⁿ/n!",
+        "∑ 1/n",
+        "∑ nⁿ"
+      ],
+      "resposta": "∑ xⁿ/n!",
+      "explicacao": "Essa é a série clássica de eˣ."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série de sen x começa com:",
+      "alternativas": [
+        "1 + x",
+        "x - x³/3!",
+        "x² + x³",
+        "1 - x²"
+      ],
+      "resposta": "x - x³/3!",
+      "explicacao": "A série de sen x é alternada e começa assim."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O polinômio de Taylor é:",
+      "alternativas": [
+        "A série infinita completa",
+        "Uma soma finita de termos",
+        "Uma integral",
+        "Uma derivada"
+      ],
+      "resposta": "Uma soma finita de termos",
+      "explicacao": "Usamos apenas alguns termos para aproximar."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série de 1/(1-x) converge quando:",
+      "alternativas": [
+        "|x| > 1",
+        "|x| < 1",
+        "x = 1",
+        "Para todo x"
+      ],
+      "resposta": "|x| < 1",
+      "explicacao": "É uma série geométrica com razão x."
+    }
+  ]
+}
