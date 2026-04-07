@@ -1,0 +1,104 @@
+{
+  "id": "integracao_por_partes",
+  "disciplina": "Cálculo II",
+  "assunto": "Técnicas de Integração — Integração por Partes",
+  "ordem": 2,
+
+  "teoria": {
+    "resumo": "A integração por partes é usada para integrar o produto de duas funções, baseada na regra do produto da derivada.",
+
+    "explicacao": "A técnica de integração por partes vem da regra do produto da derivada:\n\n(d/dx)[u·v] = u'·v + u·v'\n\nReorganizando:\n\n∫ u dv = u·v - ∫ v du\n\nEssa é a fórmula da integração por partes.\n\nPassos:\n\n1) Escolher u (função que será derivada)\n2) Escolher dv (função que será integrada)\n3) Calcular du e v\n4) Aplicar a fórmula\n\nExemplo:\n\n∫ x·e^x dx\n\nPasso 1:\nu = x → du = dx\n\ndv = e^x dx → v = e^x\n\nPasso 2: aplicar a fórmula\n\n∫ x·e^x dx = x·e^x - ∫ e^x dx\n\nPasso 3: resolver\n\n= x·e^x - e^x + C\n\nResultado final:\n\n= e^x(x - 1) + C\n\nDica importante (LIATE):\n\nPrioridade para escolher u:\n\nL → Logarítmica\nI → Inversa trigonométrica\nA → Algébrica (x, x²...)\nT → Trigonométrica\nE → Exponencial",
+
+    "intuicao": "Integração por partes transforma um produto complicado em uma nova integral mais simples.",
+
+    "analogia": "É como dividir um trabalho difícil entre duas partes: uma você simplifica (derivando) e a outra resolve depois.",
+
+    "aplicacoes": [
+      "Integrais envolvendo produtos de funções",
+      "Funções com logaritmos",
+      "Funções polinomiais com exponenciais ou trigonométricas",
+      "Problemas de física e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Escolher mal quem é u e dv",
+      "Esquecer o sinal negativo na fórmula",
+      "Errar a derivada ou integral",
+      "Não simplificar a nova integral",
+      "Esquecer a constante de integração"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da integração por partes?",
+      "alternativas": [
+        "∫ u dv = uv + ∫ v du",
+        "∫ u dv = uv - ∫ v du",
+        "∫ u dv = u + v",
+        "∫ u dv = du·dv"
+      ],
+      "resposta": "∫ u dv = uv - ∫ v du",
+      "explicacao": "Essa fórmula vem da regra do produto da derivada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na integração por partes, o que acontece com u?",
+      "alternativas": [
+        "É integrado",
+        "É derivado",
+        "É eliminado",
+        "É constante"
+      ],
+      "resposta": "É derivado",
+      "explicacao": "u é escolhido para ser derivado, gerando du."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual escolha é melhor para u em ∫ x·ln(x) dx?",
+      "alternativas": [
+        "u = x",
+        "u = ln(x)",
+        "u = x²",
+        "u = 1"
+      ],
+      "resposta": "u = ln(x)",
+      "explicacao": "Pela regra LIATE, logaritmos têm prioridade para serem u."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de ∫ x·e^x dx?",
+      "alternativas": [
+        "e^x(x - 1) + C",
+        "x·e^x + C",
+        "e^x + C",
+        "x²·e^x + C"
+      ],
+      "resposta": "e^x(x - 1) + C",
+      "explicacao": "Aplicando integração por partes com u = x e dv = e^x dx."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a nova integral ainda é complicada após aplicar partes, o que fazer?",
+      "alternativas": [
+        "Parar",
+        "Aplicar integração por partes novamente",
+        "Derivar tudo",
+        "Substituir x por 1"
+      ],
+      "resposta": "Aplicar integração por partes novamente",
+      "explicacao": "Às vezes é necessário aplicar a técnica mais de uma vez."
+    }
+  ]
+}
