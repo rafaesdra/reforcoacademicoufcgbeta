@@ -1,0 +1,104 @@
+{
+  "id": "metodo_cascas_cilindricas",
+  "disciplina": "Cálculo II",
+  "assunto": "Volume de Sólidos — Método das Cascas Cilíndricas",
+  "ordem": 12,
+
+  "teoria": {
+    "resumo": "O método das cascas cilíndricas calcula volumes somando cascas finas formadas pela rotação de uma região.",
+
+    "explicacao": "O método das cascas cilíndricas é usado para calcular volumes de sólidos de revolução, especialmente quando o método dos discos não é conveniente.\n\n---\n\nFÓRMULA:\n\nV = 2π ∫[a,b] (raio · altura) dx\n\n---\n\nONDE:\n\nraio = distância até o eixo de rotação\naltura = valor da função\n\n---\n\nEXEMPLO:\n\nGirar y = x, de 0 a 1, em torno do eixo y:\n\nraio = x\naltura = x\n\nV = 2π ∫₀¹ x·x dx\n\n= 2π ∫₀¹ x² dx\n\n= 2π/3\n\n---\n\nPASSOS:\n\n1) Identificar o eixo de rotação\n\n2) Determinar o raio\n\n3) Determinar a altura\n\n4) Montar a integral\n\n5) Resolver\n\n---\n\nQUANDO USAR?\n\n✔ Quando o eixo de rotação é vertical (e funções estão em x)\n✔ Quando evita reescrever a função\n✔ Quando discos ficariam complicados\n\n---\n\nIDEIA PRINCIPAL:\n\nO sólido é formado por várias cascas cilíndricas finas.\n\n---\n\nIMPORTANTE:\n\n✔ Sempre aparece 2π\n✔ Volume depende de raio × altura\n✔ O raio depende da distância até o eixo\n✔ A escolha correta simplifica muito o problema",
+
+    "intuicao": "O volume é formado por cascas que envolvem o eixo, como camadas de um cilindro.",
+
+    "analogia": "É como enrolar várias folhas finas ao redor de um tubo, formando um sólido.",
+
+    "aplicacoes": [
+      "Cálculo de volumes complexos",
+      "Engenharia mecânica",
+      "Modelagem geométrica",
+      "Problemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir raio com altura",
+      "Esquecer o 2π",
+      "Escolher variável errada",
+      "Montar errado os limites",
+      "Não identificar corretamente o eixo de rotação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do método das cascas cilíndricas?",
+      "alternativas": [
+        "π ∫ R² dx",
+        "π ∫ (R² - r²) dx",
+        "2π ∫ (raio · altura) dx",
+        "∫ f(x) dx"
+      ],
+      "resposta": "2π ∫ (raio · altura) dx",
+      "explicacao": "Essa é a fórmula padrão das cascas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa o raio?",
+      "alternativas": [
+        "Altura",
+        "Derivada",
+        "Distância até o eixo de rotação",
+        "Área"
+      ],
+      "resposta": "Distância até o eixo de rotação",
+      "explicacao": "O raio depende da posição em relação ao eixo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No método das cascas, o volume depende de:",
+      "alternativas": [
+        "Raio e altura",
+        "Área e volume",
+        "Derivada",
+        "Limite"
+      ],
+      "resposta": "Raio e altura",
+      "explicacao": "A fórmula envolve o produto raio × altura."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume ao girar y = x de 0 a 1 em torno do eixo y?",
+      "alternativas": [
+        "π/3",
+        "2π/3",
+        "π",
+        "2π"
+      ],
+      "resposta": "2π/3",
+      "explicacao": "V = 2π ∫₀¹ x² dx = 2π/3."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o método das cascas é preferível?",
+      "alternativas": [
+        "Quando complica a conta",
+        "Quando evita mudar a variável",
+        "Quando não há função",
+        "Nunca"
+      ],
+      "resposta": "Quando evita mudar a variável",
+      "explicacao": "Ele simplifica o problema em muitos casos."
+    }
+  ]
+}
