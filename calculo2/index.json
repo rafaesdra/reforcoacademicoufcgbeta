@@ -6,5 +6,14 @@
     {"titulo": "Técnicas de integração - Frações Parciais", "path": "03_Técnicas_de_Integração_Frações_Parciais.json"},
     {"titulo": "Técnicas de integração - Integrais Trigonométricas", "path": "04_Técnicas_de_Integração_Integrais_Trigonométricas.json"},
     {"titulo": "Técnicas de integração - Guia: como escolher a técnica certa", "path": "05_Técnicas_de_Integração_Guia.json"}
+    {"titulo": "Técnicas de integração - Integrais Impróprias", "path": "06_Técnicas_de_Integração_Integrais_Impróprias.json"}
+    {"titulo": "Aplicações de Integrais - Área entre Curvas", "path": "07_Aplicações_de_Integrais_Area_entre_curvas.json"}
+    {"titulo": "Aplicações de Integrais - Volume de Sólidos", "path": "08_Aplicações_de_Integrais_Volume_de_Sólidos.json"}
+    {"titulo": "Aplicações de Integrais - Comprimento de Arco", "path": "09_Aplicações_de_Integrais_Comprimento_de_Arco.json"}
+    {"titulo": "Aplicações de Integrais - Área da Superfície de Revolução", "path": "10_Aplicações_de_Integrais_Area_Superfície_Revolução.json"}
+    {"titulo": "Aplicações de Integrais - Método Discos e Anéis ", "path": "11_Aplicações_de_Integrais_Metodo_discos_aneis.json"}
+    {"titulo": "Aplicações de Integrais - Método Cascas Cilíndricas", "path": "12_Aplicações_de_Integrais_Metodo_Cascas_cilindricas.json"}
+    {"titulo": "Aplicações de Integrais - Discos VS Cascas: quando usar cada um", "path": "13_Aplicações_de_Integrais_Discos_VS_Cascas.json"}
+    
   ]
 }
