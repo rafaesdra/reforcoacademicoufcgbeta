@@ -14,6 +14,19 @@
     {"titulo": "Aplicações de Integrais - Método Discos e Anéis ", "path": "11_Aplicações_de_Integrais_Metodo_discos_aneis.json"}
     {"titulo": "Aplicações de Integrais - Método Cascas Cilíndricas", "path": "12_Aplicações_de_Integrais_Metodo_Cascas_cilindricas.json"}
     {"titulo": "Aplicações de Integrais - Discos VS Cascas: quando usar cada um", "path": "13_Aplicações_de_Integrais_Discos_VS_Cascas.json"}
+    {"titulo": "Sequências e Séries - Sequências Numéricas", "path": "14_Sequência_Séries_Sequências_Numéricas.json"}
+    {"titulo": "Sequências e Séries - Séries Infinitas", "path": "15_Séries_Infinitas_introdução.json"}
+    {"titulo": "Séries Infinitas - Séries Geométricas", "path": "16_Séries_Infinitas_Geométricas.json"}
+    {"titulo": "Séries Infinitas - Séries Harmônicas", "path": "17_Séries_Infinitas_Harmônicas.json"}
+    {"titulo": "Séries Infinitas - Séries P (Generalização das Harmônicas)", "path": "18_Séries_Infinitas_P_Harmônicas_Generalização.json"}
+    {"titulo": "Sequências e Séries - Testes de Covergência - Comparação", "path": "19_Sequência_Séries_Testes_de_Convergencia_Comparação.json"}
+    {"titulo": "Sequências e Séries - Testes de Covergência - Comparação Limite", "path": "20_Sequência_Séries_Testes_de_Convergencia_Comparação_Limite.json"}
+    {"titulo": "Sequências e Séries - Testes da Razão", "path": "21_Sequência_Séries_Testes_da_Razão.json"}
+    {"titulo": "Sequências e Séries - Testes da Raiz", "path": "22_Sequência_Séries_Testes_da_Raiz.json"}
+    {"titulo": "Sequências e Séries - Testes da Integral", "path": "23_Sequência_Séries_Testes_da_Integral.json"}
+    {"titulo": "Sequências e Séries - Séries da Potência", "path": "24_Sequência_Séries_Séries_da_Potência.json"}
+    {"titulo": "Sequências e Séries - Séries de Taylor e Maclaurin", "path": "25_Sequência_Séries_Séries_de_Taylor_Maclaurin.json"}
+    
     
   ]
 }
