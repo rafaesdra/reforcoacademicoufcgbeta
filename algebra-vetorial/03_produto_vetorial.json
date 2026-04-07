@@ -1,0 +1,49 @@
+{
+  "assunto": "Produto Vetorial",
+  "resumo": {
+    "definicao": "O produto vetorial é uma operação entre dois vetores que resulta em um novo vetor perpendicular aos vetores originais.",
+    "formula_determinante": "u x v = | i  j  k ; x1 y1 z1 ; x2 y2 z2 |",
+    "formula_coordenadas": "(y1*z2 - z1*y2, -(x1*z2 - z1*x2), x1*y2 - y1*x2)",
+    "interpretacao_geometrica": "O vetor resultante é perpendicular aos dois vetores e seu módulo representa a área do paralelogramo formado por eles.",
+    "modulo": "|u x v| = |u| * |v| * sen(theta)",
+    "regra_mao_direita": "Define o sentido do vetor resultante.",
+    "condicao_paralelismo": "u x v = 0 implica vetores paralelos ou nulo.",
+    "propriedades": {
+      "anticomutativa": "u x v = - (v x u)",
+      "distributiva": "u x (v + w) = u x v + u x w",
+      "escalar": "(k*u) x v = k*(u x v)"
+    },
+    "vetores_base": {
+      "i x j": "k",
+      "j x k": "i",
+      "k x i": "j"
+    },
+    "areas": {
+      "paralelogramo": "|u x v|",
+      "triangulo": "0.5 * |u x v|"
+    },
+    "aplicacoes": "Torque, momento angular e física em geral."
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Calcule o produto vetorial entre u = (1, 0, 0) e v = (0, 1, 0)."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Determine u x v, sendo u = (2, 3, 0) e v = (1, 0, 4)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Calcule um vetor perpendicular aos vetores u = (1, 2, 3) e v = (4, 5, 6)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine a área do paralelogramo formado pelos vetores u = (1, 0, 2) e v = (2, 1, 1)."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Considere os vetores u = (1, 2, 1) e v = (2, -1, 3): calcule o produto vetorial, determine a área do triângulo formado e verifique se o vetor resultante é perpendicular a u e v."
+    }
+  ]
+}
