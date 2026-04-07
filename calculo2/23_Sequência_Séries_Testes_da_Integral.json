@@ -1,0 +1,104 @@
+{
+  "id": "teste_integral",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Teste da Integral",
+  "ordem": 23,
+
+  "teoria": {
+    "resumo": "O teste da integral determina a convergência comparando uma série com uma integral imprópria associada.",
+
+    "explicacao": "O teste da integral relaciona séries infinitas com integrais impróprias.\n\n---\n\nIDEIA PRINCIPAL:\n\nSe uma função f(x) é positiva, contínua e decrescente, então a série e a integral associada têm o mesmo comportamento.\n\n---\n\nCONDIÇÕES:\n\nA função f(x) deve ser:\n\n✔ Positiva\n✔ Contínua\n✔ Decrescente\n\nE:\n\naₙ = f(n)\n\n---\n\nREGRA:\n\nSeja:\n\n∑ aₙ  e  ∫₁^∞ f(x) dx\n\nEntão:\n\n✔ Se a integral converge → a série converge\n\n✔ Se a integral diverge → a série diverge\n\n---\n\nINTERPRETAÇÃO:\n\nA série pode ser vista como uma soma de retângulos, enquanto a integral representa a área sob a curva.\n\n---\n\nEXEMPLO 1:\n\n∑ 1/n²\n\nf(x) = 1/x²\n\n∫₁^∞ 1/x² dx = 1\n\n👉 Converge\n\n---\n\nEXEMPLO 2:\n\n∑ 1/n\n\nf(x) = 1/x\n\n∫₁^∞ 1/x dx = ∞\n\n👉 Diverge\n\n---\n\nEXEMPLO 3:\n\n∑ 1/(n ln n)\n\nf(x) = 1/(x ln x)\n\n∫ 1/(x ln x) dx = ln(ln x)\n\n∫₂^∞ 1/(x ln x) dx = ∞\n\n👉 Diverge\n\n---\n\nPASSO A PASSO:\n\n1) Definir f(x) correspondente a aₙ\n\n2) Verificar se é positiva, contínua e decrescente\n\n3) Calcular a integral imprópria\n\n4) Concluir sobre a série\n\n---\n\nQUANDO USAR:\n\n✔ Séries com 1/n^p\n✔ Séries com logaritmos\n✔ Quando há função fácil de integrar\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre verifique as condições\n✔ Escolha corretamente o intervalo (geralmente começa em n ≥ 1 ou 2)\n✔ Use substituições na integral se necessário\n✔ Compare com integrais conhecidas\n\n---\n\nCASOS IMPORTANTES:\n\n✔ ∫ 1/x^p dx converge se p > 1\n✔ ∫ 1/x dx diverge\n✔ ∫ 1/(x ln x) dx diverge\n\n---\n\nIDEIA CENTRAL:\n\nSe a área sob a curva é finita, a série também será; se for infinita, a série diverge.",
+
+    "intuicao": "A série soma valores discretos, enquanto a integral mede uma área contínua; se a área é finita, a soma também será.",
+
+    "analogia": "É como aproximar uma área com blocos: se a área total é finita, a soma dos blocos também será finita.",
+
+    "aplicacoes": [
+      "Análise de séries do tipo 1/n^p",
+      "Estudo de séries com logaritmos",
+      "Aproximação de somas por integrais",
+      "Aplicações em física e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Não verificar se a função é decrescente",
+      "Aplicar o teste sem garantir continuidade",
+      "Calcular a integral incorretamente",
+      "Escolher limites errados",
+      "Concluir sem verificar as condições"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O teste da integral relaciona uma série com:",
+      "alternativas": [
+        "Uma derivada",
+        "Uma equação diferencial",
+        "Uma integral imprópria",
+        "Um limite simples"
+      ],
+      "resposta": "Uma integral imprópria",
+      "explicacao": "O teste compara a série com uma integral associada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para aplicar o teste da integral, a função deve ser:",
+      "alternativas": [
+        "Oscilante",
+        "Positiva, contínua e decrescente",
+        "Apenas contínua",
+        "Apenas positiva"
+      ],
+      "resposta": "Positiva, contínua e decrescente",
+      "explicacao": "Essas são as condições necessárias para o teste."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/n² é:",
+      "alternativas": [
+        "Divergente",
+        "Convergente",
+        "Oscilante",
+        "Indefinida"
+      ],
+      "resposta": "Convergente",
+      "explicacao": "A integral de 1/x² converge."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/(n ln n) é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Constante",
+        "Oscilante"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "A integral correspondente diverge."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/(n (ln n)²) é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Oscilante",
+        "Indefinida"
+      ],
+      "resposta": "Convergente",
+      "explicacao": "A integral ∫ 1/(x (ln x)²) dx converge."
+    }
+  ]
+}
