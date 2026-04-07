@@ -1,0 +1,104 @@
+{
+  "id": "serie_harmonica",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Série Harmônica",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "A série harmônica é a soma dos inversos dos números naturais e, apesar dos termos tenderem a zero, ela diverge.",
+
+    "explicacao": "A série harmônica é definida por:\n\n∑ 1/n = 1 + 1/2 + 1/3 + 1/4 + ...\n\n---\n\nCOMPORTAMENTO:\n\nOs termos:\n\n1, 1/2, 1/3, 1/4, ... → tendem a 0\n\nMas a soma cresce sem limite.\n\n👉 A série diverge.\n\n---\n\nPOR QUE ISSO ACONTECE?\n\nMesmo que os termos fiquem pequenos, eles diminuem muito lentamente.\n\nExemplo de agrupamento:\n\n(1) + (1/2) + (1/3 + 1/4) + (1/5 + ... + 1/8) + ...\n\nCada grupo soma pelo menos 1/2\n\n👉 A soma cresce indefinidamente.\n\n---\n\nIDEIA IMPORTANTE:\n\nSe lim (n → ∞) aₙ = 0\n\n👉 NÃO garante que a série converge\n\nA série harmônica é o principal exemplo disso.\n\n---\n\nCOMPARAÇÃO:\n\n∑ 1/n² → converge\n\n∑ 1/n → diverge\n\n👉 Pequena diferença no expoente muda tudo\n\n---\n\nIDEIA PRINCIPAL:\n\nTermos pequenos não garantem soma finita.\n\n---\n\nDICAS:\n\n✔ Use como referência em testes de comparação\n✔ Muito importante para provas\n✔ Base para entender séries p",
+
+    "intuicao": "Mesmo somando valores pequenos, a soma pode crescer sem parar.",
+
+    "analogia": "É como adicionar pequenas quantias infinitamente — mesmo sendo pequenas, o total pode ficar enorme.",
+
+    "aplicacoes": [
+      "Base para testes de convergência",
+      "Matemática teórica",
+      "Análise de algoritmos",
+      "Física e modelagem"
+    ],
+
+    "erros_comuns": [
+      "Achar que converge porque os termos vão a zero",
+      "Confundir com série geométrica",
+      "Ignorar crescimento lento",
+      "Não usar comparação",
+      "Aplicar testes incorretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma da série harmônica?",
+      "alternativas": [
+        "∑ n",
+        "∑ 1/n",
+        "∑ n²",
+        "∑ 1/n²"
+      ],
+      "resposta": "∑ 1/n",
+      "explicacao": "Essa é a definição da série harmônica."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série harmônica converge?",
+      "alternativas": [
+        "Sim",
+        "Não",
+        "Às vezes",
+        "Depende"
+      ],
+      "resposta": "Não",
+      "explicacao": "Ela diverge, mesmo com termos tendendo a zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se lim aₙ = 0, a série:",
+      "alternativas": [
+        "Sempre converge",
+        "Sempre diverge",
+        "Pode convergir ou divergir",
+        "É zero"
+      ],
+      "resposta": "Pode convergir ou divergir",
+      "explicacao": "A série harmônica mostra isso claramente."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dessas séries converge?",
+      "alternativas": [
+        "∑ 1/n",
+        "∑ 1/n²",
+        "∑ n",
+        "∑ 2ⁿ"
+      ],
+      "resposta": "∑ 1/n²",
+      "explicacao": "É uma série p com p > 1."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que a série harmônica diverge?",
+      "alternativas": [
+        "Os termos crescem",
+        "Os termos não vão a zero",
+        "Os termos diminuem lentamente",
+        "É geométrica"
+      ],
+      "resposta": "Os termos diminuem lentamente",
+      "explicacao": "A redução lenta faz a soma crescer indefinidamente."
+    }
+  ]
+}
