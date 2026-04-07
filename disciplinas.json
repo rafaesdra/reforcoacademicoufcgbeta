@@ -7,6 +7,18 @@
     {
       "nome": "Cálculo I",
       "path": "calculo1/index.json"
+    },
+    {
+      "nome": "Álgebra Vetorial",
+      "path": "algebra-vetorial/index.json"
+    },
+    {
+      "nome": "Cálculo II",
+      "path": "calculo2/index.json"
+    },
+    {
+      "nome": "Álgebra Linear",
+      "path": "algebra-linear/index.json"
     }
   ]
 }
