@@ -1,0 +1,104 @@
+{
+  "id": "teste_raiz",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Teste da Raiz (Cauchy)",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "O teste da raiz determina a convergência analisando o limite da raiz enésima dos termos da série.",
+
+    "explicacao": "O teste da raiz, também conhecido como teste de Cauchy, é muito útil para séries com termos elevados a n.\n\n---\n\nIDEIA PRINCIPAL:\n\nAnalisamos o comportamento da raiz enésima:\n\nⁿ√|aₙ|\n\n---\n\nREGRA:\n\nSeja:\n\nL = lim (n→∞) ⁿ√|aₙ|\n\nEntão:\n\n✔ Se L < 1 → a série converge\n\n✔ Se L > 1 → a série diverge\n\n✔ Se L = 1 → teste inconclusivo\n\n---\n\nINTUIÇÃO:\n\nA raiz enésima revela a \"taxa de crescimento\" do termo.\n\n---\n\nEXEMPLO 1:\n\n∑ (1/2)ⁿ\n\nⁿ√|aₙ| = 1/2\n\nlim = 1/2\n\n👉 Converge\n\n---\n\nEXEMPLO 2:\n\n∑ (3ⁿ / nⁿ)\n\nⁿ√|aₙ| = 3/n\n\nlim = 0\n\n👉 Converge\n\n---\n\nEXEMPLO 3:\n\n∑ (nⁿ / 2ⁿ)\n\nⁿ√|aₙ| = n/2\n\nlim = ∞\n\n👉 Diverge\n\n---\n\nEXEMPLO 4:\n\n∑ (1/n)\n\nⁿ√|aₙ| = ⁿ√(1/n)\n\nlim = 1\n\n👉 Teste inconclusivo\n\n---\n\nPASSO A PASSO:\n\n1) Aplicar a raiz enésima no termo\n\n2) Simplificar a expressão\n\n3) Calcular o limite\n\n4) Aplicar a regra\n\n---\n\nQUANDO USAR:\n\n✔ Séries com termos do tipo (aₙ)ⁿ\n✔ Séries com potências envolvendo n\n✔ Quando o teste da razão fica complicado\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Use valor absoluto\n✔ ⁿ√(aⁿ) = a\n✔ Separe numerador e denominador\n✔ Simplifique antes do limite\n\n---\n\nCASOS IMPORTANTES:\n\n✔ L < 1 → converge absolutamente\n✔ L > 1 → diverge\n✔ L = 1 → use outro teste\n\n---\n\nIDEIA CENTRAL:\n\nA raiz enésima mostra o comportamento essencial do crescimento da série.",
+
+    "intuicao": "A raiz enésima 'remove' o expoente n e revela como o termo realmente cresce.",
+
+    "analogia": "É como tirar o \"efeito acumulado\" de algo repetido várias vezes e ver o crescimento real por etapa.",
+
+    "aplicacoes": [
+      "Análise de séries com potências n",
+      "Determinação de raio de convergência",
+      "Séries exponenciais",
+      "Modelagem matemática e física"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o valor absoluto",
+      "Aplicar a raiz de forma incorreta",
+      "Não simplificar antes do limite",
+      "Concluir algo quando L = 1",
+      "Confundir com o teste da razão"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O teste da raiz analisa:",
+      "alternativas": [
+        "Derivadas",
+        "A raiz enésima dos termos",
+        "A soma total",
+        "Integrais"
+      ],
+      "resposta": "A raiz enésima dos termos",
+      "explicacao": "O teste usa ⁿ√|aₙ|."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se L = 0.3 no teste da raiz, a série:",
+      "alternativas": [
+        "Diverge",
+        "Converge",
+        "Oscila",
+        "Não existe"
+      ],
+      "resposta": "Converge",
+      "explicacao": "Como L < 1, a série converge."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para a série ∑ (1/3)ⁿ, o valor de L é:",
+      "alternativas": [
+        "1",
+        "0",
+        "1/3",
+        "3"
+      ],
+      "resposta": "1/3",
+      "explicacao": "A raiz enésima de (1/3)ⁿ é 1/3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se L = 1 no teste da raiz, então:",
+      "alternativas": [
+        "A série converge",
+        "A série diverge",
+        "O teste é inconclusivo",
+        "A série é constante"
+      ],
+      "resposta": "O teste é inconclusivo",
+      "explicacao": "Quando L = 1, o teste não permite concluir."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ (n/2)ⁿ é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Oscilante",
+        "Indefinida"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "A raiz enésima resulta em n/2, que cresce para infinito, logo diverge."
+    }
+  ]
+}
