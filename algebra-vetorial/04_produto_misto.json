@@ -1,0 +1,40 @@
+{
+  "assunto": "Produto Misto",
+  "resumo": {
+    "definicao": "O produto misto entre três vetores é dado por a · (b × c).",
+    "interpretacao_geometrica": "O valor absoluto do produto misto representa o volume do paralelepípedo formado pelos três vetores.",
+    "condicoes": {
+      "coplanares": "Se o produto misto for igual a zero, os vetores são coplanares.",
+      "nao_coplanares": "Se o produto misto for diferente de zero, os vetores formam um sólido no espaço."
+    },
+    "forma_determinante": "[a, b, c] = det([[a1,a2,a3],[b1,b2,b3],[c1,c2,c3]])",
+    "propriedades": [
+      "A troca da ordem dos vetores altera o sinal do resultado.",
+      "Se dois vetores forem iguais, o produto misto será zero.",
+      "O valor absoluto representa volume.",
+      "Depende da orientação dos vetores."
+    ]
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Calcule o produto misto dos vetores a = (1,0,0), b = (0,1,0), c = (0,0,1)."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Verifique se os vetores a = (1,2,3), b = (2,4,6), c = (1,0,1) são coplanares."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Calcule o volume do paralelepípedo formado pelos vetores a = (2,1,0), b = (1,0,3), c = (0,2,1)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine o valor de k para que os vetores a = (1,2,3), b = (0,1,4), c = (2,k,1) sejam coplanares."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Sabendo que o volume do paralelepípedo formado pelos vetores a = (1,1,1), b = (2,0,1), c = (x,1,3) é igual a 5, determine os valores de x."
+    }
+  ]
+}
