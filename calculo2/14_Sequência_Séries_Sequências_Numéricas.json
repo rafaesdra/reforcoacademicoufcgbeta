@@ -1,0 +1,104 @@
+{
+  "id": "sequencias_numericas_limites",
+  "disciplina": "Cálculo II",
+  "assunto": "Sequências Numéricas — Limites",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "Uma sequência numérica é uma lista ordenada de números, e seu limite descreve o valor ao qual os termos se aproximam.",
+
+    "explicacao": "Uma sequência numérica é uma função definida nos números naturais:\n\na₁, a₂, a₃, ..., aₙ\n\nPodemos escrever como:\n\naₙ = f(n)\n\n---\n\nLIMITE DE UMA SEQUÊNCIA:\n\nQueremos saber o que acontece quando n cresce muito (n → ∞).\n\nEscrevemos:\n\nlim (n → ∞) aₙ\n\n---\n\nEXEMPLO 1:\n\naₙ = 1/n\n\nValores:\n\nn = 1 → 1\nn = 10 → 0.1\nn = 100 → 0.01\n\n👉 Os valores se aproximam de 0\n\nLogo:\n\nlim (n → ∞) 1/n = 0\n\n---\n\nEXEMPLO 2:\n\naₙ = n\n\nValores crescem sem limite\n\n👉 Não converge\n\n---\n\nSEQUÊNCIAS CONVERGENTES:\n\nQuando o limite existe e é finito\n\nExemplo:\n\n1/n → 0\n\n---\n\nSEQUÊNCIAS DIVERGENTES:\n\nQuando o limite:\n\n✔ Não existe\n✔ Vai para infinito\n\nExemplos:\n\nn → ∞\n(-1)ⁿ → oscila\n\n---\n\nIDEIA PRINCIPAL:\n\nSequências analisam comportamento a longo prazo.\n\n---\n\nDICAS:\n\n✔ Compare com funções conhecidas\n✔ Observe crescimento ou decaimento\n✔ Atenção a oscilações",
+
+    "intuicao": "O limite de uma sequência mostra para onde os termos estão indo conforme avançamos na lista.",
+
+    "analogia": "É como observar um processo ao longo do tempo para ver se ele se estabiliza ou cresce sem parar.",
+
+    "aplicacoes": [
+      "Base para séries infinitas",
+      "Modelagem matemática",
+      "Análise de algoritmos",
+      "Física e crescimento populacional"
+    ],
+
+    "erros_comuns": [
+      "Confundir sequência com função contínua",
+      "Achar que toda sequência converge",
+      "Ignorar comportamento para n grande",
+      "Não perceber oscilações",
+      "Confundir infinito com número"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é uma sequência numérica?",
+      "alternativas": [
+        "Uma integral",
+        "Uma lista ordenada de números",
+        "Uma derivada",
+        "Um gráfico"
+      ],
+      "resposta": "Uma lista ordenada de números",
+      "explicacao": "Sequência é uma lista definida por uma regra."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa lim (n → ∞) aₙ?",
+      "alternativas": [
+        "Valor inicial",
+        "Valor médio",
+        "Comportamento quando n cresce muito",
+        "Derivada"
+      ],
+      "resposta": "Comportamento quando n cresce muito",
+      "explicacao": "Analisamos o comportamento para n grande."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o limite de 1/n quando n → ∞?",
+      "alternativas": [
+        "1",
+        "0",
+        "∞",
+        "Não existe"
+      ],
+      "resposta": "0",
+      "explicacao": "Os termos ficam cada vez menores."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A sequência aₙ = n é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Constante",
+        "Periódica"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "Cresce sem limite."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A sequência (-1)ⁿ é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente (oscila)",
+        "Constante",
+        "Zero"
+      ],
+      "resposta": "Divergente (oscila)",
+      "explicacao": "Os valores alternam entre 1 e -1."
+    }
+  ]
+}
