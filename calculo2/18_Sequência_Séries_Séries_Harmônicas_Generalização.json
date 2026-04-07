@@ -1,0 +1,104 @@
+{
+  "id": "series_p",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Séries p",
+  "ordem": 18,
+
+  "teoria": {
+    "resumo": "As séries p são da forma ∑ 1/n^p e sua convergência depende do valor de p.",
+
+    "explicacao": "As séries p são definidas por:\n\n∑ 1/n^p\n\nOnde p é um número real positivo.\n\n---\n\nREGRA FUNDAMENTAL:\n\n✔ Se p > 1 → a série converge\n✔ Se p ≤ 1 → a série diverge\n\n---\n\nEXEMPLOS:\n\n1) ∑ 1/n²\n\np = 2 > 1\n\n👉 Converge\n\n---\n\n2) ∑ 1/n\n\np = 1\n\n👉 Diverge (série harmônica)\n\n---\n\n3) ∑ 1/n^(1/2)\n\np = 1/2 < 1\n\n👉 Diverge\n\n---\n\nINTERPRETAÇÃO:\n\nQuanto maior o valor de p, mais rápido os termos diminuem.\n\n👉 Isso aumenta a chance de convergência.\n\n---\n\nIDEIA PRINCIPAL:\n\nA velocidade com que os termos diminuem determina a convergência.\n\n---\n\nIMPORTANTE:\n\n✔ p = 1 é o limite crítico\n✔ Essa série é usada como referência em comparação\n✔ Muito usada em testes de convergência\n\n---\n\nDICAS:\n\n✔ Compare outras séries com séries p\n✔ Identifique rapidamente o valor de p\n✔ Memorize a regra p > 1",
+
+    "intuicao": "Quanto mais rápido os termos diminuem, maior a chance da soma ser finita.",
+
+    "analogia": "É como dividir algo em pedaços: se os pedaços ficam pequenos rápido, a soma para; se não, continua crescendo.",
+
+    "aplicacoes": [
+      "Testes de convergência",
+      "Análise matemática",
+      "Engenharia",
+      "Física"
+    ],
+
+    "erros_comuns": [
+      "Confundir com série geométrica",
+      "Esquecer o valor crítico p = 1",
+      "Aplicar regra errada",
+      "Não identificar corretamente o expoente",
+      "Achar que p pequeno ainda converge"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma de uma série p?",
+      "alternativas": [
+        "∑ n",
+        "∑ 1/n^p",
+        "∑ r^n",
+        "∑ ln(n)"
+      ],
+      "resposta": "∑ 1/n^p",
+      "explicacao": "Essa é a definição das séries p."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma série p converge?",
+      "alternativas": [
+        "p ≥ 1",
+        "p > 1",
+        "p < 1",
+        "Sempre"
+      ],
+      "resposta": "p > 1",
+      "explicacao": "Essa é a condição de convergência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/n³ é:",
+      "alternativas": [
+        "Divergente",
+        "Convergente",
+        "Zero",
+        "Indefinida"
+      ],
+      "resposta": "Convergente",
+      "explicacao": "p = 3 > 1, então converge."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 1/n^(1/2) é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Constante",
+        "Zero"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "p = 1/2 < 1, então diverge."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor crítico que separa convergência de divergência?",
+      "alternativas": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "resposta": "1",
+      "explicacao": "p = 1 é o ponto crítico."
+    }
+  ]
+}
