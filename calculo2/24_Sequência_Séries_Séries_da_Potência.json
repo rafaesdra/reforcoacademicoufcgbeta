@@ -1,0 +1,104 @@
+{
+  "id": "series_potencia",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries de Potência",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "Séries de potência são somas infinitas que representam funções em termos de potências de (x - a).",
+
+    "explicacao": "Séries de potência são séries da forma:\n\n∑ aₙ (x - a)ⁿ\n\nonde:\n\n✔ aₙ são coeficientes\n✔ a é o centro da série\n✔ x é a variável\n\n---\n\nIDEIA PRINCIPAL:\n\nUma série de potência representa uma função como uma soma infinita de potências.\n\n---\n\nFORMA GERAL:\n\n∑ aₙ (x - a)ⁿ\n\n---\n\nEXEMPLO 1:\n\n∑ xⁿ\n\nEssa é uma série geométrica:\n\n= 1 / (1 - x), para |x| < 1\n\n---\n\nEXEMPLO 2:\n\n∑ xⁿ / n\n\nRepresenta uma função mais complexa (ligada ao logaritmo).\n\n---\n\nRAIO DE CONVERGÊNCIA (R):\n\nToda série de potência converge apenas dentro de um intervalo:\n\n|x - a| < R\n\n---\n\nINTERVALO DE CONVERGÊNCIA:\n\n(a - R, a + R)\n\nOs extremos devem ser testados separadamente.\n\n---\n\nCOMO ENCONTRAR R:\n\nUsamos geralmente:\n\n✔ Teste da razão\n✔ Teste da raiz\n\n---\n\nEXEMPLO 3:\n\n∑ xⁿ / n!\n\nTeste da razão:\n\nL = lim |aₙ₊₁ / aₙ| = 0\n\n👉 Converge para todo x\n\nLogo:\n\nR = ∞\n\n---\n\nEXEMPLO 4:\n\n∑ xⁿ\n\nConverge apenas se:\n\n|x| < 1\n\nLogo:\n\nR = 1\n\n---\n\nPASSO A PASSO:\n\n1) Identificar a série\n\n2) Aplicar teste da razão ou raiz\n\n3) Encontrar R\n\n4) Determinar o intervalo\n\n5) Testar os extremos\n\n---\n\nCASOS IMPORTANTES:\n\n✔ R = ∞ → converge para todo x\n✔ R = 0 → só converge no ponto x = a\n✔ 0 < R < ∞ → intervalo limitado\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre use valor absoluto\n✔ Teste os extremos separadamente\n✔ Compare com séries conhecidas\n✔ Simplifique antes do limite\n\n---\n\nIDEIA CENTRAL:\n\nSéries de potência transformam funções em somas infinitas de termos simples.",
+
+    "intuicao": "É como construir uma função usando blocos de potências de x, somando infinitos termos.",
+
+    "analogia": "É como montar uma curva usando infinitos pedaços simples, cada um sendo uma potência de x.",
+
+    "aplicacoes": [
+      "Aproximação de funções",
+      "Resolução de equações diferenciais",
+      "Modelagem em física e engenharia",
+      "Base para séries de Taylor e Maclaurin"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de testar os extremos",
+      "Errar o cálculo do raio de convergência",
+      "Não usar valor absoluto",
+      "Confundir intervalo com raio",
+      "Aplicar teste incorretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma série de potência tem a forma:",
+      "alternativas": [
+        "∑ aₙ",
+        "∑ aₙ x",
+        "∑ aₙ (x - a)ⁿ",
+        "∑ xⁿ + n"
+      ],
+      "resposta": "∑ aₙ (x - a)ⁿ",
+      "explicacao": "Essa é a forma geral de uma série de potência."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O raio de convergência define:",
+      "alternativas": [
+        "O valor da soma",
+        "Onde a série converge",
+        "O número de termos",
+        "O tipo da função"
+      ],
+      "resposta": "Onde a série converge",
+      "explicacao": "Ele define o intervalo de convergência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se R = 2 e a = 0, o intervalo é:",
+      "alternativas": [
+        "(−2, 2)",
+        "(0, 2)",
+        "(−2, 0)",
+        "(−1, 1)"
+      ],
+      "resposta": "(−2, 2)",
+      "explicacao": "O intervalo é (a - R, a + R)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se R = ∞, então:",
+      "alternativas": [
+        "A série diverge",
+        "Converge só em x = 0",
+        "Converge para todo x",
+        "Oscila"
+      ],
+      "resposta": "Converge para todo x",
+      "explicacao": "Raio infinito indica convergência total."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ xⁿ/n! tem raio de convergência:",
+      "alternativas": [
+        "0",
+        "1",
+        "∞",
+        "2"
+      ],
+      "resposta": "∞",
+      "explicacao": "O teste da razão dá limite 0, então converge para todo x."
+    }
+  ]
+}
