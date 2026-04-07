@@ -1,0 +1,103 @@
+{
+  "id": "continuidade",
+  "disciplina": "Cálculo I",
+  "assunto": "Continuidade",
+  "ordem": 8,
+
+  "teoria": {
+    "resumo": "Uma função é contínua quando não possui 'quebras' no gráfico, ou seja, pode ser desenhada sem tirar o lápis do papel.",
+
+    "explicacao": "Uma função é contínua em um ponto x = a se três condições forem satisfeitas:\n\n1. f(a) existe\n2. lim (x → a) f(x) existe\n3. lim (x → a) f(x) = f(a)\n\nSe qualquer uma dessas falhar, a função NÃO é contínua.\n\nExemplo de função contínua:\n\nf(x) = x²\n\nEla não tem interrupções.\n\nExemplo de descontinuidade:\n\nf(x) = (x² - 1)/(x - 1)\n\nEm x = 1:\n\n→ dá 0/0 (indeterminação)\n\nMas simplificando:\n\nf(x) = x + 1\n\nEntão o limite existe, mas a função original não está definida em x = 1.\n\n👉 Isso é uma descontinuidade removível.\n\nTipos de descontinuidade:\n\n1. Removível (buraco no gráfico)\n2. Salto (limites laterais diferentes)\n3. Infinita (assíntota vertical)\n\n✔️ Continuidade é essencial para definir derivadas.",
+
+    "intuicao": "Se você consegue desenhar o gráfico sem levantar o lápis, a função é contínua.",
+
+    "dica_pratica": "Verifique sempre: existe valor? existe limite? são iguais?",
+
+    "aplicacoes": [
+      "Base para derivadas",
+      "Modelagem física contínua",
+      "Análise de sinais",
+      "Engenharia de controle"
+    ],
+
+    "erros_comuns": [
+      "Confundir limite com valor da função",
+      "Ignorar limites laterais",
+      "Achar que toda função é contínua",
+      "Não verificar as três condições"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma função contínua pode ser desenhada:",
+      "alternativas": [
+        "Com interrupções",
+        "Sem tirar o lápis do papel",
+        "Só com régua",
+        "Com pontos isolados"
+      ],
+      "resposta": "Sem tirar o lápis do papel",
+      "explicacao": "Essa é a ideia intuitiva de continuidade."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição deve ser verdadeira para continuidade?",
+      "alternativas": [
+        "limite ≠ valor da função",
+        "limite = valor da função",
+        "f(x) = 0",
+        "x = 0"
+      ],
+      "resposta": "limite = valor da função",
+      "explicacao": "Essa é a condição principal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o limite existe, mas f(a) não existe, a função é:",
+      "alternativas": [
+        "Contínua",
+        "Descontínua",
+        "Constante",
+        "Linear"
+      ],
+      "resposta": "Descontínua",
+      "explicacao": "As três condições precisam ser atendidas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se os limites laterais são diferentes, a descontinuidade é:",
+      "alternativas": [
+        "Removível",
+        "De salto",
+        "Infinita",
+        "Nenhuma"
+      ],
+      "resposta": "De salto",
+      "explicacao": "Quando há valores diferentes à esquerda e direita."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de descontinuidade ocorre quando há uma assíntota vertical?",
+      "alternativas": [
+        "Removível",
+        "De salto",
+        "Infinita",
+        "Contínua"
+      ],
+      "resposta": "Infinita",
+      "explicacao": "A função cresce sem limite próximo ao ponto."
+    }
+  ]
+}

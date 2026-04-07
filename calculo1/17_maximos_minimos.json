@@ -1,0 +1,103 @@
+{
+  "id": "maximos_minimos",
+  "disciplina": "Cálculo I",
+  "assunto": "Aplicações da Derivada — Máximos e Mínimos",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "Máximos e mínimos são pontos onde a função atinge valores extremos, identificados através da derivada.",
+
+    "explicacao": "Máximos e mínimos são valores extremos de uma função.\n\n✔️ Tipos:\n\n- Máximo local → ponto mais alto em uma região\n- Mínimo local → ponto mais baixo em uma região\n\n\n✔️ Passo a passo:\n\n1. Calcule a derivada f'(x)\n2. Encontre pontos críticos: f'(x) = 0\n3. Analise o sinal da derivada\n\n\n✔️ Teste da derivada:\n\n- f'(x) muda de + para - → máximo\n- f'(x) muda de - para + → mínimo\n\n\n✔️ Exemplo:\n\nf(x) = x² - 4x\n\nf'(x) = 2x - 4\n\n2x - 4 = 0 → x = 2\n\nTestando:\n\n- Antes de 2 → derivada negativa\n- Depois de 2 → derivada positiva\n\n👉 Mínimo em x = 2\n\nf(2) = -4\n\n\n✔️ Interpretação geométrica:\n\n- Máximo → topo da curva\n- Mínimo → fundo da curva\n\n\n✔️ Importante:\n\nNem todo ponto crítico é máximo ou mínimo.\n\n\n✔️ Aplicações:\n\n- Otimização de custos\n- Maximização de lucro\n- Minimização de energia\n- Engenharia de sistemas",
+
+    "intuicao": "Máximos e mínimos representam os melhores ou piores cenários possíveis.",
+
+    "dica_pratica": "Sempre faça tabela de sinais para confirmar o tipo do ponto crítico.",
+
+    "aplicacoes": [
+      "Economia (lucro máximo)",
+      "Engenharia (eficiência)",
+      "Física (energia mínima)",
+      "Otimização geral"
+    ],
+
+    "erros_comuns": [
+      "Achar que todo ponto crítico é extremo",
+      "Não verificar mudança de sinal",
+      "Esquecer de calcular o valor da função",
+      "Confundir máximo com mínimo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um ponto crítico ocorre quando:",
+      "alternativas": [
+        "f(x) = 0",
+        "f'(x) = 0",
+        "f''(x) = 0",
+        "x = 0"
+      ],
+      "resposta": "f'(x) = 0",
+      "explicacao": "Pontos críticos são onde a derivada zera."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a derivada muda de positiva para negativa, temos:",
+      "alternativas": [
+        "Mínimo",
+        "Máximo",
+        "Assíntota",
+        "Salto"
+      ],
+      "resposta": "Máximo",
+      "explicacao": "A função sobe e depois desce."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a derivada muda de negativa para positiva, temos:",
+      "alternativas": [
+        "Máximo",
+        "Mínimo",
+        "Constante",
+        "Linear"
+      ],
+      "resposta": "Mínimo",
+      "explicacao": "A função desce e depois sobe."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ponto mínimo de f(x) = x² - 4x?",
+      "alternativas": [
+        "(2, -4)",
+        "(1, -3)",
+        "(2, 4)",
+        "(0, 0)"
+      ],
+      "resposta": "(2, -4)",
+      "explicacao": "x = 2 → f(2) = -4."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f'(x) = 0 mas não há mudança de sinal, então:",
+      "alternativas": [
+        "Há máximo",
+        "Há mínimo",
+        "Não há extremo",
+        "Há assíntota"
+      ],
+      "resposta": "Não há extremo",
+      "explicacao": "Não há mudança de comportamento da função."
+    }
+  ]
+}

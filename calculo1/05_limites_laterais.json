@@ -1,0 +1,97 @@
+{
+  "id": "limites_laterais",
+  "disciplina": "Cálculo I",
+  "assunto": "Limites — Limites Laterais",
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Limites laterais analisam o comportamento da função ao se aproximar de um ponto pela esquerda ou pela direita.",
+
+    "explicacao": "Nem sempre a função se comporta igual dos dois lados de um ponto.\n\nPor isso, analisamos:\n\n👉 Limite pela esquerda:\nlim (x → a⁻) f(x)\n\n👉 Limite pela direita:\nlim (x → a⁺) f(x)\n\nO limite só EXISTE se:\n\nlim (x → a⁻) f(x) = lim (x → a⁺) f(x)\n\nExemplo:\n\nf(x) = {\n  x + 1, se x < 2\n  x + 3, se x ≥ 2\n}\n\nAnalisando em x → 2:\n\nPela esquerda:\n→ 2 + 1 = 3\n\nPela direita:\n→ 2 + 3 = 5\n\nComo são diferentes:\n\n❌ O limite NÃO existe\n\nMesmo que f(2) exista!\n\n✔️ Importante:\n\n- O valor da função NÃO define o limite\n- O comportamento ao redor é o que importa",
+
+    "intuicao": "Imagine que você está chegando em uma esquina por duas ruas diferentes. Se cada uma leva a um lugar diferente, não existe um único destino → o limite não existe.",
+
+    "dica_pratica": "Sempre que a função for definida por partes, verifique os dois lados.",
+
+    "aplicacoes": [
+      "Análise de continuidade",
+      "Funções por partes",
+      "Modelagem de sistemas com mudanças bruscas"
+    ],
+
+    "erros_comuns": [
+      "Achar que basta substituir",
+      "Ignorar um dos lados",
+      "Confundir valor da função com limite",
+      "Achar que se f(a) existe então o limite existe"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O limite existe quando:",
+      "alternativas": [
+        "Os limites laterais são diferentes",
+        "Os limites laterais são iguais",
+        "A função é zero",
+        "O valor de x é positivo"
+      ],
+      "resposta": "Os limites laterais são iguais",
+      "explicacao": "Essa é a condição para existência do limite."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "lim (x → a⁻) significa:",
+      "alternativas": [
+        "Aproximação pela direita",
+        "Aproximação pela esquerda",
+        "Valor exato",
+        "Valor infinito"
+      ],
+      "resposta": "Aproximação pela esquerda",
+      "explicacao": "O símbolo ⁻ indica aproximação pela esquerda."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se lim (x → 2⁻) f(x) = 3 e lim (x → 2⁺) f(x) = 5, então o limite:",
+      "alternativas": [
+        "Existe e vale 4",
+        "Existe e vale 3",
+        "Existe e vale 5",
+        "Não existe"
+      ],
+      "resposta": "Não existe",
+      "explicacao": "Os limites laterais são diferentes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se os limites laterais são iguais a 7, então o limite é:",
+      "alternativas": ["0", "7", "Não existe", "Depende"],
+      "resposta": "7",
+      "explicacao": "Se são iguais, o limite existe e é esse valor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma função pode ter limite mesmo que f(a) não exista?",
+      "alternativas": [
+        "Não",
+        "Sim",
+        "Só se for contínua",
+        "Só se for linear"
+      ],
+      "resposta": "Sim",
+      "explicacao": "O limite depende do comportamento ao redor, não do valor no ponto."
+    }
+  ]
+}

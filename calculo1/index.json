@@ -1,0 +1,29 @@
+{
+  "disciplina": "Cálculo I",
+  "assuntos": [
+    {"titulo": "Intuição de Limites", "path": "01_limites_intuicao.json"},
+    {"titulo": "Limites por Substituição", "path": "02_limites_substituicao.json"},
+    {"titulo": "Limites Indeterminados", "path": "03_limites_indeterminacao.json"},
+    {"titulo": "Limites por Fatoração", "path": "04_limites_fatoracao.json"},
+    {"titulo": "Limites Laterais", "path": "05_limites_laterais.json"},
+    {"titulo": "Limites no Infinito", "path": "06_limites_infinito.json"},
+    {"titulo": "Assíntotas", "path": "07_assintotas.json"},
+    {"titulo": "Continuidade", "path": "08_continuidade.json"},
+    {"titulo": "Intuição da Derivada", "path": "09_derivada_intuicao.json"},
+    {"titulo": "Definição de Derivada", "path": "10_derivada_definicao.json"},
+    {"titulo": "Derivada Geométrica", "path": "11_derivada_geometrica.json"},
+    {"titulo": "Regras Básicas de Derivação", "path": "12_regras_derivacao_basicas.json"},
+    {"titulo": "Regras do Produto e Quociente", "path": "13_regras_produto_quociente.json"},
+    {"titulo": "Regra da Cadeia", "path": "14_regra_cadeia.json"},
+    {"titulo": "Derivadas Especiais", "path": "15_derivadas_especiais.json"},
+    {"titulo": "Aplicações da Derivada no Crescimento", "path": "16_aplicacoes_derivada_crescimento.json"},
+    {"titulo": "Máximos e Mínimos", "path": "17_maximos_minimos.json"},
+    {"titulo": "Otimização e Problemas", "path": "18_otimizacao_problemas.json"},
+    {"titulo": "Introdução a Limites", "path": "19_introducao_limites.json"},
+    {"titulo": "Integral Indefinida", "path": "20_integral_indefinida.json"},
+    {"titulo": "Integral Definida", "path": "21_integral_definida.json"},
+    {"titulo": "Teorema Fundamental do Cálculo", "path": "22_teorema_fundamental_calculo.json"},
+    {"titulo": "Integração por Substituição", "path": "23_integracao_substituicao.json"},
+    {"titulo": "Integração por Partes", "path": "24_integracao_por_partes.json"}
+  ]
+}

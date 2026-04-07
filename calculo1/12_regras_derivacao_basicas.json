@@ -1,0 +1,83 @@
+{
+  "id": "regras_derivacao_basicas",
+  "disciplina": "Cálculo I",
+  "assunto": "Derivada — Regras Básicas",
+  "ordem": 12,
+
+  "teoria": {
+    "resumo": "As regras de derivação permitem calcular derivadas de forma rápida sem usar a definição por limite.",
+
+    "explicacao": "Depois de definir a derivada usando limites, foram desenvolvidas regras para simplificar o cálculo.\n\n✔️ 1. Regra da constante:\n\nSe f(x) = c\n\nEntão:\nf'(x) = 0\n\nExemplo:\nf(x) = 5 → f'(x) = 0\n\n\n✔️ 2. Regra da potência:\n\nSe f(x) = xⁿ\n\nEntão:\nf'(x) = n·xⁿ⁻¹\n\nExemplo:\nf(x) = x³ → f'(x) = 3x²\n\n\n✔️ 3. Regra da soma:\n\n(f + g)' = f' + g'\n\nExemplo:\nf(x) = x² + x → f'(x) = 2x + 1\n\n\n✔️ 4. Regra da constante multiplicativa:\n\n(c·f)' = c·f'\n\nExemplo:\nf(x) = 3x² → f'(x) = 6x\n\n\n✔️ Exemplo completo:\n\nf(x) = 3x² + 2x + 1\n\nf'(x) = 6x + 2\n\n✔️ Essas regras tornam o cálculo muito mais rápido e eficiente.",
+
+    "intuicao": "As regras são atalhos que evitam o uso da definição com limites toda vez.",
+
+    "dica_pratica": "Derive termo por termo e aplique a regra da potência em cada um.",
+
+    "aplicacoes": [
+      "Cálculo rápido de derivadas",
+      "Resolução de problemas de engenharia",
+      "Análise de funções",
+      "Base para otimização"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de diminuir o expoente",
+      "Errar a derivada de constante",
+      "Não aplicar a regra da soma corretamente",
+      "Confundir multiplicação com composição"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = 7?",
+      "alternativas": ["0", "7", "1", "x"],
+      "resposta": "0",
+      "explicacao": "A derivada de uma constante é zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = x³?",
+      "alternativas": ["3x²", "x²", "3x", "x³"],
+      "resposta": "3x²",
+      "explicacao": "Regra da potência: 3x²."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = 2x² + x?",
+      "alternativas": ["2x + 1", "4x + 1", "4x", "2x"],
+      "resposta": "4x + 1",
+      "explicacao": "2x² → 4x e x → 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = 5x²?",
+      "alternativas": ["10x", "5x", "2x", "5x²"],
+      "resposta": "10x",
+      "explicacao": "Constante multiplicativa: 5·2x = 10x."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = x³ + 2x² + x + 1?",
+      "alternativas": [
+        "3x² + 4x + 1",
+        "x² + 2x + 1",
+        "3x² + 2x + 1",
+        "3x² + 4x"
+      ],
+      "resposta": "3x² + 4x + 1",
+      "explicacao": "Derivando termo a termo: 3x² + 4x + 1."
+    }
+  ]
+}
