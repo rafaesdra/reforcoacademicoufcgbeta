@@ -1,50 +1,102 @@
 {
+  "id": "05_retas",
+  "disciplina": "Álgebra Vetorial",
   "assunto": "Retas na Álgebra Vetorial",
-  "resumo": {
-    "definicao": "Uma reta no espaço é definida por um ponto e um vetor diretor.",
-    "elementos": {
-      "ponto": "Ponto pelo qual a reta passa (x0, y0, z0).",
-      "vetor_diretor": "Vetor que indica a direção da reta (a, b, c)."
-    },
-    "equacao_vetorial": "r(t) = (x0, y0, z0) + t(a, b, c)",
-    "equacoes_parametricas": {
-      "x": "x = x0 + at",
-      "y": "y = y0 + bt",
-      "z": "z = z0 + ct"
-    },
-    "equacao_simetrica": "(x - x0)/a = (y - y0)/b = (z - z0)/c",
-    "posicoes_relativas": {
-      "concorrentes": "As retas se intersectam em um ponto.",
-      "paralelas": "Vetores diretores proporcionais.",
-      "coincidentes": "São a mesma reta.",
-      "reversas": "Não são paralelas e não se intersectam."
-    },
-    "condicoes": [
-      "Paralelismo: vetores diretores proporcionais.",
-      "Interseção: sistema possui solução comum.",
-      "Reversas: não possuem solução e não são paralelas."
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Uma reta no espaço é definida por um ponto e um vetor diretor.",
+
+    "explicacao": "Uma reta no espaço tridimensional pode ser representada por um ponto e um vetor diretor.\n\nEquação vetorial:\n\nr(t) = (x0, y0, z0) + t(a, b, c)\n\nEquações paramétricas:\n\nx = x0 + at\ny = y0 + bt\nz = z0 + ct\n\nTambém podemos escrever na forma simétrica.\n\nPosições relativas entre retas:\n\n- Paralelas: vetores diretores proporcionais\n- Coincidentes: mesma reta\n- Concorrentes: se cruzam em um ponto\n- Reversas: não se cruzam e não são paralelas\n\nEsses conceitos são fundamentais para geometria no espaço.",
+
+    "intuicao": "O vetor diretor mostra para onde a reta 'aponta' no espaço.",
+
+    "analogia": "Imagine uma estrada infinita no espaço: o vetor diretor indica a direção da estrada.",
+
+    "aplicacoes": [
+      "Geometria analítica",
+      "Modelagem de trajetórias",
+      "Problemas de engenharia"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor diretor com ponto",
+      "Não verificar proporcionalidade corretamente",
+      "Errar montagem do sistema para interseção",
+      "Esquecer de parametrizar corretamente"
     ]
   },
+
   "questoes": [
     {
+      "id": "q1",
       "nivel": "facil",
-      "enunciado": "Determine as equações paramétricas da reta que passa pelo ponto (1,2,3) e possui vetor diretor (2,-1,4)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Quais são as equações paramétricas da reta que passa por (1,2,3) e tem vetor diretor (2,-1,4)?",
+      "alternativas": [
+        "x = 1 + 2t, y = 2 - t, z = 3 + 4t",
+        "x = 2 + t, y = 1 - t, z = 3 + 4t",
+        "x = 1 + t, y = 2 + t, z = 3 + t",
+        "x = 1 - 2t, y = 2 + t, z = 3 - 4t"
+      ],
+      "resposta": "x = 1 + 2t, y = 2 - t, z = 3 + 4t",
+      "explicacao": "Usa-se x = x0 + at, y = y0 + bt, z = z0 + ct substituindo o ponto e o vetor diretor."
     },
     {
+      "id": "q2",
       "nivel": "facil",
-      "enunciado": "Verifique se as retas r: (1,0,2) + t(2,4,6) e s: (0,1,3) + u(1,2,3) são paralelas."
+      "tipo": "multipla_escolha",
+      "pergunta": "As retas r: (1,0,2) + t(2,4,6) e s: (0,1,3) + u(1,2,3) são:",
+      "alternativas": [
+        "Paralelas",
+        "Coincidentes",
+        "Reversas",
+        "Concorrentes"
+      ],
+      "resposta": "Paralelas",
+      "explicacao": "Os vetores diretores (2,4,6) e (1,2,3) são proporcionais → retas paralelas."
     },
     {
+      "id": "q3",
       "nivel": "medio",
-      "enunciado": "Determine se as retas r: (1,2,3) + t(1,0,2) e s: (2,2,1) + u(0,1,1) se intersectam."
+      "tipo": "multipla_escolha",
+      "pergunta": "As retas r: (1,2,3) + t(1,0,2) e s: (2,2,1) + u(0,1,1):",
+      "alternativas": [
+        "Se intersectam",
+        "São paralelas",
+        "São coincidentes",
+        "São reversas"
+      ],
+      "resposta": "São reversas",
+      "explicacao": "Os vetores não são proporcionais e o sistema não possui solução comum → retas reversas."
     },
     {
+      "id": "q4",
       "nivel": "medio",
-      "enunciado": "Encontre a equação da reta que passa pelos pontos A(1,2,3) e B(4,0,1)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação vetorial da reta que passa por A(1,2,3) e B(4,0,1)?",
+      "alternativas": [
+        "r(t) = (1,2,3) + t(3,-2,-2)",
+        "r(t) = (1,2,3) + t(4,0,1)",
+        "r(t) = (4,0,1) + t(1,2,3)",
+        "r(t) = (1,2,3) + t(2,2,2)"
+      ],
+      "resposta": "r(t) = (1,2,3) + t(3,-2,-2)",
+      "explicacao": "O vetor diretor é B - A = (4-1, 0-2, 1-3) = (3,-2,-2)."
     },
     {
+      "id": "q5",
       "nivel": "dificil",
-      "enunciado": "Verifique a posição relativa entre as retas r: (1,0,1) + t(1,2,3) e s: (2,1,0) + u(2,4,6), classificando como paralelas, coincidentes ou reversas e justificando."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a posição relativa entre r: (1,0,1) + t(1,2,3) e s: (2,1,0) + u(2,4,6)?",
+      "alternativas": [
+        "Paralelas",
+        "Coincidentes",
+        "Reversas",
+        "Concorrentes"
+      ],
+      "resposta": "Paralelas",
+      "explicacao": "Os vetores diretores são proporcionais. Como não há indicação de ponto comum, são paralelas distintas."
     }
   ]
 }
