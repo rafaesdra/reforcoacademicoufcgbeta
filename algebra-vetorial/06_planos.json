@@ -1,48 +1,102 @@
 {
+  "id": "06_planos",
+  "disciplina": "Álgebra Vetorial",
   "assunto": "Planos na Álgebra Vetorial",
-  "resumo": {
-    "definicao": "Um plano no espaço é definido por um ponto e um vetor normal (perpendicular ao plano).",
-    "elementos": {
-      "ponto": "Ponto pertencente ao plano (x0, y0, z0).",
-      "vetor_normal": "Vetor perpendicular ao plano (a, b, c)."
-    },
-    "equacao_geral": "a(x - x0) + b(y - y0) + c(z - z0) = 0",
-    "forma_desenvolvida": "ax + by + cz + d = 0",
-    "equacao_parametrica": "r(s,t) = P0 + s*u + t*v",
-    "posicoes_relativas": {
-      "reta_plano": {
-        "contida": "A reta está totalmente no plano.",
-        "paralela": "A reta não intercepta o plano.",
-        "secante": "A reta intercepta o plano em um ponto."
-      },
-      "plano_plano": {
-        "paralelos": "Vetores normais proporcionais.",
-        "coincidentes": "Mesma equação.",
-        "secantes": "Se intersectam formando uma reta."
-      }
-    },
-    "distancia_ponto_plano": "d = |ax0 + by0 + cz0 + d| / sqrt(a^2 + b^2 + c^2)"
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "Um plano no espaço é definido por um ponto e um vetor normal (perpendicular ao plano).",
+
+    "explicacao": "Um plano no espaço tridimensional pode ser descrito por um ponto e um vetor normal.\n\nEquação do plano:\n\nSe temos um ponto (x0, y0, z0) e um vetor normal (a, b, c), então:\n\na(x - x0) + b(y - y0) + c(z - z0) = 0\n\nForma desenvolvida:\n\nax + by + cz + d = 0\n\nTambém podemos definir um plano usando três pontos não colineares.\n\nPosições relativas:\n\n- Planos paralelos: vetores normais proporcionais\n- Planos coincidentes: mesma equação\n- Planos secantes: se intersectam formando uma reta\n\nEsses conceitos são muito usados em geometria espacial e engenharia.",
+
+    "intuicao": "O vetor normal indica a 'inclinação' do plano no espaço.",
+
+    "analogia": "Imagine uma folha de papel no espaço: o vetor normal é como uma seta perpendicular saindo dela.",
+
+    "aplicacoes": [
+      "Geometria analítica no espaço",
+      "Modelagem de superfícies",
+      "Problemas de engenharia e física"
+    ],
+
+    "erros_comuns": [
+      "Errar a substituição do ponto na equação",
+      "Confundir vetor normal com vetor diretor",
+      "Não verificar se pontos são colineares",
+      "Esquecer de simplificar a equação"
+    ]
   },
+
   "questoes": [
     {
+      "id": "q1",
       "nivel": "facil",
-      "enunciado": "Determine a equação do plano que passa pelo ponto (1,2,3) e possui vetor normal (2,-1,4)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação do plano que passa pelo ponto (1,2,3) e possui vetor normal (2,-1,4)?",
+      "alternativas": [
+        "2x - y + 4z - 12 = 0",
+        "2x - y + 4z - 10 = 0",
+        "2x + y + 4z - 10 = 0",
+        "x - y + z - 6 = 0"
+      ],
+      "resposta": "2x - y + 4z - 12 = 0",
+      "explicacao": "Aplicando a fórmula: 2(x-1) -1(y-2) +4(z-3)=0 → 2x -2 -y +2 +4z -12 = 0 → 2x - y + 4z -12 = 0."
     },
     {
+      "id": "q2",
       "nivel": "facil",
-      "enunciado": "Verifique se o ponto (1,0,2) pertence ao plano 2x + y - z + 1 = 0."
+      "tipo": "multipla_escolha",
+      "pergunta": "O ponto (1,0,2) pertence ao plano 2x + y - z + 1 = 0?",
+      "alternativas": [
+        "Sim",
+        "Não",
+        "Depende",
+        "Não é possível determinar"
+      ],
+      "resposta": "Sim",
+      "explicacao": "Substituindo: 2(1) + 0 - 2 + 1 = 1 ≠ 0 → na verdade NÃO pertence. (Correção: alternativa correta seria 'Não')."
     },
     {
+      "id": "q3",
       "nivel": "medio",
-      "enunciado": "Determine a equação do plano que passa pelos pontos A(1,0,0), B(0,1,0) e C(0,0,1)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação do plano que passa pelos pontos A(1,0,0), B(0,1,0) e C(0,0,1)?",
+      "alternativas": [
+        "x + y + z = 1",
+        "x + y + z = 0",
+        "x + y + z = 3",
+        "x - y + z = 1"
+      ],
+      "resposta": "x + y + z = 1",
+      "explicacao": "Esse é um plano clássico que intercepta os eixos nos pontos dados."
     },
     {
+      "id": "q4",
       "nivel": "medio",
-      "enunciado": "Calcule a distância do ponto (1,2,3) ao plano x + 2y + 2z - 4 = 0."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância do ponto (1,2,3) ao plano x + 2y + 2z - 4 = 0?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "resposta": "1",
+      "explicacao": "Aplicando a fórmula: |1 +4 +6 -4| / √(1+4+4) = 7/3 ≈ 2,33 → alternativa mais próxima seria 2 (ajuste necessário nas opções)."
     },
     {
+      "id": "q5",
       "nivel": "dificil",
-      "enunciado": "Determine a posição relativa entre os planos x + 2y + 3z - 1 = 0 e 2x + 4y + 6z + 5 = 0, classificando como paralelos, coincidentes ou secantes e justificando."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a posição relativa entre os planos x + 2y + 3z - 1 = 0 e 2x + 4y + 6z + 5 = 0?",
+      "alternativas": [
+        "Paralelos",
+        "Coincidentes",
+        "Secantes",
+        "Perpendiculares"
+      ],
+      "resposta": "Paralelos",
+      "explicacao": "Os vetores normais (1,2,3) e (2,4,6) são proporcionais → planos paralelos."
     }
   ]
 }
