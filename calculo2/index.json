@@ -26,5 +26,14 @@
     {"titulo": "Sequências e Séries - Testes da Integral", "path": "23_Sequência_Séries_Testes_da_Integral.json"}
     {"titulo": "Sequências e Séries - Séries da Potência", "path": "24_Sequência_Séries_Séries_da_Potência.json"}
     {"titulo": "Sequências e Séries - Séries de Taylor e Maclaurin", "path": "25_Sequência_Séries_Séries_de_Taylor_Maclaurin.json"}
+    {"titulo": "Funções Paramétricas - Equações Paramétricas", "path": "26_Funções_Paramétricas_Equações_Paramétricas.json"}
+    {"titulo": "Funções Paramétricas - Derivada da Equação Paramétrica", "path": "27_Funções_Paramétricas_Derivadas_Equações_Paramétricas.json"}
+    {"titulo": "Funções Paramétricas - Comprimento de Curva", "path": "28_Funções_Paramétricas_Comprimento_Curva.json"}
+    {"titulo": "Coordenadas Polares - Gráficos", "path": "29_Coordenadas_Polares_Gráficos.json"}
+    {"titulo": "Coordenadas Polares - Área", "path": "30_Coordenadas_Polares_Area.json"}
+    {"titulo": "Coordenadas Polares - Comprimento", "path": "31_Coordenadas_Polares_Comprimento.json"}
+    {"titulo": "Equações Diferenciais Básicas - Equações Separáveis", "path": "32_Equações_Diferenciais_Básicas_Equações_Separáveis.json"}
+    {"titulo": "Equações Diferenciais Básicas - Modelos Simples", "path": "33_Equações_Diferenciais_Básicas_Modelos_Simples.json"}
+    
   ]
 }
