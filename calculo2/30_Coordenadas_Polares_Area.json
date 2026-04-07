@@ -1,0 +1,104 @@
+{
+  "id": "area_polares",
+  "disciplina": "Cálculo II",
+  "assunto": "Coordenadas Polares — Área",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "A área em coordenadas polares é calculada integrando o quadrado do raio em relação ao ângulo.",
+
+    "explicacao": "Em coordenadas polares, a área é calculada de forma diferente do plano cartesiano.\n\n---\n\nIDEIA PRINCIPAL:\n\nA área é formada por pequenos setores circulares.\n\n---\n\nFÓRMULA:\n\nA = (1/2) ∫ r² dθ\n\n---\n\nINTERPRETAÇÃO:\n\nCada pequeno pedaço de área é como uma \"fatia\" de círculo.\n\n---\n\nEXEMPLO 1:\n\nr = 1, de 0 a 2π\n\nA = (1/2) ∫₀²π 1² dθ\n\n= (1/2)(2π)\n\n= π\n\n👉 Área do círculo de raio 1\n\n---\n\nEXEMPLO 2:\n\nr = θ, de 0 a 2\n\nA = (1/2) ∫₀² θ² dθ\n\n= (1/2)(8/3)\n\n= 4/3\n\n---\n\nEXEMPLO 3:\n\nr = 2 cos(θ), de -π/2 a π/2\n\nA = (1/2) ∫ (2 cos(θ))² dθ\n\n= 2 ∫ cos²(θ) dθ\n\n👉 Usar identidade trigonométrica\n\n---\n\nÁREA ENTRE DUAS CURVAS:\n\nSe temos r₁ e r₂:\n\nA = (1/2) ∫ [r₁² - r₂²] dθ\n\n---\n\nPASSO A PASSO:\n\n1) Identificar a curva r(θ)\n\n2) Definir os limites de θ\n\n3) Substituir na fórmula\n\n4) Resolver a integral\n\n---\n\nCASOS IMPORTANTES:\n\n✔ r constante → círculo\n✔ r com seno/cosseno → curvas fechadas\n✔ Pode precisar de identidade trigonométrica\n\n---\n\nQUANDO USAR:\n\n✔ Regiões circulares\n✔ Curvas em polares\n✔ Problemas de simetria radial\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre use r²\n✔ Atenção aos limites de θ\n✔ Verifique se a região é completa\n✔ Use simetria para simplificar\n\n---\n\nIDEIA CENTRAL:\n\nA área é construída somando pequenos setores circulares ao longo do ângulo.",
+
+    "intuicao": "Você soma várias fatias de pizza muito finas para obter a área total.",
+
+    "analogia": "É como dividir um círculo em várias fatias e somar todas elas.",
+
+    "aplicacoes": [
+      "Cálculo de áreas circulares",
+      "Engenharia e física",
+      "Problemas com simetria radial",
+      "Modelagem geométrica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o fator 1/2",
+      "Não elevar r ao quadrado",
+      "Usar limites errados de θ",
+      "Confundir com área cartesiana",
+      "Não verificar a região correta"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A fórmula da área em polares é:",
+      "alternativas": [
+        "∫ r dθ",
+        "(1/2) ∫ r² dθ",
+        "∫ r² dx",
+        "(1/2) ∫ r dθ"
+      ],
+      "resposta": "(1/2) ∫ r² dθ",
+      "explicacao": "Essa é a fórmula correta."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para r = 1 de 0 a 2π, a área é:",
+      "alternativas": [
+        "2π",
+        "π",
+        "1",
+        "0"
+      ],
+      "resposta": "π",
+      "explicacao": "É a área do círculo de raio 1."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na fórmula da área aparece:",
+      "alternativas": [
+        "r",
+        "r²",
+        "√r",
+        "1/r"
+      ],
+      "resposta": "r²",
+      "explicacao": "O raio é elevado ao quadrado."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A área entre duas curvas usa:",
+      "alternativas": [
+        "r₁ - r₂",
+        "r₁² - r₂²",
+        "r₁ + r₂",
+        "r₁/r₂"
+      ],
+      "resposta": "r₁² - r₂²",
+      "explicacao": "A fórmula usa a diferença dos quadrados."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A área de r = 2 cos(θ), de -π/2 a π/2, envolve:",
+      "alternativas": [
+        "sen²",
+        "cos²",
+        "tan",
+        "logaritmo"
+      ],
+      "resposta": "cos²",
+      "explicacao": "A expressão fica (2cosθ)² = 4cos²θ."
+    }
+  ]
+}
