@@ -1,0 +1,45 @@
+{
+  "assunto": "Vetores",
+  "resumo": {
+    "definicao": "Um vetor é caracterizado por módulo, direção e sentido, podendo ser representado por coordenadas no plano ou no espaço.",
+    "representacao": "v = (x, y) ou (x, y, z)",
+    "modulo": {
+      "2D": "|v| = sqrt(x^2 + y^2)",
+      "3D": "|v| = sqrt(x^2 + y^2 + z^2)"
+    },
+    "operacoes": {
+      "soma": "(x1 + x2, y1 + y2, z1 + z2)",
+      "subtracao": "(x1 - x2, y1 - y2, z1 - z2)",
+      "multiplicacao_escalar": "k * (x, y, z) = (kx, ky, kz)"
+    },
+    "vetor_unitario": "v/|v|",
+    "condicoes": {
+      "paralelos": "um vetor é múltiplo do outro",
+      "ortogonais": "formam ângulo de 90 graus"
+    },
+    "distancia": "d = sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)",
+    "forma_canonica": "v = xi + yj + zk"
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Dado o vetor v = (6, 8), calcule o módulo de v."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Sejam u = (2, -1) e v = (3, 4). Calcule u + v e u - v."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine um vetor unitário na direção de v = (3, -4, 12)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Verifique se os vetores u = (2, 4, 6) e v = (1, 2, 3) são paralelos. Justifique."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Dados os pontos A(1,2,3) e B(4,6,9): determine o vetor AB, seu módulo e o vetor unitário na sua direção."
+    }
+  ]
+}
