@@ -1,0 +1,104 @@
+{
+  "id": "modelos_crescimento_decaimento",
+  "disciplina": "Cálculo II",
+  "assunto": "Equações Diferenciais — Modelos de Crescimento e Decaimento",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "Modelos de crescimento e decaimento descrevem fenômenos onde a taxa de variação é proporcional à quantidade existente.",
+
+    "explicacao": "Os modelos de crescimento e decaimento são baseados na equação diferencial:\n\n dy/dt = ky\n\nonde:\n\n✔ y é a quantidade\n✔ t é o tempo\n✔ k é uma constante\n\n---\n\nIDEIA PRINCIPAL:\n\nA taxa de variação é proporcional ao próprio valor da função.\n\n---\n\nSOLUÇÃO GERAL:\n\n y(t) = Ce^(kt)\n\n---\n\nCASOS IMPORTANTES:\n\n✔ k > 0 → crescimento exponencial\n✔ k < 0 → decaimento exponencial\n\n---\n\nEXEMPLO 1 (CRESCIMENTO):\n\n dy/dt = 2y\n\nSolução:\n\n y = Ce^(2t)\n\n👉 Crescimento rápido\n\n---\n\nEXEMPLO 2 (DECAIMENTO):\n\n dy/dt = -3y\n\nSolução:\n\n y = Ce^(-3t)\n\n👉 Diminui ao longo do tempo\n\n---\n\nEXEMPLO 3 (CONDIÇÃO INICIAL):\n\n y(0) = 5\n\nEntão:\n\n 5 = C\n\nLogo:\n\n y = 5e^(kt)\n\n---\n\nMEIA-VIDA:\n\nTempo necessário para reduzir pela metade.\n\n---\n\nAPLICAÇÕES:\n\n✔ Crescimento populacional\n✔ Decaimento radioativo\n✔ Juros compostos\n✔ Resfriamento de objetos\n\n---\n\nPASSO A PASSO:\n\n1) Identificar a equação dy/dt = ky\n\n2) Resolver: y = Ce^(kt)\n\n3) Aplicar condição inicial\n\n4) Interpretar o resultado\n\n---\n\nCOMPORTAMENTO:\n\n✔ Crescimento → gráfico sobe rapidamente\n✔ Decaimento → gráfico decai para zero\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Observe o sinal de k\n✔ Use ln para encontrar k\n✔ Interprete o problema fisicamente\n✔ Sempre use condição inicial\n\n---\n\nIDEIA CENTRAL:\n\nSe algo cresce proporcionalmente ao que já existe, ele cresce exponencialmente.",
+
+    "intuicao": "Quanto maior a quantidade, mais rápido ela cresce ou diminui.",
+
+    "analogia": "É como dinheiro com juros: quanto mais você tem, mais rápido ele cresce.",
+
+    "aplicacoes": [
+      "Crescimento populacional",
+      "Decaimento radioativo",
+      "Juros compostos",
+      "Resfriamento de corpos"
+    ],
+
+    "erros_comuns": [
+      "Confundir o sinal de k",
+      "Esquecer a constante C",
+      "Não aplicar condição inicial",
+      "Interpretar errado crescimento vs decaimento",
+      "Errar exponenciais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação básica do modelo é:",
+      "alternativas": [
+        "dy/dx = x + y",
+        "dy/dt = ky",
+        "y = x²",
+        "dy/dx = 1"
+      ],
+      "resposta": "dy/dt = ky",
+      "explicacao": "Essa define crescimento ou decaimento exponencial."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se k > 0, temos:",
+      "alternativas": [
+        "Decaimento",
+        "Oscilação",
+        "Crescimento",
+        "Constante"
+      ],
+      "resposta": "Crescimento",
+      "explicacao": "O valor aumenta ao longo do tempo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A solução geral é:",
+      "alternativas": [
+        "y = x + C",
+        "y = Ce^(kt)",
+        "y = kt",
+        "y = ln x"
+      ],
+      "resposta": "y = Ce^(kt)",
+      "explicacao": "Essa é a solução da equação diferencial."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se k < 0, o comportamento é:",
+      "alternativas": [
+        "Crescimento",
+        "Decaimento",
+        "Constante",
+        "Explosão"
+      ],
+      "resposta": "Decaimento",
+      "explicacao": "A função diminui ao longo do tempo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se y(0)=10 e k = -1, a solução é:",
+      "alternativas": [
+        "y = 10e^t",
+        "y = 10e^(-t)",
+        "y = e^(-10t)",
+        "y = 10t"
+      ],
+      "resposta": "y = 10e^(-t)",
+      "explicacao": "Substituindo C = 10 na solução geral."
+    }
+  ]
+}
