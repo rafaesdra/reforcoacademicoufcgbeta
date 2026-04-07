@@ -1,0 +1,104 @@
+{
+  "id": "comprimento_arco",
+  "disciplina": "Cálculo II",
+  "assunto": "Aplicações de Integrais — Comprimento de Arco",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "O comprimento de arco mede o tamanho de uma curva usando integrais.",
+
+    "explicacao": "O comprimento de arco é usado para medir o tamanho de uma curva entre dois pontos.\n\nPara uma função y = f(x), no intervalo [a, b]:\n\nFórmula:\n\nL = ∫[a,b] √(1 + (f'(x))²) dx\n\n---\n\nPASSOS:\n\n1) Derivar a função: f'(x)\n\n2) Elevar ao quadrado: (f'(x))²\n\n3) Substituir na fórmula\n\n4) Resolver a integral\n\n---\n\nExemplo:\n\nf(x) = x², de 0 a 1\n\nPasso 1:\nf'(x) = 2x\n\nPasso 2:\n(2x)² = 4x²\n\nPasso 3:\n\nL = ∫₀¹ √(1 + 4x²) dx\n\nEssa integral pode exigir substituição.\n\n---\n\nCASO PARAMÉTRICO:\n\nSe x = x(t) e y = y(t):\n\nL = ∫ √[(dx/dt)² + (dy/dt)²] dt\n\n---\n\nIDEIA PRINCIPAL:\n\nA fórmula vem da soma de pequenos segmentos da curva.\n\n---\n\nIMPORTANTE:\n\n✔ Nem sempre a integral tem solução simples\n✔ Às vezes é necessário usar substituição\n✔ O resultado sempre é positivo",
+
+    "intuicao": "O comprimento de arco mede a distância real ao longo da curva, não apenas a distância horizontal.",
+
+    "analogia": "É como medir o comprimento de uma estrada curva — você segue o caminho, não uma linha reta.",
+
+    "aplicacoes": [
+      "Cálculo de distâncias em trajetórias curvas",
+      "Física (movimento)",
+      "Engenharia e design",
+      "Modelagem de superfícies"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de derivar a função",
+      "Não elevar ao quadrado corretamente",
+      "Errar a raiz",
+      "Achar que é só integrar f(x)",
+      "Esquecer os limites de integração"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do comprimento de arco para y = f(x)?",
+      "alternativas": [
+        "∫ f(x) dx",
+        "∫ √(1 + (f'(x))²) dx",
+        "∫ (f'(x))² dx",
+        "∫ 1/f(x) dx"
+      ],
+      "resposta": "∫ √(1 + (f'(x))²) dx",
+      "explicacao": "Essa é a fórmula padrão do comprimento de arco."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que devemos fazer primeiro?",
+      "alternativas": [
+        "Integrar",
+        "Derivar a função",
+        "Multiplicar",
+        "Substituir x"
+      ],
+      "resposta": "Derivar a função",
+      "explicacao": "Precisamos de f'(x) para aplicar a fórmula."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f(x) = x², qual é f'(x)?",
+      "alternativas": [
+        "x",
+        "2x",
+        "x²",
+        "1"
+      ],
+      "resposta": "2x",
+      "explicacao": "Derivada de x² é 2x."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O comprimento de arco sempre é:",
+      "alternativas": [
+        "Negativo",
+        "Zero",
+        "Positivo",
+        "Indefinido"
+      ],
+      "resposta": "Positivo",
+      "explicacao": "Comprimento é uma medida de distância."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando usamos a forma paramétrica?",
+      "alternativas": [
+        "Sempre",
+        "Quando a curva é dada em função de um parâmetro",
+        "Nunca",
+        "Apenas em integrais simples"
+      ],
+      "resposta": "Quando a curva é dada em função de um parâmetro",
+      "explicacao": "Usamos quando x e y dependem de outra variável."
+    }
+  ]
+}
