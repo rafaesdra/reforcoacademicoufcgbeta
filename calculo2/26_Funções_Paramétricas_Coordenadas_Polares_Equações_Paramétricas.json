@@ -1,0 +1,104 @@
+{
+  "id": "equacoes_parametricas",
+  "disciplina": "Cálculo II",
+  "assunto": "Funções Paramétricas — Equações Paramétricas",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "Equações paramétricas descrevem curvas usando uma variável auxiliar chamada parâmetro.",
+
+    "explicacao": "Equações paramétricas representam uma curva no plano usando uma variável independente chamada parâmetro (geralmente t).\n\n---\n\nIDEIA PRINCIPAL:\n\nEm vez de escrever y = f(x), escrevemos:\n\nx = f(t)\ny = g(t)\n\n---\n\nINTERPRETAÇÃO:\n\nO parâmetro t representa o \"tempo\", e conforme ele varia, o ponto (x, y) se move no plano.\n\n---\n\nEXEMPLO 1:\n\nx = t\ny = t²\n\nEliminando o parâmetro:\n\nx = t → t = x\n\nLogo:\n\ny = x²\n\n👉 Representa uma parábola\n\n---\n\nEXEMPLO 2:\n\nx = cos(t)\ny = sen(t)\n\nEliminando o parâmetro:\n\nx² + y² = 1\n\n👉 Representa um círculo\n\n---\n\nORIENTAÇÃO DA CURVA:\n\nA curva tem um sentido, determinado pelo aumento de t.\n\n---\n\nEXEMPLO:\n\nx = cos(t), y = sen(t)\n\nÀ medida que t aumenta:\n\n👉 O movimento é no sentido anti-horário\n\n---\n\nELIMINAÇÃO DO PARÂMETRO:\n\nObjetivo: encontrar uma equação cartesiana.\n\nPassos:\n\n1) Isolar t em uma equação\n\n2) Substituir na outra\n\n---\n\nTIPOS COMUNS DE CURVAS:\n\n✔ Retas\n✔ Parábolas\n✔ Círculos\n✔ Elipses\n\n---\n\nPASSO A PASSO PARA ANALISAR:\n\n1) Entender x(t) e y(t)\n\n2) Testar alguns valores de t\n\n3) Verificar o sentido da curva\n\n4) (Opcional) eliminar o parâmetro\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Faça tabela de valores\n✔ Observe simetria\n✔ Use identidades trigonométricas\n✔ Pense no movimento do ponto\n\n---\n\nCASOS IMPORTANTES:\n\n✔ x = a cos(t), y = a sen(t) → círculo\n✔ x = t, y = t² → parábola\n✔ x = t², y = t³ → curva não linear\n\n---\n\nIDEIA CENTRAL:\n\nUma curva pode ser descrita pelo movimento de um ponto ao longo do tempo.",
+
+    "intuicao": "Você não descreve a curva diretamente, mas sim o caminho que um ponto percorre ao longo do tempo.",
+
+    "analogia": "É como acompanhar a trajetória de um carro: em vez de ter o mapa direto, você acompanha a posição dele ao longo do tempo.",
+
+    "aplicacoes": [
+      "Movimento de partículas",
+      "Trajetórias em física",
+      "Animações e computação gráfica",
+      "Modelagem de curvas complexas"
+    ],
+
+    "erros_comuns": [
+      "Confundir parâmetro com variável x",
+      "Não considerar o sentido da curva",
+      "Errar ao eliminar o parâmetro",
+      "Ignorar o intervalo de t",
+      "Não testar valores de t"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Equações paramétricas utilizam:",
+      "alternativas": [
+        "Apenas x",
+        "Apenas y",
+        "Um parâmetro t",
+        "Integrais"
+      ],
+      "resposta": "Um parâmetro t",
+      "explicacao": "O parâmetro define a posição do ponto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As equações x = t, y = t² representam:",
+      "alternativas": [
+        "Uma reta",
+        "Um círculo",
+        "Uma parábola",
+        "Uma elipse"
+      ],
+      "resposta": "Uma parábola",
+      "explicacao": "Eliminando t, obtemos y = x²."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "As equações x = cos(t), y = sen(t) representam:",
+      "alternativas": [
+        "Uma reta",
+        "Uma parábola",
+        "Um círculo",
+        "Uma hipérbole"
+      ],
+      "resposta": "Um círculo",
+      "explicacao": "Eliminando o parâmetro, temos x² + y² = 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O sentido da curva paramétrica depende:",
+      "alternativas": [
+        "Da derivada",
+        "Do valor de x",
+        "Do aumento do parâmetro t",
+        "Da integral"
+      ],
+      "resposta": "Do aumento do parâmetro t",
+      "explicacao": "A orientação é definida pelo crescimento de t."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As equações x = t², y = t³ representam:",
+      "alternativas": [
+        "Uma reta",
+        "Uma parábola",
+        "Uma curva com comportamento não linear",
+        "Um círculo"
+      ],
+      "resposta": "Uma curva com comportamento não linear",
+      "explicacao": "Eliminando o parâmetro, obtemos y² = x³, que não é uma função simples."
+    }
+  ]
+}
