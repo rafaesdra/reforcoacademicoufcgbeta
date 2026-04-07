@@ -1,0 +1,48 @@
+{
+  "assunto": "Planos na Álgebra Vetorial",
+  "resumo": {
+    "definicao": "Um plano no espaço é definido por um ponto e um vetor normal (perpendicular ao plano).",
+    "elementos": {
+      "ponto": "Ponto pertencente ao plano (x0, y0, z0).",
+      "vetor_normal": "Vetor perpendicular ao plano (a, b, c)."
+    },
+    "equacao_geral": "a(x - x0) + b(y - y0) + c(z - z0) = 0",
+    "forma_desenvolvida": "ax + by + cz + d = 0",
+    "equacao_parametrica": "r(s,t) = P0 + s*u + t*v",
+    "posicoes_relativas": {
+      "reta_plano": {
+        "contida": "A reta está totalmente no plano.",
+        "paralela": "A reta não intercepta o plano.",
+        "secante": "A reta intercepta o plano em um ponto."
+      },
+      "plano_plano": {
+        "paralelos": "Vetores normais proporcionais.",
+        "coincidentes": "Mesma equação.",
+        "secantes": "Se intersectam formando uma reta."
+      }
+    },
+    "distancia_ponto_plano": "d = |ax0 + by0 + cz0 + d| / sqrt(a^2 + b^2 + c^2)"
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Determine a equação do plano que passa pelo ponto (1,2,3) e possui vetor normal (2,-1,4)."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Verifique se o ponto (1,0,2) pertence ao plano 2x + y - z + 1 = 0."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine a equação do plano que passa pelos pontos A(1,0,0), B(0,1,0) e C(0,0,1)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Calcule a distância do ponto (1,2,3) ao plano x + 2y + 2z - 4 = 0."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Determine a posição relativa entre os planos x + 2y + 3z - 1 = 0 e 2x + 4y + 6z + 5 = 0, classificando como paralelos, coincidentes ou secantes e justificando."
+    }
+  ]
+}
