@@ -1,36 +1,102 @@
 {
+  "id": "07_distancias",
+  "disciplina": "Álgebra Vetorial",
   "assunto": "Distâncias na Álgebra Vetorial",
-  "resumo": {
-    "definicao": "Estudo das distâncias entre pontos, retas e planos no espaço tridimensional.",
-    "distancia_entre_pontos": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)",
-    "distancia_ponto_reta": "d = |P0P x v| / |v|",
-    "distancia_ponto_plano": "d = |ax0 + by0 + cz0 + d| / sqrt(a^2 + b^2 + c^2)",
-    "distancia_entre_retas": {
-      "paralelas": "d = |P1P2 x v| / |v|",
-      "reversas": "d = |P1P2 · (v1 x v2)| / |v1 x v2|"
-    },
-    "distancia_entre_planos_paralelos": "d = |d1 - d2| / sqrt(a^2 + b^2 + c^2)"
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "Estudo das distâncias entre pontos, retas e planos no espaço tridimensional.",
+
+    "explicacao": "Na Álgebra Vetorial, calcular distâncias envolve interpretar geometricamente vetores no espaço.\n\nDistância entre dois pontos:\n\nA distância é dada pela diferença entre suas coordenadas.\n\nDistância ponto-plano:\n\nMede o quão 'longe' o ponto está do plano.\n\nDistância ponto-reta:\n\nUsa produto vetorial para encontrar a altura de um paralelogramo formado.\n\nDistância entre retas:\n\n- Paralelas: usamos produto vetorial\n- Reversas: usamos produto misto\n\nEssas fórmulas aparecem muito em problemas geométricos e físicos.",
+
+    "intuicao": "Distância é sempre a menor separação entre dois objetos geométricos.",
+
+    "analogia": "Imagine medir a menor distância possível entre dois pontos com uma régua no espaço — essa é sempre uma linha reta.",
+
+    "aplicacoes": [
+      "Cálculo de distâncias em problemas 3D",
+      "Engenharia (posicionamento e estruturas)",
+      "Física (movimento e forças no espaço)"
+    ],
+
+    "erros_comuns": [
+      "Aplicar fórmula errada para o tipo de problema",
+      "Esquecer módulo (valor absoluto)",
+      "Confundir produto escalar com vetorial",
+      "Errar cálculo de raízes"
+    ]
   },
+
   "questoes": [
     {
+      "id": "q1",
       "nivel": "facil",
-      "enunciado": "Calcule a distância entre os pontos A(1,2,3) e B(4,6,3)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre os pontos A(1,2,3) e B(4,6,3)?",
+      "alternativas": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "resposta": "5",
+      "explicacao": "Aplicando a fórmula da distância: √[(4-1)² + (6-2)² + (3-3)²] = √(9+16) = √25 = 5."
     },
     {
+      "id": "q2",
       "nivel": "facil",
-      "enunciado": "Calcule a distância do ponto (1,2,3) ao plano x + y + z - 6 = 0."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância do ponto (1,2,3) ao plano x + y + z - 6 = 0?",
+      "alternativas": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "resposta": "0",
+      "explicacao": "Substituindo: 1+2+3-6 = 0 → o ponto pertence ao plano, então a distância é zero."
     },
     {
+      "id": "q3",
       "nivel": "medio",
-      "enunciado": "Calcule a distância do ponto (1,0,0) à reta r: (0,0,0) + t(1,1,1)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância do ponto (1,0,0) à reta r: (0,0,0) + t(1,1,1)?",
+      "alternativas": [
+        "√2",
+        "√6/3",
+        "√6/2",
+        "1"
+      ],
+      "resposta": "√6/2",
+      "explicacao": "Usa-se d = |P0P × v| / |v|. O resultado simplificado é √6/2."
     },
     {
+      "id": "q4",
       "nivel": "medio",
-      "enunciado": "Calcule a distância entre as retas paralelas r: (1,0,0) + t(1,2,3) e s: (0,1,0) + t(1,2,3)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre as retas paralelas r: (1,0,0) + t(1,2,3) e s: (0,1,0) + t(1,2,3)?",
+      "alternativas": [
+        "√2",
+        "√3",
+        "√6/2",
+        "1"
+      ],
+      "resposta": "√6/2",
+      "explicacao": "Para retas paralelas: d = |P1P2 × v| / |v|. O cálculo resulta em √6/2."
     },
     {
+      "id": "q5",
       "nivel": "dificil",
-      "enunciado": "Calcule a distância entre as retas reversas r: (0,0,0) + t(1,0,1) e s: (1,1,0) + u(0,1,1)."
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre as retas reversas r: (0,0,0) + t(1,0,1) e s: (1,1,0) + u(0,1,1)?",
+      "alternativas": [
+        "1",
+        "√2/2",
+        "√3/3",
+        "√2"
+      ],
+      "resposta": "√2/2",
+      "explicacao": "Para retas reversas: d = |P1P2 · (v1 × v2)| / |v1 × v2|. O resultado final é √2/2."
     }
   ]
 }
