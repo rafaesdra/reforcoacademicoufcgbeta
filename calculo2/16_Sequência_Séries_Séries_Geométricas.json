@@ -1,0 +1,104 @@
+{
+  "id": "series_geometricas",
+  "disciplina": "Cálculo II",
+  "assunto": "Séries Infinitas — Séries Geométricas",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "Uma série geométrica é uma soma onde cada termo é obtido multiplicando o anterior por uma constante chamada razão.",
+
+    "explicacao": "Uma série geométrica tem a forma:\n\n∑ a·rⁿ = a + ar + ar² + ar³ + ...\n\nOnde:\n\na = primeiro termo\nr = razão\n\n---\n\nCONDIÇÃO DE CONVERGÊNCIA:\n\nA série converge se:\n\n|r| < 1\n\nSe |r| ≥ 1 → diverge\n\n---\n\nFÓRMULA DA SOMA:\n\nSe converge:\n\nS = a / (1 - r)\n\n---\n\nEXEMPLO 1:\n\n∑ (1/2)ⁿ\n\nAqui:\n\na = 1\nr = 1/2\n\nComo |r| < 1:\n\nS = 1 / (1 - 1/2) = 2\n\n---\n\nEXEMPLO 2:\n\n∑ 2ⁿ\n\nr = 2\n\nComo |r| ≥ 1:\n\n👉 Diverge\n\n---\n\nEXEMPLO 3:\n\n∑ (-1/2)ⁿ\n\nr = -1/2\n\n|r| < 1 → converge\n\n---\n\nIDEIA PRINCIPAL:\n\nCada termo é uma versão 'reduzida' (ou ampliada) do anterior.\n\n---\n\nDICAS:\n\n✔ Sempre identificar a razão\n✔ Verificar |r|\n✔ Usar a fórmula apenas se convergir\n✔ Reescrever a série se necessário",
+
+    "intuicao": "A série geométrica soma termos que diminuem (ou aumentam) multiplicando por um fator constante.",
+
+    "analogia": "É como dividir algo pela metade várias vezes — a soma pode chegar a um valor limite.",
+
+    "aplicacoes": [
+      "Economia (juros compostos)",
+      "Física (decaimento)",
+      "Engenharia",
+      "Aproximações numéricas"
+    ],
+
+    "erros_comuns": [
+      "Aplicar a fórmula sem verificar |r| < 1",
+      "Identificar errado a razão",
+      "Confundir com outras séries",
+      "Esquecer que r pode ser negativo",
+      "Não reescrever a série corretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma série geométrica?",
+      "alternativas": [
+        "Soma de números aleatórios",
+        "Cada termo é múltiplo do anterior",
+        "Sempre cresce",
+        "Sempre diverge"
+      ],
+      "resposta": "Cada termo é múltiplo do anterior",
+      "explicacao": "A razão r multiplica cada termo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma série geométrica converge?",
+      "alternativas": [
+        "|r| > 1",
+        "|r| = 1",
+        "|r| < 1",
+        "Sempre"
+      ],
+      "resposta": "|r| < 1",
+      "explicacao": "Essa é a condição de convergência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a soma da série ∑ (1/2)ⁿ?",
+      "alternativas": [
+        "1",
+        "2",
+        "1/2",
+        "∞"
+      ],
+      "resposta": "2",
+      "explicacao": "S = 1 / (1 - 1/2) = 2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ 3ⁿ é:",
+      "alternativas": [
+        "Convergente",
+        "Divergente",
+        "Zero",
+        "Constante"
+      ],
+      "resposta": "Divergente",
+      "explicacao": "|r| = 3 ≥ 1, então diverge."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A série ∑ (-1/3)ⁿ:",
+      "alternativas": [
+        "Diverge",
+        "Converge",
+        "É zero",
+        "Não existe"
+      ],
+      "resposta": "Converge",
+      "explicacao": "|r| = 1/3 < 1, então converge."
+    }
+  ]
+}
