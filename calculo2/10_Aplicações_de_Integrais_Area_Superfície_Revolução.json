@@ -1,0 +1,104 @@
+{
+  "id": "area_superficie_revolucao",
+  "disciplina": "Cálculo II",
+  "assunto": "Aplicações de Integrais — Área de Superfície de Revolução",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "A área de superfície de revolução calcula a área gerada quando uma curva é girada em torno de um eixo.",
+
+    "explicacao": "Quando uma curva é girada em torno de um eixo, ela gera uma superfície.\n\nPodemos calcular sua área usando integrais.\n\n---\n\nCASO 1: Rotação em torno do eixo x\n\nSe y = f(x), no intervalo [a, b]:\n\nFórmula:\n\nS = 2π ∫[a,b] f(x) · √(1 + (f'(x))²) dx\n\n---\n\nCASO 2: Rotação em torno do eixo y\n\nSe x = g(y), no intervalo [c, d]:\n\nS = 2π ∫[c,d] g(y) · √(1 + (g'(y))²) dy\n\n---\n\nPASSOS:\n\n1) Identificar o eixo de rotação\n\n2) Identificar o raio (distância até o eixo)\n\n3) Derivar a função\n\n4) Aplicar a fórmula\n\n5) Resolver a integral\n\n---\n\nExemplo:\n\nGirar y = x, de 0 a 1, em torno do eixo x:\n\nf(x) = x\nf'(x) = 1\n\nS = 2π ∫₀¹ x · √(1 + 1²) dx\n\n= 2π ∫₀¹ x · √2 dx\n\n= 2π√2 ∫₀¹ x dx\n\n= 2π√2 · 1/2\n\n= π√2\n\n---\n\nIDEIA PRINCIPAL:\n\nA área é formada por 'faixas' infinitamente pequenas da superfície.\n\n---\n\nIMPORTANTE:\n\n✔ Sempre há um fator 2π\n✔ O termo √(1 + (derivada)²) aparece sempre\n✔ O raio depende do eixo de rotação\n✔ Pode exigir técnicas de integração",
+
+    "intuicao": "A superfície é formada ao girar a curva, e a integral soma pequenas faixas dessa superfície.",
+
+    "analogia": "É como girar uma linha no espaço e formar uma casca — a área dessa casca é o que calculamos.",
+
+    "aplicacoes": [
+      "Cálculo de áreas em objetos tridimensionais",
+      "Engenharia (tubos, superfícies)",
+      "Design industrial",
+      "Física e modelagem"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o 2π",
+      "Usar a função errada como raio",
+      "Errar a derivada",
+      "Confundir com volume",
+      "Montar errado a integral"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator sempre aparece na área de superfície de revolução?",
+      "alternativas": [
+        "π",
+        "2π",
+        "π²",
+        "Nenhum"
+      ],
+      "resposta": "2π",
+      "explicacao": "A fórmula sempre inclui o fator 2π."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual termo aparece dentro da raiz?",
+      "alternativas": [
+        "f(x)",
+        "1 + (f'(x))²",
+        "f'(x)",
+        "x²"
+      ],
+      "resposta": "1 + (f'(x))²",
+      "explicacao": "Esse termo vem do comprimento de arco."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f(x) = x, qual é f'(x)?",
+      "alternativas": [
+        "0",
+        "1",
+        "x",
+        "x²"
+      ],
+      "resposta": "1",
+      "explicacao": "Derivada de x é 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a área ao girar y = x de 0 a 1 em torno do eixo x?",
+      "alternativas": [
+        "π",
+        "π√2",
+        "2π",
+        "π/2"
+      ],
+      "resposta": "π√2",
+      "explicacao": "Aplicando a fórmula S = 2π ∫ x√2 dx."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O raio na fórmula representa:",
+      "alternativas": [
+        "A derivada",
+        "A distância até o eixo de rotação",
+        "O intervalo",
+        "A integral"
+      ],
+      "resposta": "A distância até o eixo de rotação",
+      "explicacao": "O raio depende da posição em relação ao eixo."
+    }
+  ]
+}
