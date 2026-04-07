@@ -1,0 +1,104 @@
+{
+  "id": "comprimento_curva_parametrica",
+  "disciplina": "Cálculo II",
+  "assunto": "Funções Paramétricas — Comprimento de Curva",
+  "ordem": 28,
+
+  "teoria": {
+    "resumo": "O comprimento de uma curva paramétrica é calculado integrando a velocidade ao longo do intervalo do parâmetro.",
+
+    "explicacao": "O comprimento de uma curva paramétrica mede a distância percorrida ao longo da trajetória definida por:\n\nx = f(t)\ny = g(t)\n\n---\n\nIDEIA PRINCIPAL:\n\nSomamos pequenos pedaços da curva usando uma integral.\n\n---\n\nFÓRMULA:\n\nL = ∫ √[(dx/dt)² + (dy/dt)²] dt\n\n---\n\nINTERPRETAÇÃO:\n\nA expressão dentro da raiz representa a velocidade da curva.\n\n---\n\nEXEMPLO 1:\n\nx = t\ny = t², 0 ≤ t ≤ 1\n\nDerivadas:\n\ndx/dt = 1\ndy/dt = 2t\n\nComprimento:\n\nL = ∫₀¹ √(1 + 4t²) dt\n\n👉 Integral que pode ser resolvida com substituição\n\n---\n\nEXEMPLO 2:\n\nx = cos(t)\ny = sen(t), 0 ≤ t ≤ 2π\n\nDerivadas:\n\ndx/dt = -sen(t)\ndy/dt = cos(t)\n\nL = ∫₀²π √(sen²t + cos²t) dt\n\n= ∫₀²π 1 dt\n\n= 2π\n\n👉 Comprimento da circunferência de raio 1\n\n---\n\nPASSO A PASSO:\n\n1) Calcular dx/dt\n\n2) Calcular dy/dt\n\n3) Substituir na fórmula\n\n4) Resolver a integral\n\n---\n\nCASOS IMPORTANTES:\n\n✔ Se √(sen² + cos²) → 1\n✔ Pode exigir substituição\n✔ Nem sempre tem solução simples\n\n---\n\nQUANDO USAR:\n\n✔ Trajetórias paramétricas\n✔ Movimento de partículas\n✔ Curvas no plano\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Simplifique dentro da raiz\n✔ Use identidades trigonométricas\n✔ Verifique os limites de t\n✔ Nem toda integral será elementar\n\n---\n\nIDEIA CENTRAL:\n\nO comprimento de curva é a soma contínua de pequenos deslocamentos ao longo do caminho.",
+
+    "intuicao": "É como medir uma estrada curva somando vários pequenos trechos retos.",
+
+    "analogia": "Imagine usar vários pedacinhos de régua para medir uma curva; a integral faz isso infinitamente.",
+
+    "aplicacoes": [
+      "Cálculo de trajetórias",
+      "Movimento em física",
+      "Engenharia e design de curvas",
+      "Computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de elevar ao quadrado dentro da raiz",
+      "Errar as derivadas",
+      "Não simplificar a expressão",
+      "Usar limites incorretos",
+      "Tentar resolver integrais muito complexas sem simplificar"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O comprimento de curva usa:",
+      "alternativas": [
+        "Derivadas apenas",
+        "Uma integral",
+        "Limites simples",
+        "Somatórios finitos"
+      ],
+      "resposta": "Uma integral",
+      "explicacao": "O comprimento é obtido por uma integral."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na fórmula aparece:",
+      "alternativas": [
+        "dx/dt + dy/dt",
+        "√[(dx/dt)² + (dy/dt)²]",
+        "dx/dt - dy/dt",
+        "dy/dx"
+      ],
+      "resposta": "√[(dx/dt)² + (dy/dt)²]",
+      "explicacao": "Essa é a expressão da velocidade."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para x = cos(t), y = sen(t), o comprimento em [0, 2π] é:",
+      "alternativas": [
+        "π",
+        "2π",
+        "1",
+        "0"
+      ],
+      "resposta": "2π",
+      "explicacao": "É o comprimento da circunferência de raio 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dx/dt = 3 e dy/dt = 4, a expressão da raiz é:",
+      "alternativas": [
+        "5",
+        "7",
+        "1",
+        "25"
+      ],
+      "resposta": "5",
+      "explicacao": "√(9 + 16) = 5."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O comprimento da curva x = t, y = t², 0 ≤ t ≤ 1 é dado por:",
+      "alternativas": [
+        "∫₀¹ (1 + 2t) dt",
+        "∫₀¹ √(1 + 4t²) dt",
+        "∫₀¹ (1 + 4t²) dt",
+        "∫₀¹ √(1 + t²) dt"
+      ],
+      "resposta": "∫₀¹ √(1 + 4t²) dt",
+      "explicacao": "Substituindo na fórmula do comprimento."
+    }
+  ]
+}
