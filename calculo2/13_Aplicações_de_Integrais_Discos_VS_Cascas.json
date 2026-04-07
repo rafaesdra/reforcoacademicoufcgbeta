@@ -1,0 +1,104 @@
+{
+  "id": "discos_vs_cascas",
+  "disciplina": "Cálculo II",
+  "assunto": "Volume de Sólidos — Discos vs Cascas",
+  "ordem": 13,
+
+  "teoria": {
+    "resumo": "Discos e cascas são métodos para calcular volumes de sólidos de revolução, escolhidos de acordo com a orientação do eixo e da região.",
+
+    "explicacao": "Ao calcular volumes de sólidos de revolução, duas técnicas principais podem ser usadas: discos/anéis e cascas cilíndricas.\n\nA escolha depende da forma da região e do eixo de rotação.\n\n---\n\nMÉTODO DOS DISCOS / ANÉIS\n\nFórmula:\n\nV = π ∫ (R² - r²) dx\n\nCaracterísticas:\n\n✔ Cortes perpendiculares ao eixo de rotação\n✔ Usa raios (externo e interno)\n✔ Forma 'fatias circulares'\n\nUse quando:\n\n👉 A função já está na variável correta\n👉 É fácil expressar o raio\n👉 Não precisa isolar a variável\n\n---\n\nMÉTODO DAS CASCAS\n\nFórmula:\n\nV = 2π ∫ (raio · altura) dx\n\nCaracterísticas:\n\n✔ Cortes paralelos ao eixo de rotação\n✔ Usa raio e altura\n✔ Forma 'cascas cilíndricas'\n\nUse quando:\n\n👉 Evita trocar x por y (ou vice-versa)\n👉 O método dos discos ficaria mais complicado\n👉 A altura é fácil de identificar\n\n---\n\nCOMPARAÇÃO DIRETA:\n\nDiscos/Anéis:\n- Usa R²\n- Corte ⟂ ao eixo\n- Trabalha com raio\n\nCascas:\n- Usa raio × altura\n- Corte ∥ ao eixo\n- Trabalha com distância lateral\n\n---\n\nEXEMPLO CLÁSSICO:\n\nRegião sob y = x, de 0 a 1\n\nGirando em torno do eixo x:\n👉 Discos (mais direto)\n\nGirando em torno do eixo y:\n👉 Cascas (mais direto)\n\n---\n\nIDEIA PRINCIPAL:\n\n✔ Ambos calculam o mesmo volume\n✔ A escolha certa facilita a conta\n✔ Não existe método 'melhor', apenas mais conveniente",
+
+    "intuicao": "Discos empilham fatias, enquanto cascas envolvem o eixo como camadas.",
+
+    "analogia": "Discos são como empilhar moedas. Cascas são como enrolar folhas ao redor de um tubo.",
+
+    "aplicacoes": [
+      "Cálculo de volumes em sólidos de revolução",
+      "Engenharia e física",
+      "Modelagem matemática",
+      "Geometria espacial"
+    ],
+
+    "erros_comuns": [
+      "Escolher método mais complicado sem necessidade",
+      "Confundir orientação dos cortes",
+      "Misturar fórmulas",
+      "Não identificar corretamente o eixo de rotação",
+      "Errar raio ou altura"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual método usa π ∫ (R² - r²) dx?",
+      "alternativas": [
+        "Cascas",
+        "Discos/Anéis",
+        "Substituição",
+        "Trigonométrico"
+      ],
+      "resposta": "Discos/Anéis",
+      "explicacao": "Essa é a fórmula dos discos/anéis."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual método usa 2π ∫ (raio · altura) dx?",
+      "alternativas": [
+        "Discos",
+        "Cascas",
+        "Frações parciais",
+        "Derivação"
+      ],
+      "resposta": "Cascas",
+      "explicacao": "Essa é a fórmula das cascas cilíndricas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No método dos discos, os cortes são:",
+      "alternativas": [
+        "Paralelos ao eixo",
+        "Perpendiculares ao eixo",
+        "Curvos",
+        "Aleatórios"
+      ],
+      "resposta": "Perpendiculares ao eixo",
+      "explicacao": "Os discos são formados por cortes perpendiculares."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No método das cascas, os cortes são:",
+      "alternativas": [
+        "Perpendiculares",
+        "Paralelos ao eixo",
+        "Horizontais sempre",
+        "Verticais sempre"
+      ],
+      "resposta": "Paralelos ao eixo",
+      "explicacao": "As cascas são formadas por cortes paralelos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a principal vantagem de escolher o método correto?",
+      "alternativas": [
+        "Muda o resultado",
+        "Facilita o cálculo",
+        "Elimina a integral",
+        "Evita derivadas"
+      ],
+      "resposta": "Facilita o cálculo",
+      "explicacao": "Ambos dão o mesmo resultado, mas um pode ser mais simples."
+    }
+  ]
+}
