@@ -1,0 +1,104 @@
+{
+  "id": "volume_solidos",
+  "disciplina": "Cálculo II",
+  "assunto": "Aplicações de Integrais — Volume de Sólidos",
+  "ordem": 8,
+
+  "teoria": {
+    "resumo": "O volume de sólidos pode ser calculado usando integrais, principalmente pelos métodos dos discos/aneis e das cascas cilíndricas.",
+
+    "explicacao": "O cálculo de volumes com integrais é usado quando um sólido é gerado pela rotação de uma curva.\n\n---\n\nMÉTODO 1: DISCOS / ANÉIS\n\nUsado quando giramos uma função em torno de um eixo.\n\nFórmula:\n\nV = π ∫[a,b] (R² - r²) dx\n\nOnde:\n\nR = raio externo\nr = raio interno\n\n---\n\nExemplo:\n\nGirar a curva y = x em torno do eixo x, de 0 a 1:\n\nRaio = y = x\n\nV = π ∫₀¹ x² dx\n\n= π [x³/3]₀¹\n\n= π/3\n\n---\n\nMÉTODO 2: CASCAS CILÍNDRICAS\n\nUsado quando é mais fácil trabalhar com 'cascas' ao invés de discos.\n\nFórmula:\n\nV = 2π ∫[a,b] (raio · altura) dx\n\n---\n\nExemplo:\n\nGirar y = x em torno do eixo y:\n\nraio = x\naltura = x\n\nV = 2π ∫₀¹ x·x dx\n\n= 2π ∫₀¹ x² dx\n\n= 2π/3\n\n---\n\nQUANDO USAR CADA UM?\n\n✔ Discos/Anéis:\n- Quando o corte é perpendicular ao eixo de rotação\n\n✔ Cascas:\n- Quando o corte é paralelo ao eixo\n- Quando evita mudar a variável\n\n---\n\nIDEIA PRINCIPAL:\n\nEstamos somando infinitos 'pedaços' do sólido usando integrais.",
+
+    "intuicao": "O volume é obtido somando várias camadas finas do sólido, como fatias ou cascas.",
+
+    "analogia": "É como montar um objeto empilhando várias camadas muito finas até formar o volume completo.",
+
+    "aplicacoes": [
+      "Cálculo de volumes em engenharia",
+      "Projetos mecânicos",
+      "Física (reservatórios, objetos)",
+      "Modelagem geométrica"
+    ],
+
+    "erros_comuns": [
+      "Confundir raio com altura",
+      "Escolher o método errado",
+      "Esquecer o π ou 2π",
+      "Montar errado os limites de integração",
+      "Não identificar corretamente o eixo de rotação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual método usa a fórmula π ∫ (R² - r²) dx?",
+      "alternativas": [
+        "Cascas",
+        "Substituição",
+        "Discos/Anéis",
+        "Frações parciais"
+      ],
+      "resposta": "Discos/Anéis",
+      "explicacao": "Essa fórmula corresponde ao método dos discos/anéis."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual método usa a fórmula 2π ∫ (raio · altura) dx?",
+      "alternativas": [
+        "Discos",
+        "Cascas cilíndricas",
+        "Substituição",
+        "Trigonométrica"
+      ],
+      "resposta": "Cascas cilíndricas",
+      "explicacao": "Essa é a fórmula das cascas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume ao girar y = x de 0 a 1 em torno do eixo x?",
+      "alternativas": [
+        "π",
+        "π/2",
+        "π/3",
+        "2π/3"
+      ],
+      "resposta": "π/3",
+      "explicacao": "V = π ∫₀¹ x² dx = π/3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No método das cascas, o volume depende de:",
+      "alternativas": [
+        "raio e altura",
+        "área e perímetro",
+        "derivada",
+        "limite"
+      ],
+      "resposta": "raio e altura",
+      "explicacao": "A fórmula envolve o produto raio × altura."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o método das cascas é mais vantajoso?",
+      "alternativas": [
+        "Quando complica a conta",
+        "Quando evita mudar a variável",
+        "Quando não há função",
+        "Nunca"
+      ],
+      "resposta": "Quando evita mudar a variável",
+      "explicacao": "Ele simplifica quando o método dos discos exigiria mudança de variável."
+    }
+  ]
+}
