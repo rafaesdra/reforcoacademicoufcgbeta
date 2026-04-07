@@ -1,0 +1,36 @@
+{
+  "assunto": "Distâncias na Álgebra Vetorial",
+  "resumo": {
+    "definicao": "Estudo das distâncias entre pontos, retas e planos no espaço tridimensional.",
+    "distancia_entre_pontos": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)",
+    "distancia_ponto_reta": "d = |P0P x v| / |v|",
+    "distancia_ponto_plano": "d = |ax0 + by0 + cz0 + d| / sqrt(a^2 + b^2 + c^2)",
+    "distancia_entre_retas": {
+      "paralelas": "d = |P1P2 x v| / |v|",
+      "reversas": "d = |P1P2 · (v1 x v2)| / |v1 x v2|"
+    },
+    "distancia_entre_planos_paralelos": "d = |d1 - d2| / sqrt(a^2 + b^2 + c^2)"
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Calcule a distância entre os pontos A(1,2,3) e B(4,6,3)."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Calcule a distância do ponto (1,2,3) ao plano x + y + z - 6 = 0."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Calcule a distância do ponto (1,0,0) à reta r: (0,0,0) + t(1,1,1)."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Calcule a distância entre as retas paralelas r: (1,0,0) + t(1,2,3) e s: (0,1,0) + t(1,2,3)."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Calcule a distância entre as retas reversas r: (0,0,0) + t(1,0,1) e s: (1,1,0) + u(0,1,1)."
+    }
+  ]
+}
