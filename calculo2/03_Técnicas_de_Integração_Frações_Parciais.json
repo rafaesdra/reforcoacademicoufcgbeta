@@ -1,0 +1,105 @@
+{
+  "id": "integracao_fracoes_parciais",
+  "disciplina": "Cálculo II",
+  "assunto": "Técnicas de Integração — Frações Parciais",
+  "ordem": 3,
+
+  "teoria": {
+    "resumo": "Frações parciais é uma técnica usada para integrar funções racionais, decompondo uma fração em partes mais simples.",
+
+    "explicacao": "A técnica de frações parciais é aplicada quando temos uma função racional, ou seja, uma divisão entre polinômios.\n\nExemplo geral:\n\n∫ P(x) / Q(x) dx\n\nOnde P(x) e Q(x) são polinômios.\n\nA ideia é decompor a fração em uma soma de frações mais simples.\n\nPassos:\n\n1) Verificar se o grau do numerador é menor que o do denominador\n   - Se não for, fazer divisão de polinômios\n\n2) Fatorar o denominador\n\n3) Montar a decomposição\n\nExemplo:\n\n∫ 1 / (x² - 1) dx\n\nFatorando:\n\nx² - 1 = (x - 1)(x + 1)\n\nMontamos:\n\n1 / (x² - 1) = A/(x - 1) + B/(x + 1)\n\nMultiplicando tudo:\n\n1 = A(x + 1) + B(x - 1)\n\nResolvendo:\n\nA = 1/2\nB = -1/2\n\nEntão:\n\n∫ 1 / (x² - 1) dx = ∫ [1/2(x - 1) - 1/2(x + 1)] dx\n\nSeparando:\n\n= 1/2 ∫ 1/(x - 1) dx - 1/2 ∫ 1/(x + 1) dx\n\nResultado:\n\n= 1/2 ln|x - 1| - 1/2 ln|x + 1| + C\n\nOu:\n\n= 1/2 ln|(x - 1)/(x + 1)| + C\n\nEssa técnica transforma uma integral difícil em várias integrais simples.",
+
+    "intuicao": "Frações parciais quebra uma fração complicada em pedaços mais fáceis de integrar.",
+
+    "analogia": "É como dividir um problema grande em vários problemas pequenos e simples de resolver.",
+
+    "aplicacoes": [
+      "Integrais de funções racionais",
+      "Problemas de engenharia e física",
+      "Transformadas e sistemas dinâmicos",
+      "Análise matemática avançada"
+    ],
+
+    "erros_comuns": [
+      "Não fatorar corretamente o denominador",
+      "Esquecer de fazer divisão quando necessário",
+      "Montar errado a decomposição",
+      "Errar ao resolver os coeficientes",
+      "Esquecer o valor absoluto no logaritmo",
+      "Esquecer a constante de integração"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando usamos frações parciais?",
+      "alternativas": [
+        "Em funções trigonométricas",
+        "Em funções racionais",
+        "Em derivadas",
+        "Em limites"
+      ],
+      "resposta": "Em funções racionais",
+      "explicacao": "Frações parciais são usadas quando temos divisão de polinômios."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o primeiro passo antes de aplicar frações parciais?",
+      "alternativas": [
+        "Derivar a função",
+        "Fatorar o denominador",
+        "Integrar diretamente",
+        "Substituir x"
+      ],
+      "resposta": "Fatorar o denominador",
+      "explicacao": "A decomposição depende da fatoração do denominador."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o grau do numerador for maior ou igual ao do denominador, o que fazer?",
+      "alternativas": [
+        "Nada",
+        "Fatorar",
+        "Fazer divisão de polinômios",
+        "Aplicar substituição"
+      ],
+      "resposta": "Fazer divisão de polinômios",
+      "explicacao": "Precisamos deixar a fração própria antes de decompor."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma correta da decomposição de 1/(x² - 1)?",
+      "alternativas": [
+        "A/(x² - 1)",
+        "A/(x - 1) + B/(x + 1)",
+        "A/x² + B",
+        "A/(x - 1)² + B/(x + 1)"
+      ],
+      "resposta": "A/(x - 1) + B/(x + 1)",
+      "explicacao": "O denominador fatora em dois termos lineares distintos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de ∫ 1/(x² - 1) dx?",
+      "alternativas": [
+        "ln|x² - 1| + C",
+        "1/2 ln|(x - 1)/(x + 1)| + C",
+        "ln|x - 1| + ln|x + 1| + C",
+        "1/(x² - 1) + C"
+      ],
+      "resposta": "1/2 ln|(x - 1)/(x + 1)| + C",
+      "explicacao": "Resultado obtido após decomposição em frações parciais."
+    }
+  ]
+}
