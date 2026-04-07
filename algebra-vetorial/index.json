@@ -1,0 +1,15 @@
+{
+  "disciplina": "Algebra Vetorial",
+  "assuntos": [
+    {"titulo": "Vetores", "path": "01_vetores.json"},
+    {"titulo": "Produto Escalar", "path": "02_produto_escalar.json"},
+    {"titulo": "Produto Vetorial", "path": "03_produto_vetorial.json"},
+    {"titulo": "Produto Misto", "path": "04_produto_vetorial.json"},
+    {"titulo": "Retas", "path": "05_retas.json"},
+    {"titulo": "Função Afim", "path": "06_funcao_afim.json"},
+    {"titulo": "Função Quadrática", "path": "07_funcao_quadratica.json"},
+    {"titulo": "Gráficos de Funções", "path": "08_graficos_funcoes.json"},
+    {"titulo": "Função Exponencial", "path": "09_funcao_exponencial.json"},
+    {"titulo": "Função Logarítmica", "path": "10_funcao_logaritmica.json"}
+  ]
+}
