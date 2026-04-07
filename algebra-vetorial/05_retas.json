@@ -1,0 +1,50 @@
+{
+  "assunto": "Retas na Álgebra Vetorial",
+  "resumo": {
+    "definicao": "Uma reta no espaço é definida por um ponto e um vetor diretor.",
+    "elementos": {
+      "ponto": "Ponto pelo qual a reta passa (x0, y0, z0).",
+      "vetor_diretor": "Vetor que indica a direção da reta (a, b, c)."
+    },
+    "equacao_vetorial": "r(t) = (x0, y0, z0) + t(a, b, c)",
+    "equacoes_parametricas": {
+      "x": "x = x0 + at",
+      "y": "y = y0 + bt",
+      "z": "z = z0 + ct"
+    },
+    "equacao_simetrica": "(x - x0)/a = (y - y0)/b = (z - z0)/c",
+    "posicoes_relativas": {
+      "concorrentes": "As retas se intersectam em um ponto.",
+      "paralelas": "Vetores diretores proporcionais.",
+      "coincidentes": "São a mesma reta.",
+      "reversas": "Não são paralelas e não se intersectam."
+    },
+    "condicoes": [
+      "Paralelismo: vetores diretores proporcionais.",
+      "Interseção: sistema possui solução comum.",
+      "Reversas: não possuem solução e não são paralelas."
+    ]
+  },
+  "questoes": [
+    {
+      "nivel": "facil",
+      "enunciado": "Determine as equações paramétricas da reta que passa pelo ponto (1,2,3) e possui vetor diretor (2,-1,4)."
+    },
+    {
+      "nivel": "facil",
+      "enunciado": "Verifique se as retas r: (1,0,2) + t(2,4,6) e s: (0,1,3) + u(1,2,3) são paralelas."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Determine se as retas r: (1,2,3) + t(1,0,2) e s: (2,2,1) + u(0,1,1) se intersectam."
+    },
+    {
+      "nivel": "medio",
+      "enunciado": "Encontre a equação da reta que passa pelos pontos A(1,2,3) e B(4,0,1)."
+    },
+    {
+      "nivel": "dificil",
+      "enunciado": "Verifique a posição relativa entre as retas r: (1,0,1) + t(1,2,3) e s: (2,1,0) + u(2,4,6), classificando como paralelas, coincidentes ou reversas e justificando."
+    }
+  ]
+}
