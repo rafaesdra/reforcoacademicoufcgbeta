@@ -1,0 +1,103 @@
+{
+  "id": "integracao_substituicao",
+  "disciplina": "Cálculo II",
+  "assunto": "Técnicas de Integração — Substituição",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "A substituição é uma técnica usada para simplificar integrais, transformando uma expressão complicada em outra mais fácil de integrar.",
+
+    "explicacao": "A técnica de substituição (ou mudança de variável) é usada quando a integral possui uma função composta.\n\nA ideia é trocar uma parte da expressão por uma nova variável.\n\nSe temos:\n\n∫ f(g(x)) · g'(x) dx\n\nPodemos fazer:\n\nu = g(x)\n\nEntão:\n\ndu = g'(x) dx\n\nSubstituindo na integral:\n\n∫ f(u) du\n\nExemplo:\n\n∫ 2x · cos(x²) dx\n\nPasso 1: escolha da substituição\nu = x²\n\ndu = 2x dx\n\nPasso 2: substituir\n\n∫ cos(u) du\n\nPasso 3: integrar\n\nsen(u) + C\n\nPasso 4: voltar para x\n\nsen(x²) + C\n\nResultado final:\n\n∫ 2x · cos(x²) dx = sen(x²) + C\n\nA substituição funciona quando conseguimos identificar uma função interna e sua derivada multiplicando.",
+
+    "intuicao": "Substituição é como 'trocar uma expressão complicada por algo mais simples' para facilitar a integração.",
+
+    "analogia": "Imagine resolver uma conta enorme com um nome complicado. Em vez de escrever tudo, você chama de 'u'. Resolve mais fácil e depois volta ao nome original.",
+
+    "aplicacoes": [
+      "Integração de funções compostas",
+      "Cálculo de áreas",
+      "Problemas de física com variáveis relacionadas",
+      "Resolução de integrais mais complexas"
+    ],
+
+    "erros_comuns": [
+      "Escolher uma substituição que não simplifica a integral",
+      "Esquecer de substituir o dx corretamente",
+      "Não voltar para a variável original no final",
+      "Ignorar a constante de integração"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o objetivo da substituição em integrais?",
+      "alternativas": [
+        "Deixar a integral mais difícil",
+        "Transformar a integral em uma forma mais simples",
+        "Eliminar a constante",
+        "Resolver derivadas"
+      ],
+      "resposta": "Transformar a integral em uma forma mais simples",
+      "explicacao": "A substituição facilita a resolução ao simplificar a expressão."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na substituição u = g(x), o que representa du?",
+      "alternativas": [
+        "g(x)",
+        "dx",
+        "g'(x) dx",
+        "u²"
+      ],
+      "resposta": "g'(x) dx",
+      "explicacao": "du é a derivada de g(x) multiplicada por dx."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual substituição é mais adequada para ∫ 2x·e^(x²) dx?",
+      "alternativas": [
+        "u = 2x",
+        "u = x²",
+        "u = e^x",
+        "u = x"
+      ],
+      "resposta": "u = x²",
+      "explicacao": "A derivada de x² é 2x, que aparece na integral."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Após integrar em u, o que deve ser feito?",
+      "alternativas": [
+        "Parar",
+        "Derivar novamente",
+        "Voltar para a variável x",
+        "Multiplicar por x"
+      ],
+      "resposta": "Voltar para a variável x",
+      "explicacao": "O resultado final deve ser expresso na variável original."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ∫ cos(x²)·2x dx = sen(x²) + C, isso ocorre porque:",
+      "alternativas": [
+        "A integral é direta",
+        "A derivada de x² aparece na integral",
+        "cos(x²) é constante",
+        "sen(x²) é sempre solução"
+      ],
+      "resposta": "A derivada de x² aparece na integral",
+      "explicacao": "A presença de 2x permite usar substituição u = x²."
+    }
+  ]
+}
