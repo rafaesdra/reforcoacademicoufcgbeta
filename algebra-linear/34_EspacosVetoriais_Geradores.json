@@ -1,0 +1,100 @@
+{
+  "id": "geradores_espaco_vetorial",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Geradores de um espaço vetorial",
+  "ordem": 34,
+
+  "teoria": {
+    "resumo": "Um conjunto gerador é um conjunto de vetores capaz de gerar todo o espaço vetorial por combinações lineares.",
+
+    "explicacao": "Um conjunto de vetores é chamado de gerador de um espaço vetorial se qualquer vetor desse espaço pode ser escrito como combinação linear desses vetores.\n\nSe v1, v2, ..., vn geram o espaço V, então:\n\nQualquer vetor v ∈ V pode ser escrito como:\n\nv = k1·v1 + k2·v2 + ... + kn·vn\n\nExemplo em R²:\n\nv1 = (1,0)\nv2 = (0,1)\n\nQualquer vetor (x,y) pode ser escrito como:\n\nx(1,0) + y(0,1) = (x,y)\n\nLogo, {v1, v2} gera R².\n\nOutro exemplo:\n\nv1 = (1,1)\nv2 = (2,2)\n\nEsse conjunto NÃO gera R², pois os vetores são dependentes e só geram uma reta.\n\nIMPORTANTE:\n\n- Geradores não precisam ser independentes\n- Um conjunto gerador pode ter vetores redundantes\n\nO conjunto gerador é fundamental para entender como um espaço é construído.",
+
+    "intuicao": "Geradores são vetores que conseguem 'alcançar' qualquer ponto do espaço.",
+
+    "analogia": "É como um conjunto de peças que permite montar qualquer objeto dentro de um universo.",
+
+    "aplicacoes": [
+      "Construção de bases",
+      "Representação de espaços vetoriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir gerador com base",
+      "Achar que precisa ser independente",
+      "Não verificar se realmente gera todo o espaço"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é um conjunto gerador?",
+      "alternativas": [
+        "Conjunto que gera todo o espaço por combinações lineares",
+        "Conjunto de números",
+        "Conjunto de matrizes",
+        "Conjunto nulo"
+      ],
+      "resposta": "Conjunto que gera todo o espaço por combinações lineares",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (0,1) geram:",
+      "alternativas": [
+        "R²",
+        "R³",
+        "Apenas uma reta",
+        "Nada"
+      ],
+      "resposta": "R²",
+      "explicacao": "Eles permitem formar qualquer vetor do plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,1) e (2,2) geram:",
+      "alternativas": [
+        "Uma reta",
+        "R²",
+        "R³",
+        "Nada"
+      ],
+      "resposta": "Uma reta",
+      "explicacao": "São dependentes e não cobrem o plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um conjunto gerador precisa ser:",
+      "alternativas": [
+        "Não necessariamente independente",
+        "Sempre independente",
+        "Sempre ortogonal",
+        "Sempre unitário"
+      ],
+      "resposta": "Não necessariamente independente",
+      "explicacao": "Pode haver redundância."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos vetores são necessários no mínimo para gerar R³?",
+      "alternativas": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "resposta": "3",
+      "explicacao": "Precisamos de pelo menos 3 vetores independentes."
+    }
+  ]
+}
