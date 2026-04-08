@@ -1,0 +1,100 @@
+{
+  "id": "sistemas_equacoes_lineares",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Sistemas de equações lineares",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "Um sistema de equações lineares é um conjunto de equações que devem ser satisfeitas simultaneamente.",
+
+    "explicacao": "Um sistema de equações lineares é formado por duas ou mais equações com as mesmas variáveis.\n\nExemplo:\n\nx + y = 5\n2x - y = 1\n\nA solução do sistema é o conjunto de valores das variáveis que satisfaz todas as equações ao mesmo tempo.\n\nTIPOS DE SISTEMAS:\n\n1) Sistema possível e determinado (SPD):\nPossui uma única solução\n\n2) Sistema possível e indeterminado (SPI):\nPossui infinitas soluções\n\n3) Sistema impossível (SI):\nNão possui solução\n\nINTERPRETAÇÃO GEOMÉTRICA:\n\n- No plano: cada equação representa uma reta\n- No espaço: representa planos\n\nCasos:\n\n- Retas que se cruzam → uma solução\n- Retas coincidentes → infinitas soluções\n- Retas paralelas → nenhuma solução\n\nFORMA MATRICIAL:\n\nUm sistema pode ser escrito como:\n\nA · X = B\n\nOnde:\n- A é a matriz dos coeficientes\n- X é o vetor das variáveis\n- B é o vetor dos termos independentes\n\nEsse formato é muito importante para métodos mais avançados como Gauss.",
+
+    "intuicao": "Resolver um sistema é encontrar um ponto que satisfaz todas as equações ao mesmo tempo.",
+
+    "analogia": "Imagine várias condições que precisam ser verdadeiras ao mesmo tempo — a solução é o único valor que atende todas elas.",
+
+    "aplicacoes": [
+      "Modelagem de problemas reais com múltiplas variáveis",
+      "Cálculos em engenharia e física"
+    ],
+
+    "erros_comuns": [
+      "Resolver apenas uma equação e ignorar as outras",
+      "Confundir tipos de sistemas",
+      "Errar interpretação geométrica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é um sistema de equações lineares?",
+      "alternativas": [
+        "Conjunto de equações com mesmas variáveis",
+        "Uma única equação",
+        "Uma matriz",
+        "Um vetor"
+      ],
+      "resposta": "Conjunto de equações com mesmas variáveis",
+      "explicacao": "Sistema envolve mais de uma equação com variáveis em comum."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um sistema com uma única solução é chamado de:",
+      "alternativas": [
+        "SPD",
+        "SPI",
+        "SI",
+        "SPN"
+      ],
+      "resposta": "SPD",
+      "explicacao": "Sistema possível e determinado."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de sistema possui infinitas soluções?",
+      "alternativas": [
+        "SPI",
+        "SPD",
+        "SI",
+        "Nenhum"
+      ],
+      "resposta": "SPI",
+      "explicacao": "Sistema possível e indeterminado."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Geometricamente, duas retas paralelas representam:",
+      "alternativas": [
+        "Sistema impossível",
+        "Sistema determinado",
+        "Sistema indeterminado",
+        "Sistema linear dependente"
+      ],
+      "resposta": "Sistema impossível",
+      "explicacao": "Retas paralelas não se cruzam."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na forma A·X = B, o que representa X?",
+      "alternativas": [
+        "Vetor das variáveis",
+        "Matriz dos coeficientes",
+        "Resultado do sistema",
+        "Determinante"
+      ],
+      "resposta": "Vetor das variáveis",
+      "explicacao": "X contém as incógnitas do sistema."
+    }
+  ]
+}
