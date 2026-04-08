@@ -1,0 +1,100 @@
+{
+  "id": "classificacao_si",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Classificação dos sistemas: impossível (SI)",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "Um sistema impossível é aquele que não possui nenhuma solução.",
+
+    "explicacao": "Um sistema linear é classificado como SI (Sistema Impossível) quando não existe nenhum conjunto de valores que satisfaça todas as equações simultaneamente.\n\nIsso ocorre quando há contradição entre as equações.\n\nExemplo:\n\nx + y = 2\nx + y = 5\n\nAs equações são incompatíveis, pois representam a mesma reta deslocada.\n\nOutro exemplo:\n\nx + y = 3\n2x + 2y = 8\n\nDividindo a segunda equação por 2:\nx + y = 4\n\nTemos:\nx + y = 3\nx + y = 4\n\nContradição → sem solução\n\nCONDIÇÃO IMPORTANTE:\n\nDet(A) = 0\n\nMas o sistema é inconsistente (não possui solução).\n\nINTERPRETAÇÃO GEOMÉTRICA:\n\n- No plano: retas paralelas distintas\n- No espaço: planos paralelos\n\nNão existe ponto de interseção.\n\nEsse tipo de sistema ocorre quando há conflito entre as equações.",
+
+    "intuicao": "As equações se contradizem, tornando impossível encontrar uma solução comum.",
+
+    "analogia": "É como tentar encontrar um número que seja 2 e 5 ao mesmo tempo — impossível.",
+
+    "aplicacoes": [
+      "Identificação de inconsistências em modelos matemáticos",
+      "Análise de sistemas incompatíveis"
+    ],
+
+    "erros_comuns": [
+      "Confundir com sistema SPI",
+      "Achar que det = 0 sempre implica infinitas soluções",
+      "Não perceber a contradição nas equações"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza um sistema SI?",
+      "alternativas": [
+        "Nenhuma solução",
+        "Uma solução",
+        "Infinitas soluções",
+        "Duas soluções"
+      ],
+      "resposta": "Nenhuma solução",
+      "explicacao": "SI significa sistema impossível."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Geometricamente, um sistema impossível representa:",
+      "alternativas": [
+        "Retas paralelas",
+        "Retas coincidentes",
+        "Retas que se cruzam",
+        "Pontos únicos"
+      ],
+      "resposta": "Retas paralelas",
+      "explicacao": "Retas paralelas não se encontram."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas equações são contraditórias, o sistema é:",
+      "alternativas": [
+        "SI",
+        "SPD",
+        "SPI",
+        "Indeterminado"
+      ],
+      "resposta": "SI",
+      "explicacao": "Contradição implica ausência de solução."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor do determinante em um sistema SI?",
+      "alternativas": [
+        "0",
+        "1",
+        "-1",
+        "Diferente de zero"
+      ],
+      "resposta": "0",
+      "explicacao": "Assim como no SPI, det = 0, mas aqui o sistema é inconsistente."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a classificação do sistema x + y = 1 e x + y = 3?",
+      "alternativas": [
+        "SI",
+        "SPD",
+        "SPI",
+        "Indeterminado"
+      ],
+      "resposta": "SI",
+      "explicacao": "As equações são incompatíveis, logo não há solução."
+    }
+  ]
+}
