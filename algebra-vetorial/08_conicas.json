@@ -1,0 +1,99 @@
+{
+  "id": "conicas_algebra_vetorial",
+  "disciplina": "Matemática",
+  "assunto": "Cônicas em Álgebra Vetorial",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Cônicas são curvas definidas por equações do segundo grau que representam circunferência, elipse, parábola e hipérbole.",
+
+    "explicacao": "As cônicas são curvas obtidas da interseção de um plano com um cone duplo e podem ser descritas por equações de segundo grau.\n\nA circunferência é o conjunto de pontos equidistantes de um centro, dada por (x - a)^2 + (y - b)^2 = r^2.\n\nA elipse é o conjunto de pontos cuja soma das distâncias a dois focos é constante, com equação (x - a)^2/A^2 + (y - b)^2/B^2 = 1.\n\nA parábola é o conjunto de pontos equidistantes de um foco e uma diretriz, geralmente escrita como y = a(x - h)^2.\n\nA hipérbole é o conjunto de pontos cuja diferença das distâncias a dois focos é constante, dada por (x - a)^2/A^2 - (y - b)^2/B^2 = 1.\n\nNa forma geral Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0, usamos o discriminante B^2 - 4AC para classificar a cônica.\n\nSe B = 0, a cônica não é rotacionada. Se B ≠ 0, há rotação do eixo.",
+
+    "intuicao": "Cada cônica pode ser entendida como uma regra de distância: manter uma distância fixa, soma ou diferença de distâncias.",
+
+    "analogia": "Imagine prender um barbante em dois pontos (focos) e desenhar mantendo-o esticado: você forma uma elipse.",
+
+    "aplicacoes": [
+      "Órbitas de planetas (elipses)",
+      "Antenas parabólicas e refletores"
+    ],
+
+    "erros_comuns": [
+      "Confundir elipse com circunferência",
+      "Não verificar o termo Bxy na classificação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a cônica representada por x^2 + y^2 = 16?",
+      "alternativas": [
+        "Parábola",
+        "Elipse",
+        "Circunferência",
+        "Hipérbole"
+      ],
+      "resposta": "Circunferência",
+      "explicacao": "A equação x^2 + y^2 = r^2 representa uma circunferência com centro na origem e raio 4."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o centro da circunferência (x - 2)^2 + (y + 3)^2 = 9?",
+      "alternativas": [
+        "(2, -3)",
+        "(-2, 3)",
+        "(3, -2)",
+        "(0, 0)"
+      ],
+      "resposta": "(2, -3)",
+      "explicacao": "A forma padrão é (x - a)^2 + (y - b)^2, então o centro é (2, -3)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação 4x^2 + 9y^2 = 36 representa qual cônica?",
+      "alternativas": [
+        "Circunferência",
+        "Elipse",
+        "Parábola",
+        "Hipérbole"
+      ],
+      "resposta": "Elipse",
+      "explicacao": "Dividindo por 36, temos x^2/9 + y^2/4 = 1, que é a forma padrão de uma elipse."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A parábola y = 2x^2 tem qual característica?",
+      "alternativas": [
+        "Abre para baixo",
+        "Abre para a esquerda",
+        "Abre para cima",
+        "É uma reta"
+      ],
+      "resposta": "Abre para cima",
+      "explicacao": "Como o coeficiente de x^2 é positivo, a parábola abre para cima."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x^2 - 4xy + y^2 = 1 representa qual tipo de cônica?",
+      "alternativas": [
+        "Elipse",
+        "Parábola",
+        "Hipérbole",
+        "Circunferência"
+      ],
+      "resposta": "Hipérbole",
+      "explicacao": "Como há termo xy, existe rotação. Calculando o discriminante: B^2 - 4AC = (-4)^2 - 4(1)(1) = 16 - 4 = 12 > 0, logo é uma hipérbole."
+    }
+  ]
+}
