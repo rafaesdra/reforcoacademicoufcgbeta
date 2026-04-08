@@ -1,0 +1,100 @@
+{
+  "id": "angulo_entre_vetores",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Ângulo entre vetores",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "O ângulo entre vetores mede a inclinação entre eles e é calculado a partir do produto escalar.",
+
+    "explicacao": "O ângulo entre dois vetores pode ser encontrado utilizando o produto escalar.\n\nA fórmula principal é:\n\ncos(θ) = (v · u) / (|v| * |u|)\n\nOnde:\n- v · u é o produto escalar\n- |v| e |u| são os módulos dos vetores\n- θ é o ângulo entre eles\n\nPasso a passo:\n\n1) Calcular o produto escalar\n2) Calcular o módulo de cada vetor\n3) Substituir na fórmula\n4) Aplicar o arco cosseno (arccos)\n\nExemplo:\nv = (1,0) e u = (1,1)\n\nProduto escalar:\nv · u = 1*1 + 0*1 = 1\n\nMódulos:\n|v| = 1\n|u| = sqrt(2)\n\ncos(θ) = 1 / sqrt(2)\n\nθ = 45°\n\nCasos importantes:\n\n1) θ = 0° → vetores paralelos (mesma direção)\n2) θ = 90° → vetores perpendiculares\n3) θ = 180° → vetores opostos\n\nEsse conceito é muito importante para entender alinhamento e projeção de vetores.",
+
+    "intuicao": "O ângulo mostra o quanto dois vetores estão apontando na mesma direção.",
+
+    "analogia": "Imagine duas setas: o ângulo entre elas indica o quanto elas estão 'abrindo' uma em relação à outra.",
+
+    "aplicacoes": [
+      "Determinar alinhamento entre forças",
+      "Cálculo de similaridade em machine learning"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir pelo produto dos módulos",
+      "Não aplicar o arccos para encontrar o ângulo",
+      "Confundir radianos com graus"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre dois vetores é zero, qual é o ângulo entre eles?",
+      "alternativas": [
+        "90°",
+        "0°",
+        "180°",
+        "45°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar zero indica vetores perpendiculares, ou seja, 90°."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre vetores paralelos com mesmo sentido?",
+      "alternativas": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "resposta": "0°",
+      "explicacao": "Vetores com mesma direção e sentido formam ângulo zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o cosseno do ângulo entre (1,0) e (0,1)?",
+      "alternativas": [
+        "0",
+        "1",
+        "-1",
+        "1/2"
+      ],
+      "resposta": "0",
+      "explicacao": "Produto escalar é zero, então cos(θ)=0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se cos(θ) = -1, qual é o ângulo θ?",
+      "alternativas": [
+        "180°",
+        "0°",
+        "90°",
+        "45°"
+      ],
+      "resposta": "180°",
+      "explicacao": "Cosseno igual a -1 corresponde a 180°."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre os vetores (1,1) e (1,-1)?",
+      "alternativas": [
+        "90°",
+        "45°",
+        "60°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar: 1*1 + 1*(-1) = 0, então são perpendiculares."
+    }
+  ]
+}
