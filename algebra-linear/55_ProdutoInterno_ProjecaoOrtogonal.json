@@ -1,0 +1,100 @@
+{
+  "id": "projecao_ortogonal",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Projeção ortogonal",
+  "ordem": 55,
+
+  "teoria": {
+    "resumo": "A projeção ortogonal é a representação de um vetor sobre outro, indicando sua componente na mesma direção.",
+
+    "explicacao": "A projeção ortogonal de um vetor u sobre um vetor v é o vetor que representa a 'sombra' de u na direção de v.\n\nFórmula:\n\nproj_v(u) = (⟨u, v⟩ / ⟨v, v⟩) · v\n\nExemplo:\n\nu = (2,3)\nv = (1,0)\n\n⟨u,v⟩ = 2·1 + 3·0 = 2\n⟨v,v⟩ = 1\n\nproj_v(u) = 2 · (1,0) = (2,0)\n\nINTERPRETAÇÃO:\n\n- A projeção mostra quanto de u está na direção de v\n- O restante é perpendicular a v\n\nDECOMPOSIÇÃO:\n\nTodo vetor pode ser escrito como:\n\nu = proj_v(u) + componente ortogonal\n\nIMPORTANTE:\n\n- Se v é unitário:\n\nproj_v(u) = ⟨u, v⟩ v\n\n- Muito usado em decomposição de vetores\n\nGEOMETRICAMENTE:\n\nÉ como projetar uma sombra de um vetor sobre uma reta.\n\nEsse conceito é essencial para mínimos quadrados e Gram-Schmidt.",
+
+    "intuicao": "A projeção mede quanto de um vetor está alinhado com outro.",
+
+    "analogia": "É como a sombra de um objeto projetada em uma direção específica.",
+
+    "aplicacoes": [
+      "Método dos mínimos quadrados",
+      "Processo de ortogonalização (Gram-Schmidt)"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir por ⟨v,v⟩",
+      "Trocar ordem dos vetores",
+      "Confundir projeção com componente ortogonal"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é projeção ortogonal?",
+      "alternativas": [
+        "A componente de um vetor na direção de outro",
+        "Produto vetorial",
+        "Norma de um vetor",
+        "Soma de vetores"
+      ],
+      "resposta": "A componente de um vetor na direção de outro",
+      "explicacao": "Representa o quanto um vetor aponta na direção do outro."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da projeção?",
+      "alternativas": [
+        "(⟨u,v⟩ / ⟨v,v⟩) v",
+        "⟨u,v⟩ v",
+        "u + v",
+        "u × v"
+      ],
+      "resposta": "(⟨u,v⟩ / ⟨v,v⟩) v",
+      "explicacao": "Essa é a fórmula geral."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v é unitário, a projeção é:",
+      "alternativas": [
+        "⟨u,v⟩ v",
+        "u + v",
+        "u - v",
+        "v / u"
+      ],
+      "resposta": "⟨u,v⟩ v",
+      "explicacao": "Simplificação da fórmula."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A projeção de (2,3) sobre (1,0) é:",
+      "alternativas": [
+        "(2,0)",
+        "(0,3)",
+        "(2,3)",
+        "(1,0)"
+      ],
+      "resposta": "(2,0)",
+      "explicacao": "Apenas a componente em x."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A projeção ajuda a decompor um vetor em:",
+      "alternativas": [
+        "Componente paralela e perpendicular",
+        "Soma e produto",
+        "Escalar e vetor",
+        "Linha e coluna"
+      ],
+      "resposta": "Componente paralela e perpendicular",
+      "explicacao": "Essa é a interpretação geométrica."
+    }
+  ]
+}
