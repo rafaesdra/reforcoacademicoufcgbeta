@@ -1,0 +1,99 @@
+{
+  "id": "matriz_identidade",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Matriz identidade",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "A matriz identidade é uma matriz quadrada com 1 na diagonal principal e 0 nos demais elementos.",
+
+    "explicacao": "A matriz identidade é um tipo especial de matriz quadrada.\n\nEla possui as seguintes características:\n- Elementos da diagonal principal são iguais a 1\n- Todos os outros elementos são iguais a 0\n\nExemplo 2x2:\n[ 1  0 ]\n[ 0  1 ]\n\nExemplo 3x3:\n[ 1  0  0 ]\n[ 0  1  0 ]\n[ 0  0  1 ]\n\nA matriz identidade é representada por I.\n\nPropriedade fundamental:\n\nPara qualquer matriz A compatível:\nA · I = I · A = A\n\nOu seja, a matriz identidade funciona como o número 1 na multiplicação.\n\nEla também é usada em:\n- Cálculo de matriz inversa\n- Sistemas lineares\n- Transformações lineares\n\nA ordem da matriz identidade deve ser compatível com a matriz com a qual está sendo multiplicada.",
+
+    "intuicao": "A matriz identidade é como 'não fazer nada' em uma transformação.",
+
+    "analogia": "Assim como multiplicar um número por 1 não muda seu valor, multiplicar uma matriz pela identidade não altera a matriz.",
+
+    "aplicacoes": [
+      "Cálculo de matrizes inversas",
+      "Representação de transformações que não alteram o objeto"
+    ],
+
+    "erros_comuns": [
+      "Confundir matriz identidade com matriz diagonal qualquer",
+      "Usar matriz identidade de ordem incompatível na multiplicação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das matrizes abaixo é uma matriz identidade 2x2?",
+      "alternativas": [
+        "[[1,0],[0,1]]",
+        "[[1,1],[0,1]]",
+        "[[0,1],[1,0]]",
+        "[[1,0],[1,0]]"
+      ],
+      "resposta": "[[1,0],[0,1]]",
+      "explicacao": "A matriz identidade tem 1 na diagonal principal e 0 fora dela."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de A · I?",
+      "alternativas": [
+        "A",
+        "I",
+        "0",
+        "Depende de A"
+      ],
+      "resposta": "A",
+      "explicacao": "Multiplicar por I não altera a matriz."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a matriz identidade de ordem 3?",
+      "alternativas": [
+        "[[1,0,0],[0,1,0],[0,0,1]]",
+        "[[1,1,1],[1,1,1],[1,1,1]]",
+        "[[0,0,0],[0,0,0],[0,0,0]]",
+        "[[1,0,1],[0,1,0],[1,0,1]]"
+      ],
+      "resposta": "[[1,0,0],[0,1,0],[0,0,1]]",
+      "explicacao": "A matriz identidade tem 1 apenas na diagonal principal."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade define a matriz identidade?",
+      "alternativas": [
+        "A · I = A",
+        "A + I = I",
+        "A · I = 0",
+        "I + I = A"
+      ],
+      "resposta": "A · I = A",
+      "explicacao": "Ela funciona como elemento neutro da multiplicação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A é uma matriz 3x2, qual deve ser a ordem da matriz identidade I para que A · I esteja definida?",
+      "alternativas": [
+        "2x2",
+        "3x3",
+        "2x3",
+        "3x2"
+      ],
+      "resposta": "2x2",
+      "explicacao": "Para A(3x2) · I ser possível, I deve ser 2x2."
+    }
+  ]
+}
