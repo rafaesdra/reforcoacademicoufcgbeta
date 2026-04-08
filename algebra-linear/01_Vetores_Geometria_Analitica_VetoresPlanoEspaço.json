@@ -1,0 +1,99 @@
+{
+  "id": "vetores_plano_espaco",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Vetores no plano e no espaço",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Vetores representam grandezas com direção e sentido no plano (R²) e no espaço (R³).",
+
+    "explicacao": "Vetores são entidades matemáticas que possuem módulo (tamanho), direção e sentido.\n\nNo plano (R²), um vetor é representado por um par ordenado (x, y).\nExemplo: v = (3, 4).\n\nNo espaço (R³), um vetor é representado por um trio ordenado (x, y, z).\nExemplo: v = (1, 2, 3).\n\nPodemos interpretar vetores como deslocamentos a partir da origem.\n\nOperações importantes:\n\n1) Soma de vetores:\nSomamos componente a componente.\nExemplo: (1,2) + (3,4) = (4,6)\n\n2) Multiplicação por escalar:\nMultiplicamos cada componente por um número.\nExemplo: 2*(1,2) = (2,4)\n\n3) Vetor posição:\nDado um ponto A(x,y), o vetor posição é o vetor que vai da origem até esse ponto.\n\n4) Vetor entre dois pontos:\nSe A(x1,y1) e B(x2,y2), então:\nAB = (x2 - x1, y2 - y1)\n\nNo espaço, o raciocínio é o mesmo, apenas adicionando a coordenada z.\n\nEsses conceitos são fundamentais para geometria, física e computação.",
+
+    "intuicao": "Um vetor pode ser visto como uma seta que indica para onde ir e quanto andar.",
+
+    "analogia": "Imagine um mapa: um vetor é como uma instrução 'ande 3 passos para a direita e 2 para cima'.",
+
+    "aplicacoes": [
+      "Movimento em física (velocidade e força)",
+      "Computação gráfica e jogos 3D"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor com ponto",
+      "Errar o sinal ao calcular vetor entre dois pontos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor resultante da soma (2,3) + (1,4)?",
+      "alternativas": [
+        "(3,7)",
+        "(2,7)",
+        "(3,6)",
+        "(1,7)"
+      ],
+      "resposta": "(3,7)",
+      "explicacao": "Somamos componente a componente: 2+1=3 e 3+4=7."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de 3*(1, -2)?",
+      "alternativas": [
+        "(3, -6)",
+        "(3, -2)",
+        "(1, -6)",
+        "(4, -2)"
+      ],
+      "resposta": "(3, -6)",
+      "explicacao": "Multiplicamos cada componente por 3: 1*3=3 e -2*3=-6."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados os pontos A(1,2) e B(4,6), qual é o vetor AB?",
+      "alternativas": [
+        "(3,4)",
+        "(5,8)",
+        "(−3,−4)",
+        "(4,6)"
+      ],
+      "resposta": "(3,4)",
+      "explicacao": "AB = (4-1, 6-2) = (3,4)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual vetor no espaço corresponde a (1,2,3) + (2,1,1)?",
+      "alternativas": [
+        "(3,3,4)",
+        "(2,3,4)",
+        "(3,2,4)",
+        "(1,3,4)"
+      ],
+      "resposta": "(3,3,4)",
+      "explicacao": "Somamos componente a componente: (1+2, 2+1, 3+1) = (3,3,4)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados A(2, -1, 3) e B(5, 3, 7), qual é o vetor AB?",
+      "alternativas": [
+        "(3,4,4)",
+        "(7,2,10)",
+        "(−3,−4,−4)",
+        "(5,3,7)"
+      ],
+      "resposta": "(3,4,4)",
+      "explicacao": "AB = (5-2, 3-(-1), 7-3) = (3,4,4)."
+    }
+  ]
+}
