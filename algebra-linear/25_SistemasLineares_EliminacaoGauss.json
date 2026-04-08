@@ -1,0 +1,100 @@
+{
+  "id": "eliminacao_gauss",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Método de Eliminação de Gauss",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "A Eliminação de Gauss transforma um sistema em forma triangular para facilitar a resolução.",
+
+    "explicacao": "O método de Eliminação de Gauss consiste em transformar um sistema linear em um sistema equivalente mais simples (forma triangular), usando operações elementares.\n\nPasso a passo:\n\n1) Escrever o sistema na forma de matriz aumentada\n2) Aplicar operações elementares nas linhas:\n   - Trocar linhas\n   - Multiplicar uma linha por um escalar\n   - Somar múltiplos de uma linha a outra\n\n3) Zerar os elementos abaixo da diagonal principal\n4) Resolver o sistema por substituição regressiva\n\nExemplo:\n\nSistema:\nx + y = 5\n2x + y = 7\n\nMatriz aumentada:\n[ 1  1 | 5 ]\n[ 2  1 | 7 ]\n\nEliminando:\nL2 = L2 - 2L1\n\n[ 1  1 | 5 ]\n[ 0 -1 | -3 ]\n\nAgora resolvemos:\n- y = 3 → y = 3\n\nSubstituindo:\nx + 3 = 5 → x = 2\n\nSolução: (2,3)\n\nEsse método pode ser usado em sistemas com várias equações e variáveis.",
+
+    "intuicao": "Transformamos o sistema em um formato mais simples, eliminando variáveis passo a passo.",
+
+    "analogia": "É como organizar uma bagunça em etapas, simplificando até chegar a algo fácil de resolver.",
+
+    "aplicacoes": [
+      "Resolução de sistemas grandes",
+      "Base para métodos computacionais em álgebra linear"
+    ],
+
+    "erros_comuns": [
+      "Errar operações com sinais",
+      "Não aplicar corretamente operações nas linhas",
+      "Esquecer da substituição regressiva"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o objetivo da Eliminação de Gauss?",
+      "alternativas": [
+        "Transformar o sistema em forma triangular",
+        "Somar equações",
+        "Calcular determinantes",
+        "Encontrar matriz identidade"
+      ],
+      "resposta": "Transformar o sistema em forma triangular",
+      "explicacao": "Isso facilita a resolução."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual operação NÃO é permitida?",
+      "alternativas": [
+        "Multiplicar apenas um elemento",
+        "Trocar linhas",
+        "Multiplicar linha por escalar",
+        "Somar linhas"
+      ],
+      "resposta": "Multiplicar apenas um elemento",
+      "explicacao": "As operações devem envolver linhas inteiras."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o próximo passo após triangular o sistema?",
+      "alternativas": [
+        "Substituição regressiva",
+        "Somar linhas",
+        "Multiplicar matrizes",
+        "Calcular determinante"
+      ],
+      "resposta": "Substituição regressiva",
+      "explicacao": "Resolve-se de baixo para cima."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa zerar abaixo da diagonal?",
+      "alternativas": [
+        "Transformar elementos abaixo da diagonal em zero",
+        "Eliminar a diagonal",
+        "Trocar colunas",
+        "Somar matriz"
+      ],
+      "resposta": "Transformar elementos abaixo da diagonal em zero",
+      "explicacao": "Isso cria a forma triangular."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução do sistema x + y = 4 e 2x + 3y = 9 usando Gauss?",
+      "alternativas": [
+        "(3,1)",
+        "(1,3)",
+        "(2,2)",
+        "(4,0)"
+      ],
+      "resposta": "(3,1)",
+      "explicacao": "Eliminando: L2 = L2 - 2L1 → y=1 → x=3."
+    }
+  ]
+}
