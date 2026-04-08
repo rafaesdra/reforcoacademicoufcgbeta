@@ -1,0 +1,37 @@
+{
+  "disciplina": "Álgebra Linear",
+  "assuntos": [
+    {"titulo": "Vetores e Geometria Analítica - Vetores no Plano e no Espaço", "path": "01_Vetores_Geometria_Analitica_VetoresPlanoEspaço.json"},
+    {"titulo": "Vetores e Geometria Analítica - Operações com Vetores", "path": "02_Vetores_Geometria_Analitica_OperacoesVetores.json"},
+    {"titulo": "Vetores e Geometria Analítica - Norma de um Vetor", "path": "03_Vetores_Geometria_Analitica_NormaVetor.json"},
+    {"titulo": "Vetores e Geometria Analítica - Produto Escalar", "path": "04_Vetores_Geometria_Analitica_ProdutoEscalar.json"},
+    {"titulo": "Vetores e Geometria Analítica - Produto Vetorial", "path": "05_Vetores_Geometria_Analitica_ProdutoVetorial.json"},
+    {"titulo": "Vetores e Geometria Analítica - Ângulo entre Vetores", "path": "06_Vetores_Geometria_Analitica_AnguloEntreVetores.json"},
+    {"titulo": "Vetores e Geometria Analítica - Equações de Retas e Planos", "path": "07_Vetores_Geometria_Analitica_EquacoesRetasPlanos.json"},
+
+    {"titulo": "Matrizes - Matriz Quadrada", "path": "08_Matrizes_MatrizQuadrada.json"},
+    {"titulo": "Matrizes - Matriz Identidade", "path": "09_Matrizes_MatrizIdentidade.json"},
+    {"titulo": "Matrizes - Matriz Nula", "path": "10_Matrizes_MatrizNula.json"},
+    {"titulo": "Matrizes - Matriz Diagonal", "path": "11_Matrizes_MatrizDiagonal.json"},
+    {"titulo": "Matrizes - Matriz Triangular", "path": "12_Matrizes_MatrizTriangular.json"},
+    {"titulo": "Matrizes - Operações: Soma e Subtração", "path": "13_Matrizes_Operacoes_SomaSubtracao.json"},
+    {"titulo": "Matrizes - Operações: Multiplicação por Escalar", "path": "14_Matrizes_Operacoes_MultiplicacaoEscalar.json"},
+    {"titulo": "Matrizes - Operações: Multiplicação de Matrizes", "path": "15_Matrizes_Operacoes_MultiplicacaoMatrizes.json"},
+    {"titulo": "Matrizes - Transposta de uma Matriz", "path": "16_Matrizes_Transposta.json"},
+
+    {"titulo": "Determinantes - Determinante 2x2 e 3x3", "path": "17_Determinantes_Det2x2_3x3.json"},
+    {"titulo": "Determinantes - Regra de Sarrus", "path": "18_Determinantes_RegraSarrus.json"},
+    {"titulo": "Determinantes - Expansão de Laplace", "path": "19_Determinantes_ExpansaoLaplace.json"},
+    {"titulo": "Determinantes - Propriedades dos Determinantes", "path": "20_Determinantes_Propriedades.json"},
+    {"titulo": "Determinantes - Relação com Área e Volume", "path": "21_Determinantes_AreaVolume.json"},
+
+    {"titulo": "Sistemas Lineares - Sistemas de Equações Lineares", "path": "22_SistemasLineares_SistemasEquacoesLineares.json"},
+    {"titulo": "Sistemas Lineares - Método da Substituição", "path": "23_SistemasLineares_MetodoSubstituicao.json"},
+    {"titulo": "Sistemas Lineares - Método da Adição (Eliminação)", "path": "24_SistemasLineares_MetodoAdicao.json"},
+    {"titulo": "Sistemas Lineares - Eliminação de Gauss", "path": "25_SistemasLineares_EliminacaoGauss.json"},
+    {"titulo": "Sistemas Lineares - Regra de Cramer", "path": "26_SistemasLineares_RegraCramer.json"},
+    {"titulo": "Sistemas Lineares - Classificação: Sistema Possível e Determinado (SPD)", "path": "27_SistemasLineares_Classificacao_SPD.json"},
+    {"titulo": "Sistemas Lineares - Classificação: Sistema Possível e Indeterminado (SPI)", "path": "28_SistemasLineares_Classificacao_SPI.json"},
+    {"titulo": "Sistemas Lineares - Classificação: Sistema Impossível (SI)", "path": "29_SistemasLineares_Classificacao_SI.json"}
+  ]
+}
