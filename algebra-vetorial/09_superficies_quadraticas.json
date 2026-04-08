@@ -1,0 +1,99 @@
+{
+  "id": "superficies_quadraticas",
+  "disciplina": "Matemática",
+  "assunto": "Superfícies Quadráticas em Álgebra Vetorial",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Superfícies quadráticas são superfícies no espaço tridimensional descritas por equações de segundo grau em x, y e z.",
+
+    "explicacao": "As superfícies quadráticas são extensões das cônicas para três dimensões e são descritas por equações do tipo Ax^2 + By^2 + Cz^2 + Dxy + Exz + Fyz + Gx + Hy + Iz + J = 0.\n\nEntre as principais superfícies estão o elipsoide, paraboloides e hiperboloides.\n\nO elipsoide tem forma semelhante a uma esfera deformada e é dado por x^2/a^2 + y^2/b^2 + z^2/c^2 = 1.\n\nO paraboloide elíptico tem formato de tigela e é descrito por z = x^2/a^2 + y^2/b^2.\n\nO paraboloide hiperbólico tem formato de sela e é dado por z = x^2/a^2 - y^2/b^2.\n\nOs hiperboloides podem ter uma folha (forma contínua) ou duas folhas (duas partes separadas), dependendo do sinal da equação.\n\nA análise dessas superfícies é feita frequentemente por cortes com planos, que geram curvas cônicas.",
+
+    "intuicao": "Cada superfície quadrática pode ser vista como uma versão 3D das cônicas, formando objetos como tigelas, esferas deformadas e selas.",
+
+    "analogia": "Imagine objetos do dia a dia: uma bola (elipsoide), uma tigela (paraboloide) e uma sela de cavalo (paraboloide hiperbólico).",
+
+    "aplicacoes": [
+      "Modelagem de superfícies em engenharia e arquitetura",
+      "Óptica e refletores parabólicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir paraboloide elíptico com hiperbólico",
+      "Não analisar os sinais da equação antes de classificar a superfície"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x^2 + y^2 + z^2 = 9 representa qual superfície?",
+      "alternativas": [
+        "Paraboloide",
+        "Elipsoide",
+        "Hiperboloide",
+        "Plano"
+      ],
+      "resposta": "Elipsoide",
+      "explicacao": "Essa equação representa uma esfera, que é um caso particular de elipsoide com todos os coeficientes iguais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A superfície z = x^2 + y^2 possui qual formato?",
+      "alternativas": [
+        "Sela",
+        "Plano",
+        "Tigela",
+        "Cilindro"
+      ],
+      "resposta": "Tigela",
+      "explicacao": "Como os termos são positivos, a superfície abre para cima formando um paraboloide elíptico em forma de tigela."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x^2/4 + y^2/9 - z^2/16 = 1 representa qual superfície?",
+      "alternativas": [
+        "Elipsoide",
+        "Paraboloide",
+        "Hiperboloide de uma folha",
+        "Hiperboloide de duas folhas"
+      ],
+      "resposta": "Hiperboloide de uma folha",
+      "explicacao": "Há dois termos positivos e um negativo igual a 1, caracterizando um hiperboloide de uma folha."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação z = x^2 - y^2 representa qual superfície?",
+      "alternativas": [
+        "Elipsoide",
+        "Paraboloide elíptico",
+        "Paraboloide hiperbólico",
+        "Plano"
+      ],
+      "resposta": "Paraboloide hiperbólico",
+      "explicacao": "A presença de sinais opostos nos termos quadráticos gera uma superfície em forma de sela, típica do paraboloide hiperbólico."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação 2x^2 + 3y^2 - z^2 = 6 pode ser classificada como:",
+      "alternativas": [
+        "Elipsoide",
+        "Paraboloide",
+        "Hiperboloide de uma folha",
+        "Hiperboloide de duas folhas"
+      ],
+      "resposta": "Hiperboloide de uma folha",
+      "explicacao": "Dividindo por 6, obtemos x^2/3 + y^2/2 - z^2/6 = 1, com dois termos positivos e um negativo, caracterizando um hiperboloide de uma folha."
+    }
+  ]
+}
