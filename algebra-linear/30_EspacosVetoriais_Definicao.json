@@ -1,0 +1,100 @@
+{
+  "id": "espacos_vetoriais_definicao",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Espaços vetoriais - definição",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "Um espaço vetorial é um conjunto de vetores que satisfaz certas propriedades de soma e multiplicação por escalar.",
+
+    "explicacao": "Um espaço vetorial é um conjunto V juntamente com duas operações:\n\n1) Soma de vetores\n2) Multiplicação por escalar\n\nPara que um conjunto seja um espaço vetorial, ele deve satisfazer algumas propriedades fundamentais.\n\nPrincipais propriedades:\n\n1) Fechamento na soma: se u e v estão em V, então u + v também está em V\n2) Fechamento por escalar: se v está em V e k é real, então k·v está em V\n3) Existência do vetor nulo: existe um vetor 0 tal que v + 0 = v\n4) Existência do oposto: para cada v existe -v tal que v + (-v) = 0\n5) Associatividade: (u + v) + w = u + (v + w)\n6) Comutatividade: u + v = v + u\n7) Distributividade: k(u + v) = ku + kv\n8) Compatibilidade escalar: (km)v = k(mv)\n\nExemplos de espaços vetoriais:\n\n- R² (plano)\n- R³ (espaço)\n- Conjunto de polinômios\n- Conjunto de matrizes\n\nExemplo em R²:\n\nu = (1,2), v = (3,4)\n\nu + v = (4,6) → ainda está em R²\n\n2u = (2,4) → ainda está em R²\n\nLogo, R² é um espaço vetorial.\n\nEsses conceitos são fundamentais para toda a Álgebra Linear.",
+
+    "intuicao": "Um espaço vetorial é um conjunto onde podemos somar vetores e multiplicá-los por números sem sair do conjunto.",
+
+    "analogia": "Imagine um universo onde qualquer combinação de movimentos ainda permanece dentro desse universo.",
+
+    "aplicacoes": [
+      "Modelagem matemática em diversas áreas",
+      "Base para transformações lineares e autovalores"
+    ],
+
+    "erros_comuns": [
+      "Achar que qualquer conjunto é espaço vetorial",
+      "Ignorar as propriedades necessárias",
+      "Confundir vetores com números comuns"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é necessário para um conjunto ser um espaço vetorial?",
+      "alternativas": [
+        "Satisfazer propriedades de soma e multiplicação por escalar",
+        "Ser apenas um conjunto de números",
+        "Ser uma matriz",
+        "Ser um vetor"
+      ],
+      "resposta": "Satisfazer propriedades de soma e multiplicação por escalar",
+      "explicacao": "Essas propriedades definem o espaço vetorial."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o elemento neutro da soma em um espaço vetorial?",
+      "alternativas": [
+        "Vetor nulo",
+        "Número 1",
+        "Matriz identidade",
+        "Escalar"
+      ],
+      "resposta": "Vetor nulo",
+      "explicacao": "v + 0 = v."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das opções é um exemplo de espaço vetorial?",
+      "alternativas": [
+        "R²",
+        "Conjunto de números negativos apenas",
+        "Conjunto de números naturais",
+        "Conjunto de números pares positivos"
+      ],
+      "resposta": "R²",
+      "explicacao": "R² satisfaz todas as propriedades."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa fechamento na soma?",
+      "alternativas": [
+        "A soma de dois vetores permanece no conjunto",
+        "Somar apenas números",
+        "Multiplicar vetores",
+        "Subtrair vetores"
+      ],
+      "resposta": "A soma de dois vetores permanece no conjunto",
+      "explicacao": "Resultado continua no espaço vetorial."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um conjunto não possui vetor nulo, ele é um espaço vetorial?",
+      "alternativas": [
+        "Não",
+        "Sim",
+        "Depende",
+        "Apenas em R²"
+      ],
+      "resposta": "Não",
+      "explicacao": "O vetor nulo é obrigatório."
+    }
+  ]
+}
