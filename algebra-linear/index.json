@@ -56,5 +56,22 @@
     {"titulo": "Autovalores e Autovetores - Cálculo de Autovalores", "path": "46_AutovaloresAutovetores_CalculoAutovalores.json"},
     {"titulo": "Autovalores e Autovetores - Autovetores Associados", "path": "47_AutovaloresAutovetores_AutovetoresAssociados.json"},
     {"titulo": "Autovalores e Autovetores - Interpretação Geométrica", "path": "48_AutovaloresAutovetores_InterpretacaoGeometrica.json"}
+
+    {"titulo": "Diagonalização de Matrizes - Matrizes Diagonalizáveis", "path": "49_Diagonalizacao_MatrizesDiagonalizaveis.json"},
+    {"titulo": "Diagonalização de Matrizes - Base de Autovetores", "path": "50_Diagonalizacao_BaseAutovetores.json"},
+    {"titulo": "Diagonalização de Matrizes - Forma Diagonal", "path": "51_Diagonalizacao_FormaDiagonal.json"},
+    {"titulo": "Diagonalização de Matrizes - Aplicações", "path": "52_Diagonalizacao_Aplicacoes.json"},
+
+    {"titulo": "Produtos Internos e Ortogonalidade - Produto Interno", "path": "53_ProdutoInterno_ProdutoInterno.json"},
+    {"titulo": "Produtos Internos e Ortogonalidade - Vetores Ortogonais", "path": "54_ProdutoInterno_VetoresOrtogonais.json"},
+    {"titulo": "Produtos Internos e Ortogonalidade - Projeção Ortogonal", "path": "55_ProdutoInterno_ProjecaoOrtogonal.json"},
+    {"titulo": "Produtos Internos e Ortogonalidade - Processo de Gram-Schmidt", "path": "56_ProdutoInterno_GramSchmidt.json"},
+  
+    {"titulo": "Espaços com Produto Interno - Bases Ortonormais", "path": "57_EspacosProdutoInterno_BasesOrtonormais.json"},
+    {"titulo": "Espaços com Produto Interno - Norma Induzida", "path": "58_EspacosProdutoInterno_NormaInduzida.json"},
+    {"titulo": "Espaços com Produto Interno - Distância", "path": "59_EspacosProdutoInterno_Distancia.json"},
+    {"titulo": "Espaços com Produto Interno - Desigualdade de Cauchy-Schwarz", "path": "60_EspacosProdutoInterno_CauchySchwarz.json"},
+    {"titulo": "Espaços com Produto Interno - Desigualdade Triangular", "path": "61_EspacosProdutoInterno_DesigualdadeTriangular.json"}
+
   ]
 }
