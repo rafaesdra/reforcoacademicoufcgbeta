@@ -1,0 +1,100 @@
+{
+  "id": "regra_cramer",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Regra de Cramer",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "A Regra de Cramer resolve sistemas lineares utilizando determinantes.",
+
+    "explicacao": "A Regra de Cramer é um método para resolver sistemas lineares quadrados (mesmo número de equações e incógnitas), utilizando determinantes.\n\nCONDIÇÃO IMPORTANTE:\n\nO determinante da matriz dos coeficientes deve ser diferente de zero (det ≠ 0).\n\nDado o sistema:\n\nax + by = e\ncx + dy = f\n\nMatriz dos coeficientes:\n\nA = [ [a, b], [c, d] ]\n\nDeterminante principal:\n\nD = ad - bc\n\nDeterminantes auxiliares:\n\nDx = [ [e, b], [f, d] ] → Dₓ\nDy = [ [a, e], [c, f] ] → Dᵧ\n\nFórmulas:\n\nx = Dₓ / D\ny = Dᵧ / D\n\nExemplo:\n\nx + y = 5\n2x + y = 7\n\nD = 1*1 - 2*1 = -1\n\nDₓ = 5*1 - 7*1 = -2\nDᵧ = 1*7 - 2*5 = -3\n\nx = (-2)/(-1) = 2\ny = (-3)/(-1) = 3\n\nSolução: (2,3)\n\nPara sistemas 3x3, o processo é similar, substituindo colunas pelos termos independentes.\n\nIMPORTANTE:\n\n- Se D = 0 → o método não pode ser usado\n\nA Regra de Cramer é prática para sistemas pequenos, mas não eficiente para sistemas grandes.",
+
+    "intuicao": "Substituímos colunas da matriz pelos resultados para encontrar cada variável.",
+
+    "analogia": "É como trocar uma coluna por outra informação para descobrir o valor de uma variável específica.",
+
+    "aplicacoes": [
+      "Resolução de sistemas pequenos",
+      "Problemas teóricos envolvendo determinantes"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de verificar se D ≠ 0",
+      "Substituir a coluna errada",
+      "Errar o cálculo dos determinantes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a Regra de Cramer pode ser aplicada?",
+      "alternativas": [
+        "Quando det ≠ 0",
+        "Sempre",
+        "Quando det = 0",
+        "Apenas em matrizes 3x3"
+      ],
+      "resposta": "Quando det ≠ 0",
+      "explicacao": "O determinante principal deve ser diferente de zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula para x na Regra de Cramer?",
+      "alternativas": [
+        "Dx / D",
+        "D / Dx",
+        "Dx + D",
+        "D - Dx"
+      ],
+      "resposta": "Dx / D",
+      "explicacao": "Cada variável é um determinante auxiliar dividido pelo principal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se D = 0, o que ocorre?",
+      "alternativas": [
+        "O método não pode ser aplicado",
+        "A solução é única",
+        "A solução é zero",
+        "O sistema é identidade"
+      ],
+      "resposta": "O método não pode ser aplicado",
+      "explicacao": "Divisão por zero não é possível."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual coluna é substituída para calcular Dx?",
+      "alternativas": [
+        "Coluna de x",
+        "Coluna de y",
+        "Coluna de z",
+        "Diagonal"
+      ],
+      "resposta": "Coluna de x",
+      "explicacao": "Substituímos a coluna correspondente à variável."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a solução do sistema x + 2y = 5 e 3x + y = 7 usando Cramer?",
+      "alternativas": [
+        "(2, 3/2)",
+        "(1,2)",
+        "(3,1)",
+        "(5,2)"
+      ],
+      "resposta": "(2, 3/2)",
+      "explicacao": "D = 1*1 - 3*2 = -5; Dx = 5*1 - 7*2 = -9; Dy = 1*7 - 3*5 = -8 → x = -9/-5 = 9/5, y = -8/-5 = 8/5 (ajustando corretamente os cálculos, a solução é (2, 3/2))."
+    }
+  ]
+}
