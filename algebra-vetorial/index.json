@@ -1,5 +1,5 @@
 {
-  "disciplina": "Algebra Vetorial",
+  "disciplina": "Álgebra Vetorial",
   "assuntos": [
     {"titulo": "Vetores", "path": "01_vetores.json"},
     {"titulo": "Produto Escalar", "path": "02_produto_escalar.json"},
