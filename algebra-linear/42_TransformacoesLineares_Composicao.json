@@ -1,0 +1,100 @@
+{
+  "id": "composicao_transformacoes_lineares",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Composição de transformações lineares",
+  "ordem": 42,
+
+  "teoria": {
+    "resumo": "A composição de transformações lineares consiste em aplicar uma transformação após a outra.",
+
+    "explicacao": "Dadas duas transformações lineares:\n\nT: V → W\nS: W → U\n\nA composição é definida como:\n\n(S ∘ T)(v) = S(T(v))\n\nOu seja, primeiro aplicamos T, depois aplicamos S.\n\nPROPRIEDADE IMPORTANTE:\n\nA composição de transformações lineares também é uma transformação linear.\n\nRELAÇÃO COM MATRIZES:\n\nSe T é representada por matriz A e S por matriz B, então:\n\n(S ∘ T)(v) = B · A · v\n\nOu seja:\n\nMatriz da composição = B · A\n\nIMPORTANTE:\n\n- A ordem importa: B·A ≠ A·B\n\nExemplo:\n\nT(x, y) = (2x, y)\nS(x, y) = (x, 3y)\n\nAplicando:\n\nT(x,y) = (2x, y)\nS(T(x,y)) = (2x, 3y)\n\nLogo:\n\n(S ∘ T)(x,y) = (2x, 3y)\n\nINTERPRETAÇÃO:\n\nA composição representa aplicar várias transformações em sequência (escala, rotação, etc).\n\nEsse conceito é essencial em computação gráfica e álgebra linear avançada.",
+
+    "intuicao": "Compor transformações é aplicar uma depois da outra.",
+
+    "analogia": "É como aplicar dois filtros em sequência: o resultado final depende da ordem.",
+
+    "aplicacoes": [
+      "Computação gráfica (sequência de transformações)",
+      "Modelagem de sistemas dinâmicos"
+    ],
+
+    "erros_comuns": [
+      "Ignorar a ordem da composição",
+      "Multiplicar matrizes na ordem errada",
+      "Achar que a composição é comutativa"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é composição de transformações?",
+      "alternativas": [
+        "Aplicar uma transformação após a outra",
+        "Somar transformações",
+        "Multiplicar vetores",
+        "Calcular determinante"
+      ],
+      "resposta": "Aplicar uma transformação após a outra",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "(S ∘ T)(v) significa:",
+      "alternativas": [
+        "S(T(v))",
+        "T(S(v))",
+        "S(v) + T(v)",
+        "S(v) · T(v)"
+      ],
+      "resposta": "S(T(v))",
+      "explicacao": "Aplicamos primeiro T, depois S."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A composição de transformações lineares é:",
+      "alternativas": [
+        "Linear",
+        "Não linear",
+        "Constante",
+        "Indefinida"
+      ],
+      "resposta": "Linear",
+      "explicacao": "A composição preserva a linearidade."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se T=A e S=B, a matriz da composição é:",
+      "alternativas": [
+        "B·A",
+        "A·B",
+        "A+B",
+        "B+A"
+      ],
+      "resposta": "B·A",
+      "explicacao": "A ordem segue S ∘ T."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se T(x,y)=(x+y,y) e S(x,y)=(x,2y), qual é (S∘T)(x,y)?",
+      "alternativas": [
+        "(x+y, 2y)",
+        "(x, 2y)",
+        "(x+y, y)",
+        "(x, y)"
+      ],
+      "resposta": "(x+y, 2y)",
+      "explicacao": "T(x,y)=(x+y,y) → S(x+y,y)=(x+y,2y)."
+    }
+  ]
+}
