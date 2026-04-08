@@ -1,0 +1,100 @@
+{
+  "id": "produto_interno",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Produto interno",
+  "ordem": 53,
+
+  "teoria": {
+    "resumo": "O produto interno é uma operação que associa dois vetores a um número real, generalizando o produto escalar.",
+
+    "explicacao": "O produto interno é uma generalização do produto escalar e define uma forma de medir ângulos e comprimentos em espaços vetoriais.\n\nDado dois vetores u e v, o produto interno é denotado por:\n\n⟨u, v⟩\n\nNo espaço Rⁿ, o produto interno padrão é:\n\n⟨u, v⟩ = u1v1 + u2v2 + ... + unvn\n\nExemplo:\n\nu = (1,2), v = (3,4)\n\n⟨u,v⟩ = 1·3 + 2·4 = 3 + 8 = 11\n\nPROPRIEDADES:\n\n1) Simetria:\n⟨u, v⟩ = ⟨v, u⟩\n\n2) Linearidade:\n⟨u + w, v⟩ = ⟨u,v⟩ + ⟨w,v⟩\n\n3) Multiplicação por escalar:\n⟨k·u, v⟩ = k⟨u, v⟩\n\n4) Positividade:\n⟨v, v⟩ ≥ 0\n\n5) Definitude:\n⟨v, v⟩ = 0 ⇔ v = 0\n\nINTERPRETAÇÃO:\n\nO produto interno permite:\n\n- Medir comprimento (norma)\n- Calcular ângulo entre vetores\n\nLigação com norma:\n\n||v|| = √⟨v,v⟩\n\nEsse conceito é fundamental para ortogonalidade e projeções.",
+
+    "intuicao": "O produto interno mede o quanto dois vetores 'apontam na mesma direção'.",
+
+    "analogia": "É como medir o alinhamento entre duas setas: quanto mais alinhadas, maior o valor.",
+
+    "aplicacoes": [
+      "Cálculo de ângulo entre vetores",
+      "Base para ortogonalidade e projeções"
+    ],
+
+    "erros_comuns": [
+      "Confundir com produto vetorial",
+      "Errar sinais na multiplicação",
+      "Esquecer propriedades do produto interno"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o produto interno?",
+      "alternativas": [
+        "Operação que associa dois vetores a um número",
+        "Multiplicação de matrizes",
+        "Produto vetorial",
+        "Soma de vetores"
+      ],
+      "resposta": "Operação que associa dois vetores a um número",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o produto interno de (1,2) e (3,4)?",
+      "alternativas": [
+        "11",
+        "10",
+        "7",
+        "12"
+      ],
+      "resposta": "11",
+      "explicacao": "1·3 + 2·4 = 11."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ⟨v,v⟩ = 0, então:",
+      "alternativas": [
+        "v = 0",
+        "v ≠ 0",
+        "v é unitário",
+        "v é ortogonal"
+      ],
+      "resposta": "v = 0",
+      "explicacao": "Propriedade de definitude."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade indica ⟨u,v⟩ = ⟨v,u⟩?",
+      "alternativas": [
+        "Simetria",
+        "Linearidade",
+        "Positividade",
+        "Associatividade"
+      ],
+      "resposta": "Simetria",
+      "explicacao": "Produto interno é simétrico."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a norma de (3,4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "resposta": "5",
+      "explicacao": "√(3² + 4²) = 5."
+    }
+  ]
+}
