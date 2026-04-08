@@ -1,0 +1,99 @@
+{
+  "id": "matriz_diagonal",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Matriz diagonal",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "A matriz diagonal é uma matriz quadrada onde apenas os elementos da diagonal principal podem ser diferentes de zero.",
+
+    "explicacao": "Uma matriz diagonal é uma matriz quadrada em que todos os elementos fora da diagonal principal são iguais a zero.\n\nExemplo 3x3:\n[ 2  0  0 ]\n[ 0  5  0 ]\n[ 0  0  7 ]\n\nOs elementos da diagonal principal podem ser quaisquer números.\n\nExemplo geral:\n[ a  0  0 ]\n[ 0  b  0 ]\n[ 0  0  c ]\n\nPropriedades importantes:\n\n1) A soma de duas matrizes diagonais resulta em uma matriz diagonal\n2) O produto de matrizes diagonais também é diagonal\n3) O determinante é o produto dos elementos da diagonal\n\nCasos especiais:\n\n- Matriz identidade: todos os elementos da diagonal são 1\n- Matriz nula: todos os elementos são 0\n\nAs matrizes diagonais são muito utilizadas por serem simples de manipular, especialmente em cálculos mais avançados.",
+
+    "intuicao": "Somente a diagonal importa — o resto da matriz é zero.",
+
+    "analogia": "Imagine uma tabela onde apenas os elementos principais (na diagonal) têm valor, e todo o resto está 'desligado'.",
+
+    "aplicacoes": [
+      "Simplificação de cálculos matriciais",
+      "Diagonalização de matrizes em álgebra linear"
+    ],
+
+    "erros_comuns": [
+      "Confundir matriz diagonal com matriz identidade",
+      "Achar que todos os elementos da diagonal devem ser iguais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das matrizes abaixo é diagonal?",
+      "alternativas": [
+        "[[2,0,0],[0,3,0],[0,0,4]]",
+        "[[1,2,0],[0,1,0],[0,0,1]]",
+        "[[0,1,0],[1,0,1],[0,1,0]]",
+        "[[1,1,1],[1,1,1],[1,1,1]]"
+      ],
+      "resposta": "[[2,0,0],[0,3,0],[0,0,4]]",
+      "explicacao": "Apenas os elementos da diagonal podem ser diferentes de zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma matriz diagonal deve ser:",
+      "alternativas": [
+        "Quadrada",
+        "Retangular",
+        "Linha",
+        "Coluna"
+      ],
+      "resposta": "Quadrada",
+      "explicacao": "A definição exige matriz quadrada."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o determinante da matriz diagonal [[2,0,0],[0,3,0],[0,0,4]]?",
+      "alternativas": [
+        "24",
+        "9",
+        "10",
+        "0"
+      ],
+      "resposta": "24",
+      "explicacao": "Determinante = 2*3*4 = 24."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual matriz diagonal também é identidade?",
+      "alternativas": [
+        "[[1,0],[0,1]]",
+        "[[2,0],[0,2]]",
+        "[[0,0],[0,0]]",
+        "[[1,1],[0,1]]"
+      ],
+      "resposta": "[[1,0],[0,1]]",
+      "explicacao": "A identidade é um caso especial de matriz diagonal com 1 na diagonal."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto de duas matrizes diagonais é:",
+      "alternativas": [
+        "Outra matriz diagonal",
+        "Uma matriz identidade",
+        "Uma matriz qualquer",
+        "Uma matriz nula"
+      ],
+      "resposta": "Outra matriz diagonal",
+      "explicacao": "O produto mantém zeros fora da diagonal."
+    }
+  ]
+}
