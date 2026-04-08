@@ -8,8 +8,7 @@
     {"titulo": "Retas", "path": "05_retas.json"},
     {"titulo": "Planos", "path": "06_planos.json"},
     {"titulo": "Distâncias", "path": "07_distancias.json"},
-    {"titulo": "Gráficos de Funções", "path": "08_graficos_funcoes.json"},
-    {"titulo": "Função Exponencial", "path": "09_funcao_exponencial.json"},
-    {"titulo": "Função Logarítmica", "path": "10_funcao_logaritmica.json"}
+    {"titulo": "Cônicas", "path": "08_conicas.json"},
+    {"titulo": "Superfícies Quadráticas", "path": "09_superficies_quadraticas.json"}
   ]
 }
