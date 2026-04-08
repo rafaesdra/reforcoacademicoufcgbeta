@@ -1,6 +1,7 @@
 {
   "disciplina": "Álgebra Linear",
   "assuntos": [
+    
     {"titulo": "Vetores e Geometria Analítica - Vetores no Plano e no Espaço", "path": "01_Vetores_Geometria_Analitica_VetoresPlanoEspaço.json"},
     {"titulo": "Vetores e Geometria Analítica - Operações com Vetores", "path": "02_Vetores_Geometria_Analitica_OperacoesVetores.json"},
     {"titulo": "Vetores e Geometria Analítica - Norma de um Vetor", "path": "03_Vetores_Geometria_Analitica_NormaVetor.json"},
@@ -32,6 +33,28 @@
     {"titulo": "Sistemas Lineares - Regra de Cramer", "path": "26_SistemasLineares_RegraCramer.json"},
     {"titulo": "Sistemas Lineares - Classificação: Sistema Possível e Determinado (SPD)", "path": "27_SistemasLineares_Classificacao_SPD.json"},
     {"titulo": "Sistemas Lineares - Classificação: Sistema Possível e Indeterminado (SPI)", "path": "28_SistemasLineares_Classificacao_SPI.json"},
-    {"titulo": "Sistemas Lineares - Classificação: Sistema Impossível (SI)", "path": "29_SistemasLineares_Classificacao_SI.json"}
+    {"titulo": "Sistemas Lineares - Classificação: Sistema Impossível (SI)", "path": "29_SistemasLineares_Classificacao_SI.json"},
+
+    {"titulo": "Espaços Vetoriais - Definição", "path": "30_EspacosVetoriais_Definicao.json"},
+    {"titulo": "Espaços Vetoriais - Subespaços Vetoriais", "path": "31_EspacosVetoriais_Subespacos.json"},
+    {"titulo": "Espaços Vetoriais - Combinação Linear", "path": "32_EspacosVetoriais_CombinacaoLinear.json"},
+    {"titulo": "Espaços Vetoriais - Dependência e Independência Linear", "path": "33_EspacosVetoriais_DependenciaIndependencia.json"},
+    {"titulo": "Espaços Vetoriais - Conjunto Gerador", "path": "34_EspacosVetoriais_Geradores.json"},
+    {"titulo": "Espaços Vetoriais - Base de um Espaço Vetorial", "path": "35_EspacosVetoriais_Base.json"},
+    {"titulo": "Espaços Vetoriais - Dimensão", "path": "36_EspacosVetoriais_Dimensao.json"},
+    {"titulo": "Espaços Vetoriais - Coordenadas em Relação a uma Base", "path": "37_EspacosVetoriais_CoordenadasBase.json"},
+    {"titulo": "Espaços Vetoriais - Mudança de Base", "path": "38_EspacosVetoriais_MudancaBase.json"},
+
+    {"titulo": "Transformações Lineares - Definição", "path": "39_TransformacoesLineares_Definicao.json"},
+    {"titulo": "Transformações Lineares - Núcleo (Kernel) e Imagem", "path": "40_TransformacoesLineares_NucleoImagem.json"},
+    {"titulo": "Transformações Lineares - Matriz Associada", "path": "41_TransformacoesLineares_MatrizAssociada.json"},
+    {"titulo": "Transformações Lineares - Composição de Transformações", "path": "42_TransformacoesLineares_Composicao.json"},
+    {"titulo": "Transformações Lineares - Transformações no Plano", "path": "43_TransformacoesLineares_TransformacoesPlano.json"},
+
+    {"titulo": "Autovalores e Autovetores - Definição", "path": "44_AutovaloresAutovetores_Definicao.json"},
+    {"titulo": "Autovalores e Autovetores - Polinômio Característico", "path": "45_AutovaloresAutovetores_PolinomioCaracteristico.json"},
+    {"titulo": "Autovalores e Autovetores - Cálculo de Autovalores", "path": "46_AutovaloresAutovetores_CalculoAutovalores.json"},
+    {"titulo": "Autovalores e Autovetores - Autovetores Associados", "path": "47_AutovaloresAutovetores_AutovetoresAssociados.json"},
+    {"titulo": "Autovalores e Autovetores - Interpretação Geométrica", "path": "48_AutovaloresAutovetores_InterpretacaoGeometrica.json"}
   ]
 }
