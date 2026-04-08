@@ -1,0 +1,99 @@
+{
+  "id": "produto_escalar",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Produto escalar",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "O produto escalar mede a relação entre dois vetores, indicando o quanto eles estão alinhados.",
+
+    "explicacao": "O produto escalar (ou produto interno) é uma operação entre dois vetores que resulta em um número real.\n\nDefinição:\n\nNo plano (R²):\nv · u = x1*x2 + y1*y2\n\nNo espaço (R³):\nv · u = x1*x2 + y1*y2 + z1*z2\n\nExemplo:\n(1,2) · (3,4) = 1*3 + 2*4 = 11\n\nOutra forma importante:\n\nv · u = |v| * |u| * cos(θ)\n\nOnde θ é o ângulo entre os vetores.\n\nA partir disso, podemos encontrar o ângulo:\n\ncos(θ) = (v · u) / (|v| * |u|)\n\nCasos importantes:\n\n1) Se v · u = 0 → vetores são perpendiculares\n2) Se v · u > 0 → ângulo agudo\n3) Se v · u < 0 → ângulo obtuso\n\nO produto escalar também permite calcular projeções e é muito usado em física.",
+
+    "intuicao": "O produto escalar mede o quanto um vetor 'aponta' na direção do outro.",
+
+    "analogia": "Imagine empurrar uma caixa: apenas a parte da força na direção do movimento realmente ajuda — isso é o produto escalar.",
+
+    "aplicacoes": [
+      "Cálculo de trabalho em física",
+      "Determinação de ângulos entre vetores"
+    ],
+
+    "erros_comuns": [
+      "Confundir produto escalar com multiplicação de vetores",
+      "Esquecer de usar todos os componentes no cálculo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o produto escalar entre (2,3) e (1,4)?",
+      "alternativas": [
+        "14",
+        "11",
+        "10",
+        "9"
+      ],
+      "resposta": "14",
+      "explicacao": "2*1 + 3*4 = 2 + 12 = 14."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre dois vetores é zero, o que podemos afirmar?",
+      "alternativas": [
+        "São paralelos",
+        "São perpendiculares",
+        "São iguais",
+        "Têm mesmo módulo"
+      ],
+      "resposta": "São perpendiculares",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o produto escalar entre (1,2,3) e (2,0,1)?",
+      "alternativas": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "resposta": "5",
+      "explicacao": "1*2 + 2*0 + 3*1 = 2 + 0 + 3 = 5."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v·u > 0, qual é o tipo do ângulo entre os vetores?",
+      "alternativas": [
+        "Agudo",
+        "Reto",
+        "Obtuso",
+        "180°"
+      ],
+      "resposta": "Agudo",
+      "explicacao": "Produto escalar positivo indica ângulo menor que 90°."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o cosseno do ângulo entre v=(1,0) e u=(1,1)?",
+      "alternativas": [
+        "1/√2",
+        "√2",
+        "1",
+        "0"
+      ],
+      "resposta": "1/√2",
+      "explicacao": "v·u = 1, |v|=1, |u|=√2 → cosθ = 1/(√2)."
+    }
+  ]
+}
