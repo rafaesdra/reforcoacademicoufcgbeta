@@ -1,0 +1,100 @@
+{
+  "id": "combinacao_linear",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Combinação linear",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "Uma combinação linear é uma soma de vetores multiplicados por escalares.",
+
+    "explicacao": "Uma combinação linear ocorre quando somamos vetores multiplicados por escalares.\n\nDado um conjunto de vetores v1, v2, ..., vn, uma combinação linear é da forma:\n\nk1·v1 + k2·v2 + ... + kn·vn\n\nOnde k1, k2, ..., kn são números reais.\n\nExemplo em R²:\n\nv1 = (1,0)\nv2 = (0,1)\n\nUma combinação linear:\n\n2v1 + 3v2 = 2(1,0) + 3(0,1)\n= (2,0) + (0,3)\n= (2,3)\n\nOu seja, conseguimos gerar o vetor (2,3).\n\nOutro exemplo:\n\nv1 = (1,2), v2 = (3,4)\n\nk1v1 + k2v2 = (k1 + 3k2, 2k1 + 4k2)\n\nA combinação linear é fundamental para:\n\n- Gerar novos vetores\n- Estudar dependência linear\n- Construir bases\n\nINTERPRETAÇÃO:\n\nÉ uma forma de 'misturar' vetores para formar outros.\n\nSe conseguimos escrever um vetor como combinação de outros, ele depende deles.",
+
+    "intuicao": "Combinar vetores é como juntar movimentos para criar um novo deslocamento.",
+
+    "analogia": "É como misturar ingredientes (vetores) em diferentes quantidades (escalares) para criar algo novo.",
+
+    "aplicacoes": [
+      "Construção de espaços vetoriais",
+      "Análise de dependência linear"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de multiplicar pelos escalares",
+      "Somar vetores incorretamente",
+      "Confundir combinação linear com produto escalar"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é uma combinação linear?",
+      "alternativas": [
+        "Soma de vetores multiplicados por escalares",
+        "Produto de vetores",
+        "Subtração de vetores",
+        "Multiplicação de matrizes"
+      ],
+      "resposta": "Soma de vetores multiplicados por escalares",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de 2(1,0) + 3(0,1)?",
+      "alternativas": [
+        "(2,3)",
+        "(3,2)",
+        "(5,1)",
+        "(1,5)"
+      ],
+      "resposta": "(2,3)",
+      "explicacao": "Somamos (2,0) + (0,3)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual vetor pode ser escrito como combinação de (1,0) e (0,1)?",
+      "alternativas": [
+        "Qualquer vetor de R²",
+        "Apenas (1,1)",
+        "Apenas (0,0)",
+        "Nenhum"
+      ],
+      "resposta": "Qualquer vetor de R²",
+      "explicacao": "Eles formam a base do plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um vetor pode ser escrito como combinação linear de outros, ele é:",
+      "alternativas": [
+        "Dependente",
+        "Independente",
+        "Nulo",
+        "Diagonal"
+      ],
+      "resposta": "Dependente",
+      "explicacao": "Ele depende dos outros vetores."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual combinação linear gera (5,7) a partir de (1,1) e (2,3)?",
+      "alternativas": [
+        "1(1,1) + 2(2,3)",
+        "3(1,1) + 1(2,3)",
+        "2(1,1) + 1(2,3)",
+        "1(1,1) + 1(2,3)"
+      ],
+      "resposta": "1(1,1) + 2(2,3)",
+      "explicacao": "(1,1) + 2(2,3) = (1+4, 1+6) = (5,7)."
+    }
+  ]
+}
