@@ -1,0 +1,99 @@
+{
+  "id": "ortogonalidade_projecao_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Ortogonalidade e Projeção de Vetores",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "Vetores ortogonais são perpendiculares entre si e a projeção mede a componente de um vetor na direção de outro.",
+
+    "explicacao": "Ortogonalidade:\nDois vetores são ortogonais (perpendiculares) quando o ângulo entre eles é 90°.\n\nIsso ocorre quando o produto escalar é zero:\nA · B = 0\n\nExemplo:\nA = (1,1) e B = (1,-1)\nA · B = 1 - 1 = 0 → são ortogonais\n\n\nProjeção de um vetor sobre outro:\nA projeção de um vetor A sobre um vetor B representa a parte de A que está na direção de B.\n\nFórmula da projeção:\n\nproj_B(A) = [(A · B) / (|B|²)] B\n\nPasso a passo:\n1) Calcular o produto escalar A · B\n2) Calcular |B|²\n3) Multiplicar o escalar resultante pelo vetor B\n\nExemplo:\nA = (2,2) e B = (1,0)\n\nA · B = 2\n|B|² = 1\n\nproj_B(A) = 2(1,0) = (2,0)\n\nInterpretação:\nA projeção é a 'sombra' do vetor A sobre a direção de B.\n\nCasos importantes:\n- Se A é perpendicular a B → projeção = vetor nulo\n- Se A é paralelo a B → projeção = o próprio vetor (ou proporcional)\n\nEsse conceito é muito utilizado em física e geometria.",
+
+    "intuicao": "Ortogonalidade indica independência total entre direções, enquanto projeção mostra quanto um vetor segue a direção de outro.",
+
+    "analogia": "A projeção é como a sombra de um objeto em uma parede iluminada — mostra apenas a parte alinhada com a luz.",
+
+    "aplicacoes": [
+      "Decomposição de forças em Física",
+      "Cálculo de componentes de vetores em direções específicas"
+    ],
+
+    "erros_comuns": [
+      "Achar que produto escalar zero significa vetor nulo",
+      "Confundir projeção com o vetor original"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando dois vetores são ortogonais?",
+      "alternativas": [
+        "Quando o produto escalar é zero",
+        "Quando são iguais",
+        "Quando são paralelos",
+        "Quando têm mesmo módulo"
+      ],
+      "resposta": "Quando o produto escalar é zero",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são perpendiculares, a projeção de um sobre o outro é:",
+      "alternativas": [
+        "Vetor nulo",
+        "Igual ao vetor",
+        "Negativa",
+        "Máxima"
+      ],
+      "resposta": "Vetor nulo",
+      "explicacao": "Não há componente em comum entre direções perpendiculares."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,0) e B = (0,3), os vetores são:",
+      "alternativas": [
+        "Ortogonais",
+        "Paralelos",
+        "Iguais",
+        "Dependentes"
+      ],
+      "resposta": "Ortogonais",
+      "explicacao": "A · B = 0 → vetores perpendiculares."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a projeção de A = (3,4) sobre B = (1,0)?",
+      "alternativas": [
+        "(3,0)",
+        "(4,0)",
+        "(3,4)",
+        "(0,4)"
+      ],
+      "resposta": "(3,0)",
+      "explicacao": "A · B = 3 e |B|² = 1 → projeção = 3(1,0) = (3,0)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,2) e B = (1,1), qual é a projeção de A sobre B?",
+      "alternativas": [
+        "(2,2)",
+        "(1,1)",
+        "(4,4)",
+        "(0,0)"
+      ],
+      "resposta": "(2,2)",
+      "explicacao": "A e B são paralelos, então a projeção de A sobre B é o próprio vetor A."
+    }
+  ]
+}
