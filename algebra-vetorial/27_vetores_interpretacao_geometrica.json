@@ -1,0 +1,99 @@
+{
+  "id": "vetores_interpretacao_geometrica",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Interpretação Geométrica de Vetores",
+  "ordem": 27,
+
+  "teoria": {
+    "resumo": "A interpretação geométrica dos vetores os representa como segmentos orientados no plano ou no espaço.",
+
+    "explicacao": "Geometricamente, um vetor pode ser interpretado como um segmento de reta orientado.\n\nIsso significa que ele possui:\n- Ponto de origem\n- Ponto de extremidade\n- Direção\n- Sentido\n\nNo plano cartesiano, um vetor pode ser representado como uma seta que vai de um ponto A até um ponto B.\n\nExemplo:\nSe A = (1,2) e B = (4,6), então o vetor AB é:\n\nAB = (4-1, 6-2) = (3,4)\n\nEsse vetor representa o deslocamento do ponto A até o ponto B.\n\nTranslação de vetores:\nUm vetor pode ser deslocado para qualquer posição no plano sem alterar suas características (módulo, direção e sentido).\n\nVetores equivalentes:\nVetores que possuem mesmo módulo, direção e sentido são considerados iguais, mesmo que estejam em posições diferentes.\n\nInterpretação como deslocamento:\nVetores também podem representar movimentos, como ir de um ponto inicial até um ponto final.\n\nNo espaço (R³), o conceito é o mesmo, mas com três dimensões.\n\nEssa interpretação é essencial para visualizar problemas geométricos e físicos.",
+
+    "intuicao": "Um vetor representa um movimento direto de um ponto até outro.",
+
+    "analogia": "É como um caminho em linha reta com uma seta indicando para onde você deve ir.",
+
+    "aplicacoes": [
+      "Representação de deslocamentos em Física",
+      "Visualização de direções em gráficos e geometria"
+    ],
+
+    "erros_comuns": [
+      "Achar que a posição do vetor muda seu valor",
+      "Confundir ponto com vetor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Geometricamente, um vetor é representado como:",
+      "alternativas": [
+        "Uma seta",
+        "Um ponto",
+        "Uma reta infinita",
+        "Um número"
+      ],
+      "resposta": "Uma seta",
+      "explicacao": "O vetor é representado como um segmento orientado."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor AB representa:",
+      "alternativas": [
+        "O deslocamento de A até B",
+        "A soma de A com B",
+        "A distância entre A e B apenas",
+        "Um número real"
+      ],
+      "resposta": "O deslocamento de A até B",
+      "explicacao": "Vetores representam deslocamentos entre pontos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,1) e B = (4,5), qual é o vetor AB?",
+      "alternativas": [
+        "(3,4)",
+        "(5,6)",
+        "(4,5)",
+        "(3,5)"
+      ],
+      "resposta": "(3,4)",
+      "explicacao": "AB = (4-1, 5-1) = (3,4)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores são equivalentes quando:",
+      "alternativas": [
+        "Possuem mesmo módulo, direção e sentido",
+        "Estão no mesmo ponto",
+        "Têm mesmo módulo apenas",
+        "São paralelos"
+      ],
+      "resposta": "Possuem mesmo módulo, direção e sentido",
+      "explicacao": "Essas características definem vetores iguais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se AB = (2,3) e o ponto A = (1,1), qual é o ponto B?",
+      "alternativas": [
+        "(3,4)",
+        "(2,3)",
+        "(1,4)",
+        "(4,5)"
+      ],
+      "resposta": "(3,4)",
+      "explicacao": "B = A + AB = (1+2, 1+3) = (3,4)."
+    }
+  ]
+}
