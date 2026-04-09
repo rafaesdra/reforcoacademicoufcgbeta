@@ -1,0 +1,104 @@
+{
+  "id": "17_Oscilacoes_AplicacoesPraticas",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Aplicações práticas",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "Oscilações aparecem em diversos sistemas reais, sendo fundamentais em engenharia, estruturas, eletrônica e acústica.",
+
+    "explicacao": "Os conceitos de oscilações são amplamente aplicados em situações reais, especialmente em engenharia e tecnologia.\n\n1) Pontes e estruturas:\nPontes e edifícios podem oscilar devido a forças externas como vento, tráfego ou terremotos.\n\nSe a frequência dessas forças se aproxima da frequência natural da estrutura, pode ocorrer ressonância, levando a grandes oscilações.\n\nPor isso, engenheiros projetam estruturas com amortecimento adequado para evitar esse efeito.\n\n2) Amortecedores de veículos:\nSuspensões de carros utilizam sistemas massa-mola com amortecimento para reduzir vibrações.\n\nSem amortecimento, o carro continuaria oscilando após passar por um obstáculo.\n\n3) Circuitos elétricos:\nEm circuitos RLC, temos um comportamento análogo ao sistema massa-mola.\n\n- Indutor → equivalente à massa\n- Capacitor → equivalente à mola\n- Resistor → equivalente ao amortecimento\n\nEsses circuitos apresentam oscilações e podem entrar em ressonância, sendo usados em rádios, filtros e sistemas de comunicação.\n\n4) Instrumentos musicais:\nCordas vibrantes e colunas de ar produzem ondas sonoras a partir de oscilações.\n\nA ressonância amplifica o som em instrumentos como violão, violino e flauta.\n\n5) Engenharia mecânica:\nMáquinas e motores possuem partes que vibram.\n\nControlar essas oscilações é essencial para evitar falhas estruturais e aumentar a vida útil dos equipamentos.\n\nEssas aplicações mostram que o estudo das oscilações não é apenas teórico, mas essencial para projetar sistemas seguros, eficientes e funcionais.",
+
+    "intuicao": "Oscilações estão em tudo que vibra — desde um carro até uma ponte ou um circuito elétrico.",
+
+    "analogia": "É como controlar o balanço de algo: se você não controlar, pode ficar perigoso ou instável.",
+
+    "aplicacoes": [
+      "Projeto de pontes e edifícios seguros",
+      "Suspensão de veículos",
+      "Circuitos eletrônicos e sistemas de comunicação",
+      "Instrumentos musicais",
+      "Controle de vibrações em máquinas"
+    ],
+
+    "erros_comuns": [
+      "Achar que oscilações são apenas teóricas",
+      "Ignorar o risco da ressonância em estruturas",
+      "Não considerar o amortecimento em sistemas reais",
+      "Não perceber a analogia entre sistemas mecânicos e elétricos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que a ressonância pode ser perigosa em pontes?",
+      "alternativas": [
+        "Porque diminui a energia",
+        "Porque aumenta a massa",
+        "Porque pode gerar grandes oscilações",
+        "Porque elimina o movimento"
+      ],
+      "resposta": "Porque pode gerar grandes oscilações",
+      "explicacao": "Na ressonância, a amplitude pode crescer muito, causando danos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o papel dos amortecedores em veículos?",
+      "alternativas": [
+        "Aumentar a velocidade",
+        "Eliminar a força peso",
+        "Reduzir oscilações",
+        "Aumentar a massa"
+      ],
+      "resposta": "Reduzir oscilações",
+      "explicacao": "Eles dissipam energia e estabilizam o movimento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um circuito RLC, o resistor representa:",
+      "alternativas": [
+        "A massa",
+        "A mola",
+        "O amortecimento",
+        "A energia"
+      ],
+      "resposta": "O amortecimento",
+      "explicacao": "O resistor dissipa energia, assim como o amortecimento mecânico."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual aplicação utiliza ressonância de forma útil?",
+      "alternativas": [
+        "Pontes",
+        "Instrumentos musicais",
+        "Atrito mecânico",
+        "Gravidade"
+      ],
+      "resposta": "Instrumentos musicais",
+      "explicacao": "A ressonância amplifica o som."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o estudo de oscilações é importante em engenharia?",
+      "alternativas": [
+        "Porque não tem aplicação prática",
+        "Porque ajuda a prever e controlar vibrações",
+        "Porque elimina forças",
+        "Porque substitui outras áreas da física"
+      ],
+      "resposta": "Porque ajuda a prever e controlar vibrações",
+      "explicacao": "Oscilações estão presentes em diversos sistemas reais e precisam ser controladas."
+    }
+  ]
+}
