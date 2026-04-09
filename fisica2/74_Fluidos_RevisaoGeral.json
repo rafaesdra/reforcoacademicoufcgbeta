@@ -1,0 +1,111 @@
+{
+  "id": "74_Fluidos_RevisaoGeral",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Revisão Geral",
+  "ordem": 74,
+
+  "teoria": {
+    "resumo": "A revisão geral de Fluidos reúne os principais conceitos de Hidrostática e Hidrodinâmica, abordando propriedades dos fluidos, leis fundamentais e suas aplicações.",
+
+    "explicacao": "A Mecânica dos Fluidos estuda o comportamento dos líquidos e gases em repouso e em movimento. Esse ramo da Física divide-se em Hidrostática e Hidrodinâmica.\n\n1) Propriedades dos Fluidos\n\nDensidade:\nρ = m / V\nOnde ρ é a densidade (kg/m³), m é a massa (kg) e V é o volume (m³).\n\nPressão:\nP = F / A\nOnde P é a pressão (Pa), F é a força (N) e A é a área (m²).\n\n2) Hidrostática\n\nPressão Hidrostática:\nP = ρgh\n\nPressão Absoluta:\nP_abs = P_atm + ρgh\n\nPrincípio de Pascal:\nF₁ / A₁ = F₂ / A₂\n\nPrincípio de Arquimedes (Empuxo):\nE = ρgV\n\n3) Hidrodinâmica\n\nVazão Volumétrica:\nQ = Av\n\nEquação da Continuidade:\nA₁v₁ = A₂v₂\n\nEquação de Bernoulli:\nP + (1/2)ρv² + ρgh = constante\n\n4) Aplicações Importantes\n\nTubo de Venturi:\nPermite medir a vazão de um fluido com base na diferença de pressão.\n\nSustentação dos Aviões:\nL = (1/2)ρv²SC_L\n\nSistemas Hidráulicos:\nBaseados no Princípio de Pascal, amplificam forças.\n\nLei de Torricelli:\nv = √(2gh)\n\nEfeito Magnus:\nDescreve a força lateral exercida sobre corpos em rotação em um fluido.\n\nImportância dos Fluidos:\n- Engenharia civil e mecânica;\n- Aeronáutica e indústria naval;\n- Sistemas hidráulicos e pneumáticos;\n- Meteorologia e oceanografia;\n- Medicina e biofísica.\n\nEssa revisão integra os conceitos fundamentais necessários para a compreensão e aplicação da Mecânica dos Fluidos em diversas áreas científicas e tecnológicas.",
+
+    "intuicao": "Os fluidos moldam-se ao recipiente e respondem às forças externas, desempenhando papel essencial na natureza e na tecnologia.",
+
+    "analogia": "Assim como o fluxo de veículos em uma rodovia, os fluidos obedecem a leis que regulam sua velocidade, pressão e conservação ao longo do trajeto.",
+
+    "aplicacoes": [
+      "Projeto de barragens e tubulações",
+      "Construção de aeronaves e navios",
+      "Sistemas de irrigação e abastecimento de água",
+      "Equipamentos médicos e industriais",
+      "Usinas hidrelétricas",
+      "Engenharia aeronáutica e naval",
+      "Indústria petroquímica",
+      "Meteorologia e oceanografia"
+    ],
+
+    "erros_comuns": [
+      "Confundir densidade com massa ou volume",
+      "Confundir pressão com força",
+      "Ignorar a pressão atmosférica",
+      "Aplicar a Equação de Bernoulli fora de suas condições de validade",
+      "Desconsiderar perdas de energia em fluidos reais",
+      "Confundir empuxo com peso",
+      "Esquecer de utilizar unidades do Sistema Internacional",
+      "Confundir escoamento laminar com turbulento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza é definida pela razão entre massa e volume?",
+      "alternativas": [
+        "Pressão",
+        "Densidade",
+        "Empuxo",
+        "Vazão"
+      ],
+      "resposta": "Densidade",
+      "explicacao": "A densidade é dada por ρ = m/V."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual princípio afirma que a pressão aplicada a um fluido confinado é transmitida integralmente?",
+      "alternativas": [
+        "Princípio de Pascal",
+        "Princípio de Arquimedes",
+        "Lei de Torricelli",
+        "Equação de Bernoulli"
+      ],
+      "resposta": "Princípio de Pascal",
+      "explicacao": "Esse princípio fundamenta os sistemas hidráulicos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa a conservação da massa em um fluido em escoamento?",
+      "alternativas": [
+        "P = ρgh",
+        "A₁v₁ = A₂v₂",
+        "v = √(2gh)",
+        "P = F/A"
+      ],
+      "resposta": "A₁v₁ = A₂v₂",
+      "explicacao": "Essa é a Equação da Continuidade."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Equação de Bernoulli baseia-se em qual princípio físico?",
+      "alternativas": [
+        "Conservação da energia",
+        "Conservação da massa",
+        "Lei da gravitação universal",
+        "Lei de Hooke"
+      ],
+      "resposta": "Conservação da energia",
+      "explicacao": "Ela descreve a conservação da energia mecânica em um fluido ideal."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um reservatório possui um orifício a 5 m de profundidade. Considerando g = 10 m/s², qual é a velocidade de saída da água segundo a Lei de Torricelli?",
+      "alternativas": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "resposta": "10 m/s",
+      "explicacao": "v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s."
+    }
+  ]
+}
