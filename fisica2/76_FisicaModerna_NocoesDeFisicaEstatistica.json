@@ -1,0 +1,108 @@
+{
+  "id": "76_FisicaModerna_NocoesDeFisicaEstatistica",
+  "disciplina": "Física 3",
+  "assunto": "Introdução à Física Moderna - Noções de Física Estatística",
+  "ordem": 76,
+
+  "teoria": {
+    "resumo": "A Física Estatística estuda sistemas com grande número de partículas, relacionando propriedades microscópicas com grandezas macroscópicas como temperatura, pressão e entropia.",
+
+    "explicacao": "A Física Estatística é o ramo da Física que conecta o comportamento microscópico das partículas às propriedades macroscópicas observáveis da matéria. Ela utiliza métodos estatísticos para descrever sistemas compostos por um grande número de átomos ou moléculas.\n\nEssa área é fundamental para compreender fenômenos da Termodinâmica, da Mecânica Quântica e da Física Moderna.\n\nMicroestado e Macroestado:\n\nMacroestado:\nÉ definido por grandezas macroscópicas, como pressão, volume e temperatura.\n\nMicroestado:\nCorresponde a uma configuração específica das partículas do sistema. Um mesmo macroestado pode ser obtido por diversos microestados.\n\nQuanto maior o número de microestados possíveis, maior será a desordem do sistema.\n\nEntropia na Física Estatística:\nA entropia pode ser definida pela Equação de Boltzmann:\n\nS = k_B ln(Ω)\n\nOnde:\n- S é a entropia (J/K);\n- k_B = 1,38 × 10⁻²³ J/K é a constante de Boltzmann;\n- Ω é o número de microestados possíveis;\n- ln representa o logaritmo natural.\n\nEssa equação estabelece a ligação entre a Termodinâmica e a Mecânica Estatística.\n\nDistribuição de Maxwell-Boltzmann:\nDescreve a distribuição das velocidades das partículas em um gás ideal, mostrando que apenas uma fração das moléculas possui velocidades muito altas ou muito baixas.\n\nEnergia Cinética Média:\nA energia cinética média das partículas de um gás ideal é dada por:\n\nE_c = (3/2) k_B T\n\nOnde:\n- T é a temperatura absoluta (K).\n\nEssa expressão mostra que a temperatura está diretamente relacionada à agitação térmica das partículas.\n\nInterpretação da Temperatura:\nNa Física Estatística, a temperatura mede a energia cinética média das partículas de um sistema.\n\nImportância da Física Estatística:\n- Fundamenta a Termodinâmica;\n- Explica o comportamento dos gases;\n- Descreve fenômenos quânticos e térmicos;\n- Contribui para a ciência dos materiais;\n- Possui aplicações em química, engenharia e cosmologia.\n\nAplicações práticas:\n- Estudo de gases e plasmas;\n- Física do estado sólido;\n- Semicondutores e eletrônica moderna;\n- Astrofísica e cosmologia;\n- Engenharia de materiais;\n- Sistemas complexos e computacionais.\n\nA Física Estatística permite compreender como as leis probabilísticas governam o comportamento coletivo da matéria.",
+
+    "intuicao": "Embora seja impossível acompanhar cada partícula individualmente, é possível prever o comportamento do conjunto por meio da estatística.",
+
+    "analogia": "Assim como não é possível prever o movimento de cada pessoa em uma multidão, mas é possível estimar o fluxo geral, a Física Estatística descreve sistemas com inúmeras partículas.",
+
+    "aplicacoes": [
+      "Estudo dos gases ideais",
+      "Física do estado sólido",
+      "Desenvolvimento de semicondutores",
+      "Engenharia de materiais",
+      "Astrofísica e cosmologia",
+      "Sistemas complexos e inteligência artificial",
+      "Termodinâmica e química física"
+    ],
+
+    "erros_comuns": [
+      "Confundir microestado com macroestado",
+      "Acreditar que a entropia representa apenas desordem",
+      "Ignorar a natureza probabilística dos sistemas físicos",
+      "Utilizar temperatura em graus Celsius em vez de Kelvin",
+      "Supor que a Física Estatística se aplica apenas aos gases",
+      "Desconsiderar a constante de Boltzmann nas equações"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que a Física Estatística estuda?",
+      "alternativas": [
+        "O movimento de planetas",
+        "O comportamento de sistemas com grande número de partículas",
+        "A propagação da luz",
+        "O movimento de corpos rígidos"
+      ],
+      "resposta": "O comportamento de sistemas com grande número de partículas",
+      "explicacao": "A Física Estatística analisa sistemas compostos por muitas partículas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação relaciona a entropia ao número de microestados?",
+      "alternativas": [
+        "E = mc²",
+        "PV = nRT",
+        "S = k_B ln(Ω)",
+        "P = F/A"
+      ],
+      "resposta": "S = k_B ln(Ω)",
+      "explicacao": "Essa é a Equação de Boltzmann."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa um macroestado?",
+      "alternativas": [
+        "Uma trajetória molecular",
+        "Uma única configuração das partículas",
+        "Grandezas macroscópicas como temperatura e pressão",
+        "A energia de um fóton"
+      ],
+      "resposta": "Grandezas macroscópicas como temperatura e pressão",
+      "explicacao": "O macroestado descreve o sistema em termos de propriedades observáveis."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a energia cinética média de uma partícula em um gás ideal?",
+      "alternativas": [
+        "k_B T",
+        "(1/2) k_B T",
+        "(3/2) k_B T",
+        "2 k_B T"
+      ],
+      "resposta": "(3/2) k_B T",
+      "explicacao": "Essa expressão relaciona a temperatura à energia cinética média das partículas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um sistema possui Ω = e² microestados, qual é a sua entropia?",
+      "alternativas": [
+        "S = k_B",
+        "S = 2k_B",
+        "S = e k_B",
+        "S = k_B ln(2)"
+      ],
+      "resposta": "S = 2k_B",
+      "explicacao": "Aplicando a equação de Boltzmann: S = k_B ln(e²) = 2k_B."
+    }
+  ]
+}
