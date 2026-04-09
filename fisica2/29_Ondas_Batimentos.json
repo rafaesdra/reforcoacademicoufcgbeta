@@ -1,0 +1,102 @@
+{
+  "id": "29_Ondas_Batimentos",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Batimentos",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "Batimentos ocorrem quando duas ondas de frequências próximas se superpõem, gerando variações periódicas na amplitude.",
+
+    "explicacao": "Os batimentos são um fenômeno de interferência que ocorre quando duas ondas com frequências próximas se superpõem.\n\nNesse caso, a interferência alterna entre construtiva e destrutiva ao longo do tempo.\n\nIsso gera uma variação periódica na amplitude da onda resultante.\n\nCaracterísticas dos batimentos:\n- A amplitude aumenta e diminui periodicamente\n- O som parece 'pulsar'\n- O fenômeno depende da diferença entre as frequências\n\nA frequência dos batimentos é dada por:\n\nf_b = |f₁ - f₂|\n\nOnde:\n- f_b é a frequência dos batimentos\n- f₁ e f₂ são as frequências das ondas\n\nInterpretação:\n- Quando as ondas estão em fase → interferência construtiva → som mais intenso\n- Quando estão fora de fase → interferência destrutiva → som mais fraco\n\nQuanto mais próximas forem as frequências:\n- Menor será a frequência de batimento\n- Mais lento será o 'pulso'\n\nSe as frequências forem iguais:\n- Não há batimentos\n- O som é constante\n\nOs batimentos são muito importantes em acústica e são usados para afinar instrumentos musicais.\n\nEsse fenômeno também aparece em outros tipos de ondas, não apenas sonoras.",
+
+    "intuicao": "Duas ondas quase iguais criam um 'vai e vem' na intensidade do som.",
+
+    "analogia": "É como duas pessoas batendo palmas em ritmos quase iguais — às vezes sincronizam, às vezes desencontram.",
+
+    "aplicacoes": [
+      "Afinação de instrumentos musicais",
+      "Análise de frequências sonoras",
+      "Estudo de interferência em ondas"
+    ],
+
+    "erros_comuns": [
+      "Confundir batimentos com interferência simples",
+      "Achar que batimentos ocorrem com frequências muito diferentes",
+      "Esquecer a fórmula f_b = |f₁ - f₂|",
+      "Achar que o som desaparece permanentemente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que são batimentos?",
+      "alternativas": [
+        "Ondas que param",
+        "Interferência entre ondas de frequências próximas",
+        "Mudança de velocidade",
+        "Reflexão de ondas"
+      ],
+      "resposta": "Interferência entre ondas de frequências próximas",
+      "explicacao": "Batimentos surgem da superposição de ondas com frequências semelhantes."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que varia nos batimentos?",
+      "alternativas": [
+        "Velocidade",
+        "Frequência",
+        "Amplitude",
+        "Comprimento de onda"
+      ],
+      "resposta": "Amplitude",
+      "explicacao": "A amplitude varia com o tempo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a frequência de batimento para f₁ = 10 Hz e f₂ = 12 Hz?",
+      "alternativas": [
+        "2 Hz",
+        "22 Hz",
+        "10 Hz",
+        "12 Hz"
+      ],
+      "resposta": "2 Hz",
+      "explicacao": "f_b = |10 - 12| = 2 Hz."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece quando as frequências são iguais?",
+      "alternativas": [
+        "Batimentos aumentam",
+        "Não há batimentos",
+        "A amplitude zera",
+        "A velocidade muda"
+      ],
+      "resposta": "Não há batimentos",
+      "explicacao": "Sem diferença de frequência, não há variação na amplitude."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a diferença entre frequências diminui, o que acontece com os batimentos?",
+      "alternativas": [
+        "Ficam mais rápidos",
+        "Ficam mais lentos",
+        "Desaparecem",
+        "Aumentam a velocidade"
+      ],
+      "resposta": "Ficam mais lentos",
+      "explicacao": "Menor diferença → menor frequência de batimento."
+    }
+  ]
+}
