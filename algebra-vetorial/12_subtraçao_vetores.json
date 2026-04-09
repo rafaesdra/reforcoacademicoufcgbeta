@@ -1,0 +1,99 @@
+{
+  "id": "subtracao_de_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Subtração de Vetores",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "A subtração de vetores consiste em somar um vetor com o oposto do outro.",
+
+    "explicacao": "A subtração de vetores é definida como a soma de um vetor com o oposto de outro.\n\nSe temos dois vetores A e B, então:\nA - B = A + (-B)\n\nOnde -B é o vetor oposto de B (mesma direção, sentido contrário).\n\n1) Forma algébrica:\nSubtraímos componente a componente.\nExemplo:\nA = (5, 3) e B = (2, 1)\nA - B = (5-2, 3-1) = (3, 2)\n\nNo espaço (3D):\nA = (4, -2, 1) e B = (1, 3, -2)\nA - B = (3, -5, 3)\n\n2) Forma geométrica:\nA subtração pode ser interpretada como o vetor que vai da extremidade de B até a extremidade de A.\n\nOutra interpretação importante:\nA - B representa o vetor deslocamento de B até A.\n\nPropriedades:\n- Não é comutativa: A - B ≠ B - A\n- Pode ser transformada em soma: A - B = A + (-B)",
+
+    "intuicao": "Subtrair vetores é descobrir qual deslocamento leva de um vetor até outro.",
+
+    "analogia": "Imagine que você está em um ponto B e quer chegar ao ponto A. O vetor A - B representa exatamente o caminho que você precisa percorrer.",
+
+    "aplicacoes": [
+      "Cálculo de deslocamento relativo entre dois pontos",
+      "Determinação de diferenças de posição em Física"
+    ],
+
+    "erros_comuns": [
+      "Trocar a ordem da subtração (A - B ≠ B - A)",
+      "Esquecer de inverter o sinal das componentes do vetor subtraído"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dado A = (5, 3) e B = (2, 1), qual é A - B?",
+      "alternativas": [
+        "(3, 2)",
+        "(7, 4)",
+        "(2, 3)",
+        "(3, 4)"
+      ],
+      "resposta": "(3, 2)",
+      "explicacao": "Subtraímos componente a componente: (5-2, 3-1) = (3, 2)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (4, -1) e B = (2, 3), qual é A - B?",
+      "alternativas": [
+        "(2, -4)",
+        "(6, 2)",
+        "(2, 4)",
+        "(4, -4)"
+      ],
+      "resposta": "(2, -4)",
+      "explicacao": "Subtraindo: (4-2, -1-3) = (2, -4)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados A = (3, 2, 1) e B = (1, -2, 4), qual é A - B?",
+      "alternativas": [
+        "(2, 4, -3)",
+        "(4, 0, 5)",
+        "(2, 0, -3)",
+        "(3, 4, -3)"
+      ],
+      "resposta": "(2, 4, -3)",
+      "explicacao": "Subtraindo: (3-1, 2-(-2), 1-4) = (2, 4, -3)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A - B = (4, 2) e A = (6, 5), qual é o vetor B?",
+      "alternativas": [
+        "(2, 3)",
+        "(10, 7)",
+        "(2, 2)",
+        "(4, 3)"
+      ],
+      "resposta": "(2, 3)",
+      "explicacao": "Temos (6 - x, 5 - y) = (4, 2). Logo, x = 2 e y = 3."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (x, 4) e B = (2, y) e A - B = (5, 1), quais são os valores de x e y?",
+      "alternativas": [
+        "x = 7, y = 3",
+        "x = 3, y = 3",
+        "x = 7, y = 1",
+        "x = 5, y = 3"
+      ],
+      "resposta": "x = 7, y = 3",
+      "explicacao": "Temos (x-2, 4-y) = (5,1). Logo, x-2=5 → x=7 e 4-y=1 → y=3."
+    }
+  ]
+}
