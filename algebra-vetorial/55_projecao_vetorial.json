@@ -1,0 +1,99 @@
+{
+  "id": "projecao_vetorial",
+  "disciplina": "Matemática",
+  "assunto": "Projeção Vetorial",
+  "ordem": 55,
+
+  "teoria": {
+    "resumo": "A projeção vetorial é o vetor que representa a componente de um vetor na direção de outro.",
+
+    "explicacao": "A projeção vetorial de um vetor \\(\\vec{a}\\) sobre um vetor \\(\\vec{b}\\) é um novo vetor que aponta na direção de \\(\\vec{b}\\) e representa a 'parte' de \\(\\vec{a}\\) nessa direção.\n\nEla é dada por:\n\nproj_{b}(a) = [(a · b) / |b|²] · b\n\nOnde:\n- a · b é o produto escalar\n- |b|² é o quadrado do módulo de b\n\nPassos:\n1. Calcular o produto escalar (a · b)\n2. Calcular |b|²\n3. Multiplicar o escalar obtido pelo vetor b\n\nExemplo:\nSe \\(\\vec{a} = (2, 2)\\) e \\(\\vec{b} = (1, 0)\\):\n\nProduto escalar: 2\n|b|² = 1\n\nproj_b(a) = 2 · (1,0) = (2,0)\n\nOu seja, a projeção vetorial é o vetor (2,0).\n\nRelação com projeção escalar:\n\nproj vetorial = (proj escalar) · (vetor unitário de b)\n\nEssa projeção mantém direção e sentido do vetor base.",
+
+    "intuicao": "A projeção vetorial mostra exatamente 'quanto' e 'em que direção' um vetor atua sobre outro.",
+
+    "analogia": "Imagine uma sombra sendo projetada sobre uma reta — essa sombra não é só o tamanho, mas também a direção da reta.",
+
+    "aplicacoes": [
+      "Decomposição de vetores em física",
+      "Computação gráfica e modelagem vetorial"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir por |b|²",
+      "Confundir projeção escalar com vetorial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A projeção vetorial resulta em:",
+      "alternativas": [
+        "Um número",
+        "Um vetor",
+        "Um ângulo",
+        "Uma matriz"
+      ],
+      "resposta": "Um vetor",
+      "explicacao": "Diferente da projeção escalar, a projeção vetorial é um vetor."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A projeção vetorial de um vetor sobre outro tem direção:",
+      "alternativas": [
+        "Do vetor original",
+        "Do vetor projetado",
+        "Do vetor base",
+        "Aleatória"
+      ],
+      "resposta": "Do vetor base",
+      "explicacao": "A projeção ocorre na direção do vetor base."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a projeção vetorial de (3,0) sobre (1,0)?",
+      "alternativas": [
+        "(3,0)",
+        "(1,0)",
+        "(0,3)",
+        "(0,0)"
+      ],
+      "resposta": "(3,0)",
+      "explicacao": "O vetor já está na mesma direção, então a projeção é ele mesmo."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são perpendiculares, a projeção vetorial é:",
+      "alternativas": [
+        "Igual ao vetor original",
+        "Um vetor nulo",
+        "Um vetor unitário",
+        "Um vetor oposto"
+      ],
+      "resposta": "Um vetor nulo",
+      "explicacao": "Produto escalar zero implica projeção vetorial nula."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se \\(\\vec{a} = (2,2)\\) e \\(\\vec{b} = (1,1)\\), qual a projeção vetorial de a sobre b?",
+      "alternativas": [
+        "(2,2)",
+        "(1,1)",
+        "(4,4)",
+        "(0,0)"
+      ],
+      "resposta": "(2,2)",
+      "explicacao": "a e b têm mesma direção, então a projeção é o próprio vetor a."
+    }
+  ]
+}
