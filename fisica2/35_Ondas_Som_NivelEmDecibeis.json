@@ -1,0 +1,103 @@
+{
+  "id": "35_Ondas_Som_NivelEmDecibeis",
+  "disciplina": "Física 2",
+  "assunto": "Ondas sonoras - Nível em decibéis",
+  "ordem": 35,
+
+  "teoria": {
+    "resumo": "O nível em decibéis é uma medida logarítmica da intensidade sonora percebida pelo ouvido humano.",
+
+    "explicacao": "O nível de intensidade sonora é medido em decibéis (dB) e representa como o ouvido humano percebe a intensidade do som.\n\nEle é definido pela equação:\n\nβ = 10 log(I/I₀)\n\nOnde:\n- β é o nível sonoro (em decibéis)\n- I é a intensidade do som\n- I₀ = 10⁻¹² W/m² (limiar da audição)\n\nEssa escala é logarítmica, o que significa que aumentos iguais em dB correspondem a multiplicações na intensidade.\n\nPor exemplo:\n- Aumentar 10 dB → intensidade ×10\n- Aumentar 20 dB → intensidade ×100\n\nMas a percepção humana funciona aproximadamente assim:\n- +10 dB → som parece cerca de 2 vezes mais intenso\n\nValores típicos:\n- 0 dB → limiar da audição\n- 30 dB → ambiente silencioso\n- 60 dB → conversa normal\n- 100 dB → som alto\n- 120 dB → limiar da dor\n\nCaracterísticas importantes:\n- A escala é relativa\n- Pequenas variações em dB podem representar grandes mudanças físicas\n\nA soma de sons também segue regras logarítmicas:\n- Duas fontes iguais → aumento de aproximadamente +3 dB\n\nO uso de decibéis é essencial para representar sons de forma compatível com a percepção humana.",
+
+    "intuicao": "Decibéis não crescem linearmente — pequenos aumentos representam grandes mudanças reais.",
+
+    "analogia": "É como uma escala exponencial: subir um pouco já significa crescer muito.",
+
+    "aplicacoes": [
+      "Medição de ruído ambiental",
+      "Engenharia de áudio",
+      "Segurança auditiva",
+      "Controle de volume em equipamentos"
+    ],
+
+    "erros_comuns": [
+      "Achar que dB cresce linearmente",
+      "Confundir intensidade com nível em dB",
+      "Somar dB de forma direta",
+      "Ignorar o valor de referência I₀"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que o decibel mede?",
+      "alternativas": [
+        "Velocidade do som",
+        "Frequência",
+        "Nível de intensidade sonora",
+        "Comprimento de onda"
+      ],
+      "resposta": "Nível de intensidade sonora",
+      "explicacao": "O decibel mede a intensidade percebida do som."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de referência I₀?",
+      "alternativas": [
+        "10⁻⁶",
+        "10⁻¹²",
+        "10⁻³",
+        "1"
+      ],
+      "resposta": "10⁻¹²",
+      "explicacao": "Esse é o limiar da audição humana."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um aumento de 10 dB corresponde a:",
+      "alternativas": [
+        "Dobrar a intensidade",
+        "Triplicar a intensidade",
+        "Multiplicar por 10",
+        "Multiplicar por 2"
+      ],
+      "resposta": "Multiplicar por 10",
+      "explicacao": "A escala é logarítmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual nível representa aproximadamente uma conversa normal?",
+      "alternativas": [
+        "10 dB",
+        "30 dB",
+        "60 dB",
+        "100 dB"
+      ],
+      "resposta": "60 dB",
+      "explicacao": "Esse é um valor típico de conversa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas fontes iguais são combinadas, o nível aumenta aproximadamente:",
+      "alternativas": [
+        "+1 dB",
+        "+3 dB",
+        "+10 dB",
+        "+20 dB"
+      ],
+      "resposta": "+3 dB",
+      "explicacao": "Somar fontes iguais aumenta cerca de 3 dB."
+    }
+  ]
+}
