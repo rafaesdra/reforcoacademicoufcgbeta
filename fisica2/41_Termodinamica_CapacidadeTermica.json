@@ -1,0 +1,103 @@
+{
+  "id": "41_Termodinamica_CapacidadeTermica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Capacidade térmica",
+  "ordem": 41,
+
+  "teoria": {
+    "resumo": "A capacidade térmica mede a quantidade de calor necessária para variar a temperatura de um corpo em uma unidade.",
+
+    "explicacao": "A capacidade térmica é a quantidade de calor necessária para elevar a temperatura de um corpo em uma unidade de grau.\n\nEla depende da massa e da natureza da substância.\n\nA expressão matemática é:\n\nC = Q/ΔT\n\nOnde:\n- C é a capacidade térmica (J/°C ou J/K)\n- Q é a quantidade de calor (J)\n- ΔT é a variação de temperatura\n\nRelacionando com o calor específico, temos:\n\nC = m·c\n\nOnde:\n- m é a massa do corpo\n- c é o calor específico da substância\n\nCaracterísticas importantes:\n- Quanto maior a massa, maior a capacidade térmica\n- Materiais com alto calor específico possuem maior capacidade térmica\n- A capacidade térmica depende do corpo como um todo\n\nDiferença entre calor específico e capacidade térmica:\n\nCalor específico:\n- Propriedade da substância\n- Independe da massa\n- Unidade: J/kg·°C\n\nCapacidade térmica:\n- Propriedade do corpo\n- Depende da massa\n- Unidade: J/°C ou J/K\n\nExemplo clássico:\nA água possui alto calor específico, o que resulta em grande capacidade térmica. Por isso, ela demora mais para aquecer e esfriar, desempenhando um papel essencial na regulação térmica do planeta.\n\nEsse conceito é fundamental em estudos de calorimetria e trocas de calor.",
+
+    "intuicao": "A capacidade térmica indica o quanto um corpo precisa de energia para aquecer.",
+
+    "analogia": "É como o tanque de combustível de um carro: quanto maior o tanque, mais energia é necessária para enchê-lo.",
+
+    "aplicacoes": [
+      "Projeto de sistemas de aquecimento e resfriamento",
+      "Estudos climáticos e ambientais",
+      "Engenharia térmica e industrial",
+      "Dimensionamento de calorímetros"
+    ],
+
+    "erros_comuns": [
+      "Confundir capacidade térmica com calor específico",
+      "Esquecer que a capacidade térmica depende da massa",
+      "Utilizar unidades incorretas",
+      "Não considerar a variação de temperatura"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é capacidade térmica?",
+      "alternativas": [
+        "A quantidade de calor necessária para variar a temperatura de um corpo",
+        "A energia armazenada em um corpo",
+        "A velocidade de aquecimento",
+        "A temperatura máxima de um material"
+      ],
+      "resposta": "A quantidade de calor necessária para variar a temperatura de um corpo",
+      "explicacao": "Essa é a definição de capacidade térmica."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da capacidade térmica?",
+      "alternativas": [
+        "C = m·c",
+        "C = Q/ΔT",
+        "Q = mcΔT",
+        "ΔT = Q/C"
+      ],
+      "resposta": "C = Q/ΔT",
+      "explicacao": "A capacidade térmica é definida como a razão entre o calor e a variação de temperatura."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da capacidade térmica no Sistema Internacional?",
+      "alternativas": [
+        "J/kg",
+        "J/kg·°C",
+        "J/°C",
+        "W"
+      ],
+      "resposta": "J/°C",
+      "explicacao": "A unidade da capacidade térmica é joule por grau Celsius ou joule por kelvin."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a massa de um corpo dobra, sua capacidade térmica:",
+      "alternativas": [
+        "Permanece constante",
+        "Diminui pela metade",
+        "Dobra",
+        "Zera"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "Como C = m·c, a capacidade térmica é diretamente proporcional à massa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa diferencia corretamente calor específico de capacidade térmica?",
+      "alternativas": [
+        "Ambos dependem da massa",
+        "O calor específico depende da massa",
+        "A capacidade térmica depende da massa",
+        "Nenhum depende da massa"
+      ],
+      "resposta": "A capacidade térmica depende da massa",
+      "explicacao": "O calor específico é uma propriedade da substância, enquanto a capacidade térmica depende da massa do corpo."
+    }
+  ]
+}
