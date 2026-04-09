@@ -1,0 +1,99 @@
+{
+  "id": "mudanca_de_base",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Mudança de Base",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "A mudança de base consiste em representar um mesmo vetor em diferentes sistemas de coordenadas.",
+
+    "explicacao": "A mudança de base ocorre quando representamos um vetor em relação a um novo conjunto de vetores base.\n\nNa base canônica, usamos:\ni = (1,0) e j = (0,1)\n\nMas podemos ter outra base, por exemplo:\nB = {u, v}\nu = (1,1) e v = (1,-1)\n\nQualquer vetor pode ser representado nessa nova base como:\nV = a·u + b·v\n\nExemplo:\nSe queremos escrever V = (2,0) na base B:\n\nSabemos que:\nu = (1,1)\nv = (1,-1)\n\nEntão:\na(1,1) + b(1,-1) = (2,0)\n\nSistema:\na + b = 2\na - b = 0\n\nSomando:\n2a = 2 → a = 1\nLogo, b = 1\n\nEntão:\nV = 1u + 1v\n\nInterpretação:\nO vetor é o mesmo, mas sua representação muda dependendo da base.\n\nEsse conceito é fundamental para transformações lineares, mudança de coordenadas e aplicações em física e computação gráfica.",
+
+    "intuicao": "Mudar a base é como mudar o ponto de vista: o objeto não muda, apenas a forma de descrevê-lo.",
+
+    "analogia": "É como descrever uma localização usando ruas diferentes ou pontos de referência diferentes em uma cidade.",
+
+    "aplicacoes": [
+      "Transformações de coordenadas em física",
+      "Computação gráfica e mudança de referencial"
+    ],
+
+    "erros_comuns": [
+      "Achar que o vetor muda ao trocar a base",
+      "Montar incorretamente o sistema de equações para encontrar os coeficientes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que muda ao trocar a base de um vetor?",
+      "alternativas": [
+        "A representação do vetor",
+        "O vetor em si",
+        "O módulo do vetor",
+        "A direção do vetor"
+      ],
+      "resposta": "A representação do vetor",
+      "explicacao": "O vetor permanece o mesmo, apenas sua forma de representação muda."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na base canônica do plano, usamos quais vetores?",
+      "alternativas": [
+        "(1,0) e (0,1)",
+        "(1,1) e (1,-1)",
+        "(0,0) e (1,1)",
+        "(2,0) e (0,2)"
+      ],
+      "resposta": "(1,0) e (0,1)",
+      "explicacao": "Esses são os vetores da base padrão do plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se u = (1,0) e v = (0,1), qual é a base formada por esses vetores?",
+      "alternativas": [
+        "Base canônica",
+        "Base dependente",
+        "Base nula",
+        "Base inválida"
+      ],
+      "resposta": "Base canônica",
+      "explicacao": "Esses vetores formam a base padrão do plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se V = (2,2) e u = (1,1), v = (1,-1), então V pode ser escrito como:",
+      "alternativas": [
+        "2u + 0v",
+        "1u + 1v",
+        "0u + 2v",
+        "2u + 2v"
+      ],
+      "resposta": "2u + 0v",
+      "explicacao": "2(1,1) + 0(1,-1) = (2,2)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se u = (1,1), v = (1,-1) e V = (3,1), quais são os coeficientes a e b tais que V = au + bv?",
+      "alternativas": [
+        "a = 2, b = 1",
+        "a = 1, b = 2",
+        "a = 3, b = 1",
+        "a = 2, b = 2"
+      ],
+      "resposta": "a = 2, b = 1",
+      "explicacao": "Sistema: a + b = 3 e a - b = 1 → somando: 2a = 4 → a = 2, então b = 1."
+    }
+  ]
+}
