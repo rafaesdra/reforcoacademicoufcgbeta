@@ -1,0 +1,106 @@
+{
+  "id": "44_Termodinamica_TransferenciaDeCalor_Conveccao",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Mecanismos de transferência de calor: convecção",
+  "ordem": 44,
+
+  "teoria": {
+    "resumo": "A convecção é a transferência de calor que ocorre por meio do movimento de massas de fluido devido a diferenças de temperatura e densidade.",
+
+    "explicacao": "A convecção térmica é o processo de transferência de calor que ocorre em fluidos — líquidos e gases — por meio do movimento de suas partículas.\n\nDiferentemente da condução, a convecção envolve o transporte de matéria. Esse movimento ocorre devido às diferenças de densidade causadas pela variação de temperatura.\n\nQuando um fluido é aquecido:\n- Sua densidade diminui;\n- Ele se torna mais leve e sobe.\n\nSimultaneamente, o fluido mais frio e denso desce, estabelecendo correntes de convecção que promovem a transferência de calor.\n\nEsse processo continua até que o equilíbrio térmico seja atingido.\n\nTipos de convecção:\n\n1) Convecção Natural:\nOcorre espontaneamente devido às diferenças de densidade no fluido.\n\nExemplos:\n- Aquecimento da água em uma panela;\n- Brisas marítimas;\n- Circulação atmosférica.\n\n2) Convecção Forçada:\nOcorre com auxílio de agentes externos, como ventiladores ou bombas.\n\nExemplos:\n- Sistemas de ar-condicionado;\n- Radiadores de automóveis;\n- Ventiladores e coolers de computadores.\n\nCaracterísticas importantes:\n- Ocorre apenas em líquidos e gases;\n- Envolve transporte de matéria;\n- Depende da gravidade e das diferenças de densidade;\n- É fundamental para o equilíbrio térmico em sistemas naturais.\n\nExemplos do cotidiano:\n- Aquecimento de ambientes por aquecedores;\n- Formação de ventos;\n- Correntes oceânicas;\n- Ebulição da água.\n\nA convecção desempenha papel essencial na meteorologia, oceanografia e engenharia térmica.",
+
+    "intuicao": "O fluido quente sobe e o frio desce, transportando calor de forma contínua.",
+
+    "analogia": "É como uma lava lamp: o líquido aquecido sobe, esfria e desce, formando um ciclo contínuo.",
+
+    "aplicacoes": [
+      "Circulação atmosférica e formação de ventos",
+      "Correntes oceânicas",
+      "Sistemas de aquecimento e refrigeração",
+      "Radiadores de automóveis",
+      "Ar-condicionado e ventilação",
+      "Resfriamento de equipamentos eletrônicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir convecção com condução",
+      "Achar que ocorre em sólidos",
+      "Ignorar o transporte de matéria",
+      "Desconsiderar a influência da gravidade",
+      "Confundir convecção natural com convecção forçada"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em quais meios ocorre a convecção?",
+      "alternativas": [
+        "Sólidos",
+        "Líquidos e gases",
+        "Vácuo",
+        "Somente metais"
+      ],
+      "resposta": "Líquidos e gases",
+      "explicacao": "A convecção ocorre apenas em fluidos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com o fluido quando é aquecido?",
+      "alternativas": [
+        "Aumenta sua densidade",
+        "Diminui sua densidade e sobe",
+        "Permanece estático",
+        "Transforma-se em sólido"
+      ],
+      "resposta": "Diminui sua densidade e sobe",
+      "explicacao": "O aquecimento torna o fluido menos denso."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual exemplo representa convecção natural?",
+      "alternativas": [
+        "Ventilador ligado",
+        "Radiador com bomba",
+        "Brisa marítima",
+        "Ferro elétrico"
+      ],
+      "resposta": "Brisa marítima",
+      "explicacao": "A brisa marítima ocorre devido à diferença de temperatura entre a terra e o mar."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual exemplo representa convecção forçada?",
+      "alternativas": [
+        "Formação de nuvens",
+        "Correntes oceânicas",
+        "Ventilador resfriando um ambiente",
+        "Aquecimento do ar pelo Sol"
+      ],
+      "resposta": "Ventilador resfriando um ambiente",
+      "explicacao": "A convecção é induzida por um agente externo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o principal mecanismo responsável pela formação dos ventos?",
+      "alternativas": [
+        "Condução",
+        "Radiação",
+        "Convecção",
+        "Condensação"
+      ],
+      "resposta": "Convecção",
+      "explicacao": "Os ventos se formam devido às correntes de convecção na atmosfera."
+    }
+  ]
+}
