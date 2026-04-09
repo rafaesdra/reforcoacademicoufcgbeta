@@ -1,0 +1,99 @@
+{
+  "id": "dependencia_independencia_linear",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Dependência e Independência Linear",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "Vetores são linearmente independentes quando nenhum pode ser escrito como combinação linear dos outros.",
+
+    "explicacao": "Os conceitos de dependência e independência linear são fundamentais na Álgebra Vetorial.\n\nDefinição:\n\nUm conjunto de vetores é linearmente independente se:\n\nA única solução da equação:\n\na1V1 + a2V2 + ... + anVn = 0\n\nfor:\n\na1 = a2 = ... = an = 0\n\nCaso contrário, os vetores são linearmente dependentes.\n\n\nInterpretação:\n- Independentes → cada vetor traz uma nova direção\n- Dependentes → algum vetor pode ser obtido a partir dos outros\n\n\nExemplo 1 (dependentes):\nA = (2,4) e B = (1,2)\n\nA = 2B → dependentes\n\n\nExemplo 2 (independentes):\nA = (1,0) e B = (0,1)\n\nNão existe múltiplo que transforme um no outro → independentes\n\n\nCritério prático:\n- No plano: dois vetores são independentes se não forem paralelos\n- No espaço: três vetores são independentes se o determinante ≠ 0\n\n\nRelação com geometria:\n- Dependentes → estão na mesma linha ou plano\n- Independentes → geram o espaço\n\nEsse conceito é essencial para bases, dimensão e sistemas lineares.",
+
+    "intuicao": "Vetores independentes apontam para direções diferentes e não redundantes.",
+
+    "analogia": "É como ter ferramentas diferentes: cada uma faz algo novo; ferramentas iguais seriam redundantes.",
+
+    "aplicacoes": [
+      "Determinação de bases em espaços vetoriais",
+      "Resolução de sistemas lineares e geometria analítica"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetores paralelos com independentes",
+      "Achar que vetores diferentes são sempre independentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando vetores são linearmente dependentes?",
+      "alternativas": [
+        "Quando um é múltiplo do outro",
+        "Quando são iguais",
+        "Quando são perpendiculares",
+        "Quando têm módulos diferentes"
+      ],
+      "resposta": "Quando um é múltiplo do outro",
+      "explicacao": "Isso caracteriza dependência linear."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (0,1) são:",
+      "alternativas": [
+        "Linearmente independentes",
+        "Dependentes",
+        "Paralelos",
+        "Iguais"
+      ],
+      "resposta": "Linearmente independentes",
+      "explicacao": "Eles não são múltiplos entre si."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,4) e B = (1,2), os vetores são:",
+      "alternativas": [
+        "Dependentes",
+        "Independentes",
+        "Ortogonais",
+        "Perpendiculares"
+      ],
+      "resposta": "Dependentes",
+      "explicacao": "A = 2B → dependência linear."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No espaço, três vetores são independentes quando:",
+      "alternativas": [
+        "O determinante é diferente de zero",
+        "São paralelos",
+        "São iguais",
+        "Têm mesmo módulo"
+      ],
+      "resposta": "O determinante é diferente de zero",
+      "explicacao": "Determinante ≠ 0 indica independência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se três vetores têm produto misto igual a zero, então eles são:",
+      "alternativas": [
+        "Linearmente dependentes",
+        "Independentes",
+        "Perpendiculares",
+        "Paralelos"
+      ],
+      "resposta": "Linearmente dependentes",
+      "explicacao": "Produto misto zero indica coplanaridade e dependência."
+    }
+  ]
+}
