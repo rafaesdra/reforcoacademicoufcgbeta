@@ -1,0 +1,106 @@
+{
+  "id": "54_Termodinamica_Refrigeradores",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Refrigeradores",
+  "ordem": 54,
+
+  "teoria": {
+    "resumo": "Os refrigeradores são dispositivos que utilizam trabalho para remover calor de uma fonte fria e transferi-lo para uma fonte quente.",
+
+    "explicacao": "Os refrigeradores são máquinas térmicas operando em sentido inverso. Enquanto uma máquina térmica converte calor em trabalho, o refrigerador utiliza trabalho para transferir calor de um ambiente frio para um ambiente quente.\n\nEsse processo só é possível com o fornecimento de energia externa, conforme estabelece a Segunda Lei da Termodinâmica.\n\nFuncionamento básico:\n\n1) O refrigerador retira calor da fonte fria (Qf).\n2) Recebe trabalho externo (W), geralmente fornecido por energia elétrica.\n3) Libera calor para a fonte quente (Qq).\n\nPela Primeira Lei da Termodinâmica:\n\nQq = Qf + W\n\nOnde:\n- Qf é o calor retirado da fonte fria;\n- Qq é o calor rejeitado para a fonte quente;\n- W é o trabalho realizado sobre o sistema.\n\nCoeficiente de desempenho (COP):\n\nA eficiência de um refrigerador é medida pelo Coeficiente de Desempenho (COP):\n\nCOP = Qf / W\n\nQuanto maior o COP, mais eficiente é o refrigerador.\n\nRefrigerador ideal de Carnot:\n\nCOP_Carnot = Tf / (Tq − Tf)\n\nOnde:\n- Tf é a temperatura absoluta da fonte fria (K);\n- Tq é a temperatura absoluta da fonte quente (K).\n\nCaracterísticas importantes:\n- Opera em ciclos termodinâmicos.\n- Requer fornecimento de energia externa.\n- Transfere calor contra o fluxo natural.\n- Nunca possui eficiência perfeita.\n\nPrincipais componentes de um refrigerador:\n- Compressor\n- Condensador\n- Válvula de expansão\n- Evaporador\n\nExemplos de refrigeradores:\n- Geladeiras domésticas\n- Freezers\n- Aparelhos de ar-condicionado\n- Sistemas de refrigeração industrial\n- Câmaras frigoríficas\n\nRepresentação gráfica:\n- Em diagramas P × V ou T × S, o refrigerador descreve um ciclo fechado, operando no sentido inverso ao das máquinas térmicas.",
+
+    "intuicao": "O refrigerador usa energia elétrica para retirar calor de um ambiente frio e liberá-lo para o ambiente externo.",
+
+    "analogia": "É como usar uma bomba para levar água de um nível baixo para um nível mais alto: é necessário fornecer energia para realizar essa tarefa.",
+
+    "aplicacoes": [
+      "Geladeiras e freezers domésticos",
+      "Sistemas de ar-condicionado",
+      "Conservação de alimentos e vacinas",
+      "Refrigeração industrial",
+      "Processos criogênicos",
+      "Centrais de climatização"
+    ],
+
+    "erros_comuns": [
+      "Confundir refrigeradores com máquinas térmicas",
+      "Acreditar que o frio é produzido em vez de o calor ser removido",
+      "Esquecer a necessidade de trabalho externo",
+      "Utilizar temperaturas em Celsius em vez de Kelvin no COP de Carnot",
+      "Confundir rendimento com coeficiente de desempenho"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a função principal de um refrigerador?",
+      "alternativas": [
+        "Converter calor em trabalho",
+        "Produzir frio",
+        "Transferir calor da fonte fria para a fonte quente",
+        "Gerar energia térmica"
+      ],
+      "resposta": "Transferir calor da fonte fria para a fonte quente",
+      "explicacao": "O refrigerador remove calor do interior e o libera para o ambiente externo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do coeficiente de desempenho de um refrigerador?",
+      "alternativas": [
+        "COP = W / Qf",
+        "COP = Qf / W",
+        "COP = Qq / W",
+        "COP = Qq − Qf"
+      ],
+      "resposta": "COP = Qf / W",
+      "explicacao": "O COP mede a eficiência do refrigerador em remover calor da fonte fria."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei da Termodinâmica explica o funcionamento dos refrigeradores?",
+      "alternativas": [
+        "Lei Zero da Termodinâmica",
+        "Primeira Lei da Termodinâmica",
+        "Segunda Lei da Termodinâmica",
+        "Lei de Boyle"
+      ],
+      "resposta": "Segunda Lei da Termodinâmica",
+      "explicacao": "Ela estabelece que o calor não flui espontaneamente do frio para o quente."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação energética em um refrigerador?",
+      "alternativas": [
+        "Qq = Qf − W",
+        "Qf = Qq + W",
+        "Qq = Qf + W",
+        "W = Qq + Qf"
+      ],
+      "resposta": "Qq = Qf + W",
+      "explicacao": "Essa relação deriva da Primeira Lei da Termodinâmica."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um refrigerador remove 400 J de calor do interior consumindo 100 J de trabalho. Qual é o seu coeficiente de desempenho?",
+      "alternativas": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "resposta": "4",
+      "explicacao": "COP = Qf/W = 400/100 = 4."
+    }
+  ]
+}
