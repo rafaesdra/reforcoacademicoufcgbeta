@@ -1,0 +1,106 @@
+{
+  "id": "56_Termodinamica_EficienciaTermica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Eficiência térmica",
+  "ordem": 56,
+
+  "teoria": {
+    "resumo": "A eficiência térmica mede a capacidade de uma máquina térmica de converter calor em trabalho útil.",
+
+    "explicacao": "A eficiência térmica, também chamada de rendimento térmico, é uma grandeza que indica o quão eficientemente uma máquina térmica transforma energia térmica em trabalho mecânico.\n\nDurante o funcionamento de uma máquina térmica, uma quantidade de calor é absorvida da fonte quente e apenas parte dessa energia é convertida em trabalho, enquanto o restante é rejeitado para a fonte fria.\n\nPela Primeira Lei da Termodinâmica:\n\nQh = W + Qc\n\nOnde:\n- Qh é o calor absorvido da fonte quente;\n- W é o trabalho realizado pela máquina;\n- Qc é o calor rejeitado para a fonte fria.\n\nA eficiência térmica é definida como:\n\nη = W / Qh\n\nSubstituindo o trabalho pela relação energética:\n\nη = (Qh − Qc) / Qh\n\nOu ainda:\n\nη = 1 − (Qc / Qh)\n\nOnde:\n- η é a eficiência térmica;\n- Qh é o calor fornecido pela fonte quente;\n- Qc é o calor rejeitado à fonte fria.\n\nA eficiência térmica é adimensional e frequentemente expressa em porcentagem.\n\nEficiência máxima – Máquina de Carnot:\n\nA eficiência máxima teórica de uma máquina térmica é dada por:\n\nη_Carnot = 1 − (Tc / Th)\n\nOnde:\n- Th é a temperatura absoluta da fonte quente (K);\n- Tc é a temperatura absoluta da fonte fria (K).\n\nCaracterísticas importantes:\n- Nenhuma máquina térmica pode atingir 100% de eficiência.\n- Parte da energia é sempre dissipada para a fonte fria.\n- A eficiência depende da diferença de temperatura entre as fontes.\n- Quanto maior a temperatura da fonte quente e menor a da fonte fria, maior será o rendimento.\n\nRepresentação gráfica:\n- Em diagramas P × V, o trabalho corresponde à área interna do ciclo termodinâmico.\n\nExemplos práticos:\n- Motores a combustão interna;\n- Usinas termoelétricas;\n- Turbinas a vapor;\n- Motores diesel e a gasolina;\n- Centrais de geração de energia.",
+
+    "intuicao": "A eficiência térmica indica quanto do calor fornecido é realmente convertido em trabalho útil.",
+
+    "analogia": "É como o aproveitamento de combustível em um veículo: parte da energia move o carro, enquanto outra parte é perdida em forma de calor.",
+
+    "aplicacoes": [
+      "Motores de automóveis e aeronaves",
+      "Usinas termoelétricas e nucleares",
+      "Turbinas a vapor e a gás",
+      "Sistemas industriais de geração de energia",
+      "Engenharia mecânica e energética",
+      "Estudos de eficiência energética"
+    ],
+
+    "erros_comuns": [
+      "Confundir eficiência térmica com potência",
+      "Esquecer que o rendimento nunca é de 100%",
+      "Utilizar temperaturas em Celsius em vez de Kelvin na eficiência de Carnot",
+      "Confundir calor absorvido com calor rejeitado",
+      "Ignorar as perdas de energia em sistemas reais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa a eficiência térmica?",
+      "alternativas": [
+        "A quantidade total de calor absorvido",
+        "A razão entre o trabalho realizado e o calor absorvido",
+        "A energia interna do sistema",
+        "A temperatura da fonte quente"
+      ],
+      "resposta": "A razão entre o trabalho realizado e o calor absorvido",
+      "explicacao": "A eficiência térmica mede o aproveitamento do calor na produção de trabalho."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da eficiência térmica?",
+      "alternativas": [
+        "η = Qc / Qh",
+        "η = W / Qh",
+        "η = Qh / W",
+        "η = Qh + Qc"
+      ],
+      "resposta": "η = W / Qh",
+      "explicacao": "Essa é a definição fundamental da eficiência térmica."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão alternativa da eficiência térmica?",
+      "alternativas": [
+        "η = Qc / W",
+        "η = 1 − (Qc / Qh)",
+        "η = Qh / Qc",
+        "η = Tc / Th"
+      ],
+      "resposta": "η = 1 − (Qc / Qh)",
+      "explicacao": "Essa expressão deriva da Primeira Lei da Termodinâmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a eficiência máxima teórica de uma máquina térmica?",
+      "alternativas": [
+        "Eficiência de Newton",
+        "Eficiência de Joule",
+        "Eficiência de Carnot",
+        "Eficiência de Fourier"
+      ],
+      "resposta": "Eficiência de Carnot",
+      "explicacao": "A máquina de Carnot estabelece o limite máximo de eficiência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma máquina térmica absorve 1000 J de calor e realiza 400 J de trabalho. Qual é sua eficiência?",
+      "alternativas": [
+        "20%",
+        "30%",
+        "40%",
+        "60%"
+      ],
+      "resposta": "40%",
+      "explicacao": "η = W/Qh = 400/1000 = 0,4 = 40%."
+    }
+  ]
+}
