@@ -1,0 +1,99 @@
+{
+  "id": "soma_de_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Soma de Vetores",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "A soma de vetores consiste em combinar dois ou mais vetores somando suas componentes correspondentes.",
+
+    "explicacao": "A soma de vetores é uma das operações mais importantes da Álgebra Vetorial.\n\nExistem duas formas principais de entender essa soma:\n\n1) Forma algébrica:\nSomamos componente a componente.\nExemplo:\nA = (2, 3) e B = (4, 1)\nA + B = (2+4, 3+1) = (6, 4)\n\nNo espaço (3D):\nA = (1, 2, 3) e B = (4, 0, -1)\nA + B = (5, 2, 2)\n\n2) Forma geométrica:\nColocamos a origem de um vetor na ponta do outro (regra do polígono ou do paralelogramo).\nO vetor resultante vai da origem do primeiro até a extremidade do segundo.\n\nPropriedades importantes:\n- Comutativa: A + B = B + A\n- Associativa: (A + B) + C = A + (B + C)\n- Elemento neutro: A + 0 = A\n\nEssas propriedades facilitam muito os cálculos com vetores.",
+
+    "intuicao": "Somar vetores é como juntar deslocamentos: você anda em uma direção e depois em outra, e o resultado é o caminho total.",
+
+    "analogia": "Imagine que você dá 3 passos para frente e depois 2 passos para a direita. A soma dos vetores representa o deslocamento final do ponto inicial até o final.",
+
+    "aplicacoes": [
+      "Cálculo de deslocamento em Física",
+      "Determinação de forças resultantes"
+    ],
+
+    "erros_comuns": [
+      "Somar apenas os módulos dos vetores sem considerar direção",
+      "Misturar componentes (ex: somar x com y)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dado A = (2, 1) e B = (3, 4), qual é A + B?",
+      "alternativas": [
+        "(5, 5)",
+        "(6, 4)",
+        "(5, 4)",
+        "(2, 5)"
+      ],
+      "resposta": "(5, 5)",
+      "explicacao": "Somamos componente a componente: (2+3, 1+4) = (5, 5)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1, -2) e B = (4, 3), qual é A + B?",
+      "alternativas": [
+        "(5, 1)",
+        "(3, 1)",
+        "(5, -5)",
+        "(4, 1)"
+      ],
+      "resposta": "(5, 1)",
+      "explicacao": "Somamos: (1+4, -2+3) = (5, 1)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados A = (2, 3, 1) e B = (1, -1, 4), qual é A + B?",
+      "alternativas": [
+        "(3, 2, 5)",
+        "(2, 2, 5)",
+        "(3, 3, 5)",
+        "(1, 2, 5)"
+      ],
+      "resposta": "(3, 2, 5)",
+      "explicacao": "Somamos cada componente: (2+1, 3-1, 1+4) = (3, 2, 5)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A + B = (6, 7) e A = (2, 3), qual é o vetor B?",
+      "alternativas": [
+        "(4, 4)",
+        "(3, 4)",
+        "(4, 3)",
+        "(5, 4)"
+      ],
+      "resposta": "(4, 4)",
+      "explicacao": "B = (6,7) - (2,3) = (4,4)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (x, 2) e B = (3, y) e A + B = (7, 6), quais são os valores de x e y?",
+      "alternativas": [
+        "x = 4, y = 4",
+        "x = 3, y = 4",
+        "x = 4, y = 3",
+        "x = 2, y = 3"
+      ],
+      "resposta": "x = 4, y = 4",
+      "explicacao": "Somando: (x+3, 2+y) = (7,6). Logo, x+3=7 → x=4 e 2+y=6 → y=4."
+    }
+  ]
+}
