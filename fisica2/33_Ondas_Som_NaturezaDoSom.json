@@ -1,0 +1,103 @@
+{
+  "id": "33_Ondas_Som_NaturezaDoSom",
+  "disciplina": "Física 2",
+  "assunto": "Ondas sonoras - Natureza do som (onda longitudinal)",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "O som é uma onda mecânica longitudinal que se propaga por meio de compressões e rarefações no meio.",
+
+    "explicacao": "O som é uma onda mecânica, ou seja, precisa de um meio material para se propagar.\n\nAlém disso, é uma onda longitudinal, o que significa que a vibração das partículas ocorre na mesma direção da propagação.\n\nQuando uma fonte sonora vibra, ela gera regiões alternadas de:\n\n- Compressão: partículas mais próximas (alta pressão)\n- Rarefação: partículas mais afastadas (baixa pressão)\n\nEssas regiões se propagam pelo meio, transportando energia.\n\nCaracterísticas importantes do som:\n\n- Não se propaga no vácuo\n- Depende do meio (ar, água, sólidos)\n- É uma onda de pressão\n\nVelocidade do som:\n- No ar (20°C): aproximadamente 340 m/s\n- Em líquidos: maior que no ar\n- Em sólidos: ainda maior\n\nIsso ocorre porque meios mais rígidos transmitem vibrações mais rapidamente.\n\nO som pode ser descrito pelas mesmas grandezas das ondas:\n- Frequência\n- Comprimento de onda\n- Velocidade\n\nO ouvido humano percebe sons em uma faixa de frequência aproximadamente entre:\n\n20 Hz até 20.000 Hz\n\nAbaixo disso → infrassom\nAcima disso → ultrassom\n\nO estudo do som é essencial para entender acústica, música, comunicação e diversas aplicações tecnológicas.",
+
+    "intuicao": "O som é uma 'onda de empurra e puxa' das partículas do meio.",
+
+    "analogia": "É como uma mola sendo comprimida e esticada repetidamente — essa compressão se propaga.",
+
+    "aplicacoes": [
+      "Comunicação humana",
+      "Instrumentos musicais",
+      "Ultrassom médico",
+      "Sistemas de áudio"
+    ],
+
+    "erros_comuns": [
+      "Achar que o som se propaga no vácuo",
+      "Confundir som com onda transversal",
+      "Ignorar compressões e rarefações",
+      "Achar que o som tem velocidade constante em todos os meios"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O som é que tipo de onda?",
+      "alternativas": [
+        "Eletromagnética",
+        "Transversal",
+        "Mecânica longitudinal",
+        "Estacionária"
+      ],
+      "resposta": "Mecânica longitudinal",
+      "explicacao": "O som precisa de meio e vibra na direção da propagação."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que são compressões?",
+      "alternativas": [
+        "Regiões de baixa pressão",
+        "Regiões de alta pressão",
+        "Regiões sem movimento",
+        "Regiões de energia zero"
+      ],
+      "resposta": "Regiões de alta pressão",
+      "explicacao": "As partículas ficam mais próximas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o som não se propaga no vácuo?",
+      "alternativas": [
+        "Porque é lento",
+        "Porque precisa de meio material",
+        "Porque depende da luz",
+        "Porque perde energia"
+      ],
+      "resposta": "Porque precisa de meio material",
+      "explicacao": "O som é uma onda mecânica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é aproximadamente a velocidade do som no ar?",
+      "alternativas": [
+        "100 m/s",
+        "200 m/s",
+        "340 m/s",
+        "500 m/s"
+      ],
+      "resposta": "340 m/s",
+      "explicacao": "Esse é o valor típico a 20°C."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o som se propaga mais rápido em sólidos?",
+      "alternativas": [
+        "Porque são mais leves",
+        "Porque são mais frios",
+        "Porque são mais rígidos",
+        "Porque têm menos energia"
+      ],
+      "resposta": "Porque são mais rígidos",
+      "explicacao": "A rigidez facilita a transmissão da vibração."
+    }
+  ]
+}
