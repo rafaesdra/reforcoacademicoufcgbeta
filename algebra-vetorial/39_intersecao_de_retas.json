@@ -1,0 +1,99 @@
+{
+  "id": "intersecao_de_retas",
+  "disciplina": "Matemática",
+  "assunto": "Interseção de Retas",
+  "ordem": 39,
+
+  "teoria": {
+    "resumo": "A interseção de retas ocorre quando duas retas possuem um ponto em comum.",
+
+    "explicacao": "A interseção entre duas retas acontece quando existe pelo menos um ponto que pertence a ambas.\n\nPara determinar a interseção, geralmente utilizamos as equações paramétricas das retas.\n\nSejam:\n\nr1: x = x1 + a·t, y = y1 + b·t\nr2: x = x2 + c·s, y = y2 + d·s\n\nPara encontrar o ponto de interseção, igualamos as coordenadas:\n\nx1 + a·t = x2 + c·s\ny1 + b·t = y2 + d·s\n\nIsso gera um sistema de duas equações com duas incógnitas (t e s).\n\n- Se o sistema possui solução única → as retas se intersectam (concorrentes)\n- Se não possui solução → não se intersectam (paralelas ou reversas)\n- Se possui infinitas soluções → as retas são coincidentes\n\nExemplo:\n\nr1: x = 1 + t, y = 2 + t\nr2: x = 3 - s, y = 4 - s\n\nIgualando:\n\n1 + t = 3 - s\n2 + t = 4 - s\n\nResolvendo o sistema:\n\nt + s = 2\n\nt + s = 2\n\nSistema dependente → infinitas soluções → retas coincidentes.\n\nOutro exemplo:\n\nr1: x = t, y = t\nr2: x = 1 + s, y = 2 - s\n\nIgualando:\n\nt = 1 + s\nt = 2 - s\n\nResolvendo:\n\n1 + s = 2 - s → 2s = 1 → s = 1/2\n\nt = 1 + 1/2 = 3/2\n\nLogo, ponto de interseção: (3/2, 3/2).",
+
+    "intuicao": "A interseção acontece quando conseguimos encontrar um mesmo ponto gerado por duas retas diferentes.",
+
+    "analogia": "É como duas estradas: se existe um cruzamento, elas se intersectam; se não, seguem caminhos separados.",
+
+    "aplicacoes": [
+      "Cálculo de trajetórias que se cruzam",
+      "Resolução de sistemas lineares na geometria"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de igualar ambas as coordenadas (x e y)",
+      "Concluir interseção sem resolver completamente o sistema"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando duas retas possuem exatamente um ponto em comum, elas são:",
+      "alternativas": [
+        "Paralelas",
+        "Coincidentes",
+        "Concorrentes",
+        "Reversas"
+      ],
+      "resposta": "Concorrentes",
+      "explicacao": "Retas concorrentes se intersectam em um único ponto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para encontrar a interseção entre duas retas, devemos:",
+      "alternativas": [
+        "Somar os vetores diretores",
+        "Igualar as coordenadas das equações",
+        "Multiplicar os parâmetros",
+        "Subtrair os pontos iniciais"
+      ],
+      "resposta": "Igualar as coordenadas das equações",
+      "explicacao": "A interseção é encontrada igualando as coordenadas x e y das duas retas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas r1: x = t, y = t e r2: x = 2 + s, y = 1 + s, as retas:",
+      "alternativas": [
+        "Se intersectam",
+        "São paralelas",
+        "São coincidentes",
+        "São perpendiculares"
+      ],
+      "resposta": "São paralelas",
+      "explicacao": "Os vetores diretores são iguais (1,1), mas não há solução para o sistema, então são paralelas distintas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ponto de interseção entre r1: x = 1 + t, y = 2 + t e r2: x = 3 - s, y = 4 - s?",
+      "alternativas": [
+        "(2, 3)",
+        "(3/2, 3/2)",
+        "Não existe",
+        "Infinitos pontos"
+      ],
+      "resposta": "Infinitos pontos",
+      "explicacao": "O sistema é dependente, indicando que as retas são coincidentes."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas r1: x = 2 + t, y = 1 - t e r2: x = 1 + 2s, y = 3 - s, qual o ponto de interseção?",
+      "alternativas": [
+        "(3, 0)",
+        "(2, 1)",
+        "(1, 2)",
+        "Não existe"
+      ],
+      "resposta": "(3, 0)",
+      "explicacao": "Igualando: 2 + t = 1 + 2s e 1 - t = 3 - s. Resolvendo o sistema, encontramos t = 1 e s = 1, resultando no ponto (3,0)."
+    }
+  ]
+}
