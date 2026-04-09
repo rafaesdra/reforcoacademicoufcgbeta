@@ -1,0 +1,99 @@
+{
+  "id": "distancia_entre_retas_reversas",
+  "disciplina": "Matemática",
+  "assunto": "Distância entre Retas Reversas",
+  "ordem": 49,
+
+  "teoria": {
+    "resumo": "A distância entre retas reversas é a menor distância entre dois pontos pertencentes a cada reta no espaço.",
+
+    "explicacao": "No espaço tridimensional, duas retas podem ser reversas quando não se intersectam e não são paralelas.\n\nA distância entre retas reversas é a menor distância entre um ponto de uma reta e um ponto da outra, medida ao longo de uma direção perpendicular a ambas.\n\nSejam:\n\nr1: P1 + t·v1\nr2: P2 + s·v2\n\nA fórmula da distância entre retas reversas é:\n\nd = |(P2 - P1) · (v1 × v2)| / |v1 × v2|\n\nOnde:\n- P1 e P2 são pontos das retas\n- v1 e v2 são os vetores diretores\n- × representa o produto vetorial\n- · representa o produto escalar\n\nPassos:\n1) Calcular v1 × v2\n2) Calcular o vetor (P2 - P1)\n3) Fazer o produto escalar\n4) Dividir pelo módulo do produto vetorial\n\nExemplo:\nP1 = (0,0,0), v1 = (1,0,0)\nP2 = (0,1,1), v2 = (0,1,0)\n\nv1 × v2 = (0,0,1)\n\nP2 - P1 = (0,1,1)\n\nProduto escalar = 1\n\nDistância = 1/1 = 1\n\nEssa fórmula garante a menor distância entre as duas retas.\n\nObservação:\nSe v1 × v2 = 0, as retas são paralelas e a fórmula não se aplica.",
+
+    "intuicao": "A menor distância entre duas retas reversas é o comprimento do segmento perpendicular comum a ambas.",
+
+    "analogia": "Imagine duas retas no espaço como trilhos em níveis diferentes: a menor distância é uma barra reta ligando perpendicularmente as duas.",
+
+    "aplicacoes": [
+      "Geometria espacial em engenharia",
+      "Modelagem 3D e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de usar produto vetorial",
+      "Aplicar a fórmula em retas paralelas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Retas reversas são aquelas que:",
+      "alternativas": [
+        "Se intersectam",
+        "São paralelas",
+        "Não se intersectam e não são paralelas",
+        "São coincidentes"
+      ],
+      "resposta": "Não se intersectam e não são paralelas",
+      "explicacao": "Essa é a definição de retas reversas no espaço."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v1 × v2 = 0, as retas são:",
+      "alternativas": [
+        "Reversas",
+        "Perpendiculares",
+        "Paralelas",
+        "Coincidentes"
+      ],
+      "resposta": "Paralelas",
+      "explicacao": "Produto vetorial nulo indica vetores paralelos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual operação é essencial para calcular a distância entre retas reversas?",
+      "alternativas": [
+        "Produto escalar apenas",
+        "Produto vetorial",
+        "Soma de vetores",
+        "Multiplicação comum"
+      ],
+      "resposta": "Produto vetorial",
+      "explicacao": "O produto vetorial gera um vetor perpendicular às duas retas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas retas se intersectam, a distância entre elas é:",
+      "alternativas": [
+        "1",
+        "Infinita",
+        "0",
+        "Depende"
+      ],
+      "resposta": "0",
+      "explicacao": "Se há interseção, existe um ponto comum."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados P1=(0,0,0), v1=(1,0,0), P2=(0,2,1), v2=(0,1,0), qual a distância entre as retas?",
+      "alternativas": [
+        "1",
+        "2",
+        "√2",
+        "3"
+      ],
+      "resposta": "1",
+      "explicacao": "v1×v2=(0,0,1), P2-P1=(0,2,1), produto escalar=1, módulo=1 → distância=1."
+    }
+  ]
+}
