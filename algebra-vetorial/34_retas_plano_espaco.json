@@ -1,0 +1,99 @@
+{
+  "id": "retas_plano_espaco",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Retas no Plano e no Espaço",
+  "ordem": 34,
+
+  "teoria": {
+    "resumo": "Retas podem ser representadas por equações vetoriais, paramétricas ou cartesianas no plano e no espaço.",
+
+    "explicacao": "As retas podem ser descritas usando vetores e equações em diferentes formas.\n\n1) Equação vetorial da reta:\n\nr(t) = P + t·v\n\nOnde:\n- P é um ponto da reta\n- v é o vetor diretor\n- t é um parâmetro real\n\nExemplo no plano:\nP = (1,2), v = (2,3)\n\nr(t) = (1,2) + t(2,3)\n\n\n2) Equações paramétricas:\n\nx = x0 + at\ny = y0 + bt\n\nExemplo:\nx = 1 + 2t\ny = 2 + 3t\n\n\n3) Equação reduzida (no plano):\n\ny = mx + b\n\nOnde m é o coeficiente angular (inclinação)\n\n\n4) Reta no espaço (R³):\n\nx = x0 + at\ny = y0 + bt\nz = z0 + ct\n\n\nInterpretação geométrica:\nA reta é o conjunto de pontos obtidos ao partir de um ponto inicial e seguir na direção de um vetor.\n\nCasos importantes:\n- Retas paralelas → vetores diretores proporcionais\n- Retas coincidentes → compartilham todos os pontos\n- Retas concorrentes → se interceptam\n- Retas reversas (no espaço) → não se cruzam nem são paralelas\n\nEsse conceito é fundamental para geometria analítica e física.",
+
+    "intuicao": "Uma reta é um caminho infinito definido por um ponto e uma direção.",
+
+    "analogia": "É como andar sempre na mesma direção a partir de um ponto inicial, sem nunca parar.",
+
+    "aplicacoes": [
+      "Modelagem de trajetórias em Física",
+      "Geometria analítica e gráficos no plano e no espaço"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor diretor com ponto da reta",
+      "Achar que uma reta precisa de mais de um vetor diretor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma reta pode ser definida por:",
+      "alternativas": [
+        "Um ponto e um vetor diretor",
+        "Dois vetores quaisquer",
+        "Apenas um número",
+        "Um ponto apenas"
+      ],
+      "resposta": "Um ponto e um vetor diretor",
+      "explicacao": "Esses elementos definem completamente uma reta."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação vetorial r(t) = P + t·v, o que representa v?",
+      "alternativas": [
+        "Vetor diretor",
+        "Ponto da reta",
+        "Escalar",
+        "Origem"
+      ],
+      "resposta": "Vetor diretor",
+      "explicacao": "Ele define a direção da reta."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas retas possuem vetores diretores proporcionais, elas são:",
+      "alternativas": [
+        "Paralelas",
+        "Perpendiculares",
+        "Reversas",
+        "Concorrentes"
+      ],
+      "resposta": "Paralelas",
+      "explicacao": "Vetores proporcionais indicam mesma direção."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação paramétrica da reta com P = (1,1) e v = (2,3)?",
+      "alternativas": [
+        "x = 1 + 2t, y = 1 + 3t",
+        "x = 2 + t, y = 3 + t",
+        "x = 1 + t, y = 1 + t",
+        "x = 2t, y = 3t"
+      ],
+      "resposta": "x = 1 + 2t, y = 1 + 3t",
+      "explicacao": "Usamos o ponto inicial e o vetor diretor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas retas no espaço não são paralelas e não se interceptam, elas são:",
+      "alternativas": [
+        "Reversas",
+        "Concorrentes",
+        "Coincidentes",
+        "Perpendiculares"
+      ],
+      "resposta": "Reversas",
+      "explicacao": "Retas reversas não estão no mesmo plano e não se cruzam."
+    }
+  ]
+}
