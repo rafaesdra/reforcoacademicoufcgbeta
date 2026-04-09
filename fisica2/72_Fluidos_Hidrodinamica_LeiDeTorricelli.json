@@ -1,0 +1,107 @@
+{
+  "id": "72_Fluidos_Hidrodinamica_LeiDeTorricelli",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: Aplicações - Lei de Torricelli",
+  "ordem": 72,
+
+  "teoria": {
+    "resumo": "A Lei de Torricelli determina a velocidade de saída de um fluido por um orifício em um reservatório aberto.",
+
+    "explicacao": "A Lei de Torricelli, formulada pelo físico italiano Evangelista Torricelli, descreve a velocidade com que um fluido escoa por um orifício situado em um recipiente aberto. Essa lei é uma aplicação direta da Equação de Bernoulli e do princípio da conservação da energia.\n\nConsiderando um reservatório aberto à atmosfera e desprezando a viscosidade do fluido, a velocidade de saída é dada por:\n\nv = √(2gh)\n\nOnde:\n- v é a velocidade de saída do fluido (m/s);\n- g é a aceleração da gravidade (m/s²);\n- h é a altura da coluna de fluido acima do orifício (m).\n\nEssa expressão mostra que a velocidade de escoamento é equivalente à velocidade que um corpo adquiriria em queda livre a partir da mesma altura h.\n\nDerivação a partir da Equação de Bernoulli:\n\nP₁ + (1/2)ρv₁² + ρgh₁ = P₂ + (1/2)ρv₂² + ρgh₂\n\nConsiderando que:\n- a superfície do líquido e o orifício estão sob pressão atmosférica;\n- a velocidade na superfície do reservatório é desprezível;\n- a diferença de altura é h;\n\nobtém-se:\n\nv = √(2gh).\n\nVazão volumétrica:\nA vazão do fluido que sai pelo orifício é dada por:\n\nQ = Av\n\nou\n\nQ = A√(2gh)\n\nOnde:\n- Q é a vazão volumétrica (m³/s);\n- A é a área do orifício (m²).\n\nTempo de esvaziamento de um reservatório:\nA Lei de Torricelli também permite calcular o tempo necessário para esvaziar recipientes, considerando a variação da altura do fluido ao longo do tempo.\n\nCondições de validade:\n- Fluido ideal (incompressível e não viscoso);\n- Escoamento estacionário;\n- Reservatório aberto à atmosfera;\n- Pequena área do orifício em relação à área do reservatório;\n- Ausência de perdas de energia.\n\nAplicações práticas:\n- Furos em reservatórios e caixas d'água;\n- Fontes e chafarizes;\n- Barragens e represas;\n- Tanques industriais;\n- Sistemas de drenagem;\n- Engenharia hidráulica e civil.\n\nInterpretação física:\nA Lei de Torricelli mostra que a energia potencial gravitacional do fluido é convertida em energia cinética durante o escoamento.",
+
+    "intuicao": "Quanto maior a altura da coluna de fluido, maior será a velocidade de saída pelo orifício.",
+
+    "analogia": "A velocidade da água ao sair de um reservatório é semelhante à velocidade de um objeto em queda livre a partir da mesma altura.",
+
+    "aplicacoes": [
+      "Dimensionamento de reservatórios e caixas d'água",
+      "Projeto de fontes e chafarizes",
+      "Sistemas de irrigação e drenagem",
+      "Engenharia hidráulica e civil",
+      "Tanques industriais",
+      "Barragens e represas"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que a fórmula depende da altura da coluna de fluido",
+      "Ignorar a influência da gravidade",
+      "Aplicar a equação em fluidos viscosos sem correções",
+      "Desconsiderar a pressão atmosférica na dedução",
+      "Utilizar unidades inconsistentes",
+      "Supor que a velocidade depende da densidade do fluido"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da Lei de Torricelli?",
+      "alternativas": [
+        "v = √(gh)",
+        "v = √(2gh)",
+        "v = gh",
+        "v = 2gh"
+      ],
+      "resposta": "v = √(2gh)",
+      "explicacao": "Essa é a expressão que determina a velocidade de saída do fluido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Lei de Torricelli é derivada de qual princípio?",
+      "alternativas": [
+        "Princípio de Pascal",
+        "Princípio de Arquimedes",
+        "Equação de Bernoulli",
+        "Lei de Hooke"
+      ],
+      "resposta": "Equação de Bernoulli",
+      "explicacao": "A lei é uma aplicação direta da Equação de Bernoulli."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a velocidade de saída da água por um orifício situado a 5 m de profundidade? (g = 10 m/s²)",
+      "alternativas": [
+        "5 m/s",
+        "10 m/s",
+        "√50 m/s",
+        "10√10 m/s"
+      ],
+      "resposta": "10 m/s",
+      "explicacao": "v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A vazão volumétrica de um fluido que sai por um orifício é dada por:",
+      "alternativas": [
+        "Q = F/A",
+        "Q = Av",
+        "Q = ρgh",
+        "Q = m/V"
+      ],
+      "resposta": "Q = Av",
+      "explicacao": "A vazão é o produto da área do orifício pela velocidade do fluido."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um reservatório possui um orifício de área 2 × 10⁻⁴ m² situado a 1,8 m da superfície. Considerando g = 10 m/s², qual é a vazão de saída?",
+      "alternativas": [
+        "6,0 × 10⁻⁴ m³/s",
+        "1,2 × 10⁻³ m³/s",
+        "2,4 × 10⁻³ m³/s",
+        "3,6 × 10⁻³ m³/s"
+      ],
+      "resposta": "1,2 × 10⁻³ m³/s",
+      "explicacao": "v = √(2gh) = √(2 × 10 × 1,8) = √36 = 6 m/s. Assim, Q = Av = 2 × 10⁻⁴ × 6 = 1,2 × 10⁻³ m³/s."
+    }
+  ]
+}
