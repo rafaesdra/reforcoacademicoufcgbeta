@@ -1,0 +1,99 @@
+{
+  "id": "angulo_entre_planos",
+  "disciplina": "Matemática",
+  "assunto": "Ângulo entre Planos",
+  "ordem": 52,
+
+  "teoria": {
+    "resumo": "O ângulo entre planos é determinado pelo ângulo entre seus vetores normais.",
+
+    "explicacao": "O ângulo entre dois planos no espaço é definido como o ângulo entre seus vetores normais.\n\nSejam dois planos:\n\nπ1: a1x + b1y + c1z + d1 = 0\nπ2: a2x + b2y + c2z + d2 = 0\n\nSeus vetores normais são:\n\nn1 = (a1, b1, c1)\nn2 = (a2, b2, c2)\n\nO ângulo θ entre os planos é dado por:\n\ncos(θ) = |n1 · n2| / (|n1| · |n2|)\n\nAssim como no caso das retas, usamos o valor absoluto para obter o menor ângulo (entre 0° e 90°).\n\nExemplo:\nn1 = (1,0,0) e n2 = (0,1,0)\n\nProduto escalar = 0 → cos(θ) = 0 → θ = 90°\n\nOs planos são perpendiculares.\n\nCasos importantes:\n- n1 · n2 = 0 → planos perpendiculares\n- n1 proporcional a n2 → planos paralelos ou coincidentes\n\nEssa análise é fundamental para entender a orientação de superfícies no espaço.",
+
+    "intuicao": "O ângulo entre planos depende apenas de como eles estão inclinados um em relação ao outro.",
+
+    "analogia": "Imagine duas paredes: o ângulo entre elas é o mesmo ângulo entre suas direções perpendiculares (normais).",
+
+    "aplicacoes": [
+      "Análise de superfícies em engenharia",
+      "Computação gráfica e modelagem 3D"
+    ],
+
+    "erros_comuns": [
+      "Usar vetores diretores em vez de vetores normais",
+      "Esquecer de usar valor absoluto na fórmula"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ângulo entre planos é calculado a partir de:",
+      "alternativas": [
+        "Seus pontos",
+        "Seus vetores normais",
+        "Seus vetores diretores",
+        "Suas interseções"
+      ],
+      "resposta": "Seus vetores normais",
+      "explicacao": "O ângulo entre planos é o mesmo que entre seus vetores normais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre os vetores normais é zero, os planos são:",
+      "alternativas": [
+        "Paralelos",
+        "Coincidentes",
+        "Perpendiculares",
+        "Reversos"
+      ],
+      "resposta": "Perpendiculares",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois planos com vetores normais proporcionais são:",
+      "alternativas": [
+        "Perpendiculares",
+        "Paralelos ou coincidentes",
+        "Secantes",
+        "Reversos"
+      ],
+      "resposta": "Paralelos ou coincidentes",
+      "explicacao": "Vetores proporcionais indicam mesma orientação."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre planos com normais (1,0,0) e (1,0,0)?",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "resposta": "0°",
+      "explicacao": "Vetores iguais indicam planos paralelos com mesma orientação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ângulo entre planos com normais (1,1,0) e (1,-1,0) é:",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar = 1·1 + 1·(-1) = 0, logo são perpendiculares."
+    }
+  ]
+}
