@@ -1,0 +1,102 @@
+{
+  "id": "21_Ondas_Parametros_ComprimentoDeOnda",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Parâmetros: comprimento de onda",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "O comprimento de onda é a distância entre dois pontos equivalentes consecutivos em uma onda.",
+
+    "explicacao": "O comprimento de onda (λ) é uma das principais grandezas que caracterizam uma onda.\n\nEle representa a distância entre dois pontos consecutivos que estão na mesma fase do movimento.\n\nExemplos:\n- Distância entre duas cristas consecutivas\n- Distância entre dois vales consecutivos\n- Distância entre duas compressões consecutivas (em ondas longitudinais)\n\nO comprimento de onda está diretamente relacionado com a frequência e a velocidade da onda pela equação:\n\nv = λf\n\nOnde:\n- v é a velocidade da onda\n- λ é o comprimento de onda\n- f é a frequência\n\nIsso significa que, para uma mesma velocidade:\n- Se a frequência aumenta → o comprimento de onda diminui\n- Se a frequência diminui → o comprimento de onda aumenta\n\nEm ondas transversais, o comprimento de onda pode ser visualizado facilmente pela distância entre cristas.\n\nJá em ondas longitudinais, ele corresponde à distância entre regiões de compressão.\n\nO comprimento de onda depende do meio e da frequência da fonte, sendo fundamental para entender fenômenos como interferência, difração e ressonância.",
+
+    "intuicao": "O comprimento de onda é o 'tamanho' de uma repetição completa da onda.",
+
+    "analogia": "É como o espaçamento entre ondas do mar — cada 'onda completa' tem um comprimento.",
+
+    "aplicacoes": [
+      "Análise de ondas sonoras e luminosas",
+      "Comunicação por rádio (frequência e comprimento de onda)",
+      "Estudo de interferência e difração"
+    ],
+
+    "erros_comuns": [
+      "Confundir comprimento de onda com amplitude",
+      "Achar que λ depende apenas do meio",
+      "Esquecer a relação v = λf",
+      "Confundir crista com comprimento completo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o comprimento de onda?",
+      "alternativas": [
+        "A altura da onda",
+        "A distância entre dois pontos equivalentes consecutivos",
+        "A velocidade da onda",
+        "A energia da onda"
+      ],
+      "resposta": "A distância entre dois pontos equivalentes consecutivos",
+      "explicacao": "Essa é a definição de comprimento de onda."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual símbolo representa o comprimento de onda?",
+      "alternativas": [
+        "v",
+        "f",
+        "λ",
+        "T"
+      ],
+      "resposta": "λ",
+      "explicacao": "O comprimento de onda é representado pela letra lambda (λ)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência aumenta e a velocidade permanece constante, o que acontece com λ?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Como v = λf, se f aumenta, λ diminui."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma onda longitudinal, o comprimento de onda corresponde a:",
+      "alternativas": [
+        "Altura da onda",
+        "Distância entre compressões",
+        "Velocidade da onda",
+        "Energia"
+      ],
+      "resposta": "Distância entre compressões",
+      "explicacao": "Essa é a forma de medir λ em ondas longitudinais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual relação envolve o comprimento de onda?",
+      "alternativas": [
+        "v = f/T",
+        "v = λf",
+        "v = λ/T²",
+        "v = f²"
+      ],
+      "resposta": "v = λf",
+      "explicacao": "Essa é a equação fundamental das ondas."
+    }
+  ]
+}
