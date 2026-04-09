@@ -1,0 +1,99 @@
+{
+  "id": "projecao_escalar",
+  "disciplina": "Matemática",
+  "assunto": "Projeção escalar",
+  "ordem": 54,
+
+  "teoria": {
+    "resumo": "A projeção escalar mede quanto um vetor está na direção de outro vetor.",
+
+    "explicacao": "A projeção escalar de um vetor \\(\\vec{a}\\) sobre um vetor \\(\\vec{b}\\) representa o quanto \\(\\vec{a}\\) 'anda' na direção de \\(\\vec{b}\\).\n\nEla é dada pela fórmula:\n\nproj_{b}(a) = (a · b) / |b|\n\nOnde:\n- a · b é o produto escalar\n- |b| é o módulo do vetor b\n\nTambém pode ser escrita como:\n\nproj_{b}(a) = |a| cos(θ)\n\nonde θ é o ângulo entre os vetores.\n\nPassos para calcular:\n1. Calcule o produto escalar entre os vetores\n2. Calcule o módulo do vetor base (aquele sobre o qual se projeta)\n3. Divida o produto escalar pelo módulo\n\nExemplo:\nSe \\(\\vec{a} = (2, 3)\\) e \\(\\vec{b} = (1, 0)\\):\n\nProduto escalar: a·b = 2·1 + 3·0 = 2\n|b| = 1\n\nLogo: proj_b(a) = 2/1 = 2\n\nIsso significa que a componente de \\(\\vec{a}\\) na direção de \\(\\vec{b}\\) é 2.",
+
+    "intuicao": "A projeção escalar mostra quanto um vetor 'aponta' na direção de outro, ignorando o restante.",
+
+    "analogia": "Imagine a sombra de um vetor sendo projetada sobre outro — o tamanho dessa sombra é a projeção escalar.",
+
+    "aplicacoes": [
+      "Cálculo de componentes de força em física",
+      "Análise de movimento em uma direção específica"
+    ],
+
+    "erros_comuns": [
+      "Confundir projeção escalar com projeção vetorial",
+      "Esquecer de dividir pelo módulo do vetor base"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a projeção escalar de (4, 0) sobre (1, 0)?",
+      "alternativas": [
+        "0",
+        "1",
+        "4",
+        "5"
+      ],
+      "resposta": "4",
+      "explicacao": "Produto escalar = 4. Módulo de (1,0) = 1. Logo, projeção = 4/1 = 4."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são perpendiculares, qual é a projeção escalar entre eles?",
+      "alternativas": [
+        "1",
+        "-1",
+        "0",
+        "Depende do módulo"
+      ],
+      "resposta": "0",
+      "explicacao": "Vetores perpendiculares têm produto escalar zero, logo a projeção escalar também é zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Calcule a projeção escalar de (2, 2) sobre (1, 1).",
+      "alternativas": [
+        "2",
+        "2√2",
+        "4",
+        "√2"
+      ],
+      "resposta": "2√2",
+      "explicacao": "Produto escalar = 2+2 = 4. |b| = √2. Logo, 4/√2 = 2√2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A projeção escalar pode ser negativa quando:",
+      "alternativas": [
+        "Os vetores são paralelos",
+        "Os vetores têm ângulo agudo",
+        "Os vetores têm ângulo obtuso",
+        "Os vetores são iguais"
+      ],
+      "resposta": "Os vetores têm ângulo obtuso",
+      "explicacao": "Quando o ângulo é maior que 90°, o cosseno é negativo, tornando a projeção negativa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a projeção escalar de \\(\\vec{a}\\) sobre \\(\\vec{b}\\) é igual ao módulo de \\(\\vec{a}\\), o que podemos afirmar?",
+      "alternativas": [
+        "Os vetores são perpendiculares",
+        "Os vetores são paralelos e no mesmo sentido",
+        "Os vetores são opostos",
+        "Os vetores são independentes"
+      ],
+      "resposta": "Os vetores são paralelos e no mesmo sentido",
+      "explicacao": "Isso ocorre quando cos(θ)=1, ou seja, θ=0°, indicando que os vetores têm mesma direção e sentido."
+    }
+  ]
+}
