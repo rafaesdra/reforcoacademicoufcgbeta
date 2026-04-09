@@ -1,0 +1,99 @@
+{
+  "id": "angulo_entre_retas",
+  "disciplina": "Matemática",
+  "assunto": "Ângulo entre Retas",
+  "ordem": 51,
+
+  "teoria": {
+    "resumo": "O ângulo entre retas é calculado a partir do ângulo entre seus vetores diretores.",
+
+    "explicacao": "O ângulo entre duas retas pode ser determinado utilizando seus vetores diretores.\n\nSejam duas retas com vetores diretores v1 e v2, o ângulo θ entre elas é dado por:\n\ncos(θ) = |v1 · v2| / (|v1| · |v2|)\n\nObservação importante:\nUsamos o valor absoluto para garantir que o ângulo seja sempre o menor possível (entre 0° e 90°).\n\nPassos:\n1) Encontrar os vetores diretores das retas\n2) Calcular o produto escalar\n3) Calcular os módulos\n4) Aplicar a fórmula\n\nExemplo:\nv1 = (1, 1) e v2 = (1, -1)\n\nProduto escalar:\n1·1 + 1·(-1) = 0\n\nLogo:\ncos(θ) = 0 → θ = 90°\n\nAs retas são perpendiculares.\n\nCasos importantes:\n- Produto escalar = 0 → retas perpendiculares\n- Vetores proporcionais → retas paralelas\n\nEssa fórmula vale tanto no plano quanto no espaço.",
+
+    "intuicao": "O ângulo entre retas depende apenas da direção que elas seguem.",
+
+    "analogia": "É como comparar a inclinação de duas ruas: se elas apontam na mesma direção, o ângulo é pequeno; se são cruzadas, o ângulo aumenta.",
+
+    "aplicacoes": [
+      "Análise de inclinação em geometria",
+      "Problemas de engenharia e física"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de usar valor absoluto no cosseno",
+      "Usar pontos em vez de vetores diretores"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ângulo entre retas é calculado a partir de:",
+      "alternativas": [
+        "Seus pontos",
+        "Seus vetores diretores",
+        "Seus interceptos",
+        "Sua equação geral"
+      ],
+      "resposta": "Seus vetores diretores",
+      "explicacao": "O ângulo depende apenas da direção das retas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre os vetores diretores é zero, as retas são:",
+      "alternativas": [
+        "Paralelas",
+        "Coincidentes",
+        "Perpendiculares",
+        "Reversas"
+      ],
+      "resposta": "Perpendiculares",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre retas com vetores diretores (1,0) e (1,0)?",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "resposta": "0°",
+      "explicacao": "Vetores iguais indicam retas paralelas com mesma direção."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de cos(θ) entre vetores (1,2) e (2,1)?",
+      "alternativas": [
+        "4/5",
+        "1",
+        "0",
+        "2/5"
+      ],
+      "resposta": "4/5",
+      "explicacao": "Produto escalar = 4 e módulos √5, então cos(θ)=4/5."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ângulo entre retas com vetores (1,1,0) e (1,-1,0) é:",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar = 1·1 + 1·(-1) = 0, logo são perpendiculares."
+    }
+  ]
+}
