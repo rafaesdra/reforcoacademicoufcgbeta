@@ -1,0 +1,102 @@
+{
+  "id": "06_Oscilacoes_RelacaoMovimentoCircularUniforme",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Relação com movimento circular uniforme",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "O Movimento Harmônico Simples pode ser interpretado como a projeção de um movimento circular uniforme em um eixo.",
+
+    "explicacao": "Uma das formas mais importantes de entender o Movimento Harmônico Simples (MHS) é através da sua relação com o movimento circular uniforme (MCU).\n\nConsidere um ponto girando em uma circunferência com velocidade angular constante ω. Se projetarmos esse ponto em um eixo (por exemplo, o eixo x), veremos que sua posição ao longo do tempo descreve exatamente um MHS.\n\nA posição projetada é dada por:\nx(t) = A cos(ωt + φ)\n\nOnde A é o raio da circunferência.\n\nIsso mostra que o MHS pode ser visto como a 'sombra' de um movimento circular uniforme.\n\nNo MCU:\n- A velocidade angular é constante\n- O movimento ocorre em uma circunferência\n\nNo MHS (projeção):\n- O movimento ocorre em linha reta\n- A velocidade varia\n- A aceleração aponta sempre para o centro (equilíbrio)\n\nA aceleração centrípeta no MCU é:\na = ω²R\n\nNa projeção (MHS), isso se torna:\na = -ω²x\n\nO sinal negativo indica que a aceleração aponta para a posição de equilíbrio.\n\nEssa relação explica por que usamos funções seno e cosseno no MHS, já que essas funções descrevem naturalmente o movimento circular.\n\nAlém disso, essa interpretação facilita a visualização de fase, velocidade e aceleração ao longo do tempo.",
+
+    "intuicao": "Se você olhar para um ponto girando e observar apenas sua 'sombra' em uma linha, verá um movimento de vai e volta — isso é o MHS.",
+
+    "analogia": "É como a sombra de um ventilador girando na parede: a ponta da hélice gira em círculo, mas sua sombra vai e volta.",
+
+    "aplicacoes": [
+      "Interpretação geométrica do MHS",
+      "Análise de ondas senoidais",
+      "Estudo de sinais periódicos em física e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Achar que MHS e MCU são movimentos iguais (um é projeção do outro)",
+      "Esquecer que a aceleração no MHS aponta para o equilíbrio",
+      "Confundir raio do MCU com amplitude do MHS",
+      "Não perceber que seno e cosseno vêm da geometria do círculo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O MHS pode ser interpretado como:",
+      "alternativas": [
+        "Um movimento aleatório",
+        "A projeção de um movimento circular uniforme",
+        "Um movimento retilíneo uniforme",
+        "Um movimento acelerado constante"
+      ],
+      "resposta": "A projeção de um movimento circular uniforme",
+      "explicacao": "O MHS é a projeção de um MCU em um eixo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No modelo de relação entre MCU e MHS, a amplitude corresponde a:",
+      "alternativas": [
+        "A velocidade",
+        "O tempo",
+        "O raio da circunferência",
+        "A aceleração"
+      ],
+      "resposta": "O raio da circunferência",
+      "explicacao": "A amplitude do MHS é igual ao raio do movimento circular."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre a aceleração no MHS e no MCU?",
+      "alternativas": [
+        "São independentes",
+        "a = ωx",
+        "a = -ω²x",
+        "a = constante"
+      ],
+      "resposta": "a = -ω²x",
+      "explicacao": "A aceleração no MHS é a projeção da aceleração centrípeta."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que usamos seno e cosseno no MHS?",
+      "alternativas": [
+        "Porque são funções aleatórias",
+        "Porque descrevem o movimento circular",
+        "Porque são mais fáceis",
+        "Porque dependem da massa"
+      ],
+      "resposta": "Porque descrevem o movimento circular",
+      "explicacao": "As funções trigonométricas surgem naturalmente do MCU."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza é constante no MCU, mas varia no MHS?",
+      "alternativas": [
+        "A posição",
+        "A velocidade",
+        "A aceleração",
+        "O tempo"
+      ],
+      "resposta": "A velocidade",
+      "explicacao": "No MCU, a velocidade escalar é constante; no MHS, ela varia ao longo do movimento."
+    }
+  ]
+}
