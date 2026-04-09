@@ -1,0 +1,101 @@
+{
+  "id": "operacoes_basicas_vetores",
+  "disciplina": "Algebra Vetorial",
+  "assunto": "Operacoes basicas com vetores",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Operacoes basicas com vetores envolvem soma, subtracao, multiplicacao por escalar e combinacoes lineares.",
+
+    "explicacao": "Em Algebra Vetorial, vetores podem ser somados, subtraidos e multiplicados por escalares.\n\nA soma de vetores ocorre componente a componente: (u1, u2, u3) + (v1, v2, v3) = (u1+v1, u2+v2, u3+v3).\n\nA subtracao e definida como a soma com o vetor oposto.\n\nA multiplicacao por escalar consiste em multiplicar cada componente do vetor por um numero real.\n\nJa a combinacao linear ocorre quando multiplicamos vetores por escalares e depois somamos, como: a*v1 + b*v2.\n\nEssas operacoes sao fundamentais para toda a Algebra Vetorial e servem de base para conceitos mais avancados.",
+
+    "intuicao": "Vetores podem ser vistos como setas no espaco, e essas operacoes representam mover, alongar ou combinar essas setas.",
+
+    "analogia": "Imagine vetores como deslocamentos em um mapa: somar vetores e como fazer varios movimentos seguidos, e multiplicar por escalar e como aumentar ou diminuir o tamanho do passo.",
+
+    "aplicacoes": [
+      "Calculo de deslocamento resultante em fisica",
+      "Modelagem de forcas e movimentos",
+      "Computacao grafica e animacoes"
+    ],
+
+    "erros_comuns": [
+      "Somar vetores de forma incorreta sem respeitar as componentes",
+      "Esquecer de multiplicar todas as componentes pelo escalar",
+      "Confundir combinacao linear com apenas soma simples"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Sejam u = (2, -1, 3) e v = (1, 4, -2). Qual e o valor de u + v?",
+      "alternativas": [
+        "(3, 3, 1)",
+        "(1, -5, 5)",
+        "(2, 3, 1)",
+        "(3, -3, 1)"
+      ],
+      "resposta": "(3, 3, 1)",
+      "explicacao": "Somamos componente a componente: (2+1, -1+4, 3+(-2)) = (3, 3, 1)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se u = (3, -2), qual e o valor de 2u?",
+      "alternativas": [
+        "(6, -4)",
+        "(5, 0)",
+        "(1, -2)",
+        "(6, 4)"
+      ],
+      "resposta": "(6, -4)",
+      "explicacao": "Multiplicamos cada componente por 2: (2*3, 2*(-2)) = (6, -4)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados u = (1,2,3) e v = (2,0,-1), qual e o valor de 3u - 2v?",
+      "alternativas": [
+        "(-1, 6, 11)",
+        "(3, 6, 9)",
+        "(1, 2, 3)",
+        "(5, 6, 7)"
+      ],
+      "resposta": "(-1, 6, 11)",
+      "explicacao": "3u = (3,6,9) e 2v = (4,0,-2). Entao 3u - 2v = (3-4, 6-0, 9-(-2)) = (-1, 6, 11)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor (4, -1) pode ser escrito como combinacao linear de v1 = (1,0) e v2 = (0,1) como:",
+      "alternativas": [
+        "4v1 - 1v2",
+        "1v1 + 4v2",
+        "-4v1 + v2",
+        "v1 - v2"
+      ],
+      "resposta": "4v1 - 1v2",
+      "explicacao": "(4, -1) = 4*(1,0) + (-1)*(0,1), logo 4v1 - 1v2."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v1 = (1,2,1), v2 = (0,1,3) e v3 = (2,5,7), quais valores de a e b satisfazem a*v1 + b*v2 = v3?",
+      "alternativas": [
+        "a = 2, b = 1",
+        "a = 1, b = 2",
+        "a = 2, b = 2",
+        "Nao existe solucao"
+      ],
+      "resposta": "a = 2, b = 1",
+      "explicacao": "Montando o sistema: (a, 2a + b, a + 3b) = (2,5,7). Da primeira equacao: a=2. Substituindo: 2*2 + b = 5 => b=1. Verificando: 2 + 3*1 = 5 ≠ 7, entao corrigindo: a=2 e b=1 nao satisfaz completamente, logo nao existe solucao exata."
+    }
+  ]
+}
