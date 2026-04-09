@@ -1,0 +1,99 @@
+{
+  "id": "regra_mao_direita",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Regra da Mão Direita",
+  "ordem": 28,
+
+  "teoria": {
+    "resumo": "A regra da mão direita determina o sentido do vetor resultante no produto vetorial.",
+
+    "explicacao": "A regra da mão direita é utilizada para determinar a direção e o sentido do vetor resultante no produto vetorial.\n\nProcedimento:\n1) Posicione a mão direita de forma que os dedos apontem na direção do primeiro vetor (A)\n2) Curve os dedos na direção do segundo vetor (B)\n3) O polegar estendido indica a direção e o sentido do vetor resultante (A × B)\n\nExemplo:\nSe temos:\ni × j = k\n\nAplicando a regra:\n- Dedos apontam na direção de i\n- Curvam para j\n- O polegar aponta para k\n\nImportante:\n- A ordem dos vetores altera o sentido:\nA × B = - (B × A)\n\nExemplo:\nj × i = -k\n\nInterpretação geométrica:\nO vetor resultante é perpendicular ao plano formado pelos dois vetores.\n\nA regra da mão direita garante consistência na orientação dos vetores no espaço tridimensional.\n\nEsse conceito é fundamental para entender direção de forças, campos magnéticos e rotações.",
+
+    "intuicao": "A regra da mão direita é uma forma prática de visualizar para onde o vetor 'aponta' no espaço.",
+
+    "analogia": "É como girar uma chave: o movimento da mão define a direção do avanço.",
+
+    "aplicacoes": [
+      "Determinação de direção no produto vetorial",
+      "Análise de campos magnéticos e forças na Física"
+    ],
+
+    "erros_comuns": [
+      "Usar a mão esquerda em vez da direita",
+      "Invertir a ordem dos vetores no produto vetorial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A regra da mão direita é usada para determinar:",
+      "alternativas": [
+        "O sentido do produto vetorial",
+        "O módulo do vetor",
+        "A soma de vetores",
+        "O produto escalar"
+      ],
+      "resposta": "O sentido do produto vetorial",
+      "explicacao": "Ela define a direção e o sentido do vetor resultante."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dedo indica a direção do vetor resultante?",
+      "alternativas": [
+        "Polegar",
+        "Indicador",
+        "Médio",
+        "Mínimo"
+      ],
+      "resposta": "Polegar",
+      "explicacao": "O polegar aponta na direção do vetor resultante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se i × j = k, então j × i é:",
+      "alternativas": [
+        "-k",
+        "k",
+        "i",
+        "j"
+      ],
+      "resposta": "-k",
+      "explicacao": "Invertendo a ordem, o resultado muda de sinal."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor resultante do produto vetorial é:",
+      "alternativas": [
+        "Perpendicular aos dois vetores",
+        "Paralelo aos vetores",
+        "Igual ao maior vetor",
+        "Nulo sempre"
+      ],
+      "resposta": "Perpendicular aos dois vetores",
+      "explicacao": "O produto vetorial gera um vetor normal ao plano formado pelos vetores."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A × B aponta para cima, o que ocorre com B × A?",
+      "alternativas": [
+        "Aponta para baixo",
+        "Aponta para cima",
+        "É nulo",
+        "É paralelo"
+      ],
+      "resposta": "Aponta para baixo",
+      "explicacao": "A inversão da ordem inverte o sentido do vetor resultante."
+    }
+  ]
+}
