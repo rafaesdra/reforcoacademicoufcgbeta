@@ -1,0 +1,102 @@
+{
+  "id": "19_Ondas_Tipos_MecanicasEletromagneticas",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Tipos: mecânicas vs eletromagnéticas",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "As ondas podem ser classificadas em mecânicas, que precisam de meio material, e eletromagnéticas, que se propagam mesmo no vácuo.",
+
+    "explicacao": "As ondas podem ser classificadas de acordo com a necessidade ou não de um meio material para sua propagação.\n\n1) Ondas mecânicas:\nSão aquelas que precisam de um meio material para se propagar.\n\nElas surgem da vibração das partículas do meio, que transferem energia umas para as outras.\n\nExemplos:\n- Som (ar)\n- Ondas na água\n- Ondas em cordas\n\nCaracterísticas:\n- Não se propagam no vácuo\n- Dependem das propriedades do meio (densidade, elasticidade)\n\n2) Ondas eletromagnéticas:\nSão formadas por oscilações de campos elétricos e magnéticos.\n\nNão precisam de meio material e podem se propagar no vácuo.\n\nExemplos:\n- Luz visível\n- Ondas de rádio\n- Micro-ondas\n- Raios X\n\nCaracterísticas:\n- Propagam-se no vácuo\n- Todas têm a mesma velocidade no vácuo:\n  c ≈ 3 × 10⁸ m/s\n\nComparação importante:\n\n- Ondas mecânicas:\n  Dependem do meio\n  Velocidade varia com o meio\n\n- Ondas eletromagnéticas:\n  Não dependem do meio\n  Velocidade constante no vácuo\n\nEssa classificação é fundamental para entender fenômenos como som, luz e comunicação moderna.",
+
+    "intuicao": "Ondas mecânicas precisam de algo para 'vibrar'; ondas eletromagnéticas se propagam sozinhas.",
+
+    "analogia": "É como comunicação:\n- Mecânica → precisa de um intermediário (meio)\n- Eletromagnética → pode viajar diretamente no espaço",
+
+    "aplicacoes": [
+      "Som em ambientes físicos (ondas mecânicas)",
+      "Comunicação por rádio e internet (ondas eletromagnéticas)",
+      "Tecnologias médicas como raio-X"
+    ],
+
+    "erros_comuns": [
+      "Achar que o som se propaga no vácuo",
+      "Confundir luz com onda mecânica",
+      "Esquecer que ondas eletromagnéticas não precisam de meio",
+      "Achar que todas as ondas têm a mesma velocidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de onda precisa de um meio material?",
+      "alternativas": [
+        "Eletromagnética",
+        "Mecânica",
+        "Luminosa",
+        "Radioativa"
+      ],
+      "resposta": "Mecânica",
+      "explicacao": "Ondas mecânicas precisam de um meio para se propagar."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das opções é uma onda eletromagnética?",
+      "alternativas": [
+        "Som",
+        "Onda na água",
+        "Luz",
+        "Vibração de corda"
+      ],
+      "resposta": "Luz",
+      "explicacao": "A luz é uma onda eletromagnética."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o som não se propaga no espaço?",
+      "alternativas": [
+        "Porque é muito fraco",
+        "Porque precisa de meio material",
+        "Porque é muito rápido",
+        "Porque depende da luz"
+      ],
+      "resposta": "Porque precisa de meio material",
+      "explicacao": "O som é uma onda mecânica e precisa de partículas para se propagar."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a velocidade das ondas eletromagnéticas no vácuo?",
+      "alternativas": [
+        "3 × 10⁵ m/s",
+        "3 × 10⁶ m/s",
+        "3 × 10⁸ m/s",
+        "3 × 10⁹ m/s"
+      ],
+      "resposta": "3 × 10⁸ m/s",
+      "explicacao": "Essa é a velocidade da luz no vácuo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual diferença fundamental entre ondas mecânicas e eletromagnéticas?",
+      "alternativas": [
+        "A forma da onda",
+        "A frequência",
+        "A necessidade de meio material",
+        "A amplitude"
+      ],
+      "resposta": "A necessidade de meio material",
+      "explicacao": "Essa é a principal distinção entre os dois tipos de onda."
+    }
+  ]
+}
