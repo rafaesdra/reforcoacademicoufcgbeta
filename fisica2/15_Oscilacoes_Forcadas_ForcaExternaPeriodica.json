@@ -1,0 +1,102 @@
+{
+  "id": "15_Oscilacoes_Forcadas_ForcaExternaPeriodica",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações forçadas e ressonância - Força externa periódica",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "Oscilações forçadas ocorrem quando uma força externa periódica atua sobre o sistema, podendo manter ou alterar seu movimento.",
+
+    "explicacao": "Em muitos sistemas reais, além da força restauradora e da resistência, existe também uma força externa atuando continuamente no sistema.\n\nQuando essa força varia periodicamente no tempo, temos um sistema de oscilações forçadas.\n\nA forma mais comum dessa força é:\nF(t) = F₀ cos(ωt)\n\nOnde:\n- F₀ é a amplitude da força\n- ω é a frequência angular da força externa\n\nA equação do movimento passa a ser:\nm a = -kx - bv + F₀ cos(ωt)\n\nEsse tipo de sistema apresenta dois comportamentos principais:\n\n1) Regime transitório:\nNo início, o sistema ainda responde às condições iniciais, com oscilações que podem diminuir ao longo do tempo.\n\n2) Regime estacionário:\nApós um certo tempo, o sistema passa a oscilar com a mesma frequência da força externa, independentemente das condições iniciais.\n\nCaracterísticas importantes:\n- A frequência do movimento passa a ser a da força externa\n- A amplitude depende da frequência da força\n- A fase do movimento pode diferir da fase da força\n\nEsse tipo de movimento é muito comum em sistemas reais, onde forças externas atuam continuamente.\n\nA resposta do sistema depende fortemente da relação entre a frequência natural do sistema e a frequência da força aplicada.\n\nEsse conceito é fundamental para entender o fenômeno da ressonância, que ocorre quando essas frequências se aproximam.",
+
+    "intuicao": "Se você empurra um sistema repetidamente, ele passa a seguir o ritmo do empurrão.",
+
+    "analogia": "É como empurrar alguém em um balanço: o movimento passa a depender do ritmo dos empurrões.",
+
+    "aplicacoes": [
+      "Oscilações em pontes e estruturas",
+      "Circuitos elétricos com corrente alternada",
+      "Sistemas mecânicos com forças externas periódicas"
+    ],
+
+    "erros_comuns": [
+      "Achar que o sistema sempre oscila na frequência natural",
+      "Ignorar o regime transitório",
+      "Confundir força externa com força restauradora",
+      "Esquecer que a amplitude depende da frequência da força"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma oscilação forçada?",
+      "alternativas": [
+        "Ausência de força",
+        "Presença de uma força externa periódica",
+        "Movimento sem resistência",
+        "Movimento linear"
+      ],
+      "resposta": "Presença de uma força externa periódica",
+      "explicacao": "Oscilações forçadas ocorrem devido a uma força externa variável no tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma típica da força externa?",
+      "alternativas": [
+        "F = kx",
+        "F = mg",
+        "F = F₀ cos(ωt)",
+        "F = mv"
+      ],
+      "resposta": "F = F₀ cos(ωt)",
+      "explicacao": "A força externa periódica é geralmente senoidal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No regime estacionário, a frequência do sistema é:",
+      "alternativas": [
+        "A frequência natural",
+        "Zero",
+        "A frequência da força externa",
+        "Variável"
+      ],
+      "resposta": "A frequência da força externa",
+      "explicacao": "Após o regime transitório, o sistema segue a frequência da força."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece no regime transitório?",
+      "alternativas": [
+        "O sistema para imediatamente",
+        "O sistema segue apenas a força externa",
+        "O sistema ainda sofre influência das condições iniciais",
+        "A energia é constante"
+      ],
+      "resposta": "O sistema ainda sofre influência das condições iniciais",
+      "explicacao": "No início, o comportamento depende das condições iniciais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende a amplitude da oscilação forçada?",
+      "alternativas": [
+        "Apenas da massa",
+        "Apenas da gravidade",
+        "Da frequência da força externa",
+        "Somente do tempo"
+      ],
+      "resposta": "Da frequência da força externa",
+      "explicacao": "A amplitude varia conforme a frequência da força aplicada."
+    }
+  ]
+}
