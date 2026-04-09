@@ -1,0 +1,99 @@
+{
+  "id": "posicao_relativa_reta_plano_plano",
+  "disciplina": "Matemática",
+  "assunto": "Posição Relativa (Reta-Plano e Plano-Plano)",
+  "ordem": 45,
+
+  "teoria": {
+    "resumo": "A posição relativa entre reta-plano e plano-plano descreve como esses elementos se relacionam no espaço.",
+
+    "explicacao": "No espaço tridimensional, podemos analisar a posição relativa entre uma reta e um plano, ou entre dois planos.\n\n1) Reta e plano:\n\nDada uma reta com vetor diretor v e um plano com vetor normal n:\n\n- Se v · n ≠ 0 → a reta intercepta o plano (reta secante)\n- Se v · n = 0:\n   • Se a reta pertence ao plano → reta contida\n   • Caso contrário → reta paralela ao plano\n\n2) Plano e plano:\n\nDados dois planos com vetores normais n1 e n2:\n\n- Se n1 e n2 não são proporcionais → planos secantes (se cruzam em uma reta)\n- Se n1 e n2 são proporcionais:\n   • Se possuem pontos em comum → planos coincidentes\n   • Caso contrário → planos paralelos distintos\n\nExemplo:\nPlano 1: x + y + z = 1 → n1 = (1,1,1)\nPlano 2: 2x + 2y + 2z = 2 → n2 = (2,2,2)\n\nComo os vetores são proporcionais e representam a mesma equação, os planos são coincidentes.\n\nEssas relações são fundamentais para resolver problemas geométricos no espaço.",
+
+    "intuicao": "Tudo depende da direção: se algo aponta 'para dentro' do outro, há interseção; se segue na mesma direção, pode ser paralelo.",
+
+    "analogia": "Uma reta pode atravessar uma parede (interseção), correr paralela a ela ou estar completamente dentro dela. Dois planos são como folhas: podem se cruzar, ser paralelos ou coincidir.",
+
+    "aplicacoes": [
+      "Análise de interseções em geometria 3D",
+      "Modelagem em engenharia e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de usar o produto escalar para verificar perpendicularidade",
+      "Confundir planos paralelos com coincidentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o vetor diretor da reta é perpendicular ao vetor normal do plano, a reta é:",
+      "alternativas": [
+        "Secante",
+        "Paralela ou contida",
+        "Perpendicular",
+        "Reversa"
+      ],
+      "resposta": "Paralela ou contida",
+      "explicacao": "Se v · n = 0, a reta é paralela ao plano ou está contida nele."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois planos com vetores normais proporcionais são:",
+      "alternativas": [
+        "Secantes",
+        "Paralelos ou coincidentes",
+        "Perpendiculares",
+        "Reversos"
+      ],
+      "resposta": "Paralelos ou coincidentes",
+      "explicacao": "Vetores normais proporcionais indicam mesma orientação."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v · n ≠ 0, a reta em relação ao plano é:",
+      "alternativas": [
+        "Paralela",
+        "Contida",
+        "Secante",
+        "Coincidente"
+      ],
+      "resposta": "Secante",
+      "explicacao": "Produto escalar diferente de zero indica que a reta intercepta o plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois planos com vetores normais não proporcionais são:",
+      "alternativas": [
+        "Paralelos",
+        "Coincidentes",
+        "Secantes",
+        "Iguais"
+      ],
+      "resposta": "Secantes",
+      "explicacao": "Planos com normais diferentes se cruzam em uma reta."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas a reta com vetor diretor (1,2,3) e o plano com normal (2,4,6), qual a relação?",
+      "alternativas": [
+        "Secante",
+        "Paralela ou contida",
+        "Perpendicular",
+        "Reversa"
+      ],
+      "resposta": "Secante",
+      "explicacao": "Produto escalar: 1·2 + 2·4 + 3·6 = 2 + 8 + 18 = 28 ≠ 0, logo a reta intercepta o plano."
+    }
+  ]
+}
