@@ -1,0 +1,102 @@
+{
+  "id": "32_Ondas_Estacionarias_CordasVibrantes",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Ondas estacionárias em cordas vibrantes",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "Em cordas vibrantes, ondas estacionárias se formam devido à reflexão nas extremidades fixas, gerando padrões de nós e ventres.",
+
+    "explicacao": "Quando uma corda está presa nas extremidades e é posta em vibração, ondas se propagam ao longo dela e se refletem nas extremidades.\n\nA superposição entre a onda incidente e a refletida forma ondas estacionárias.\n\nComo as extremidades estão fixas:\n- Sempre haverá nós nas extremidades\n\nIsso impõe condições específicas para os comprimentos de onda permitidos.\n\nOs modos de vibração possíveis são dados por:\n\nλₙ = 2L/n\n\nfₙ = n(v/2L)\n\nOnde:\n- L é o comprimento da corda\n- n = 1, 2, 3,... (harmônicos)\n- v é a velocidade da onda na corda\n\nA velocidade da onda na corda é:\n\nv = √(T/μ)\n\nOnde:\n- T é a tensão na corda\n- μ é a densidade linear (massa por comprimento)\n\nCaracterísticas importantes:\n- Aumentar a tensão → aumenta a velocidade → aumenta a frequência\n- Aumentar a densidade → diminui a velocidade → diminui a frequência\n- Cordas mais curtas → maior frequência\n\nCada harmônico possui um padrão específico de nós e ventres.\n\nEsse fenômeno explica como instrumentos de corda produzem diferentes notas musicais.\n\nPor exemplo:\n- Violão\n- Violino\n- Piano\n\nO controle do comprimento, tensão e densidade permite ajustar o som produzido.",
+
+    "intuicao": "A corda só pode vibrar em padrões específicos porque as pontas estão presas.",
+
+    "analogia": "É como uma corda presa nas duas pontas — só cabem ondas que 'encaixam perfeitamente' dentro dela.",
+
+    "aplicacoes": [
+      "Instrumentos musicais de corda",
+      "Afinação de cordas",
+      "Estudo de vibrações em sistemas mecânicos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que há nós nas extremidades",
+      "Confundir comprimento da corda com comprimento de onda",
+      "Ignorar a relação v = √(T/μ)",
+      "Achar que qualquer frequência é possível"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que sempre ocorre nas extremidades de uma corda fixa?",
+      "alternativas": [
+        "Ventres",
+        "Nós",
+        "Movimento máximo",
+        "Reflexão total"
+      ],
+      "resposta": "Nós",
+      "explicacao": "As extremidades fixas não se movem."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da velocidade em uma corda?",
+      "alternativas": [
+        "v = λf",
+        "v = √(T/μ)",
+        "v = Tμ",
+        "v = m/T"
+      ],
+      "resposta": "v = √(T/μ)",
+      "explicacao": "A velocidade depende da tensão e da densidade linear."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a frequência do primeiro harmônico?",
+      "alternativas": [
+        "v/L",
+        "v/2L",
+        "2v/L",
+        "L/v"
+      ],
+      "resposta": "v/2L",
+      "explicacao": "f₁ = v/2L."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a frequência se a tensão aumenta?",
+      "alternativas": [
+        "Diminui",
+        "Aumenta",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Aumentar T aumenta v e, portanto, a frequência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o comprimento da corda dobra, o que acontece com a frequência fundamental?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Diminui pela metade",
+        "Permanece igual"
+      ],
+      "resposta": "Diminui pela metade",
+      "explicacao": "f₁ = v/2L, então dobrar L reduz f₁ pela metade."
+    }
+  ]
+}
