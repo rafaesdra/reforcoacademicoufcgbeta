@@ -61,5 +61,23 @@
     {"titulo": "Termodinâmica - Processos Reversíveis e Irreversíveis", "path": "58_Termodinamica_ProcessosReversiveisEIrreversiveis.json"},
     {"titulo": "Termodinâmica - Entropia Aplicada", "path": "59_Termodinamica_EntropiaAplicada.json"},
     {"titulo": "Termodinâmica - Revisão Geral", "path": "60_Termodinamica_RevisaoGeral.json"}
+    {"titulo": "Fluidos - Propriedades dos Fluidos: Densidade", "path": "61_Fluidos_Propriedades_Densidade.json"},
+    {"titulo": "Fluidos - Propriedades dos Fluidos: Pressão", "path": "62_Fluidos_Propriedades_Pressao.json"},
+    {"titulo": "Fluidos - Hidrostática: Pressão Hidrostática", "path": "63_Fluidos_Hidrostatica_PressaoHidrostatica.json"},
+    {"titulo": "Fluidos - Hidrostática: Princípio de Pascal", "path": "64_Fluidos_Hidrostatica_PrincipioDePascal.json"},
+    {"titulo": "Fluidos - Hidrostática: Princípio de Arquimedes", "path": "65_Fluidos_Hidrostatica_PrincipioDeArquimedes.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Escoamento de Fluidos", "path": "66_Fluidos_Hidrodinamica_EscoamentoDeFluidos.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Equação da Continuidade", "path": "67_Fluidos_Hidrodinamica_EquacaoDaContinuidade.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Equação de Bernoulli", "path": "68_Fluidos_Hidrodinamica_EquacaoDeBernoulli.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Aplicações - Tubo de Venturi", "path": "69_Fluidos_Hidrodinamica_Aplicacoes_TuboDeVenturi.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Aplicações - Sustentação dos Aviões", "path": "70_Fluidos_Hidrodinamica_Aplicacoes_SustentacaoDosAvioes.json"},
+    {"titulo": "Fluidos - Hidrostática: Aplicações - Sistemas Hidráulicos", "path": "71_Fluidos_Hidrostatica_Aplicacoes_SistemasHidraulicos.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Aplicações - Lei de Torricelli", "path": "72_Fluidos_Hidrodinamica_LeiDeTorricelli.json"},
+    {"titulo": "Fluidos - Hidrodinâmica: Aplicações - Efeito Magnus", "path": "73_Fluidos_Hidrodinamica_EfeitoMagnus.json"},
+    {"titulo": "Fluidos - Revisão Geral", "path": "74_Fluidos_RevisaoGeral.json"},
+    {"titulo": "Física Moderna - Radiação Térmica", "path": "75_FisicaModerna_RadiacaoTermica.json"},
+    {"titulo": "Física Moderna - Noções de Física Estatística", "path": "76_FisicaModerna_NocoesDeFisicaEstatistica.json"}
   ]
 }
+
+ 
