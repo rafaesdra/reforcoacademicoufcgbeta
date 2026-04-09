@@ -1,0 +1,105 @@
+{
+  "id": "47_Termodinamica_Transformacoes_Isotermica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Transformações gasosas: isotérmica",
+  "ordem": 47,
+
+  "teoria": {
+    "resumo": "A transformação isotérmica ocorre quando um gás sofre variações de pressão e volume mantendo a temperatura constante.",
+
+    "explicacao": "A transformação isotérmica é um processo termodinâmico em que a temperatura do gás permanece constante.\n\nEsse tipo de transformação ocorre quando o sistema troca calor com o ambiente de forma a manter o equilíbrio térmico.\n\nPara um gás ideal, a equação de estado é dada por:\n\nPV = nRT\n\nComo a temperatura permanece constante, o produto entre pressão e volume também permanece constante:\n\nPV = constante\n\nEssa relação é conhecida como Lei de Boyle-Mariotte.\n\nMatematicamente:\n\nP₁V₁ = P₂V₂\n\nOnde:\n- P é a pressão do gás\n- V é o volume ocupado\n\nCaracterísticas da transformação isotérmica:\n- Temperatura constante\n- Pressão inversamente proporcional ao volume\n- Ocorre troca de calor com o ambiente\n- A energia interna do gás ideal permanece constante\n\nEnergia interna:\n\nPara um gás ideal:\n\nΔU = 0\n\nPela Primeira Lei da Termodinâmica:\n\nQ = W\n\nIsso significa que todo o calor trocado é convertido em trabalho.\n\nTrabalho realizado na transformação isotérmica:\n\nW = nRT ln(Vf/Vi)\n\nRepresentação gráfica:\n- No diagrama P × V, a curva isotérmica é uma hipérbole.\n\nExemplos práticos:\n- Compressão lenta de um gás em um cilindro em contato com um reservatório térmico\n- Expansão controlada em máquinas térmicas\n- Funcionamento de seringas e pistões",
+
+    "intuicao": "Para manter a temperatura constante, o gás precisa trocar calor com o ambiente enquanto se expande ou se comprime.",
+
+    "analogia": "É como apertar lentamente um balão em contato com a água: ele se comprime sem aquecer, pois troca calor com o meio.",
+
+    "aplicacoes": [
+      "Motores térmicos",
+      "Sistemas de compressão de gases",
+      "Cilindros e pistões",
+      "Refrigeração e termodinâmica industrial",
+      "Estudos de máquinas térmicas"
+    ],
+
+    "erros_comuns": [
+      "Confundir transformação isotérmica com adiabática",
+      "Esquecer que a temperatura permanece constante",
+      "Não utilizar a temperatura em Kelvin",
+      "Ignorar que ΔU = 0 para gases ideais",
+      "Confundir a Lei de Boyle com outras leis dos gases"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que permanece constante em uma transformação isotérmica?",
+      "alternativas": [
+        "Pressão",
+        "Volume",
+        "Temperatura",
+        "Energia cinética"
+      ],
+      "resposta": "Temperatura",
+      "explicacao": "Na transformação isotérmica, a temperatura não varia."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei descreve a transformação isotérmica?",
+      "alternativas": [
+        "Lei de Boyle-Mariotte",
+        "Lei de Charles",
+        "Lei de Gay-Lussac",
+        "Lei de Avogadro"
+      ],
+      "resposta": "Lei de Boyle-Mariotte",
+      "explicacao": "Essa lei afirma que o produto PV permanece constante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o volume de um gás dobra em uma transformação isotérmica, a pressão:",
+      "alternativas": [
+        "Dobra",
+        "Permanece constante",
+        "Diminui pela metade",
+        "Triplica"
+      ],
+      "resposta": "Diminui pela metade",
+      "explicacao": "Como PV = constante, a pressão é inversamente proporcional ao volume."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a variação da energia interna de um gás ideal em uma transformação isotérmica?",
+      "alternativas": [
+        "Positiva",
+        "Negativa",
+        "Nula",
+        "Infinita"
+      ],
+      "resposta": "Nula",
+      "explicacao": "Para gases ideais, a energia interna depende apenas da temperatura."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o trabalho realizado por um gás ideal em uma transformação isotérmica?",
+      "alternativas": [
+        "W = PΔV",
+        "W = mcΔT",
+        "W = nRT ln(Vf/Vi)",
+        "W = Q − ΔU"
+      ],
+      "resposta": "W = nRT ln(Vf/Vi)",
+      "explicacao": "Essa é a expressão do trabalho em uma transformação isotérmica."
+    }
+  ]
+}
