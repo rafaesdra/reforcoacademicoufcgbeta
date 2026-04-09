@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_notacao_vetorial",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Notacao vetorial",
+  "ordem": 3,
+
+  "teoria": {
+    "resumo": "A notacao vetorial descreve diferentes formas de representar vetores no plano e no espaco.",
+
+    "explicacao": "Vetores podem ser representados de diferentes formas na Algebra Vetorial.\n\nUma forma comum e a notacao com seta, como v, que indica que a grandeza e vetorial.\n\nOutra forma muito utilizada e a representacao por coordenadas, como (x, y) no plano ou (x, y, z) no espaco.\n\nTambem podemos representar vetores utilizando a base canonica, escrevendo v = xi + yj + zk, onde i, j e k sao vetores unitarios nas direcoes dos eixos x, y e z.\n\nEssas diferentes formas de notacao permitem trabalhar com vetores tanto geometricamente quanto algebricamente.\n\nA escolha da notacao depende do contexto do problema e da facilidade de calculo.",
+
+    "intuicao": "A notacao vetorial e apenas uma forma de escrever e organizar vetores para facilitar os calculos.",
+
+    "analogia": "Assim como um numero pode ser escrito como fracao, decimal ou porcentagem, um vetor pode ser representado de diferentes formas equivalentes.",
+
+    "aplicacoes": [
+      "Representacao de vetores em problemas geometricos",
+      "Facilitacao de calculos em operacoes vetoriais",
+      "Uso em fisica e engenharia para descrever grandezas vetoriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir notacao de vetor com ponto no plano",
+      "Esquecer que i, j e k sao vetores unitarios",
+      "Misturar diferentes formas de representacao sem coerencia"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa corretamente um vetor em R2?",
+      "alternativas": [
+        "(x, y)",
+        "x + y",
+        "x/y",
+        "|x, y|"
+      ],
+      "resposta": "(x, y)",
+      "explicacao": "Um vetor no plano R2 e representado por um par ordenado (x, y)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na notacao v = xi + yj, o que representam i e j?",
+      "alternativas": [
+        "Numeros reais",
+        "Vetores unitarios",
+        "Coordenadas",
+        "Escalares negativos"
+      ],
+      "resposta": "Vetores unitarios",
+      "explicacao": "i e j sao vetores unitarios nas direcoes dos eixos x e y."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor v = (2, -3, 1) pode ser escrito na base canonica como:",
+      "alternativas": [
+        "2i - 3j + k",
+        "2i + 3j + k",
+        "-2i + 3j - k",
+        "i + j + k"
+      ],
+      "resposta": "2i - 3j + k",
+      "explicacao": "Basta associar cada coordenada aos vetores i, j e k: 2i - 3j + 1k."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das representacoes abaixo corresponde ao mesmo vetor?",
+      "alternativas": [
+        "(1,2,3) e i + 2j + 3k",
+        "(1,2,3) e 3i + 2j + k",
+        "(1,2,3) e i + j + k",
+        "(1,2,3) e 2i + 3j + k"
+      ],
+      "resposta": "(1,2,3) e i + 2j + 3k",
+      "explicacao": "Cada coordenada corresponde diretamente aos coeficientes de i, j e k."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v = ai + bj + ck representa um vetor em R3, o que os coeficientes a, b e c indicam?",
+      "alternativas": [
+        "A direcao do vetor apenas",
+        "As componentes do vetor em cada eixo",
+        "O modulo do vetor",
+        "A posicao do vetor no plano"
+      ],
+      "resposta": "As componentes do vetor em cada eixo",
+      "explicacao": "Os coeficientes a, b e c representam quanto o vetor se desloca nas direcoes dos eixos x, y e z."
+    }
+  ]
+}
