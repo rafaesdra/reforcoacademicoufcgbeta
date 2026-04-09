@@ -1,0 +1,102 @@
+{
+  "id": "20_Ondas_Tipos_TransversaisELongitudinais",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Tipos: transversais e longitudinais",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "As ondas podem ser classificadas como transversais ou longitudinais, dependendo da direção da vibração em relação à propagação.",
+
+    "explicacao": "As ondas também podem ser classificadas de acordo com a direção da vibração das partículas do meio em relação à direção de propagação da onda.\n\n1) Ondas transversais:\nNesse tipo de onda, a vibração das partículas ocorre perpendicularmente à direção de propagação.\n\nExemplo:\n- Ondas em uma corda\n- Luz (onda eletromagnética)\n\nCaracterísticas:\n- Possuem cristas (pontos mais altos)\n- Possuem vales (pontos mais baixos)\n\n2) Ondas longitudinais:\nNesse tipo de onda, a vibração das partículas ocorre na mesma direção da propagação.\n\nExemplo:\n- Som no ar\n\nCaracterísticas:\n- Possuem compressões (regiões de alta pressão)\n- Possuem rarefações (regiões de baixa pressão)\n\nComparação:\n\n- Transversal:\n  Vibração ⟂ propagação\n\n- Longitudinal:\n  Vibração ∥ propagação\n\nEsses conceitos são essenciais para entender como diferentes tipos de ondas se comportam e como transportam energia.\n\nAlém disso, algumas ondas podem apresentar características mistas dependendo do meio e das condições.",
+
+    "intuicao": "Se a vibração é para cima e para baixo enquanto a onda anda para frente, é transversal; se vai e volta na mesma direção, é longitudinal.",
+
+    "analogia": "É como uma mola:\n- Empurrando e puxando → longitudinal\n- Mexendo para cima e para baixo → transversal",
+
+    "aplicacoes": [
+      "Som (ondas longitudinais)",
+      "Ondas em cordas e superfícies",
+      "Estudo da luz e radiação eletromagnética"
+    ],
+
+    "erros_comuns": [
+      "Confundir direção de vibração com direção de propagação",
+      "Achar que todas as ondas têm cristas e vales",
+      "Ignorar compressões e rarefações nas ondas longitudinais",
+      "Achar que luz é longitudinal"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma onda transversal, a vibração ocorre:",
+      "alternativas": [
+        "Na mesma direção da propagação",
+        "Perpendicular à propagação",
+        "Sem direção definida",
+        "Apenas para frente"
+      ],
+      "resposta": "Perpendicular à propagação",
+      "explicacao": "Essa é a definição de onda transversal."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual exemplo representa uma onda longitudinal?",
+      "alternativas": [
+        "Luz",
+        "Onda em corda",
+        "Som no ar",
+        "Onda na água"
+      ],
+      "resposta": "Som no ar",
+      "explicacao": "O som é uma onda longitudinal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma onda longitudinal?",
+      "alternativas": [
+        "Crestas e vales",
+        "Vibração perpendicular",
+        "Compressões e rarefações",
+        "Movimento circular"
+      ],
+      "resposta": "Compressões e rarefações",
+      "explicacao": "Essas são características das ondas longitudinais."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das opções é uma onda transversal?",
+      "alternativas": [
+        "Som",
+        "Luz",
+        "Ondas de pressão",
+        "Ondas sonoras"
+      ],
+      "resposta": "Luz",
+      "explicacao": "A luz é uma onda eletromagnética transversal."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a principal diferença entre ondas transversais e longitudinais?",
+      "alternativas": [
+        "A velocidade",
+        "A energia",
+        "A direção da vibração em relação à propagação",
+        "O meio"
+      ],
+      "resposta": "A direção da vibração em relação à propagação",
+      "explicacao": "Essa é a principal distinção entre os dois tipos."
+    }
+  ]
+}
