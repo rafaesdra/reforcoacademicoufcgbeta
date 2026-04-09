@@ -1,0 +1,106 @@
+{
+  "id": "45_Termodinamica_TransferenciaDeCalor_Radiacao",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Mecanismos de transferência de calor: radiação",
+  "ordem": 45,
+
+  "teoria": {
+    "resumo": "A radiação térmica é a transferência de calor por meio de ondas eletromagnéticas, sem necessidade de meio material.",
+
+    "explicacao": "A radiação térmica é o processo de transferência de energia na forma de ondas eletromagnéticas, principalmente na faixa do infravermelho.\n\nDiferentemente da condução e da convecção, a radiação não necessita de um meio material, podendo ocorrer até mesmo no vácuo.\n\nEsse é o mecanismo responsável pelo aquecimento da Terra pela energia proveniente do Sol.\n\nCaracterísticas principais:\n- Não necessita de meio material;\n- Ocorre através de ondas eletromagnéticas;\n- Pode acontecer no vácuo;\n- Depende da temperatura e da natureza da superfície emissora.\n\nTodo corpo com temperatura acima do zero absoluto emite radiação térmica.\n\nA taxa de emissão de energia é descrita pela Lei de Stefan-Boltzmann:\n\nP = εσAT⁴\n\nOnde:\n- P é a potência irradiada (W);\n- ε é a emissividade do material (0 ≤ ε ≤ 1);\n- σ é a constante de Stefan-Boltzmann (5,67 × 10⁻⁸ W/m²·K⁴);\n- A é a área da superfície (m²);\n- T é a temperatura absoluta (K).\n\nCorpo negro:\n- É um emissor ideal, com emissividade ε = 1;\n- Absorve toda a radiação incidente.\n\nCorpos claros e escuros:\n- Superfícies escuras absorvem e emitem mais radiação;\n- Superfícies claras refletem mais radiação e absorvem menos calor.\n\nExemplos do cotidiano:\n- Aquecimento da Terra pelo Sol;\n- Sensação de calor ao se aproximar de uma fogueira;\n- Uso de garrafas térmicas;\n- Painéis solares.\n\nA radiação térmica desempenha papel fundamental em fenômenos naturais e em diversas aplicações tecnológicas.",
+
+    "intuicao": "O calor pode se propagar através do espaço vazio por meio de ondas eletromagnéticas.",
+
+    "analogia": "Assim como a luz de uma lâmpada chega até nós sem precisar de um meio, o calor do Sol também viaja pelo vácuo até a Terra.",
+
+    "aplicacoes": [
+      "Aquecimento da Terra pela radiação solar",
+      "Painéis solares e energia renovável",
+      "Garrafas térmicas e isolantes térmicos",
+      "Sensores infravermelhos",
+      "Fornos industriais e estufas",
+      "Tecnologia aeroespacial"
+    ],
+
+    "erros_comuns": [
+      "Achar que a radiação necessita de meio material",
+      "Confundir radiação térmica com radioatividade",
+      "Ignorar a temperatura absoluta na Lei de Stefan-Boltzmann",
+      "Acreditar que apenas corpos quentes emitem radiação",
+      "Confundir reflexão com emissão de calor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual mecanismo de transferência de calor ocorre no vácuo?",
+      "alternativas": [
+        "Condução",
+        "Convecção",
+        "Radiação",
+        "Difusão"
+      ],
+      "resposta": "Radiação",
+      "explicacao": "A radiação não necessita de meio material."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O calor do Sol chega à Terra por qual mecanismo?",
+      "alternativas": [
+        "Condução",
+        "Convecção",
+        "Radiação",
+        "Condução e convecção"
+      ],
+      "resposta": "Radiação",
+      "explicacao": "Entre o Sol e a Terra há vácuo, portanto o calor é transferido por radiação."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei descreve a potência irradiada por um corpo?",
+      "alternativas": [
+        "Lei de Newton",
+        "Lei de Ohm",
+        "Lei de Stefan-Boltzmann",
+        "Lei de Fourier"
+      ],
+      "resposta": "Lei de Stefan-Boltzmann",
+      "explicacao": "Ela relaciona a potência irradiada com a temperatura absoluta."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de superfície absorve mais radiação térmica?",
+      "alternativas": [
+        "Clara e brilhante",
+        "Polida e metálica",
+        "Escura e opaca",
+        "Transparente"
+      ],
+      "resposta": "Escura e opaca",
+      "explicacao": "Superfícies escuras possuem maior capacidade de absorção."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza um corpo negro?",
+      "alternativas": [
+        "Reflete toda a radiação",
+        "Absorve apenas parte da radiação",
+        "Absorve toda a radiação incidente",
+        "Não emite radiação"
+      ],
+      "resposta": "Absorve toda a radiação incidente",
+      "explicacao": "O corpo negro é um emissor e absorvedor ideal de radiação."
+    }
+  ]
+}
