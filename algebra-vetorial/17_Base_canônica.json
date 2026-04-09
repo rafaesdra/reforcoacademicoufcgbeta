@@ -1,0 +1,99 @@
+{
+  "id": "base_canonica_ijk",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Base Canônica (i, j, k)",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "A base canônica é formada por vetores unitários que definem as direções principais do espaço.",
+
+    "explicacao": "A base canônica é o conjunto de vetores mais utilizado para representar vetores no plano e no espaço.\n\nNo plano (R²):\ni = (1,0)\nj = (0,1)\n\nNo espaço (R³):\ni = (1,0,0)\nj = (0,1,0)\nk = (0,0,1)\n\nEsses vetores são chamados de vetores unitários, pois possuem módulo igual a 1.\n\nQualquer vetor pode ser representado como combinação linear desses vetores.\n\nExemplo no plano:\nV = (3,2)\nV = 3i + 2j\n\nExemplo no espaço:\nV = (1, -2, 4)\nV = 1i - 2j + 4k\n\nPropriedades importantes:\n- São linearmente independentes\n- Formam uma base do espaço\n- São ortogonais entre si (perpendiculares)\n\nEssa base facilita cálculos e interpretação geométrica.",
+
+    "intuicao": "A base canônica representa as direções fundamentais: esquerda-direita, frente-trás e cima-baixo.",
+
+    "analogia": "É como um sistema de eixos cartesianos (x, y, z), onde cada vetor aponta exatamente em uma direção básica.",
+
+    "aplicacoes": [
+      "Representação de vetores em coordenadas cartesianas",
+      "Base para cálculos em física, engenharia e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor com suas coordenadas",
+      "Esquecer que os vetores da base são unitários e ortogonais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor i na base canônica do plano?",
+      "alternativas": [
+        "(1,0)",
+        "(0,1)",
+        "(1,1)",
+        "(0,0)"
+      ],
+      "resposta": "(1,0)",
+      "explicacao": "O vetor i representa a direção do eixo x."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor k no espaço R³?",
+      "alternativas": [
+        "(0,0,1)",
+        "(1,0,0)",
+        "(0,1,0)",
+        "(1,1,1)"
+      ],
+      "resposta": "(0,0,1)",
+      "explicacao": "O vetor k representa a direção do eixo z."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor V = (2, -1, 3) pode ser escrito como:",
+      "alternativas": [
+        "2i - j + 3k",
+        "i + 2j + 3k",
+        "2i + j + 3k",
+        "i - j + k"
+      ],
+      "resposta": "2i - j + 3k",
+      "explicacao": "Basta associar cada componente ao vetor correspondente."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade é verdadeira para os vetores i, j, k?",
+      "alternativas": [
+        "São ortogonais entre si",
+        "São paralelos",
+        "São iguais",
+        "São dependentes"
+      ],
+      "resposta": "São ortogonais entre si",
+      "explicacao": "Os vetores da base canônica são perpendiculares entre si."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se V = ai + bj + ck = (4, -2, 5), quais são os valores de a, b e c?",
+      "alternativas": [
+        "a = 4, b = -2, c = 5",
+        "a = -2, b = 4, c = 5",
+        "a = 5, b = -2, c = 4",
+        "a = 4, b = 5, c = -2"
+      ],
+      "resposta": "a = 4, b = -2, c = 5",
+      "explicacao": "Os coeficientes correspondem diretamente às componentes do vetor."
+    }
+  ]
+}
