@@ -1,0 +1,100 @@
+{
+  "id": "01_Fisica2_Oscilacoes_IntroducaoMovimentoPeriodico",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Introdução ao movimento periódico e oscilatório",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Movimentos periódicos se repetem no tempo, e movimentos oscilatórios ocorrem em torno de uma posição de equilíbrio.",
+
+    "explicacao": "Na Física, muitos fenômenos envolvem movimentos que se repetem ao longo do tempo. Esses movimentos são chamados de movimentos periódicos.\n\nQuando esse movimento ocorre em torno de uma posição central, chamada posição de equilíbrio, temos um movimento oscilatório.\n\nPor exemplo, uma mola puxada e solta ou um pêndulo deslocado passam a se mover de um lado para o outro repetidamente.\n\nAs principais grandezas que descrevem esse movimento são:\n- Período (T): tempo para completar uma oscilação\n- Frequência (f): número de oscilações por segundo\n- Amplitude (A): maior afastamento da posição de equilíbrio\n\nRelações importantes:\n- f = 1/T\n- T = 1/f\n\nEsses conceitos são fundamentais para entender fenômenos como ondas, som e vibrações em sistemas físicos.",
+
+    "intuicao": "Imagine algo indo e voltando sempre pelo mesmo caminho, como um balanço — isso é uma oscilação.",
+
+    "analogia": "É como um relógio de pêndulo: ele nunca para em um lado, sempre volta passando pelo meio repetidamente.",
+
+    "aplicacoes": [
+      "Análise de vibrações em estruturas e máquinas",
+      "Estudo de ondas sonoras e instrumentos musicais"
+    ],
+
+    "erros_comuns": [
+      "Confundir movimento periódico com qualquer movimento repetitivo sem intervalo constante",
+      "Achar que a amplitude depende do tempo (ela é fixa em oscilações ideais)",
+      "Esquecer que frequência e período são grandezas inversas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza um movimento periódico?",
+      "alternativas": [
+        "Ele ocorre apenas em linha reta",
+        "Ele se repete em intervalos regulares de tempo",
+        "Ele tem velocidade constante",
+        "Ele depende de força constante"
+      ],
+      "resposta": "Ele se repete em intervalos regulares de tempo",
+      "explicacao": "Movimento periódico é aquele que se repete em intervalos iguais de tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é a amplitude em um movimento oscilatório?",
+      "alternativas": [
+        "O tempo de uma oscilação",
+        "A velocidade máxima",
+        "O maior deslocamento em relação ao equilíbrio",
+        "O número de oscilações"
+      ],
+      "resposta": "O maior deslocamento em relação ao equilíbrio",
+      "explicacao": "A amplitude mede o afastamento máximo da posição de equilíbrio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um sistema realiza 10 oscilações em 5 segundos. Qual sua frequência?",
+      "alternativas": [
+        "0,5 Hz",
+        "2 Hz",
+        "5 Hz",
+        "10 Hz"
+      ],
+      "resposta": "2 Hz",
+      "explicacao": "A frequência é f = número de oscilações / tempo = 10/5 = 2 Hz."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência de um movimento é 4 Hz, qual é o período?",
+      "alternativas": [
+        "4 s",
+        "2 s",
+        "0,25 s",
+        "0,5 s"
+      ],
+      "resposta": "0,25 s",
+      "explicacao": "O período é o inverso da frequência: T = 1/f = 1/4 = 0,25 s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa melhor descreve um movimento oscilatório?",
+      "alternativas": [
+        "Movimento com velocidade constante",
+        "Movimento que ocorre apenas para frente",
+        "Movimento de vai e vem em torno de um ponto de equilíbrio",
+        "Movimento que depende apenas da força gravitacional"
+      ],
+      "resposta": "Movimento de vai e vem em torno de um ponto de equilíbrio",
+      "explicacao": "Oscilações são caracterizadas pelo movimento alternado em torno de uma posição de equilíbrio."
+    }
+  ]
+}
