@@ -1,0 +1,106 @@
+{
+  "id": "64_Fluidos_Hidrostatica_PrincipioDePascal",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrostática: Princípio de Pascal",
+  "ordem": 64,
+
+  "teoria": {
+    "resumo": "O Princípio de Pascal estabelece que a pressão aplicada a um fluido confinado é transmitida integralmente a todos os pontos do fluido e às paredes do recipiente.",
+
+    "explicacao": "O Princípio de Pascal, formulado pelo cientista francês Blaise Pascal, afirma que qualquer variação de pressão aplicada a um fluido incompressível em equilíbrio é transmitida igualmente e sem perda a todos os pontos do fluido e às paredes do recipiente.\n\nMatematicamente, a pressão é definida por:\n\nP = F / A\n\nOnde:\n- P é a pressão (Pa);\n- F é a força aplicada (N);\n- A é a área de aplicação (m²).\n\nEm um sistema hidráulico com dois êmbolos interligados por um fluido, a pressão é a mesma em ambos os lados:\n\nP₁ = P₂\n\nAssim:\n\nF₁ / A₁ = F₂ / A₂\n\nReorganizando a equação:\n\nF₂ = F₁ × (A₂ / A₁)\n\nEssa relação demonstra a multiplicação de força, conhecida como vantagem mecânica hidráulica.\n\nCaracterísticas do Princípio de Pascal:\n- A pressão é transmitida igualmente em todas as direções;\n- O fluido deve ser incompressível e estar em equilíbrio;\n- Permite a amplificação de forças;\n- Constitui a base do funcionamento de máquinas hidráulicas.\n\nAplicações práticas:\n- Prensas hidráulicas;\n- Elevadores hidráulicos;\n- Macacos hidráulicos;\n- Sistemas de freios de automóveis;\n- Equipamentos industriais;\n- Cadeiras odontológicas e hospitalares.\n\nExemplo:\nSe uma força de 100 N é aplicada em um êmbolo de área 0,01 m², e o segundo êmbolo possui área de 0,1 m², a força resultante será:\n\nF₂ = 100 × (0,1 / 0,01) = 1000 N.\n\nEsse princípio demonstra como pequenas forças podem ser amplificadas em sistemas hidráulicos.",
+
+    "intuicao": "Uma pequena força aplicada em uma área reduzida pode gerar uma grande força em uma área maior.",
+
+    "analogia": "É como pressionar uma seringa cheia de líquido: a pressão aplicada em uma extremidade é transmitida integralmente à outra.",
+
+    "aplicacoes": [
+      "Freios hidráulicos de automóveis",
+      "Elevadores hidráulicos",
+      "Prensas industriais",
+      "Macacos hidráulicos",
+      "Equipamentos médicos e odontológicos",
+      "Máquinas de construção civil"
+    ],
+
+    "erros_comuns": [
+      "Confundir pressão com força",
+      "Esquecer que a pressão depende da área",
+      "Ignorar que o fluido deve estar em equilíbrio",
+      "Utilizar unidades incorretas",
+      "Acreditar que a pressão se perde durante a transmissão"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que afirma o Princípio de Pascal?",
+      "alternativas": [
+        "A pressão diminui com a profundidade",
+        "A pressão é transmitida integralmente em um fluido confinado",
+        "A densidade depende da temperatura",
+        "A força é inversamente proporcional à área"
+      ],
+      "resposta": "A pressão é transmitida integralmente em um fluido confinado",
+      "explicacao": "Esse é o enunciado do Princípio de Pascal."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual cientista formulou o Princípio de Pascal?",
+      "alternativas": [
+        "Isaac Newton",
+        "Arquimedes",
+        "Blaise Pascal",
+        "Galileu Galilei"
+      ],
+      "resposta": "Blaise Pascal",
+      "explicacao": "O princípio foi formulado pelo físico francês Blaise Pascal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 50 N é aplicada em uma área de 0,01 m². Qual é a pressão exercida?",
+      "alternativas": [
+        "500 Pa",
+        "5 000 Pa",
+        "50 000 Pa",
+        "500 000 Pa"
+      ],
+      "resposta": "5 000 Pa",
+      "explicacao": "P = F/A = 50/0,01 = 5 000 Pa."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um sistema hidráulico, se a área do êmbolo maior é cinco vezes a do menor, a força exercida será:",
+      "alternativas": [
+        "Cinco vezes menor",
+        "Cinco vezes maior",
+        "Igual",
+        "Dez vezes menor"
+      ],
+      "resposta": "Cinco vezes maior",
+      "explicacao": "A força é proporcional à área do êmbolo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um macaco hidráulico possui áreas de 0,02 m² e 0,4 m². Se uma força de 100 N é aplicada no êmbolo menor, qual será a força no êmbolo maior?",
+      "alternativas": [
+        "500 N",
+        "1 000 N",
+        "2 000 N",
+        "4 000 N"
+      ],
+      "resposta": "2 000 N",
+      "explicacao": "F₂ = F₁ × (A₂/A₁) = 100 × (0,4/0,02) = 100 × 20 = 2 000 N."
+    }
+  ]
+}
