@@ -1,0 +1,106 @@
+{
+  "id": "51_Termodinamica_PrimeiraLeiDaTermodinamica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Leis da Termodinâmica: 1ª Lei (conservação de energia)",
+  "ordem": 51,
+
+  "teoria": {
+    "resumo": "A Primeira Lei da Termodinâmica estabelece que a energia não pode ser criada nem destruída, apenas transformada, relacionando calor, trabalho e energia interna.",
+
+    "explicacao": "A Primeira Lei da Termodinâmica é a aplicação do princípio da conservação da energia aos sistemas termodinâmicos.\n\nEla afirma que a variação da energia interna de um sistema é igual ao calor recebido menos o trabalho realizado pelo sistema.\n\nMatematicamente:\n\nΔU = Q − W\n\nOnde:\n- ΔU é a variação da energia interna (J)\n- Q é o calor trocado com o sistema (J)\n- W é o trabalho realizado pelo sistema (J)\n\nConvenção de sinais:\n- Q > 0: o sistema recebe calor\n- Q < 0: o sistema perde calor\n- W > 0: o sistema realiza trabalho\n- W < 0: o trabalho é realizado sobre o sistema\n\nInterpretação física:\n- Se o sistema recebe calor, sua energia interna aumenta ou é convertida em trabalho.\n- Se o sistema realiza trabalho, sua energia interna diminui.\n\nPara um gás ideal, a energia interna depende apenas da temperatura:\n\nΔU = nC_vΔT\n\nOnde:\n- n é o número de mols\n- C_v é o calor específico molar a volume constante\n- ΔT é a variação de temperatura\n\nCasos particulares:\n\n1) Transformação Isotérmica (T constante):\nΔU = 0 ⇒ Q = W\n\n2) Transformação Isocórica (V constante):\nW = 0 ⇒ Q = ΔU\n\n3) Transformação Isobárica (P constante):\nQ = ΔU + W\n\n4) Transformação Adiabática:\nQ = 0 ⇒ ΔU = −W\n\nRepresentação energética:\n- Calor e trabalho são formas de transferência de energia.\n- A energia interna está associada à agitação microscópica das partículas.\n\nExemplos práticos:\n- Motores de automóveis\n- Geladeiras e ar-condicionado\n- Turbinas a vapor\n- Sistemas de geração de energia\n- Compressão de gases em pistões",
+
+    "intuicao": "O calor fornecido a um sistema pode aumentar sua energia interna ou ser convertido em trabalho.",
+
+    "analogia": "É como administrar um orçamento: a energia recebida pode ser armazenada ou utilizada para realizar tarefas.",
+
+    "aplicacoes": [
+      "Motores térmicos",
+      "Usinas termoelétricas",
+      "Refrigeração e ar-condicionado",
+      "Turbinas a gás e a vapor",
+      "Processos industriais",
+      "Engenharia mecânica e energética"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Esquecer a convenção de sinais",
+      "Supor que a energia interna depende do volume ou da pressão em gases ideais",
+      "Ignorar o trabalho realizado pelo sistema",
+      "Aplicar incorretamente a equação ΔU = Q − W"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão matemática da Primeira Lei da Termodinâmica?",
+      "alternativas": [
+        "Q = mcΔT",
+        "ΔU = Q − W",
+        "PV = nRT",
+        "W = PΔV"
+      ],
+      "resposta": "ΔU = Q − W",
+      "explicacao": "Essa é a expressão da conservação da energia aplicada à termodinâmica."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a energia interna quando o sistema recebe calor sem realizar trabalho?",
+      "alternativas": [
+        "Permanece constante",
+        "Diminui",
+        "Aumenta",
+        "Torna-se nula"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Se W = 0, então ΔU = Q."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em qual transformação não há realização de trabalho?",
+      "alternativas": [
+        "Isotérmica",
+        "Isobárica",
+        "Isocórica",
+        "Adiabática"
+      ],
+      "resposta": "Isocórica",
+      "explicacao": "Como o volume permanece constante, W = PΔV = 0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma transformação adiabática, qual é o valor do calor trocado?",
+      "alternativas": [
+        "Q = 0",
+        "Q > 0",
+        "Q < 0",
+        "Q = ΔU"
+      ],
+      "resposta": "Q = 0",
+      "explicacao": "Na transformação adiabática não há troca de calor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um gás recebe 500 J de calor e realiza 200 J de trabalho. Qual é a variação de sua energia interna?",
+      "alternativas": [
+        "300 J",
+        "−300 J",
+        "700 J",
+        "−700 J"
+      ],
+      "resposta": "300 J",
+      "explicacao": "ΔU = Q − W = 500 − 200 = 300 J."
+    }
+  ]
+}
