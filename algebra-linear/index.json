@@ -55,7 +55,7 @@
     {"titulo": "Autovalores e Autovetores - Polinômio Característico", "path": "45_AutovaloresAutovetores_PolinomioCaracteristico.json"},
     {"titulo": "Autovalores e Autovetores - Cálculo de Autovalores", "path": "46_AutovaloresAutovetores_CalculoAutovalores.json"},
     {"titulo": "Autovalores e Autovetores - Autovetores Associados", "path": "47_AutovaloresAutovetores_AutovetoresAssociados.json"},
-    {"titulo": "Autovalores e Autovetores - Interpretação Geométrica", "path": "48_AutovaloresAutovetores_InterpretacaoGeometrica.json"}
+    {"titulo": "Autovalores e Autovetores - Interpretação Geométrica", "path": "48_AutovaloresAutovetores_InterpretacaoGeometrica.json"},
 
     {"titulo": "Diagonalização de Matrizes - Matrizes Diagonalizáveis", "path": "49_Diagonalizacao_MatrizesDiagonalizaveis.json"},
     {"titulo": "Diagonalização de Matrizes - Base de Autovetores", "path": "50_Diagonalizacao_BaseAutovetores.json"},
