@@ -1,0 +1,105 @@
+{
+  "id": "48_Termodinamica_Transformacoes_Isobarica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Transformações gasosas: isobárica",
+  "ordem": 48,
+
+  "teoria": {
+    "resumo": "A transformação isobárica ocorre quando um gás sofre variações de volume e temperatura mantendo a pressão constante.",
+
+    "explicacao": "A transformação isobárica é um processo termodinâmico no qual a pressão permanece constante durante toda a transformação.\n\nPara um gás ideal, a equação de estado é dada por:\n\nPV = nRT\n\nMantendo a pressão constante, obtemos:\n\nV/T = constante\n\nEssa relação é conhecida como Lei de Charles.\n\nMatematicamente:\n\nV₁/T₁ = V₂/T₂\n\nOnde:\n- V é o volume do gás\n- T é a temperatura absoluta em Kelvin\n\nCaracterísticas da transformação isobárica:\n- Pressão constante\n- Volume diretamente proporcional à temperatura\n- Ocorre troca de calor com o ambiente\n- Há realização de trabalho pelo gás ou sobre ele\n\nTrabalho realizado na transformação isobárica:\n\nW = PΔV\n\nOnde:\n- W é o trabalho realizado (J)\n- P é a pressão constante (Pa)\n- ΔV é a variação de volume (m³)\n\nPela Primeira Lei da Termodinâmica:\n\nQ = ΔU + W\n\nPara gases ideais, a variação da energia interna depende da temperatura. Assim, quando a temperatura aumenta, o gás absorve calor e realiza trabalho ao se expandir.\n\nRepresentação gráfica:\n- No diagrama P × V, a transformação isobárica é representada por uma reta horizontal.\n- No diagrama V × T, é representada por uma reta crescente.\n\nExemplos práticos:\n- Aquecimento do ar em um balão atmosférico\n- Expansão de gases em cilindros com pistões móveis\n- Processos industriais envolvendo aquecimento a pressão constante\n- Aquecimento de um gás em recipientes com êmbolos móveis.",
+
+    "intuicao": "Se a pressão permanece constante, o aumento da temperatura faz o gás se expandir.",
+
+    "analogia": "É como um balão aquecido ao ar livre: ao aumentar a temperatura, ele se expande sem alterar significativamente a pressão externa.",
+
+    "aplicacoes": [
+      "Balões de ar quente",
+      "Motores térmicos",
+      "Processos industriais de aquecimento",
+      "Sistemas de pistões e cilindros",
+      "Estudos atmosféricos"
+    ],
+
+    "erros_comuns": [
+      "Confundir transformação isobárica com isotérmica",
+      "Utilizar temperatura em graus Celsius em vez de Kelvin",
+      "Esquecer que a pressão permanece constante",
+      "Ignorar o trabalho realizado pelo gás",
+      "Confundir a Lei de Charles com a Lei de Gay-Lussac"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que permanece constante em uma transformação isobárica?",
+      "alternativas": [
+        "Temperatura",
+        "Volume",
+        "Pressão",
+        "Energia interna"
+      ],
+      "resposta": "Pressão",
+      "explicacao": "Na transformação isobárica, a pressão permanece constante."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei descreve a transformação isobárica?",
+      "alternativas": [
+        "Lei de Boyle",
+        "Lei de Charles",
+        "Lei de Gay-Lussac",
+        "Lei de Avogadro"
+      ],
+      "resposta": "Lei de Charles",
+      "explicacao": "A Lei de Charles estabelece que o volume é diretamente proporcional à temperatura a pressão constante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do trabalho em uma transformação isobárica?",
+      "alternativas": [
+        "W = nRT",
+        "W = mcΔT",
+        "W = PΔV",
+        "W = PV"
+      ],
+      "resposta": "W = PΔV",
+      "explicacao": "O trabalho é igual ao produto da pressão constante pela variação do volume."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a temperatura de um gás dobra em uma transformação isobárica, o volume:",
+      "alternativas": [
+        "Diminui pela metade",
+        "Permanece constante",
+        "Dobra",
+        "Triplica"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "De acordo com a Lei de Charles, o volume é diretamente proporcional à temperatura absoluta."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual gráfico representa corretamente uma transformação isobárica em um diagrama P × V?",
+      "alternativas": [
+        "Uma hipérbole",
+        "Uma reta vertical",
+        "Uma reta horizontal",
+        "Uma parábola"
+      ],
+      "resposta": "Uma reta horizontal",
+      "explicacao": "Como a pressão é constante, o gráfico é uma linha horizontal."
+    }
+  ]
+}
