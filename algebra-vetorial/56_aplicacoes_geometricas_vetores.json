@@ -1,0 +1,99 @@
+{
+  "id": "aplicacoes_geometricas_vetores",
+  "disciplina": "Matemática",
+  "assunto": "Aplicações Geométricas de Vetores",
+  "ordem": 56,
+
+  "teoria": {
+    "resumo": "Os vetores possuem diversas aplicações geométricas como cálculo de áreas, alinhamento, paralelismo e perpendicularidade.",
+
+    "explicacao": "Os vetores são ferramentas fundamentais para resolver problemas geométricos no plano e no espaço.\n\nPrincipais aplicações:\n\n1) Verificação de paralelismo:\nDois vetores são paralelos se um é múltiplo do outro.\n\n2) Verificação de perpendicularidade:\nSe o produto escalar entre dois vetores for zero, eles são perpendiculares.\n\n3) Cálculo de área de paralelogramo:\n\nÁrea = |u × v|\n\n4) Cálculo de área de triângulo:\n\nÁrea = |u × v| / 2\n\n5) Determinação de alinhamento de pontos:\nTrês pontos estão alinhados se os vetores formados são proporcionais.\n\n6) Cálculo de distâncias:\nVetores permitem calcular distâncias entre pontos, retas e planos.\n\nExemplo:\nSe u = (1,2) e v = (2,4), então são paralelos.\n\nSe u = (1,0) e v = (0,1), então são perpendiculares.\n\nEssas aplicações tornam os vetores essenciais em geometria analítica.",
+
+    "intuicao": "Vetores permitem transformar problemas geométricos em cálculos simples com números.",
+
+    "analogia": "É como usar setas para representar direções e movimentos, facilitando entender relações no espaço.",
+
+    "aplicacoes": [
+      "Cálculo de áreas e volumes",
+      "Análise de direções e movimentos em física"
+    ],
+
+    "erros_comuns": [
+      "Confundir paralelismo com perpendicularidade",
+      "Não verificar proporcionalidade corretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores são paralelos quando:",
+      "alternativas": [
+        "Seu produto escalar é zero",
+        "Um é múltiplo do outro",
+        "Têm mesmo módulo",
+        "São ortogonais"
+      ],
+      "resposta": "Um é múltiplo do outro",
+      "explicacao": "Vetores paralelos possuem mesma direção."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores são perpendiculares quando:",
+      "alternativas": [
+        "Produto vetorial é zero",
+        "Produto escalar é zero",
+        "São paralelos",
+        "Têm mesmo módulo"
+      ],
+      "resposta": "Produto escalar é zero",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A área de um paralelogramo formado por dois vetores é:",
+      "alternativas": [
+        "|u + v|",
+        "|u · v|",
+        "|u × v|",
+        "|u - v|"
+      ],
+      "resposta": "|u × v|",
+      "explicacao": "O módulo do produto vetorial dá a área."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Três pontos estão alinhados quando:",
+      "alternativas": [
+        "Os vetores são ortogonais",
+        "Os vetores são proporcionais",
+        "O produto escalar é máximo",
+        "O módulo é zero"
+      ],
+      "resposta": "Os vetores são proporcionais",
+      "explicacao": "Proporcionalidade indica mesma direção."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se os vetores u e v são perpendiculares, qual é a área do triângulo formado por eles em função de seus módulos?",
+      "alternativas": [
+        "|u||v|",
+        "|u||v|/2",
+        "0",
+        "|u| + |v|"
+      ],
+      "resposta": "|u||v|/2",
+      "explicacao": "Área = |u × v|/2 e, sendo perpendiculares, |u×v| = |u||v|."
+    }
+  ]
+}
