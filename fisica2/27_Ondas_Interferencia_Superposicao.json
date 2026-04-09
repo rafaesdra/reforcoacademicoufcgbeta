@@ -1,0 +1,102 @@
+{
+  "id": "27_Ondas_Interferencia_Superposicao",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Interferência de ondas e princípio da superposição",
+  "ordem": 27,
+
+  "teoria": {
+    "resumo": "A superposição de ondas ocorre quando duas ou mais ondas se encontram, resultando em uma nova onda formada pela soma de seus deslocamentos.",
+
+    "explicacao": "Quando duas ou mais ondas se propagam no mesmo meio e se encontram, ocorre o fenômeno da superposição.\n\nO princípio da superposição afirma que o deslocamento resultante em cada ponto é a soma dos deslocamentos das ondas individuais.\n\nOu seja:\n\nResultado = soma das ondas\n\nEsse fenômeno dá origem à interferência de ondas.\n\nExistem dois tipos principais de interferência:\n\n1) Interferência construtiva:\nOcorre quando as ondas estão em fase.\n\n- Crista com crista\n- Vale com vale\n\nResultado:\n- Amplitude aumenta\n- Onda mais intensa\n\n2) Interferência destrutiva:\nOcorre quando as ondas estão em oposição de fase.\n\n- Crista com vale\n\nResultado:\n- Amplitude diminui ou pode se anular\n\nCaracterísticas importantes:\n- As ondas continuam existindo após a interação\n- Não há perda permanente de energia\n- O fenômeno depende da fase das ondas\n\nA interferência é fundamental para entender muitos fenômenos físicos, como padrões de ondas, som e luz.\n\nEsse princípio é válido para qualquer tipo de onda: mecânica ou eletromagnética.",
+
+    "intuicao": "Quando ondas se encontram, elas 'se somam' — podendo reforçar ou cancelar umas às outras.",
+
+    "analogia": "É como somar forças: às vezes ajudam (construtiva), às vezes se anulam (destrutiva).",
+
+    "aplicacoes": [
+      "Fones com cancelamento de ruído",
+      "Padrões de interferência em óptica",
+      "Análise de ondas sonoras e vibrações"
+    ],
+
+    "erros_comuns": [
+      "Achar que as ondas desaparecem após a interferência",
+      "Confundir interferência com colisão permanente",
+      "Ignorar o papel da fase",
+      "Achar que energia é perdida na interferência"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que diz o princípio da superposição?",
+      "alternativas": [
+        "As ondas se anulam sempre",
+        "As ondas somam seus deslocamentos",
+        "As ondas param ao se encontrar",
+        "As ondas perdem energia"
+      ],
+      "resposta": "As ondas somam seus deslocamentos",
+      "explicacao": "A superposição soma os efeitos das ondas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando ocorre interferência construtiva?",
+      "alternativas": [
+        "Crista com vale",
+        "Crista com crista",
+        "Sem vibração",
+        "Com atrito"
+      ],
+      "resposta": "Crista com crista",
+      "explicacao": "As amplitudes se somam aumentando a onda."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que ocorre na interferência destrutiva?",
+      "alternativas": [
+        "Aumenta a amplitude",
+        "A amplitude diminui ou zera",
+        "A velocidade aumenta",
+        "A frequência muda"
+      ],
+      "resposta": "A amplitude diminui ou zera",
+      "explicacao": "As ondas se cancelam parcialmente ou totalmente."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Após a interferência, o que acontece com as ondas?",
+      "alternativas": [
+        "Desaparecem",
+        "Continuam se propagando",
+        "Param",
+        "Mudam de frequência"
+      ],
+      "resposta": "Continuam se propagando",
+      "explicacao": "A interferência não altera permanentemente as ondas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende o tipo de interferência?",
+      "alternativas": [
+        "Da velocidade",
+        "Da massa",
+        "Da fase das ondas",
+        "Do tempo"
+      ],
+      "resposta": "Da fase das ondas",
+      "explicacao": "A fase determina se a interferência é construtiva ou destrutiva."
+    }
+  ]
+}
