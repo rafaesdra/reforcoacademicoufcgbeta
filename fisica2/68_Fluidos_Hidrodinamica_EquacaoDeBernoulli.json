@@ -1,0 +1,109 @@
+{
+  "id": "68_Fluidos_Hidrodinamica_EquacaoDeBernoulli",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: Equação de Bernoulli",
+  "ordem": 68,
+
+  "teoria": {
+    "resumo": "A Equação de Bernoulli expressa a conservação da energia em um fluido em movimento, relacionando pressão, velocidade e altura.",
+
+    "explicacao": "A Equação de Bernoulli é um dos princípios fundamentais da Hidrodinâmica e representa a conservação da energia mecânica em um fluido ideal em escoamento.\n\nFoi formulada pelo cientista suíço Daniel Bernoulli e estabelece que a soma das energias de pressão, cinética e potencial gravitacional permanece constante ao longo de uma linha de corrente.\n\nMatematicamente, a equação é expressa por:\n\nP + (1/2)ρv² + ρgh = constante\n\nOnde:\n- P é a pressão do fluido (Pa);\n- ρ é a densidade do fluido (kg/m³);\n- v é a velocidade do fluido (m/s);\n- g é a aceleração da gravidade (m/s²);\n- h é a altura em relação a um referencial (m).\n\nEntre dois pontos de um escoamento, a equação pode ser escrita como:\n\nP₁ + (1/2)ρv₁² + ρgh₁ = P₂ + (1/2)ρv₂² + ρgh₂\n\nEssa relação mostra que, quando a velocidade do fluido aumenta, a pressão diminui, e vice-versa.\n\nCondições de validade:\n- Fluido ideal (incompressível e não viscoso);\n- Escoamento estacionário;\n- Ausência de perdas de energia;\n- Aplicação ao longo de uma linha de corrente.\n\nInterpretação energética:\n- P: energia de pressão por unidade de volume;\n- (1/2)ρv²: energia cinética por unidade de volume;\n- ρgh: energia potencial gravitacional por unidade de volume.\n\nCasos particulares:\n\n1) Tubo horizontal (h constante):\nP + (1/2)ρv² = constante.\n\n2) Fluido em repouso (v = 0):\nObtém-se a equação da Hidrostática.\n\n3) Mesma velocidade nos dois pontos:\nP + ρgh = constante.\n\nAplicações práticas:\n- Sustentação de aviões;\n- Tubo de Venturi;\n- Medidores de vazão;\n- Atomizadores e pulverizadores;\n- Carburadores;\n- Escoamento em tubulações;\n- Velocidade do ar em asas e turbinas;\n- Chaminés e queimadores.\n\nExemplo conceitual:\nQuando se assopra sobre uma folha de papel, a velocidade do ar acima dela aumenta, diminuindo a pressão e fazendo-a subir.",
+
+    "intuicao": "Em um fluido em movimento, o aumento da velocidade provoca a diminuição da pressão.",
+
+    "analogia": "Assim como um patinador acelera ao aproximar os braços do corpo, um fluido aumenta sua velocidade ao passar por uma região mais estreita, reduzindo sua pressão.",
+
+    "aplicacoes": [
+      "Sustentação de aeronaves",
+      "Tubo de Venturi",
+      "Medidores de vazão",
+      "Pulverizadores e atomizadores",
+      "Carburadores",
+      "Projeto de tubulações",
+      "Engenharia hidráulica",
+      "Aerodinâmica e engenharia naval"
+    ],
+
+    "erros_comuns": [
+      "Aplicar a equação em fluidos viscosos sem considerar perdas",
+      "Ignorar a variação de altura",
+      "Confundir pressão estática com pressão dinâmica",
+      "Esquecer as condições de validade da equação",
+      "Utilizar unidades inconsistentes",
+      "Aplicar a equação fora de uma linha de corrente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual princípio físico fundamenta a Equação de Bernoulli?",
+      "alternativas": [
+        "Conservação da massa",
+        "Conservação da energia",
+        "Lei de Pascal",
+        "Lei de Arquimedes"
+      ],
+      "resposta": "Conservação da energia",
+      "explicacao": "A Equação de Bernoulli é uma aplicação da conservação da energia mecânica."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da Equação de Bernoulli?",
+      "alternativas": [
+        "P = F/A",
+        "A₁v₁ = A₂v₂",
+        "P + (1/2)ρv² + ρgh = constante",
+        "ρ = m/V"
+      ],
+      "resposta": "P + (1/2)ρv² + ρgh = constante",
+      "explicacao": "Essa é a forma clássica da Equação de Bernoulli."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a velocidade de um fluido aumenta, a pressão:",
+      "alternativas": [
+        "Aumenta",
+        "Permanece constante",
+        "Diminui",
+        "Torna-se nula"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Segundo Bernoulli, maior velocidade implica menor pressão."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dispositivo utiliza diretamente o princípio de Bernoulli?",
+      "alternativas": [
+        "Prensa hidráulica",
+        "Balança",
+        "Tubo de Venturi",
+        "Termômetro"
+      ],
+      "resposta": "Tubo de Venturi",
+      "explicacao": "O tubo de Venturi mede a vazão com base na variação de pressão."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A água escoa em um tubo horizontal. Em um ponto, a velocidade é 2 m/s e a pressão é 200 kPa. Em outro ponto, a velocidade é 4 m/s. Qual é a pressão nesse ponto? (ρ = 1000 kg/m³)",
+      "alternativas": [
+        "188 kPa",
+        "194 kPa",
+        "200 kPa",
+        "212 kPa"
+      ],
+      "resposta": "194 kPa",
+      "explicacao": "Aplicando Bernoulli em tubo horizontal: P₁ + (1/2)ρv₁² = P₂ + (1/2)ρv₂².\n\nP₂ = 200000 + 0,5×1000×(2² − 4²)\nP₂ = 200000 − 6000 = 194000 Pa = 194 kPa."
+    }
+  ]
+}
