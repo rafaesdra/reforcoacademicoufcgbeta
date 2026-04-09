@@ -1,0 +1,22 @@
+{
+  "disciplina": "Física 2",
+  "assuntos": [
+    {"titulo": "Oscilações - Introdução ao Movimento Periódico", "path": "01_Oscilacoes_IntroducaoMovimentoPeriodico.json"},
+    {"titulo": "Oscilações - Movimento Harmônico Simples", "path": "02_Oscilacoes_MovimentoHarmonicoSimples.json"},
+    {"titulo": "Oscilações - Equações do Movimento Harmônico Simples", "path": "03_Oscilacoes_EquacoesDoMHS.json"},
+    {"titulo": "Oscilações - Energia no MHS", "path": "04_Oscilacoes_EnergiaNoMHS.json"},
+    {"titulo": "Oscilações - Frequência, Período e Fase", "path": "05_Oscilacoes_FrequenciaPeriodoFase.json"},
+    {"titulo": "Oscilações - Relação com Movimento Circular Uniforme", "path": "06_Oscilacoes_RelacaoMovimentoCircularUniforme.json"},
+    {"titulo": "Oscilações - Sistema Massa-Mola", "path": "07_Oscilacoes_SistemaMassaMola.json"},
+    {"titulo": "Oscilações - Pêndulo Simples", "path": "08_Oscilacoes_PenduloSimples.json"},
+    {"titulo": "Oscilações - Pêndulo Físico", "path": "09_Oscilacoes_PenduloFisico.json"},
+    {"titulo": "Oscilações - Energia Cinética e Potencial no MHS", "path": "10_Oscilacoes_EnergiaCineticaEPotencial.json"},
+    {"titulo": "Oscilações - Conservação da Energia", "path": "11_Oscilacoes_ConservacaoEnergia.json"},
+    {"titulo": "Oscilações - Energia Total do Sistema", "path": "12_Oscilacoes_EnergiaTotalSistema.json"},
+    {"titulo": "Oscilações Amortecidas - Força de Resistência", "path": "13_Oscilacoes_Amortecidas_ForcaDeResistencia.json"},
+    {"titulo": "Oscilações Amortecidas - Regimes de Amortecimento", "path": "14_Oscilacoes_Amortecidas_Regimes.json"},
+    {"titulo": "Oscilações Forçadas - Força Externa Periódica", "path": "15_Oscilacoes_Forcadas_ForcaExternaPeriodica.json"},
+    {"titulo": "Oscilações Forçadas e Ressonância - Frequência de Ressonância", "path": "16_Oscilacoes_Ressonancia_FrequenciaDeRessonancia.json"},
+    {"titulo": "Oscilações - Aplicações Práticas", "path": "17_Oscilacoes_AplicacoesPraticas.json"}
+  ]
+}
