@@ -1,0 +1,99 @@
+{
+  "id": "equacao_geral_do_plano",
+  "disciplina": "Matemática",
+  "assunto": "Equação Geral do Plano",
+  "ordem": 41,
+
+  "teoria": {
+    "resumo": "A equação geral do plano descreve um plano no espaço por meio de uma relação linear entre x, y e z.",
+
+    "explicacao": "A equação geral do plano no espaço tridimensional é dada por:\n\nax + by + cz + d = 0\n\nOnde:\n- (a, b, c) é o vetor normal ao plano\n- (x, y, z) são as coordenadas de um ponto qualquer do plano\n- d é uma constante real\n\nO vetor normal é perpendicular ao plano e define sua orientação.\n\nComo determinar a equação do plano:\n\n1) Dado um ponto P0(x0, y0, z0) e um vetor normal n = (a, b, c):\n\na(x - x0) + b(y - y0) + c(z - z0) = 0\n\nExpandindo, obtemos a forma geral.\n\nExemplo:\nP0 = (1, 2, 3) e n = (2, -1, 1)\n\n2(x - 1) - (y - 2) + (z - 3) = 0\n\n2x - 2 - y + 2 + z - 3 = 0\n\n2x - y + z - 3 = 0\n\n2) Dado três pontos não colineares:\nPodemos encontrar dois vetores diretores e calcular o vetor normal pelo produto vetorial.\n\nO plano é fundamental para representar superfícies planas no espaço e resolver problemas geométricos.\n\nObservação:\nSe o vetor normal for nulo (0,0,0), a equação não representa um plano.",
+
+    "intuicao": "O plano reúne todos os pontos que satisfazem uma mesma 'regra linear' envolvendo x, y e z.",
+
+    "analogia": "É como uma superfície plana infinita onde todos os pontos seguem uma mesma 'equação de equilíbrio'.",
+
+    "aplicacoes": [
+      "Modelagem de superfícies em engenharia",
+      "Interseção entre objetos em computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor normal com vetor diretor",
+      "Errar na substituição do ponto ao montar a equação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa a equação geral de um plano?",
+      "alternativas": [
+        "ax + by + cz + d = 0",
+        "y = mx + b",
+        "x² + y² = 1",
+        "x + y = 2"
+      ],
+      "resposta": "ax + by + cz + d = 0",
+      "explicacao": "Essa é a forma padrão da equação geral de um plano no espaço."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor (a, b, c) na equação do plano representa:",
+      "alternativas": [
+        "Um ponto do plano",
+        "Um vetor diretor",
+        "O vetor normal",
+        "A origem"
+      ],
+      "resposta": "O vetor normal",
+      "explicacao": "Os coeficientes de x, y e z formam o vetor normal ao plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação do plano com vetor normal (1, 2, 3) passando pelo ponto (1, 0, -1)?",
+      "alternativas": [
+        "x + 2y + 3z + 2 = 0",
+        "x + 2y + 3z - 2 = 0",
+        "x + 2y + 3z + 1 = 0",
+        "x + y + z = 0"
+      ],
+      "resposta": "x + 2y + 3z + 2 = 0",
+      "explicacao": "Aplicando: 1(x-1)+2(y-0)+3(z+1)=0 → x-1+2y+3z+3=0 → x+2y+3z+2=0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição garante que uma equação representa um plano?",
+      "alternativas": [
+        "a = b = c = 0",
+        "Pelo menos um entre a, b, c diferente de zero",
+        "d = 0",
+        "x = y = z"
+      ],
+      "resposta": "Pelo menos um entre a, b, c diferente de zero",
+      "explicacao": "Se todos forem zero, não há plano definido."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O plano que passa pelos pontos (1,0,0), (0,1,0) e (0,0,1) possui equação:",
+      "alternativas": [
+        "x + y + z - 1 = 0",
+        "x + y + z = 0",
+        "x + y - z = 1",
+        "2x + 2y + 2z = 1"
+      ],
+      "resposta": "x + y + z - 1 = 0",
+      "explicacao": "Esses pontos satisfazem x+y+z=1, que pode ser escrito como x+y+z-1=0."
+    }
+  ]
+}
