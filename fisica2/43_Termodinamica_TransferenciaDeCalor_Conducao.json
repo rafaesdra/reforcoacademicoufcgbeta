@@ -1,0 +1,105 @@
+{
+  "id": "43_Termodinamica_TransferenciaDeCalor_Conducao",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Mecanismos de transferência de calor: condução",
+  "ordem": 43,
+
+  "teoria": {
+    "resumo": "A condução é a transferência de calor através de um material sem transporte de matéria, causada pela diferença de temperatura.",
+
+    "explicacao": "A condução térmica é o processo de transferência de calor que ocorre devido à diferença de temperatura entre regiões de um corpo ou entre corpos em contato direto.\n\nNesse mecanismo, não há deslocamento macroscópico de matéria; a energia é transmitida por meio da vibração das partículas e da interação entre elétrons e moléculas.\n\nEsse processo é mais eficiente em sólidos, especialmente nos metais, devido à presença de elétrons livres.\n\nA taxa de condução de calor é descrita pela Lei de Fourier:\n\nQ/t = kAΔT/L\n\nOnde:\n- Q é a quantidade de calor transferida (J)\n- t é o tempo (s)\n- k é o coeficiente de condutividade térmica (W/m·K)\n- A é a área de transferência (m²)\n- ΔT é a diferença de temperatura (K ou °C)\n- L é a espessura do material (m)\n\nReorganizando a equação, temos:\n\nQ = (kAΔT/L)·t\n\nCaracterísticas importantes:\n- O calor flui espontaneamente do corpo mais quente para o mais frio.\n- Materiais com alta condutividade térmica são bons condutores.\n- Materiais com baixa condutividade são isolantes térmicos.\n\nExemplos de condutores térmicos:\n- Cobre\n- Alumínio\n- Ferro\n\nExemplos de isolantes térmicos:\n- Madeira\n- Plástico\n- Borracha\n- Lã de vidro\n- Isopor\n\nA condução é essencial em aplicações que envolvem controle e transferência de energia térmica.",
+
+    "intuicao": "O calor se propaga de partícula em partícula sem que o material se desloque.",
+
+    "analogia": "É como uma fileira de dominós: ao empurrar o primeiro, a energia se transmite ao longo da sequência sem que os dominós mudem de lugar.",
+
+    "aplicacoes": [
+      "Panelas e utensílios metálicos",
+      "Isolamento térmico em construções",
+      "Sistemas de refrigeração",
+      "Trocadores de calor",
+      "Eletrônica e dissipadores de calor"
+    ],
+
+    "erros_comuns": [
+      "Confundir condução com convecção",
+      "Achar que há transporte de matéria na condução",
+      "Ignorar a Lei de Fourier",
+      "Esquecer que a condução ocorre principalmente em sólidos",
+      "Confundir condutores com isolantes térmicos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é condução térmica?",
+      "alternativas": [
+        "Transferência de calor com movimento de matéria",
+        "Transferência de calor sem deslocamento de matéria",
+        "Transferência de calor por ondas eletromagnéticas",
+        "Transferência de calor no vácuo"
+      ],
+      "resposta": "Transferência de calor sem deslocamento de matéria",
+      "explicacao": "Na condução, a energia é transferida sem movimento macroscópico do material."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em qual estado físico a condução é mais eficiente?",
+      "alternativas": [
+        "Sólido",
+        "Líquido",
+        "Gasoso",
+        "Plasma"
+      ],
+      "resposta": "Sólido",
+      "explicacao": "Nos sólidos, as partículas estão mais próximas, facilitando a transferência de energia."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual material é um bom condutor térmico?",
+      "alternativas": [
+        "Madeira",
+        "Plástico",
+        "Cobre",
+        "Borracha"
+      ],
+      "resposta": "Cobre",
+      "explicacao": "Metais apresentam alta condutividade térmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a lei que descreve a condução térmica?",
+      "alternativas": [
+        "Lei de Newton",
+        "Lei de Fourier",
+        "Lei de Ohm",
+        "Lei de Stefan-Boltzmann"
+      ],
+      "resposta": "Lei de Fourier",
+      "explicacao": "A condução térmica é descrita pela Lei de Fourier."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a taxa de condução quando a espessura do material aumenta?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece constante",
+        "Torna-se nula"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "De acordo com a Lei de Fourier, a taxa de condução é inversamente proporcional à espessura."
+    }
+  ]
+}
