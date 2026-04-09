@@ -1,0 +1,99 @@
+{
+  "id": "vetores_paralelos",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Vetores Paralelos",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "Vetores paralelos possuem a mesma direção e são múltiplos escalares um do outro.",
+
+    "explicacao": "Dois vetores são paralelos quando possuem a mesma direção.\n\nIsso ocorre quando um vetor é múltiplo escalar do outro:\n\nA = kB\n\nOnde k é um número real.\n\nExemplo:\nA = (2,4) e B = (1,2)\n\nA = 2B → vetores paralelos\n\nCasos possíveis:\n- k > 0 → mesma direção e mesmo sentido\n- k < 0 → mesma direção, mas sentidos opostos\n\nExemplo:\nA = (2,4) e B = (-1,-2)\nA = -2B → paralelos com sentidos opostos\n\nInterpretação geométrica:\nVetores paralelos estão sobre retas paralelas ou coincidentes.\n\nNo espaço (R³), a ideia é a mesma.\n\nCritério prático:\nDois vetores são paralelos se a razão entre suas componentes for a mesma:\n\n(x1/x2) = (y1/y2) = (z1/z2)\n\n(Quando as divisões forem possíveis)\n\nCasos importantes:\n- Vetores paralelos têm produto vetorial igual a zero\n- O ângulo entre vetores paralelos é 0° ou 180°",
+
+    "intuicao": "Vetores paralelos apontam exatamente na mesma direção, como setas alinhadas.",
+
+    "analogia": "É como duas estradas retas que seguem lado a lado ou na mesma linha.",
+
+    "aplicacoes": [
+      "Verificação de alinhamento entre direções",
+      "Análise de movimento em mesma direção na Física"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetores paralelos com vetores iguais",
+      "Esquecer que podem ter sentidos opostos e ainda serem paralelos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando dois vetores são paralelos?",
+      "alternativas": [
+        "Quando um é múltiplo do outro",
+        "Quando são iguais",
+        "Quando são perpendiculares",
+        "Quando têm mesmo módulo"
+      ],
+      "resposta": "Quando um é múltiplo do outro",
+      "explicacao": "Essa é a definição de vetores paralelos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,4) e B = (1,2), os vetores são:",
+      "alternativas": [
+        "Paralelos",
+        "Perpendiculares",
+        "Iguais",
+        "Ortogonais"
+      ],
+      "resposta": "Paralelos",
+      "explicacao": "A = 2B, então são paralelos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (3,6) e B = (-1,-2), os vetores são:",
+      "alternativas": [
+        "Paralelos com sentidos opostos",
+        "Perpendiculares",
+        "Iguais",
+        "Não relacionados"
+      ],
+      "resposta": "Paralelos com sentidos opostos",
+      "explicacao": "A = -3B → mesma direção, sentidos opostos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são paralelos, o produto vetorial entre eles é:",
+      "alternativas": [
+        "Zero",
+        "Máximo",
+        "Negativo",
+        "Igual ao vetor"
+      ],
+      "resposta": "Zero",
+      "explicacao": "sen(0°) = 0 → produto vetorial é nulo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para quais valores de k os vetores A = (2,4) e B = (k,8) são paralelos?",
+      "alternativas": [
+        "k = 4",
+        "k = 2",
+        "k = 8",
+        "k = 1"
+      ],
+      "resposta": "k = 4",
+      "explicacao": "Para serem paralelos: (2/k) = (4/8) → (2/k) = 1/2 → k = 4."
+    }
+  ]
+}
