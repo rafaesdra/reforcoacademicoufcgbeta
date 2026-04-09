@@ -1,0 +1,103 @@
+{
+  "id": "34_Ondas_Som_IntensidadeESensacaoSonora",
+  "disciplina": "Física 2",
+  "assunto": "Ondas sonoras - Intensidade e sensação sonora",
+  "ordem": 34,
+
+  "teoria": {
+    "resumo": "A intensidade sonora está relacionada à energia transportada pela onda, enquanto a sensação sonora depende de como o ouvido percebe essa intensidade.",
+
+    "explicacao": "A intensidade sonora mede a quantidade de energia que uma onda sonora transporta por unidade de área e por unidade de tempo.\n\nEla é dada por:\n\nI = P/A\n\nOnde:\n- I é a intensidade (W/m²)\n- P é a potência da fonte sonora\n- A é a área\n\nQuanto maior a intensidade:\n- Mais energia a onda transporta\n- Mais forte o som percebido\n\nNo entanto, o ouvido humano não percebe a intensidade de forma linear.\n\nPor isso, utilizamos o nível de intensidade sonora (em decibéis - dB):\n\nβ = 10 log(I/I₀)\n\nOnde:\n- β é o nível sonoro\n- I₀ = 10⁻¹² W/m² (limiar da audição)\n\nCaracterísticas importantes:\n- Um aumento de 10 dB representa aproximadamente um som percebido como duas vezes mais intenso\n- Sons acima de ~120 dB podem causar dor\n\nSensação sonora:\n\nA percepção do som depende de três fatores principais:\n\n1) Intensidade → volume (forte ou fraco)\n2) Frequência → altura (grave ou agudo)\n3) Forma da onda → timbre (qualidade do som)\n\nExemplos:\n- Som grave → baixa frequência\n- Som agudo → alta frequência\n\nEsse estudo é fundamental para entender audição, acústica e sistemas de som.",
+
+    "intuicao": "Mais energia → som mais forte; frequência muda o 'tipo' do som.",
+
+    "analogia": "É como luz:\n- Mais intensa → mais brilhante\n- Diferente frequência → cor diferente",
+
+    "aplicacoes": [
+      "Controle de volume em sistemas de áudio",
+      "Estudos de acústica ambiental",
+      "Proteção auditiva",
+      "Engenharia de som"
+    ],
+
+    "erros_comuns": [
+      "Confundir intensidade com frequência",
+      "Achar que o ouvido percebe intensidade linearmente",
+      "Ignorar a escala logarítmica dos decibéis",
+      "Confundir volume com altura (grave/agudo)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que a intensidade sonora mede?",
+      "alternativas": [
+        "Frequência do som",
+        "Energia por área",
+        "Velocidade da onda",
+        "Comprimento de onda"
+      ],
+      "resposta": "Energia por área",
+      "explicacao": "Intensidade é energia por unidade de área."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da intensidade sonora?",
+      "alternativas": [
+        "Hz",
+        "m/s",
+        "W/m²",
+        "dB"
+      ],
+      "resposta": "W/m²",
+      "explicacao": "Essa é a unidade no SI."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa o decibel (dB)?",
+      "alternativas": [
+        "Velocidade do som",
+        "Comprimento de onda",
+        "Nível de intensidade sonora",
+        "Frequência"
+      ],
+      "resposta": "Nível de intensidade sonora",
+      "explicacao": "O dB mede a intensidade percebida."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que determina se um som é grave ou agudo?",
+      "alternativas": [
+        "Intensidade",
+        "Frequência",
+        "Amplitude",
+        "Velocidade"
+      ],
+      "resposta": "Frequência",
+      "explicacao": "Frequência define altura do som."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que usamos decibéis para medir o som?",
+      "alternativas": [
+        "Porque é mais simples",
+        "Porque o ouvido responde de forma logarítmica",
+        "Porque mede frequência",
+        "Porque mede velocidade"
+      ],
+      "resposta": "Porque o ouvido responde de forma logarítmica",
+      "explicacao": "A percepção humana do som é logarítmica."
+    }
+  ]
+}
