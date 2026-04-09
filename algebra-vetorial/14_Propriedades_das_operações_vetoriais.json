@@ -1,0 +1,99 @@
+{
+  "id": "propriedades_operacoes_vetoriais",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Propriedades das Operações Vetoriais",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "As operações vetoriais possuem propriedades algébricas como comutatividade, associatividade e distributividade.",
+
+    "explicacao": "As propriedades das operações vetoriais permitem simplificar cálculos e resolver problemas de forma mais eficiente.\n\nPrincipais propriedades:\n\n1) Comutatividade (soma):\nA + B = B + A\nExemplo:\n(1,2) + (3,4) = (3,4) + (1,2)\n\n2) Associatividade (soma):\n(A + B) + C = A + (B + C)\n\n3) Elemento neutro:\nA + 0 = A\nO vetor nulo (0,0) não altera o vetor.\n\n4) Inverso aditivo:\nA + (-A) = 0\n\n5) Distributividade do escalar:\nk(A + B) = kA + kB\n\n6) Distributividade entre escalares:\n(k + m)A = kA + mA\n\n7) Associatividade da multiplicação escalar:\nk(mA) = (km)A\n\nObservação importante:\nA subtração não é comutativa:\nA - B ≠ B - A\n\nEssas propriedades são fundamentais para manipular expressões vetoriais com mais facilidade.",
+
+    "intuicao": "Essas propriedades funcionam como regras que garantem que os cálculos com vetores sejam consistentes e previsíveis.",
+
+    "analogia": "Assim como na matemática comum (números), onde 2 + 3 = 3 + 2, os vetores seguem regras semelhantes para facilitar os cálculos.",
+
+    "aplicacoes": [
+      "Simplificação de expressões em Física e Engenharia",
+      "Resolução de problemas envolvendo forças e deslocamentos"
+    ],
+
+    "erros_comuns": [
+      "Achar que a subtração de vetores é comutativa",
+      "Esquecer de aplicar corretamente a distributividade do escalar"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade afirma que A + B = B + A?",
+      "alternativas": [
+        "Comutatividade",
+        "Associatividade",
+        "Distributividade",
+        "Elemento neutro"
+      ],
+      "resposta": "Comutatividade",
+      "explicacao": "A comutatividade garante que a ordem da soma não altera o resultado."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor neutro da soma?",
+      "alternativas": [
+        "(0,0)",
+        "(1,1)",
+        "(-1,-1)",
+        "(0,1)"
+      ],
+      "resposta": "(0,0)",
+      "explicacao": "O vetor nulo não altera o vetor na soma: A + 0 = A."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual expressão representa a distributividade do escalar?",
+      "alternativas": [
+        "k(A + B) = kA + kB",
+        "A + B = B + A",
+        "(A + B) + C = A + (B + C)",
+        "A - B = B - A"
+      ],
+      "resposta": "k(A + B) = kA + kB",
+      "explicacao": "Essa é a propriedade distributiva do escalar sobre a soma de vetores."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A + (-A) = 0, qual propriedade está sendo usada?",
+      "alternativas": [
+        "Inverso aditivo",
+        "Comutatividade",
+        "Associatividade",
+        "Distributividade"
+      ],
+      "resposta": "Inverso aditivo",
+      "explicacao": "Todo vetor possui um oposto que, somado a ele, resulta no vetor nulo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas é verdadeira?",
+      "alternativas": [
+        "A - B = B - A",
+        "k(A + B) = kA + kB",
+        "(A + B) + C ≠ A + (B + C)",
+        "A + 0 ≠ A"
+      ],
+      "resposta": "k(A + B) = kA + kB",
+      "explicacao": "Essa é a propriedade distributiva correta. As outras alternativas são falsas."
+    }
+  ]
+}
