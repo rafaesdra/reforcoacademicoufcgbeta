@@ -1,0 +1,106 @@
+{
+  "id": "61_Fluidos_Propriedades_Densidade",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Propriedades dos fluidos: densidade",
+  "ordem": 61,
+
+  "teoria": {
+    "resumo": "A densidade é a grandeza física que relaciona a massa de uma substância com o volume que ela ocupa.",
+
+    "explicacao": "A densidade é uma propriedade fundamental da matéria e desempenha papel essencial no estudo da Hidrostática e da Hidrodinâmica. Ela indica o grau de concentração de massa em um determinado volume.\n\nMatematicamente, a densidade é definida por:\n\nρ = m / V\n\nOnde:\n- ρ (rho) é a densidade (kg/m³);\n- m é a massa (kg);\n- V é o volume (m³).\n\nNo Sistema Internacional de Unidades (SI), a densidade é expressa em quilogramas por metro cúbico (kg/m³). Outra unidade comum é g/cm³.\n\nRelação entre as unidades:\n\n1 g/cm³ = 1000 kg/m³\n\nA densidade depende da substância e das condições físicas, especialmente da temperatura e da pressão. Em geral:\n- Sólidos e líquidos apresentam pouca variação com a pressão;\n- Gases apresentam grande variação com temperatura e pressão.\n\nDensidade da água:\n- ρ = 1000 kg/m³ (ou 1 g/cm³) a 4°C.\n\nDensidade relativa:\nA densidade relativa (ou gravidade específica) é a razão entre a densidade de uma substância e a densidade da água.\n\nρ_rel = ρ_substância / ρ_água\n\nEssa grandeza é adimensional.\n\nImportância da densidade:\n- Determina se um corpo flutua ou afunda em um fluido;\n- Permite identificar substâncias;\n- É fundamental no estudo do empuxo e da pressão hidrostática.\n\nValores típicos de densidade:\n- Água: 1000 kg/m³;\n- Ar: 1,2 kg/m³;\n- Alumínio: 2700 kg/m³;\n- Ferro: 7870 kg/m³;\n- Mercúrio: 13600 kg/m³.\n\nAplicações práticas:\n- Construção naval e submarinos;\n- Balões de ar quente;\n- Indústria petroquímica;\n- Meteorologia e oceanografia;\n- Engenharia e ciência dos materiais.",
+
+    "intuicao": "A densidade indica o quão 'compacta' é a matéria em um determinado volume.",
+
+    "analogia": "Uma mala cheia de livros é mais pesada que uma mala do mesmo tamanho cheia de roupas. Isso ocorre porque os livros possuem maior densidade.",
+
+    "aplicacoes": [
+      "Determinação da flutuabilidade de corpos",
+      "Construção de navios e submarinos",
+      "Balões de ar quente e dirigíveis",
+      "Indústria química e petroquímica",
+      "Medição da pureza de substâncias",
+      "Oceanografia e meteorologia"
+    ],
+
+    "erros_comuns": [
+      "Confundir densidade com massa ou volume",
+      "Esquecer de converter unidades corretamente",
+      "Utilizar g/cm³ sem conversão para o SI",
+      "Achar que a densidade é sempre constante",
+      "Confundir densidade com peso específico"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da densidade?",
+      "alternativas": [
+        "ρ = V/m",
+        "ρ = m/V",
+        "ρ = mV",
+        "ρ = P/V"
+      ],
+      "resposta": "ρ = m/V",
+      "explicacao": "A densidade é definida como a razão entre a massa e o volume."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da densidade no Sistema Internacional?",
+      "alternativas": [
+        "g/cm³",
+        "kg/m³",
+        "N/m³",
+        "Pa"
+      ],
+      "resposta": "kg/m³",
+      "explicacao": "A unidade padrão no SI é quilograma por metro cúbico."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a densidade da água em condições normais?",
+      "alternativas": [
+        "1 kg/m³",
+        "10 kg/m³",
+        "100 kg/m³",
+        "1000 kg/m³"
+      ],
+      "resposta": "1000 kg/m³",
+      "explicacao": "A densidade da água é 1000 kg/m³ a 4°C."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um material possui massa de 2 kg e volume de 0,001 m³. Qual é sua densidade?",
+      "alternativas": [
+        "200 kg/m³",
+        "2000 kg/m³",
+        "20 kg/m³",
+        "0,002 kg/m³"
+      ],
+      "resposta": "2000 kg/m³",
+      "explicacao": "ρ = m/V = 2/0,001 = 2000 kg/m³."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo possui densidade de 800 kg/m³ e é colocado na água. O que acontece?",
+      "alternativas": [
+        "Afunda completamente",
+        "Permanece em equilíbrio no fundo",
+        "Flutua parcialmente",
+        "Evapora"
+      ],
+      "resposta": "Flutua parcialmente",
+      "explicacao": "Como sua densidade é menor que a da água (1000 kg/m³), o corpo flutua."
+    }
+  ]
+}
