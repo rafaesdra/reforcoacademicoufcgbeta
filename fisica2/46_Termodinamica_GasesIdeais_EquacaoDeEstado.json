@@ -1,0 +1,106 @@
+{
+  "id": "46_Termodinamica_GasesIdeais_EquacaoDeEstado",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Gases ideais: equação de estado",
+  "ordem": 46,
+
+  "teoria": {
+    "resumo": "A equação de estado dos gases ideais relaciona pressão, volume e temperatura, descrevendo o comportamento de um gás em condições ideais.",
+
+    "explicacao": "Um gás ideal é um modelo teórico utilizado para simplificar o estudo dos gases reais. Nesse modelo, considera-se que as moléculas não possuem volume próprio e não interagem entre si, exceto por colisões perfeitamente elásticas.\n\nAs variáveis que descrevem o estado de um gás são:\n- Pressão (P)\n- Volume (V)\n- Temperatura (T)\n- Número de mols (n)\n\nA relação entre essas grandezas é dada pela Equação de Estado dos Gases Ideais:\n\nPV = nRT\n\nOnde:\n- P é a pressão do gás (Pa)\n- V é o volume (m³)\n- n é o número de mols (mol)\n- R é a constante universal dos gases ideais (8,314 J/mol·K)\n- T é a temperatura absoluta (K)\n\nA temperatura deve sempre ser expressa em Kelvin:\n\nT(K) = T(°C) + 273,15\n\nFormas alternativas da equação:\n\n1) Utilizando o número de moléculas:\nPV = Nk_BT\n\nOnde:\n- N é o número de moléculas\n- k_B é a constante de Boltzmann (1,38 × 10⁻²³ J/K)\n\n2) Utilizando a massa do gás:\nPV = mRT/M\n\nOnde:\n- m é a massa do gás\n- M é a massa molar\n\nPrincipais leis particulares derivadas da equação dos gases ideais:\n- Lei de Boyle: P ∝ 1/V (temperatura constante)\n- Lei de Charles: V ∝ T (pressão constante)\n- Lei de Gay-Lussac: P ∝ T (volume constante)\n- Lei de Avogadro: V ∝ n (pressão e temperatura constantes)\n\nCaracterísticas dos gases ideais:\n- Moléculas puntiformes e sem interação intermolecular\n- Colisões perfeitamente elásticas\n- Energia cinética média proporcional à temperatura absoluta\n\nA equação dos gases ideais é essencial para compreender fenômenos físicos, químicos e industriais.",
+
+    "intuicao": "O comportamento de um gás depende do equilíbrio entre pressão, volume e temperatura.",
+
+    "analogia": "É como um balão: ao aquecer, ele se expande; ao comprimir, sua pressão aumenta.",
+
+    "aplicacoes": [
+      "Balões e dirigíveis",
+      "Motores térmicos e combustão",
+      "Sistemas de refrigeração",
+      "Previsões meteorológicas",
+      "Indústria química e petroquímica",
+      "Engenharia aeronáutica"
+    ],
+
+    "erros_comuns": [
+      "Utilizar a temperatura em graus Celsius em vez de Kelvin",
+      "Empregar unidades inconsistentes na equação",
+      "Confundir massa com número de mols",
+      "Esquecer o valor da constante dos gases ideais",
+      "Assumir que todos os gases reais são ideais em qualquer condição"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação de estado dos gases ideais?",
+      "alternativas": [
+        "PV = RT",
+        "PV = nRT",
+        "P = nRT",
+        "V = nRT"
+      ],
+      "resposta": "PV = nRT",
+      "explicacao": "Essa é a equação fundamental dos gases ideais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor da constante universal dos gases ideais no SI?",
+      "alternativas": [
+        "1,38 × 10⁻²³ J/K",
+        "9,8 m/s²",
+        "8,314 J/mol·K",
+        "3,0 × 10⁸ m/s"
+      ],
+      "resposta": "8,314 J/mol·K",
+      "explicacao": "Esse é o valor da constante universal dos gases ideais."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual unidade deve ser utilizada para a temperatura na equação dos gases ideais?",
+      "alternativas": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Rankine"
+      ],
+      "resposta": "Kelvin",
+      "explicacao": "A temperatura deve estar na escala absoluta."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei afirma que o volume é diretamente proporcional à temperatura a pressão constante?",
+      "alternativas": [
+        "Lei de Boyle",
+        "Lei de Charles",
+        "Lei de Newton",
+        "Lei de Coulomb"
+      ],
+      "resposta": "Lei de Charles",
+      "explicacao": "A Lei de Charles estabelece que V ∝ T quando a pressão é constante."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a pressão de 1 mol de um gás ideal a 300 K ocupando um volume de 0,0249 m³? (R = 8,314 J/mol·K)",
+      "alternativas": [
+        "8,31 × 10³ Pa",
+        "1,00 × 10⁵ Pa",
+        "2,00 × 10⁵ Pa",
+        "5,00 × 10⁴ Pa"
+      ],
+      "resposta": "1,00 × 10⁵ Pa",
+      "explicacao": "Aplicando PV = nRT: P = nRT/V = (1 × 8,314 × 300) / 0,0249 ≈ 1,00 × 10⁵ Pa."
+    }
+  ]
+}
