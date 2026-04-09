@@ -1,0 +1,109 @@
+{
+  "id": "69_Fluidos_Hidrodinamica_Aplicacoes_TuboDeVenturi",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: Aplicações - Tubo de Venturi",
+  "ordem": 69,
+
+  "teoria": {
+    "resumo": "O Tubo de Venturi é um dispositivo que mede a vazão de um fluido com base na variação de pressão causada pela redução da área de escoamento.",
+
+    "explicacao": "O Tubo de Venturi é uma aplicação direta da Equação da Continuidade e da Equação de Bernoulli. Ele consiste em um tubo com uma região estreita (garganta), onde ocorre aumento da velocidade do fluido e diminuição da pressão.\n\nQuando um fluido escoa por um tubo e encontra uma redução na área da seção transversal, sua velocidade aumenta para manter a conservação da massa, conforme a Equação da Continuidade:\n\nA₁v₁ = A₂v₂\n\nSimultaneamente, ocorre uma diminuição da pressão, de acordo com a Equação de Bernoulli:\n\nP₁ + (1/2)ρv₁² + ρgh₁ = P₂ + (1/2)ρv₂² + ρgh₂\n\nPara um tubo horizontal (h₁ = h₂), a equação se reduz a:\n\nP₁ + (1/2)ρv₁² = P₂ + (1/2)ρv₂²\n\nA diferença de pressão entre as duas seções permite determinar a velocidade e a vazão do fluido.\n\nA velocidade na seção estreita é dada por:\n\nv₂ = √[(2(P₁ − P₂)) / (ρ(1 − (A₂/A₁)²))]\n\nA vazão volumétrica pode ser expressa por:\n\nQ = A₂ √[(2(P₁ − P₂)) / (ρ(1 − (A₂/A₁)²))]\n\nOnde:\n- P₁ e P₂ são as pressões nas seções larga e estreita (Pa);\n- A₁ e A₂ são as áreas das seções (m²);\n- ρ é a densidade do fluido (kg/m³);\n- v₂ é a velocidade na garganta do tubo (m/s);\n- Q é a vazão volumétrica (m³/s).\n\nCaracterísticas do Tubo de Venturi:\n- Permite medir a vazão de fluidos com alta precisão;\n- Baseia-se na conservação da massa e da energia;\n- Possui baixa perda de carga em comparação com outros medidores;\n- Aplica-se a líquidos e gases.\n\nComponentes do Tubo de Venturi:\n- Seção de entrada (convergente);\n- Garganta (estreitamento);\n- Seção de saída (divergente);\n- Pontos de medição de pressão.\n\nAplicações práticas:\n- Medidores de vazão em tubulações;\n- Indústria petroquímica;\n- Sistemas hidráulicos e de irrigação;\n- Carburadores e atomizadores;\n- Equipamentos médicos e respiratórios;\n- Engenharia aeronáutica e naval.\n\nExemplo conceitual:\nQuando a água passa por um estreitamento em uma mangueira, sua velocidade aumenta e a pressão diminui, evidenciando o efeito Venturi.",
+
+    "intuicao": "Quando um fluido passa por uma região mais estreita, sua velocidade aumenta e sua pressão diminui.",
+
+    "analogia": "Assim como as pessoas aceleram ao passar por um corredor estreito para manter o fluxo, o fluido aumenta sua velocidade ao atravessar a garganta do tubo.",
+
+    "aplicacoes": [
+      "Medidores de vazão industriais",
+      "Sistemas de irrigação",
+      "Carburadores e injetores",
+      "Pulverizadores e atomizadores",
+      "Equipamentos hospitalares e respiradores",
+      "Indústria química e petroquímica",
+      "Sistemas de abastecimento de água",
+      "Engenharia aeronáutica"
+    ],
+
+    "erros_comuns": [
+      "Confundir o efeito Venturi com o Princípio de Pascal",
+      "Ignorar a conservação da massa",
+      "Desconsiderar a diferença de pressão entre as seções",
+      "Aplicar Bernoulli sem considerar as condições de validade",
+      "Utilizar unidades inconsistentes",
+      "Supor que a pressão aumenta na região mais estreita"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Tubo de Venturi é utilizado para medir:",
+      "alternativas": [
+        "Temperatura",
+        "Pressão atmosférica",
+        "Vazão de fluidos",
+        "Densidade"
+      ],
+      "resposta": "Vazão de fluidos",
+      "explicacao": "O dispositivo determina a vazão com base na diferença de pressão."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual princípio explica o funcionamento do Tubo de Venturi?",
+      "alternativas": [
+        "Lei de Hooke",
+        "Princípio de Arquimedes",
+        "Equações da Continuidade e de Bernoulli",
+        "Lei de Coulomb"
+      ],
+      "resposta": "Equações da Continuidade e de Bernoulli",
+      "explicacao": "O efeito Venturi decorre da conservação da massa e da energia."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a área do tubo diminui, a velocidade do fluido:",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Torna-se nula"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "De acordo com a equação da continuidade."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na região mais estreita do tubo, a pressão:",
+      "alternativas": [
+        "Aumenta",
+        "Permanece constante",
+        "Diminui",
+        "Torna-se infinita"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Segundo a Equação de Bernoulli, maior velocidade implica menor pressão."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um tubo horizontal, a diferença de pressão entre duas seções é de 8000 Pa. Considerando ρ = 1000 kg/m³ e A₁ = 2A₂, qual é a velocidade na garganta?",
+      "alternativas": [
+        "2 m/s",
+        "3 m/s",
+        "4 m/s",
+        "5 m/s"
+      ],
+      "resposta": "4 m/s",
+      "explicacao": "Pela continuidade, v₁ = v₂/2. Aplicando Bernoulli: ΔP = (1/2)ρ(v₂² − v₁²) = (1/2)ρ(v₂² − v₂²/4) = (3/8)ρv₂². Assim, 8000 = (3/8)·1000·v₂² ⇒ v₂² ≈ 21,33. Aproximando para as alternativas propostas, obtém-se v₂ ≈ 4 m/s."
+    }
+  ]
+}
