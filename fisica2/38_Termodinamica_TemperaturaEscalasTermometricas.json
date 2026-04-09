@@ -1,0 +1,102 @@
+{
+  "id": "38_Termodinamica_TemperaturaEscalasTermometricas",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Temperatura, calor e escalas termométricas",
+  "ordem": 38,
+
+  "teoria": {
+    "resumo": "Temperatura mede o grau de agitação térmica das partículas, enquanto o calor é a energia transferida entre corpos devido à diferença de temperatura.",
+
+    "explicacao": "A temperatura é uma grandeza física que mede o nível de agitação das partículas de um corpo.\n\nQuanto maior a temperatura:\n- Maior a energia cinética média das partículas\n\nJá o calor é a energia térmica transferida entre corpos devido a uma diferença de temperatura.\n\nImportante:\n- Temperatura → propriedade do corpo\n- Calor → energia em trânsito\n\nFluxo de calor:\n- Sempre do corpo mais quente para o mais frio\n\nEscalas termométricas:\n\n1) Celsius (°C):\n- 0°C → congelamento da água\n- 100°C → ebulição da água\n\n2) Kelvin (K):\n- Escala absoluta\n- 0 K → zero absoluto (mínima energia térmica)\n\nRelação:\n\nT(K) = T(°C) + 273\n\n3) Fahrenheit (°F):\n- Usada em alguns países\n\nConversão:\n\n°F = (9/5)°C + 32\n\nCaracterísticas importantes:\n- O Kelvin não possui valores negativos\n- A variação de temperatura é a mesma em °C e K\n\nO estudo da temperatura é essencial para entender fenômenos térmicos e processos energéticos.",
+
+    "intuicao": "Temperatura é o quão agitadas estão as partículas; calor é a energia que flui entre corpos.",
+
+    "analogia": "É como pessoas se movimentando:\n- Mais movimento → maior temperatura\n- Troca de energia → calor",
+
+    "aplicacoes": [
+      "Medição de temperatura em sistemas físicos",
+      "Controle térmico em engenharia",
+      "Processos industriais e laboratoriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Achar que calor é algo 'contido' no corpo",
+      "Esquecer a conversão entre escalas",
+      "Achar que Kelvin tem valores negativos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que a temperatura mede?",
+      "alternativas": [
+        "Energia total",
+        "Agitação das partículas",
+        "Massa",
+        "Velocidade da luz"
+      ],
+      "resposta": "Agitação das partículas",
+      "explicacao": "Temperatura está relacionada à energia cinética média."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é calor?",
+      "alternativas": [
+        "Energia armazenada",
+        "Energia em trânsito",
+        "Temperatura alta",
+        "Pressão"
+      ],
+      "resposta": "Energia em trânsito",
+      "explicacao": "Calor é energia transferida entre corpos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre Kelvin e Celsius?",
+      "alternativas": [
+        "T(K) = T(°C) - 273",
+        "T(K) = T(°C) + 273",
+        "T(K) = 2T(°C)",
+        "T(K) = T(°C)/2"
+      ],
+      "resposta": "T(K) = T(°C) + 273",
+      "explicacao": "Essa é a conversão padrão."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para onde o calor flui espontaneamente?",
+      "alternativas": [
+        "Do frio para o quente",
+        "Do quente para o frio",
+        "Não flui",
+        "Depende da massa"
+      ],
+      "resposta": "Do quente para o frio",
+      "explicacao": "O calor sempre flui para equilibrar temperaturas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o Kelvin é chamado de escala absoluta?",
+      "alternativas": [
+        "Porque começa em zero absoluto",
+        "Porque é maior que Celsius",
+        "Porque não mede temperatura",
+        "Porque não tem unidades"
+      ],
+      "resposta": "Porque começa em zero absoluto",
+      "explicacao": "0 K corresponde à menor energia térmica possível."
+    }
+  ]
+}
