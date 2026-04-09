@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_conceitos_basicos",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Vetores no plano e no espaco: definicoes, notacao, modulo e versor",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Vetores sao entidades que possuem modulo, direcao e sentido e podem ser representados no plano e no espaco.",
+
+    "explicacao": "Um vetor e uma entidade matematica caracterizada por tres elementos: modulo (tamanho), direcao e sentido.\n\nNo plano (R2), um vetor e representado por (x, y), enquanto no espaco (R3) e representado por (x, y, z).\n\nVetores podem ser escritos na forma de coordenadas ou utilizando a base canonica: v = xi + yj + zk.\n\nO modulo de um vetor indica seu comprimento e e calculado por |v| = sqrt(x^2 + y^2) no plano e |v| = sqrt(x^2 + y^2 + z^2) no espaco.\n\nO versor e um vetor unitario (modulo igual a 1), obtido dividindo o vetor pelo seu modulo: v/|v|.\n\nEsses conceitos sao fundamentais para o estudo de operacoes vetoriais, geometria analitica e aplicacoes em fisica.",
+
+    "intuicao": "Vetores podem ser vistos como setas que indicam direcao e intensidade de um movimento.",
+
+    "analogia": "Imagine um vetor como um deslocamento em um mapa: ele diz para onde ir, em que direcao e com qual intensidade.",
+
+    "aplicacoes": [
+      "Representacao de forcas e velocidades em fisica",
+      "Modelagem de trajetorias e deslocamentos",
+      "Computacao grafica e simulacoes"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor com ponto no plano ou espaco",
+      "Esquecer de calcular a raiz ao determinar o modulo",
+      "Nao normalizar corretamente ao calcular o versor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor v = (3, 4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "resposta": "5",
+      "explicacao": "O modulo e sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dos vetores abaixo e um versor?",
+      "alternativas": [
+        "(2,0)",
+        "(1,1)",
+        "(0,1)",
+        "(3,4)"
+      ],
+      "resposta": "(0,1)",
+      "explicacao": "Um versor tem modulo igual a 1. O vetor (0,1) possui modulo 1."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor v = (2, -2, 1)?",
+      "alternativas": [
+        "3",
+        "sqrt(9)",
+        "sqrt(3)",
+        "sqrt(8)"
+      ],
+      "resposta": "3",
+      "explicacao": "Modulo = sqrt(2^2 + (-2)^2 + 1^2) = sqrt(4 + 4 + 1) = sqrt(9) = 3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o versor do vetor v = (3, 0, 4)?",
+      "alternativas": [
+        "(3,0,4)",
+        "(1,0,1)",
+        "(3/5,0,4/5)",
+        "(4/5,0,3/5)"
+      ],
+      "resposta": "(3/5,0,4/5)",
+      "explicacao": "O modulo e 5, entao o versor e (3/5, 0, 4/5)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v = (x, y) e um versor e x = 3/5, qual o valor de y?",
+      "alternativas": [
+        "4/5",
+        "-4/5",
+        "±4/5",
+        "3/5"
+      ],
+      "resposta": "±4/5",
+      "explicacao": "Como e versor: x^2 + y^2 = 1. Logo (3/5)^2 + y^2 = 1 => 9/25 + y^2 = 1 => y^2 = 16/25 => y = ±4/5."
+    }
+  ]
+}
