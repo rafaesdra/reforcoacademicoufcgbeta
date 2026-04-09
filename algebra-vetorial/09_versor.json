@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_versor",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Versor (vetor unitario)",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "O versor e um vetor de modulo igual a 1 que indica apenas direcao e sentido.",
+
+    "explicacao": "Um versor, ou vetor unitario, e um vetor que possui modulo igual a 1.\n\nEle e utilizado para representar apenas a direcao e o sentido de um vetor, sem considerar sua intensidade.\n\nPara encontrar o versor de um vetor v, basta dividir o vetor pelo seu modulo:\n\nv_unitario = v / |v|\n\nPor exemplo, se v = (3, 4), seu modulo e 5, entao o versor sera (3/5, 4/5).\n\nVersores sao muito importantes em aplicacoes fisicas e matematicas, pois permitem trabalhar com direcoes puras.\n\nOs vetores i, j e k sao exemplos de versores nos eixos coordenados.",
+
+    "intuicao": "O versor mostra apenas para onde o vetor aponta, ignorando o tamanho.",
+
+    "analogia": "E como uma bussola: ela nao diz a distancia, apenas a direcao.",
+
+    "aplicacoes": [
+      "Normalizacao de vetores",
+      "Definicao de direcoes em fisica",
+      "Calculos de projecoes e componentes"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir pelo modulo",
+      "Achar que o versor tem o mesmo tamanho do vetor original",
+      "Errar o calculo do modulo antes de normalizar"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo de um versor?",
+      "alternativas": [
+        "0",
+        "1",
+        "Depende do vetor",
+        "Infinito"
+      ],
+      "resposta": "1",
+      "explicacao": "Por definicao, um versor possui modulo igual a 1."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o versor do vetor v = (2, 0)?",
+      "alternativas": [
+        "(1, 0)",
+        "(2, 0)",
+        "(0, 1)",
+        "(2, 2)"
+      ],
+      "resposta": "(1, 0)",
+      "explicacao": "Modulo = 2, entao o versor e (2/2, 0/2) = (1, 0)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o versor do vetor v = (3, 4)?",
+      "alternativas": [
+        "(3/5, 4/5)",
+        "(5/3, 5/4)",
+        "(3, 4)",
+        "(4/5, 3/5)"
+      ],
+      "resposta": "(3/5, 4/5)",
+      "explicacao": "Modulo = 5, entao o versor e (3/5, 4/5)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores i, j e k sao:",
+      "alternativas": [
+        "Vetores quaisquer",
+        "Versores",
+        "Vetores nulos",
+        "Vetores opostos"
+      ],
+      "resposta": "Versores",
+      "explicacao": "Eles possuem modulo igual a 1 e definem as direcoes dos eixos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v = (x, y) tem modulo 10, qual e o versor associado a v?",
+      "alternativas": [
+        "(x/10, y/10)",
+        "(10x, 10y)",
+        "(x, y)",
+        "(x^2, y^2)"
+      ],
+      "resposta": "(x/10, y/10)",
+      "explicacao": "O versor e obtido dividindo cada componente pelo modulo."
+    }
+  ]
+}
