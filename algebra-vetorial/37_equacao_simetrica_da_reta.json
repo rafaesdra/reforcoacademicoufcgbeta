@@ -1,0 +1,99 @@
+{
+  "id": "equacao_simetrica_da_reta",
+  "disciplina": "Matemática",
+  "assunto": "Equação Simétrica da Reta",
+  "ordem": 37,
+
+  "teoria": {
+    "resumo": "A equação simétrica da reta expressa a relação entre as coordenadas utilizando proporções baseadas no vetor diretor.",
+
+    "explicacao": "A equação simétrica da reta é outra forma de representar uma reta a partir de um ponto e um vetor diretor.\n\nPartindo das equações paramétricas:\n\nx = x0 + at\ny = y0 + bt\n\nPodemos isolar o parâmetro t:\n\nt = (x - x0)/a\n\nt = (y - y0)/b\n\nIgualando as expressões, obtemos a equação simétrica:\n\n(x - x0)/a = (y - y0)/b\n\nEssa forma elimina o parâmetro t e estabelece uma relação direta entre x e y.\n\nExemplo:\nSe a reta passa pelo ponto (1, 2) e possui vetor diretor (3, 4), então:\n\n(x - 1)/3 = (y - 2)/4\n\nEssa é a equação simétrica da reta.\n\nObservação importante:\nSe algum dos coeficientes do vetor diretor for zero, a equação simétrica deve ser adaptada.\n\nExemplo:\nSe v = (0, 2), então:\n\nx = x0 (constante)\n(y - y0)/2 = t\n\nLogo, a reta é vertical.",
+
+    "intuicao": "A equação simétrica compara quanto você 'anda' em cada direção, mantendo uma proporção constante.",
+
+    "analogia": "Imagine que você está subindo uma escada onde cada 3 passos para frente correspondem a 4 passos para cima. A equação simétrica expressa essa proporção.",
+
+    "aplicacoes": [
+      "Análise de alinhamento entre pontos",
+      "Simplificação de problemas geométricos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de tratar casos em que algum coeficiente do vetor diretor é zero",
+      "Confundir a equação simétrica com a forma reduzida da reta"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação simétrica da reta que passa por (1,2) com vetor diretor (3,4)?",
+      "alternativas": [
+        "(x - 1)/3 = (y - 2)/4",
+        "x = 1 + 3t, y = 2 + 4t",
+        "y = 3x + 4",
+        "(x + 1)/3 = (y + 2)/4"
+      ],
+      "resposta": "(x - 1)/3 = (y - 2)/4",
+      "explicacao": "A equação simétrica usa o ponto e o vetor diretor na forma (x - x0)/a = (y - y0)/b."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação simétrica, os valores no denominador representam:",
+      "alternativas": [
+        "As coordenadas de um ponto",
+        "O vetor diretor",
+        "O parâmetro t",
+        "A origem"
+      ],
+      "resposta": "O vetor diretor",
+      "explicacao": "Os denominadores são os coeficientes do vetor diretor da reta."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação simétrica da reta que passa por (2,1) e tem vetor diretor (1, -2)?",
+      "alternativas": [
+        "(x - 2)/1 = (y - 1)/-2",
+        "(x + 2)/1 = (y + 1)/-2",
+        "(x - 1)/2 = (y - 2)/-1",
+        "(x - 2)/-2 = (y - 1)/1"
+      ],
+      "resposta": "(x - 2)/1 = (y - 1)/-2",
+      "explicacao": "Substituindo corretamente o ponto (2,1) e o vetor (1,-2) na fórmula padrão."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a equação simétrica é (x - 3)/0 = (y - 1)/2, o que podemos concluir?",
+      "alternativas": [
+        "A reta é horizontal",
+        "A reta é vertical",
+        "A reta é inclinada",
+        "A equação está errada"
+      ],
+      "resposta": "A reta é vertical",
+      "explicacao": "Quando o coeficiente de x é zero, x é constante, caracterizando uma reta vertical."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas as retas (x - 1)/2 = (y - 3)/4 e (x - 3)/4 = (y - 7)/8, qual a relação entre elas?",
+      "alternativas": [
+        "Paralelas distintas",
+        "Coincidentes",
+        "Perpendiculares",
+        "Concorrentes"
+      ],
+      "resposta": "Coincidentes",
+      "explicacao": "Os vetores diretores são proporcionais (4,8) = 2(2,4) e o ponto (3,7) pertence à primeira reta, logo são a mesma reta."
+    }
+  ]
+}
