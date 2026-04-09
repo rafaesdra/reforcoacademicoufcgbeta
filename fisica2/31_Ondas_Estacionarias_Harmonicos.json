@@ -1,0 +1,102 @@
+{
+  "id": "31_Ondas_Estacionarias_Harmonicos",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Ondas estacionárias: harmônicos",
+  "ordem": 31,
+
+  "teoria": {
+    "resumo": "Os harmônicos são os modos de vibração permitidos em um sistema que forma ondas estacionárias.",
+
+    "explicacao": "Quando ondas estacionárias se formam em sistemas com limites definidos (como uma corda presa nas extremidades), apenas certos padrões de vibração são possíveis.\n\nEsses padrões são chamados de harmônicos.\n\nCada harmônico corresponde a um modo específico de vibração.\n\n1) Harmônico fundamental (1º harmônico):\n- Menor frequência possível\n- Forma mais simples de vibração\n- Comprimento de onda:\n  λ₁ = 2L\n\n2) Segundo harmônico:\n- Dois ventres\n- Um nó no centro\n- Comprimento de onda:\n  λ₂ = L\n\n3) Terceiro harmônico:\n- Três ventres\n- Dois nós internos\n- Comprimento de onda:\n  λ₃ = 2L/3\n\nDe forma geral:\n\nλₙ = 2L/n\n\nfₙ = n f₁\n\nOnde:\n- n é o número do harmônico\n- L é o comprimento da corda\n- f₁ é a frequência fundamental\n\nCaracterísticas importantes:\n- Apenas certos valores de frequência são permitidos\n- Cada harmônico tem um padrão específico de nós e ventres\n- Frequências mais altas → mais harmônicos\n\nEsse fenômeno ocorre devido às condições de contorno (extremidades fixas).\n\nOs harmônicos são fundamentais para entender:\n- Sons musicais\n- Vibração de cordas\n- Ressonância em sistemas físicos",
+
+    "intuicao": "A corda só pode vibrar em certos padrões organizados — esses são os harmônicos.",
+
+    "analogia": "É como dividir uma corda em partes iguais: cada divisão cria um novo padrão de vibração.",
+
+    "aplicacoes": [
+      "Instrumentos musicais de corda",
+      "Análise de frequências sonoras",
+      "Estudo de ressonância em sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Achar que qualquer frequência é possível",
+      "Confundir harmônico com amplitude",
+      "Esquecer que fₙ = n f₁",
+      "Não considerar as condições de contorno"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que são harmônicos?",
+      "alternativas": [
+        "Tipos de energia",
+        "Modos de vibração permitidos",
+        "Velocidades da onda",
+        "Tipos de interferência"
+      ],
+      "resposta": "Modos de vibração permitidos",
+      "explicacao": "Harmônicos são padrões específicos de vibração."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o primeiro harmônico?",
+      "alternativas": [
+        "Maior frequência",
+        "Menor frequência",
+        "Frequência zero",
+        "Frequência máxima"
+      ],
+      "resposta": "Menor frequência",
+      "explicacao": "O primeiro harmônico é a frequência fundamental."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre os harmônicos e a frequência fundamental?",
+      "alternativas": [
+        "fₙ = f₁/n",
+        "fₙ = n f₁",
+        "fₙ = f₁²",
+        "fₙ = constante"
+      ],
+      "resposta": "fₙ = n f₁",
+      "explicacao": "Cada harmônico é múltiplo da frequência fundamental."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o comprimento de onda do segundo harmônico?",
+      "alternativas": [
+        "2L",
+        "L",
+        "L/2",
+        "2L/3"
+      ],
+      "resposta": "L",
+      "explicacao": "λ₂ = 2L/2 = L."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que apenas certos harmônicos são permitidos?",
+      "alternativas": [
+        "Por causa da massa",
+        "Por causa da velocidade",
+        "Devido às condições de contorno",
+        "Por causa da gravidade"
+      ],
+      "resposta": "Devido às condições de contorno",
+      "explicacao": "As extremidades fixas limitam os modos de vibração."
+    }
+  ]
+}
