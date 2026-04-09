@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_igualdade_vetores",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Igualdade de vetores",
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Dois vetores sao iguais quando possuem o mesmo modulo, direcao e sentido.",
+
+    "explicacao": "Na Algebra Vetorial, dois vetores sao considerados iguais quando possuem o mesmo modulo, a mesma direcao e o mesmo sentido.\n\nIsso significa que, mesmo que estejam em posicoes diferentes no plano ou no espaco, eles representam o mesmo deslocamento.\n\nEm termos de coordenadas, dois vetores sao iguais se todas as suas componentes forem iguais.\n\nPor exemplo, os vetores (2, 3) e (2, 3) sao iguais, independentemente de onde estao posicionados.\n\nJa vetores com mesmas direcoes, mas sentidos opostos, nao sao iguais.\n\nEsse conceito e importante para identificar equivalencias e simplificar problemas vetoriais.",
+
+    "intuicao": "Se dois vetores representam exatamente o mesmo movimento, entao eles sao iguais.",
+
+    "analogia": "E como dar dois passos iguais em direcao e tamanho, mesmo que voce comece de lugares diferentes.",
+
+    "aplicacoes": [
+      "Comparacao de deslocamentos em fisica",
+      "Verificacao de resultados em operacoes vetoriais",
+      "Simplificacao de problemas geometricos"
+    ],
+
+    "erros_comuns": [
+      "Achar que vetores iguais precisam estar na mesma posicao",
+      "Confundir vetores paralelos com vetores iguais",
+      "Ignorar o sentido ao comparar vetores"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando dois vetores sao iguais?",
+      "alternativas": [
+        "Quando possuem apenas o mesmo modulo",
+        "Quando possuem mesma direcao e modulo apenas",
+        "Quando possuem mesmo modulo, direcao e sentido",
+        "Quando estao na mesma origem"
+      ],
+      "resposta": "Quando possuem mesmo modulo, direcao e sentido",
+      "explicacao": "A igualdade de vetores depende de modulo, direcao e sentido, nao da posicao."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (2, 3) e (2, 3) sao:",
+      "alternativas": [
+        "Diferentes",
+        "Paralelos apenas",
+        "Iguais",
+        "Opostos"
+      ],
+      "resposta": "Iguais",
+      "explicacao": "Eles possuem exatamente as mesmas componentes."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1, 2) e (-1, -2) sao:",
+      "alternativas": [
+        "Iguais",
+        "Paralelos e de mesmo sentido",
+        "Paralelos e de sentidos opostos",
+        "Perpendiculares"
+      ],
+      "resposta": "Paralelos e de sentidos opostos",
+      "explicacao": "Eles possuem mesma direcao, mas sentidos opostos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores em R3 sao iguais quando:",
+      "alternativas": [
+        "Possuem o mesmo modulo apenas",
+        "Possuem as mesmas componentes",
+        "Estao no mesmo plano",
+        "Possuem a mesma origem"
+      ],
+      "resposta": "Possuem as mesmas componentes",
+      "explicacao": "A igualdade ocorre quando todas as coordenadas sao iguais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v = (a, b) e w = (2, 3) sao iguais, quais sao os valores de a e b?",
+      "alternativas": [
+        "a = 2 e b = 3",
+        "a = 3 e b = 2",
+        "a = -2 e b = -3",
+        "Nao e possivel determinar"
+      ],
+      "resposta": "a = 2 e b = 3",
+      "explicacao": "Vetores iguais possuem mesmas componentes, logo a = 2 e b = 3."
+    }
+  ]
+}
