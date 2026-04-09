@@ -1,0 +1,106 @@
+{
+  "id": "49_Termodinamica_Transformacoes_Isocorica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Transformações gasosas: isocórica",
+  "ordem": 49,
+
+  "teoria": {
+    "resumo": "A transformação isocórica ocorre quando um gás sofre variações de pressão e temperatura mantendo o volume constante.",
+
+    "explicacao": "A transformação isocórica, também chamada de isovolumétrica ou isométrica, é um processo termodinâmico no qual o volume do gás permanece constante.\n\nPartindo da equação de estado dos gases ideais:\n\nPV = nRT\n\nComo o volume não varia, temos:\n\nP/T = constante\n\nEssa relação é conhecida como Lei de Gay-Lussac.\n\nMatematicamente:\n\nP₁/T₁ = P₂/T₂\n\nOnde:\n- P é a pressão do gás\n- T é a temperatura absoluta em Kelvin\n\nCaracterísticas da transformação isocórica:\n- Volume constante\n- Pressão diretamente proporcional à temperatura\n- Não há realização de trabalho mecânico\n- O calor trocado altera apenas a energia interna do gás\n\nTrabalho realizado:\n\nW = PΔV\n\nComo ΔV = 0:\n\nW = 0\n\nPela Primeira Lei da Termodinâmica:\n\nQ = ΔU\n\nOu seja, todo o calor fornecido ao sistema é utilizado para variar sua energia interna.\n\nRepresentação gráfica:\n- No diagrama P × V, a transformação isocórica é representada por uma reta vertical.\n- No diagrama P × T, é representada por uma reta crescente.\n\nExemplos práticos:\n- Aquecimento de um gás em um recipiente rígido e fechado\n- Latas de aerossol expostas ao calor\n- Panelas de pressão\n- Cilindros de gás selados\n- Experimentos em laboratório com recipientes indeformáveis.",
+
+    "intuicao": "Se o volume não pode variar, o aumento da temperatura faz a pressão aumentar.",
+
+    "analogia": "É como aquecer o ar dentro de uma bola de metal rígida: o espaço não muda, então a pressão interna aumenta.",
+
+    "aplicacoes": [
+      "Panelas de pressão",
+      "Recipientes rígidos selados",
+      "Latas de aerossol",
+      "Armazenamento de gases industriais",
+      "Estudos laboratoriais em termodinâmica",
+      "Motores e sistemas de combustão"
+    ],
+
+    "erros_comuns": [
+      "Confundir transformação isocórica com isobárica",
+      "Esquecer que o volume permanece constante",
+      "Utilizar temperatura em graus Celsius em vez de Kelvin",
+      "Supor que há trabalho mecânico no processo",
+      "Confundir a Lei de Gay-Lussac com a Lei de Charles"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que permanece constante em uma transformação isocórica?",
+      "alternativas": [
+        "Pressão",
+        "Temperatura",
+        "Volume",
+        "Energia interna"
+      ],
+      "resposta": "Volume",
+      "explicacao": "Na transformação isocórica, o volume não se altera."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei descreve a transformação isocórica?",
+      "alternativas": [
+        "Lei de Boyle",
+        "Lei de Charles",
+        "Lei de Gay-Lussac",
+        "Lei de Avogadro"
+      ],
+      "resposta": "Lei de Gay-Lussac",
+      "explicacao": "Ela estabelece que a pressão é diretamente proporcional à temperatura a volume constante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o trabalho realizado em uma transformação isocórica?",
+      "alternativas": [
+        "W = PΔV",
+        "W = nRT",
+        "W = 0",
+        "W = mcΔT"
+      ],
+      "resposta": "W = 0",
+      "explicacao": "Como o volume não varia, não há realização de trabalho."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a temperatura de um gás aumenta em um recipiente rígido, a pressão:",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Torna-se nula"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "De acordo com a Lei de Gay-Lussac, a pressão é diretamente proporcional à temperatura."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma transformação isocórica, a relação entre calor e energia interna é:",
+      "alternativas": [
+        "Q = W",
+        "Q = ΔU",
+        "Q = 0",
+        "ΔU = 0"
+      ],
+      "resposta": "Q = ΔU",
+      "explicacao": "Como não há trabalho, todo o calor fornecido altera a energia interna do gás."
+    }
+  ]
+}
