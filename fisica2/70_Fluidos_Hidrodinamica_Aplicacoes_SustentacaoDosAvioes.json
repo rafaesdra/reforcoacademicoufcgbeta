@@ -1,0 +1,107 @@
+{
+  "id": "70_Fluidos_Hidrodinamica_Aplicacoes_SustentacaoDosAvioes",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: Aplicações - Sustentação dos Aviões",
+  "ordem": 70,
+
+  "teoria": {
+    "resumo": "A sustentação dos aviões é explicada pela diferença de pressão entre as superfícies superior e inferior das asas, conforme a Equação de Bernoulli e a dinâmica dos fluidos.",
+
+    "explicacao": "A sustentação é a força responsável por manter um avião em voo. Ela surge devido à interação entre o ar em movimento e as asas da aeronave, sendo explicada principalmente pela Equação de Bernoulli e pelas leis de Newton.\n\nQuando o avião se desloca, o ar escoa ao redor das asas. O formato aerodinâmico do aerofólio faz com que o ar se mova mais rapidamente sobre a superfície superior do que sobre a inferior.\n\nDe acordo com a Equação de Bernoulli:\n\nP + (1/2)ρv² + ρgh = constante\n\nPara uma mesma altura, a equação se reduz a:\n\nP + (1/2)ρv² = constante\n\nAssim, quando a velocidade do ar aumenta, a pressão diminui. Isso gera uma diferença de pressão entre a parte superior e inferior da asa, resultando em uma força de sustentação.\n\nA força de sustentação pode ser expressa por:\n\nL = (1/2) ρ v² S C_L\n\nOnde:\n- L é a força de sustentação (N);\n- ρ é a densidade do ar (kg/m³);\n- v é a velocidade do avião (m/s);\n- S é a área da asa (m²);\n- C_L é o coeficiente de sustentação.\n\nFatores que influenciam a sustentação:\n- Velocidade do ar;\n- Densidade do fluido;\n- Área das asas;\n- Formato do aerofólio;\n- Ângulo de ataque.\n\nÂngulo de ataque:\nÉ o ângulo entre a asa e a direção do escoamento do ar. Seu aumento eleva a sustentação até um limite crítico, após o qual ocorre o estol.\n\nEstol:\nO estol ocorre quando o fluxo de ar se separa da superfície da asa, causando perda de sustentação.\n\nInterpretação pelas Leis de Newton:\nAlém de Bernoulli, a sustentação também é explicada pela Terceira Lei de Newton: a asa desvia o ar para baixo, e o ar reage empurrando a asa para cima.\n\nAplicações práticas:\n- Aeronaves comerciais e militares;\n- Helicópteros e drones;\n- Planadores;\n- Turbinas eólicas;\n- Automóveis de Fórmula 1 (aerodinâmica invertida).",
+
+    "intuicao": "Quanto maior a velocidade do ar sobre a asa, menor será a pressão, gerando uma força que impulsiona o avião para cima.",
+
+    "analogia": "Ao colocar a mão para fora da janela de um carro em movimento e incliná-la, percebe-se uma força que a empurra para cima, semelhante à sustentação de uma asa.",
+
+    "aplicacoes": [
+      "Projeto de aeronaves",
+      "Engenharia aeronáutica e aeroespacial",
+      "Desenvolvimento de drones",
+      "Turbinas eólicas",
+      "Aerodinâmica automotiva",
+      "Planejamento de asas e aerofólios"
+    ],
+
+    "erros_comuns": [
+      "Acreditar que a sustentação depende apenas da Equação de Bernoulli",
+      "Ignorar a contribuição das Leis de Newton",
+      "Supor que o ar percorre o topo e a base da asa em tempos iguais",
+      "Desconsiderar o ângulo de ataque",
+      "Confundir sustentação com empuxo",
+      "Ignorar o fenômeno do estol"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual princípio explica a diminuição da pressão na parte superior da asa?",
+      "alternativas": [
+        "Princípio de Pascal",
+        "Princípio de Arquimedes",
+        "Equação de Bernoulli",
+        "Lei de Hooke"
+      ],
+      "resposta": "Equação de Bernoulli",
+      "explicacao": "Segundo Bernoulli, o aumento da velocidade do fluido provoca a diminuição da pressão."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A força que mantém o avião no ar é chamada de:",
+      "alternativas": [
+        "Empuxo",
+        "Tração",
+        "Sustentação",
+        "Resistência"
+      ],
+      "resposta": "Sustentação",
+      "explicacao": "A sustentação é a força vertical responsável pelo voo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator aumenta a força de sustentação?",
+      "alternativas": [
+        "Diminuição da velocidade",
+        "Aumento da velocidade do ar",
+        "Redução da área da asa",
+        "Diminuição da densidade do ar"
+      ],
+      "resposta": "Aumento da velocidade do ar",
+      "explicacao": "A sustentação é proporcional ao quadrado da velocidade."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o ângulo de ataque?",
+      "alternativas": [
+        "O ângulo entre a asa e a fuselagem",
+        "O ângulo entre a asa e a direção do escoamento do ar",
+        "O ângulo entre o motor e a asa",
+        "O ângulo entre a gravidade e o avião"
+      ],
+      "resposta": "O ângulo entre a asa e a direção do escoamento do ar",
+      "explicacao": "Esse ângulo influencia diretamente a sustentação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um avião voa com velocidade de 50 m/s. Considerando ρ = 1,2 kg/m³, área da asa de 20 m² e C_L = 1,0, qual é a força de sustentação?",
+      "alternativas": [
+        "15 000 N",
+        "20 000 N",
+        "30 000 N",
+        "40 000 N"
+      ],
+      "resposta": "30 000 N",
+      "explicacao": "L = (1/2)ρv²SC_L = 0,5 × 1,2 × 50² × 20 × 1 = 30 000 N."
+    }
+  ]
+}
