@@ -1,0 +1,99 @@
+{
+  "id": "definicao_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Definição de Vetores",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "Vetores são entidades matemáticas que possuem módulo, direção e sentido.",
+
+    "explicacao": "Um vetor é um objeto matemático utilizado para representar grandezas que possuem intensidade (módulo), direção e sentido.\n\nExemplos de grandezas vetoriais:\n- Força\n- Velocidade\n- Deslocamento\n\nRepresentação geométrica:\nUm vetor é representado por uma seta, onde:\n- O comprimento representa o módulo\n- A inclinação representa a direção\n- A ponta indica o sentido\n\nRepresentação algébrica:\nNo plano, um vetor pode ser escrito como:\nV = (x, y)\n\nNo espaço:\nV = (x, y, z)\n\nExemplo:\nV = (3, 4)\n\nMódulo do vetor:\n|V| = √(x² + y²)\n\nExemplo:\n|V| = √(3² + 4²) = 5\n\nVetores iguais:\nDois vetores são iguais se possuem mesmo módulo, direção e sentido.\n\nVetor nulo:\nÉ o vetor (0,0) ou (0,0,0), que não possui direção definida.\n\nOs vetores são fundamentais para a geometria analítica e para diversas áreas da matemática e física.",
+
+    "intuicao": "Um vetor descreve um movimento ou ação completa: quanto, para onde e em qual sentido.",
+
+    "analogia": "É como uma seta em um mapa indicando para onde ir e o quão longe você deve ir.",
+
+    "aplicacoes": [
+      "Representação de movimento e forças na Física",
+      "Modelagem de direção e posição em gráficos e jogos"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor com número (escalar)",
+      "Ignorar direção e sentido, considerando apenas o valor numérico"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um vetor é definido por quais características?",
+      "alternativas": [
+        "Módulo, direção e sentido",
+        "Apenas módulo",
+        "Apenas direção",
+        "Módulo e posição"
+      ],
+      "resposta": "Módulo, direção e sentido",
+      "explicacao": "Essas três características definem completamente um vetor."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa um vetor no plano?",
+      "alternativas": [
+        "(3,4)",
+        "7",
+        "π",
+        "√2"
+      ],
+      "resposta": "(3,4)",
+      "explicacao": "Vetores no plano são representados por pares ordenados."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o módulo do vetor V = (3,4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "4",
+        "3"
+      ],
+      "resposta": "5",
+      "explicacao": "|V| = √(3² + 4²) = √25 = 5."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando dois vetores são iguais?",
+      "alternativas": [
+        "Quando possuem mesmo módulo, direção e sentido",
+        "Quando possuem apenas mesmo módulo",
+        "Quando possuem mesmas coordenadas apenas",
+        "Quando estão na mesma posição"
+      ],
+      "resposta": "Quando possuem mesmo módulo, direção e sentido",
+      "explicacao": "Essas três características definem igualdade entre vetores."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o módulo do vetor V = (1,2,2)?",
+      "alternativas": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "resposta": "3",
+      "explicacao": "|V| = √(1² + 2² + 2²) = √(1 + 4 + 4) = √9 = 3."
+    }
+  ]
+}
