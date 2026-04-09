@@ -1,0 +1,99 @@
+{
+  "id": "bases_sistemas_coordenadas",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Bases e Sistemas de Coordenadas",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "Uma base é um conjunto de vetores que permite representar qualquer vetor do espaço por combinação linear.",
+
+    "explicacao": "O conceito de base é fundamental na Álgebra Vetorial.\n\nUma base é um conjunto de vetores linearmente independentes que geram todo o espaço.\n\nNo plano (R²):\nA base mais comum é:\ni = (1,0) e j = (0,1)\n\nQualquer vetor V = (x, y) pode ser escrito como:\nV = xi + yj\n\nNo espaço (R³):\ni = (1,0,0), j = (0,1,0), k = (0,0,1)\n\nQualquer vetor V = (x, y, z) pode ser escrito como:\nV = xi + yj + zk\n\nEsses vetores formam a base canônica.\n\nSistema de coordenadas:\nÉ a forma de representar um vetor usando uma base.\n\nExemplo:\nSe V = (3,2), isso significa:\nV = 3i + 2j\n\nBases diferentes:\nPodemos usar outros vetores como base, desde que sejam independentes.\n\nExemplo:\nA = (1,1) e B = (1,-1)\nEsses vetores também podem formar uma base do plano.\n\nA escolha da base muda a forma como representamos o vetor, mas não o vetor em si.",
+
+    "intuicao": "Uma base é como um conjunto de direções fundamentais que usamos para construir qualquer vetor.",
+
+    "analogia": "É como usar pontos cardeais (norte e leste) para descrever qualquer deslocamento em um mapa.",
+
+    "aplicacoes": [
+      "Representação de vetores em gráficos e sistemas físicos",
+      "Base para transformações lineares e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Achar que qualquer conjunto de vetores forma uma base",
+      "Confundir vetor com suas coordenadas em uma base"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a base canônica do plano R²?",
+      "alternativas": [
+        "(1,0) e (0,1)",
+        "(1,1) e (0,1)",
+        "(1,0) e (1,1)",
+        "(0,1) e (1,1)"
+      ],
+      "resposta": "(1,0) e (0,1)",
+      "explicacao": "A base canônica do plano é formada pelos vetores i e j."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor V = (4,3) pode ser escrito como:",
+      "alternativas": [
+        "4i + 3j",
+        "3i + 4j",
+        "4i + j",
+        "i + 3j"
+      ],
+      "resposta": "4i + 3j",
+      "explicacao": "As coordenadas indicam diretamente os coeficientes da base."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição é necessária para que dois vetores formem uma base no plano?",
+      "alternativas": [
+        "Serem linearmente independentes",
+        "Terem mesmo módulo",
+        "Serem paralelos",
+        "Terem coordenadas inteiras"
+      ],
+      "resposta": "Serem linearmente independentes",
+      "explicacao": "Vetores independentes garantem que conseguimos gerar todo o plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,2) e (2,4) formam uma base do plano?",
+      "alternativas": [
+        "Não",
+        "Sim",
+        "Apenas em R³",
+        "Depende do sistema"
+      ],
+      "resposta": "Não",
+      "explicacao": "Eles são dependentes (um é múltiplo do outro), então não formam base."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,1) e B = (1,-1) formam uma base, qual combinação gera o vetor (2,0)?",
+      "alternativas": [
+        "1A + 1B",
+        "2A + 0B",
+        "0A + 2B",
+        "1A + 2B"
+      ],
+      "resposta": "1A + 1B",
+      "explicacao": "A + B = (1,1) + (1,-1) = (2,0)."
+    }
+  ]
+}
