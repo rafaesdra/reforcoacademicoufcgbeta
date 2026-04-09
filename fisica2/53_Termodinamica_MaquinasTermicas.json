@@ -1,0 +1,106 @@
+{
+  "id": "53_Termodinamica_MaquinasTermicas",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Máquinas térmicas",
+  "ordem": 53,
+
+  "teoria": {
+    "resumo": "As máquinas térmicas são dispositivos que transformam energia térmica em trabalho mecânico por meio de ciclos termodinâmicos.",
+
+    "explicacao": "As máquinas térmicas são sistemas que convertem calor em trabalho mecânico, operando entre duas fontes de temperatura diferentes: uma fonte quente e uma fonte fria.\n\nEsses dispositivos funcionam de acordo com a Primeira e a Segunda Lei da Termodinâmica, realizando ciclos termodinâmicos para produzir trabalho útil.\n\nFuncionamento básico:\n\n1) A máquina absorve calor da fonte quente (Qₕ).\n2) Parte desse calor é convertida em trabalho mecânico (W).\n3) O restante é rejeitado para a fonte fria (Q𝒸).\n\nPela conservação da energia (Primeira Lei da Termodinâmica):\n\nQₕ = W + Q𝒸\n\nOu, de forma equivalente:\n\nW = Qₕ − Q𝒸\n\nRendimento da máquina térmica:\n\nη = W / Qₕ\n\nSubstituindo a expressão do trabalho:\n\nη = 1 − (Q𝒸 / Qₕ)\n\nOnde:\n- η é o rendimento da máquina\n- Qₕ é o calor absorvido da fonte quente\n- Q𝒸 é o calor cedido à fonte fria\n- W é o trabalho realizado\n\nO rendimento nunca pode ser igual a 100%, conforme estabelece a Segunda Lei da Termodinâmica.\n\nMáquina de Carnot:\n\nO rendimento máximo teórico de uma máquina térmica operando entre duas temperaturas é dado por:\n\nη_c = 1 − (T𝒸 / Tₕ)\n\nOnde:\n- Tₕ é a temperatura absoluta da fonte quente (K)\n- T𝒸 é a temperatura absoluta da fonte fria (K)\n\nPrincipais características:\n- Operam em ciclos termodinâmicos.\n- Convertem calor em trabalho mecânico.\n- Dependem da diferença de temperatura entre as fontes.\n- Não podem atingir rendimento de 100%.\n\nExemplos de máquinas térmicas:\n- Motores a combustão interna (ciclo Otto e Diesel)\n- Turbinas a vapor\n- Usinas termoelétricas\n- Turbinas a gás\n- Motores de automóveis e aviões\n\nRepresentação gráfica:\n- Em diagramas P × V, o trabalho realizado corresponde à área interna do ciclo.\n\nImportância científica e tecnológica:\n- Fundamentam a engenharia mecânica e energética.\n- Permitem a geração de energia elétrica.\n- São essenciais para o transporte e a indústria moderna.",
+
+    "intuicao": "Uma máquina térmica transforma parte do calor em trabalho, rejeitando o restante para o ambiente.",
+
+    "analogia": "É como uma roda d’água: apenas parte da energia da água em movimento pode ser convertida em trabalho útil.",
+
+    "aplicacoes": [
+      "Motores de automóveis e aviões",
+      "Usinas termoelétricas e nucleares",
+      "Turbinas a vapor e a gás",
+      "Locomotivas e navios",
+      "Geração de energia elétrica",
+      "Processos industriais"
+    ],
+
+    "erros_comuns": [
+      "Acreditar que uma máquina térmica pode ter rendimento de 100%",
+      "Confundir rendimento com potência",
+      "Não utilizar temperaturas em Kelvin na fórmula de Carnot",
+      "Ignorar a rejeição de calor para a fonte fria",
+      "Confundir máquinas térmicas com refrigeradores"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a função principal de uma máquina térmica?",
+      "alternativas": [
+        "Transformar trabalho em calor",
+        "Converter calor em trabalho",
+        "Armazenar energia térmica",
+        "Reduzir a temperatura de um sistema"
+      ],
+      "resposta": "Converter calor em trabalho",
+      "explicacao": "Máquinas térmicas transformam energia térmica em trabalho mecânico."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma máquina térmica opera entre duas fontes chamadas de:",
+      "alternativas": [
+        "Fonte elétrica e mecânica",
+        "Fonte quente e fonte fria",
+        "Fonte de pressão e volume",
+        "Fonte térmica e gravitacional"
+      ],
+      "resposta": "Fonte quente e fonte fria",
+      "explicacao": "O calor flui da fonte quente para a fonte fria."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do rendimento de uma máquina térmica?",
+      "alternativas": [
+        "η = Q𝒸 / Qₕ",
+        "η = W / Qₕ",
+        "η = Qₕ / W",
+        "η = Qₕ − Q𝒸"
+      ],
+      "resposta": "η = W / Qₕ",
+      "explicacao": "O rendimento é a razão entre o trabalho produzido e o calor absorvido."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o rendimento máximo teórico de uma máquina térmica ideal?",
+      "alternativas": [
+        "Rendimento de Newton",
+        "Rendimento de Boyle",
+        "Rendimento de Carnot",
+        "Rendimento de Fourier"
+      ],
+      "resposta": "Rendimento de Carnot",
+      "explicacao": "O ciclo de Carnot estabelece o limite máximo de eficiência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma máquina térmica recebe 800 J de calor e rejeita 300 J para a fonte fria. Qual é o rendimento?",
+      "alternativas": [
+        "37,5%",
+        "50%",
+        "62,5%",
+        "75%"
+      ],
+      "resposta": "62,5%",
+      "explicacao": "W = Qₕ − Q𝒸 = 800 − 300 = 500 J. Assim, η = 500/800 = 0,625 = 62,5%."
+    }
+  ]
+}
