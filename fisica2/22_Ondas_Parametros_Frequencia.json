@@ -1,0 +1,102 @@
+{
+  "id": "22_Ondas_Parametros_Frequencia",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Parâmetros: frequência",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "A frequência é o número de oscilações que ocorrem por unidade de tempo em uma onda.",
+
+    "explicacao": "A frequência (f) é uma das grandezas fundamentais no estudo das ondas e indica quantas oscilações completas ocorrem em um determinado intervalo de tempo.\n\nEla é definida como:\n\nf = 1/T\n\nOnde:\n- f é a frequência\n- T é o período\n\nA unidade da frequência no Sistema Internacional é o hertz (Hz), que corresponde a uma oscilação por segundo.\n\nA frequência de uma onda é determinada pela fonte que a produz e não depende do meio de propagação.\n\nIsso significa que:\n- Ao mudar de meio, a frequência permanece constante\n- O que muda é o comprimento de onda\n\nA frequência está diretamente relacionada com a energia da onda:\n- Maior frequência → maior energia (especialmente em ondas eletromagnéticas)\n\nAlém disso, a frequência aparece na equação fundamental das ondas:\n\nv = λf\n\nIsso mostra que a frequência está relacionada com o espaço (λ) e a velocidade da propagação.\n\nExemplos práticos:\n- Sons graves → baixa frequência\n- Sons agudos → alta frequência\n\nA frequência é essencial para entender fenômenos como som, luz, comunicação e ressonância.",
+
+    "intuicao": "Frequência é quantas vezes algo vibra por segundo.",
+
+    "analogia": "É como o ritmo de uma música: batidas rápidas → alta frequência, batidas lentas → baixa frequência.",
+
+    "aplicacoes": [
+      "Análise de sons (grave e agudo)",
+      "Comunicação por rádio e sinais",
+      "Estudo de ondas eletromagnéticas"
+    ],
+
+    "erros_comuns": [
+      "Confundir frequência com velocidade da onda",
+      "Achar que frequência muda ao trocar de meio",
+      "Confundir frequência com período",
+      "Esquecer que f = 1/T"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é frequência?",
+      "alternativas": [
+        "Altura da onda",
+        "Número de oscilações por segundo",
+        "Velocidade da onda",
+        "Energia total"
+      ],
+      "resposta": "Número de oscilações por segundo",
+      "explicacao": "Frequência mede quantas oscilações ocorrem por unidade de tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da frequência?",
+      "alternativas": [
+        "m",
+        "s",
+        "Hz",
+        "N"
+      ],
+      "resposta": "Hz",
+      "explicacao": "Hertz (Hz) significa oscilações por segundo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre frequência e período?",
+      "alternativas": [
+        "f = T",
+        "f = 1/T",
+        "f = T²",
+        "f = 2T"
+      ],
+      "resposta": "f = 1/T",
+      "explicacao": "Frequência é o inverso do período."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a frequência quando a onda muda de meio?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece constante",
+        "Zera"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "A frequência depende da fonte, não do meio."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual relação envolve a frequência em ondas?",
+      "alternativas": [
+        "v = f/T",
+        "v = λf",
+        "v = f²",
+        "v = λ/T²"
+      ],
+      "resposta": "v = λf",
+      "explicacao": "A frequência aparece na equação fundamental das ondas."
+    }
+  ]
+}
