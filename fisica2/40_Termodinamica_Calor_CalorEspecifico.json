@@ -1,0 +1,103 @@
+{
+  "id": "40_Termodinamica_Calor_CalorEspecifico",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Calor e transferência de energia: calor específico",
+  "ordem": 40,
+
+  "teoria": {
+    "resumo": "O calor específico mede a quantidade de energia necessária para elevar a temperatura de uma substância.",
+
+    "explicacao": "O calor é a energia transferida entre corpos devido a uma diferença de temperatura.\n\nUma grandeza importante nesse contexto é o calor específico.\n\nO calor específico (c) indica a quantidade de calor necessária para elevar a temperatura de uma unidade de massa de uma substância em 1 grau.\n\nA equação fundamental é:\n\nQ = m c ΔT\n\nOnde:\n- Q é a quantidade de calor (J)\n- m é a massa (kg)\n- c é o calor específico (J/kg·°C)\n- ΔT é a variação de temperatura\n\nCaracterísticas importantes:\n\n- Cada material possui um valor específico de c\n- Substâncias com alto calor específico demoram mais para aquecer\n- Substâncias com baixo calor específico aquecem rapidamente\n\nExemplo:\n- A água possui alto calor específico → demora para aquecer e esfriar\n\nInterpretação física:\n\nO calor específico está relacionado à capacidade de uma substância de armazenar energia térmica.\n\nQuanto maior c:\n- Mais energia é necessária para mudar a temperatura\n\nEsse conceito é essencial para entender trocas de calor e comportamento térmico dos materiais.",
+
+    "intuicao": "Alguns materiais 'seguram' mais calor que outros — precisam de mais energia para esquentar.",
+
+    "analogia": "É como encher recipientes:\n- Alguns enchem rápido (baixo c)\n- Outros precisam de mais (alto c)",
+
+    "aplicacoes": [
+      "Controle térmico em engenharia",
+      "Climatização e sistemas térmicos",
+      "Estudos ambientais (água e clima)",
+      "Processos industriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Esquecer a fórmula Q = mcΔT",
+      "Ignorar a unidade do calor específico",
+      "Achar que todos os materiais aquecem da mesma forma"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é calor específico?",
+      "alternativas": [
+        "Quantidade de calor total",
+        "Energia de movimento",
+        "Calor necessário para variar a temperatura",
+        "Temperatura do corpo"
+      ],
+      "resposta": "Calor necessário para variar a temperatura",
+      "explicacao": "É a energia necessária por unidade de massa."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do calor?",
+      "alternativas": [
+        "Q = m/T",
+        "Q = mcΔT",
+        "Q = Tm",
+        "Q = vT"
+      ],
+      "resposta": "Q = mcΔT",
+      "explicacao": "Essa é a equação fundamental da calorimetria."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual material aquece mais rápido?",
+      "alternativas": [
+        "Alto calor específico",
+        "Baixo calor específico",
+        "Alta massa",
+        "Alta densidade"
+      ],
+      "resposta": "Baixo calor específico",
+      "explicacao": "Menos energia é necessária para aquecer."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual unidade do calor específico?",
+      "alternativas": [
+        "J",
+        "J/kg·°C",
+        "m/s",
+        "N"
+      ],
+      "resposta": "J/kg·°C",
+      "explicacao": "Essa é a unidade no SI."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o calor específico é alto, o que acontece?",
+      "alternativas": [
+        "Aquece rápido",
+        "Esfria rápido",
+        "Precisa de mais energia para aquecer",
+        "Não varia temperatura"
+      ],
+      "resposta": "Precisa de mais energia para aquecer",
+      "explicacao": "Quanto maior c, maior a energia necessária."
+    }
+  ]
+}
