@@ -1,0 +1,99 @@
+{
+  "id": "decomposicao_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Decomposição de Vetores",
+  "ordem": 18,
+
+  "teoria": {
+    "resumo": "A decomposição de vetores consiste em expressar um vetor como soma de componentes em direções específicas.",
+
+    "explicacao": "A decomposição de vetores é o processo de representar um vetor como soma de outros vetores, geralmente em direções conhecidas.\n\nNo plano cartesiano (R²), usamos a base canônica:\ni = (1,0) e j = (0,1)\n\nUm vetor V = (x, y) pode ser escrito como:\nV = xi + yj\n\nExemplo:\nV = (4,3)\nV = 4i + 3j\n\nNo espaço (R³):\ni = (1,0,0), j = (0,1,0), k = (0,0,1)\n\nV = (x, y, z)\nV = xi + yj + zk\n\nInterpretação geométrica:\nA decomposição mostra quanto o vetor “anda” em cada direção.\n\nTambém podemos decompor vetores em direções inclinadas (não apenas eixos), usando projeções.\n\nExemplo prático:\nSe um vetor representa uma força inclinada, podemos decompor essa força em componentes horizontal e vertical.\n\nEsse conceito é essencial para resolver problemas físicos e geométricos.",
+
+    "intuicao": "Decompor um vetor é separar um movimento em partes mais simples em cada direção.",
+
+    "analogia": "É como dividir um movimento diagonal em dois movimentos: um para frente e outro para o lado.",
+
+    "aplicacoes": [
+      "Análise de forças na Física (componentes horizontal e vertical)",
+      "Resolução de problemas em planos inclinados e movimentos"
+    ],
+
+    "erros_comuns": [
+      "Confundir decomposição com módulo do vetor",
+      "Errar o sinal das componentes (especialmente com direções negativas)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor V = (3,2) pode ser escrito como:",
+      "alternativas": [
+        "3i + 2j",
+        "2i + 3j",
+        "3i + j",
+        "i + 2j"
+      ],
+      "resposta": "3i + 2j",
+      "explicacao": "Cada componente corresponde ao coeficiente de i e j."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a decomposição do vetor (5, -1)?",
+      "alternativas": [
+        "5i - j",
+        "i - 5j",
+        "5i + j",
+        "i + 5j"
+      ],
+      "resposta": "5i - j",
+      "explicacao": "O valor negativo indica sentido oposto em j."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor V = (2, 3, 1) pode ser escrito como:",
+      "alternativas": [
+        "2i + 3j + k",
+        "i + 2j + 3k",
+        "2i + j + 3k",
+        "3i + 2j + k"
+      ],
+      "resposta": "2i + 3j + k",
+      "explicacao": "Cada componente corresponde ao vetor base i, j, k."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se V = 4i - 2j, quais são suas coordenadas?",
+      "alternativas": [
+        "(4, -2)",
+        "(-4, 2)",
+        "(2, -4)",
+        "(4, 2)"
+      ],
+      "resposta": "(4, -2)",
+      "explicacao": "Os coeficientes de i e j são as coordenadas do vetor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um vetor V = ai + bj + ck = (6, -3, 9), qual é o valor de b?",
+      "alternativas": [
+        "-3",
+        "3",
+        "6",
+        "9"
+      ],
+      "resposta": "-3",
+      "explicacao": "O coeficiente de j corresponde à segunda componente do vetor."
+    }
+  ]
+}
