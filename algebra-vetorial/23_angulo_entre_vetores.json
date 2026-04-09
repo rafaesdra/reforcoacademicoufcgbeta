@@ -1,0 +1,99 @@
+{
+  "id": "angulo_entre_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Ângulo entre Vetores",
+  "ordem": 23,
+
+  "teoria": {
+    "resumo": "O ângulo entre vetores pode ser calculado a partir do produto escalar e dos módulos dos vetores.",
+
+    "explicacao": "O ângulo entre dois vetores pode ser determinado usando o produto escalar.\n\nA fórmula é:\n\ncos(θ) = (A · B) / (|A| |B|)\n\nOnde:\n- A · B é o produto escalar\n- |A| e |B| são os módulos dos vetores\n- θ é o ângulo entre eles\n\nPasso a passo:\n1) Calcular o produto escalar A · B\n2) Calcular os módulos |A| e |B|\n3) Substituir na fórmula\n4) Aplicar o arco cosseno para encontrar θ\n\nExemplo:\nA = (1,0) e B = (0,1)\nA · B = 0\n\nLogo:\ncos(θ) = 0 → θ = 90°\n\nOutro exemplo:\nA = (1,1) e B = (1,0)\nA · B = 1\n|A| = √2, |B| = 1\n\ncos(θ) = 1 / √2 → θ = 45°\n\nCasos importantes:\n- θ = 0° → vetores paralelos\n- θ = 90° → vetores perpendiculares\n- θ = 180° → vetores opostos\n\nEsse conceito é fundamental para analisar a relação angular entre vetores.",
+
+    "intuicao": "O ângulo entre vetores mostra o quanto eles estão alinhados ou inclinados entre si.",
+
+    "analogia": "É como comparar duas direções: quanto mais alinhadas, menor o ângulo entre elas.",
+
+    "aplicacoes": [
+      "Cálculo de ângulos em Física e Engenharia",
+      "Análise de alinhamento em gráficos e vetores no espaço"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir pelo produto dos módulos",
+      "Não aplicar o arco cosseno ao final do cálculo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A · B = 0, qual é o ângulo entre os vetores?",
+      "alternativas": [
+        "90°",
+        "0°",
+        "45°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar zero indica vetores perpendiculares."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual função aparece na fórmula do ângulo entre vetores?",
+      "alternativas": [
+        "Cosseno",
+        "Seno",
+        "Tangente",
+        "Logaritmo"
+      ],
+      "resposta": "Cosseno",
+      "explicacao": "A fórmula usa o cosseno do ângulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,0) e B = (1,0), qual é o ângulo entre eles?",
+      "alternativas": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "resposta": "0°",
+      "explicacao": "Vetores iguais têm ângulo zero entre si."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,1) e B = (1,-1), qual é o ângulo entre eles?",
+      "alternativas": [
+        "90°",
+        "45°",
+        "0°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "A · B = 1 - 1 = 0 → vetores perpendiculares."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,0) e B = (2,2), qual é o ângulo entre eles?",
+      "alternativas": [
+        "45°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "resposta": "45°",
+      "explicacao": "A · B = 4, |A| = 2, |B| = √8. cos(θ) = 4 / (2√8) = 1/√2 → θ = 45°."
+    }
+  ]
+}
