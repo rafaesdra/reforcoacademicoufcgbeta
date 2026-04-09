@@ -18,5 +18,25 @@
     {"titulo": "Oscilações Forçadas - Força Externa Periódica", "path": "15_Oscilacoes_Forcadas_ForcaExternaPeriodica.json"},
     {"titulo": "Oscilações Forçadas e Ressonância - Frequência de Ressonância", "path": "16_Oscilacoes_Ressonancia_FrequenciaDeRessonancia.json"},
     {"titulo": "Oscilações - Aplicações Práticas", "path": "17_Oscilacoes_AplicacoesPraticas.json"}
+    {"titulo": "Ondas - Introdução e Conceitos Básicos", "path": "18_Ondas_IntroducaoEConceitosBasicos.json"},
+    {"titulo": "Ondas - Tipos: Mecânicas e Eletromagnéticas", "path": "19_Ondas_Tipos_MecanicasEletromagneticas.json"},
+    {"titulo": "Ondas - Tipos: Transversais e Longitudinais", "path": "20_Ondas_Tipos_TransversaisELongitudinais.json"},
+    {"titulo": "Ondas - Parâmetros: Comprimento de Onda", "path": "21_Ondas_Parametros_ComprimentoDeOnda.json"},
+    {"titulo": "Ondas - Parâmetros: Frequência", "path": "22_Ondas_Parametros_Frequencia.json"},
+    {"titulo": "Ondas - Parâmetros: Período", "path": "23_Ondas_Parametros_Periodo.json"},
+    {"titulo": "Ondas - Parâmetros: Velocidade da Onda", "path": "24_Ondas_Parametros_VelocidadeDaOnda.json"},
+    {"titulo": "Ondas - Equação Fundamental das Ondas", "path": "25_Ondas_EquacaoFundamentalDasOndas.json"},
+    {"titulo": "Ondas - Velocidade da Onda: Aplicações", "path": "26_Ondas_VelocidadeDaOnda_Aplicacoes.json"},
+    {"titulo": "Ondas - Interferência: Princípio da Superposição", "path": "27_Ondas_Interferencia_Superposicao.json"},
+    {"titulo": "Ondas - Interferência Construtiva e Destrutiva", "path": "28_Ondas_Interferencia_ConstrutivaEDestrutiva.json"},
+    {"titulo": "Ondas - Batimentos", "path": "29_Ondas_Batimentos.json"},
+    {"titulo": "Ondas Estacionárias - Nós e Ventres", "path": "30_Ondas_Estacionarias_NosEVentres.json"},
+    {"titulo": "Ondas Estacionárias - Harmônicos", "path": "31_Ondas_Estacionarias_Harmonicos.json"},
+    {"titulo": "Ondas Estacionárias - Cordas Vibrantes", "path": "32_Ondas_Estacionarias_CordasVibrantes.json"},
+    {"titulo": "Ondas Sonoras - Natureza do Som", "path": "33_Ondas_Som_NaturezaDoSom.json"},
+    {"titulo": "Ondas Sonoras - Intensidade e Sensação Sonora", "path": "34_Ondas_Som_IntensidadeESensacaoSonora.json"},
+    {"titulo": "Ondas Sonoras - Nível em Decibéis", "path": "35_Ondas_Som_NivelEmDecibeis.json"},
+    {"titulo": "Ondas Sonoras - Efeito Doppler", "path": "36_Ondas_Som_EfeitoDoppler.json"},
+    {"titulo": "Ondas Sonoras - Ressonância em Tubos", "path": "37_Ondas_Som_RessonanciaEmTubos.json"}
   ]
 }
