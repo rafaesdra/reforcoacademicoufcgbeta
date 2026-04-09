@@ -1,0 +1,99 @@
+{
+  "id": "equacao_parametrica_da_reta",
+  "disciplina": "Matemática",
+  "assunto": "Equação Paramétrica da Reta",
+  "ordem": 36,
+
+  "teoria": {
+    "resumo": "A equação paramétrica descreve uma reta usando coordenadas expressas em função de um parâmetro.",
+
+    "explicacao": "A equação paramétrica da reta é uma forma de representar uma reta no plano ou no espaço utilizando um parâmetro, geralmente indicado por t.\n\nA partir da equação vetorial da reta:\n\nr(t) = r0 + t·v\n\nPodemos obter as equações paramétricas separando as coordenadas.\n\nSe um ponto da reta é A(x0, y0) e o vetor diretor é v = (a, b), então:\n\nx = x0 + at\ny = y0 + bt\n\nEssas são as equações paramétricas da reta.\n\nExemplo:\nSe a reta passa pelo ponto (2, 1) e possui vetor diretor (3, 4), então:\n\nx = 2 + 3t\ny = 1 + 4t\n\nPara cada valor de t, obtemos um ponto diferente da reta.\n\nSe quisermos eliminar o parâmetro, podemos encontrar a forma reduzida da reta.\n\nPor exemplo:\n\nx = 2 + 3t → t = (x - 2)/3\ny = 1 + 4t → y = 1 + 4(x - 2)/3\n\nIsso mostra a relação entre as formas paramétrica e cartesiana.",
+
+    "intuicao": "A equação paramétrica mostra como as coordenadas de um ponto mudam conforme 'andamos' ao longo da reta.",
+
+    "analogia": "É como descrever o movimento de um objeto: a posição (x, y) depende do tempo t, e o objeto se move sempre na mesma direção.",
+
+    "aplicacoes": [
+      "Descrição de movimentos em física (cinemática)",
+      "Modelagem de trajetórias em computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Achar que t só pode assumir valores positivos",
+      "Confundir os coeficientes com coordenadas de um ponto"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa equações paramétricas de uma reta?",
+      "alternativas": [
+        "x = 1 + 2t, y = 3 - t",
+        "x + y = 5",
+        "y = 2x + 1",
+        "x² + y² = 1"
+      ],
+      "resposta": "x = 1 + 2t, y = 3 - t",
+      "explicacao": "Equações paramétricas expressam x e y em função de um parâmetro t."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação x = 2 + 3t, y = 1 + 4t, qual é o ponto inicial da reta?",
+      "alternativas": [
+        "(3, 4)",
+        "(2, 1)",
+        "(0, 0)",
+        "(1, 2)"
+      ],
+      "resposta": "(2, 1)",
+      "explicacao": "O ponto inicial é obtido quando t = 0, resultando em (2,1)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual ponto pertence à reta x = 1 + t, y = 2 + 2t para t = 2?",
+      "alternativas": [
+        "(3, 6)",
+        "(2, 4)",
+        "(1, 2)",
+        "(4, 8)"
+      ],
+      "resposta": "(3, 6)",
+      "explicacao": "Substituindo t = 2: x = 1 + 2 = 3 e y = 2 + 4 = 6."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor diretor da reta x = 5 + 2t, y = -1 + 3t?",
+      "alternativas": [
+        "(5, -1)",
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 1)"
+      ],
+      "resposta": "(2, 3)",
+      "explicacao": "Os coeficientes de t nas equações paramétricas formam o vetor diretor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As retas r1: x = 1 + 2t, y = 3 + 4t e r2: x = 3 + 4s, y = 7 + 8s são:",
+      "alternativas": [
+        "Paralelas distintas",
+        "Coincidentes",
+        "Perpendiculares",
+        "Concorrentes"
+      ],
+      "resposta": "Coincidentes",
+      "explicacao": "Os vetores diretores são proporcionais (4,8) = 2(2,4) e o ponto (3,7) pertence à primeira reta (t=1), logo representam a mesma reta."
+    }
+  ]
+}
