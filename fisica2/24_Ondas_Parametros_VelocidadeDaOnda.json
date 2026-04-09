@@ -1,0 +1,102 @@
+{
+  "id": "24_Ondas_Parametros_VelocidadeDaOnda",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Parâmetros: velocidade da onda",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "A velocidade da onda é a rapidez com que a perturbação se propaga no meio.",
+
+    "explicacao": "A velocidade da onda (v) representa a rapidez com que a perturbação se propaga em um meio.\n\nEla indica quão rápido a energia da onda se desloca.\n\nA velocidade da onda depende das propriedades do meio, como:\n- Densidade\n- Elasticidade\n\nPor exemplo:\n- O som se propaga mais rápido em sólidos do que em gases\n- Ondas em cordas dependem da tensão e da densidade linear\n\nA equação fundamental das ondas é:\n\nv = λf\n\nOnde:\n- v é a velocidade\n- λ é o comprimento de onda\n- f é a frequência\n\nTambém podemos escrever:\n\nv = λ/T\n\nIsso mostra que a velocidade relaciona espaço e tempo no movimento da onda.\n\nImportante:\n- A velocidade depende do meio\n- A frequência depende da fonte\n\nQuando uma onda muda de meio:\n- A velocidade muda\n- O comprimento de onda muda\n- A frequência permanece constante\n\nExemplo importante:\n- Velocidade da luz no vácuo:\n  c ≈ 3 × 10⁸ m/s\n\nA velocidade da onda é fundamental para entender propagação, comunicação e fenômenos como refração e reflexão.",
+
+    "intuicao": "A velocidade da onda é quão rápido a perturbação viaja pelo meio.",
+
+    "analogia": "É como a velocidade de uma onda no mar — algumas são lentas, outras rápidas, dependendo do ambiente.",
+
+    "aplicacoes": [
+      "Propagação do som em diferentes meios",
+      "Comunicação por ondas eletromagnéticas",
+      "Estudo de fenômenos como refração"
+    ],
+
+    "erros_comuns": [
+      "Achar que a velocidade depende da frequência",
+      "Confundir velocidade com comprimento de onda",
+      "Esquecer que a velocidade depende do meio",
+      "Achar que frequência muda ao trocar de meio"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa a velocidade da onda?",
+      "alternativas": [
+        "A altura da onda",
+        "A rapidez da propagação",
+        "A frequência",
+        "A energia"
+      ],
+      "resposta": "A rapidez da propagação",
+      "explicacao": "A velocidade indica quão rápido a onda se propaga."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende a velocidade da onda?",
+      "alternativas": [
+        "Da frequência",
+        "Da amplitude",
+        "Do meio",
+        "Do tempo"
+      ],
+      "resposta": "Do meio",
+      "explicacao": "A velocidade depende das propriedades do meio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação fundamental das ondas?",
+      "alternativas": [
+        "v = f/T",
+        "v = λf",
+        "v = f²",
+        "v = λ/T²"
+      ],
+      "resposta": "v = λf",
+      "explicacao": "Essa equação relaciona velocidade, comprimento de onda e frequência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a velocidade quando a onda muda de meio?",
+      "alternativas": [
+        "Permanece constante",
+        "Aumenta sempre",
+        "Diminui sempre",
+        "Pode mudar"
+      ],
+      "resposta": "Pode mudar",
+      "explicacao": "A velocidade depende do meio de propagação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a velocidade é constante e a frequência aumenta, o que acontece com λ?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Como v = λf, aumentar f reduz λ."
+    }
+  ]
+}
