@@ -1,0 +1,99 @@
+{
+  "id": "combinacao_linear_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Combinação Linear de Vetores",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "Uma combinação linear de vetores é a soma de vetores multiplicados por escalares.",
+
+    "explicacao": "A combinação linear é um conceito fundamental na Álgebra Vetorial.\n\nDado um conjunto de vetores, uma combinação linear é qualquer vetor que pode ser escrito na forma:\n\nV = aA + bB + cC\n\nOnde A, B e C são vetores e a, b, c são números reais (escalares).\n\nExemplo no plano:\nA = (1, 0) e B = (0, 1)\n\nUma combinação linear desses vetores:\nV = 3A + 2B\nV = 3(1,0) + 2(0,1)\nV = (3,0) + (0,2)\nV = (3,2)\n\nInterpretação:\nEstamos combinando direções diferentes para formar um novo vetor.\n\nNo espaço (3D):\nA = (1,0,0), B = (0,1,0), C = (0,0,1)\nQualquer vetor (x,y,z) pode ser escrito como:\nV = xA + yB + zC\n\nEsse conceito é base para temas mais avançados como dependência linear, base e dimensão.",
+
+    "intuicao": "Combinar vetores é como misturar direções diferentes em quantidades específicas para obter um novo resultado.",
+
+    "analogia": "Imagine que cada vetor é uma cor básica. A combinação linear é como misturar essas cores em diferentes quantidades para criar uma nova cor.",
+
+    "aplicacoes": [
+      "Representação de vetores em sistemas de coordenadas",
+      "Base para álgebra linear e transformações geométricas"
+    ],
+
+    "erros_comuns": [
+      "Achar que qualquer vetor pode ser formado por qualquer conjunto de vetores",
+      "Esquecer de multiplicar corretamente os vetores pelos escalares"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,0) e B = (0,1), qual é 2A + 3B?",
+      "alternativas": [
+        "(2,3)",
+        "(3,2)",
+        "(2,1)",
+        "(3,1)"
+      ],
+      "resposta": "(2,3)",
+      "explicacao": "2A = (2,0) e 3B = (0,3). Somando: (2,3)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das expressões representa uma combinação linear?",
+      "alternativas": [
+        "2A + 3B",
+        "A · B",
+        "|A|",
+        "A × B"
+      ],
+      "resposta": "2A + 3B",
+      "explicacao": "Combinação linear envolve soma de vetores multiplicados por escalares."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,1) e B = (1,3), qual é V = A + 2B?",
+      "alternativas": [
+        "(4,7)",
+        "(3,5)",
+        "(2,7)",
+        "(5,3)"
+      ],
+      "resposta": "(4,7)",
+      "explicacao": "2B = (2,6). Então V = (2,1) + (2,6) = (4,7)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se V = a(1,0) + b(0,1) = (5,7), quais são os valores de a e b?",
+      "alternativas": [
+        "a = 5, b = 7",
+        "a = 7, b = 5",
+        "a = 5, b = 5",
+        "a = 7, b = 7"
+      ],
+      "resposta": "a = 5, b = 7",
+      "explicacao": "Comparando componentes: a = 5 e b = 7."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,2) e B = (3,4), para quais valores de x e y temos xA + yB = (7,10)?",
+      "alternativas": [
+        "x = 1, y = 2",
+        "x = 2, y = 1",
+        "x = 3, y = 1",
+        "x = 1, y = 3"
+      ],
+      "resposta": "x = 1, y = 2",
+      "explicacao": "x(1,2) + y(3,4) = (x + 3y, 2x + 4y) = (7,10). Resolvendo: x + 3y = 7 e 2x + 4y = 10 → x=1, y=2."
+    }
+  ]
+}
