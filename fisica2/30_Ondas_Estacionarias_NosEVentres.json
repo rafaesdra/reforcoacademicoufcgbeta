@@ -1,0 +1,102 @@
+{
+  "id": "30_Ondas_Estacionarias_NosEVentres",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Ondas estacionárias: formação de nós e ventres",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "Ondas estacionárias são formadas pela superposição de duas ondas de mesma frequência e sentido oposto, criando regiões fixas chamadas nós e ventres.",
+
+    "explicacao": "Ondas estacionárias surgem quando duas ondas de mesma frequência, mesma amplitude e sentidos opostos se superpõem.\n\nIsso ocorre, por exemplo, quando uma onda se reflete em uma extremidade e interfere com a onda incidente.\n\nO resultado é uma onda que parece não se propagar, mas sim oscilar em posições fixas.\n\nNessa onda, surgem duas regiões importantes:\n\n1) Nós:\n- Pontos onde a amplitude é sempre zero\n- Não há movimento\n\n2) Ventres (ou antinós):\n- Pontos onde a amplitude é máxima\n- Maior oscilação\n\nCaracterísticas importantes:\n- A distância entre dois nós consecutivos é λ/2\n- A distância entre um nó e um ventre é λ/4\n\nEssas ondas aparecem em sistemas com limites fixos, como cordas presas nas extremidades.\n\nExemplo clássico:\nUma corda presa nas duas pontas só vibra em padrões específicos, chamados modos de vibração.\n\nEsses padrões dependem do comprimento da corda e do comprimento de onda.\n\nOndas estacionárias são fundamentais para entender:\n- Instrumentos musicais\n- Vibração de cordas\n- Ressonância em sistemas físicos",
+
+    "intuicao": "Alguns pontos da onda ficam parados (nós) enquanto outros vibram muito (ventres).",
+
+    "analogia": "É como uma corda presa nas pontas: alguns pontos não se mexem, enquanto outros vibram bastante.",
+
+    "aplicacoes": [
+      "Cordas vibrantes (violão, violino)",
+      "Colunas de ar em instrumentos de sopro",
+      "Análise de modos de vibração em estruturas"
+    ],
+
+    "erros_comuns": [
+      "Confundir onda estacionária com onda propagante",
+      "Achar que toda a corda vibra igualmente",
+      "Esquecer a posição fixa dos nós",
+      "Confundir nós com ventres"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que são nós em uma onda estacionária?",
+      "alternativas": [
+        "Pontos de máxima amplitude",
+        "Pontos sem movimento",
+        "Pontos de alta velocidade",
+        "Pontos de energia máxima"
+      ],
+      "resposta": "Pontos sem movimento",
+      "explicacao": "Nos nós, a amplitude é zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que são ventres?",
+      "alternativas": [
+        "Pontos sem movimento",
+        "Pontos de amplitude máxima",
+        "Pontos fixos",
+        "Pontos de reflexão"
+      ],
+      "resposta": "Pontos de amplitude máxima",
+      "explicacao": "Nos ventres, a vibração é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre dois nós consecutivos?",
+      "alternativas": [
+        "λ",
+        "λ/2",
+        "λ/4",
+        "2λ"
+      ],
+      "resposta": "λ/2",
+      "explicacao": "Nós consecutivos estão separados por meio comprimento de onda."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Como se formam ondas estacionárias?",
+      "alternativas": [
+        "Por uma única onda",
+        "Por reflexão sem interferência",
+        "Por superposição de ondas opostas",
+        "Por aumento de velocidade"
+      ],
+      "resposta": "Por superposição de ondas opostas",
+      "explicacao": "A interferência entre ondas opostas gera a onda estacionária."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre um nó e um ventre?",
+      "alternativas": [
+        "λ",
+        "λ/2",
+        "λ/4",
+        "2λ"
+      ],
+      "resposta": "λ/4",
+      "explicacao": "A distância entre nó e ventre é um quarto do comprimento de onda."
+    }
+  ]
+}
