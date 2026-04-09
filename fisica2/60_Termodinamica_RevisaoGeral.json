@@ -1,0 +1,107 @@
+{
+  "id": "60_Termodinamica_RevisaoGeral",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Revisão geral",
+  "ordem": 60,
+
+  "teoria": {
+    "resumo": "A revisão geral de Termodinâmica reúne os principais conceitos sobre calor, trabalho, energia interna, leis da termodinâmica e suas aplicações.",
+
+    "explicacao": "A Termodinâmica estuda as relações entre calor, trabalho e energia, sendo essencial para a compreensão de fenômenos naturais e tecnológicos.\n\n1) Temperatura e Calor:\n- Temperatura mede o grau de agitação das partículas.\n- Calor é a energia transferida devido à diferença de temperatura.\n\nEquação fundamental do calor sensível:\nQ = mcΔT\n\n2) Calor Latente:\nRefere-se à energia envolvida nas mudanças de estado físico.\n\nQ = mL\n\n3) Capacidade Térmica:\nIndica a quantidade de calor necessária para variar a temperatura de um corpo.\n\nC = mc\n\n4) Transferência de Calor:\n- Condução: ocorre em sólidos.\n- Convecção: ocorre em fluidos.\n- Radiação: ocorre por ondas eletromagnéticas e não necessita de meio material.\n\n5) Gases Ideais:\nA equação de estado é dada por:\n\nPV = nRT\n\n6) Transformações Gasosas:\n- Isotérmica: temperatura constante.\n- Isobárica: pressão constante.\n- Isocórica: volume constante.\n- Adiabática: sem troca de calor.\n\n7) Primeira Lei da Termodinâmica:\nExpressa a conservação da energia.\n\nΔU = Q − W\n\n8) Segunda Lei da Termodinâmica:\nEstabelece a direção dos processos naturais e introduz o conceito de entropia.\n\nΔS ≥ 0\n\n9) Entropia:\nPara processos reversíveis:\n\nΔS = Q_rev / T\n\nEquação de Boltzmann:\n\nS = k_B ln(Ω)\n\n10) Máquinas Térmicas:\nConvertem calor em trabalho.\n\nη = W / Qh\n\n11) Ciclo de Carnot:\nDefine o rendimento máximo teórico.\n\nη = 1 − (Tc / Th)\n\n12) Refrigeradores e Bombas de Calor:\nCoeficientes de desempenho:\n\nCOP_refrigerador = Qf / W\n\nCOP_bomba = Qq / W\n\nImportância da Termodinâmica:\n- Engenharia e indústria;\n- Produção de energia;\n- Sistemas de climatização;\n- Tecnologia e ciência moderna.\n\nEssa revisão consolida os conceitos fundamentais e fornece base para estudos avançados em Física e Engenharia.",
+
+    "intuicao": "A Termodinâmica descreve como a energia se transforma e se distribui na natureza.",
+
+    "analogia": "Assim como em uma conta bancária, a energia não pode ser criada nem destruída, apenas transferida ou transformada.",
+
+    "aplicacoes": [
+      "Usinas de geração de energia",
+      "Motores e turbinas",
+      "Sistemas de refrigeração e ar-condicionado",
+      "Indústria química e metalúrgica",
+      "Engenharia mecânica e energética",
+      "Aeronáutica e astronáutica"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Utilizar Celsius em vez de Kelvin em fórmulas termodinâmicas",
+      "Esquecer a convenção de sinais da Primeira Lei",
+      "Supor que máquinas térmicas possuem eficiência de 100%",
+      "Confundir rendimento com coeficiente de desempenho",
+      "Ignorar o aumento da entropia em processos naturais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa a Primeira Lei da Termodinâmica?",
+      "alternativas": [
+        "PV = nRT",
+        "ΔU = Q − W",
+        "Q = mcΔT",
+        "η = W/Q"
+      ],
+      "resposta": "ΔU = Q − W",
+      "explicacao": "Essa equação expressa a conservação da energia em sistemas termodinâmicos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação de estado dos gases ideais?",
+      "alternativas": [
+        "PV = nRT",
+        "Q = mcΔT",
+        "ΔS = Q/T",
+        "W = PΔV"
+      ],
+      "resposta": "PV = nRT",
+      "explicacao": "Essa equação relaciona pressão, volume e temperatura."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o rendimento máximo teórico de uma máquina térmica?",
+      "alternativas": [
+        "Rendimento de Joule",
+        "Rendimento de Newton",
+        "Rendimento de Carnot",
+        "Rendimento de Boyle"
+      ],
+      "resposta": "Rendimento de Carnot",
+      "explicacao": "O ciclo de Carnot estabelece o limite máximo de eficiência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual mecanismo de transferência de calor não necessita de meio material?",
+      "alternativas": [
+        "Condução",
+        "Convecção",
+        "Radiação",
+        "Evaporação"
+      ],
+      "resposta": "Radiação",
+      "explicacao": "A radiação ocorre por meio de ondas eletromagnéticas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma máquina térmica opera entre 600 K e 300 K. Qual é o rendimento máximo teórico?",
+      "alternativas": [
+        "25%",
+        "40%",
+        "50%",
+        "75%"
+      ],
+      "resposta": "50%",
+      "explicacao": "η = 1 − (Tc/Th) = 1 − (300/600) = 0,5 = 50%."
+    }
+  ]
+}
