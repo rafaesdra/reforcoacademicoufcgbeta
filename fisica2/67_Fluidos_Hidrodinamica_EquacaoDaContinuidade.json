@@ -1,0 +1,107 @@
+{
+  "id": "67_Fluidos_Hidrodinamica_EquacaoDaContinuidade",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: equação da continuidade",
+  "ordem": 67,
+
+  "teoria": {
+    "resumo": "A equação da continuidade expressa a conservação da massa em um fluido em escoamento.",
+
+    "explicacao": "A Equação da Continuidade é um princípio fundamental da Hidrodinâmica que expressa a conservação da massa em um fluido em movimento. Ela afirma que, em regime estacionário, a quantidade de massa que entra em uma seção de um tubo é igual à quantidade de massa que sai.\n\nMatematicamente, a equação geral é dada por:\n\nρ₁A₁v₁ = ρ₂A₂v₂\n\nOnde:\n- ρ é a densidade do fluido (kg/m³);\n- A é a área da seção transversal do tubo (m²);\n- v é a velocidade do fluido (m/s).\n\nPara fluidos incompressíveis, como os líquidos, a densidade permanece constante (ρ₁ = ρ₂). Assim, a equação se simplifica para:\n\nA₁v₁ = A₂v₂\n\nEssa relação mostra que a velocidade do fluido aumenta quando a área da seção transversal diminui e diminui quando a área aumenta.\n\nA vazão volumétrica é definida por:\n\nQ = Av\n\nOnde:\n- Q é a vazão volumétrica (m³/s);\n- A é a área da seção transversal (m²);\n- v é a velocidade do fluido (m/s).\n\nEm regime estacionário, a vazão permanece constante ao longo do tubo:\n\nQ₁ = Q₂\n\nCaracterísticas importantes:\n- Baseia-se no princípio da conservação da massa;\n- Aplica-se a fluidos compressíveis e incompressíveis;\n- É válida para escoamentos estacionários;\n- Relaciona velocidade e área da seção transversal;\n- É fundamental para o estudo da equação de Bernoulli.\n\nExemplos práticos:\n- Escoamento de água em tubulações;\n- Funcionamento de mangueiras e bicos de irrigação;\n- Circulação sanguínea no corpo humano;\n- Sistemas hidráulicos e industriais;\n- Projeto de turbinas e dutos;\n- Aerodinâmica e engenharia naval.\n\nAplicação conceitual:\nQuando se pressiona a extremidade de uma mangueira, reduz-se a área de saída, aumentando a velocidade do jato de água.\n\nEsse comportamento é consequência direta da equação da continuidade.",
+
+    "intuicao": "Se a mesma quantidade de fluido deve atravessar todas as seções de um tubo, a velocidade aumenta quando a área diminui.",
+
+    "analogia": "Em uma rodovia, quando as pistas se estreitam, os veículos precisam acelerar para manter o fluxo constante — comportamento análogo ao dos fluidos em escoamento.",
+
+    "aplicacoes": [
+      "Sistemas de abastecimento de água",
+      "Mangueiras e bicos de irrigação",
+      "Projeto de tubulações e dutos",
+      "Fluxo sanguíneo em artérias e veias",
+      "Engenharia aeronáutica e naval",
+      "Indústria petroquímica"
+    ],
+
+    "erros_comuns": [
+      "Confundir vazão com velocidade",
+      "Esquecer que a equação deriva da conservação da massa",
+      "Ignorar a constância da densidade em fluidos incompressíveis",
+      "Utilizar unidades incorretas",
+      "Acreditar que a vazão varia em regime estacionário",
+      "Não relacionar a redução da área com o aumento da velocidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação da continuidade expressa qual princípio físico?",
+      "alternativas": [
+        "Conservação da energia",
+        "Conservação da massa",
+        "Conservação da quantidade de movimento",
+        "Lei da gravitação universal"
+      ],
+      "resposta": "Conservação da massa",
+      "explicacao": "A equação da continuidade baseia-se na conservação da massa."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para um fluido incompressível, a equação da continuidade é:",
+      "alternativas": [
+        "ρ₁A₁v₁ = ρ₂A₂v₂",
+        "A₁v₁ = A₂v₂",
+        "P = F/A",
+        "ρ = m/V"
+      ],
+      "resposta": "A₁v₁ = A₂v₂",
+      "explicacao": "Para fluidos incompressíveis, a densidade permanece constante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a área de um tubo diminui, a velocidade do fluido:",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Torna-se nula"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Para manter a vazão constante, a velocidade aumenta quando a área diminui."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um fluido escoa em um tubo cuja área é 0,04 m² com velocidade de 2 m/s. Qual é a vazão volumétrica?",
+      "alternativas": [
+        "0,02 m³/s",
+        "0,04 m³/s",
+        "0,08 m³/s",
+        "0,10 m³/s"
+      ],
+      "resposta": "0,08 m³/s",
+      "explicacao": "Q = Av = 0,04 × 2 = 0,08 m³/s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A água escoa em um tubo cuja área inicial é 0,05 m² com velocidade de 2 m/s. Se a área se reduz para 0,02 m², qual será a nova velocidade?",
+      "alternativas": [
+        "2 m/s",
+        "3 m/s",
+        "4 m/s",
+        "5 m/s"
+      ],
+      "resposta": "5 m/s",
+      "explicacao": "A₁v₁ = A₂v₂ ⇒ 0,05 × 2 = 0,02 × v₂ ⇒ v₂ = 5 m/s."
+    }
+  ]
+}
