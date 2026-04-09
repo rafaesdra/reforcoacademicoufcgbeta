@@ -1,0 +1,99 @@
+{
+  "id": "posicao_relativa_entre_retas",
+  "disciplina": "Matemática",
+  "assunto": "Posição Relativa entre Retas",
+  "ordem": 38,
+
+  "teoria": {
+    "resumo": "A posição relativa entre retas descreve como duas retas se comportam entre si no plano ou no espaço.",
+
+    "explicacao": "A posição relativa entre duas retas pode ser classificada de diferentes formas, dependendo da relação entre seus vetores diretores e seus pontos.\n\nNo plano (2D), temos três casos principais:\n\n1) Retas concorrentes:\nDuas retas se intersectam em um único ponto.\nIsso ocorre quando seus vetores diretores não são proporcionais.\n\n2) Retas paralelas distintas:\nAs retas possuem vetores diretores proporcionais, mas não possuem pontos em comum.\n\n3) Retas coincidentes:\nAs retas possuem vetores diretores proporcionais e compartilham pelo menos um ponto.\n\nNo espaço (3D), há um caso adicional:\n\n4) Retas reversas (ou não coplanares):\nAs retas não se cruzam e não são paralelas, pois estão em planos diferentes.\n\nCritérios importantes:\n- Vetores diretores proporcionais → retas paralelas ou coincidentes\n- Vetores não proporcionais → retas concorrentes ou reversas\n\nExemplo:\nSe r1 tem vetor (2,4) e r2 tem vetor (1,2), então são paralelas.\nSe além disso compartilham um ponto, são coincidentes.\n\nPara verificar interseção, podemos igualar as equações paramétricas e resolver o sistema.",
+
+    "intuicao": "A ideia é observar se as retas seguem a mesma direção e se elas chegam a se encontrar.",
+
+    "analogia": "Imagine duas estradas: elas podem se cruzar, ser paralelas (nunca se encontram) ou ser exatamente a mesma estrada.",
+
+    "aplicacoes": [
+      "Análise de trajetórias em física",
+      "Geometria computacional e modelagem 3D"
+    ],
+
+    "erros_comuns": [
+      "Achar que retas com vetores diferentes nunca se cruzam",
+      "Confundir retas paralelas com coincidentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas retas possuem vetores diretores proporcionais, elas são:",
+      "alternativas": [
+        "Concorrentes",
+        "Paralelas ou coincidentes",
+        "Perpendiculares",
+        "Reversas"
+      ],
+      "resposta": "Paralelas ou coincidentes",
+      "explicacao": "Vetores proporcionais indicam mesma direção, logo podem ser paralelas ou coincidentes."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando duas retas se cruzam em um único ponto, elas são chamadas de:",
+      "alternativas": [
+        "Paralelas",
+        "Coincidentes",
+        "Concorrentes",
+        "Reversas"
+      ],
+      "resposta": "Concorrentes",
+      "explicacao": "Retas concorrentes possuem exatamente um ponto em comum."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Duas retas possuem vetores diretores (2, 3) e (4, 6). Sabendo que não possuem ponto em comum, elas são:",
+      "alternativas": [
+        "Coincidentes",
+        "Paralelas distintas",
+        "Concorrentes",
+        "Perpendiculares"
+      ],
+      "resposta": "Paralelas distintas",
+      "explicacao": "Os vetores são proporcionais, mas sem ponto em comum, logo são paralelas distintas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No espaço, quando duas retas não são paralelas e não se cruzam, elas são:",
+      "alternativas": [
+        "Coincidentes",
+        "Concorrentes",
+        "Reversas",
+        "Perpendiculares"
+      ],
+      "resposta": "Reversas",
+      "explicacao": "Retas reversas estão em planos diferentes e não se intersectam."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas as retas r1: (x, y) = (1, 2) + t(2, 4) e r2: (x, y) = (3, 6) + s(1, 2), qual a posição relativa?",
+      "alternativas": [
+        "Paralelas distintas",
+        "Coincidentes",
+        "Concorrentes",
+        "Perpendiculares"
+      ],
+      "resposta": "Coincidentes",
+      "explicacao": "Os vetores são proporcionais e o ponto (3,6) pertence à primeira reta (t=1), logo são a mesma reta."
+    }
+  ]
+}
