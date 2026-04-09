@@ -1,0 +1,99 @@
+{
+  "id": "produto_misto_definicao",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Produto Misto - Definição",
+  "ordem": 31,
+
+  "teoria": {
+    "resumo": "O produto misto é uma operação entre três vetores que resulta em um número real relacionado ao volume.",
+
+    "explicacao": "O produto misto é uma operação envolvendo três vetores no espaço tridimensional.\n\nDefinição:\n\n[A, B, C] = A · (B × C)\n\nOu seja:\n- Primeiro calcula-se o produto vetorial (B × C)\n- Depois faz-se o produto escalar com A\n\nForma em determinante:\n\n[A, B, C] = |\n a1 a2 a3\n b1 b2 b3\n c1 c2 c3\n|\n\nExemplo:\nA = (1,0,0), B = (0,1,0), C = (0,0,1)\n\n[A, B, C] = 1\n\nInterpretação geométrica:\nO valor absoluto do produto misto representa o volume do paralelepípedo formado pelos três vetores.\n\nCasos importantes:\n- Produto misto = 0 → vetores coplanares\n- Produto misto ≠ 0 → vetores formam volume no espaço\n\nPropriedades:\n- Troca de dois vetores muda o sinal\n- Permutação cíclica mantém o valor\n\nEsse conceito é muito importante para análise espacial e geometria tridimensional.",
+
+    "intuicao": "O produto misto mede o 'volume' criado por três vetores no espaço.",
+
+    "analogia": "É como medir o volume de uma caixa formada por três arestas (vetores).",
+
+    "aplicacoes": [
+      "Cálculo de volume de paralelepípedos",
+      "Verificação se pontos estão no mesmo plano"
+    ],
+
+    "erros_comuns": [
+      "Confundir produto misto com produto vetorial",
+      "Errar a ordem dos vetores no determinante"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto misto resulta em:",
+      "alternativas": [
+        "Um número real",
+        "Um vetor",
+        "Uma matriz",
+        "Um ponto"
+      ],
+      "resposta": "Um número real",
+      "explicacao": "Diferente do produto vetorial, o resultado é um escalar."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto misto está relacionado com:",
+      "alternativas": [
+        "Volume",
+        "Área",
+        "Distância",
+        "Ângulo"
+      ],
+      "resposta": "Volume",
+      "explicacao": "Ele mede o volume do paralelepípedo formado pelos vetores."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto misto é zero, os vetores são:",
+      "alternativas": [
+        "Coplanares",
+        "Perpendiculares",
+        "Paralelos",
+        "Iguais"
+      ],
+      "resposta": "Coplanares",
+      "explicacao": "Não formam volume → estão no mesmo plano."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto misto pode ser calculado usando:",
+      "alternativas": [
+        "Determinante 3x3",
+        "Soma de vetores",
+        "Produto escalar simples",
+        "Módulo de vetor"
+      ],
+      "resposta": "Determinante 3x3",
+      "explicacao": "A forma mais prática é via determinante."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A, B e C são linearmente dependentes, o produto misto é:",
+      "alternativas": [
+        "0",
+        "1",
+        "-1",
+        "Depende do vetor"
+      ],
+      "resposta": "0",
+      "explicacao": "Vetores dependentes não formam volume."
+    }
+  ]
+}
