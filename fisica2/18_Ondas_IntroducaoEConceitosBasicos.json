@@ -1,0 +1,102 @@
+{
+  "id": "18_Ondas_IntroducaoEConceitosBasicos",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Introdução e conceitos básicos",
+  "ordem": 18,
+
+  "teoria": {
+    "resumo": "Ondas são perturbações que se propagam transportando energia sem transportar matéria.",
+
+    "explicacao": "Uma onda é uma perturbação que se propaga em um meio ou no espaço, transportando energia, mas sem transportar matéria de forma permanente.\n\nPor exemplo, quando uma pedra é jogada na água, as ondas se espalham, mas a água não se desloca junto com elas — apenas oscila em torno de sua posição de equilíbrio.\n\nAs ondas podem ser classificadas em dois tipos principais:\n\n1) Ondas mecânicas:\nPrecisam de um meio material para se propagar.\nExemplo: ondas na água, som.\n\n2) Ondas eletromagnéticas:\nNão precisam de meio material.\nExemplo: luz, ondas de rádio.\n\nOutro critério importante:\n\n- Ondas transversais: a vibração é perpendicular à direção de propagação\n  Exemplo: ondas em cordas\n\n- Ondas longitudinais: a vibração é paralela à propagação\n  Exemplo: som no ar\n\nPrincipais grandezas de uma onda:\n\n- Comprimento de onda (λ): distância entre dois pontos equivalentes (crista a crista)\n- Frequência (f): número de oscilações por segundo\n- Período (T): tempo de uma oscilação\n- Velocidade da onda (v)\n\nA relação fundamental das ondas é:\nv = λf\n\nEssa equação mostra que a velocidade depende do meio e relaciona o espaço (λ) com o tempo (f).\n\nO estudo das ondas é essencial para entender fenômenos como som, luz, comunicação e vibrações.",
+
+    "intuicao": "Uma onda é uma vibração que se move, mas o meio apenas oscila, não viaja junto.",
+
+    "analogia": "É como uma 'ola' em um estádio: a onda se move, mas as pessoas ficam no mesmo lugar.",
+
+    "aplicacoes": [
+      "Transmissão de som",
+      "Comunicação por rádio e internet",
+      "Estudo de luz e ondas eletromagnéticas"
+    ],
+
+    "erros_comuns": [
+      "Achar que a matéria se desloca com a onda",
+      "Confundir ondas mecânicas com eletromagnéticas",
+      "Não diferenciar ondas transversais e longitudinais",
+      "Esquecer a relação v = λf"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que uma onda transporta?",
+      "alternativas": [
+        "Matéria",
+        "Energia",
+        "Massa",
+        "Força"
+      ],
+      "resposta": "Energia",
+      "explicacao": "Ondas transportam energia, não matéria."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de onda não precisa de meio material?",
+      "alternativas": [
+        "Mecânica",
+        "Longitudinal",
+        "Eletromagnética",
+        "Transversal"
+      ],
+      "resposta": "Eletromagnética",
+      "explicacao": "Ondas eletromagnéticas se propagam no vácuo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação fundamental das ondas?",
+      "alternativas": [
+        "v = f/T",
+        "v = λf",
+        "v = λ/T²",
+        "v = f²"
+      ],
+      "resposta": "v = λf",
+      "explicacao": "A velocidade da onda é o produto do comprimento de onda pela frequência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma onda transversal?",
+      "alternativas": [
+        "Vibração paralela à propagação",
+        "Vibração perpendicular à propagação",
+        "Sem vibração",
+        "Movimento circular"
+      ],
+      "resposta": "Vibração perpendicular à propagação",
+      "explicacao": "Nas ondas transversais, a oscilação é perpendicular ao movimento."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência de uma onda dobra e a velocidade permanece constante, o que acontece com o comprimento de onda?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Permanece igual",
+        "Diminui pela metade"
+      ],
+      "resposta": "Diminui pela metade",
+      "explicacao": "Como v = λf, se f dobra, λ deve diminuir pela metade."
+    }
+  ]
+}
