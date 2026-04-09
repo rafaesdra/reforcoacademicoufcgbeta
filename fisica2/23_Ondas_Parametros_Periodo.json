@@ -1,0 +1,102 @@
+{
+  "id": "23_Ondas_Parametros_Periodo",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Parâmetros: período",
+  "ordem": 23,
+
+  "teoria": {
+    "resumo": "O período é o tempo necessário para que uma oscilação completa da onda ocorra.",
+
+    "explicacao": "O período (T) é o tempo necessário para que uma onda complete uma oscilação completa.\n\nEle representa o intervalo de tempo entre dois eventos consecutivos equivalentes, como duas cristas passando por um mesmo ponto.\n\nA relação entre período e frequência é:\n\nT = 1/f\n\nOnde:\n- T é o período (em segundos)\n- f é a frequência (em hertz)\n\nIsso significa que:\n- Alta frequência → período pequeno\n- Baixa frequência → período grande\n\nO período depende diretamente da fonte que gera a onda e não do meio de propagação.\n\nO período também está relacionado com o comprimento de onda e a velocidade:\n\nv = λ/T\n\nOu seja:\n- Quanto maior o período, maior o tempo entre repetições da onda\n- Isso influencia o espaçamento e a dinâmica da propagação\n\nExemplos:\n- Ondas lentas → grande período\n- Ondas rápidas → pequeno período\n\nO período é uma grandeza essencial para descrever o comportamento temporal das ondas e está diretamente ligado ao ritmo da oscilação.",
+
+    "intuicao": "O período é quanto tempo leva para a onda repetir o mesmo movimento.",
+
+    "analogia": "É como o tempo entre batidas de um relógio — quanto menor o intervalo, mais rápido ele funciona.",
+
+    "aplicacoes": [
+      "Análise temporal de ondas",
+      "Estudo de vibrações periódicas",
+      "Determinação de frequência em sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir período com frequência",
+      "Esquecer que T = 1/f",
+      "Achar que o período depende do meio",
+      "Confundir período com comprimento de onda"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o período de uma onda?",
+      "alternativas": [
+        "A altura da onda",
+        "O tempo de uma oscilação completa",
+        "A velocidade da onda",
+        "A energia da onda"
+      ],
+      "resposta": "O tempo de uma oscilação completa",
+      "explicacao": "O período mede o tempo de um ciclo completo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade do período?",
+      "alternativas": [
+        "Hz",
+        "m",
+        "s",
+        "N"
+      ],
+      "resposta": "s",
+      "explicacao": "O período é medido em segundos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre período e frequência?",
+      "alternativas": [
+        "T = f",
+        "T = f²",
+        "T = 1/f",
+        "T = 2f"
+      ],
+      "resposta": "T = 1/f",
+      "explicacao": "O período é o inverso da frequência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência aumenta, o que acontece com o período?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Como T = 1/f, aumentar f diminui T."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação relaciona período, comprimento de onda e velocidade?",
+      "alternativas": [
+        "v = f/T",
+        "v = λ/T",
+        "v = λf²",
+        "v = T/λ"
+      ],
+      "resposta": "v = λ/T",
+      "explicacao": "Essa é outra forma da equação fundamental das ondas."
+    }
+  ]
+}
