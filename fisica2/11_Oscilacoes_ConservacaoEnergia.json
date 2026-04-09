@@ -1,0 +1,102 @@
+{
+  "id": "11_Oscilacoes_ConservacaoEnergia",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Conservação da energia",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "No MHS ideal, a energia mecânica total permanece constante, sendo continuamente transformada entre energia cinética e potencial.",
+
+    "explicacao": "No Movimento Harmônico Simples (MHS), quando não há forças dissipativas (como atrito), a energia mecânica do sistema é conservada.\n\nIsso significa que:\nE = Ec + Ep = constante\n\nA energia total pode ser escrita como:\nE = (1/2)kA²\n\nOu também:\nE = (1/2)mω²A²\n\nDurante o movimento, ocorre uma troca contínua entre energia cinética e potencial:\n\n- Nos extremos (x = ±A):\n  Ec = 0\n  Ep = E\n\n- No equilíbrio (x = 0):\n  Ep = 0\n  Ec = E\n\n- Em qualquer posição x:\n  Ep = (1/2)kx²\n  Ec = (1/2)k(A² - x²)\n\nIsso permite resolver problemas sem precisar usar diretamente as equações do movimento.\n\nPor exemplo, podemos encontrar a velocidade em qualquer posição usando:\n(1/2)mv² = (1/2)k(A² - x²)\n\nOu:\nv = ω√(A² - x²)\n\nEssa abordagem é muito útil em problemas onde não sabemos o tempo, mas sabemos posições e energias.\n\nA conservação da energia é uma das ferramentas mais poderosas para resolver questões de MHS, especialmente em provas.\n\nÉ importante lembrar que essa conservação só vale em sistemas ideais (sem perdas de energia).",
+
+    "intuicao": "A energia nunca desaparece — ela apenas muda de forma entre movimento e posição.",
+
+    "analogia": "É como dinheiro trocando entre conta corrente e poupança: o total é o mesmo, só muda onde está.",
+
+    "aplicacoes": [
+      "Cálculo de velocidade em diferentes posições",
+      "Resolução de problemas sem usar equações do movimento",
+      "Análise de sistemas ideais oscilatórios"
+    ],
+
+    "erros_comuns": [
+      "Achar que a energia total varia com o tempo",
+      "Confundir amplitude com posição instantânea",
+      "Esquecer que Ec + Ep é constante",
+      "Aplicar conservação de energia em sistemas com atrito sem ajustes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a energia total no MHS ideal?",
+      "alternativas": [
+        "Aumenta com o tempo",
+        "Diminui com o tempo",
+        "Permanece constante",
+        "Depende da velocidade"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "Sem dissipação, a energia mecânica é conservada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde toda a energia é potencial?",
+      "alternativas": [
+        "Na posição de equilíbrio",
+        "Nos extremos",
+        "Em qualquer ponto",
+        "Quando a velocidade é máxima"
+      ],
+      "resposta": "Nos extremos",
+      "explicacao": "Nos extremos, a velocidade é zero, então toda energia é potencial."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a energia total de um sistema massa-mola no MHS?",
+      "alternativas": [
+        "E = (1/2)mv²",
+        "E = kx",
+        "E = (1/2)kA²",
+        "E = mgA"
+      ],
+      "resposta": "E = (1/2)kA²",
+      "explicacao": "A energia total depende apenas da amplitude."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a velocidade de um corpo no MHS em uma posição x?",
+      "alternativas": [
+        "v = ωx",
+        "v = ωA",
+        "v = ω√(A² - x²)",
+        "v = constante"
+      ],
+      "resposta": "v = ω√(A² - x²)",
+      "explicacao": "Essa expressão vem da conservação da energia."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que a conservação da energia é útil no MHS?",
+      "alternativas": [
+        "Porque elimina a necessidade de massa",
+        "Porque permite resolver problemas sem usar o tempo",
+        "Porque ignora a posição",
+        "Porque elimina a aceleração"
+      ],
+      "resposta": "Porque permite resolver problemas sem usar o tempo",
+      "explicacao": "A conservação da energia permite relacionar posição e velocidade diretamente."
+    }
+  ]
+}
