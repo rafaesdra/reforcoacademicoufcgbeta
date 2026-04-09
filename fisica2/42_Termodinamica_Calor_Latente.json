@@ -1,0 +1,105 @@
+{
+  "id": "42_Termodinamica_Calor_Latente",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Calor latente",
+  "ordem": 42,
+
+  "teoria": {
+    "resumo": "O calor latente é a quantidade de energia térmica absorvida ou liberada por uma substância durante a mudança de estado físico, sem variação de temperatura.",
+
+    "explicacao": "O calor latente é a energia térmica envolvida nas mudanças de estado físico de uma substância, ocorrendo sem alteração de temperatura.\n\nDurante essas transformações, a energia fornecida não aumenta a agitação térmica das partículas, mas é utilizada para modificar suas ligações intermoleculares.\n\nA expressão matemática do calor latente é:\n\nQ = mL\n\nOnde:\n- Q é a quantidade de calor (J)\n- m é a massa da substância (kg)\n- L é o calor latente (J/kg)\n\nTipos de calor latente:\n\n1) Calor Latente de Fusão (Lf):\nÉ a energia necessária para transformar uma substância do estado sólido para o líquido.\n\nExemplo:\n- Derretimento do gelo.\n\n2) Calor Latente de Vaporização (Lv):\nÉ a energia necessária para transformar uma substância do estado líquido para o gasoso.\n\nExemplo:\n- Ebulição da água.\n\n3) Calor Latente de Solidificação:\nOcorre quando o líquido passa para o estado sólido, liberando calor.\n\n4) Calor Latente de Condensação:\nOcorre quando o gás se transforma em líquido, liberando calor.\n\nCaracterísticas importantes:\n- A temperatura permanece constante durante a mudança de fase.\n- O valor do calor latente depende da substância.\n- Processos de fusão e vaporização absorvem calor.\n- Processos de solidificação e condensação liberam calor.\n\nValores típicos para a água:\n- Calor latente de fusão: 3,34 × 10⁵ J/kg\n- Calor latente de vaporização: 2,26 × 10⁶ J/kg\n\nO calor latente é fundamental para compreender fenômenos naturais e tecnológicos, como o ciclo da água, sistemas de refrigeração e geração de energia.",
+
+    "intuicao": "Durante a mudança de estado, o calor recebido não aquece a substância, mas transforma sua estrutura.",
+
+    "analogia": "É como usar energia para desmontar uma parede: a energia não aquece o material, mas altera sua estrutura.",
+
+    "aplicacoes": [
+      "Derretimento do gelo e formação de neve",
+      "Ciclo da água na natureza",
+      "Geladeiras e aparelhos de ar-condicionado",
+      "Usinas termoelétricas e nucleares",
+      "Sistemas de resfriamento industrial"
+    ],
+
+    "erros_comuns": [
+      "Achar que a temperatura varia durante a mudança de fase",
+      "Confundir calor latente com calor específico",
+      "Esquecer a fórmula Q = mL",
+      "Ignorar se o calor é absorvido ou liberado",
+      "Utilizar unidades incorretas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que ocorre com a temperatura durante a mudança de estado físico?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece constante",
+        "Varia aleatoriamente"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "Durante a mudança de fase, o calor é utilizado para alterar o estado físico, não a temperatura."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do calor latente?",
+      "alternativas": [
+        "Q = mcΔT",
+        "Q = mL",
+        "Q = CΔT",
+        "Q = PΔT"
+      ],
+      "resposta": "Q = mL",
+      "explicacao": "Essa é a expressão fundamental do calor latente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual processo absorve calor?",
+      "alternativas": [
+        "Condensação",
+        "Solidificação",
+        "Fusão",
+        "Congelamento"
+      ],
+      "resposta": "Fusão",
+      "explicacao": "A fusão requer absorção de energia térmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o calor latente de vaporização da água?",
+      "alternativas": [
+        "3,34 × 10⁵ J/kg",
+        "2,26 × 10⁶ J/kg",
+        "1,00 × 10³ J/kg",
+        "4,18 × 10³ J/kg"
+      ],
+      "resposta": "2,26 × 10⁶ J/kg",
+      "explicacao": "Esse é o valor padrão para a vaporização da água."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual processo libera calor para o ambiente?",
+      "alternativas": [
+        "Fusão",
+        "Vaporização",
+        "Condensação",
+        "Sublimação"
+      ],
+      "resposta": "Condensação",
+      "explicacao": "Na condensação, o gás libera calor ao se transformar em líquido."
+    }
+  ]
+}
