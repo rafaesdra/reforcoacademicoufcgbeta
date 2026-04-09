@@ -1,0 +1,99 @@
+{
+  "id": "produto_escalar_definicao",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Produto Escalar (Produto Interno) - Definição",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "O produto escalar é uma operação entre dois vetores que resulta em um número real.",
+
+    "explicacao": "O produto escalar (ou produto interno) é uma operação que associa dois vetores a um número real.\n\nDefinição algébrica:\nSe A = (x1, y1) e B = (x2, y2), então:\nA · B = x1*x2 + y1*y2\n\nNo espaço (R³):\nA = (x1, y1, z1) e B = (x2, y2, z2)\nA · B = x1*x2 + y1*y2 + z1*z2\n\nExemplo:\nA = (2, 3) e B = (1, 4)\nA · B = (2*1) + (3*4) = 2 + 12 = 14\n\nInterpretação geométrica:\nTambém pode ser definido como:\nA · B = |A| |B| cos(θ)\n\nOnde θ é o ângulo entre os vetores.\n\nCasos importantes:\n- Se A · B = 0 → vetores são perpendiculares\n- Se A · B > 0 → ângulo agudo\n- Se A · B < 0 → ângulo obtuso\n\nO produto escalar é amplamente utilizado para medir alinhamento entre vetores.",
+
+    "intuicao": "O produto escalar mede o quanto dois vetores estão na mesma direção.",
+
+    "analogia": "É como verificar o quanto duas forças estão trabalhando juntas ou em direções opostas.",
+
+    "aplicacoes": [
+      "Cálculo de ângulo entre vetores",
+      "Verificação de perpendicularidade em problemas geométricos"
+    ],
+
+    "erros_comuns": [
+      "Confundir produto escalar com multiplicação comum",
+      "Esquecer de somar os produtos das componentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o produto escalar de A = (1,2) e B = (3,4)?",
+      "alternativas": [
+        "11",
+        "10",
+        "8",
+        "12"
+      ],
+      "resposta": "11",
+      "explicacao": "A · B = (1*3) + (2*4) = 3 + 8 = 11."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto escalar resulta em:",
+      "alternativas": [
+        "Um número real",
+        "Um vetor",
+        "Uma matriz",
+        "Um ponto"
+      ],
+      "resposta": "Um número real",
+      "explicacao": "Diferente de outras operações vetoriais, o produto escalar gera um escalar."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2,1,3) e B = (1,0,4), qual é A · B?",
+      "alternativas": [
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "resposta": "14",
+      "explicacao": "(2*1) + (1*0) + (3*4) = 2 + 0 + 12 = 14."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A · B = 0, então os vetores são:",
+      "alternativas": [
+        "Perpendiculares",
+        "Paralelos",
+        "Iguais",
+        "Opostos"
+      ],
+      "resposta": "Perpendiculares",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (x,2) e B = (3,1) e A · B = 11, qual é o valor de x?",
+      "alternativas": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "resposta": "3",
+      "explicacao": "A · B = 3x + 2 = 11 → 3x = 9 → x = 3."
+    }
+  ]
+}
