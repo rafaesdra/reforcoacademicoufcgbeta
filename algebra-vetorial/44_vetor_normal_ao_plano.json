@@ -1,0 +1,99 @@
+{
+  "id": "vetor_normal_ao_plano",
+  "disciplina": "Matemática",
+  "assunto": "Vetor Normal ao Plano",
+  "ordem": 44,
+
+  "teoria": {
+    "resumo": "O vetor normal ao plano é um vetor perpendicular à superfície do plano e define sua orientação no espaço.",
+
+    "explicacao": "O vetor normal a um plano é um vetor perpendicular (ortogonal) a todos os vetores contidos nesse plano.\n\nSe um plano é dado pela equação geral:\n\nax + by + cz + d = 0\n\nEntão o vetor normal é:\n\nn = (a, b, c)\n\nEsse vetor indica a direção perpendicular ao plano.\n\nOutra forma de encontrar o vetor normal é utilizando dois vetores diretores do plano.\n\nSe temos dois vetores v e w pertencentes ao plano, o vetor normal pode ser obtido pelo produto vetorial:\n\nn = v × w\n\nExemplo:\nSe v = (1, 0, 2) e w = (0, 1, -1), então:\n\nn = v × w = (-2, 1, 1)\n\nEsse vetor é perpendicular ao plano gerado por v e w.\n\nAplicação prática:\nO vetor normal é muito usado para determinar perpendicularidade entre planos e retas, além de ser essencial para construir a equação do plano.\n\nObservação:\nVetores normais paralelos indicam planos paralelos ou coincidentes.",
+
+    "intuicao": "O vetor normal aponta 'para fora' do plano, como uma seta perpendicular à superfície.",
+
+    "analogia": "Imagine um lápis espetado perpendicularmente em uma folha de papel: ele representa o vetor normal ao plano da folha.",
+
+    "aplicacoes": [
+      "Determinar equações de planos",
+      "Analisar ângulos entre planos e retas"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor normal com vetor diretor",
+      "Errar o cálculo do produto vetorial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação ax + by + cz + d = 0, o vetor normal é:",
+      "alternativas": [
+        "(x, y, z)",
+        "(a, b, c)",
+        "(d, 0, 0)",
+        "(1, 1, 1)"
+      ],
+      "resposta": "(a, b, c)",
+      "explicacao": "Os coeficientes de x, y e z formam o vetor normal ao plano."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor normal é sempre:",
+      "alternativas": [
+        "Paralelo ao plano",
+        "Perpendicular ao plano",
+        "Contido no plano",
+        "Nulo"
+      ],
+      "resposta": "Perpendicular ao plano",
+      "explicacao": "Por definição, o vetor normal é ortogonal ao plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o vetor normal do plano 2x - 3y + z + 1 = 0?",
+      "alternativas": [
+        "(2, -3, 1)",
+        "(1, -3, 2)",
+        "(2, 3, -1)",
+        "(1, 1, 1)"
+      ],
+      "resposta": "(2, -3, 1)",
+      "explicacao": "O vetor normal é formado diretamente pelos coeficientes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores diretores de um plano são v e w, o vetor normal pode ser obtido por:",
+      "alternativas": [
+        "v + w",
+        "v · w",
+        "v × w",
+        "v - w"
+      ],
+      "resposta": "v × w",
+      "explicacao": "O produto vetorial gera um vetor perpendicular aos dois vetores."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dados v = (1, 2, 3) e w = (0, 1, 4), qual é um vetor normal ao plano gerado por eles?",
+      "alternativas": [
+        "(5, -4, 1)",
+        "(2, 3, 4)",
+        "(1, 1, 1)",
+        "(0, 0, 0)"
+      ],
+      "resposta": "(5, -4, 1)",
+      "explicacao": "Calculando v × w: |i j k; 1 2 3; 0 1 4| = (2·4 - 3·1, 3·0 - 1·4, 1·1 - 2·0) = (8-3, 0-4, 1-0) = (5, -4, 1)."
+    }
+  ]
+}
