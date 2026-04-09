@@ -1,0 +1,99 @@
+{
+  "id": "angulo_entre_vetores",
+  "disciplina": "Matemática",
+  "assunto": "Ângulo entre Vetores",
+  "ordem": 50,
+
+  "teoria": {
+    "resumo": "O ângulo entre vetores é calculado a partir do produto escalar entre eles.",
+
+    "explicacao": "O ângulo entre dois vetores pode ser determinado usando o produto escalar.\n\nSejam dois vetores u e v, o cosseno do ângulo θ entre eles é dado por:\n\ncos(θ) = (u · v) / (|u| · |v|)\n\nOnde:\n- u · v é o produto escalar\n- |u| e |v| são os módulos dos vetores\n\nProduto escalar:\n\nu · v = x1x2 + y1y2 (+ z1z2, se for no espaço)\n\nMódulo do vetor:\n\n|u| = √(x1² + y1² (+ z1²))\n\nExemplo:\nu = (1,2) e v = (2,1)\n\nu · v = 1·2 + 2·1 = 4\n\n|u| = √5, |v| = √5\n\ncos(θ) = 4/5\n\nθ = arccos(4/5)\n\nCasos importantes:\n- Se u · v = 0 → vetores perpendiculares (θ = 90°)\n- Se cos(θ) = 1 → vetores paralelos (mesma direção)\n- Se cos(θ) = -1 → vetores opostos\n\nEssa relação é fundamental para estudar ângulos em geometria e física.",
+
+    "intuicao": "O produto escalar mede o quanto dois vetores 'apontam na mesma direção'.",
+
+    "analogia": "Imagine duas setas: quanto mais alinhadas estiverem, menor o ângulo entre elas; quanto mais divergirem, maior o ângulo.",
+
+    "aplicacoes": [
+      "Cálculo de ângulos em física (forças e movimentos)",
+      "Computação gráfica e análise vetorial"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de dividir pelo produto dos módulos",
+      "Confundir produto escalar com produto vetorial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre dois vetores é zero, então eles são:",
+      "alternativas": [
+        "Paralelos",
+        "Perpendiculares",
+        "Coincidentes",
+        "Opostos"
+      ],
+      "resposta": "Perpendiculares",
+      "explicacao": "Produto escalar zero indica ângulo de 90°."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fórmula calcula o ângulo entre dois vetores?",
+      "alternativas": [
+        "cos(θ) = (u·v)/(|u||v|)",
+        "u × v",
+        "|u| + |v|",
+        "u - v"
+      ],
+      "resposta": "cos(θ) = (u·v)/(|u||v|)",
+      "explicacao": "Essa é a fórmula fundamental para o cálculo do ângulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre os vetores (1,0) e (0,1)?",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Produto escalar = 0 → vetores perpendiculares."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de cos(θ) entre os vetores (1,2) e (2,1)?",
+      "alternativas": [
+        "4/5",
+        "1",
+        "0",
+        "2/5"
+      ],
+      "resposta": "4/5",
+      "explicacao": "Produto escalar = 4 e módulos √5, então cos(θ)=4/5."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são paralelos e têm mesma direção, o ângulo entre eles é:",
+      "alternativas": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "resposta": "0°",
+      "explicacao": "Vetores paralelos com mesma direção formam ângulo zero."
+    }
+  ]
+}
