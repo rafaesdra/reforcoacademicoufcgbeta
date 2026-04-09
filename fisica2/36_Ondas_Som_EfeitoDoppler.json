@@ -1,0 +1,103 @@
+{
+  "id": "36_Ondas_Som_EfeitoDoppler",
+  "disciplina": "Física 2",
+  "assunto": "Ondas sonoras - Efeito Doppler",
+  "ordem": 36,
+
+  "teoria": {
+    "resumo": "O efeito Doppler é a variação da frequência percebida de uma onda devido ao movimento relativo entre fonte e observador.",
+
+    "explicacao": "O efeito Doppler ocorre quando há movimento relativo entre a fonte de uma onda e o observador.\n\nEsse movimento altera a frequência percebida, mesmo que a frequência real da fonte permaneça constante.\n\nSituações principais:\n\n1) Fonte se aproximando do observador:\n- As ondas se 'comprimem'\n- Frequência percebida aumenta\n- Som mais agudo\n\n2) Fonte se afastando do observador:\n- As ondas se 'alongam'\n- Frequência percebida diminui\n- Som mais grave\n\nA fórmula geral do efeito Doppler é:\n\nf' = f (v ± v_o) / (v ∓ v_f)\n\nOnde:\n- f' é a frequência percebida\n- f é a frequência emitida\n- v é a velocidade do som no meio\n- v_o é a velocidade do observador\n- v_f é a velocidade da fonte\n\nRegras importantes de sinal:\n- Aproximação → frequência aumenta\n- Afastamento → frequência diminui\n\nCasos especiais:\n- Observador em movimento\n- Fonte em movimento\n- Ambos em movimento\n\nExemplo clássico:\n- Sirene de ambulância passando por um observador\n\nO som é mais agudo quando se aproxima e mais grave quando se afasta.\n\nEsse fenômeno ocorre com qualquer tipo de onda, incluindo luz (efeito Doppler relativístico).\n\nO efeito Doppler é essencial para entender ondas em movimento e possui diversas aplicações práticas.",
+
+    "intuicao": "Quando a fonte vem em sua direção, as ondas chegam mais 'apertadas'; quando se afasta, chegam mais espaçadas.",
+
+    "analogia": "É como carros no trânsito:\n- Aproximando → mais carros passando por segundo\n- Afastando → menos carros passando por segundo",
+
+    "aplicacoes": [
+      "Radar de velocidade",
+      "Ultrassom médico",
+      "Astronomia (desvio para o vermelho/azul)",
+      "Sirenes de veículos"
+    ],
+
+    "erros_comuns": [
+      "Confundir frequência percebida com frequência emitida",
+      "Usar sinais incorretos na fórmula",
+      "Achar que a velocidade da onda muda",
+      "Ignorar quem está em movimento (fonte ou observador)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que o efeito Doppler descreve?",
+      "alternativas": [
+        "Mudança na velocidade da onda",
+        "Mudança na frequência percebida",
+        "Mudança na energia",
+        "Mudança no comprimento da fonte"
+      ],
+      "resposta": "Mudança na frequência percebida",
+      "explicacao": "A frequência percebida varia com o movimento relativo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a fonte se aproxima, o som fica:",
+      "alternativas": [
+        "Mais grave",
+        "Mais agudo",
+        "Igual",
+        "Mais lento"
+      ],
+      "resposta": "Mais agudo",
+      "explicacao": "A frequência percebida aumenta."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando a fonte se afasta, a frequência percebida:",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "As ondas chegam mais espaçadas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza não muda no efeito Doppler?",
+      "alternativas": [
+        "Frequência percebida",
+        "Comprimento de onda",
+        "Velocidade da onda",
+        "Som percebido"
+      ],
+      "resposta": "Velocidade da onda",
+      "explicacao": "A velocidade depende do meio, não do movimento."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual situação aumenta mais a frequência percebida?",
+      "alternativas": [
+        "Fonte parada",
+        "Fonte se afastando",
+        "Fonte se aproximando",
+        "Observador parado"
+      ],
+      "resposta": "Fonte se aproximando",
+      "explicacao": "A aproximação comprime as ondas."
+    }
+  ]
+}
