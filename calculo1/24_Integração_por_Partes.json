@@ -1,0 +1,103 @@
+{
+  "id": "integracao_por_partes",
+  "disciplina": "Cálculo I",
+  "assunto": "Integrais — Integração por Partes",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "A integração por partes é usada para resolver integrais de produtos de funções.",
+
+    "explicacao": "A técnica de integração por partes é baseada na regra do produto da derivada.\n\n✔️ Fórmula:\n\n∫ u dv = u·v - ∫ v du\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Estratégia\n━━━━━━━━━━━━━━━━━━━\n\n1. Escolher u (parte que simplifica ao derivar)\n2. Escolher dv (parte fácil de integrar)\n3. Calcular du e v\n4. Aplicar a fórmula\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplo 1\n━━━━━━━━━━━━━━━━━━━\n\n∫ x e^x dx\n\nEscolha:\n\nu = x → du = dx\ndv = e^x dx → v = e^x\n\nAplicando:\n\n= x·e^x - ∫ e^x dx\n= x·e^x - e^x + C\n\n= e^x(x - 1) + C\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplo 2\n━━━━━━━━━━━━━━━━━━━\n\n∫ x ln(x) dx\n\nu = ln(x) → du = 1/x dx\ndv = x dx → v = x²/2\n\n\n= (x²/2)ln(x) - ∫ (x²/2)(1/x) dx\n= (x²/2)ln(x) - ∫ x/2 dx\n= (x²/2)ln(x) - x²/4 + C\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Dica prática (LIATE)\n━━━━━━━━━━━━━━━━━━━\n\nPara escolher u:\n\nL → Logarítmica (ln x)\nI → Inversa trigonométrica\nA → Algébrica (x, x²)\nT → Trigonométrica\nE → Exponencial\n\n👉 Escolha o que aparece primeiro como u\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Quando usar?\n━━━━━━━━━━━━━━━━━━━\n\n- Produto de funções\n- Quando substituição não funciona\n\n\n✔️ Aplicações:\n\n- Física\n- Engenharia\n- Sinais e sistemas\n\n\n✔️ Muito importante:\n\nÀs vezes precisa aplicar mais de uma vez.",
+
+    "intuicao": "Você troca uma integral difícil por outra mais simples.",
+
+    "dica_pratica": "Escolher bem o u é o segredo do sucesso.",
+
+    "aplicacoes": [
+      "Integrais complexas",
+      "Modelagem física",
+      "Engenharia elétrica",
+      "Problemas reais"
+    ],
+
+    "erros_comuns": [
+      "Escolher u errado",
+      "Esquecer o sinal negativo",
+      "Errar a integral final",
+      "Não simplificar"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A fórmula da integração por partes é:",
+      "alternativas": [
+        "∫ u dv = u·v - ∫ v du",
+        "∫ u dv = u + v",
+        "∫ u dv = uv",
+        "∫ u dv = du·dv"
+      ],
+      "resposta": "∫ u dv = u·v - ∫ v du",
+      "explicacao": "Essa é a fórmula correta."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual estratégia ajuda a escolher u?",
+      "alternativas": [
+        "Regra da cadeia",
+        "LIATE",
+        "Teorema fundamental",
+        "Limite"
+      ],
+      "resposta": "LIATE",
+      "explicacao": "Ajuda na escolha correta."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫ x e^x dx?",
+      "alternativas": [
+        "e^x(x - 1) + C",
+        "x·e^x",
+        "e^x",
+        "x²"
+      ],
+      "resposta": "e^x(x - 1) + C",
+      "explicacao": "Aplicando integração por partes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫ x ln(x) dx?",
+      "alternativas": [
+        "(x²/2)ln(x) - x²/4 + C",
+        "x ln(x)",
+        "ln(x)",
+        "x² ln(x)"
+      ],
+      "resposta": "(x²/2)ln(x) - x²/4 + C",
+      "explicacao": "Aplicação correta da técnica."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando devemos usar integração por partes?",
+      "alternativas": [
+        "Sempre",
+        "Quando há produto de funções",
+        "Quando há soma",
+        "Quando há constante"
+      ],
+      "resposta": "Quando há produto de funções",
+      "explicacao": "Principal uso da técnica."
+    }
+  ]
+}

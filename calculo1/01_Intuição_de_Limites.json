@@ -1,0 +1,97 @@
+{
+  "id": "limites_intuicao",
+  "disciplina": "Cálculo I",
+  "assunto": "Limites — Ideia Intuitiva",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Limite descreve o valor que uma função se aproxima quando a variável se aproxima de um ponto.",
+
+    "explicacao": "O conceito de limite é a base do cálculo.\n\nQuando escrevemos:\n\nlim (x → a) f(x)\n\nEstamos perguntando:\n\n👉 'Para qual valor f(x) está se aproximando quando x se aproxima de a?'\n\nIMPORTANTE:\n\nx não precisa ser exatamente igual a a.\n\nExemplo:\n\nf(x) = x²\n\nSe x → 2:\n\nx = 1.9 → f(x) = 3.61\nx = 1.99 → f(x) = 3.9601\nx = 2.01 → f(x) = 4.0401\n\nPerceba que os valores se aproximam de 4.\n\nEntão:\n\nlim (x → 2) x² = 4\n\nIsso significa que o comportamento da função ao redor de 2 tende a 4.",
+
+    "intuicao": "Limite é sobre aproximação, não sobre chegar exatamente. É observar o comportamento de perto.",
+
+    "analogia": "Imagine que você está se aproximando de uma parede. Você pode chegar cada vez mais perto, mas o conceito de limite analisa esse 'chegar perto', não necessariamente o toque.",
+
+    "aplicacoes": [
+      "Base para derivadas (taxa de variação)",
+      "Análise de comportamento de funções",
+      "Modelagem de fenômenos físicos"
+    ],
+
+    "erros_comuns": [
+      "Achar que limite é sempre substituir direto",
+      "Confundir limite com valor da função",
+      "Não entender a ideia de aproximação",
+      "Achar que precisa tocar o ponto"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa lim (x → 3) f(x)?",
+      "alternativas": [
+        "Valor de f(3)",
+        "Valor que f(x) se aproxima quando x se aproxima de 3",
+        "Valor máximo de f(x)",
+        "Valor mínimo de f(x)"
+      ],
+      "resposta": "Valor que f(x) se aproxima quando x se aproxima de 3",
+      "explicacao": "Limite analisa o comportamento da função ao redor do ponto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O limite depende do valor exato de x?",
+      "alternativas": [
+        "Sim",
+        "Não",
+        "Às vezes",
+        "Depende da função"
+      ],
+      "resposta": "Não",
+      "explicacao": "Limite analisa aproximação, não o valor exato."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f(x) = x², qual é o valor de lim (x → 1) f(x)?",
+      "alternativas": ["0", "1", "2", "Não existe"],
+      "resposta": "1",
+      "explicacao": "Valores próximos de 1 levam f(x) a se aproximar de 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a ideia central do limite?",
+      "alternativas": [
+        "Substituição direta",
+        "Aproximação",
+        "Multiplicação",
+        "Divisão"
+      ],
+      "resposta": "Aproximação",
+      "explicacao": "Limite é sobre comportamento próximo ao ponto."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se os valores de f(x) se aproximam de 5 quando x → 2, então o limite é:",
+      "alternativas": [
+        "2",
+        "5",
+        "0",
+        "Não existe"
+      ],
+      "resposta": "5",
+      "explicacao": "O limite é o valor que a função se aproxima, não o valor de x."
+    }
+  ]
+}

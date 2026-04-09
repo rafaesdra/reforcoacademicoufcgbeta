@@ -1,0 +1,88 @@
+{
+  "id": "integral_definida",
+  "disciplina": "Cálculo I",
+  "assunto": "Integrais — Integral Definida",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "A integral definida calcula a área sob o gráfico de uma função em um intervalo específico.",
+
+    "explicacao": "A integral definida mede a acumulação em um intervalo.\n\n✔️ Definição:\n\n∫[a,b] f(x) dx\n\nOnde:\n\n- a → limite inferior\n- b → limite superior\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Interpretação geométrica\n━━━━━━━━━━━━━━━━━━━\n\nÁrea sob o gráfico entre x = a e x = b.\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Interpretação física\n━━━━━━━━━━━━━━━━━━━\n\nSe f(x) = velocidade:\n\n∫ v(t) dt → deslocamento total\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Cálculo prático\n━━━━━━━━━━━━━━━━━━━\n\n1. Encontre a primitiva F(x)\n2. Aplique:\n\nF(b) - F(a)\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplo\n━━━━━━━━━━━━━━━━━━━\n\n∫[0,2] x dx\n\nPrimitiva:\n\nF(x) = x²/2\n\nAplicando:\n\nF(2) - F(0)\n\n= (4/2) - 0\n= 2\n\n👉 Área = 2\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Importante\n━━━━━━━━━━━━━━━━━━━\n\n- Área acima do eixo x → positiva\n- Área abaixo → negativa\n\n\n✔️ Interpretação:\n\nIntegral definida → valor numérico (não tem +C)\n\n\n✔️ Aplicações:\n\n- Área\n- Distância\n- Trabalho\n- Energia",
+
+    "intuicao": "A integral definida soma tudo que acontece dentro de um intervalo.",
+
+    "dica_pratica": "Sempre calcule F(b) - F(a). Nunca o contrário.",
+
+    "aplicacoes": [
+      "Cálculo de áreas",
+      "Movimento (distância)",
+      "Física (trabalho)",
+      "Engenharia (energia)"
+    ],
+
+    "erros_comuns": [
+      "Esquecer a ordem F(b) - F(a)",
+      "Adicionar +C",
+      "Confundir com integral indefinida",
+      "Ignorar sinal da área"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral definida representa:",
+      "alternativas": [
+        "Derivada",
+        "Área sob a curva",
+        "Inclinação",
+        "Produto"
+      ],
+      "resposta": "Área sob a curva",
+      "explicacao": "Essa é a interpretação principal."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de ∫[0,1] x dx?",
+      "alternativas": ["1", "1/2", "0", "2"],
+      "resposta": "1/2",
+      "explicacao": "F(x) = x²/2 → 1/2 - 0."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫[1,3] x dx?",
+      "alternativas": ["4", "3", "2", "6"],
+      "resposta": "4",
+      "explicacao": "F(3)-F(1) = 9/2 - 1/2 = 4."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a área está abaixo do eixo x, o valor é:",
+      "alternativas": [
+        "Positivo",
+        "Negativo",
+        "Zero",
+        "Infinito"
+      ],
+      "resposta": "Negativo",
+      "explicacao": "Área abaixo do eixo é negativa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫[0,2] (2x) dx?",
+      "alternativas": ["2", "4", "6", "8"],
+      "resposta": "4",
+      "explicacao": "F(x)=x² → 4 - 0 = 4."
+    }
+  ]
+}

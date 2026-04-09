@@ -1,0 +1,87 @@
+{
+  "id": "limites_fatoracao",
+  "disciplina": "Cálculo I",
+  "assunto": "Limites — Fatoração e Simplificação",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Fatoração e simplificação são usadas para resolver limites com indeterminação, eliminando termos que causam divisão por zero.",
+
+    "explicacao": "Quando encontramos uma indeterminação (como 0/0), precisamos simplificar a expressão.\n\nAs principais técnicas são:\n\n1. Fatoração de polinômios:\n\nExemplo:\n\nx² - 9 = (x - 3)(x + 3)\n\n2. Colocar fator comum em evidência:\n\nExemplo:\n\nx² - 2x = x(x - 2)\n\n3. Cancelamento de fatores:\n\nExemplo:\n\n(x - 2)(x + 3)/(x - 2) → x + 3\n\nApós simplificar, substituímos novamente o valor.\n\nExemplo completo:\n\nlim (x → 2) (x² - 4)/(x - 2)\n\nFatorando:\n\n(x - 2)(x + 2)/(x - 2)\n\nSimplificando:\n\nx + 2\n\nAgora substituindo:\n\n4\n\n✔️ Resultado final: 4\n\nIMPORTANTE:\n\n- Só podemos cancelar fatores (multiplicação), nunca termos de soma.\n- Cancelamento errado leva a erro.\n\nExemplo ERRADO:\n\n(x + 2)/(x + 3) ❌ não pode cancelar",
+
+    "intuicao": "A indeterminação geralmente esconde um fator que pode ser eliminado. Simplificar revela a verdadeira função.",
+
+    "dica_pratica": "Sempre tente fatorar primeiro quando aparecer 0/0. Procure padrões como diferença de quadrados.",
+
+    "aplicacoes": [
+      "Resolução de limites com indeterminação",
+      "Base para derivadas",
+      "Manipulação algébrica em cálculo"
+    ],
+
+    "erros_comuns": [
+      "Cancelar termos que não são fatores",
+      "Errar fatoração",
+      "Não substituir novamente após simplificar",
+      "Parar no meio do processo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o fatoramento de x² - 4?",
+      "alternativas": [
+        "(x - 2)(x + 2)",
+        "(x - 4)(x + 1)",
+        "x(x - 4)",
+        "(x - 2)²"
+      ],
+      "resposta": "(x - 2)(x + 2)",
+      "explicacao": "É uma diferença de quadrados."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de lim (x → 3) (x² - 9)/(x - 3)?",
+      "alternativas": ["3", "6", "9", "0"],
+      "resposta": "6",
+      "explicacao": "Fatorando: (x-3)(x+3)/(x-3) → x+3 → 6."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de lim (x → 2) (x² - 2x)/(x - 2)?",
+      "alternativas": ["2", "4", "0", "Não existe"],
+      "resposta": "2",
+      "explicacao": "Fatorando: x(x-2)/(x-2) → x → 2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das simplificações abaixo é válida?",
+      "alternativas": [
+        "(x - 2)(x + 3)/(x - 2) → x + 3",
+        "(x + 2)/(x + 3) → 1",
+        "(x² + 1)/(x + 1) → x",
+        "(x + 4)/(x + 4) → x"
+      ],
+      "resposta": "(x - 2)(x + 3)/(x - 2) → x + 3",
+      "explicacao": "Só podemos cancelar fatores multiplicativos iguais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de lim (x → 1) (x² - 1)/(x² - x)?",
+      "alternativas": ["1", "2", "0", "Não existe"],
+      "resposta": "2",
+      "explicacao": "Fatorando: (x-1)(x+1)/[x(x-1)] → (x+1)/x → 2/1 = 2."
+    }
+  ]
+}

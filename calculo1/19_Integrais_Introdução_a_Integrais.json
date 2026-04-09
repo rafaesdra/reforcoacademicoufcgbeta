@@ -1,0 +1,105 @@
+{
+  "id": "introducao_integral",
+  "disciplina": "Cálculo I",
+  "assunto": "Integrais — Introdução",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "A integral representa a soma acumulada de pequenas variações, sendo usada para calcular áreas e quantidades totais.",
+
+    "explicacao": "Se a derivada mede variação, a integral mede acumulação.\n\n✔️ Ideia central:\n\nSomar infinitas pequenas partes.\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplo intuitivo\n━━━━━━━━━━━━━━━━━━━\n\nImagine calcular a área de um gráfico.\n\nDividimos em vários retângulos pequenos.\n\nQuanto mais retângulos → mais preciso.\n\nNo limite:\n\n👉 número infinito de retângulos\n\nIsso é a integral.\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Representação\n━━━━━━━━━━━━━━━━━━━\n\n∫ f(x) dx\n\nOnde:\n\n- ∫ → símbolo de soma contínua\n- f(x) → função\n- dx → variável de integração\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Interpretação\n━━━━━━━━━━━━━━━━━━━\n\n- Área sob a curva\n- Quantidade acumulada\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplo físico\n━━━━━━━━━━━━━━━━━━━\n\nSe temos velocidade:\n\nv(t)\n\nA integral de v(t) → posição\n\n👉 acumula movimento ao longo do tempo\n\n\n✔️ Ligação com derivada:\n\n- Derivada → mede mudança\n- Integral → acumula mudança\n\n\n✔️ Aplicações:\n\n- Área\n- Volume\n- Distância\n- Carga elétrica\n\n\n✔️ Muito importante:\n\nIntegral é o processo inverso da derivada (em muitos casos).",
+
+    "intuicao": "Integral é como somar infinitas pequenas contribuições para obter um total.",
+
+    "analogia": "Se você junta gotas de água, a integral é o volume total acumulado.",
+
+    "dica_pratica": "Sempre pense em área ou acumulação ao ver uma integral.",
+
+    "aplicacoes": [
+      "Cálculo de áreas",
+      "Movimento (posição)",
+      "Engenharia elétrica (carga)",
+      "Física (energia)"
+    ],
+
+    "erros_comuns": [
+      "Confundir com derivada",
+      "Não entender o significado do dx",
+      "Achar que é só uma fórmula",
+      "Ignorar interpretação física"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral representa:",
+      "alternativas": [
+        "Taxa de variação",
+        "Acumulação",
+        "Produto",
+        "Limite"
+      ],
+      "resposta": "Acumulação",
+      "explicacao": "Integral soma pequenas quantidades."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O símbolo ∫ representa:",
+      "alternativas": [
+        "Derivada",
+        "Soma contínua",
+        "Produto",
+        "Logaritmo"
+      ],
+      "resposta": "Soma contínua",
+      "explicacao": "É uma soma infinita de partes."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral de velocidade fornece:",
+      "alternativas": [
+        "Aceleração",
+        "Posição",
+        "Força",
+        "Energia"
+      ],
+      "resposta": "Posição",
+      "explicacao": "Acumula deslocamento ao longo do tempo."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quanto mais subdivisões, a aproximação da área fica:",
+      "alternativas": [
+        "Pior",
+        "Igual",
+        "Melhor",
+        "Infinita"
+      ],
+      "resposta": "Melhor",
+      "explicacao": "Mais retângulos → maior precisão."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral é o inverso de:",
+      "alternativas": [
+        "Logaritmo",
+        "Derivada",
+        "Produto",
+        "Limite"
+      ],
+      "resposta": "Derivada",
+      "explicacao": "São operações inversas em muitos casos."
+    }
+  ]
+}
