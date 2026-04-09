@@ -1,0 +1,99 @@
+{
+  "id": "equacao_vetorial_da_reta",
+  "disciplina": "Matemática",
+  "assunto": "Equação Vetorial da Reta",
+  "ordem": 35,
+
+  "teoria": {
+    "resumo": "A equação vetorial da reta descreve todos os pontos de uma reta a partir de um ponto inicial e um vetor diretor.",
+
+    "explicacao": "A equação vetorial da reta é uma forma de representar uma reta no plano ou no espaço utilizando vetores.\n\nEla é dada por:\n\nr(t) = r0 + t * v\n\nOnde:\n- r(t) é um ponto qualquer da reta\n- r0 é um vetor posição de um ponto conhecido da reta\n- v é o vetor diretor da reta\n- t é um parâmetro real\n\nNo plano (2D), se tivermos um ponto A(x0, y0) e um vetor diretor v = (a, b), a equação vetorial pode ser escrita como:\n\n(x, y) = (x0, y0) + t(a, b)\n\nIsso gera o sistema:\n\nx = x0 + at\ny = y0 + bt\n\nExemplo:\nSe a reta passa pelo ponto (1, 2) e tem vetor diretor (3, -1), então:\n\n(x, y) = (1, 2) + t(3, -1)\n\nLogo:\nx = 1 + 3t\ny = 2 - t\n\nEssa equação permite encontrar qualquer ponto da reta variando o valor de t.",
+
+    "intuicao": "A ideia é simples: você começa em um ponto fixo e 'anda' na direção de um vetor, gerando todos os pontos da reta.",
+
+    "analogia": "Imagine que você está em um ponto e segue sempre na mesma direção, dando passos proporcionais a um número t. Cada valor de t te leva a um ponto diferente da mesma linha.",
+
+    "aplicacoes": [
+      "Modelagem de trajetórias em física",
+      "Computação gráfica e animações"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor diretor com vetor posição",
+      "Esquecer que o parâmetro t pode assumir qualquer valor real"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação vetorial de uma reta que passa pelo ponto (0, 0) e tem vetor diretor (2, 3)?",
+      "alternativas": [
+        "(x, y) = (0, 0) + t(2, 3)",
+        "(x, y) = (2, 3) + t(0, 0)",
+        "(x, y) = (1, 1) + t(2, 3)",
+        "(x, y) = (0, 0) + t(3, 2)"
+      ],
+      "resposta": "(x, y) = (0, 0) + t(2, 3)",
+      "explicacao": "A equação vetorial usa um ponto da reta e o vetor diretor. Aqui o ponto é (0,0) e o vetor é (2,3)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação vetorial r(t) = r0 + t·v, o que representa o vetor v?",
+      "alternativas": [
+        "Um ponto da reta",
+        "O vetor diretor da reta",
+        "A origem",
+        "Um vetor nulo"
+      ],
+      "resposta": "O vetor diretor da reta",
+      "explicacao": "O vetor v indica a direção da reta, sendo essencial para determinar sua orientação."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dada a equação vetorial (x, y) = (1, 2) + t(4, -2), qual é o ponto correspondente a t = 1?",
+      "alternativas": [
+        "(5, 0)",
+        "(1, 2)",
+        "(4, -2)",
+        "(3, 1)"
+      ],
+      "resposta": "(5, 0)",
+      "explicacao": "Substituindo t = 1: x = 1 + 4 = 5 e y = 2 - 2 = 0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dos seguintes vetores pode ser vetor diretor da reta que passa pelos pontos (1,2) e (4,6)?",
+      "alternativas": [
+        "(3, 4)",
+        "(4, 3)",
+        "(1, 2)",
+        "(2, 2)"
+      ],
+      "resposta": "(3, 4)",
+      "explicacao": "O vetor diretor é dado pela diferença entre os pontos: (4-1, 6-2) = (3,4)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dadas as retas r1: (x, y) = (0, 1) + t(2, 3) e r2: (x, y) = (1, 4) + s(4, 6), qual a relação entre elas?",
+      "alternativas": [
+        "São paralelas distintas",
+        "São coincidentes",
+        "São perpendiculares",
+        "Se intersectam em um ponto"
+      ],
+      "resposta": "São coincidentes",
+      "explicacao": "Os vetores diretores são proporcionais: (4,6) = 2(2,3). Além disso, o ponto (1,4) pertence à reta r1 (t=0.5). Portanto, representam a mesma reta."
+    }
+  ]
+}
