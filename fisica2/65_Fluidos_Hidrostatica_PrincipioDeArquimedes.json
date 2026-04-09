@@ -1,0 +1,106 @@
+{
+  "id": "65_Fluidos_Hidrostatica_PrincipioDeArquimedes",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrostática: Princípio de Arquimedes",
+  "ordem": 65,
+
+  "teoria": {
+    "resumo": "O Princípio de Arquimedes afirma que todo corpo imerso em um fluido sofre a ação de uma força vertical para cima igual ao peso do fluido deslocado.",
+
+    "explicacao": "O Princípio de Arquimedes estabelece que um corpo total ou parcialmente imerso em um fluido em equilíbrio sofre a ação de uma força vertical dirigida para cima, denominada empuxo.\n\nEssa força é igual ao peso do fluido deslocado pelo corpo.\n\nMatematicamente, o empuxo é dado por:\n\nE = ρ_f g V_d\n\nOnde:\n- E é o empuxo (N);\n- ρ_f é a densidade do fluido (kg/m³);\n- g é a aceleração da gravidade (m/s²);\n- V_d é o volume do fluido deslocado (m³).\n\nO peso do corpo é dado por:\n\nP = m g\n\nou\n\nP = ρ_c g V_c\n\nOnde:\n- ρ_c é a densidade do corpo;\n- V_c é o volume do corpo.\n\nCondições de flutuação:\n\n1) Corpo afunda:\nρ_c > ρ_f\nO peso é maior que o empuxo.\n\n2) Corpo em equilíbrio (imerso):\nρ_c = ρ_f\nO empuxo é igual ao peso.\n\n3) Corpo flutua:\nρ_c < ρ_f\nO empuxo equilibra o peso antes da imersão total.\n\nQuando o corpo flutua, vale a relação:\n\nE = P\n\nou\n\nρ_f g V_sub = ρ_c g V_total\n\nAssim, a fração submersa é:\n\nV_sub / V_total = ρ_c / ρ_f\n\nCaracterísticas do empuxo:\n- Atua verticalmente para cima;\n- Aplica-se no centro de empuxo;\n- Depende apenas do fluido deslocado;\n- Independe da profundidade.\n\nExemplos práticos:\n- Navios e submarinos;\n- Balões de ar quente e dirigíveis;\n- Hidrómetros e densímetros;\n- Plataformas flutuantes;\n- Medição de densidade de líquidos.\n\nDescoberta histórica:\nSegundo a tradição, Arquimedes descobriu esse princípio ao observar o transbordamento da água durante um banho, exclamando \"Eureka!\".",
+
+    "intuicao": "Um corpo imerso em um fluido parece mais leve porque o fluido exerce uma força para cima, opondo-se ao seu peso.",
+
+    "analogia": "Ao tentar empurrar uma bola para o fundo de uma piscina, percebe-se uma força que a empurra para cima — essa é a força de empuxo.",
+
+    "aplicacoes": [
+      "Construção de navios e submarinos",
+      "Balões de ar quente e dirigíveis",
+      "Hidrómetros e densímetros",
+      "Engenharia naval e oceânica",
+      "Plataformas petrolíferas",
+      "Determinação da densidade de materiais"
+    ],
+
+    "erros_comuns": [
+      "Confundir empuxo com pressão hidrostática",
+      "Acreditar que o empuxo depende da massa do corpo",
+      "Esquecer que o empuxo depende do volume deslocado",
+      "Ignorar a densidade do fluido",
+      "Supor que a profundidade altera o empuxo em fluidos incompressíveis"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que afirma o Princípio de Arquimedes?",
+      "alternativas": [
+        "A pressão aumenta com a profundidade",
+        "Todo corpo imerso em um fluido sofre uma força para cima igual ao peso do fluido deslocado",
+        "A pressão é transmitida igualmente em todas as direções",
+        "A densidade é igual à massa dividida pelo volume"
+      ],
+      "resposta": "Todo corpo imerso em um fluido sofre uma força para cima igual ao peso do fluido deslocado",
+      "explicacao": "Essa é a definição do Princípio de Arquimedes."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do empuxo?",
+      "alternativas": [
+        "E = F/A",
+        "E = ρ g h",
+        "E = ρ_f g V",
+        "E = m g"
+      ],
+      "resposta": "E = ρ_f g V",
+      "explicacao": "O empuxo é igual ao peso do fluido deslocado."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo flutua quando:",
+      "alternativas": [
+        "Sua densidade é maior que a do fluido",
+        "Sua densidade é igual à do fluido",
+        "Sua densidade é menor que a do fluido",
+        "Seu peso é nulo"
+      ],
+      "resposta": "Sua densidade é menor que a do fluido",
+      "explicacao": "Corpos menos densos que o fluido flutuam."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto desloca 0,02 m³ de água. Qual é o empuxo exercido? (ρ = 1000 kg/m³; g = 10 m/s²)",
+      "alternativas": [
+        "20 N",
+        "200 N",
+        "2 000 N",
+        "20 000 N"
+      ],
+      "resposta": "200 N",
+      "explicacao": "E = ρ g V = 1000 × 10 × 0,02 = 200 N."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um bloco possui densidade de 800 kg/m³ e é colocado na água (1000 kg/m³). Qual fração do volume ficará submersa?",
+      "alternativas": [
+        "0,2",
+        "0,5",
+        "0,8",
+        "1,0"
+      ],
+      "resposta": "0,8",
+      "explicacao": "A fração submersa é dada por ρ_c/ρ_f = 800/1000 = 0,8."
+    }
+  ]
+}
