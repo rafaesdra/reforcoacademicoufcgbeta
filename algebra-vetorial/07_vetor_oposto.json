@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_vetor_oposto",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Vetor oposto",
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "O vetor oposto possui mesmo modulo e direcao, mas sentido contrario.",
+
+    "explicacao": "Dado um vetor v, seu vetor oposto e representado por -v.\n\nO vetor oposto possui o mesmo modulo e a mesma direcao que o vetor original, mas com sentido contrario.\n\nEm termos de coordenadas, basta trocar o sinal de todas as componentes.\n\nPor exemplo, se v = (2, -3), entao -v = (-2, 3).\n\nUma propriedade importante e que a soma de um vetor com seu oposto resulta no vetor nulo: v + (-v) = 0.\n\nEsse conceito e fundamental para operacoes vetoriais e para a resolucao de equacoes com vetores.",
+
+    "intuicao": "O vetor oposto representa o mesmo deslocamento, mas no sentido contrario.",
+
+    "analogia": "E como ir e voltar pelo mesmo caminho: o percurso e o mesmo, mas o sentido e oposto.",
+
+    "aplicacoes": [
+      "Cancelamento de vetores em somas",
+      "Resolucao de equacoes vetoriais",
+      "Analise de equilibrio em fisica"
+    ],
+
+    "erros_comuns": [
+      "Trocar apenas uma componente ao inverter o vetor",
+      "Confundir vetor oposto com vetor perpendicular",
+      "Achar que o vetor oposto muda o modulo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o vetor oposto de (2, -3)?",
+      "alternativas": [
+        "(-2, 3)",
+        "(2, 3)",
+        "(-2, -3)",
+        "(3, -2)"
+      ],
+      "resposta": "(-2, 3)",
+      "explicacao": "Basta trocar o sinal de cada componente."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o resultado de v + (-v)?",
+      "alternativas": [
+        "v",
+        "-v",
+        "0",
+        "2v"
+      ],
+      "resposta": "0",
+      "explicacao": "Um vetor somado ao seu oposto resulta no vetor nulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor oposto de (1, -2, 3) e:",
+      "alternativas": [
+        "(-1, 2, -3)",
+        "(1, 2, 3)",
+        "(-1, -2, 3)",
+        "(1, -2, -3)"
+      ],
+      "resposta": "(-1, 2, -3)",
+      "explicacao": "Troca-se o sinal de todas as componentes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade define o vetor oposto?",
+      "alternativas": [
+        "Mesmo modulo e mesmo sentido",
+        "Mesmo modulo e sentido contrario",
+        "Modulo diferente e mesma direcao",
+        "Direcao diferente e mesmo sentido"
+      ],
+      "resposta": "Mesmo modulo e sentido contrario",
+      "explicacao": "O vetor oposto tem mesma direcao e modulo, mas sentido oposto."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v + w = 0, qual relacao entre v e w?",
+      "alternativas": [
+        "v = w",
+        "w = -v",
+        "v = 0",
+        "w = v"
+      ],
+      "resposta": "w = -v",
+      "explicacao": "Se a soma e zero, entao um vetor e o oposto do outro."
+    }
+  ]
+}
