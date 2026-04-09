@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_modulo",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Modulo (norma) de um vetor",
+  "ordem": 8,
+
+  "teoria": {
+    "resumo": "O modulo de um vetor representa seu comprimento e e calculado pela raiz da soma dos quadrados das componentes.",
+
+    "explicacao": "O modulo (ou norma) de um vetor representa o seu comprimento no plano ou no espaco.\n\nPara um vetor v = (x, y) em R2, o modulo e dado por |v| = sqrt(x^2 + y^2).\n\nPara um vetor v = (x, y, z) em R3, o modulo e dado por |v| = sqrt(x^2 + y^2 + z^2).\n\nEssa formula vem do Teorema de Pitagoras, pois o vetor pode ser visto como a hipotenusa de um triangulo retangulo formado pelas suas componentes.\n\nO modulo e sempre um numero nao negativo.\n\nEsse conceito e fundamental para medir distancias, calcular versores e resolver problemas geometricos.",
+
+    "intuicao": "O modulo de um vetor e o tamanho da seta que representa o vetor.",
+
+    "analogia": "E como medir o comprimento de uma linha reta entre dois pontos no plano ou no espaco.",
+
+    "aplicacoes": [
+      "Calculo de distancias entre pontos",
+      "Normalizacao de vetores (versores)",
+      "Analise de movimento e velocidade em fisica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de tirar a raiz no final do calculo",
+      "Errar o quadrado de numeros negativos",
+      "Confundir modulo com valor absoluto de um numero"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor v = (3, 4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "resposta": "5",
+      "explicacao": "Modulo = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor v = (0, -5)?",
+      "alternativas": [
+        "5",
+        "-5",
+        "0",
+        "25"
+      ],
+      "resposta": "5",
+      "explicacao": "Modulo = sqrt(0^2 + (-5)^2) = sqrt(25) = 5."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor v = (1, 2, 2)?",
+      "alternativas": [
+        "3",
+        "5",
+        "sqrt(9)",
+        "sqrt(5)"
+      ],
+      "resposta": "3",
+      "explicacao": "Modulo = sqrt(1^2 + 2^2 + 2^2) = sqrt(1 + 4 + 4) = sqrt(9) = 3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual vetor possui modulo igual a 1?",
+      "alternativas": [
+        "(1, 0)",
+        "(2, 0)",
+        "(1, 1)",
+        "(3, 4)"
+      ],
+      "resposta": "(1, 0)",
+      "explicacao": "Modulo = sqrt(1^2 + 0^2) = 1, logo e um vetor unitario."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o modulo do vetor v = (x, y) e 5 e x = 3, qual o valor de y?",
+      "alternativas": [
+        "4",
+        "-4",
+        "±4",
+        "3"
+      ],
+      "resposta": "±4",
+      "explicacao": "x^2 + y^2 = 25 => 9 + y^2 = 25 => y^2 = 16 => y = ±4."
+    }
+  ]
+}
