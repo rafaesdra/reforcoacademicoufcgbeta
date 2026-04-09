@@ -1,0 +1,108 @@
+{
+  "id": "59_Termodinamica_EntropiaAplicada",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Entropia aplicada",
+  "ordem": 59,
+
+  "teoria": {
+    "resumo": "A entropia aplicada permite analisar a irreversibilidade dos processos, a eficiência energética e a evolução natural dos sistemas físicos.",
+
+    "explicacao": "A entropia é uma das grandezas mais importantes da Termodinâmica, pois fornece critérios para determinar a direção dos processos naturais e avaliar a eficiência dos sistemas energéticos.\n\nMatematicamente, a variação de entropia em um processo reversível é dada por:\n\nΔS = Q_rev / T\n\nOnde:\n- ΔS é a variação da entropia (J/K);\n- Q_rev é o calor trocado reversivelmente (J);\n- T é a temperatura absoluta (K).\n\nPara qualquer processo real, a Segunda Lei da Termodinâmica estabelece que:\n\nΔS_universo ≥ 0\n\nIsso implica que:\n- ΔS_universo = 0 para processos reversíveis;\n- ΔS_universo > 0 para processos irreversíveis.\n\nInterpretação física:\n- A entropia mede a dispersão de energia e o grau de desordem de um sistema.\n- Processos naturais evoluem espontaneamente para estados de maior entropia.\n\nInterpretação microscópica:\n\nS = k_B ln(Ω)\n\nOnde:\n- S é a entropia;\n- k_B é a constante de Boltzmann (1,38 × 10⁻²³ J/K);\n- Ω é o número de microestados possíveis.\n\nAplicações práticas da entropia:\n\n1) Máquinas térmicas:\nA entropia determina o limite máximo de eficiência de conversão de calor em trabalho.\n\n2) Refrigeradores e bombas de calor:\nPermite avaliar o desempenho e as perdas energéticas.\n\n3) Engenharia térmica:\nUtilizada para otimizar sistemas de geração e transferência de energia.\n\n4) Transferência de calor:\nProcessos irreversíveis geram aumento de entropia.\n\n5) Processos industriais:\nFundamental na análise de turbinas, compressores e trocadores de calor.\n\n6) Mistura de substâncias e difusão de gases:\nFenômenos espontâneos associados ao aumento da entropia.\n\n7) Cosmologia e física moderna:\nRelaciona-se à evolução do universo e à chamada \"seta do tempo\".\n\nBalanço de entropia:\n\nΔS_universo = ΔS_sistema + ΔS_ambiente\n\nSe:\n- ΔS_universo > 0 → processo irreversível;\n- ΔS_universo = 0 → processo reversível;\n- ΔS_universo < 0 → processo impossível.\n\nImportância científica e tecnológica:\n- Define os limites de eficiência energética;\n- Permite identificar perdas e irreversibilidades;\n- Orienta o desenvolvimento de tecnologias sustentáveis;\n- Fundamenta a análise de sistemas térmicos e industriais.",
+
+    "intuicao": "A entropia indica a direção natural dos processos e revela quanta energia se torna indisponível para realizar trabalho.",
+
+    "analogia": "Assim como é mais fácil bagunçar um quarto do que organizá-lo, os sistemas naturais tendem espontaneamente ao aumento da desordem.",
+
+    "aplicacoes": [
+      "Análise de eficiência de máquinas térmicas",
+      "Projeto de motores e turbinas",
+      "Sistemas de refrigeração e climatização",
+      "Processos industriais e químicos",
+      "Transferência de calor e geração de energia",
+      "Engenharia ambiental e sustentabilidade",
+      "Estudos estatísticos e cosmológicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir entropia com energia",
+      "Acreditar que a entropia sempre aumenta em qualquer sistema isolado em vez do universo",
+      "Interpretar entropia apenas como desordem",
+      "Esquecer de utilizar temperaturas em Kelvin",
+      "Ignorar irreversibilidades em processos reais",
+      "Desconsiderar o balanço de entropia do ambiente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que a entropia mede?",
+      "alternativas": [
+        "A energia total de um sistema",
+        "O grau de desordem e a dispersão de energia",
+        "A pressão de um gás",
+        "A potência térmica"
+      ],
+      "resposta": "O grau de desordem e a dispersão de energia",
+      "explicacao": "A entropia indica a dispersão de energia e a direção dos processos naturais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da entropia no Sistema Internacional?",
+      "alternativas": [
+        "J",
+        "W",
+        "J/K",
+        "Pa"
+      ],
+      "resposta": "J/K",
+      "explicacao": "A unidade da entropia é joule por kelvin."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "De acordo com a Segunda Lei da Termodinâmica, a entropia do universo:",
+      "alternativas": [
+        "Sempre diminui",
+        "Permanece constante",
+        "Sempre aumenta ou permanece constante",
+        "É sempre nula"
+      ],
+      "resposta": "Sempre aumenta ou permanece constante",
+      "explicacao": "Essa é a essência da Segunda Lei da Termodinâmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual expressão representa a entropia na mecânica estatística?",
+      "alternativas": [
+        "PV = nRT",
+        "ΔU = Q − W",
+        "S = k_B ln(Ω)",
+        "Q = mcΔT"
+      ],
+      "resposta": "S = k_B ln(Ω)",
+      "explicacao": "Essa é a equação de Boltzmann para a entropia."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um processo irreversível, qual é a variação da entropia do universo?",
+      "alternativas": [
+        "Negativa",
+        "Nula",
+        "Positiva",
+        "Infinita"
+      ],
+      "resposta": "Positiva",
+      "explicacao": "Processos irreversíveis sempre aumentam a entropia do universo."
+    }
+  ]
+}
