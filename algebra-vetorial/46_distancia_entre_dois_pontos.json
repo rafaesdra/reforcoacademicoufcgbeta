@@ -1,0 +1,99 @@
+{
+  "id": "distancia_entre_dois_pontos",
+  "disciplina": "Matemática",
+  "assunto": "Distância entre Dois Pontos",
+  "ordem": 46,
+
+  "teoria": {
+    "resumo": "A distância entre dois pontos é calculada usando o teorema de Pitágoras no plano ou no espaço.",
+
+    "explicacao": "A distância entre dois pontos é uma das ideias fundamentais da geometria analítica.\n\nNo plano (2D), dados dois pontos A(x1, y1) e B(x2, y2), a distância entre eles é dada por:\n\nd = √[(x2 - x1)² + (y2 - y1)²]\n\nEssa fórmula vem diretamente do Teorema de Pitágoras.\n\nNo espaço (3D), considerando A(x1, y1, z1) e B(x2, y2, z2), temos:\n\nd = √[(x2 - x1)² + (y2 - y1)² + (z2 - z1)²]\n\nExemplo no plano:\nA(1, 2) e B(4, 6)\n\nd = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5\n\nExemplo no espaço:\nA(1, 2, 3) e B(4, 6, 3)\n\nd = √[(4-1)² + (6-2)² + (3-3)²] = √[9 + 16 + 0] = 5\n\nEssa fórmula pode ser vista como o módulo do vetor AB.\n\nOu seja:\n\nd = |AB|\n\nOnde AB = B - A.",
+
+    "intuicao": "A distância é simplesmente o comprimento do segmento que liga dois pontos.",
+
+    "analogia": "É como medir com uma régua a distância entre dois pontos em um papel ou no espaço.",
+
+    "aplicacoes": [
+      "Cálculo de comprimentos em geometria",
+      "Distâncias em mapas, física e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de elevar ao quadrado as diferenças",
+      "Errar a ordem das coordenadas (x, y, z)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre os pontos (0,0) e (3,4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "resposta": "5",
+      "explicacao": "√(3² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fórmula representa a distância entre dois pontos no plano?",
+      "alternativas": [
+        "√[(x2 - x1)² + (y2 - y1)²]",
+        "x2 - x1 + y2 - y1",
+        "(x1 + x2)/2",
+        "x² + y²"
+      ],
+      "resposta": "√[(x2 - x1)² + (y2 - y1)²]",
+      "explicacao": "Essa é a fórmula padrão baseada no Teorema de Pitágoras."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância entre os pontos (1,2,3) e (4,6,3)?",
+      "alternativas": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "resposta": "5",
+      "explicacao": "√[(3)² + (4)² + (0)²] = √25 = 5."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o comprimento do vetor AB, sendo A(2,1) e B(5,5)?",
+      "alternativas": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "resposta": "5",
+      "explicacao": "√[(5-2)² + (5-1)²] = √(9+16) = 5."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a distância entre A(x,0) e B(0,4) é 5, qual o valor de x?",
+      "alternativas": [
+        "3",
+        "-3",
+        "±3",
+        "±5"
+      ],
+      "resposta": "±3",
+      "explicacao": "√[(0 - x)² + (4 - 0)²] = 5 → x² + 16 = 25 → x² = 9 → x = ±3."
+    }
+  ]
+}
