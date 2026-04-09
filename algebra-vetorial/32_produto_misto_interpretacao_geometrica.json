@@ -1,0 +1,99 @@
+{
+  "id": "produto_misto_interpretacao_geometrica",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Interpretação Geométrica do Produto Misto (Volume do Paralelepípedo)",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "O produto misto representa geometricamente o volume do paralelepípedo formado por três vetores.",
+
+    "explicacao": "A interpretação geométrica do produto misto está diretamente ligada ao cálculo de volume no espaço tridimensional.\n\nDado três vetores A, B e C:\n\n[A, B, C] = A · (B × C)\n\nO valor absoluto do produto misto representa o volume do paralelepípedo formado por esses três vetores.\n\nVolume:\n\nV = |A · (B × C)|\n\nInterpretação:\n- B × C gera um vetor perpendicular ao plano formado por B e C\n- O produto escalar com A mede 'quanto' A está na direção desse vetor\n\nExemplo:\nSe A = (1,0,0), B = (0,1,0), C = (0,0,1)\n\nO volume é:\nV = 1\n\nCasos importantes:\n- Volume = 0 → vetores coplanares (não formam sólido)\n- Volume > 0 → orientação positiva\n- Volume < 0 → orientação negativa\n\nAplicação prática:\nTambém pode ser calculado por determinante:\n\nV = |\n a1 a2 a3\n b1 b2 b3\n c1 c2 c3\n|\n\nValor absoluto garante volume positivo.\n\nEsse conceito é essencial para geometria espacial e física.",
+
+    "intuicao": "O produto misto mede o 'tamanho do espaço' ocupado por três vetores juntos.",
+
+    "analogia": "É como calcular o volume de uma caixa inclinada no espaço formada por três arestas.",
+
+    "aplicacoes": [
+      "Cálculo de volume de sólidos no espaço",
+      "Verificação se pontos estão no mesmo plano"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de usar valor absoluto para volume",
+      "Confundir volume com área (produto vetorial)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto misto está relacionado com:",
+      "alternativas": [
+        "Volume",
+        "Área",
+        "Distância",
+        "Ângulo"
+      ],
+      "resposta": "Volume",
+      "explicacao": "Ele mede o volume do paralelepípedo formado por três vetores."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o volume calculado pelo produto misto é zero, então:",
+      "alternativas": [
+        "Os vetores são coplanares",
+        "Os vetores são perpendiculares",
+        "Os vetores são paralelos",
+        "Os vetores são iguais"
+      ],
+      "resposta": "Os vetores são coplanares",
+      "explicacao": "Volume zero indica que não há formação de sólido."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O volume de um paralelepípedo é dado por:",
+      "alternativas": [
+        "|A · (B × C)|",
+        "A · B",
+        "|A × B|",
+        "|A| + |B|"
+      ],
+      "resposta": "|A · (B × C)|",
+      "explicacao": "Essa é a fórmula do produto misto em valor absoluto."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto misto for negativo, o volume é:",
+      "alternativas": [
+        "O valor absoluto do resultado",
+        "Negativo",
+        "Zero",
+        "Indefinido"
+      ],
+      "resposta": "O valor absoluto do resultado",
+      "explicacao": "Volume é sempre positivo, usamos valor absoluto."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A, B e C são vetores não coplanares, podemos afirmar que:",
+      "alternativas": [
+        "O produto misto é diferente de zero",
+        "O produto misto é zero",
+        "São paralelos",
+        "São ortogonais"
+      ],
+      "resposta": "O produto misto é diferente de zero",
+      "explicacao": "Vetores que formam volume têm produto misto diferente de zero."
+    }
+  ]
+}
