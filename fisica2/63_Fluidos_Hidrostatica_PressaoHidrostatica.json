@@ -1,0 +1,106 @@
+{
+  "id": "63_Fluidos_Hidrostatica_PressaoHidrostatica",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrostática: pressão hidrostática",
+  "ordem": 63,
+
+  "teoria": {
+    "resumo": "A pressão hidrostática é a pressão exercida por um fluido em repouso devido ao peso da coluna de fluido acima de um ponto.",
+
+    "explicacao": "A pressão hidrostática é a pressão exercida por um fluido em repouso em razão da ação da gravidade sobre sua massa. Essa pressão aumenta com a profundidade e depende da densidade do fluido.\n\nA expressão matemática da pressão hidrostática é:\n\nP = ρgh\n\nOnde:\n- P é a pressão hidrostática (Pa);\n- ρ é a densidade do fluido (kg/m³);\n- g é a aceleração da gravidade (m/s²);\n- h é a profundidade em relação à superfície do fluido (m).\n\nQuando se considera a pressão atmosférica, obtém-se a pressão absoluta:\n\nP_abs = P_atm + ρgh\n\nOnde:\n- P_abs é a pressão absoluta;\n- P_atm é a pressão atmosférica.\n\nCaracterísticas da pressão hidrostática:\n- Aumenta com a profundidade;\n- Depende da densidade do fluido;\n- Independe do formato do recipiente;\n- Atua igualmente em todas as direções;\n- Atua perpendicularmente às superfícies.\n\nParadoxo hidrostático:\nMesmo recipientes com formatos diferentes exercem a mesma pressão no fundo, desde que tenham a mesma altura de fluido.\n\nExemplos práticos:\n- Barragens construídas com base mais espessa;\n- Mergulho submarino;\n- Caixas d'água e reservatórios;\n- Sistemas hidráulicos;\n- Pressão exercida nos oceanos.\n\nValores típicos:\n- Densidade da água: 1000 kg/m³;\n- Aceleração da gravidade: aproximadamente 9,8 m/s².\n\nAssim, a cada 10 metros de profundidade na água, a pressão aumenta cerca de 1 atmosfera.",
+
+    "intuicao": "Quanto mais profundo se está em um fluido, maior é o peso da coluna de líquido acima e, consequentemente, maior é a pressão.",
+
+    "analogia": "Empilhar livros sobre uma mesa aumenta a força exercida sobre a base; de forma semelhante, a coluna de fluido aumenta a pressão nas camadas inferiores.",
+
+    "aplicacoes": [
+      "Projeto de barragens e reservatórios",
+      "Construção de submarinos",
+      "Mergulho autônomo",
+      "Sistemas de abastecimento de água",
+      "Engenharia naval",
+      "Medição de pressão em fluidos"
+    ],
+
+    "erros_comuns": [
+      "Acreditar que a pressão depende do formato do recipiente",
+      "Confundir pressão absoluta com pressão manométrica",
+      "Esquecer a contribuição da pressão atmosférica",
+      "Utilizar unidades incorretas",
+      "Ignorar a densidade do fluido nos cálculos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da pressão hidrostática?",
+      "alternativas": [
+        "P = F/A",
+        "P = ρgh",
+        "P = nRT",
+        "P = mcΔT"
+      ],
+      "resposta": "P = ρgh",
+      "explicacao": "A pressão hidrostática depende da densidade do fluido, da gravidade e da profundidade."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De qual fator a pressão hidrostática não depende?",
+      "alternativas": [
+        "Densidade do fluido",
+        "Profundidade",
+        "Gravidade",
+        "Formato do recipiente"
+      ],
+      "resposta": "Formato do recipiente",
+      "explicacao": "A pressão hidrostática depende apenas da densidade, da gravidade e da profundidade."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a pressão exercida pela água a 5 m de profundidade? (ρ = 1000 kg/m³; g = 10 m/s²)",
+      "alternativas": [
+        "5,0 × 10³ Pa",
+        "5,0 × 10⁴ Pa",
+        "5,0 × 10⁵ Pa",
+        "5,0 × 10⁶ Pa"
+      ],
+      "resposta": "5,0 × 10⁴ Pa",
+      "explicacao": "P = ρgh = 1000 × 10 × 5 = 50 000 Pa."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a pressão absoluta em um ponto submerso?",
+      "alternativas": [
+        "P_abs = ρgh",
+        "P_abs = P_atm − ρgh",
+        "P_abs = P_atm + ρgh",
+        "P_abs = P_atm × ρgh"
+      ],
+      "resposta": "P_abs = P_atm + ρgh",
+      "explicacao": "A pressão absoluta é a soma da pressão atmosférica com a pressão hidrostática."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A cada 10 metros de profundidade em água, a pressão aumenta aproximadamente em:",
+      "alternativas": [
+        "0,1 atm",
+        "0,5 atm",
+        "1 atm",
+        "10 atm"
+      ],
+      "resposta": "1 atm",
+      "explicacao": "Em água, a pressão aumenta cerca de 1 atmosfera a cada 10 metros de profundidade."
+    }
+  ]
+}
