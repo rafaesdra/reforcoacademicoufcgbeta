@@ -1,0 +1,108 @@
+{
+  "id": "71_Fluidos_Hidrostatica_Aplicacoes_SistemasHidraulicos",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrostática: Aplicações - Sistemas Hidráulicos",
+  "ordem": 71,
+
+  "teoria": {
+    "resumo": "Os sistemas hidráulicos utilizam o Princípio de Pascal para transmitir e amplificar forças por meio de fluidos incompressíveis.",
+
+    "explicacao": "Os sistemas hidráulicos são dispositivos que utilizam fluidos incompressíveis para transmitir força e energia. Seu funcionamento baseia-se no Princípio de Pascal, que afirma que a pressão aplicada a um fluido confinado é transmitida integralmente a todos os pontos do fluido e às paredes do recipiente.\n\nMatematicamente, a pressão é dada por:\n\nP = F / A\n\nOnde:\n- P é a pressão (Pa);\n- F é a força aplicada (N);\n- A é a área da superfície (m²).\n\nEm um sistema hidráulico com dois êmbolos interligados por um fluido, a pressão é a mesma em ambos os lados:\n\nP₁ = P₂\n\nAssim:\n\nF₁ / A₁ = F₂ / A₂\n\nReorganizando a equação, obtém-se:\n\nF₂ = F₁ × (A₂ / A₁)\n\nEssa relação demonstra a multiplicação de força, permitindo levantar grandes cargas com esforços relativamente pequenos.\n\nCaracterísticas dos sistemas hidráulicos:\n- Utilizam fluidos incompressíveis, como óleos hidráulicos;\n- Transmitem força de forma eficiente e uniforme;\n- Possuem alta capacidade de amplificação de força;\n- Apresentam precisão e controle no movimento.\n\nPrincipais componentes:\n- Reservatório de fluido;\n- Bomba hidráulica;\n- Cilindro hidráulico;\n- Pistões ou êmbolos;\n- Válvulas de controle;\n- Tubulações.\n\nAplicações práticas:\n- Freios hidráulicos de automóveis;\n- Macacos hidráulicos;\n- Elevadores hidráulicos;\n- Prensas industriais;\n- Escavadeiras e retroescavadeiras;\n- Sistemas aeronáuticos;\n- Equipamentos hospitalares e odontológicos.\n\nVantagens dos sistemas hidráulicos:\n- Elevada eficiência na transmissão de força;\n- Precisão e suavidade no controle;\n- Capacidade de levantar grandes cargas;\n- Alta durabilidade.\n\nExemplo prático:\nSe uma força de 100 N é aplicada em um êmbolo de área 0,01 m² e o êmbolo maior possui área de 0,1 m², a força resultante será:\n\nF₂ = 100 × (0,1 / 0,01) = 1000 N.\n\nEsse princípio permite a amplificação da força em dispositivos hidráulicos.",
+
+    "intuicao": "Uma pequena força aplicada em uma área reduzida pode gerar uma força muito maior em uma área maior.",
+
+    "analogia": "É como pressionar uma pequena seringa conectada a uma maior: uma leve pressão na menor pode levantar um peso significativo na maior.",
+
+    "aplicacoes": [
+      "Freios hidráulicos de automóveis",
+      "Elevadores hidráulicos",
+      "Macacos hidráulicos",
+      "Prensas industriais",
+      "Máquinas de construção civil",
+      "Equipamentos aeronáuticos",
+      "Sistemas industriais automatizados"
+    ],
+
+    "erros_comuns": [
+      "Confundir pressão com força",
+      "Ignorar a influência da área na amplificação da força",
+      "Desconsiderar que o fluido deve ser incompressível",
+      "Aplicar incorretamente o Princípio de Pascal",
+      "Utilizar unidades inconsistentes",
+      "Acreditar que há ganho de energia no sistema"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual princípio físico fundamenta os sistemas hidráulicos?",
+      "alternativas": [
+        "Princípio de Arquimedes",
+        "Princípio de Pascal",
+        "Equação de Bernoulli",
+        "Lei de Newton"
+      ],
+      "resposta": "Princípio de Pascal",
+      "explicacao": "Os sistemas hidráulicos baseiam-se na transmissão uniforme da pressão em um fluido confinado."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza permanece constante em um sistema hidráulico ideal?",
+      "alternativas": [
+        "Força",
+        "Pressão",
+        "Velocidade",
+        "Altura"
+      ],
+      "resposta": "Pressão",
+      "explicacao": "Segundo o Princípio de Pascal, a pressão é transmitida igualmente em todo o fluido."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 200 N é aplicada em um êmbolo de área 0,02 m². Qual é a pressão exercida?",
+      "alternativas": [
+        "1 000 Pa",
+        "5 000 Pa",
+        "10 000 Pa",
+        "20 000 Pa"
+      ],
+      "resposta": "10 000 Pa",
+      "explicacao": "P = F/A = 200/0,02 = 10 000 Pa."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um sistema hidráulico, se a área do êmbolo maior é cinco vezes a do menor, a força exercida será:",
+      "alternativas": [
+        "Cinco vezes menor",
+        "Cinco vezes maior",
+        "Igual",
+        "Duas vezes maior"
+      ],
+      "resposta": "Cinco vezes maior",
+      "explicacao": "A força é proporcional à área do êmbolo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um macaco hidráulico possui áreas de 0,01 m² e 0,5 m². Se uma força de 100 N é aplicada no êmbolo menor, qual será a força no êmbolo maior?",
+      "alternativas": [
+        "500 N",
+        "1 000 N",
+        "5 000 N",
+        "10 000 N"
+      ],
+      "resposta": "5 000 N",
+      "explicacao": "F₂ = F₁ × (A₂/A₁) = 100 × (0,5/0,01) = 100 × 50 = 5 000 N."
+    }
+  ]
+}
