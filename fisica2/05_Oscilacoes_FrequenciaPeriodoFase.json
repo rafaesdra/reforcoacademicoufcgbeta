@@ -1,0 +1,102 @@
+{
+  "id": "05_Oscilacoes_FrequenciaPeriodoFase",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Frequência, período e fase",
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Frequência, período e fase são grandezas fundamentais que descrevem como ocorre e em que estágio está um movimento oscilatório.",
+
+    "explicacao": "No estudo das oscilações, três grandezas são fundamentais para descrever completamente o movimento: período, frequência e fase.\n\n1) Período (T):\nÉ o tempo necessário para que o sistema complete uma oscilação completa.\n\n2) Frequência (f):\nÉ o número de oscilações realizadas por unidade de tempo.\nf = 1/T\n\n3) Frequência angular (ω):\nRelaciona-se com a frequência e aparece nas equações do MHS.\nω = 2πf = 2π/T\n\n4) Fase (φ):\nA fase indica em que ponto do ciclo o sistema está em determinado instante.\n\nNa equação do MHS:\nx(t) = A cos(ωt + φ)\n\nO termo (ωt + φ) é chamado de fase.\n\nA fase inicial (φ) determina onde o movimento começa:\n- φ = 0 → começa no máximo\n- φ = π/2 → começa no equilíbrio\n\nA fase é essencial para comparar dois movimentos oscilatórios, pois permite saber se estão sincronizados ou não.\n\nSe dois movimentos têm a mesma frequência, mas fases diferentes, dizemos que estão defasados.\n\nEsses conceitos são fundamentais para entender fenômenos como interferência de ondas, sincronização e vibrações em sistemas físicos.",
+
+    "intuicao": "O período diz 'quanto tempo leva', a frequência diz 'quantas vezes acontece' e a fase diz 'em que ponto do movimento estamos'.",
+
+    "analogia": "É como um relógio: o período é o tempo para dar uma volta completa, a frequência é quantas voltas por segundo e a fase é a posição do ponteiro naquele instante.",
+
+    "aplicacoes": [
+      "Análise de sinais periódicos e ondas",
+      "Estudo de interferência e sincronização",
+      "Sistemas vibratórios em engenharia"
+    ],
+
+    "erros_comuns": [
+      "Confundir frequência com frequência angular",
+      "Esquecer que frequência e período são inversos",
+      "Ignorar o papel da fase inicial",
+      "Achar que dois movimentos com mesma frequência estão sempre sincronizados"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa o período em um movimento oscilatório?",
+      "alternativas": [
+        "Número de oscilações por segundo",
+        "Tempo de uma oscilação completa",
+        "Velocidade máxima",
+        "Energia total"
+      ],
+      "resposta": "Tempo de uma oscilação completa",
+      "explicacao": "O período é o tempo necessário para completar um ciclo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre frequência e período?",
+      "alternativas": [
+        "f = T",
+        "f = T²",
+        "f = 1/T",
+        "f = 2T"
+      ],
+      "resposta": "f = 1/T",
+      "explicacao": "Frequência é o inverso do período."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o período de um sistema é 0,2 s, qual é a frequência?",
+      "alternativas": [
+        "2 Hz",
+        "5 Hz",
+        "10 Hz",
+        "0,5 Hz"
+      ],
+      "resposta": "5 Hz",
+      "explicacao": "f = 1/T = 1/0,2 = 5 Hz."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da frequência angular?",
+      "alternativas": [
+        "ω = f",
+        "ω = 2πf",
+        "ω = 1/f",
+        "ω = f²"
+      ],
+      "resposta": "ω = 2πf",
+      "explicacao": "A frequência angular relaciona-se com a frequência por ω = 2πf."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que significa dizer que dois movimentos estão defasados?",
+      "alternativas": [
+        "Eles têm frequências diferentes",
+        "Eles têm amplitudes diferentes",
+        "Eles estão em diferentes pontos do ciclo no mesmo instante",
+        "Eles não são periódicos"
+      ],
+      "resposta": "Eles estão em diferentes pontos do ciclo no mesmo instante",
+      "explicacao": "Defasagem significa diferença na fase entre dois movimentos."
+    }
+  ]
+}
