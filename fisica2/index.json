@@ -17,7 +17,7 @@
     {"titulo": "Oscilações Amortecidas - Regimes de Amortecimento", "path": "14_Oscilacoes_Amortecidas_Regimes.json"},
     {"titulo": "Oscilações Forçadas - Força Externa Periódica", "path": "15_Oscilacoes_Forcadas_ForcaExternaPeriodica.json"},
     {"titulo": "Oscilações Forçadas e Ressonância - Frequência de Ressonância", "path": "16_Oscilacoes_Ressonancia_FrequenciaDeRessonancia.json"},
-    {"titulo": "Oscilações - Aplicações Práticas", "path": "17_Oscilacoes_AplicacoesPraticas.json"}
+    {"titulo": "Oscilações - Aplicações Práticas", "path": "17_Oscilacoes_AplicacoesPraticas.json"},
     {"titulo": "Ondas - Introdução e Conceitos Básicos", "path": "18_Ondas_IntroducaoEConceitosBasicos.json"},
     {"titulo": "Ondas - Tipos: Mecânicas e Eletromagnéticas", "path": "19_Ondas_Tipos_MecanicasEletromagneticas.json"},
     {"titulo": "Ondas - Tipos: Transversais e Longitudinais", "path": "20_Ondas_Tipos_TransversaisELongitudinais.json"},
