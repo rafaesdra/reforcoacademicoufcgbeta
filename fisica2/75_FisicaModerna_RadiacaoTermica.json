@@ -1,0 +1,108 @@
+{
+  "id": "75_FisicaModerna_RadiacaoTermica",
+  "disciplina": "Física 3",
+  "assunto": "Introdução à Física Moderna - Radiação Térmica",
+  "ordem": 75,
+
+  "teoria": {
+    "resumo": "A radiação térmica é a energia emitida por um corpo em função de sua temperatura, sendo essencial para o desenvolvimento da Física Moderna.",
+
+    "explicacao": "A radiação térmica é a energia emitida por qualquer corpo devido à sua temperatura. Essa energia é transmitida na forma de ondas eletromagnéticas e não necessita de um meio material para se propagar. Exemplos cotidianos incluem o calor emitido pelo Sol e por objetos aquecidos.\n\nO estudo da radiação térmica levou ao surgimento da Física Moderna, pois os modelos clássicos não conseguiam explicar corretamente o espectro de emissão dos corpos aquecidos.\n\nCorpo Negro:\nUm corpo negro é um modelo ideal que absorve toda a radiação incidente e emite a máxima quantidade de energia possível para uma determinada temperatura. Esse conceito foi fundamental para o desenvolvimento da mecânica quântica.\n\nLei de Stefan-Boltzmann:\nA potência total irradiada por unidade de área é proporcional à quarta potência da temperatura absoluta:\n\nE = σT⁴\n\nPara um corpo real:\n\nP = εσAT⁴\n\nOnde:\n- P é a potência irradiada (W);\n- ε é a emissividade do material;\n- σ = 5,67 × 10⁻⁸ W/m²K⁴ é a constante de Stefan-Boltzmann;\n- A é a área da superfície (m²);\n- T é a temperatura absoluta (K).\n\nLei do Deslocamento de Wien:\nO comprimento de onda de máxima emissão é inversamente proporcional à temperatura do corpo:\n\nλ_max T = b\n\nOnde:\n- λ_max é o comprimento de onda de máxima emissão (m);\n- T é a temperatura absoluta (K);\n- b = 2,898 × 10⁻³ m·K é a constante de Wien.\n\nCatástrofe do Ultravioleta:\nA Física Clássica previa que a energia emitida por um corpo negro tenderia ao infinito em altas frequências, o que não correspondia aos resultados experimentais. Esse problema ficou conhecido como \"catástrofe do ultravioleta\".\n\nHipótese de Planck:\nEm 1900, Max Planck propôs que a energia é emitida em pacotes discretos chamados quanta:\n\nE = hf\n\nOnde:\n- E é a energia (J);\n- h = 6,626 × 10⁻³⁴ J·s é a constante de Planck;\n- f é a frequência da radiação (Hz).\n\nEssa hipótese marcou o nascimento da Física Quântica.\n\nImportância da Radiação Térmica:\n- Explica a emissão de energia pelo Sol e pelas estrelas;\n- Fundamenta a astrofísica e a cosmologia;\n- Permite a medição de temperaturas à distância;\n- Contribui para o desenvolvimento da mecânica quântica;\n- Possui aplicações tecnológicas em diversas áreas.",
+
+    "intuicao": "Quanto maior a temperatura de um corpo, maior será a energia e a frequência da radiação emitida.",
+
+    "analogia": "Uma barra de metal aquecida muda de cor do vermelho ao branco à medida que sua temperatura aumenta, evidenciando a variação da radiação térmica.",
+
+    "aplicacoes": [
+      "Sensores e câmeras infravermelhas",
+      "Painéis solares e energia térmica",
+      "Astrofísica e estudo das estrelas",
+      "Termografia e diagnóstico médico",
+      "Fornos industriais",
+      "Satélites meteorológicos",
+      "Controle térmico de espaçonaves"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com radiação térmica",
+      "Acreditar que a radiação necessita de meio material",
+      "Utilizar temperaturas em graus Celsius em vez de Kelvin",
+      "Supor que apenas corpos quentes emitem radiação",
+      "Confundir corpo negro com um objeto de cor preta",
+      "Ignorar a contribuição de Planck para a Física Moderna"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é radiação térmica?",
+      "alternativas": [
+        "Transferência de calor por contato",
+        "Transferência de energia por ondas eletromagnéticas",
+        "Movimento de partículas em um fluido",
+        "Energia transmitida apenas em sólidos"
+      ],
+      "resposta": "Transferência de energia por ondas eletromagnéticas",
+      "explicacao": "A radiação térmica ocorre por meio de ondas eletromagnéticas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual cientista introduziu a quantização da energia?",
+      "alternativas": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Max Planck",
+        "Galileu Galilei"
+      ],
+      "resposta": "Max Planck",
+      "explicacao": "Planck introduziu o conceito de quanta em 1900."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei afirma que a potência irradiada é proporcional à quarta potência da temperatura?",
+      "alternativas": [
+        "Lei de Wien",
+        "Lei de Boyle",
+        "Lei de Stefan-Boltzmann",
+        "Lei de Hooke"
+      ],
+      "resposta": "Lei de Stefan-Boltzmann",
+      "explicacao": "Essa lei descreve a emissão total de radiação de um corpo negro."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual expressão representa a energia de um fóton?",
+      "alternativas": [
+        "E = mc²",
+        "E = hf",
+        "E = mv²",
+        "E = ρgh"
+      ],
+      "resposta": "E = hf",
+      "explicacao": "Essa é a relação proposta por Max Planck."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo negro está a 3000 K. Considerando b = 2,898 × 10⁻³ m·K, qual é o comprimento de onda de máxima emissão?",
+      "alternativas": [
+        "9,66 × 10⁻⁷ m",
+        "9,66 × 10⁻⁶ m",
+        "9,66 × 10⁻⁵ m",
+        "9,66 × 10⁻⁸ m"
+      ],
+      "resposta": "9,66 × 10⁻⁷ m",
+      "explicacao": "Pela Lei de Wien: λ_max = b/T = (2,898 × 10⁻³)/3000 = 9,66 × 10⁻⁷ m."
+    }
+  ]
+}
