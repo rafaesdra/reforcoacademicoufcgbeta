@@ -1,0 +1,75 @@
+{
+  "id": "funcao_exponencial",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Função Exponencial",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "A função exponencial é do tipo f(x) = a^x e representa crescimento ou decaimento rápido.",
+
+    "explicacao": "A função exponencial é definida por:\n\nf(x) = a^x\n\nOnde:\n- a > 0 e a ≠ 1\n\nComportamento:\n\n- Se a > 1 → função crescente\n- Se 0 < a < 1 → função decrescente\n\nExemplo:\nf(x) = 2^x\n\nValores:\nx = 0 → 1\nx = 1 → 2\nx = 2 → 4\n\nCaracterísticas:\n\n- Nunca toca o eixo x\n- Sempre positiva\n- Crescimento muito rápido\n\nGráfico:\nCurva que cresce rapidamente ou decai suavemente.",
+
+    "intuicao": "Diferente da função linear, aqui o crescimento não é constante — ele acelera. Isso aparece muito em fenômenos reais.",
+
+    "aplicacoes": [
+      "Carga e descarga de capacitores",
+      "Crescimento populacional",
+      "Decaimento radioativo",
+      "Processamento de sinais"
+    ],
+
+    "erros_comuns": [
+      "Achar que pode ter base negativa",
+      "Confundir com função polinomial",
+      "Não entender crescimento exponencial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de 2^3?",
+      "alternativas": ["6", "8", "9", "12"],
+      "resposta": "8",
+      "explicacao": "2^3 = 2 × 2 × 2 = 8."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a base for maior que 1, a função exponencial é:",
+      "alternativas": ["Decrescente", "Constante", "Crescente", "Negativa"],
+      "resposta": "Crescente",
+      "explicacao": "Se a > 1, a função cresce conforme x aumenta."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de 3^0?",
+      "alternativas": ["0", "1", "3", "-1"],
+      "resposta": "1",
+      "explicacao": "Qualquer número (≠ 0) elevado a 0 é igual a 1."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A função f(x) = (1/2)^x é:",
+      "alternativas": ["Crescente", "Decrescente", "Constante", "Linear"],
+      "resposta": "Decrescente",
+      "explicacao": "Quando 0 < a < 1, a função é decrescente."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de 2^x = 16?",
+      "alternativas": ["2", "3", "4", "5"],
+      "resposta": "4",
+      "explicacao": "2^4 = 16, então x = 4."
+    }
+  ]
+}

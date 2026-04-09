@@ -1,0 +1,75 @@
+{
+  "id": "numero_e_logaritmo_natural",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Número de Euler (e) e Logaritmo Natural",
+  "ordem": 12,
+
+  "teoria": {
+    "resumo": "O número e é uma constante fundamental associada ao crescimento natural, e o logaritmo natural é o logaritmo na base e.",
+
+    "explicacao": "O número e ≈ 2,71828 é uma constante matemática muito importante.\n\nEle aparece naturalmente em processos de crescimento contínuo, como:\n\n- Juros compostos contínuos\n- Crescimento populacional\n- Descarga de capacitores\n\nFunção exponencial natural:\n\nf(x) = e^x\n\nEssa função tem uma propriedade única: sua taxa de crescimento é proporcional ao seu valor.\n\nLogaritmo natural:\n\nln(x) = log_e(x)\n\nOu seja:\n\nln(x) = y ⇔ e^y = x\n\nPropriedades importantes:\n\n- ln(1) = 0\n- ln(e) = 1\n- ln(a·b) = ln(a) + ln(b)\n\nDomínio:\n- ln(x) só existe para x > 0",
+
+    "intuicao": "O número e representa crescimento 'natural'. Sempre que algo cresce proporcionalmente ao que já existe, o número e aparece.",
+
+    "aplicacoes": [
+      "Circuitos RC (carga/descarga)",
+      "Processos contínuos",
+      "Cálculo diferencial",
+      "Modelagem de sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Achar que e é variável",
+      "Confundir ln com log base 10",
+      "Tentar ln de número negativo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor aproximado de e?",
+      "alternativas": ["2", "2,71", "3", "1,61"],
+      "resposta": "2,71",
+      "explicacao": "O número e ≈ 2,71828."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de ln(e)?",
+      "alternativas": ["0", "1", "e", "10"],
+      "resposta": "1",
+      "explicacao": "ln(e) = 1 porque e¹ = e."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de ln(1)?",
+      "alternativas": ["0", "1", "e", "-1"],
+      "resposta": "0",
+      "explicacao": "e^0 = 1, então ln(1) = 0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o domínio de ln(x)?",
+      "alternativas": ["x ≥ 0", "x > 0", "todos os reais", "x ≠ 0"],
+      "resposta": "x > 0",
+      "explicacao": "Logaritmo natural só existe para valores positivos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ln(x) = 2, qual é o valor de x?",
+      "alternativas": ["2", "e²", "ln(2)", "4"],
+      "resposta": "e²",
+      "explicacao": "ln(x) = 2 → x = e²."
+    }
+  ]
+}

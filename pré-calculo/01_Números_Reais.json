@@ -1,0 +1,74 @@
+{
+  "id": "precalculo_numeros_reais",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Números Reais",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Os números reais incluem todos os números que podem ser representados em uma reta contínua, incluindo inteiros, frações e irracionais.",
+
+    "explicacao": "Os números reais (ℝ) são formados pela união dos números racionais (ℚ) e irracionais. Eles representam praticamente todas as quantidades que usamos na matemática e na engenharia.\n\nOs principais subconjuntos são:\n\n- Naturais (ℕ): 0, 1, 2, 3...\n- Inteiros (ℤ): ..., -2, -1, 0, 1, 2...\n- Racionais (ℚ): números que podem ser escritos como fração (ex: 1/2, 0.75)\n- Irracionais: números que não podem ser escritos como fração (ex: √2, π)\n\nOs números reais podem ser representados em uma reta numérica contínua, sem 'buracos'.",
+
+    "intuicao": "Imagine uma reta infinita onde cada ponto representa um número. Não importa o quão pequeno seja o intervalo, sempre haverá infinitos números entre dois pontos. Isso mostra que os números reais são contínuos.",
+
+    "aplicacoes": [
+      "Medições físicas (tempo, distância, temperatura)",
+      "Leitura de sensores analógicos",
+      "Cálculos em circuitos elétricos"
+    ],
+
+    "erros_comuns": [
+      "Achar que todo número decimal é irracional",
+      "Confundir números racionais com inteiros",
+      "Esquecer que raízes nem sempre são racionais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dos números abaixo pertence ao conjunto dos números naturais?",
+      "alternativas": ["-3", "0", "1/2", "√2"],
+      "resposta": "0",
+      "explicacao": "Os números naturais incluem 0, 1, 2, 3... Portanto, 0 é um número natural."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dos números abaixo é irracional?",
+      "alternativas": ["0.5", "2", "√2", "3/4"],
+      "resposta": "√2",
+      "explicacao": "√2 não pode ser representado como fração, portanto é um número irracional."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa contém apenas números racionais?",
+      "alternativas": ["1/2, 0.75, -3", "√2, π, 1/3", "2, √3, 0.5", "π, 0.25, -1"],
+      "resposta": "1/2, 0.75, -3",
+      "explicacao": "Todos esses números podem ser escritos como fração, logo são racionais."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O número 0.333... é classificado como:",
+      "alternativas": ["Irracional", "Natural", "Racional", "Inteiro"],
+      "resposta": "Racional",
+      "explicacao": "0.333... é uma dízima periódica e pode ser escrito como 1/3, portanto é racional."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas contém um número que NÃO é real?",
+      "alternativas": ["√4", "-1", "π", "√(-1)"],
+      "resposta": "√(-1)",
+      "explicacao": "A raiz de número negativo não pertence aos números reais, mas sim aos números complexos."
+    }
+  ]
+}

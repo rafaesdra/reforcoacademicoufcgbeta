@@ -1,0 +1,81 @@
+{
+  "id": "funcao_afim",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Função Afim",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "A função afim é uma função do tipo f(x) = ax + b, que representa uma reta no plano cartesiano.",
+
+    "explicacao": "A função afim é definida por:\n\nf(x) = ax + b\n\nOnde:\n- a é o coeficiente angular (inclinação da reta)\n- b é o coeficiente linear (ponto onde a reta corta o eixo y)\n\nInterpretação:\n\n- Se a > 0 → função crescente\n- Se a < 0 → função decrescente\n- Se a = 0 → função constante\n\nExemplo:\nf(x) = 2x + 1\n\n- a = 2 → reta crescente\n- b = 1 → corta o eixo y em 1\n\nPara encontrar o zero da função (onde f(x) = 0):\n\nax + b = 0\nx = -b/a\n\nGráfico:\nA função afim sempre forma uma reta.",
+
+    "intuicao": "A função afim representa uma variação constante. Isso significa que, a cada aumento em x, o valor de y muda sempre na mesma proporção.",
+
+    "aplicacoes": [
+      "Movimento uniforme (física)",
+      "Relação linear entre grandezas",
+      "Leitura e calibração de sensores",
+      "Conversão de unidades"
+    ],
+
+    "erros_comuns": [
+      "Confundir coeficiente angular com linear",
+      "Errar o sinal ao calcular o zero da função",
+      "Achar que toda função é crescente",
+      "Interpretar errado o gráfico"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na função f(x) = 3x + 2, qual é o coeficiente angular?",
+      "alternativas": ["2", "3", "1", "0"],
+      "resposta": "3",
+      "explicacao": "O coeficiente angular é o valor que multiplica x, neste caso, 3."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na função f(x) = 3x + 2, qual é o coeficiente linear?",
+      "alternativas": ["3", "2", "1", "0"],
+      "resposta": "2",
+      "explicacao": "O coeficiente linear é o termo constante, que é 2."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A função f(x) = -2x + 1 é:",
+      "alternativas": ["Crescente", "Decrescente", "Constante", "Quadrática"],
+      "resposta": "Decrescente",
+      "explicacao": "Como o coeficiente angular é negativo (-2), a função é decrescente."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o zero da função f(x) = 2x - 4?",
+      "alternativas": ["1", "2", "3", "4"],
+      "resposta": "2",
+      "explicacao": "2x - 4 = 0 → 2x = 4 → x = 2."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual função representa uma reta que passa pelos pontos (0, 1) e (2, 5)?",
+      "alternativas": [
+        "f(x) = 2x + 1",
+        "f(x) = x + 1",
+        "f(x) = 3x + 1",
+        "f(x) = 2x + 5"
+      ],
+      "resposta": "f(x) = 2x + 1",
+      "explicacao": "Coeficiente angular: (5 - 1)/(2 - 0) = 4/2 = 2. Como passa por (0,1), o termo independente é 1. Logo: f(x) = 2x + 1."
+    }
+  ]
+}

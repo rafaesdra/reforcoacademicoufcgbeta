@@ -1,0 +1,81 @@
+{
+  "id": "trigonometria_basica",
+  "disciplina": "Pré-Cálculo",
+  "assunto": "Trigonometria: Seno, Cosseno e Tangente",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "Trigonometria estuda as relações entre ângulos e lados de triângulos, sendo base para o estudo de ondas e sinais.",
+
+    "explicacao": "No triângulo retângulo, temos três lados:\n\n- Hipotenusa: lado oposto ao ângulo de 90°\n- Cateto oposto: lado oposto ao ângulo analisado\n- Cateto adjacente: lado ao lado do ângulo\n\nAs principais razões trigonométricas são:\n\nsen(θ) = cateto oposto / hipotenusa\ncos(θ) = cateto adjacente / hipotenusa\ntg(θ) = cateto oposto / cateto adjacente\n\nRelação fundamental:\n\nsen²(θ) + cos²(θ) = 1\n\nEssas relações também podem ser representadas no círculo trigonométrico.\n\nÂngulos importantes:\n\n30° → sen = 1/2, cos = √3/2\n45° → sen = √2/2, cos = √2/2\n60° → sen = √3/2, cos = 1/2",
+
+    "intuicao": "Trigonometria relaciona ângulo com proporções. Ela permite transformar geometria em números — essencial para descrever ondas e fenômenos periódicos.",
+
+    "aplicacoes": [
+      "Corrente alternada (AC)",
+      "Ondas senoidais",
+      "Análise de sinais",
+      "Movimento periódico"
+    ],
+
+    "erros_comuns": [
+      "Confundir seno com cosseno",
+      "Usar cateto errado",
+      "Não lembrar valores dos ângulos notáveis",
+      "Confundir graus com radianos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um triângulo retângulo, o seno de um ângulo é:",
+      "alternativas": [
+        "Cateto adjacente / hipotenusa",
+        "Cateto oposto / hipotenusa",
+        "Hipotenusa / cateto oposto",
+        "Cateto oposto / cateto adjacente"
+      ],
+      "resposta": "Cateto oposto / hipotenusa",
+      "explicacao": "Seno é definido como cateto oposto dividido pela hipotenusa."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de sen(30°)?",
+      "alternativas": ["1/2", "√2/2", "√3/2", "1"],
+      "resposta": "1/2",
+      "explicacao": "Ângulo notável: sen(30°) = 1/2."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de cos(60°)?",
+      "alternativas": ["1/2", "√2/2", "√3/2", "1"],
+      "resposta": "1/2",
+      "explicacao": "Ângulo notável: cos(60°) = 1/2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de tg(45°)?",
+      "alternativas": ["0", "1", "√2", "1/2"],
+      "resposta": "1",
+      "explicacao": "tg(45°) = 1, pois os catetos são iguais."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se sen(θ) = 3/5, qual é o valor de cos(θ)?",
+      "alternativas": ["4/5", "5/3", "3/4", "√3/5"],
+      "resposta": "4/5",
+      "explicacao": "Usando sen² + cos² = 1 → (3/5)² + cos² = 1 → 9/25 + cos² = 1 → cos² = 16/25 → cos = 4/5."
+    }
+  ]
+}

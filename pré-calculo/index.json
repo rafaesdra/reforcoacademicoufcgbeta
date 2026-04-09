@@ -1,0 +1,18 @@
+{
+  "disciplina": "Pré-Cálculo",
+  "assuntos": [
+    {"titulo": "Pré-Cálculo - Números Reais", "path": "01_Números_Reais.json"},
+    {"titulo": "Pré-Cálculo - Potências e Radicais", "path": "02_Potências_e_Radicais.json"},
+    {"titulo": "Pré-Cálculo - Expressões Algébricas", "path": "03_Expressões_Algébricas.json"},
+    {"titulo": "Pré-Cálculo - Equações e Inequações", "path": "04_Equações_e_Inequaçőes.json"},
+    {"titulo": "Pré-Cálculo - Funções", "path": "05_Funções.json"},
+    {"titulo": "Pré-Cálculo - Função Afim", "path": "06_Função_Afim.json"},
+    {"titulo": "Pré-Cálculo - Função Quadrática", "path": "07_Função_Quadrática.json"},
+    {"titulo": "Pré-Cálculo - Gráficos de Funções", "path": "08_Gráficos_de_Funções.json"},
+    {"titulo": "Pré-Cálculo - Função Exponencial", "path": "09_Função_Exponencial.json"},
+    {"titulo": "Pré-Cálculo - Função Logarítmica", "path": "10_Função_Logarítmica.json"},
+    {"titulo": "Pré-Cálculo - Trigonometria Básica", "path": "11_Trigonometria_Básica.json"},
+    {"titulo": "Pré-Cálculo - Número e Logaritmo Natural", "path": "12_Número_e_Logaritmo_Natural.json"},
+    {"titulo": "Pré-Cálculo - Radianos e Círculo Trigonométrico", "path": "13_Radianos_e_Círculo_Trigonométrico.json"}
+  ]
+}
