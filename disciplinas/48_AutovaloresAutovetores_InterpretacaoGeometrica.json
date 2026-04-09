@@ -1,0 +1,100 @@
+{
+  "id": "autovetores_associados",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Autovetores associados",
+  "ordem": 47,
+
+  "teoria": {
+    "resumo": "Autovetores associados são os vetores que correspondem a um autovalor específico e satisfazem a equação (A - λI)v = 0.",
+
+    "explicacao": "Após encontrar os autovalores de uma matriz A, podemos determinar os autovetores associados a cada autovalor.\n\nDado um autovalor λ, os autovetores são os vetores v ≠ 0 que satisfazem:\n\n(A - λI)v = 0\n\nPASSO A PASSO:\n\n1) Encontrar os autovalores λ\n2) Para cada λ, montar a matriz A - λI\n3) Resolver o sistema homogêneo:\n   (A - λI)v = 0\n4) Determinar as soluções não triviais\n\nExemplo:\n\nA = [ [2, 0],\n      [0, 3] ]\n\nAutovalores:\nλ1 = 2, λ2 = 3\n\nPara λ = 2:\n\nA - 2I = [ [0, 0],\n           [0, 1] ]\n\nSistema:\n0x + 0y = 0\n0x + y = 0 → y = 0\n\nAutovetores:\n(x, 0)\n\nPara λ = 3:\n\nA - 3I = [ [-1, 0],\n           [0, 0] ]\n\nSistema:\n-x = 0 → x = 0\n\nAutovetores:\n(0, y)\n\nIMPORTANTE:\n\n- Sempre existem infinitos autovetores (qualquer múltiplo serve)\n- O conjunto de autovetores forma um subespaço\n- Nunca consideramos o vetor nulo\n\nINTERPRETAÇÃO:\n\nCada autovalor possui uma direção associada no espaço.",
+
+    "intuicao": "Autovetores são as direções que permanecem 'fixas' sob a transformação.",
+
+    "analogia": "É como direções especiais em que a transformação só estica ou encolhe, sem girar.",
+
+    "aplicacoes": [
+      "Análise de transformações lineares",
+      "Base para diagonalização de matrizes"
+    ],
+
+    "erros_comuns": [
+      "Incluir o vetor nulo como solução",
+      "Errar o sistema homogêneo",
+      "Não separar corretamente os casos de cada autovalor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Como encontramos os autovetores?",
+      "alternativas": [
+        "Resolvendo (A - λI)v = 0",
+        "Calculando determinante",
+        "Somando vetores",
+        "Multiplicando matrizes"
+      ],
+      "resposta": "Resolvendo (A - λI)v = 0",
+      "explicacao": "Esse sistema fornece os autovetores."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor nulo pode ser autovetor?",
+      "alternativas": [
+        "Não",
+        "Sim",
+        "Depende",
+        "Sempre"
+      ],
+      "resposta": "Não",
+      "explicacao": "Por definição, v ≠ 0."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os autovetores de um autovalor formam:",
+      "alternativas": [
+        "Um subespaço",
+        "Uma matriz",
+        "Um número",
+        "Um escalar"
+      ],
+      "resposta": "Um subespaço",
+      "explicacao": "São soluções de um sistema homogêneo."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v é autovetor, então kv (k ≠ 0) também é:",
+      "alternativas": [
+        "Autovetor",
+        "Autovalor",
+        "Matriz",
+        "Nulo"
+      ],
+      "resposta": "Autovetor",
+      "explicacao": "Múltiplos também satisfazem a equação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para A=[[2,0],[0,3]], quais são os autovetores de λ=2?",
+      "alternativas": [
+        "(x,0)",
+        "(0,y)",
+        "(x,y)",
+        "(0,0)"
+      ],
+      "resposta": "(x,0)",
+      "explicacao": "Devemos ter y=0."
+    }
+  ]
+}

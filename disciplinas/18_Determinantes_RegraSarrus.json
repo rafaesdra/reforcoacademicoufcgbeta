@@ -1,0 +1,100 @@
+{
+  "id": "determinante_2x2_3x3",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Determinante de matriz 2x2 e 3x3",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "O determinante é um número associado a uma matriz quadrada que fornece informações importantes sobre ela.",
+
+    "explicacao": "O determinante é um valor numérico associado a matrizes quadradas.\n\nDETERMINANTE 2x2:\n\nPara uma matriz:\n[ a  b ]\n[ c  d ]\n\ndet(A) = ad - bc\n\nExemplo:\n[ 1  2 ]\n[ 3  4 ]\n\ndet = 1*4 - 2*3 = 4 - 6 = -2\n\nDETERMINANTE 3x3:\n\nPode ser calculado pela Regra de Sarrus.\n\nPara:\n[ a  b  c ]\n[ d  e  f ]\n[ g  h  i ]\n\nRepete-se as duas primeiras colunas:\n\n[ a  b  c | a  b ]\n[ d  e  f | d  e ]\n[ g  h  i | g  h ]\n\nDiagonal principal:\n(a·e·i + b·f·g + c·d·h)\n\nDiagonal secundária:\n(c·e·g + b·d·i + a·f·h)\n\nDeterminante:\nDet = (soma principal) - (soma secundária)\n\nExemplo:\n[ 1  2  3 ]\n[ 0  1  4 ]\n[ 5  6  0 ]\n\nDet = 1*1*0 + 2*4*5 + 3*0*6 - (3*1*5 + 2*0*0 + 1*4*6)\nDet = 0 + 40 + 0 - (15 + 0 + 24)\nDet = 40 - 39 = 1\n\nO determinante indica se a matriz é invertível:\n\n- det ≠ 0 → matriz invertível\n- det = 0 → matriz não invertível\n\nTambém está relacionado à área (2D) e volume (3D).",
+
+    "intuicao": "O determinante mede o quanto uma matriz 'expande' ou 'comprime' o espaço.",
+
+    "analogia": "Imagine uma transformação que deforma um quadrado ou cubo: o determinante indica quanto essa área ou volume mudou.",
+
+    "aplicacoes": [
+      "Verificar se uma matriz é invertível",
+      "Cálculo de áreas e volumes em geometria"
+    ],
+
+    "erros_comuns": [
+      "Trocar a ordem no cálculo de ad - bc",
+      "Errar sinais na regra de Sarrus",
+      "Esquecer de subtrair as diagonais secundárias"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o determinante de [[2,3],[1,4]]?",
+      "alternativas": [
+        "5",
+        "8",
+        "10",
+        "2"
+      ],
+      "resposta": "5",
+      "explicacao": "2*4 - 3*1 = 8 - 3 = 5."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se det(A) = 0, o que podemos afirmar?",
+      "alternativas": [
+        "A matriz não é invertível",
+        "A matriz é identidade",
+        "A matriz é diagonal",
+        "A matriz é triangular"
+      ],
+      "resposta": "A matriz não é invertível",
+      "explicacao": "Determinante zero implica matriz singular."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o determinante de [[1,0,0],[0,2,0],[0,0,3]]?",
+      "alternativas": [
+        "6",
+        "5",
+        "3",
+        "0"
+      ],
+      "resposta": "6",
+      "explicacao": "Produto da diagonal: 1*2*3 = 6."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o determinante da matriz [[1,2,3],[0,1,4],[5,6,0]]?",
+      "alternativas": [
+        "1",
+        "0",
+        "5",
+        "-1"
+      ],
+      "resposta": "1",
+      "explicacao": "Aplicando Sarrus, o resultado é 1."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o determinante de [[2,0,1],[3,0,0],[5,1,1]]?",
+      "alternativas": [
+        "3",
+        "-3",
+        "5",
+        "0"
+      ],
+      "resposta": "3",
+      "explicacao": "Aplicando Sarrus corretamente, o resultado é 3."
+    }
+  ]
+}

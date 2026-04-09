@@ -1,0 +1,100 @@
+{
+  "id": "determinantes_area_volume",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Relação com área e volume",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "O determinante está diretamente relacionado ao cálculo de área no plano e volume no espaço.",
+
+    "explicacao": "Os determinantes possuem uma interpretação geométrica muito importante.\n\nÁREA NO PLANO (R²):\n\nDados dois vetores v = (x1, y1) e u = (x2, y2), a área do paralelogramo formado por eles é:\n\nÁrea = |det| = |x1*y2 - x2*y1|\n\nExemplo:\nv = (2,1) e u = (1,3)\n\nÁrea = |2*3 - 1*1| = |6 - 1| = 5\n\nA área do triângulo formado por esses vetores é metade:\n\nÁrea_triângulo = |det| / 2\n\nVOLUME NO ESPAÇO (R³):\n\nDados três vetores v, u e w, o volume do paralelepípedo formado por eles é:\n\nVolume = |det|\n\nOu seja, calculamos o determinante da matriz formada pelos vetores:\n\n[ v ]\n[ u ]\n[ w ]\n\nExemplo:\n\nv = (1,0,0)\nu = (0,1,0)\nw = (0,0,1)\n\nVolume = 1\n\nPropriedades importantes:\n\n1) Se det = 0 → área ou volume é zero (vetores dependentes)\n2) O valor absoluto é usado pois área e volume são positivos\n\nO determinante mede o fator de escala de uma transformação geométrica.",
+
+    "intuicao": "O determinante indica o tamanho da 'região' formada pelos vetores.",
+
+    "analogia": "Imagine esticar um quadrado ou um cubo: o determinante mostra o quanto ele aumentou ou diminuiu.",
+
+    "aplicacoes": [
+      "Cálculo de áreas e volumes em geometria",
+      "Transformações lineares em física e computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de usar valor absoluto",
+      "Não dividir por 2 no caso de triângulo",
+      "Confundir ordem dos vetores no determinante"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A área do paralelogramo formado por dois vetores é dada por:",
+      "alternativas": [
+        "|det|",
+        "det",
+        "det/2",
+        "|det|/2"
+      ],
+      "resposta": "|det|",
+      "explicacao": "A área é o valor absoluto do determinante."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se det = 0, o que podemos concluir?",
+      "alternativas": [
+        "Área ou volume é zero",
+        "Área é máxima",
+        "Volume é negativo",
+        "Nada pode ser concluído"
+      ],
+      "resposta": "Área ou volume é zero",
+      "explicacao": "Vetores dependentes não formam área nem volume."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a área do paralelogramo formado por (1,2) e (3,4)?",
+      "alternativas": [
+        "2",
+        "10",
+        "5",
+        "1"
+      ],
+      "resposta": "2",
+      "explicacao": "|1*4 - 3*2| = |4 - 6| = 2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume formado por (1,0,0), (0,1,0), (0,0,1)?",
+      "alternativas": [
+        "1",
+        "0",
+        "3",
+        "2"
+      ],
+      "resposta": "1",
+      "explicacao": "Determinante da matriz identidade é 1."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a área do triângulo formado por (2,0) e (0,4)?",
+      "alternativas": [
+        "4",
+        "8",
+        "2",
+        "16"
+      ],
+      "resposta": "4",
+      "explicacao": "Área do paralelogramo = |2*4| = 8 → triângulo = 8/2 = 4."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "desigualdade_triangular",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Desigualdade triangular",
+  "ordem": 61,
+
+  "teoria": {
+    "resumo": "A desigualdade triangular afirma que a norma da soma de dois vetores é menor ou igual à soma das normas.",
+
+    "explicacao": "A desigualdade triangular é uma propriedade fundamental da norma em espaços com produto interno.\n\nEla afirma que, para quaisquer vetores u e v:\n\n||u + v|| ≤ ||u|| + ||v||\n\nINTERPRETAÇÃO GEOMÉTRICA:\n\nEm termos geométricos, isso significa que o caminho direto entre dois pontos é sempre o menor possível.\n\nOu seja, o comprimento de dois lados de um triângulo é sempre maior ou igual ao terceiro.\n\nEXEMPLO:\n\nu = (1,0)\nv = (0,1)\n\nu + v = (1,1)\n\n||u|| = 1\n||v|| = 1\n||u + v|| = √2 ≈ 1.41\n\nLogo:\n\n√2 ≤ 2 ✔\n\nIDEIA DA PROVA (usando Cauchy-Schwarz):\n\n||u + v||² = ⟨u+v, u+v⟩\n\n= ||u||² + 2⟨u,v⟩ + ||v||²\n\nAplicando Cauchy-Schwarz:\n\n⟨u,v⟩ ≤ ||u||·||v||\n\nEntão:\n\n||u + v||² ≤ ||u||² + 2||u||||v|| + ||v||²\n\n= (||u|| + ||v||)²\n\nLogo:\n\n||u + v|| ≤ ||u|| + ||v||\n\nIMPORTANTE:\n\n- A desigualdade triangular é válida para qualquer norma\n- É essencial para definição de distância\n\nEsse conceito garante consistência geométrica no espaço vetorial.",
+
+    "intuicao": "Somar vetores nunca cria um vetor maior do que a soma dos seus tamanhos.",
+
+    "analogia": "É como caminhar em duas direções: nunca será mais curto do que ir direto.",
+
+    "aplicacoes": [
+      "Definição de distância em espaços vetoriais",
+      "Análise matemática e otimização"
+    ],
+
+    "erros_comuns": [
+      "Achar que sempre ocorre igualdade",
+      "Confundir com soma de normas exata",
+      "Ignorar uso do valor absoluto em contextos relacionados"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que diz a desigualdade triangular?",
+      "alternativas": [
+        "||u+v|| ≤ ||u|| + ||v||",
+        "||u+v|| = ||u|| + ||v||",
+        "||u|| ≥ ||v||",
+        "||u-v|| = 0"
+      ],
+      "resposta": "||u+v|| ≤ ||u|| + ||v||",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Geometricamente, essa desigualdade representa:",
+      "alternativas": [
+        "A soma de dois lados de um triângulo",
+        "Área de um triângulo",
+        "Produto vetorial",
+        "Ângulo reto"
+      ],
+      "resposta": "A soma de dois lados de um triângulo",
+      "explicacao": "Relaciona-se com geometria do triângulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual desigualdade é usada na prova?",
+      "alternativas": [
+        "Cauchy-Schwarz",
+        "Pitágoras",
+        "Laplace",
+        "Sarrus"
+      ],
+      "resposta": "Cauchy-Schwarz",
+      "explicacao": "É essencial para a prova."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A igualdade ocorre quando:",
+      "alternativas": [
+        "Vetores são paralelos",
+        "Vetores são ortogonais",
+        "Vetores são nulos",
+        "Sempre"
+      ],
+      "resposta": "Vetores são paralelos",
+      "explicacao": "Dependência linear."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se u e v têm mesma direção, então:",
+      "alternativas": [
+        "||u+v|| = ||u|| + ||v||",
+        "||u+v|| < ||u|| + ||v||",
+        "||u+v|| = 0",
+        "||u|| = 0"
+      ],
+      "resposta": "||u+v|| = ||u|| + ||v||",
+      "explicacao": "Quando são paralelos, ocorre igualdade."
+    }
+  ]
+}

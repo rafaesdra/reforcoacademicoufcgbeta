@@ -1,0 +1,100 @@
+{
+  "id": "multiplicacao_escalar_matrizes",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Multiplicação de matrizes por escalar",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "A multiplicação por escalar consiste em multiplicar cada elemento da matriz por um número real.",
+
+    "explicacao": "A multiplicação de uma matriz por um escalar é uma operação simples onde multiplicamos cada elemento da matriz por um número real (escalar).\n\nSe k é um número real e A é uma matriz, então:\n\nk · A = [k * a_ij]\n\nExemplo:\nA = [ [1,2], [3,4] ]\n\n2A = [ [2*1, 2*2], [2*3, 2*4] ]\n2A = [ [2,4], [6,8] ]\n\nOutro exemplo:\n-1 · A = [ [-1,-2], [-3,-4] ]\n\nPropriedades importantes:\n\n1) k(A + B) = kA + kB\n2) (k + m)A = kA + mA\n3) k(mA) = (km)A\n4) 1A = A\n5) 0A = 0 (matriz nula)\n\nEssa operação altera o 'tamanho' dos valores da matriz, mas mantém sua estrutura.",
+
+    "intuicao": "Multiplicar por escalar é como ampliar ou reduzir todos os valores da matriz ao mesmo tempo.",
+
+    "analogia": "Imagine aumentar ou diminuir o volume de uma música: tudo fica mais alto ou mais baixo, mas a estrutura continua a mesma.",
+
+    "aplicacoes": [
+      "Ajuste de intensidade em dados numéricos",
+      "Escalonamento em transformações geométricas"
+    ],
+
+    "erros_comuns": [
+      "Multiplicar apenas parte da matriz",
+      "Esquecer de aplicar o escalar a todos os elementos",
+      "Confundir com multiplicação entre matrizes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de 2 · [[1,2],[3,4]]?",
+      "alternativas": [
+        "[[2,4],[6,8]]",
+        "[[1,4],[3,8]]",
+        "[[2,2],[4,4]]",
+        "[[1,2],[3,4]]"
+      ],
+      "resposta": "[[2,4],[6,8]]",
+      "explicacao": "Multiplicamos cada elemento por 2."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de -1 · [[2,3],[4,5]]?",
+      "alternativas": [
+        "[[-2,-3],[-4,-5]]",
+        "[[2,3],[4,5]]",
+        "[[-1,-1],[-1,-1]]",
+        "[[1,1],[1,1]]"
+      ],
+      "resposta": "[[-2,-3],[-4,-5]]",
+      "explicacao": "Multiplicamos todos os elementos por -1."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de 0 · A?",
+      "alternativas": [
+        "Matriz nula",
+        "A",
+        "Matriz identidade",
+        "Depende de A"
+      ],
+      "resposta": "Matriz nula",
+      "explicacao": "Todos os elementos se tornam zero."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade está correta?",
+      "alternativas": [
+        "k(A+B)=kA+kB",
+        "k(A+B)=A+B",
+        "kA=A",
+        "kA=0"
+      ],
+      "resposta": "k(A+B)=kA+kB",
+      "explicacao": "A multiplicação distribui sobre a soma."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = [[1, -2],[3, 0]], qual é o resultado de 3A?",
+      "alternativas": [
+        "[[3, -6],[9, 0]]",
+        "[[3, -2],[3, 0]]",
+        "[[1, -6],[9, 0]]",
+        "[[3, -6],[3, 0]]"
+      ],
+      "resposta": "[[3, -6],[9, 0]]",
+      "explicacao": "Multiplicamos cada elemento por 3."
+    }
+  ]
+}

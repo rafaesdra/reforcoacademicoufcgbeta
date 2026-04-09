@@ -1,0 +1,100 @@
+{
+  "id": "bases_ortonormais",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Bases ortonormais",
+  "ordem": 57,
+
+  "teoria": {
+    "resumo": "Uma base ortonormal é uma base formada por vetores unitários e ortogonais entre si.",
+
+    "explicacao": "Uma base ortonormal de um espaço vetorial com produto interno é um conjunto de vetores que satisfaz duas condições:\n\n1) São ortogonais entre si:\n⟨vi, vj⟩ = 0, para i ≠ j\n\n2) São unitários:\n||vi|| = 1\n\nOu seja, além de serem perpendiculares, todos têm comprimento 1.\n\nExemplo em R²:\n\nBase padrão:\n\ne1 = (1,0)\ne2 = (0,1)\n\nEsses vetores:\n\n- São ortogonais\n- Têm norma 1\n\nLogo, formam uma base ortonormal.\n\nIMPORTANTE:\n\nSe {e1, e2, ..., en} é uma base ortonormal, então qualquer vetor v pode ser escrito como:\n\nv = ⟨v, e1⟩e1 + ⟨v, e2⟩e2 + ... + ⟨v, en⟩en\n\nOu seja, os coeficientes são dados diretamente pelo produto interno.\n\nVANTAGENS:\n\n- Simplifica cálculos de coordenadas\n- Facilita projeções\n- Reduz complexidade computacional\n\nCONSTRUÇÃO:\n\nPode ser obtida a partir de qualquer base usando o processo de Gram-Schmidt.\n\nINTERPRETAÇÃO:\n\nBases ortonormais são o sistema de coordenadas 'ideal' para trabalhar com vetores.",
+
+    "intuicao": "Bases ortonormais são as direções mais simples e independentes possíveis.",
+
+    "analogia": "É como usar eixos perfeitamente perpendiculares e com mesma escala para medir posições.",
+
+    "aplicacoes": [
+      "Simplificação de cálculos em espaços vetoriais",
+      "Base para decomposição QR e PCA"
+    ],
+
+    "erros_comuns": [
+      "Confundir ortogonal com ortonormal",
+      "Esquecer de normalizar os vetores",
+      "Usar vetores dependentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma base ortonormal?",
+      "alternativas": [
+        "Vetores ortogonais e unitários",
+        "Vetores paralelos",
+        "Vetores quaisquer",
+        "Vetores dependentes"
+      ],
+      "resposta": "Vetores ortogonais e unitários",
+      "explicacao": "Essas são as duas condições."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A base padrão de R² é ortonormal?",
+      "alternativas": [
+        "Sim",
+        "Não",
+        "Depende",
+        "Apenas em R³"
+      ],
+      "resposta": "Sim",
+      "explicacao": "Vetores são unitários e ortogonais."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ||v|| ≠ 1, o vetor pode fazer parte de base ortonormal?",
+      "alternativas": [
+        "Não",
+        "Sim",
+        "Depende",
+        "Sempre"
+      ],
+      "resposta": "Não",
+      "explicacao": "Precisa ser unitário."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Como podemos obter uma base ortonormal?",
+      "alternativas": [
+        "Usando Gram-Schmidt",
+        "Somando vetores",
+        "Multiplicando matrizes",
+        "Calculando determinante"
+      ],
+      "resposta": "Usando Gram-Schmidt",
+      "explicacao": "Esse é o método padrão."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em base ortonormal, os coeficientes de v são dados por:",
+      "alternativas": [
+        "⟨v, ei⟩",
+        "||v||",
+        "det(v)",
+        "v²"
+      ],
+      "resposta": "⟨v, ei⟩",
+      "explicacao": "Produto interno fornece diretamente as coordenadas."
+    }
+  ]
+}

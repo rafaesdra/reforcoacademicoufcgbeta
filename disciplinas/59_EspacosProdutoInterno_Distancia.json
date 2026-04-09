@@ -1,0 +1,100 @@
+{
+  "id": "norma_induzida",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Norma induzida",
+  "ordem": 58,
+
+  "teoria": {
+    "resumo": "A norma induzida é a norma definida a partir de um produto interno, dada por ||v|| = √⟨v,v⟩.",
+
+    "explicacao": "Em um espaço com produto interno, podemos definir uma norma associada chamada norma induzida.\n\nDefinição:\n\n||v|| = √⟨v, v⟩\n\nOu seja, a norma de um vetor é a raiz quadrada do produto interno dele com ele mesmo.\n\nExemplo em R²:\n\nv = (3,4)\n\n⟨v,v⟩ = 3² + 4² = 9 + 16 = 25\n\n||v|| = √25 = 5\n\nPROPRIEDADES DA NORMA:\n\n1) Positividade:\n||v|| ≥ 0\n\n2) Definitude:\n||v|| = 0 ⇔ v = 0\n\n3) Homogeneidade:\n||k·v|| = |k| ||v||\n\n4) Desigualdade triangular:\n||u + v|| ≤ ||u|| + ||v||\n\nINTERPRETAÇÃO:\n\nA norma mede o comprimento do vetor no espaço.\n\nRELAÇÃO IMPORTANTE:\n\n⟨u, v⟩ = ||u|| ||v|| cosθ\n\nIsso conecta produto interno, norma e ângulo.\n\nIMPORTANTE:\n\n- Toda norma induzida vem de um produto interno\n- Nem toda norma vem de produto interno\n\nEsse conceito é essencial para medir distâncias e ângulos em espaços vetoriais.",
+
+    "intuicao": "A norma induzida mede o tamanho do vetor usando o próprio produto interno.",
+
+    "analogia": "É como medir o comprimento de uma seta usando uma régua definida pelo próprio espaço.",
+
+    "aplicacoes": [
+      "Cálculo de distâncias em espaços vetoriais",
+      "Base para análise geométrica e otimização"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de tirar a raiz",
+      "Confundir norma com produto interno",
+      "Achar que toda norma é induzida"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Como é definida a norma induzida?",
+      "alternativas": [
+        "√⟨v,v⟩",
+        "⟨v,v⟩",
+        "v²",
+        "det(v)"
+      ],
+      "resposta": "√⟨v,v⟩",
+      "explicacao": "Essa é a definição."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a norma de (3,4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "resposta": "5",
+      "explicacao": "√(9+16)=5."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ||v|| = 0, então:",
+      "alternativas": [
+        "v = 0",
+        "v ≠ 0",
+        "v é unitário",
+        "v é ortogonal"
+      ],
+      "resposta": "v = 0",
+      "explicacao": "Propriedade da norma."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade é ||k·v|| = |k| ||v||?",
+      "alternativas": [
+        "Homogeneidade",
+        "Simetria",
+        "Positividade",
+        "Linearidade"
+      ],
+      "resposta": "Homogeneidade",
+      "explicacao": "Escala com valor absoluto."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A norma induzida vem de:",
+      "alternativas": [
+        "Produto interno",
+        "Determinante",
+        "Matriz identidade",
+        "Sistema linear"
+      ],
+      "resposta": "Produto interno",
+      "explicacao": "Ela é definida a partir dele."
+    }
+  ]
+}

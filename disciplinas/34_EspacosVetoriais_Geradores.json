@@ -1,0 +1,100 @@
+{
+  "id": "dependencia_independencia_linear",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Dependência e independência linear",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "Vetores são linearmente independentes quando nenhum pode ser escrito como combinação linear dos outros.",
+
+    "explicacao": "A dependência e independência linear descrevem relações entre vetores.\n\nDado um conjunto de vetores v1, v2, ..., vn:\n\nEles são linearmente independentes se a única solução da equação:\n\nk1·v1 + k2·v2 + ... + kn·vn = 0\n\nfor:\n\nk1 = k2 = ... = kn = 0\n\nCaso contrário, são linearmente dependentes.\n\nINTERPRETAÇÃO:\n\n- Independentes: nenhum vetor pode ser formado a partir dos outros\n- Dependentes: pelo menos um vetor é combinação dos outros\n\nExemplo 1 (independentes):\n\nv1 = (1,0)\nv2 = (0,1)\n\nNão é possível escrever um como combinação do outro.\n\nExemplo 2 (dependentes):\n\nv1 = (1,2)\nv2 = (2,4)\n\nv2 = 2·v1 → dependentes\n\nOUTROS CASOS IMPORTANTES:\n\n- Se um vetor for nulo → conjunto dependente\n- Se houver mais vetores que a dimensão → dependente\n\nEssa ideia é essencial para entender base e dimensão.",
+
+    "intuicao": "Independência significa que cada vetor traz informação nova.",
+
+    "analogia": "É como pessoas em uma equipe: se alguém só repete o que outro já faz, não é independente.",
+
+    "aplicacoes": [
+      "Construção de bases",
+      "Análise de sistemas lineares"
+    ],
+
+    "erros_comuns": [
+      "Achar que vetores diferentes são sempre independentes",
+      "Esquecer do caso do vetor nulo",
+      "Não testar combinações lineares corretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando vetores são linearmente independentes?",
+      "alternativas": [
+        "Quando só a solução trivial existe",
+        "Quando são iguais",
+        "Quando são nulos",
+        "Quando são paralelos"
+      ],
+      "resposta": "Quando só a solução trivial existe",
+      "explicacao": "A única solução deve ser todos coeficientes zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (2,0) são:",
+      "alternativas": [
+        "Dependentes",
+        "Independentes",
+        "Ortogonais",
+        "Nulos"
+      ],
+      "resposta": "Dependentes",
+      "explicacao": "(2,0) = 2(1,0)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (0,1) são:",
+      "alternativas": [
+        "Independentes",
+        "Dependentes",
+        "Paralelos",
+        "Nulos"
+      ],
+      "resposta": "Independentes",
+      "explicacao": "Um não pode ser escrito como combinação do outro."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um conjunto contém o vetor nulo, ele é:",
+      "alternativas": [
+        "Dependente",
+        "Independente",
+        "Ortogonal",
+        "Diagonal"
+      ],
+      "resposta": "Dependente",
+      "explicacao": "O vetor nulo sempre gera dependência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos vetores independentes podemos ter em R²?",
+      "alternativas": [
+        "No máximo 2",
+        "No máximo 3",
+        "Infinitos",
+        "Apenas 1"
+      ],
+      "resposta": "No máximo 2",
+      "explicacao": "A dimensão de R² é 2."
+    }
+  ]
+}

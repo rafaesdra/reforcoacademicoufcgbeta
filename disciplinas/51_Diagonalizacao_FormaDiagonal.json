@@ -1,0 +1,100 @@
+{
+  "id": "base_autovetores",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Base de autovetores",
+  "ordem": 50,
+
+  "teoria": {
+    "resumo": "Uma base de autovetores é uma base formada exclusivamente por autovetores de uma transformação linear.",
+
+    "explicacao": "Uma base de autovetores é um conjunto de vetores que:\n\n1) São autovetores de uma matriz A\n2) São linearmente independentes\n3) Geram todo o espaço vetorial\n\nSe uma matriz A possui uma base formada por autovetores, então ela é diagonalizável.\n\nCONSTRUÇÃO DA BASE:\n\n1) Encontrar os autovalores λ\n2) Para cada λ, encontrar os autovetores resolvendo:\n   (A - λI)v = 0\n3) Verificar se há vetores suficientes (linearmente independentes)\n4) Formar a base com esses autovetores\n\nExemplo:\n\nA = [ [2, 0],\n      [0, 3] ]\n\nAutovalores:\nλ1 = 2 → autovetores (x,0)\nλ2 = 3 → autovetores (0,y)\n\nEscolhendo vetores:\n\nv1 = (1,0)\nv2 = (0,1)\n\nBase de autovetores:\n\nB = { (1,0), (0,1) }\n\nOutro exemplo:\n\nA = [ [1,1],\n      [0,1] ]\n\nAutovalor:\nλ = 1\n\nAutovetores:\napenas um vetor independente\n\n→ Não forma base → matriz não diagonalizável\n\nIMPORTANTE:\n\n- Nem toda matriz possui base de autovetores\n- Se possuir, então pode ser diagonalizada\n- A base de autovetores define a matriz P na diagonalização\n\nINTERPRETAÇÃO:\n\nEssa base revela as direções fundamentais da transformação linear.",
+
+    "intuicao": "Uma base de autovetores é o conjunto de direções naturais da transformação.",
+
+    "analogia": "É como escolher eixos perfeitos onde a transformação age de forma simples (apenas esticando).",
+
+    "aplicacoes": [
+      "Diagonalização de matrizes",
+      "Análise de sistemas dinâmicos"
+    ],
+
+    "erros_comuns": [
+      "Usar vetores dependentes",
+      "Confundir autovalores com autovetores",
+      "Achar que toda matriz possui base de autovetores"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é uma base de autovetores?",
+      "alternativas": [
+        "Uma base formada por autovetores",
+        "Uma base qualquer",
+        "Um conjunto de números",
+        "Uma matriz diagonal"
+      ],
+      "resposta": "Uma base formada por autovetores",
+      "explicacao": "Ela é composta apenas por autovetores."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma matriz possui base de autovetores, ela é:",
+      "alternativas": [
+        "Diagonalizável",
+        "Nula",
+        "Singular",
+        "Triangular"
+      ],
+      "resposta": "Diagonalizável",
+      "explicacao": "Essa é a condição principal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para construir a base de autovetores, precisamos:",
+      "alternativas": [
+        "Encontrar autovalores e autovetores",
+        "Calcular determinante apenas",
+        "Somar vetores",
+        "Multiplicar matrizes"
+      ],
+      "resposta": "Encontrar autovalores e autovetores",
+      "explicacao": "Ambos são necessários."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se não há autovetores suficientes, então a matriz:",
+      "alternativas": [
+        "Não é diagonalizável",
+        "É diagonal",
+        "É identidade",
+        "É invertível"
+      ],
+      "resposta": "Não é diagonalizável",
+      "explicacao": "Não forma uma base completa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos autovetores independentes são necessários para diagonalizar uma matriz 3x3?",
+      "alternativas": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "resposta": "3",
+      "explicacao": "Precisamos de uma base com 3 vetores."
+    }
+  ]
+}

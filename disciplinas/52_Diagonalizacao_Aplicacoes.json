@@ -1,0 +1,100 @@
+{
+  "id": "forma_diagonal",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Forma diagonal (diagonalização completa)",
+  "ordem": 51,
+
+  "teoria": {
+    "resumo": "A forma diagonal de uma matriz é obtida quando ela é escrita como A = PDP⁻¹, facilitando cálculos e análise.",
+
+    "explicacao": "A forma diagonal de uma matriz A ocorre quando conseguimos escrevê-la como:\n\nA = P D P⁻¹\n\nOnde:\n\n- D é uma matriz diagonal com os autovalores de A\n- P é a matriz formada pelos autovetores de A\n\nPASSO A PASSO PARA DIAGONALIZAR:\n\n1) Encontrar os autovalores resolvendo:\n   det(A - λI) = 0\n\n2) Para cada autovalor, encontrar os autovetores:\n   (A - λI)v = 0\n\n3) Verificar se há autovetores suficientes (linearmente independentes)\n\n4) Montar a matriz P com os autovetores como colunas\n\n5) Montar a matriz D com os autovalores na diagonal\n\n6) Verificar:\n   A = P D P⁻¹\n\nExemplo:\n\nA = [ [2, 0],\n      [0, 3] ]\n\nAutovalores:\nλ1 = 2, λ2 = 3\n\nAutovetores:\nv1 = (1,0), v2 = (0,1)\n\nP = [ [1, 0],\n      [0, 1] ]\n\nD = [ [2, 0],\n      [0, 3] ]\n\nNeste caso, A já está na forma diagonal.\n\nVANTAGENS:\n\n- Cálculo de potências:\n  A^n = P D^n P⁻¹\n\n- Simplifica cálculos complexos\n\nIMPORTANTE:\n\n- Nem toda matriz pode ser diagonalizada\n- A diagonalização depende da existência de base de autovetores\n\nA forma diagonal é a forma mais simples de representar uma transformação linear.",
+
+    "intuicao": "Diagonalizar é encontrar um sistema de coordenadas onde a transformação fica simples.",
+
+    "analogia": "É como girar o sistema de eixos até que tudo fique alinhado e fácil de analisar.",
+
+    "aplicacoes": [
+      "Cálculo de potências de matrizes",
+      "Resolução de sistemas dinâmicos"
+    ],
+
+    "erros_comuns": [
+      "Montar matriz P com vetores errados",
+      "Colocar autovalores fora de ordem na matriz D",
+      "Não verificar independência dos autovetores"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma diagonal de uma matriz?",
+      "alternativas": [
+        "A = P D P⁻¹",
+        "A = P + D",
+        "A = P · D",
+        "A = D · P"
+      ],
+      "resposta": "A = P D P⁻¹",
+      "explicacao": "Essa é a forma de diagonalização."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que aparece na diagonal da matriz D?",
+      "alternativas": [
+        "Autovalores",
+        "Autovetores",
+        "Determinantes",
+        "Coeficientes"
+      ],
+      "resposta": "Autovalores",
+      "explicacao": "D contém os autovalores."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "As colunas de P são:",
+      "alternativas": [
+        "Autovetores",
+        "Autovalores",
+        "Linhas da matriz",
+        "Determinantes"
+      ],
+      "resposta": "Autovetores",
+      "explicacao": "P é formada por autovetores."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a vantagem da diagonalização?",
+      "alternativas": [
+        "Facilitar cálculos de potências",
+        "Eliminar variáveis",
+        "Calcular determinantes",
+        "Reduzir matriz"
+      ],
+      "resposta": "Facilitar cálculos de potências",
+      "explicacao": "Matrizes diagonais são mais simples."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A não possui autovetores suficientes, então:",
+      "alternativas": [
+        "Não pode ser diagonalizada",
+        "É diagonal",
+        "É identidade",
+        "É nula"
+      ],
+      "resposta": "Não pode ser diagonalizada",
+      "explicacao": "Falta base de autovetores."
+    }
+  ]
+}

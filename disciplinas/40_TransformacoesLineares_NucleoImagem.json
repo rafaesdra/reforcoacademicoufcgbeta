@@ -1,0 +1,100 @@
+{
+  "id": "transformacoes_lineares_definicao",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Transformações lineares - definição",
+  "ordem": 39,
+
+  "teoria": {
+    "resumo": "Uma transformação linear é uma função entre espaços vetoriais que preserva soma e multiplicação por escalar.",
+
+    "explicacao": "Uma transformação linear é uma função T: V → W entre dois espaços vetoriais que satisfaz duas propriedades fundamentais:\n\n1) Preserva a soma:\nT(u + v) = T(u) + T(v)\n\n2) Preserva a multiplicação por escalar:\nT(k·v) = k·T(v)\n\nEssas duas propriedades garantem que a estrutura do espaço vetorial é mantida.\n\nExemplo:\n\nT(x, y) = (2x, 2y)\n\nVerificando:\n\nT((x1, y1) + (x2, y2)) = T(x1+x2, y1+y2)\n= (2(x1+x2), 2(y1+y2))\n= (2x1,2y1) + (2x2,2y2)\n\nLogo, preserva soma.\n\nOutro exemplo:\n\nT(x, y) = (x + y, x - y)\n\nTambém é linear.\n\nExemplo que NÃO é linear:\n\nT(x, y) = (x + 1, y)\n\nNão é linear pois não preserva T(0) = 0.\n\nIMPORTANTE:\n\n- Toda transformação linear leva o vetor nulo em vetor nulo\n- Pode ser representada por matrizes\n\nTransformações lineares representam rotações, escalas e projeções.",
+
+    "intuicao": "Uma transformação linear muda vetores sem 'quebrar' a estrutura do espaço.",
+
+    "analogia": "É como deformar um objeto mantendo sua forma geral, sem distorções irregulares.",
+
+    "aplicacoes": [
+      "Computação gráfica (rotações e escalas)",
+      "Modelagem matemática e física"
+    ],
+
+    "erros_comuns": [
+      "Esquecer de verificar as duas propriedades",
+      "Achar que qualquer função é linear",
+      "Ignorar a condição T(0) = 0"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que define uma transformação linear?",
+      "alternativas": [
+        "Preservar soma e multiplicação por escalar",
+        "Ser uma função qualquer",
+        "Ser uma matriz",
+        "Ser um vetor"
+      ],
+      "resposta": "Preservar soma e multiplicação por escalar",
+      "explicacao": "Essas duas propriedades são essenciais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição sempre vale para transformação linear?",
+      "alternativas": [
+        "T(0) = 0",
+        "T(1) = 1",
+        "T(v) = v",
+        "T(v) = 0"
+      ],
+      "resposta": "T(0) = 0",
+      "explicacao": "Toda transformação linear preserva o vetor nulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A função T(x,y) = (2x,2y) é:",
+      "alternativas": [
+        "Linear",
+        "Não linear",
+        "Constante",
+        "Nula"
+      ],
+      "resposta": "Linear",
+      "explicacao": "Preserva soma e escala."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual função NÃO é linear?",
+      "alternativas": [
+        "T(x,y) = (x+1,y)",
+        "T(x,y) = (2x,2y)",
+        "T(x,y) = (x,y)",
+        "T(x,y) = (x+y,x-y)"
+      ],
+      "resposta": "T(x,y) = (x+1,y)",
+      "explicacao": "Não preserva o vetor nulo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se T é linear, então T(kv + u) é igual a:",
+      "alternativas": [
+        "kT(v) + T(u)",
+        "T(v) + T(u)",
+        "kT(vu)",
+        "T(kv)"
+      ],
+      "resposta": "kT(v) + T(u)",
+      "explicacao": "Aplicamos linearidade: soma e escalar."
+    }
+  ]
+}

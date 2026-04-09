@@ -1,0 +1,100 @@
+{
+  "id": "transposta_matriz",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Transposta de uma matriz",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "A transposta de uma matriz é obtida trocando suas linhas por colunas.",
+
+    "explicacao": "A transposta de uma matriz A é uma nova matriz, denotada por Aᵀ, obtida trocando as linhas pelas colunas.\n\nSe A é uma matriz m x n, então Aᵀ será uma matriz n x m.\n\nRegra:\nO elemento da linha i e coluna j de A passa a ser o elemento da linha j e coluna i em Aᵀ.\n\nExemplo:\n\nA = [ [1,2,3], [4,5,6] ]\n\nAᵀ = [ [1,4], [2,5], [3,6] ]\n\nOutro exemplo:\n\nA = [ [1,2], [3,4] ]\n\nAᵀ = [ [1,3], [2,4] ]\n\nPropriedades importantes:\n\n1) (Aᵀ)ᵀ = A\n2) (A + B)ᵀ = Aᵀ + Bᵀ\n3) (kA)ᵀ = kAᵀ\n4) (A · B)ᵀ = Bᵀ · Aᵀ\n\nA transposta é muito utilizada em cálculos matriciais e em aplicações como computação gráfica e estatística.",
+
+    "intuicao": "A transposta é como 'virar' a matriz ao longo da diagonal principal.",
+
+    "analogia": "Imagine uma tabela sendo refletida em um espelho diagonal: linhas viram colunas.",
+
+    "aplicacoes": [
+      "Manipulação de dados em estatística",
+      "Transformações em computação gráfica"
+    ],
+
+    "erros_comuns": [
+      "Confundir posição de elementos ao transpor",
+      "Esquecer que a dimensão muda",
+      "Achar que a ordem dos elementos permanece igual"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a transposta de [[1,2],[3,4]]?",
+      "alternativas": [
+        "[[1,3],[2,4]]",
+        "[[1,2],[3,4]]",
+        "[[4,3],[2,1]]",
+        "[[2,1],[4,3]]"
+      ],
+      "resposta": "[[1,3],[2,4]]",
+      "explicacao": "Trocamos linhas por colunas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A é 2x3, qual é a dimensão de Aᵀ?",
+      "alternativas": [
+        "3x2",
+        "2x3",
+        "3x3",
+        "2x2"
+      ],
+      "resposta": "3x2",
+      "explicacao": "A transposta inverte linhas e colunas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a transposta de [[1,2,3],[4,5,6]]?",
+      "alternativas": [
+        "[[1,4],[2,5],[3,6]]",
+        "[[1,2],[3,4],[5,6]]",
+        "[[6,5,4],[3,2,1]]",
+        "[[1,3,5],[2,4,6]]"
+      ],
+      "resposta": "[[1,4],[2,5],[3,6]]",
+      "explicacao": "Cada linha vira uma coluna."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade é verdadeira?",
+      "alternativas": [
+        "(Aᵀ)ᵀ = A",
+        "(Aᵀ)ᵀ = 0",
+        "(Aᵀ)ᵀ = I",
+        "(Aᵀ)ᵀ = Aᵀ"
+      ],
+      "resposta": "(Aᵀ)ᵀ = A",
+      "explicacao": "Transpor duas vezes retorna à matriz original."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de (A · B)ᵀ?",
+      "alternativas": [
+        "Bᵀ · Aᵀ",
+        "Aᵀ · Bᵀ",
+        "A · B",
+        "B · A"
+      ],
+      "resposta": "Bᵀ · Aᵀ",
+      "explicacao": "A ordem é invertida ao transpor o produto."
+    }
+  ]
+}

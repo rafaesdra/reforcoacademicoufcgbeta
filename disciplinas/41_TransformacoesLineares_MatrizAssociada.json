@@ -1,0 +1,100 @@
+{
+  "id": "nucleo_imagem_transformacao",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Núcleo (Kernel) e Imagem",
+  "ordem": 40,
+
+  "teoria": {
+    "resumo": "O núcleo é o conjunto de vetores que são enviados ao zero, e a imagem é o conjunto de todos os vetores gerados pela transformação.",
+
+    "explicacao": "Dada uma transformação linear T: V → W, podemos definir dois conjuntos importantes:\n\n1) Núcleo (Kernel):\n\nker(T) = { v ∈ V | T(v) = 0 }\n\nOu seja, são os vetores que são transformados no vetor nulo.\n\nExemplo:\n\nT(x, y) = (x, 0)\n\nker(T) = {(0, y)}\n\nPois todos os vetores com x = 0 vão para (0,0).\n\n2) Imagem:\n\nIm(T) = { T(v) | v ∈ V }\n\nOu seja, todos os vetores que podem ser obtidos pela transformação.\n\nExemplo:\n\nT(x, y) = (x, 0)\n\nIm(T) = {(x, 0)}\n\nRepresenta o eixo x.\n\nPROPRIEDADES IMPORTANTES:\n\n- O núcleo é um subespaço de V\n- A imagem é um subespaço de W\n\nTEOREMA IMPORTANTE:\n\nDim(V) = dim(ker(T)) + dim(Im(T))\n\nEsse é o Teorema do Núcleo-Imagem.\n\nINTERPRETAÇÃO:\n\n- Núcleo: o que é 'perdido' pela transformação\n- Imagem: o que é 'produzido' pela transformação\n\nEsses conceitos são fundamentais para entender estrutura de transformações lineares.",
+
+    "intuicao": "O núcleo mostra o que desaparece, e a imagem mostra o que sobra após a transformação.",
+
+    "analogia": "É como um filtro: o núcleo é o que some, e a imagem é o que passa pelo filtro.",
+
+    "aplicacoes": [
+      "Análise de transformações lineares",
+      "Estudo de dimensão e rank"
+    ],
+
+    "erros_comuns": [
+      "Confundir núcleo com imagem",
+      "Esquecer que são subespaços",
+      "Não resolver corretamente T(v)=0"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é o núcleo de uma transformação?",
+      "alternativas": [
+        "Conjunto de vetores que vão para zero",
+        "Conjunto de todos os vetores",
+        "Matriz identidade",
+        "Imagem da transformação"
+      ],
+      "resposta": "Conjunto de vetores que vão para zero",
+      "explicacao": "Definição de núcleo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é a imagem de uma transformação?",
+      "alternativas": [
+        "Todos os valores gerados pela transformação",
+        "Conjunto nulo",
+        "A matriz da transformação",
+        "O domínio"
+      ],
+      "resposta": "Todos os valores gerados pela transformação",
+      "explicacao": "Imagem contém todos os resultados possíveis."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O núcleo é um subespaço de:",
+      "alternativas": [
+        "V",
+        "W",
+        "R",
+        "Nenhum"
+      ],
+      "resposta": "V",
+      "explicacao": "Pertence ao domínio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A imagem é um subespaço de:",
+      "alternativas": [
+        "W",
+        "V",
+        "R",
+        "Nenhum"
+      ],
+      "resposta": "W",
+      "explicacao": "Pertence ao contradomínio."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dim(V)=4 e dim(ker)=1, qual é dim(Im)?",
+      "alternativas": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "resposta": "3",
+      "explicacao": "dim(V)=dim(ker)+dim(Im) → 4=1+x → x=3."
+    }
+  ]
+}

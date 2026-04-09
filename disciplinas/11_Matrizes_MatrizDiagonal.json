@@ -1,0 +1,99 @@
+{
+  "id": "matriz_nula",
+  "disciplina": "Álgebra Linear",
+  "assunto": "Matriz nula",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "A matriz nula é aquela em que todos os seus elementos são iguais a zero.",
+
+    "explicacao": "A matriz nula é uma matriz em que todos os elementos são iguais a zero.\n\nEla pode ter qualquer dimensão (m x n).\n\nExemplo 2x2:\n[ 0  0 ]\n[ 0  0 ]\n\nExemplo 3x3:\n[ 0  0  0 ]\n[ 0  0  0 ]\n[ 0  0  0 ]\n\nA matriz nula é representada por 0.\n\nPropriedades importantes:\n\n1) A + 0 = A (elemento neutro da soma)\n2) A - A = 0\n3) A · 0 = 0\n\nEla desempenha o papel do número zero na álgebra de matrizes.\n\nA matriz nula é utilizada em diversos contextos, como sistemas lineares e transformações.",
+
+    "intuicao": "A matriz nula representa a ausência total de informação ou efeito.",
+
+    "analogia": "Assim como o número zero representa 'nada', a matriz nula representa uma tabela sem valores diferentes de zero.",
+
+    "aplicacoes": [
+      "Elemento neutro da adição de matrizes",
+      "Representação de transformações que anulam vetores"
+    ],
+
+    "erros_comuns": [
+      "Confundir matriz nula com matriz identidade",
+      "Achar que matriz nula só existe para matrizes quadradas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das matrizes abaixo é uma matriz nula?",
+      "alternativas": [
+        "[[0,0],[0,0]]",
+        "[[1,0],[0,1]]",
+        "[[0,1],[1,0]]",
+        "[[1,1],[1,1]]"
+      ],
+      "resposta": "[[0,0],[0,0]]",
+      "explicacao": "Todos os elementos devem ser zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de A + 0?",
+      "alternativas": [
+        "A",
+        "0",
+        "I",
+        "Depende de A"
+      ],
+      "resposta": "A",
+      "explicacao": "A matriz nula é o elemento neutro da soma."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de A - A?",
+      "alternativas": [
+        "0",
+        "A",
+        "I",
+        "-A"
+      ],
+      "resposta": "0",
+      "explicacao": "Qualquer matriz menos ela mesma resulta na matriz nula."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de A · 0?",
+      "alternativas": [
+        "0",
+        "A",
+        "I",
+        "Depende da matriz"
+      ],
+      "resposta": "0",
+      "explicacao": "Multiplicar por matriz nula resulta em matriz nula."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma matriz nula pode ter qual dimensão?",
+      "alternativas": [
+        "Qualquer dimensão",
+        "Apenas quadrada",
+        "Apenas 2x2",
+        "Apenas 3x3"
+      ],
+      "resposta": "Qualquer dimensão",
+      "explicacao": "Ela pode ser m x n, sem restrição de formato."
+    }
+  ]
+}
