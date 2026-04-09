@@ -1,0 +1,99 @@
+{
+  "id": "equacao_parametrica_do_plano",
+  "disciplina": "Matemática",
+  "assunto": "Equação Paramétrica do Plano",
+  "ordem": 43,
+
+  "teoria": {
+    "resumo": "A equação paramétrica do plano expressa as coordenadas de seus pontos em função de dois parâmetros.",
+
+    "explicacao": "A equação paramétrica do plano é uma forma de representar um plano no espaço tridimensional a partir de um ponto e dois vetores diretores.\n\nPartindo da forma vetorial:\n\nr(s, t) = r0 + s·v + t·w\n\nPodemos escrever separadamente as coordenadas:\n\nx = x0 + a·s + b·t\ny = y0 + c·s + d·t\nz = z0 + e·s + f·t\n\nOnde:\n- (x0, y0, z0) é um ponto do plano\n- v = (a, c, e) e w = (b, d, f) são vetores diretores\n- s e t são parâmetros reais\n\nExemplo:\nSe temos o ponto P0 = (1, 2, 3) e vetores:\n\nv = (1, 0, 2)\nw = (0, 1, -1)\n\nAs equações paramétricas são:\n\nx = 1 + s\ny = 2 + t\nz = 3 + 2s - t\n\nCada par (s, t) gera um ponto do plano.\n\nObservação:\nOs vetores diretores devem ser linearmente independentes (não paralelos), caso contrário não formam um plano.",
+
+    "intuicao": "Você controla duas 'direções independentes' para alcançar qualquer ponto do plano.",
+
+    "analogia": "É como andar em um piso: você pode se mover para frente/trás (s) e para os lados (t), cobrindo toda a superfície.",
+
+    "aplicacoes": [
+      "Representação de superfícies em computação gráfica",
+      "Modelagem matemática em física e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Usar vetores diretores paralelos",
+      "Confundir parâmetros com coordenadas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos parâmetros são usados na equação paramétrica do plano?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "Nenhum"
+      ],
+      "resposta": "2",
+      "explicacao": "São necessários dois parâmetros (geralmente s e t) para gerar todos os pontos do plano."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação paramétrica do plano, os coeficientes dos parâmetros representam:",
+      "alternativas": [
+        "Pontos do plano",
+        "Vetores diretores",
+        "Vetores normais",
+        "Constantes irrelevantes"
+      ],
+      "resposta": "Vetores diretores",
+      "explicacao": "Os coeficientes de s e t formam os vetores diretores do plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dado P0 = (0,0,0), v = (1,1,0) e w = (0,1,1), qual é a equação paramétrica?",
+      "alternativas": [
+        "x = s, y = s + t, z = t",
+        "x = s + t, y = s, z = t",
+        "x = s, y = t, z = s + t",
+        "x = 1 + s, y = 1 + t, z = 0"
+      ],
+      "resposta": "x = s, y = s + t, z = t",
+      "explicacao": "Somando os vetores: (s, s, 0) + (0, t, t) = (s, s+t, t)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores diretores são paralelos, a equação paramétrica representa:",
+      "alternativas": [
+        "Um plano",
+        "Uma reta",
+        "Um ponto",
+        "Nada"
+      ],
+      "resposta": "Uma reta",
+      "explicacao": "Vetores paralelos não geram um plano, apenas uma direção única."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual ponto pertence ao plano x = 1 + s, y = 2 + s + t, z = 3 + t para s=1 e t=2?",
+      "alternativas": [
+        "(2, 5, 5)",
+        "(2, 4, 5)",
+        "(1, 2, 3)",
+        "(3, 6, 5)"
+      ],
+      "resposta": "(2, 5, 5)",
+      "explicacao": "Substituindo: x=2, y=2+1+2=5, z=3+2=5."
+    }
+  ]
+}
