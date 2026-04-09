@@ -1,0 +1,103 @@
+{
+  "id": "39_Termodinamica_DilatacaoTermica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Dilatação térmica",
+  "ordem": 39,
+
+  "teoria": {
+    "resumo": "A dilatação térmica é a variação das dimensões de um corpo quando sua temperatura varia.",
+
+    "explicacao": "A dilatação térmica ocorre quando um corpo sofre variação de temperatura, provocando mudanças em suas dimensões.\n\nIsso acontece porque o aumento da temperatura eleva a agitação das partículas, fazendo com que elas se afastem.\n\nTipos de dilatação:\n\n1) Dilatação linear:\nOcorre em uma dimensão (comprimento).\n\nΔL = L₀ α ΔT\n\nOnde:\n- ΔL é a variação do comprimento\n- L₀ é o comprimento inicial\n- α é o coeficiente de dilatação linear\n- ΔT é a variação de temperatura\n\n2) Dilatação superficial:\nOcorre em duas dimensões (área).\n\nΔA = A₀ β ΔT\n\n3) Dilatação volumétrica:\nOcorre em três dimensões (volume).\n\nΔV = V₀ γ ΔT\n\nRelações importantes:\n- β ≈ 2α\n- γ ≈ 3α\n\nCaracterísticas importantes:\n- Depende do material (coeficiente α)\n- Depende da variação de temperatura\n- Sólidos, líquidos e gases dilatam de formas diferentes\n\nExemplos práticos:\n- Trilhos de trem com espaços entre eles\n- Pontes com juntas de dilatação\n- Termômetros\n\nA dilatação térmica é essencial para entender comportamentos de materiais em diferentes temperaturas.",
+
+    "intuicao": "Quando esquenta, as partículas se afastam e o corpo aumenta de tamanho.",
+
+    "analogia": "É como pessoas em uma sala:\n- Mais agitação → precisam de mais espaço",
+
+    "aplicacoes": [
+      "Construção de pontes e estruturas",
+      "Termômetros",
+      "Engenharia de materiais",
+      "Controle térmico em sistemas industriais"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que a dilatação depende do material",
+      "Confundir os coeficientes α, β e γ",
+      "Achar que apenas sólidos dilatam",
+      "Ignorar a variação de temperatura"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que causa a dilatação térmica?",
+      "alternativas": [
+        "Diminuição da temperatura",
+        "Aumento da agitação das partículas",
+        "Pressão externa",
+        "Força gravitacional"
+      ],
+      "resposta": "Aumento da agitação das partículas",
+      "explicacao": "O aumento da temperatura aumenta a agitação."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fórmula representa a dilatação linear?",
+      "alternativas": [
+        "ΔL = L₀ α ΔT",
+        "ΔV = V₀ γ ΔT",
+        "ΔA = A₀ β ΔT",
+        "ΔL = Tα"
+      ],
+      "resposta": "ΔL = L₀ α ΔT",
+      "explicacao": "Essa é a expressão da dilatação linear."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a temperatura aumenta, o comprimento geralmente:",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Aumenta",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "A dilatação faz o corpo expandir."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação aproximada entre os coeficientes?",
+      "alternativas": [
+        "β = α",
+        "γ = α",
+        "γ ≈ 3α",
+        "β ≈ α/2"
+      ],
+      "resposta": "γ ≈ 3α",
+      "explicacao": "O coeficiente volumétrico é cerca de três vezes o linear."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que trilhos de trem têm espaços entre eles?",
+      "alternativas": [
+        "Para estética",
+        "Para evitar dilatação",
+        "Para permitir dilatação térmica",
+        "Para reduzir peso"
+      ],
+      "resposta": "Para permitir dilatação térmica",
+      "explicacao": "Sem espaço, poderiam deformar."
+    }
+  ]
+}
