@@ -1,0 +1,106 @@
+{
+  "id": "52_Termodinamica_SegundaLei_Entropia",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - 2ª Lei da Termodinâmica: entropia",
+  "ordem": 52,
+
+  "teoria": {
+    "resumo": "A entropia é uma grandeza termodinâmica que mede o grau de desordem de um sistema e indica a direção natural dos processos físicos.",
+
+    "explicacao": "A Segunda Lei da Termodinâmica estabelece que os processos naturais possuem um sentido preferencial e que a energia tende a se dispersar.\n\nEssa lei pode ser expressa por meio do conceito de entropia, uma grandeza física que mede o grau de desordem ou a dispersão da energia em um sistema.\n\nEm termos matemáticos, a variação de entropia em um processo reversível é dada por:\n\nΔS = Q_rev / T\n\nOnde:\n- ΔS é a variação da entropia (J/K)\n- Q_rev é o calor trocado reversivelmente (J)\n- T é a temperatura absoluta (K)\n\nPrincípios fundamentais da Segunda Lei:\n\n1) Princípio de Clausius:\nO calor não flui espontaneamente de um corpo frio para um corpo quente.\n\n2) Princípio de Kelvin-Planck:\nÉ impossível construir uma máquina térmica que converta integralmente calor em trabalho.\n\nInterpretação da entropia:\n- Quanto maior a entropia, maior a desordem do sistema.\n- Sistemas naturais evoluem para estados de maior entropia.\n\nPara o universo:\n\nΔS_universo ≥ 0\n\nIsso implica que:\n- Processos reversíveis: ΔS_universo = 0\n- Processos irreversíveis: ΔS_universo > 0\n\nExemplos de aumento de entropia:\n- Derretimento do gelo\n- Difusão de gases\n- Mistura de substâncias\n- Transferência de calor do quente para o frio\n\nInterpretação microscópica:\nA entropia também pode ser descrita pela equação de Boltzmann:\n\nS = k_B ln(Ω)\n\nOnde:\n- S é a entropia\n- k_B é a constante de Boltzmann (1,38 × 10⁻²³ J/K)\n- Ω é o número de microestados possíveis\n\nCaracterísticas importantes:\n- A entropia indica a irreversibilidade dos processos naturais.\n- Define a eficiência máxima das máquinas térmicas.\n- Está associada à dispersão de energia.\n\nExemplos práticos:\n- Funcionamento de motores térmicos\n- Geladeiras e ar-condicionado\n- Processos industriais\n- Evolução do universo.",
+
+    "intuicao": "A natureza tende espontaneamente ao aumento da desordem e à dispersão da energia.",
+
+    "analogia": "É mais fácil bagunçar um quarto do que organizá-lo; da mesma forma, a entropia tende a aumentar naturalmente.",
+
+    "aplicacoes": [
+      "Motores térmicos e usinas de energia",
+      "Refrigeração e ar-condicionado",
+      "Processos químicos e industriais",
+      "Engenharia mecânica e energética",
+      "Cosmologia e evolução do universo",
+      "Estudo da irreversibilidade dos processos naturais"
+    ],
+
+    "erros_comuns": [
+      "Confundir entropia com energia",
+      "Achar que a entropia sempre aumenta em sistemas isolados individuais em vez do universo",
+      "Ignorar a necessidade da temperatura em Kelvin",
+      "Supor que processos naturais são totalmente reversíveis",
+      "Interpretar entropia apenas como 'bagunça', sem considerar a dispersão de energia"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que a entropia mede?",
+      "alternativas": [
+        "A energia total do sistema",
+        "O grau de desordem de um sistema",
+        "A pressão de um gás",
+        "A quantidade de calor armazenada"
+      ],
+      "resposta": "O grau de desordem de um sistema",
+      "explicacao": "A entropia está associada à desordem e à dispersão da energia."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da entropia no Sistema Internacional?",
+      "alternativas": [
+        "J",
+        "J/K",
+        "W",
+        "Pa"
+      ],
+      "resposta": "J/K",
+      "explicacao": "A unidade da entropia é joule por kelvin."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da variação de entropia em um processo reversível?",
+      "alternativas": [
+        "ΔS = Q/T",
+        "ΔS = mcΔT",
+        "ΔS = PV",
+        "ΔS = nRT"
+      ],
+      "resposta": "ΔS = Q/T",
+      "explicacao": "Para processos reversíveis, ΔS = Q_rev/T."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "De acordo com a Segunda Lei da Termodinâmica, a entropia do universo:",
+      "alternativas": [
+        "Sempre diminui",
+        "Permanece constante",
+        "Sempre aumenta ou permanece constante",
+        "É sempre nula"
+      ],
+      "resposta": "Sempre aumenta ou permanece constante",
+      "explicacao": "A entropia do universo nunca diminui."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual expressão relaciona a entropia com a mecânica estatística?",
+      "alternativas": [
+        "PV = nRT",
+        "ΔU = Q − W",
+        "S = k_B ln(Ω)",
+        "Q = mcΔT"
+      ],
+      "resposta": "S = k_B ln(Ω)",
+      "explicacao": "Essa é a equação de Boltzmann para a entropia."
+    }
+  ]
+}
