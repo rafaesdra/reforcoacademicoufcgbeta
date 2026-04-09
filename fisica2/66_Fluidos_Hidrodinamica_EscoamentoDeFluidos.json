@@ -1,0 +1,107 @@
+{
+  "id": "66_Fluidos_Hidrodinamica_EscoamentoDeFluidos",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Hidrodinâmica: escoamento de fluidos",
+  "ordem": 66,
+
+  "teoria": {
+    "resumo": "O escoamento de fluidos estuda o movimento dos líquidos e gases e as condições que influenciam seu comportamento.",
+
+    "explicacao": "A Hidrodinâmica é o ramo da Física que estuda os fluidos em movimento. O escoamento ocorre quando há deslocamento de um fluido devido a diferenças de pressão, gravidade ou ação de forças externas.\n\nUm fluido pode ser um líquido ou um gás e seu movimento é descrito por grandezas como velocidade, pressão e vazão.\n\nTipos de escoamento:\n\n1) Escoamento Laminar:\nCaracteriza-se por camadas paralelas que se movem de forma ordenada e sem turbulência.\n- Ocorre em baixas velocidades.\n- Apresenta trajetória bem definida.\n- Possui baixa dissipação de energia.\n\n2) Escoamento Turbulento:\nCaracteriza-se por movimentos irregulares e caóticos.\n- Ocorre em altas velocidades.\n- Apresenta formação de redemoinhos.\n- Provoca maior perda de energia.\n\nNúmero de Reynolds:\nO regime de escoamento pode ser determinado pelo número de Reynolds:\n\nRe = (ρ v D) / η\n\nOnde:\n- Re é o número de Reynolds;\n- ρ é a densidade do fluido (kg/m³);\n- v é a velocidade do fluido (m/s);\n- D é o diâmetro do tubo (m);\n- η é a viscosidade dinâmica do fluido (Pa·s).\n\nClassificação do escoamento em tubos:\n- Re < 2000: escoamento laminar;\n- 2000 ≤ Re ≤ 4000: regime de transição;\n- Re > 4000: escoamento turbulento.\n\nClassificação quanto ao comportamento do fluxo:\n\n• Escoamento Estacionário (ou Permanente):\nAs propriedades do fluido não variam com o tempo em um ponto fixo.\n\n• Escoamento Não Estacionário:\nAs propriedades variam com o tempo.\n\n• Escoamento Incompressível:\nA densidade permanece constante (comum em líquidos).\n\n• Escoamento Compressível:\nA densidade varia significativamente (comum em gases).\n\n• Escoamento Rotacional e Irrotacional:\nRelacionam-se à presença ou ausência de vorticidade no fluido.\n\nVazão:\nA vazão volumétrica representa o volume de fluido que atravessa uma seção por unidade de tempo:\n\nQ = V / t\n\nPara um fluido em movimento uniforme:\n\nQ = A v\n\nOnde:\n- Q é a vazão (m³/s);\n- A é a área da seção transversal (m²);\n- v é a velocidade do fluido (m/s).\n\nCaracterísticas importantes:\n- O escoamento ocorre devido a diferenças de pressão;\n- Pode ser descrito por leis de conservação da massa e da energia;\n- É a base para o estudo das equações da continuidade e de Bernoulli.\n\nExemplos práticos:\n- Escoamento de água em tubulações;\n- Fluxo sanguíneo no corpo humano;\n- Correntes oceânicas e atmosféricas;\n- Sistemas de irrigação;\n- Aerodinâmica de aviões e automóveis;\n- Transporte de petróleo e gás.",
+
+    "intuicao": "O escoamento de fluidos descreve como líquidos e gases se movimentam sob a ação de forças e diferenças de pressão.",
+
+    "analogia": "O fluxo de veículos em uma rodovia ilustra os regimes de escoamento: tráfego organizado representa o fluxo laminar, enquanto congestionamentos e movimentos desordenados representam o fluxo turbulento.",
+
+    "aplicacoes": [
+      "Projeto de tubulações e sistemas hidráulicos",
+      "Engenharia aeronáutica e naval",
+      "Fluxo sanguíneo na medicina",
+      "Indústria petroquímica",
+      "Sistemas de irrigação",
+      "Meteorologia e oceanografia"
+    ],
+
+    "erros_comuns": [
+      "Confundir escoamento laminar com turbulento",
+      "Ignorar os efeitos da viscosidade",
+      "Desconsiderar a influência da pressão no movimento dos fluidos",
+      "Utilizar unidades incorretas para vazão",
+      "Acreditar que líquidos são sempre incompressíveis em qualquer condição",
+      "Interpretar incorretamente o número de Reynolds"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ramo da Física que estuda os fluidos em movimento?",
+      "alternativas": [
+        "Hidrostática",
+        "Hidrodinâmica",
+        "Termodinâmica",
+        "Cinemática"
+      ],
+      "resposta": "Hidrodinâmica",
+      "explicacao": "A Hidrodinâmica é responsável pelo estudo dos fluidos em movimento."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de escoamento é caracterizado por camadas paralelas e ordenadas?",
+      "alternativas": [
+        "Turbulento",
+        "Caótico",
+        "Laminar",
+        "Compressível"
+      ],
+      "resposta": "Laminar",
+      "explicacao": "No escoamento laminar, o fluido se move em camadas organizadas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da vazão volumétrica?",
+      "alternativas": [
+        "Q = F/A",
+        "Q = A/v",
+        "Q = Av",
+        "Q = ρgh"
+      ],
+      "resposta": "Q = Av",
+      "explicacao": "A vazão volumétrica é o produto da área da seção transversal pela velocidade do fluido."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O número de Reynolds é utilizado para determinar:",
+      "alternativas": [
+        "A densidade do fluido",
+        "O regime de escoamento",
+        "A pressão hidrostática",
+        "A temperatura do fluido"
+      ],
+      "resposta": "O regime de escoamento",
+      "explicacao": "O número de Reynolds indica se o escoamento é laminar ou turbulento."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um fluido escoa em um tubo de área 0,02 m² com velocidade de 3 m/s. Qual é a vazão volumétrica?",
+      "alternativas": [
+        "0,006 m³/s",
+        "0,06 m³/s",
+        "0,6 m³/s",
+        "6 m³/s"
+      ],
+      "resposta": "0,06 m³/s",
+      "explicacao": "Q = Av = 0,02 × 3 = 0,06 m³/s."
+    }
+  ]
+}
