@@ -38,5 +38,28 @@
     {"titulo": "Ondas Sonoras - Nível em Decibéis", "path": "35_Ondas_Som_NivelEmDecibeis.json"},
     {"titulo": "Ondas Sonoras - Efeito Doppler", "path": "36_Ondas_Som_EfeitoDoppler.json"},
     {"titulo": "Ondas Sonoras - Ressonância em Tubos", "path": "37_Ondas_Som_RessonanciaEmTubos.json"}
+    {"titulo": "Termodinâmica - Temperatura e Escalas Termométricas", "path": "38_Termodinamica_TemperaturaEscalasTermometricas.json"},
+    {"titulo": "Termodinâmica - Dilatação Térmica", "path": "39_Termodinamica_DilatacaoTermica.json"},
+    {"titulo": "Termodinâmica - Calor e Calor Específico", "path": "40_Termodinamica_Calor_CalorEspecifico.json"},
+    {"titulo": "Termodinâmica - Capacidade Térmica", "path": "41_Termodinamica_CapacidadeTermica.json"},
+    {"titulo": "Termodinâmica - Calor Latente", "path": "42_Termodinamica_Calor_Latente.json"},
+    {"titulo": "Termodinâmica - Transferência de Calor: Condução", "path": "43_Termodinamica_TransferenciaDeCalor_Conducao.json"},
+    {"titulo": "Termodinâmica - Transferência de Calor: Convecção", "path": "44_Termodinamica_TransferenciaDeCalor_Conveccao.json"},
+    {"titulo": "Termodinâmica - Transferência de Calor: Radiação", "path": "45_Termodinamica_TransferenciaDeCalor_Radiacao.json"},
+    {"titulo": "Termodinâmica - Gases Ideais: Equação de Estado", "path": "46_Termodinamica_GasesIdeais_EquacaoDeEstado.json"},
+    {"titulo": "Termodinâmica - Transformações Gasosas: Isotérmica", "path": "47_Termodinamica_Transformacoes_Isotermica.json"},
+    {"titulo": "Termodinâmica - Transformações Gasosas: Isobárica", "path": "48_Termodinamica_Transformacoes_Isobarica.json"},
+    {"titulo": "Termodinâmica - Transformações Gasosas: Isocórica", "path": "49_Termodinamica_Transformacoes_Isocorica.json"},
+    {"titulo": "Termodinâmica - Transformações Gasosas: Adiabática", "path": "50_Termodinamica_Transformacoes_Adiabatica.json"},
+    {"titulo": "Termodinâmica - 1ª Lei da Termodinâmica", "path": "51_Termodinamica_PrimeiraLeiDaTermodinamica.json"},
+    {"titulo": "Termodinâmica - 2ª Lei da Termodinâmica: Entropia", "path": "52_Termodinamica_SegundaLei_Entropia.json"},
+    {"titulo": "Termodinâmica - 2ª Lei da Termodinâmica: Máquinas Térmicas", "path": "53_Termodinamica_SegundaLei_MaquinasTermicas.json"},
+    {"titulo": "Termodinâmica - 2ª Lei da Termodinâmica: Refrigeradores", "path": "54_Termodinamica_SegundaLei_Refrigeradores.json"},
+    {"titulo": "Termodinâmica - Ciclo de Carnot", "path": "55_Termodinamica_CicloDeCarnot.json"},
+    {"titulo": "Termodinâmica - Eficiência Térmica", "path": "56_Termodinamica_EficienciaTermica.json"},
+    {"titulo": "Termodinâmica - Bombas de Calor", "path": "57_Termodinamica_BombasDeCalor.json"},
+    {"titulo": "Termodinâmica - Processos Reversíveis e Irreversíveis", "path": "58_Termodinamica_ProcessosReversiveisEIrreversiveis.json"},
+    {"titulo": "Termodinâmica - Entropia Aplicada", "path": "59_Termodinamica_EntropiaAplicada.json"},
+    {"titulo": "Termodinâmica - Revisão Geral", "path": "60_Termodinamica_RevisaoGeral.json"}
   ]
 }
