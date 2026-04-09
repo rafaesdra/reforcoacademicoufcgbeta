@@ -1,0 +1,99 @@
+{
+  "id": "calculo_determinantes_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Cálculo com Determinantes",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "Determinantes são usados para calcular áreas, verificar alinhamento e realizar o produto vetorial.",
+
+    "explicacao": "Determinantes são ferramentas matemáticas muito importantes na Álgebra Vetorial.\n\n1) Determinante 2x2:\n\n|a  b|\n|c  d|\n\nResultado:\nad - bc\n\nExemplo:\n|2 3|\n|1 4| = (2*4) - (3*1) = 8 - 3 = 5\n\nAplicação:\n- Cálculo de área de paralelogramo no plano\n- Verificação de colinearidade (se o determinante = 0)\n\n\n2) Determinante 3x3:\n\n|i  j  k|\n|a1 a2 a3|\n|b1 b2 b3|\n\nUsado no cálculo do produto vetorial.\n\nExemplo:\nA = (1,2,3) e B = (4,5,6)\n\nA × B = |\n i   j   k\n 1   2   3\n 4   5   6\n|\n\n= i(2*6 - 3*5) - j(1*6 - 3*4) + k(1*5 - 2*4)\n\n= i(12 - 15) - j(6 - 12) + k(5 - 8)\n\n= (-3)i - (-6)j + (-3)k\n\n= (-3, 6, -3)\n\n\nInterpretação geométrica:\n- Determinante 2x2 → área no plano\n- Determinante 3x3 → volume e orientação no espaço\n\nCasos importantes:\n- Determinante = 0 → vetores dependentes ou colineares\n- Determinante ≠ 0 → vetores independentes\n\nEssa ferramenta é essencial para cálculos mais avançados em vetores.",
+
+    "intuicao": "O determinante mede 'quanto espaço' os vetores ocupam juntos (área ou volume).",
+
+    "analogia": "É como medir o tamanho de um terreno formado por dois ou três vetores.",
+
+    "aplicacoes": [
+      "Cálculo de áreas e volumes",
+      "Verificação de alinhamento de pontos e vetores"
+    ],
+
+    "erros_comuns": [
+      "Errar a ordem dos sinais no determinante",
+      "Esquecer o sinal negativo no termo do meio (regra de Sarrus ou expansão)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor do determinante |1 2; 3 4|?",
+      "alternativas": [
+        "-2",
+        "2",
+        "10",
+        "5"
+      ],
+      "resposta": "-2",
+      "explicacao": "(1*4) - (2*3) = 4 - 6 = -2."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o determinante de dois vetores no plano é zero, eles são:",
+      "alternativas": [
+        "Colineares",
+        "Perpendiculares",
+        "Iguais",
+        "Independentes"
+      ],
+      "resposta": "Colineares",
+      "explicacao": "Determinante zero indica que os vetores estão na mesma linha."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor do determinante |2 1; 4 2|?",
+      "alternativas": [
+        "0",
+        "2",
+        "4",
+        "-2"
+      ],
+      "resposta": "0",
+      "explicacao": "(2*2) - (1*4) = 4 - 4 = 0."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O determinante 3x3 é usado principalmente para:",
+      "alternativas": [
+        "Calcular produto vetorial",
+        "Somar vetores",
+        "Multiplicar escalares",
+        "Calcular distância"
+      ],
+      "resposta": "Calcular produto vetorial",
+      "explicacao": "Ele é usado na expansão do produto vetorial."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,2,3) e B = (2,4,6), qual é A × B?",
+      "alternativas": [
+        "(0,0,0)",
+        "(1,2,3)",
+        "(2,4,6)",
+        "(-1,0,1)"
+      ],
+      "resposta": "(0,0,0)",
+      "explicacao": "B é múltiplo de A → vetores paralelos → produto vetorial nulo."
+    }
+  ]
+}
