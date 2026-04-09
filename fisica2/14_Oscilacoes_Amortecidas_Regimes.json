@@ -1,0 +1,102 @@
+{
+  "id": "14_Oscilacoes_Amortecidas_Regimes",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações amortecidas - Regimes de amortecimento",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "O comportamento de um sistema amortecido depende da intensidade da resistência, podendo ser subamortecido, criticamente amortecido ou superamortecido.",
+
+    "explicacao": "Em sistemas com força de resistência, o tipo de movimento depende da intensidade do amortecimento.\n\nA equação geral do sistema é:\nm a = -kx - bv\n\nO comportamento do sistema depende da relação entre o coeficiente de amortecimento (b), a massa (m) e a constante elástica (k).\n\nExistem três regimes principais:\n\n1) Regime subamortecido (b pequeno):\nO sistema ainda oscila, mas com amplitude decrescente ao longo do tempo.\n\nCaracterísticas:\n- Movimento oscilatório\n- Amplitude diminui gradualmente\n- Energia é dissipada lentamente\n\n2) Regime criticamente amortecido:\nÉ o limite entre oscilar e não oscilar.\n\nCaracterísticas:\n- Não há oscilações\n- O sistema retorna ao equilíbrio no menor tempo possível\n- Muito usado em engenharia (ex: amortecedores ideais)\n\n3) Regime superamortecido (b grande):\nO sistema retorna ao equilíbrio lentamente, sem oscilar.\n\nCaracterísticas:\n- Sem oscilações\n- Retorno mais lento que o caso crítico\n- Forte dissipação de energia\n\nEsses regimes podem ser analisados matematicamente pela equação característica do sistema.\n\nUma forma comum de expressar a condição é através do discriminante:\n\n- b² < 4mk → subamortecido\n- b² = 4mk → criticamente amortecido\n- b² > 4mk → superamortecido\n\nEsses três comportamentos são fundamentais para projetar sistemas mecânicos e elétricos que controlam vibrações e movimentos.",
+
+    "intuicao": "Pouca resistência → o sistema ainda oscila; resistência ideal → volta rápido sem oscilar; muita resistência → volta devagar.",
+
+    "analogia": "É como fechar uma porta:\n- Subamortecido → fica batendo (oscila)\n- Crítico → fecha direto sem bater\n- Superamortecido → fecha muito devagar",
+
+    "aplicacoes": [
+      "Amortecedores de veículos",
+      "Controle de vibrações em estruturas",
+      "Projetos de sistemas mecânicos e elétricos"
+    ],
+
+    "erros_comuns": [
+      "Achar que todo sistema amortecido oscila",
+      "Confundir crítico com superamortecido",
+      "Ignorar o papel do coeficiente b",
+      "Não entender que o regime crítico é o mais eficiente para retorno rápido"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em qual regime o sistema ainda oscila?",
+      "alternativas": [
+        "Superamortecido",
+        "Criticamente amortecido",
+        "Subamortecido",
+        "Nenhum"
+      ],
+      "resposta": "Subamortecido",
+      "explicacao": "No regime subamortecido ainda há oscilações."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual regime retorna ao equilíbrio no menor tempo sem oscilar?",
+      "alternativas": [
+        "Subamortecido",
+        "Superamortecido",
+        "Criticamente amortecido",
+        "Oscilatório"
+      ],
+      "resposta": "Criticamente amortecido",
+      "explicacao": "Esse é o regime ideal para retorno rápido sem oscilações."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição representa o regime subamortecido?",
+      "alternativas": [
+        "b² > 4mk",
+        "b² = 4mk",
+        "b² < 4mk",
+        "b = 0"
+      ],
+      "resposta": "b² < 4mk",
+      "explicacao": "Essa condição caracteriza oscilações com amortecimento."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece no regime superamortecido?",
+      "alternativas": [
+        "Oscila com amplitude constante",
+        "Oscila com amplitude crescente",
+        "Não oscila e retorna lentamente",
+        "Retorna instantaneamente"
+      ],
+      "resposta": "Não oscila e retorna lentamente",
+      "explicacao": "No superamortecido, o sistema não oscila e demora mais para voltar."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o regime crítico é importante em engenharia?",
+      "alternativas": [
+        "Porque gera oscilações máximas",
+        "Porque elimina completamente a energia",
+        "Porque permite retorno rápido sem oscilações",
+        "Porque aumenta a amplitude"
+      ],
+      "resposta": "Porque permite retorno rápido sem oscilações",
+      "explicacao": "É o regime ideal para sistemas que precisam estabilizar rapidamente."
+    }
+  ]
+}
