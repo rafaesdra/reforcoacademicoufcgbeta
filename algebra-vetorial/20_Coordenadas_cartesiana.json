@@ -1,0 +1,99 @@
+{
+  "id": "coordenadas_cartesianas",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Coordenadas Cartesianas",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "As coordenadas cartesianas representam pontos e vetores por meio de números em eixos perpendiculares.",
+
+    "explicacao": "O sistema de coordenadas cartesianas é uma forma de representar pontos e vetores no plano e no espaço.\n\nNo plano (R²):\nUm ponto ou vetor é representado por (x, y), onde:\n- x é a coordenada no eixo horizontal\n- y é a coordenada no eixo vertical\n\nExemplo:\nP = (3,2)\nSignifica 3 unidades na horizontal e 2 na vertical.\n\nNo espaço (R³):\nRepresentamos por (x, y, z), onde:\n- x → eixo horizontal\n- y → eixo lateral\n- z → altura\n\nExemplo:\nP = (1, -2, 4)\n\nRelação com vetores:\nUm vetor pode ser representado pelas mesmas coordenadas.\n\nExemplo:\nV = (3,2)\nV = 3i + 2j\n\nOrigem:\nO ponto (0,0) no plano ou (0,0,0) no espaço é chamado de origem.\n\nDistância e posição:\nAs coordenadas permitem calcular distâncias, direções e posições no espaço.\n\nEsse sistema é a base para toda a geometria analítica.",
+
+    "intuicao": "As coordenadas cartesianas dizem exatamente onde um ponto está no espaço usando direções básicas.",
+
+    "analogia": "É como um endereço em um mapa: você usa ruas horizontais e verticais para localizar um lugar.",
+
+    "aplicacoes": [
+      "Localização de pontos em gráficos e mapas",
+      "Cálculos de distância, velocidade e posição em Física"
+    ],
+
+    "erros_comuns": [
+      "Trocar a ordem das coordenadas (x com y)",
+      "Esquecer o significado dos sinais negativos nos eixos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa o ponto (3,2) no plano?",
+      "alternativas": [
+        "3 unidades no eixo x e 2 no eixo y",
+        "2 unidades no eixo x e 3 no eixo y",
+        "3 unidades no eixo y e 2 no eixo x",
+        "Um vetor nulo"
+      ],
+      "resposta": "3 unidades no eixo x e 2 no eixo y",
+      "explicacao": "A primeira coordenada é x e a segunda é y."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a origem no plano cartesiano?",
+      "alternativas": [
+        "(0,0)",
+        "(1,0)",
+        "(0,1)",
+        "(1,1)"
+      ],
+      "resposta": "(0,0)",
+      "explicacao": "A origem é o ponto onde os eixos se cruzam."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a coordenada do ponto no espaço com 2 no eixo x, -1 no eixo y e 3 no eixo z?",
+      "alternativas": [
+        "(2, -1, 3)",
+        "(2, 3, -1)",
+        "(-1, 2, 3)",
+        "(3, -1, 2)"
+      ],
+      "resposta": "(2, -1, 3)",
+      "explicacao": "A ordem correta é (x, y, z)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor V = (4, -2) pode ser interpretado como:",
+      "alternativas": [
+        "4 unidades para a direita e 2 para baixo",
+        "4 unidades para cima e 2 para a direita",
+        "2 unidades para a direita e 4 para baixo",
+        "4 unidades para a esquerda e 2 para cima"
+      ],
+      "resposta": "4 unidades para a direita e 2 para baixo",
+      "explicacao": "x positivo → direita, y negativo → para baixo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a distância da origem até o ponto (3,4)?",
+      "alternativas": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "resposta": "5",
+      "explicacao": "Distância = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    }
+  ]
+}
