@@ -129,7 +129,47 @@ function voltarAssuntos(){
   document.getElementById("assuntosCard").style.display = "block";
   respostaSelecionada=null;
 }
-function voltarMenu(){ location.reload(); }
+function voltarMenu(){ 
+  // Esconder cards de disciplina
+  const assuntosCard = document.getElementById("assuntosCard");
+  const conteudoCard = document.getElementById("conteudoCard"); 
+  const exercicioCard = document.getElementById("exercicioCard");
+  
+  if (assuntosCard) {
+    assuntosCard.classList.add("hidden");
+    assuntosCard.style.display = "none";
+  }
+  if (conteudoCard) {
+    conteudoCard.classList.add("hidden");
+    conteudoCard.style.display = "none";
+  }
+  if (exercicioCard) {
+    exercicioCard.classList.add("hidden");
+    exercicioCard.style.display = "none";
+  }
+  
+  // Mostrar dashboard e menu de disciplinas
+  const dashboard = document.getElementById("dashboard");
+  const loginCard = document.getElementById("loginCard");
+  const menuCard = document.getElementById("menuCard");
+  
+  if (loginCard) loginCard.style.display = "none";
+  if (dashboard) {
+    dashboard.classList.remove("hidden");
+    dashboard.style.display = "block";
+  }
+  if (menuCard) {
+    menuCard.classList.remove("hidden");
+    menuCard.style.display = "block";
+  }
+  
+  // Carregar disciplinas com um pequeno delay para garantir que o DOM está pronto
+  setTimeout(() => {
+    if (window.carregarDisciplinas) {
+      window.carregarDisciplinas();
+    }
+  }, 100);
+}
 
 export { dados, indice, respostaSelecionada, disciplinaAtual, basePath, questoesAtivas, questaoIndex, construirCaminho, carregarDisciplinas, carregarDisciplina, abrirAssunto, atualizarProgresso, voltarAssuntos, voltarMenu };
 

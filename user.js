@@ -165,9 +165,25 @@ async function logout(){
   // Parar sincronização antes do logout
   pararSincronizacaoRanking();
 
+  // Limpar listener do Firebase
+  if(window.limparAuthListener) {
+    window.limparAuthListener();
+  }
+
   usuarioAtivo = null;
   localStorage.removeItem("usuarioAtivo");
-  location.reload();
+
+  // Resetar interface para tela de login sem recarregar a página
+  document.getElementById("loginCard").style.display = "block";
+  document.getElementById("dashboard").style.display = "none";
+  document.getElementById("assuntosCard").style.display = "none";
+  document.getElementById("conteudoCard").style.display = "none";
+  document.getElementById("exercicioCard").style.display = "none";
+
+  // Limpar campos de login
+  document.getElementById("username").value = "";
+  document.getElementById("password").value = "";
+  document.getElementById("loginMsg").innerText = "";
 }
 
 // === DASHBOARD ===
@@ -739,6 +755,5 @@ window.logout = logout;
 window.salvarMeta = salvarMeta;
 window.mostrarCriarConta = mostrarCriarConta;
 window.mostrarLogin = mostrarLogin;
+window.mostrarDashboard = mostrarDashboard;
 window.verificarNomeUsuario = verificarNomeUsuario;
-window.logout = logout;
-window.salvarMeta = salvarMeta;
