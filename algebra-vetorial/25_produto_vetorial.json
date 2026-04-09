@@ -1,0 +1,99 @@
+{
+  "id": "produto_vetorial",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Produto Vetorial",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "O produto vetorial é uma operação entre dois vetores que resulta em um novo vetor perpendicular a ambos.",
+
+    "explicacao": "O produto vetorial é definido apenas no espaço tridimensional (R³).\n\nSe A = (a1, a2, a3) e B = (b1, b2, b3), então:\n\nA × B = (a2b3 - a3b2, a3b1 - a1b3, a1b2 - a2b1)\n\nOutra forma de calcular é usando determinante:\n\n| i   j   k |\n| a1 a2 a3 |\n| b1 b2 b3 |\n\nExemplo:\nA = (1,0,0) e B = (0,1,0)\n\nA × B = (0,0,1)\n\nInterpretação geométrica:\n- O vetor resultante é perpendicular aos dois vetores\n- Seu sentido é dado pela regra da mão direita\n- Seu módulo é:\n\n|A × B| = |A||B|sen(θ)\n\nOnde θ é o ângulo entre os vetores\n\nCasos importantes:\n- Se A e B são paralelos → A × B = 0\n- Se são perpendiculares → produto é máximo\n\nO produto vetorial também está relacionado à área do paralelogramo formado pelos vetores.",
+
+    "intuicao": "O produto vetorial gera uma nova direção perpendicular ao plano formado pelos dois vetores.",
+
+    "analogia": "É como girar um parafuso: o sentido do avanço segue a regra da mão direita.",
+
+    "aplicacoes": [
+      "Cálculo de área de paralelogramos e triângulos",
+      "Determinação de vetores normais em geometria e física"
+    ],
+
+    "erros_comuns": [
+      "Confundir produto vetorial com produto escalar",
+      "Errar a ordem (A × B ≠ B × A)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto vetorial entre dois vetores resulta em:",
+      "alternativas": [
+        "Um vetor",
+        "Um número",
+        "Uma matriz",
+        "Um escalar negativo"
+      ],
+      "resposta": "Um vetor",
+      "explicacao": "Diferente do produto escalar, o resultado é um vetor."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são paralelos, o produto vetorial é:",
+      "alternativas": [
+        "Zero",
+        "Máximo",
+        "Negativo",
+        "Igual ao vetor"
+      ],
+      "resposta": "Zero",
+      "explicacao": "sen(0°) = 0, então o produto vetorial é nulo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de i × j?",
+      "alternativas": [
+        "k",
+        "-k",
+        "i",
+        "j"
+      ],
+      "resposta": "k",
+      "explicacao": "Pela regra da mão direita: i × j = k."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A × B ≠ 0, o que podemos afirmar?",
+      "alternativas": [
+        "Os vetores não são paralelos",
+        "Os vetores são iguais",
+        "Os vetores são perpendiculares",
+        "Os vetores são nulos"
+      ],
+      "resposta": "Os vetores não são paralelos",
+      "explicacao": "Produto vetorial diferente de zero indica que não são paralelos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (1,0,0) e B = (0,0,1), qual é A × B?",
+      "alternativas": [
+        "(0,-1,0)",
+        "(0,1,0)",
+        "(1,0,0)",
+        "(0,0,1)"
+      ],
+      "resposta": "(0,-1,0)",
+      "explicacao": "Aplicando a regra: i × k = -j → (0,-1,0)."
+    }
+  ]
+}
