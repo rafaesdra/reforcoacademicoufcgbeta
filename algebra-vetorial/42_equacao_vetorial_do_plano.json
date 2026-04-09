@@ -1,0 +1,99 @@
+{
+  "id": "equacao_vetorial_do_plano",
+  "disciplina": "Matemática",
+  "assunto": "Equação Vetorial do Plano",
+  "ordem": 42,
+
+  "teoria": {
+    "resumo": "A equação vetorial do plano descreve um plano a partir de um ponto e dois vetores diretores.",
+
+    "explicacao": "A equação vetorial do plano é uma forma de representar um plano no espaço tridimensional utilizando vetores.\n\nEla é dada por:\n\nr(s, t) = r0 + s·v + t·w\n\nOnde:\n- r(s, t) é um ponto qualquer do plano\n- r0 é o vetor posição de um ponto conhecido do plano\n- v e w são vetores diretores do plano (não paralelos)\n- s e t são parâmetros reais\n\nEsses dois vetores diretores geram todas as direções possíveis dentro do plano.\n\nExemplo:\nSe temos o ponto P0 = (1, 2, 3) e os vetores:\n\nv = (1, 0, 2)\nw = (0, 1, -1)\n\nEntão:\n\n(x, y, z) = (1, 2, 3) + s(1, 0, 2) + t(0, 1, -1)\n\nSeparando as coordenadas:\n\nx = 1 + s\ny = 2 + t\nz = 3 + 2s - t\n\nEssa forma permite gerar qualquer ponto do plano variando s e t.\n\nObservação:\nOs vetores v e w não podem ser paralelos, pois isso não definiria um plano, mas sim uma reta.",
+
+    "intuicao": "Você começa em um ponto e se move em duas direções diferentes, preenchendo toda a superfície do plano.",
+
+    "analogia": "Imagine uma folha de papel: você pode se mover para frente/trás e para os lados — essas duas direções geram toda a superfície.",
+
+    "aplicacoes": [
+      "Modelagem de superfícies em gráficos 3D",
+      "Cálculo de interseções entre planos e retas"
+    ],
+
+    "erros_comuns": [
+      "Usar vetores diretores paralelos",
+      "Confundir vetor diretor com vetor normal"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos vetores diretores são necessários para definir um plano na forma vetorial?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "Nenhum"
+      ],
+      "resposta": "2",
+      "explicacao": "São necessários dois vetores diretores não paralelos para gerar o plano."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação r(s,t) = r0 + s·v + t·w, o vetor r0 representa:",
+      "alternativas": [
+        "Um vetor diretor",
+        "Um ponto do plano",
+        "Um vetor normal",
+        "O parâmetro"
+      ],
+      "resposta": "Um ponto do plano",
+      "explicacao": "r0 é o vetor posição de um ponto conhecido do plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dado P0 = (0,0,0), v = (1,2,0) e w = (0,1,3), qual é a equação vetorial do plano?",
+      "alternativas": [
+        "(x,y,z) = (0,0,0) + s(1,2,0) + t(0,1,3)",
+        "(x,y,z) = (1,2,0) + s(0,1,3)",
+        "(x,y,z) = (0,0,0) + t(1,2,3)",
+        "(x,y,z) = (1,2,3)"
+      ],
+      "resposta": "(x,y,z) = (0,0,0) + s(1,2,0) + t(0,1,3)",
+      "explicacao": "A equação vetorial usa um ponto e dois vetores diretores."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se os vetores diretores de um plano são paralelos, o que ocorre?",
+      "alternativas": [
+        "Define um plano normalmente",
+        "Define uma reta",
+        "Define dois planos",
+        "Não define nada"
+      ],
+      "resposta": "Define uma reta",
+      "explicacao": "Vetores paralelos não geram um plano, apenas uma direção única."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual ponto pertence ao plano (x,y,z) = (1,2,3) + s(1,0,2) + t(0,1,-1) para s=1 e t=2?",
+      "alternativas": [
+        "(2, 4, 3)",
+        "(2, 4, 1)",
+        "(1, 2, 3)",
+        "(3, 3, 5)"
+      ],
+      "resposta": "(2, 4, 3)",
+      "explicacao": "Substituindo: x=1+1=2, y=2+2=4, z=3+2(1)-2=3."
+    }
+  ]
+}
