@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_definicao_vetores",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Definicao de vetores",
+  "ordem": 2,
+
+  "teoria": {
+    "resumo": "Vetores sao entidades matematicas que possuem modulo, direcao e sentido.",
+
+    "explicacao": "Um vetor e uma entidade matematica usada para representar grandezas que possuem intensidade, direcao e sentido.\n\nDiferente de um numero real (escalar), que representa apenas quantidade, um vetor descreve tambem como essa quantidade atua no espaco.\n\nVetores podem ser representados geometricamente como setas, onde o comprimento indica o modulo, a orientacao indica a direcao e a ponta indica o sentido.\n\nNa geometria analitica, vetores podem ser definidos a partir de dois pontos A e B, sendo representados como AB.\n\nEles tambem podem ser escritos em forma de coordenadas, como (x, y) no plano ou (x, y, z) no espaco.\n\nEsses conceitos sao fundamentais para estudar movimentos, forcas e relacoes geometricas no plano e no espaco.",
+
+    "intuicao": "Um vetor pode ser entendido como um deslocamento de um ponto para outro.",
+
+    "analogia": "Imagine um vetor como uma seta que mostra um caminho: ela diz para onde ir, em que direcao e o quanto percorrer.",
+
+    "aplicacoes": [
+      "Representacao de deslocamentos e velocidades",
+      "Analise de forcas em fisica",
+      "Modelagem de trajetorias no espaco"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetor com escalar",
+      "Ignorar direcao e sentido ao interpretar um vetor",
+      "Achar que vetores dependem da posicao e nao apenas do deslocamento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza um vetor?",
+      "alternativas": [
+        "Apenas modulo",
+        "Modulo, direcao e sentido",
+        "Apenas direcao",
+        "Apenas sentido"
+      ],
+      "resposta": "Modulo, direcao e sentido",
+      "explicacao": "Um vetor e definido por tres elementos: modulo, direcao e sentido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa melhor um vetor?",
+      "alternativas": [
+        "Um numero real",
+        "Uma temperatura",
+        "Uma seta no espaco",
+        "Um valor absoluto"
+      ],
+      "resposta": "Uma seta no espaco",
+      "explicacao": "Vetores sao representados geometricamente como setas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das grandezas abaixo e um vetor?",
+      "alternativas": [
+        "Temperatura",
+        "Massa",
+        "Velocidade",
+        "Tempo"
+      ],
+      "resposta": "Velocidade",
+      "explicacao": "Velocidade possui modulo, direcao e sentido, sendo uma grandeza vetorial."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um vetor definido pelos pontos A e B representa:",
+      "alternativas": [
+        "A distancia entre A e B",
+        "O deslocamento de A ate B",
+        "A soma das coordenadas",
+        "A inclinacao da reta"
+      ],
+      "resposta": "O deslocamento de A ate B",
+      "explicacao": "O vetor AB representa o deslocamento do ponto A ate o ponto B."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores sao considerados iguais quando:",
+      "alternativas": [
+        "Possuem mesma origem",
+        "Possuem mesmas coordenadas e mesma direcao e sentido",
+        "Estao no mesmo plano",
+        "Possuem mesmo modulo apenas"
+      ],
+      "resposta": "Possuem mesmas coordenadas e mesma direcao e sentido",
+      "explicacao": "Vetores sao iguais quando possuem mesmo modulo, direcao e sentido, independentemente da posicao."
+    }
+  ]
+}
