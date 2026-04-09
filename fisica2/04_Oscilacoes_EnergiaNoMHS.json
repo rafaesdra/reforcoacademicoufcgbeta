@@ -1,0 +1,102 @@
+{
+  "id": "04_Oscilacoes_EnergiaNoMHS",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Energia no Movimento Harmônico Simples",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "No MHS, a energia mecânica total é constante e ocorre uma troca contínua entre energia cinética e potencial.",
+
+    "explicacao": "No Movimento Harmônico Simples (MHS), a energia do sistema é conservada (na ausência de dissipação). Isso significa que a energia mecânica total permanece constante ao longo do tempo.\n\nExistem dois tipos principais de energia no MHS:\n\n1) Energia Potencial Elástica:\nEstá associada à posição do corpo em relação ao equilíbrio.\nEp = (1/2)kx²\n\nEla é máxima nos extremos (quando x = ±A) e zero na posição de equilíbrio.\n\n2) Energia Cinética:\nEstá associada ao movimento do corpo.\nEc = (1/2)mv²\n\nEla é máxima na posição de equilíbrio (onde a velocidade é máxima) e zero nos extremos.\n\nA energia mecânica total é a soma das duas:\nE = Ec + Ep\n\nNo MHS ideal:\nE = (1/2)kA²\n\nOu seja, a energia total depende apenas da amplitude.\n\nDurante o movimento, ocorre uma troca contínua:\n- Nos extremos: toda energia é potencial\n- No equilíbrio: toda energia é cinética\n- Entre esses pontos: energia é dividida entre as duas\n\nEssa troca é contínua e periódica, acompanhando o movimento oscilatório.\n\nOutra forma útil de escrever a energia total é:\nE = (1/2)mω²A²\n\nEsse conceito é fundamental para resolver problemas sem precisar usar diretamente as equações do movimento.",
+
+    "intuicao": "A energia no MHS fica 'indo e voltando': quando o objeto para, a energia está armazenada; quando ele passa pelo meio, ela vira movimento.",
+
+    "analogia": "É como uma montanha-russa: no topo, tem energia potencial; na descida, vira velocidade (energia cinética).",
+
+    "aplicacoes": [
+      "Análise de sistemas massa-mola",
+      "Estudo de vibrações mecânicas",
+      "Resolução de problemas sem uso direto de equações do movimento"
+    ],
+
+    "erros_comuns": [
+      "Achar que a energia total muda ao longo do tempo (no MHS ideal ela é constante)",
+      "Confundir onde a energia cinética é máxima (é no equilíbrio)",
+      "Esquecer que a energia potencial é máxima nos extremos",
+      "Não perceber que a energia depende da amplitude"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a energia cinética é máxima no MHS?",
+      "alternativas": [
+        "Nos extremos",
+        "Na posição de equilíbrio",
+        "Em qualquer ponto",
+        "Quando a aceleração é máxima"
+      ],
+      "resposta": "Na posição de equilíbrio",
+      "explicacao": "No equilíbrio, a velocidade é máxima, então a energia cinética também é máxima."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a energia potencial elástica é máxima?",
+      "alternativas": [
+        "Na posição de equilíbrio",
+        "Nos extremos",
+        "Quando a velocidade é máxima",
+        "Nunca é máxima"
+      ],
+      "resposta": "Nos extremos",
+      "explicacao": "Nos extremos, o deslocamento é máximo, então Ep = (1/2)kx² é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da energia mecânica total no MHS?",
+      "alternativas": [
+        "E = (1/2)mv",
+        "E = kx",
+        "E = (1/2)kA²",
+        "E = mv²"
+      ],
+      "resposta": "E = (1/2)kA²",
+      "explicacao": "A energia total depende apenas da amplitude no MHS ideal."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o corpo está em x = 0, qual é a situação energética?",
+      "alternativas": [
+        "Toda energia é potencial",
+        "Toda energia é cinética",
+        "Energia é zero",
+        "Energia é indefinida"
+      ],
+      "resposta": "Toda energia é cinética",
+      "explicacao": "Na posição de equilíbrio, a velocidade é máxima e a energia potencial é zero."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a amplitude de um MHS dobra, o que acontece com a energia total?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Quadruplica",
+        "Permanece igual"
+      ],
+      "resposta": "Quadruplica",
+      "explicacao": "Como E = (1/2)kA², ao dobrar A, a energia aumenta por um fator 4."
+    }
+  ]
+}
