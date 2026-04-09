@@ -1,0 +1,99 @@
+{
+  "id": "operacoes_com_vetores",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Operações com Vetores",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "As operações com vetores envolvem soma, subtração, multiplicação por escalar e produto escalar.",
+
+    "explicacao": "As operações com vetores são fundamentais para manipular grandezas vetoriais.\n\n1) Soma de vetores:\nPara somar dois vetores, somamos suas componentes correspondentes.\nExemplo:\nA = (2, 3) e B = (1, 4)\nA + B = (2+1, 3+4) = (3, 7)\n\n2) Subtração de vetores:\nSubtrair vetores é somar com o oposto.\nA - B = (2-1, 3-4) = (1, -1)\n\n3) Multiplicação por escalar:\nMultiplicamos cada componente do vetor por um número real.\nExemplo:\n2A = (2*2, 2*3) = (4, 6)\n\n4) Produto escalar:\nMultiplicamos as componentes correspondentes e somamos os resultados.\nA · B = (2*1 + 3*4) = 2 + 12 = 14\n\nEssas operações podem ser feitas tanto no plano (2D) quanto no espaço (3D).",
+
+    "intuicao": "Operar vetores é como combinar direções e intensidades para obter um novo resultado.",
+
+    "analogia": "Imagine vetores como forças puxando um objeto. Somar vetores é juntar essas forças para ver o efeito final.",
+
+    "aplicacoes": [
+      "Cálculo de forças resultantes na Física",
+      "Movimentação e direção em jogos e gráficos computacionais"
+    ],
+
+    "erros_comuns": [
+      "Somar vetores sem respeitar as componentes correspondentes",
+      "Confundir produto escalar com multiplicação comum"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dado A = (1, 2) e B = (3, 4), qual é A + B?",
+      "alternativas": [
+        "(4, 6)",
+        "(3, 6)",
+        "(4, 5)",
+        "(2, 6)"
+      ],
+      "resposta": "(4, 6)",
+      "explicacao": "Somamos componente a componente: (1+3, 2+4) = (4, 6)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (5, 2) e B = (1, 3), qual é A - B?",
+      "alternativas": [
+        "(4, -1)",
+        "(6, 5)",
+        "(4, 1)",
+        "(5, -1)"
+      ],
+      "resposta": "(4, -1)",
+      "explicacao": "Subtraímos componente a componente: (5-1, 2-3) = (4, -1)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado de 3A, sendo A = (2, -1)?",
+      "alternativas": [
+        "(6, -3)",
+        "(5, -2)",
+        "(6, -1)",
+        "(3, -3)"
+      ],
+      "resposta": "(6, -3)",
+      "explicacao": "Multiplicamos cada componente por 3: (3*2, 3*(-1)) = (6, -3)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o produto escalar de A = (1, 2) e B = (3, 5)?",
+      "alternativas": [
+        "13",
+        "10",
+        "8",
+        "15"
+      ],
+      "resposta": "13",
+      "explicacao": "Produto escalar: (1*3 + 2*5) = 3 + 10 = 13."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A = (2, 1) e B = (x, 3), e A · B = 11, qual é o valor de x?",
+      "alternativas": [
+        "4",
+        "5",
+        "3",
+        "2"
+      ],
+      "resposta": "4",
+      "explicacao": "Produto escalar: (2*x + 1*3) = 11 → 2x + 3 = 11 → 2x = 8 → x = 4."
+    }
+  ]
+}
