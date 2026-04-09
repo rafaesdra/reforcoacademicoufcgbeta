@@ -1,0 +1,102 @@
+{
+  "id": "09_Oscilacoes_PenduloFisico",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Pêndulo físico",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "O pêndulo físico é um corpo rígido que oscila em torno de um eixo, com período dependente do momento de inércia.",
+
+    "explicacao": "O pêndulo físico (ou pêndulo composto) é um sistema mais geral que o pêndulo simples.\n\nEle consiste em um corpo rígido qualquer que pode girar em torno de um eixo fixo sob a ação da gravidade.\n\nDiferente do pêndulo simples, onde toda a massa está concentrada em um ponto, aqui a massa está distribuída ao longo do corpo.\n\nA força restauradora gera um torque que tende a levar o sistema de volta à posição de equilíbrio.\n\nO torque é dado por:\nτ = -mgd sen(θ)\n\nOnde:\n- m é a massa do corpo\n- g é a gravidade\n- d é a distância do eixo até o centro de massa\n\nAplicando a dinâmica rotacional:\nτ = Iα\n\nTemos:\nIα = -mgd sen(θ)\n\nPara pequenos ângulos:\nsen(θ) ≈ θ\n\nLogo:\nIα = -mgdθ\n\nComo α = d²θ/dt², obtemos uma equação semelhante ao MHS.\n\nA frequência angular é:\nω = √(mgd/I)\n\nE o período é:\nT = 2π√(I/(mgd))\n\nOnde:\n- I é o momento de inércia em relação ao eixo de rotação\n\nPrincipais características:\n- O período depende da distribuição de massa (I)\n- Depende da posição do centro de massa (d)\n- Não depende diretamente da forma, mas sim de como a massa está distribuída\n\nSe toda a massa estivesse concentrada em um ponto a uma distância L, teríamos o caso do pêndulo simples.\n\nO pêndulo físico é um modelo mais realista para objetos do mundo real, como barras, discos e estruturas.",
+
+    "intuicao": "Quanto mais espalhada a massa, mais difícil é girar o sistema — isso aumenta o período da oscilação.",
+
+    "analogia": "É como empurrar uma porta: se a massa estiver longe da dobradiça, fica mais difícil girar — o movimento fica mais lento.",
+
+    "aplicacoes": [
+      "Oscilações de estruturas rígidas",
+      "Análise de barras e sistemas mecânicos",
+      "Estudo de dinâmica rotacional em engenharia"
+    ],
+
+    "erros_comuns": [
+      "Confundir pêndulo físico com pêndulo simples",
+      "Esquecer o uso do momento de inércia",
+      "Ignorar a necessidade de pequenos ângulos",
+      "Confundir distância d com comprimento total do objeto"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza um pêndulo físico?",
+      "alternativas": [
+        "Uma partícula presa a um fio",
+        "Um corpo rígido oscilando em torno de um eixo",
+        "Um sistema sem gravidade",
+        "Um movimento linear"
+      ],
+      "resposta": "Um corpo rígido oscilando em torno de um eixo",
+      "explicacao": "O pêndulo físico envolve rotação de um corpo rígido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza aparece no pêndulo físico e não no simples?",
+      "alternativas": [
+        "Massa",
+        "Gravidade",
+        "Momento de inércia",
+        "Tempo"
+      ],
+      "resposta": "Momento de inércia",
+      "explicacao": "O momento de inércia descreve como a massa está distribuída."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do período do pêndulo físico?",
+      "alternativas": [
+        "T = 2π√(L/g)",
+        "T = 2π√(I/(mgd))",
+        "T = √(mgd/I)",
+        "T = I/mg"
+      ],
+      "resposta": "T = 2π√(I/(mgd))",
+      "explicacao": "Essa é a fórmula correta para pequenos ângulos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com o período se o momento de inércia aumentar?",
+      "alternativas": [
+        "Diminui",
+        "Aumenta",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Como T ∝ √I, aumentar I aumenta o período."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição é necessária para o pêndulo físico realizar MHS?",
+      "alternativas": [
+        "Alta velocidade",
+        "Grande massa",
+        "Pequenos ângulos",
+        "Ausência de gravidade"
+      ],
+      "resposta": "Pequenos ângulos",
+      "explicacao": "A aproximação sen(θ) ≈ θ só vale para pequenos ângulos."
+    }
+  ]
+}
