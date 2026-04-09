@@ -1,0 +1,102 @@
+{
+  "id": "16_Oscilacoes_Ressonancia_FrequenciaDeRessonancia",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações forçadas e ressonância - Frequência de ressonância",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "A frequência de ressonância é a frequência na qual a amplitude da oscilação forçada atinge seu valor máximo.",
+
+    "explicacao": "A ressonância ocorre em sistemas oscilatórios quando a frequência da força externa se aproxima da frequência natural do sistema.\n\nNessa condição, a transferência de energia para o sistema é máxima, fazendo com que a amplitude da oscilação aumente significativamente.\n\nA frequência natural de um sistema massa-mola é:\nω₀ = √(k/m)\n\nEm um sistema sem amortecimento, a ressonância ocorre exatamente quando:\nω = ω₀\n\nOu seja, quando a frequência da força externa é igual à frequência natural.\n\nNo entanto, em sistemas reais com amortecimento, a frequência de ressonância é ligeiramente menor:\nω_r = √(ω₀² - (b² / 2m²))\n\nOnde:\n- b é o coeficiente de amortecimento\n\nCaracterísticas importantes da ressonância:\n- A amplitude atinge seu valor máximo\n- O sistema absorve energia de forma mais eficiente\n- Pequenas forças podem gerar grandes oscilações\n\nO efeito do amortecimento:\n- Sem amortecimento → amplitude tende ao infinito (ideal teórico)\n- Com pouco amortecimento → grande amplitude\n- Com muito amortecimento → ressonância menos intensa\n\nA ressonância pode ser útil ou perigosa, dependendo da situação.\n\nExemplos importantes:\n- Pontes podem entrar em ressonância e colapsar\n- Instrumentos musicais usam ressonância para amplificar o som\n\nPor isso, compreender a frequência de ressonância é essencial para projetar sistemas seguros e eficientes.",
+
+    "intuicao": "Quando você aplica força no ritmo certo, o sistema responde com máxima intensidade.",
+
+    "analogia": "É como empurrar um balanço no tempo certo: cada empurrão aumenta mais o movimento.",
+
+    "aplicacoes": [
+      "Projetos de estruturas e pontes",
+      "Instrumentos musicais e acústica",
+      "Circuitos elétricos ressonantes"
+    ],
+
+    "erros_comuns": [
+      "Achar que ressonância só ocorre sem amortecimento",
+      "Confundir frequência natural com frequência de ressonância em sistemas reais",
+      "Ignorar o efeito do amortecimento",
+      "Achar que a amplitude sempre cresce indefinidamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando ocorre a ressonância?",
+      "alternativas": [
+        "Quando a força é zero",
+        "Quando a frequência externa é igual à natural",
+        "Quando a velocidade é constante",
+        "Quando não há movimento"
+      ],
+      "resposta": "Quando a frequência externa é igual à natural",
+      "explicacao": "A ressonância ocorre quando ω ≈ ω₀."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a amplitude na ressonância?",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta ao máximo",
+        "Zera"
+      ],
+      "resposta": "Aumenta ao máximo",
+      "explicacao": "Na ressonância, a transferência de energia é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a frequência natural de um sistema massa-mola?",
+      "alternativas": [
+        "ω₀ = k/m",
+        "ω₀ = √(k/m)",
+        "ω₀ = m/k",
+        "ω₀ = √(m/k)"
+      ],
+      "resposta": "ω₀ = √(k/m)",
+      "explicacao": "Essa é a expressão da frequência angular natural."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que o amortecimento faz com a ressonância?",
+      "alternativas": [
+        "Aumenta indefinidamente a amplitude",
+        "Diminui o efeito da ressonância",
+        "Elimina a frequência natural",
+        "Não altera nada"
+      ],
+      "resposta": "Diminui o efeito da ressonância",
+      "explicacao": "O amortecimento reduz a amplitude máxima."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em sistemas reais, a frequência de ressonância é:",
+      "alternativas": [
+        "Igual à frequência natural",
+        "Maior que a frequência natural",
+        "Menor que a frequência natural",
+        "Zero"
+      ],
+      "resposta": "Menor que a frequência natural",
+      "explicacao": "Devido ao amortecimento, ω_r < ω₀."
+    }
+  ]
+}
