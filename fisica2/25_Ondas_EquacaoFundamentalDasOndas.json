@@ -1,0 +1,102 @@
+{
+  "id": "25_Ondas_EquacaoFundamentalDasOndas",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Equação fundamental das ondas",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "A equação fundamental das ondas relaciona velocidade, comprimento de onda e frequência.",
+
+    "explicacao": "A equação fundamental das ondas é uma das relações mais importantes no estudo das ondas.\n\nEla conecta três grandezas essenciais:\n- Velocidade da onda (v)\n- Comprimento de onda (λ)\n- Frequência (f)\n\nA equação é dada por:\n\nv = λf\n\nEssa relação mostra que a velocidade da onda é o produto do comprimento de onda pela frequência.\n\nTambém podemos escrever a equação em outras formas úteis:\n\nλ = v/f\nf = v/λ\n\nE, usando o período (T):\n\nv = λ/T\n\nInterpretação física:\n- A onda percorre uma distância λ a cada período T\n- Portanto, sua velocidade é λ dividido pelo tempo T\n\nEssa equação permite analisar como as grandezas se relacionam:\n\n- Se a frequência aumenta (v constante) → λ diminui\n- Se o comprimento de onda aumenta → frequência diminui\n\nImportante:\n- A velocidade depende do meio\n- A frequência depende da fonte\n- O comprimento de onda se ajusta quando a onda muda de meio\n\nEssa equação é fundamental para resolver praticamente todos os problemas envolvendo ondas, sendo muito utilizada em física, engenharia e tecnologia.",
+
+    "intuicao": "A onda anda um comprimento de onda a cada ciclo — isso define sua velocidade.",
+
+    "analogia": "É como dar passos: se cada passo tem tamanho λ e você dá f passos por segundo, sua velocidade é λf.",
+
+    "aplicacoes": [
+      "Cálculo de velocidade de ondas",
+      "Determinação de frequência ou comprimento de onda",
+      "Análise de propagação de ondas em diferentes meios"
+    ],
+
+    "erros_comuns": [
+      "Confundir frequência com velocidade",
+      "Achar que v depende da frequência",
+      "Esquecer que a frequência não muda ao trocar de meio",
+      "Usar unidades inconsistentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação fundamental das ondas?",
+      "alternativas": [
+        "v = f/T",
+        "v = λf",
+        "v = λ/T²",
+        "v = f²"
+      ],
+      "resposta": "v = λf",
+      "explicacao": "Essa é a equação que relaciona velocidade, comprimento de onda e frequência."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v = 10 m/s e f = 2 Hz, qual é λ?",
+      "alternativas": [
+        "2 m",
+        "5 m",
+        "10 m",
+        "20 m"
+      ],
+      "resposta": "5 m",
+      "explicacao": "λ = v/f = 10/2 = 5 m."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência dobra e a velocidade permanece constante, o que acontece com λ?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Permanece igual",
+        "Diminui pela metade"
+      ],
+      "resposta": "Diminui pela metade",
+      "explicacao": "Como v = λf, aumentar f reduz λ."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza depende do meio?",
+      "alternativas": [
+        "Frequência",
+        "Comprimento de onda",
+        "Velocidade",
+        "Período"
+      ],
+      "resposta": "Velocidade",
+      "explicacao": "A velocidade da onda depende do meio de propagação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que a frequência não muda ao trocar de meio?",
+      "alternativas": [
+        "Porque depende da velocidade",
+        "Porque depende da fonte",
+        "Porque depende do comprimento de onda",
+        "Porque é constante"
+      ],
+      "resposta": "Porque depende da fonte",
+      "explicacao": "A frequência é determinada pela fonte da onda."
+    }
+  ]
+}
