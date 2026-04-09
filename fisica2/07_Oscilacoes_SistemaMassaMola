@@ -1,0 +1,102 @@
+{
+  "id": "07_Oscilacoes_SistemaMassaMola",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Sistema massa-mola",
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "O sistema massa-mola é um dos exemplos mais clássicos de Movimento Harmônico Simples, onde a força elástica gera oscilações periódicas.",
+
+    "explicacao": "O sistema massa-mola é o modelo mais clássico de Movimento Harmônico Simples (MHS).\n\nConsidere uma massa presa a uma mola ideal (sem massa e sem atrito). Quando essa massa é deslocada da posição de equilíbrio e solta, a mola exerce uma força restauradora que tenta trazê-la de volta.\n\nEssa força é descrita pela Lei de Hooke:\nF = -kx\n\nOnde:\n- k é a constante elástica da mola\n- x é o deslocamento em relação ao equilíbrio\n\nAplicando a segunda lei de Newton:\nF = ma\n\nTemos:\nma = -kx\n\nOu:\na = -(k/m)x\n\nComparando com a equação do MHS:\na = -ω²x\n\nObtemos:\nω = √(k/m)\n\nA partir disso, podemos encontrar:\nT = 2π√(m/k)\nf = 1/T\n\nIsso mostra que:\n- Quanto maior a massa, maior o período (oscila mais devagar)\n- Quanto maior a constante elástica, menor o período (oscila mais rápido)\n\nNo sistema massa-mola, o movimento é perfeitamente periódico (idealmente), e a energia oscila entre energia cinética e potencial elástica.\n\nEsse sistema pode ser horizontal ou vertical. No caso vertical, o peso apenas desloca a posição de equilíbrio, mas o movimento continua sendo MHS em torno dessa nova posição.",
+
+    "intuicao": "Quanto mais pesada a massa, mais lenta a oscilação; quanto mais rígida a mola, mais rápida a oscilação.",
+
+    "analogia": "É como puxar um elástico com um peso: um elástico mais duro 'puxa de volta' mais rápido, enquanto um peso maior demora mais para responder.",
+
+    "aplicacoes": [
+      "Suspensões de veículos",
+      "Sistemas de amortecimento e vibração",
+      "Modelagem de sistemas mecânicos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que o período depende da raiz de m/k",
+      "Achar que a gravidade altera o período no sistema vertical",
+      "Confundir constante elástica com força",
+      "Não identificar corretamente a posição de equilíbrio"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a lei que descreve a força da mola?",
+      "alternativas": [
+        "Lei de Newton",
+        "Lei de Hooke",
+        "Lei da gravidade",
+        "Lei de conservação"
+      ],
+      "resposta": "Lei de Hooke",
+      "explicacao": "A força elástica é dada por F = -kx."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com o período quando a massa aumenta?",
+      "alternativas": [
+        "Diminui",
+        "Aumenta",
+        "Permanece constante",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "T = 2π√(m/k), então aumentar m aumenta o período."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do período do sistema massa-mola?",
+      "alternativas": [
+        "T = 2π(k/m)",
+        "T = 2π√(m/k)",
+        "T = √(k/m)",
+        "T = m/k"
+      ],
+      "resposta": "T = 2π√(m/k)",
+      "explicacao": "Essa é a expressão correta para o período no sistema massa-mola."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a constante elástica aumenta, o que acontece com o período?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Não muda",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Como T = 2π√(m/k), aumentar k diminui o período."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No sistema vertical, qual é o efeito da gravidade?",
+      "alternativas": [
+        "Aumenta o período",
+        "Diminui o período",
+        "Não altera o período, apenas desloca o equilíbrio",
+        "Elimina a oscilação"
+      ],
+      "resposta": "Não altera o período, apenas desloca o equilíbrio",
+      "explicacao": "A gravidade apenas muda a posição de equilíbrio, mas não altera o período do MHS."
+    }
+  ]
+}
