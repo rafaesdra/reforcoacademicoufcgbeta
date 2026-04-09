@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_plano_espaco",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Vetores no plano (R2) e no espaco (R3)",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Vetores podem ser representados no plano com duas componentes (R2) e no espaco com tres componentes (R3).",
+
+    "explicacao": "Na Algebra Vetorial, vetores podem ser representados em diferentes dimensoes.\n\nNo plano cartesiano (R2), um vetor e representado por duas componentes: (x, y). Ele descreve um deslocamento horizontal e vertical.\n\nJa no espaco tridimensional (R3), um vetor possui tres componentes: (x, y, z), representando deslocamentos nos eixos x, y e z.\n\nEsses vetores podem ser interpretados geometricamente como setas que partem da origem ate o ponto (x, y) ou (x, y, z).\n\nTambem podem ser representados na base canonica como v = xi + yj no plano e v = xi + yj + zk no espaco.\n\nA principal diferenca entre R2 e R3 e a dimensao: R2 e bidimensional e R3 e tridimensional.",
+
+    "intuicao": "R2 e como uma folha de papel, enquanto R3 e o espaco real onde vivemos.",
+
+    "analogia": "Mover-se em R2 e como andar em um mapa (direita/esquerda e cima/baixo), enquanto em R3 e como se mover no mundo real (incluindo altura).",
+
+    "aplicacoes": [
+      "Representacao de movimentos em duas e tres dimensoes",
+      "Modelagem de trajetorias em fisica",
+      "Computacao grafica 2D e 3D"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetores em R2 com R3",
+      "Esquecer a componente z em vetores tridimensionais",
+      "Interpretar coordenadas como pontos sem considerar o vetor"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa um vetor em R2?",
+      "alternativas": [
+        "(2, 3)",
+        "(1, 2, 3)",
+        "(4)",
+        "(x, y, z, w)"
+      ],
+      "resposta": "(2, 3)",
+      "explicacao": "Vetores em R2 possuem duas componentes."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantas componentes possui um vetor em R3?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "resposta": "3",
+      "explicacao": "Vetores em R3 possuem tres componentes: x, y e z."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor v = (1, -2, 3) pertence a qual espaco?",
+      "alternativas": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "resposta": "R3",
+      "explicacao": "O vetor possui tres componentes, logo pertence ao R3."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e a forma na base canonica do vetor (2, -1) em R2?",
+      "alternativas": [
+        "2i - j",
+        "i + 2j",
+        "2i + j",
+        "-2i - j"
+      ],
+      "resposta": "2i - j",
+      "explicacao": "Cada componente multiplica os vetores unitarios: 2i + (-1)j."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual afirmacao descreve corretamente a diferenca entre R2 e R3?",
+      "alternativas": [
+        "R2 tem tres dimensoes e R3 tem duas",
+        "R2 representa apenas numeros reais",
+        "R3 inclui uma dimensao adicional em relacao ao R2",
+        "Nao ha diferenca entre eles"
+      ],
+      "resposta": "R3 inclui uma dimensao adicional em relacao ao R2",
+      "explicacao": "R2 possui duas dimensoes e R3 possui tres, incluindo a dimensao z."
+    }
+  ]
+}
