@@ -1,0 +1,88 @@
+{
+  "id": "derivadas_especiais",
+  "disciplina": "Cálculo I",
+  "assunto": "Derivadas — Funções Exponenciais, Logarítmicas e Trigonométricas",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "As funções exponenciais, logarítmicas e trigonométricas possuem regras específicas de derivação e são fundamentais em aplicações reais.",
+
+    "explicacao": "Agora vamos estudar derivadas de funções muito importantes.\n\n━━━━━━━━━━━━━━━━━━━\n✔️ 1. Função exponencial\n━━━━━━━━━━━━━━━━━━━\n\nf(x) = e^x\n\nf'(x) = e^x\n\n👉 A função é igual à sua própria derivada.\n\n\nSe for composta:\n\nf(x) = e^(x²)\n\nf'(x) = e^(x²) · 2x\n\n(Regra da cadeia)\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ 2. Logaritmo natural\n━━━━━━━━━━━━━━━━━━━\n\nf(x) = ln(x)\n\nf'(x) = 1/x\n\n\nSe for composta:\n\nf(x) = ln(x²)\n\nf'(x) = (1/x²) · 2x = 2/x\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ 3. Funções trigonométricas\n━━━━━━━━━━━━━━━━━━━\n\nsen(x)' = cos(x)\ncos(x)' = -sen(x)\n\n\nExemplo:\n\nf(x) = sen(x²)\n\nf'(x) = cos(x²) · 2x\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Resumo geral\n━━━━━━━━━━━━━━━━━━━\n\n- e^x → e^x\n- ln(x) → 1/x\n- sen(x) → cos(x)\n- cos(x) → -sen(x)\n\n\n✔️ Muito importante:\n\nSempre aplicar regra da cadeia quando necessário.\n\n\n✔️ Aplicações:\n\n- Crescimento exponencial\n- Decaimento (radioatividade, circuitos RC)\n- Ondas e sinais\n- Engenharia elétrica",
+
+    "intuicao": "Essas funções descrevem fenômenos reais: crescimento, decaimento e oscilações.",
+
+    "dica_pratica": "Memorize as derivadas básicas e sempre verifique se há função composta.",
+
+    "aplicacoes": [
+      "Circuitos elétricos (RC, RL)",
+      "Ondas e sinais",
+      "Crescimento populacional",
+      "Fenômenos físicos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer a regra da cadeia",
+      "Errar o sinal de cos(x)",
+      "Confundir ln(x) com log base 10",
+      "Não simplificar o resultado"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de e^x?",
+      "alternativas": ["e^x", "x·e^x", "1/x", "0"],
+      "resposta": "e^x",
+      "explicacao": "A função é igual à sua derivada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de ln(x)?",
+      "alternativas": ["1/x", "x", "ln(x)", "0"],
+      "resposta": "1/x",
+      "explicacao": "Derivada padrão do log natural."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de sen(x)?",
+      "alternativas": ["cos(x)", "-cos(x)", "sen(x)", "-sen(x)"],
+      "resposta": "cos(x)",
+      "explicacao": "Derivada básica trigonométrica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de e^(x²)?",
+      "alternativas": [
+        "e^(x²)",
+        "2x·e^(x²)",
+        "x·e^x",
+        "2e^x"
+      ],
+      "resposta": "2x·e^(x²)",
+      "explicacao": "Regra da cadeia."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a derivada de f(x) = ln(x² + 1)?",
+      "alternativas": [
+        "1/(x² + 1)",
+        "2x/(x² + 1)",
+        "x/(x² + 1)",
+        "ln(x²)"
+      ],
+      "resposta": "2x/(x² + 1)",
+      "explicacao": "Regra da cadeia: (1/(x²+1))·2x."
+    }
+  ]
+}

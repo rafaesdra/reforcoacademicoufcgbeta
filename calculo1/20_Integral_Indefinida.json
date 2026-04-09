@@ -1,0 +1,103 @@
+{
+  "id": "integral_indefinida",
+  "disciplina": "Cálculo I",
+  "assunto": "Integrais — Integral Indefinida",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "A integral indefinida representa o processo inverso da derivada, encontrando a função original a partir da sua derivada.",
+
+    "explicacao": "Se a derivada 'quebra' uma função, a integral 'reconstrói'.\n\n✔️ Definição:\n\n∫ f(x) dx = F(x) + C\n\nOnde:\n\n- F'(x) = f(x)\n- C = constante de integração\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Por que +C?\n━━━━━━━━━━━━━━━━━━━\n\nPorque a derivada de uma constante é zero.\n\nExemplo:\n\nf(x) = 2x\n\nPossíveis primitivas:\n\nx², x² + 1, x² + 5...\n\n👉 Todas têm a mesma derivada\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Regras básicas\n━━━━━━━━━━━━━━━━━━━\n\n1. ∫ xⁿ dx = xⁿ⁺¹ / (n+1) + C (n ≠ -1)\n\nExemplo:\n\n∫ x² dx = x³/3 + C\n\n\n2. ∫ k dx = kx + C\n\nExemplo:\n\n∫ 5 dx = 5x + C\n\n\n3. ∫ (f + g) dx = ∫ f dx + ∫ g dx\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Exemplos\n━━━━━━━━━━━━━━━━━━━\n\n∫ (3x² + 2x + 1) dx\n\n= x³ + x² + x + C\n\n\n━━━━━━━━━━━━━━━━━━━\n✔️ Importante\n━━━━━━━━━━━━━━━━━━━\n\n- Sempre adicionar +C\n- Integral não é única\n\n\n✔️ Interpretação:\n\nIntegral indefinida → família de funções\n\n\n✔️ Aplicações:\n\n- Recuperar função original\n- Resolver equações diferenciais simples\n- Modelagem física",
+
+    "intuicao": "Se a derivada é 'descobrir a inclinação', a integral é 'descobrir a curva'.",
+
+    "dica_pratica": "Use as regras ao contrário das derivadas.",
+
+    "aplicacoes": [
+      "Física (posição a partir da velocidade)",
+      "Engenharia (sinais)",
+      "Modelagem matemática",
+      "Equações diferenciais"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o +C",
+      "Errar a regra da potência",
+      "Confundir com derivada",
+      "Não simplificar a expressão"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A integral indefinida é o inverso de:",
+      "alternativas": [
+        "Limite",
+        "Derivada",
+        "Produto",
+        "Logaritmo"
+      ],
+      "resposta": "Derivada",
+      "explicacao": "Integral desfaz a derivada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que adicionamos +C?",
+      "alternativas": [
+        "Por estética",
+        "Porque a derivada de constante é zero",
+        "Porque é obrigatório",
+        "Para simplificar"
+      ],
+      "resposta": "Porque a derivada de constante é zero",
+      "explicacao": "Há infinitas primitivas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫ x² dx?",
+      "alternativas": [
+        "x³",
+        "x³/3 + C",
+        "2x",
+        "x²/2"
+      ],
+      "resposta": "x³/3 + C",
+      "explicacao": "Regra da potência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫ 4x dx?",
+      "alternativas": [
+        "4x²",
+        "2x² + C",
+        "x² + C",
+        "4x + C"
+      ],
+      "resposta": "2x² + C",
+      "explicacao": "∫ 4x dx = 4·(x²/2)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é ∫ (2x + 3) dx?",
+      "alternativas": [
+        "x² + 3x + C",
+        "2x² + 3x",
+        "x² + 3",
+        "2x + 3"
+      ],
+      "resposta": "x² + 3x + C",
+      "explicacao": "Integra termo a termo."
+    }
+  ]
+}

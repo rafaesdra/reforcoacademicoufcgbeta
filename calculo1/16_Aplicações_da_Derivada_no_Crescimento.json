@@ -1,0 +1,98 @@
+{
+  "id": "aplicacoes_derivada_crescimento",
+  "disciplina": "Cálculo I",
+  "assunto": "Aplicações da Derivada — Crescimento e Decrescimento",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "A derivada permite identificar onde uma função cresce ou decresce analisando o sinal de f'(x).",
+
+    "explicacao": "A derivada nos diz como a função está variando.\n\n✔️ Regra principal:\n\n- Se f'(x) > 0 → função crescente 📈\n- Se f'(x) < 0 → função decrescente 📉\n- Se f'(x) = 0 → ponto crítico\n\n\n✔️ Passo a passo para análise:\n\n1. Calcule f'(x)\n2. Encontre onde f'(x) = 0\n3. Analise o sinal da derivada nos intervalos\n\n\n✔️ Exemplo:\n\nf(x) = x² - 4x\n\nf'(x) = 2x - 4\n\nIgualando a zero:\n\n2x - 4 = 0 → x = 2\n\nAgora analisamos:\n\n- x < 2 → f'(x) < 0 → decrescente\n- x > 2 → f'(x) > 0 → crescente\n\n👉 A função desce e depois sobe\n\n\n✔️ Interpretação:\n\n- Mudança de sinal indica mudança de comportamento\n\n\n✔️ Importante:\n\nEsse método é base para encontrar máximos e mínimos.\n\n\n✔️ Aplicações reais:\n\n- Crescimento populacional\n- Velocidade aumentando ou diminuindo\n- Análise de sinais elétricos",
+
+    "intuicao": "A derivada funciona como um indicador de direção: positivo sobe, negativo desce.",
+
+    "dica_pratica": "Faça sempre uma tabela de sinais para visualizar melhor.",
+
+    "aplicacoes": [
+      "Análise de gráficos",
+      "Estudo de movimento",
+      "Engenharia elétrica",
+      "Otimização inicial"
+    ],
+
+    "erros_comuns": [
+      "Não analisar os intervalos",
+      "Achar que f'(x) = 0 resolve tudo",
+      "Esquecer de testar valores",
+      "Confundir sinal da derivada"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f'(x) > 0, a função é:",
+      "alternativas": [
+        "Decrescente",
+        "Crescente",
+        "Constante",
+        "Infinita"
+      ],
+      "resposta": "Crescente",
+      "explicacao": "Derivada positiva indica crescimento."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se f'(x) < 0, a função é:",
+      "alternativas": [
+        "Crescente",
+        "Decrescente",
+        "Constante",
+        "Linear"
+      ],
+      "resposta": "Decrescente",
+      "explicacao": "Derivada negativa indica queda."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ponto crítico de f(x) = x² - 4x?",
+      "alternativas": ["1", "2", "3", "4"],
+      "resposta": "2",
+      "explicacao": "2x - 4 = 0 → x = 2."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a derivada muda de negativa para positiva, temos:",
+      "alternativas": [
+        "Máximo",
+        "Mínimo",
+        "Assíntota",
+        "Salto"
+      ],
+      "resposta": "Mínimo",
+      "explicacao": "A função desce e depois sobe."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a derivada não muda de sinal ao passar por um ponto crítico, então:",
+      "alternativas": [
+        "Há máximo",
+        "Há mínimo",
+        "Não há extremo",
+        "Há assíntota"
+      ],
+      "resposta": "Não há extremo",
+      "explicacao": "Não há mudança de comportamento."
+    }
+  ]
+}
