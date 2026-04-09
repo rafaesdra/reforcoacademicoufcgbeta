@@ -1,0 +1,102 @@
+{
+  "id": "10_Oscilacoes_EnergiaCineticaEPotencial",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Energia no MHS: energia cinética e potencial",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "No MHS, a energia cinética e potencial variam com o tempo, trocando continuamente enquanto a energia total permanece constante.",
+
+    "explicacao": "No Movimento Harmônico Simples (MHS), a energia mecânica total do sistema é constante, mas a energia cinética e a energia potencial variam ao longo do tempo.\n\nA energia potencial elástica é dada por:\nEp = (1/2)kx²\n\nSubstituindo x(t) = A cos(ωt + φ):\nEp(t) = (1/2)kA² cos²(ωt + φ)\n\nA energia cinética é:\nEc = (1/2)mv²\n\nSubstituindo v(t) = -Aω sen(ωt + φ):\nEc(t) = (1/2)mA²ω² sen²(ωt + φ)\n\nComo ω² = k/m, podemos escrever:\nEc(t) = (1/2)kA² sen²(ωt + φ)\n\nA energia total é:\nE = Ec + Ep = (1/2)kA²\n\nAnalisando o comportamento:\n- Nos extremos (x = ±A):\n  Ep = máximo\n  Ec = 0\n\n- No equilíbrio (x = 0):\n  Ep = 0\n  Ec = máximo\n\n- Em qualquer ponto intermediário:\n  Ec + Ep = constante\n\nUma propriedade importante:\nsen²(θ) + cos²(θ) = 1\n\nIsso garante que a soma das energias permanece constante.\n\nOutro ponto importante é que as energias oscilam com o dobro da frequência do movimento, pois envolvem termos ao quadrado.\n\nEsse comportamento é essencial para entender conservação de energia em sistemas oscilatórios e resolver problemas sem depender diretamente da equação do movimento.",
+
+    "intuicao": "Quando o objeto para, a energia está 'armazenada'; quando ele passa pelo meio, essa energia vira movimento.",
+
+    "analogia": "É como um cofre de energia: nos extremos ela fica guardada (potencial), no meio ela vira movimento (cinética).",
+
+    "aplicacoes": [
+      "Análise de sistemas vibratórios",
+      "Estudo de ondas e energia em oscilações",
+      "Resolução de problemas usando conservação de energia"
+    ],
+
+    "erros_comuns": [
+      "Achar que energia cinética e potencial são constantes",
+      "Confundir onde cada tipo de energia é máxima",
+      "Esquecer que a soma das energias é constante",
+      "Não perceber que as energias variam com sen² e cos²"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a energia potencial é máxima no MHS?",
+      "alternativas": [
+        "Na posição de equilíbrio",
+        "Nos extremos",
+        "Em qualquer ponto",
+        "Quando a velocidade é máxima"
+      ],
+      "resposta": "Nos extremos",
+      "explicacao": "Nos extremos, o deslocamento é máximo, então Ep é máxima."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a energia cinética é máxima?",
+      "alternativas": [
+        "Nos extremos",
+        "Na posição de equilíbrio",
+        "Quando a aceleração é máxima",
+        "Nunca é máxima"
+      ],
+      "resposta": "Na posição de equilíbrio",
+      "explicacao": "No equilíbrio, a velocidade é máxima, então Ec é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da energia potencial no MHS?",
+      "alternativas": [
+        "Ep = (1/2)mv²",
+        "Ep = kx",
+        "Ep = (1/2)kx²",
+        "Ep = mgh"
+      ],
+      "resposta": "Ep = (1/2)kx²",
+      "explicacao": "Essa é a expressão da energia potencial elástica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual identidade garante a conservação da energia no MHS?",
+      "alternativas": [
+        "sen(θ) = cos(θ)",
+        "sen²(θ) + cos²(θ) = 1",
+        "tan(θ) = 1",
+        "cos²(θ) = 1"
+      ],
+      "resposta": "sen²(θ) + cos²(θ) = 1",
+      "explicacao": "Essa identidade garante que Ec + Ep é constante."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que as energias variam com o dobro da frequência do MHS?",
+      "alternativas": [
+        "Porque dependem da massa",
+        "Porque envolvem termos ao quadrado",
+        "Porque dependem da gravidade",
+        "Porque são constantes"
+      ],
+      "resposta": "Porque envolvem termos ao quadrado",
+      "explicacao": "As energias dependem de sen² e cos², que dobram a frequência do movimento."
+    }
+  ]
+}
