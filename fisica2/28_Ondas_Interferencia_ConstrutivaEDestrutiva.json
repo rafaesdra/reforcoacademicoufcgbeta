@@ -1,0 +1,102 @@
+{
+  "id": "28_Ondas_Interferencia_ConstrutivaEDestrutiva",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Interferência construtiva e destrutiva",
+  "ordem": 28,
+
+  "teoria": {
+    "resumo": "A interferência pode ser construtiva ou destrutiva, dependendo da fase relativa das ondas que se encontram.",
+
+    "explicacao": "Quando duas ondas se encontram, o resultado depende da relação de fase entre elas.\n\n1) Interferência construtiva:\nOcorre quando as ondas estão em fase.\n\nCondição:\n- Crista encontra crista\n- Vale encontra vale\n\nResultado:\n- As amplitudes se somam\n- A onda resultante tem maior intensidade\n\nSe duas ondas idênticas se encontram:\nAmplitude final = 2A\n\n2) Interferência destrutiva:\nOcorre quando as ondas estão em oposição de fase (defasagem de 180°).\n\nCondição:\n- Crista encontra vale\n\nResultado:\n- As amplitudes se subtraem\n- Pode ocorrer cancelamento total\n\nSe duas ondas idênticas se encontram:\nAmplitude final = 0\n\nInterpretação matemática:\n\n- Interferência construtiva:\nΔφ = 0, 2π, 4π...\n\n- Interferência destrutiva:\nΔφ = π, 3π, 5π...\n\nCaracterísticas importantes:\n- A interferência depende da diferença de fase\n- Não há destruição permanente das ondas\n- A energia se redistribui no espaço\n\nEsse fenômeno é essencial para entender padrões de interferência, acústica e óptica.",
+
+    "intuicao": "Ondas alinhadas se reforçam; ondas opostas se anulam.",
+
+    "analogia": "É como empurrar algo:\n- Duas pessoas empurrando juntas → mais força\n- Uma empurra e outra puxa → cancelam",
+
+    "aplicacoes": [
+      "Cancelamento de ruído (fones)",
+      "Padrões de luz em interferência",
+      "Ajuste de frequência em instrumentos musicais"
+    ],
+
+    "erros_comuns": [
+      "Achar que interferência destrutiva elimina energia",
+      "Confundir fase com frequência",
+      "Achar que sempre ocorre cancelamento total",
+      "Ignorar que as ondas continuam após a interação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando ocorre interferência construtiva?",
+      "alternativas": [
+        "Crista com vale",
+        "Crista com crista",
+        "Sem movimento",
+        "Com atrito"
+      ],
+      "resposta": "Crista com crista",
+      "explicacao": "As amplitudes se somam quando as ondas estão em fase."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece na interferência destrutiva?",
+      "alternativas": [
+        "Aumenta a amplitude",
+        "A amplitude diminui ou zera",
+        "A velocidade aumenta",
+        "A frequência muda"
+      ],
+      "resposta": "A amplitude diminui ou zera",
+      "explicacao": "As ondas se cancelam parcial ou totalmente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a condição de fase para interferência destrutiva?",
+      "alternativas": [
+        "0",
+        "π",
+        "2π",
+        "4π"
+      ],
+      "resposta": "π",
+      "explicacao": "Diferença de fase de 180° gera cancelamento."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se duas ondas iguais estão em fase, o que acontece com a amplitude?",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Dobra",
+        "Zera"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "As amplitudes se somam na interferência construtiva."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que a energia não desaparece na interferência destrutiva?",
+      "alternativas": [
+        "Porque a onda para",
+        "Porque a energia é destruída",
+        "Porque a energia se redistribui",
+        "Porque a frequência muda"
+      ],
+      "resposta": "Porque a energia se redistribui",
+      "explicacao": "A energia não desaparece, apenas se distribui em outras regiões."
+    }
+  ]
+}
