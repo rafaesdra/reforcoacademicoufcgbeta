@@ -1,0 +1,106 @@
+{
+  "id": "50_Termodinamica_Transformacoes_Adiabatica",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Transformações gasosas: adiabática",
+  "ordem": 50,
+
+  "teoria": {
+    "resumo": "A transformação adiabática ocorre sem troca de calor com o meio externo, sendo caracterizada pela variação simultânea de pressão, volume e temperatura.",
+
+    "explicacao": "A transformação adiabática é um processo termodinâmico no qual não há troca de calor entre o sistema e o ambiente.\n\nIsso ocorre quando o sistema está termicamente isolado ou quando a transformação acontece de forma muito rápida.\n\nMatematicamente:\n\nQ = 0\n\nAplicando a Primeira Lei da Termodinâmica:\n\nQ = ΔU + W\n\nComo Q = 0:\n\nΔU = -W\n\nIsso significa que:\n- Na expansão, o gás realiza trabalho e sua temperatura diminui.\n- Na compressão, o trabalho é realizado sobre o gás e sua temperatura aumenta.\n\nPara gases ideais, a transformação adiabática é descrita pela equação de Poisson:\n\nPV^γ = constante\n\nOnde:\n- P é a pressão\n- V é o volume\n- γ é o coeficiente adiabático (γ = Cp/Cv)\n\nRelações importantes:\n\nTV^(γ-1) = constante\n\nT^γ P^(1-γ) = constante\n\nO trabalho realizado em uma transformação adiabática é dado por:\n\nW = (P₁V₁ - P₂V₂) / (γ - 1)\n\nOnde γ é a razão entre os calores específicos a pressão constante e a volume constante.\n\nValores típicos de γ:\n- Gases monoatômicos: γ ≈ 1,67\n- Gases diatômicos (como o ar): γ ≈ 1,40\n\nRepresentação gráfica:\n- No diagrama P × V, a curva adiabática é mais inclinada que a isotérmica.\n\nExemplos práticos:\n- Compressão do ar em motores a combustão\n- Funcionamento de motores diesel\n- Expansão de gases em turbinas\n- Resfriamento do ar na atmosfera\n- Bombas de bicicleta",
+
+    "intuicao": "Sem troca de calor com o ambiente, toda a energia envolvida na transformação resulta da conversão entre trabalho e energia interna.",
+
+    "analogia": "É como comprimir rapidamente o ar dentro de uma bomba de bicicleta: o gás aquece porque não há tempo para troca de calor com o ambiente.",
+
+    "aplicacoes": [
+      "Motores a combustão interna",
+      "Motores diesel",
+      "Turbinas a gás",
+      "Refrigeração e compressão de gases",
+      "Fenômenos atmosféricos",
+      "Engenharia aeronáutica"
+    ],
+
+    "erros_comuns": [
+      "Confundir transformação adiabática com isotérmica",
+      "Achar que a temperatura permanece constante",
+      "Esquecer que Q = 0",
+      "Ignorar o coeficiente adiabático γ",
+      "Não diferenciar curvas adiabáticas e isotérmicas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que caracteriza uma transformação adiabática?",
+      "alternativas": [
+        "Temperatura constante",
+        "Pressão constante",
+        "Volume constante",
+        "Ausência de troca de calor"
+      ],
+      "resposta": "Ausência de troca de calor",
+      "explicacao": "Na transformação adiabática, Q = 0."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação fundamental de uma transformação adiabática?",
+      "alternativas": [
+        "PV = constante",
+        "PV^γ = constante",
+        "V/T = constante",
+        "P/T = constante"
+      ],
+      "resposta": "PV^γ = constante",
+      "explicacao": "Essa é a equação de Poisson para processos adiabáticos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a temperatura de um gás durante uma compressão adiabática?",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Torna-se nula"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "O trabalho realizado sobre o gás eleva sua energia interna e sua temperatura."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor aproximado de γ para o ar?",
+      "alternativas": [
+        "1,00",
+        "1,20",
+        "1,40",
+        "1,67"
+      ],
+      "resposta": "1,40",
+      "explicacao": "O ar comporta-se aproximadamente como um gás diatômico."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Comparada a uma isotérmica, a curva adiabática em um diagrama P × V é:",
+      "alternativas": [
+        "Menos inclinada",
+        "Mais inclinada",
+        "Uma reta horizontal",
+        "Uma reta vertical"
+      ],
+      "resposta": "Mais inclinada",
+      "explicacao": "A pressão varia mais rapidamente na transformação adiabática do que na isotérmica."
+    }
+  ]
+}
