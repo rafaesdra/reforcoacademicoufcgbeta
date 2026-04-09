@@ -1,0 +1,102 @@
+{
+  "id": "03_Oscilacoes_EquacoesDoMHS",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Equações do Movimento Harmônico Simples",
+  "ordem": 3,
+
+  "teoria": {
+    "resumo": "As equações do MHS descrevem posição, velocidade e aceleração ao longo do tempo usando funções trigonométricas.",
+
+    "explicacao": "No Movimento Harmônico Simples (MHS), a posição, a velocidade e a aceleração de um corpo variam com o tempo de forma periódica, sendo descritas por funções trigonométricas.\n\nA equação da posição é:\nx(t) = A cos(ωt + φ)\n\nOnde:\n- A é a amplitude (valor máximo do deslocamento)\n- ω é a frequência angular\n- φ é a fase inicial\n\nA partir da posição, podemos obter a velocidade derivando em relação ao tempo:\nv(t) = -Aω sen(ωt + φ)\n\nDerivando novamente, obtemos a aceleração:\na(t) = -Aω² cos(ωt + φ)\n\nComo x(t) = A cos(ωt + φ), podemos escrever:\na(t) = -ω²x\n\nEssa relação mostra que a aceleração é sempre proporcional ao deslocamento e aponta para a posição de equilíbrio.\n\nA frequência angular está relacionada com o período e a frequência por:\nω = 2πf\nT = 1/f\n\nAnalisando o comportamento das grandezas:\n- A posição é máxima nos extremos\n- A velocidade é máxima na posição de equilíbrio\n- A aceleração é máxima nos extremos\n\nEssas equações permitem descrever completamente o movimento ao longo do tempo e são essenciais para resolver problemas envolvendo oscilações.",
+
+    "intuicao": "No MHS, tudo oscila como uma onda: posição, velocidade e aceleração seguem um padrão suave e repetitivo.",
+
+    "analogia": "É como uma sombra de um movimento circular: ao girar uniformemente, a projeção no eixo forma um movimento harmônico.",
+
+    "aplicacoes": [
+      "Modelagem de vibrações mecânicas",
+      "Análise de ondas e sinais periódicos",
+      "Estudo de sistemas físicos oscilatórios"
+    ],
+
+    "erros_comuns": [
+      "Confundir seno com cosseno na equação da posição",
+      "Esquecer o sinal negativo na velocidade e aceleração",
+      "Não perceber que velocidade e posição estão defasadas",
+      "Confundir frequência angular com frequência comum"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação da posição no MHS?",
+      "alternativas": [
+        "x(t) = A + ωt",
+        "x(t) = A cos(ωt + φ)",
+        "x(t) = ωt²",
+        "x(t) = Aω"
+      ],
+      "resposta": "x(t) = A cos(ωt + φ)",
+      "explicacao": "A posição no MHS é descrita por uma função cosseno (ou seno equivalente)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a velocidade é zero no MHS?",
+      "alternativas": [
+        "Na posição de equilíbrio",
+        "Nos extremos",
+        "Em qualquer ponto",
+        "Quando a aceleração é zero"
+      ],
+      "resposta": "Nos extremos",
+      "explicacao": "Nos extremos, o corpo muda de direção, então a velocidade é zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre aceleração e posição no MHS?",
+      "alternativas": [
+        "a = kx",
+        "a = ωx",
+        "a = -ω²x",
+        "a = constante"
+      ],
+      "resposta": "a = -ω²x",
+      "explicacao": "A aceleração é proporcional ao deslocamento e aponta para o equilíbrio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se ω = 4π rad/s, qual é a frequência?",
+      "alternativas": [
+        "1 Hz",
+        "2 Hz",
+        "4 Hz",
+        "8 Hz"
+      ],
+      "resposta": "2 Hz",
+      "explicacao": "f = ω / (2π) = 4π / (2π) = 2 Hz."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em qual situação posição e aceleração têm o mesmo módulo máximo?",
+      "alternativas": [
+        "Na posição de equilíbrio",
+        "Nos extremos",
+        "Quando a velocidade é máxima",
+        "Nunca ocorre"
+      ],
+      "resposta": "Nos extremos",
+      "explicacao": "Nos extremos, x = ±A e a = ±ω²A, ambos com valores máximos em módulo."
+    }
+  ]
+}
