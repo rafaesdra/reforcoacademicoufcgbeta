@@ -1,0 +1,106 @@
+{
+  "id": "62_Fluidos_Propriedades_Pressao",
+  "disciplina": "Física 2",
+  "assunto": "Fluidos - Propriedades dos fluidos: pressão",
+  "ordem": 62,
+
+  "teoria": {
+    "resumo": "A pressão é a razão entre a força aplicada e a área sobre a qual ela atua.",
+
+    "explicacao": "A pressão é uma grandeza física fundamental no estudo da Hidrostática e da Hidrodinâmica. Ela mede como uma força é distribuída sobre uma superfície.\n\nMatematicamente, a pressão é definida por:\n\nP = F / A\n\nOnde:\n- P é a pressão (Pa);\n- F é a força aplicada perpendicularmente à superfície (N);\n- A é a área da superfície (m²).\n\nNo Sistema Internacional de Unidades (SI), a pressão é medida em pascal (Pa), sendo:\n\n1 Pa = 1 N/m²\n\nOutras unidades comuns incluem:\n- Atmosfera (atm);\n- Bar;\n- Milímetro de mercúrio (mmHg ou torr).\n\nRelações importantes:\n- 1 atm = 1,013 × 10⁵ Pa\n- 1 atm = 760 mmHg\n- 1 bar = 1,0 × 10⁵ Pa\n\nCaracterísticas da pressão em fluidos:\n- Atua em todas as direções;\n- É sempre perpendicular à superfície de contato;\n- Aumenta com a força aplicada;\n- Diminui com o aumento da área de aplicação.\n\nPressão em sólidos e fluidos:\n- Em sólidos, a pressão depende da direção da força aplicada;\n- Em fluidos em repouso, a pressão é transmitida igualmente em todas as direções.\n\nPressão atmosférica:\nÉ a pressão exercida pela coluna de ar da atmosfera sobre a superfície terrestre. Ao nível do mar, seu valor médio é:\n\nP_atm = 1,013 × 10⁵ Pa\n\nAplicações práticas:\n- Pneus e sistemas hidráulicos;\n- Prensas hidráulicas;\n- Barômetros e manômetros;\n- Construção civil e engenharia;\n- Mergulho e aviação;\n- Instrumentos médicos, como seringas e esfigmomanômetros.",
+
+    "intuicao": "Quanto menor a área de contato, maior será a pressão exercida por uma mesma força.",
+
+    "analogia": "Uma pessoa usando sapatos de salto alto exerce maior pressão sobre o solo do que outra usando tênis, pois a força é aplicada em uma área menor.",
+
+    "aplicacoes": [
+      "Prensas hidráulicas",
+      "Freios e elevadores hidráulicos",
+      "Medidores de pressão (barômetros e manômetros)",
+      "Projeto de barragens e reservatórios",
+      "Mergulho submarino e aviação",
+      "Engenharia civil e mecânica"
+    ],
+
+    "erros_comuns": [
+      "Confundir pressão com força",
+      "Esquecer que a área influencia a pressão",
+      "Utilizar unidades incorretas",
+      "Ignorar a conversão entre atm e pascal",
+      "Acreditar que a pressão atua em apenas uma direção"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da pressão?",
+      "alternativas": [
+        "P = A/F",
+        "P = F/A",
+        "P = FA",
+        "P = F·A²"
+      ],
+      "resposta": "P = F/A",
+      "explicacao": "A pressão é a razão entre a força e a área."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade de pressão no Sistema Internacional?",
+      "alternativas": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "resposta": "Pascal",
+      "explicacao": "A unidade padrão da pressão no SI é o pascal (Pa)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 200 N atua sobre uma área de 0,5 m². Qual é a pressão exercida?",
+      "alternativas": [
+        "100 Pa",
+        "200 Pa",
+        "300 Pa",
+        "400 Pa"
+      ],
+      "resposta": "400 Pa",
+      "explicacao": "P = F/A = 200/0,5 = 400 Pa."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor aproximado da pressão atmosférica ao nível do mar?",
+      "alternativas": [
+        "1,013 × 10³ Pa",
+        "1,013 × 10⁴ Pa",
+        "1,013 × 10⁵ Pa",
+        "1,013 × 10⁶ Pa"
+      ],
+      "resposta": "1,013 × 10⁵ Pa",
+      "explicacao": "Esse é o valor padrão da pressão atmosférica."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para aumentar a pressão exercida por uma força constante, deve-se:",
+      "alternativas": [
+        "Aumentar a área de contato",
+        "Diminuir a área de contato",
+        "Diminuir a força aplicada",
+        "Aumentar o volume"
+      ],
+      "resposta": "Diminuir a área de contato",
+      "explicacao": "Como P = F/A, a pressão aumenta quando a área diminui."
+    }
+  ]
+}
