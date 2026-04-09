@@ -1,0 +1,99 @@
+{
+  "id": "angulo_entre_reta_plano",
+  "disciplina": "Matemática",
+  "assunto": "Ângulo entre Reta e Plano",
+  "ordem": 53,
+
+  "teoria": {
+    "resumo": "O ângulo entre uma reta e um plano é complementar ao ângulo entre o vetor diretor da reta e o vetor normal do plano.",
+
+    "explicacao": "O ângulo entre uma reta e um plano é definido como o ângulo entre a reta e sua projeção sobre o plano.\n\nNa prática, calculamos esse ângulo usando o vetor diretor da reta e o vetor normal do plano.\n\nSeja:\n- v = vetor diretor da reta\n- n = vetor normal do plano\n\nPrimeiro calculamos o ângulo θ entre v e n:\n\ncos(θ) = (v · n) / (|v| · |n|)\n\nMas o ângulo entre a reta e o plano (α) é o complementar de θ:\n\nα = 90° - θ\n\nOu diretamente:\n\nsen(α) = |v · n| / (|v| · |n|)\n\nLogo:\n\nα = arcsen(|v · n| / (|v| · |n|))\n\nExemplo:\nv = (1,0,0) e n = (0,1,0)\n\nProduto escalar = 0 → sen(α)=0 → α=0°\n\nA reta é paralela ao plano.\n\nCasos importantes:\n- v · n = 0 → reta paralela ao plano\n- v paralelo a n → reta perpendicular ao plano\n\nEssa relação é essencial para entender a inclinação de retas em relação a superfícies.",
+
+    "intuicao": "O ângulo mede o quanto a reta 'entra' no plano: se não entra, é paralela; se entra totalmente, é perpendicular.",
+
+    "analogia": "Imagine uma rampa tocando o chão: o ângulo da rampa com o chão é o ângulo entre reta e plano.",
+
+    "aplicacoes": [
+      "Análise de inclinação em engenharia",
+      "Computação gráfica e física"
+    ],
+
+    "erros_comuns": [
+      "Confundir com o ângulo entre vetor e plano (usar cosseno em vez de seno)",
+      "Esquecer que o ângulo é complementar ao ângulo com o vetor normal"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ângulo entre reta e plano depende de:",
+      "alternativas": [
+        "Do vetor diretor e do vetor normal",
+        "Dos pontos da reta",
+        "Apenas do plano",
+        "Apenas da reta"
+      ],
+      "resposta": "Do vetor diretor e do vetor normal",
+      "explicacao": "O cálculo envolve o vetor diretor da reta e o vetor normal do plano."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o produto escalar entre v e n é zero, a reta é:",
+      "alternativas": [
+        "Perpendicular ao plano",
+        "Paralela ao plano",
+        "Coincidente",
+        "Secante"
+      ],
+      "resposta": "Paralela ao plano",
+      "explicacao": "Produto escalar zero indica que v é perpendicular ao normal, logo paralelo ao plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o vetor diretor da reta é paralelo ao vetor normal do plano, então a reta é:",
+      "alternativas": [
+        "Paralela ao plano",
+        "Perpendicular ao plano",
+        "Contida no plano",
+        "Reversa"
+      ],
+      "resposta": "Perpendicular ao plano",
+      "explicacao": "Mesma direção do normal indica perpendicularidade."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o ângulo entre a reta com v=(1,0,0) e o plano com n=(1,0,0)?",
+      "alternativas": [
+        "0°",
+        "45°",
+        "90°",
+        "30°"
+      ],
+      "resposta": "90°",
+      "explicacao": "v paralelo a n → reta perpendicular ao plano → ângulo 90°."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se |v·n| = |v||n|, o ângulo entre a reta e o plano é:",
+      "alternativas": [
+        "0°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "resposta": "90°",
+      "explicacao": "Isso implica cos(θ)=1 → θ=0° (entre v e n), então α=90°."
+    }
+  ]
+}
