@@ -1,0 +1,102 @@
+{
+  "id": "12_Oscilacoes_EnergiaTotalSistema",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Energia total do sistema",
+  "ordem": 12,
+
+  "teoria": {
+    "resumo": "No MHS, a energia total do sistema é constante e depende apenas da amplitude do movimento.",
+
+    "explicacao": "No Movimento Harmônico Simples (MHS), a energia total do sistema é a soma da energia cinética e da energia potencial.\n\nE = Ec + Ep\n\nEm um sistema ideal (sem atrito), essa energia permanece constante ao longo do tempo.\n\nA energia total pode ser escrita de diferentes formas equivalentes:\n\n1) Em função da constante elástica e da amplitude:\nE = (1/2)kA²\n\n2) Em função da massa e da frequência angular:\nE = (1/2)mω²A²\n\nEssas expressões mostram que a energia total depende apenas da amplitude do movimento.\n\nIsso significa que:\n- Quanto maior a amplitude, maior a energia do sistema\n- A energia não depende da posição instantânea\n- A energia não depende do tempo\n\nDurante o movimento:\n- A energia potencial e cinética variam\n- Mas a soma delas permanece constante\n\nVisualmente:\n- Nos extremos → energia total = energia potencial\n- No equilíbrio → energia total = energia cinética\n\nOutra forma importante de interpretar:\nA energia total representa a quantidade máxima de energia que o sistema pode armazenar.\n\nEsse conceito é essencial para entender oscilações, vibrações e sistemas periódicos em geral.\n\nAlém disso, ele permite resolver muitos problemas sem precisar usar equações do movimento, apenas utilizando relações energéticas.",
+
+    "intuicao": "A energia total é como um 'nível fixo' de energia que o sistema possui — ela não muda, só se transforma.",
+
+    "analogia": "É como um copo com água: a água pode se movimentar dentro do copo, mas a quantidade total continua a mesma.",
+
+    "aplicacoes": [
+      "Determinação da amplitude a partir da energia",
+      "Análise de sistemas vibratórios",
+      "Resolução de problemas sem uso direto de equações do movimento"
+    ],
+
+    "erros_comuns": [
+      "Achar que a energia total varia com o tempo",
+      "Confundir energia total com energia cinética ou potencial",
+      "Esquecer que a energia depende da amplitude",
+      "Aplicar fórmulas sem considerar o sistema ideal"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a energia total no MHS ideal?",
+      "alternativas": [
+        "Aumenta com o tempo",
+        "Diminui com o tempo",
+        "Permanece constante",
+        "Depende da posição"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "Sem dissipação, a energia mecânica é conservada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende a energia total no MHS?",
+      "alternativas": [
+        "Da posição",
+        "Do tempo",
+        "Da amplitude",
+        "Da velocidade instantânea"
+      ],
+      "resposta": "Da amplitude",
+      "explicacao": "E = (1/2)kA², então depende apenas da amplitude."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das expressões representa a energia total?",
+      "alternativas": [
+        "E = (1/2)mv²",
+        "E = kx",
+        "E = (1/2)kA²",
+        "E = mgx"
+      ],
+      "resposta": "E = (1/2)kA²",
+      "explicacao": "Essa é a expressão correta da energia total no MHS."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a amplitude dobra, o que acontece com a energia total?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Quadruplica",
+        "Permanece igual"
+      ],
+      "resposta": "Quadruplica",
+      "explicacao": "Como E ∝ A², dobrar A aumenta a energia em 4 vezes."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa melhor descreve a energia total no MHS?",
+      "alternativas": [
+        "Depende do tempo e da posição",
+        "Depende apenas da velocidade",
+        "É constante e depende da amplitude",
+        "É sempre igual à energia cinética"
+      ],
+      "resposta": "É constante e depende da amplitude",
+      "explicacao": "A energia total é constante e determinada pela amplitude do movimento."
+    }
+  ]
+}
