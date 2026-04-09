@@ -1,0 +1,106 @@
+{
+  "id": "55_Termodinamica_CicloDeCarnot",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Ciclos termodinâmicos: Ciclo de Carnot",
+  "ordem": 55,
+
+  "teoria": {
+    "resumo": "O Ciclo de Carnot é um ciclo termodinâmico ideal e reversível que estabelece o rendimento máximo possível para uma máquina térmica operando entre duas temperaturas.",
+
+    "explicacao": "O Ciclo de Carnot foi proposto pelo físico francês Sadi Carnot e representa uma máquina térmica ideal que opera de forma totalmente reversível entre duas fontes térmicas: uma fonte quente e uma fonte fria.\n\nEsse ciclo estabelece o limite máximo teórico de eficiência para qualquer máquina térmica real.\n\nO Ciclo de Carnot é composto por quatro transformações reversíveis:\n\n1) Expansão isotérmica (A → B):\nO gás absorve calor da fonte quente (Qh) a temperatura constante Th e realiza trabalho.\n\n2) Expansão adiabática (B → C):\nO gás se expande sem troca de calor, causando diminuição da temperatura até Tc.\n\n3) Compressão isotérmica (C → D):\nO gás libera calor para a fonte fria (Qc) a temperatura constante Tc.\n\n4) Compressão adiabática (D → A):\nO gás é comprimido sem troca de calor, elevando sua temperatura novamente até Th.\n\nO trabalho líquido do ciclo corresponde à área interna no diagrama P × V.\n\nRendimento do Ciclo de Carnot:\n\nη = 1 − (Tc / Th)\n\nOnde:\n- η é o rendimento da máquina térmica;\n- Th é a temperatura absoluta da fonte quente (K);\n- Tc é a temperatura absoluta da fonte fria (K).\n\nCaracterísticas do Ciclo de Carnot:\n- É totalmente reversível;\n- Possui rendimento máximo possível;\n- Depende apenas das temperaturas das fontes térmicas;\n- Não depende da substância de trabalho;\n- Nenhuma máquina real pode superá-lo.\n\nConsequências da Segunda Lei da Termodinâmica:\n- É impossível construir uma máquina térmica mais eficiente que a de Carnot;\n- O rendimento de 100% é impossível, pois exigiria Tc = 0 K.\n\nRelação entre os calores trocados:\n\nQh / Th = Qc / Tc\n\nExemplos de aplicação:\n- Motores térmicos ideais;\n- Usinas termoelétricas;\n- Estudos de eficiência energética;\n- Modelagem de sistemas de refrigeração;\n- Base teórica para refrigeradores e bombas de calor.\n\nRepresentação gráfica:\n- No diagrama P × V: duas isotérmicas e duas adiabáticas;\n- No diagrama T × S: um retângulo perfeito, característico de processos reversíveis.",
+
+    "intuicao": "O Ciclo de Carnot representa a máquina térmica perfeita, mostrando o limite máximo de eficiência possível.",
+
+    "analogia": "É como uma máquina ideal sem perdas por atrito, utilizada como referência para avaliar o desempenho das máquinas reais.",
+
+    "aplicacoes": [
+      "Análise da eficiência de motores térmicos",
+      "Projetos de usinas termoelétricas",
+      "Sistemas de refrigeração e bombas de calor",
+      "Engenharia energética",
+      "Estudos de termodinâmica aplicada",
+      "Avaliação de desempenho de turbinas"
+    ],
+
+    "erros_comuns": [
+      "Utilizar temperaturas em Celsius em vez de Kelvin",
+      "Acreditar que o ciclo de Carnot pode ser alcançado na prática",
+      "Confundir processos isotérmicos com adiabáticos",
+      "Supor que o rendimento depende do gás utilizado",
+      "Achar que uma máquina pode ter rendimento de 100%"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem propôs o Ciclo de Carnot?",
+      "alternativas": [
+        "Isaac Newton",
+        "James Joule",
+        "Sadi Carnot",
+        "Rudolf Clausius"
+      ],
+      "resposta": "Sadi Carnot",
+      "explicacao": "O ciclo foi proposto pelo físico francês Sadi Carnot."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantas transformações compõem o Ciclo de Carnot?",
+      "alternativas": [
+        "Duas",
+        "Três",
+        "Quatro",
+        "Cinco"
+      ],
+      "resposta": "Quatro",
+      "explicacao": "O ciclo é composto por duas isotérmicas e duas adiabáticas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o rendimento de uma máquina de Carnot?",
+      "alternativas": [
+        "η = Tc/Th",
+        "η = 1 − (Tc/Th)",
+        "η = Th/Tc",
+        "η = 1 − (Th/Tc)"
+      ],
+      "resposta": "η = 1 − (Tc/Th)",
+      "explicacao": "Essa é a expressão do rendimento máximo teórico."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O rendimento do Ciclo de Carnot depende de:",
+      "alternativas": [
+        "Volume do gás",
+        "Tipo de combustível",
+        "Temperaturas das fontes térmicas",
+        "Pressão do sistema"
+      ],
+      "resposta": "Temperaturas das fontes térmicas",
+      "explicacao": "O rendimento depende apenas das temperaturas absolutas das fontes."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma máquina de Carnot opera entre 600 K e 300 K. Qual é o seu rendimento?",
+      "alternativas": [
+        "25%",
+        "40%",
+        "50%",
+        "75%"
+      ],
+      "resposta": "50%",
+      "explicacao": "η = 1 − (300/600) = 0,5 = 50%."
+    }
+  ]
+}
