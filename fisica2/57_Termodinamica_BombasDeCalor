@@ -1,0 +1,106 @@
+{
+  "id": "57_Termodinamica_BombasDeCalor",
+  "disciplina": "Física 2",
+  "assunto": "Termodinâmica - Bombas de calor",
+  "ordem": 57,
+
+  "teoria": {
+    "resumo": "As bombas de calor são dispositivos que utilizam trabalho para transferir calor de uma fonte fria para uma fonte quente, com o objetivo de aquecer ambientes.",
+
+    "explicacao": "As bombas de calor são máquinas térmicas que operam de maneira semelhante aos refrigeradores, porém com o objetivo principal de aquecer um ambiente.\n\nElas funcionam transferindo calor de uma fonte fria para uma fonte quente com o auxílio de trabalho externo, geralmente fornecido por energia elétrica.\n\nEsse processo está de acordo com a Segunda Lei da Termodinâmica, que afirma que o calor não flui espontaneamente do frio para o quente sem a realização de trabalho.\n\nFuncionamento básico:\n\n1) A bomba de calor retira calor da fonte fria (Qf).\n2) Recebe trabalho externo (W).\n3) Libera calor para a fonte quente (Qq), aquecendo o ambiente.\n\nDe acordo com a Primeira Lei da Termodinâmica:\n\nQq = Qf + W\n\nOnde:\n- Qq é o calor fornecido à fonte quente;\n- Qf é o calor retirado da fonte fria;\n- W é o trabalho realizado sobre o sistema.\n\nCoeficiente de desempenho (COP):\n\nA eficiência de uma bomba de calor é medida pelo Coeficiente de Desempenho (COP):\n\nCOP = Qq / W\n\nQuanto maior o COP, mais eficiente é a bomba de calor.\n\nBomba de calor ideal de Carnot:\n\nCOP_Carnot = Th / (Th − Tc)\n\nOnde:\n- Th é a temperatura absoluta da fonte quente (K);\n- Tc é a temperatura absoluta da fonte fria (K).\n\nCaracterísticas importantes:\n- Operam em ciclos termodinâmicos;\n- Utilizam trabalho para transferir calor contra o fluxo natural;\n- São mais eficientes que aquecedores elétricos convencionais;\n- Dependem da diferença de temperatura entre as fontes térmicas.\n\nPrincipais componentes:\n- Compressor\n- Condensador\n- Válvula de expansão\n- Evaporador\n\nAplicações práticas:\n- Aquecimento residencial e industrial;\n- Sistemas de ar-condicionado reversíveis;\n- Aquecimento de piscinas;\n- Aquecimento de água;\n- Sistemas geotérmicos.\n\nRepresentação gráfica:\n- Em diagramas P × V e T × S, as bombas de calor operam em ciclos inversos aos das máquinas térmicas.",
+
+    "intuicao": "A bomba de calor não gera calor, mas o transfere de um ambiente frio para um ambiente quente com o auxílio de energia externa.",
+
+    "analogia": "É como usar uma bomba para elevar água de um nível mais baixo para um mais alto: é necessário fornecer energia para realizar essa tarefa.",
+
+    "aplicacoes": [
+      "Sistemas de aquecimento residencial",
+      "Ar-condicionado reversível",
+      "Aquecimento de piscinas",
+      "Aquecedores de água",
+      "Sistemas geotérmicos",
+      "Climatização de edifícios"
+    ],
+
+    "erros_comuns": [
+      "Confundir bombas de calor com refrigeradores",
+      "Acreditar que produzem calor em vez de transferi-lo",
+      "Ignorar o trabalho externo necessário",
+      "Utilizar temperaturas em Celsius em vez de Kelvin nas fórmulas",
+      "Confundir coeficiente de desempenho com rendimento térmico"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a função principal de uma bomba de calor?",
+      "alternativas": [
+        "Converter calor em trabalho",
+        "Transferir calor da fonte quente para a fria",
+        "Aquecer um ambiente transferindo calor para a fonte quente",
+        "Produzir energia elétrica"
+      ],
+      "resposta": "Aquecer um ambiente transferindo calor para a fonte quente",
+      "explicacao": "A bomba de calor fornece calor ao ambiente aquecido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do coeficiente de desempenho de uma bomba de calor?",
+      "alternativas": [
+        "COP = Qf / W",
+        "COP = Qq / W",
+        "COP = W / Qq",
+        "COP = Qq − Qf"
+      ],
+      "resposta": "COP = Qq / W",
+      "explicacao": "O COP mede a eficiência da bomba em fornecer calor à fonte quente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual relação energética descreve o funcionamento da bomba de calor?",
+      "alternativas": [
+        "Qq = Qf − W",
+        "Qq = Qf + W",
+        "W = Qq + Qf",
+        "Qf = Qq + W"
+      ],
+      "resposta": "Qq = Qf + W",
+      "explicacao": "Essa relação decorre da Primeira Lei da Termodinâmica."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do COP de uma bomba de calor de Carnot?",
+      "alternativas": [
+        "Th / Tc",
+        "Tc / (Th − Tc)",
+        "Th / (Th − Tc)",
+        "1 − (Tc / Th)"
+      ],
+      "resposta": "Th / (Th − Tc)",
+      "explicacao": "Essa é a expressão do desempenho máximo teórico."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma bomba de calor fornece 600 J de calor a um ambiente consumindo 150 J de trabalho. Qual é o seu coeficiente de desempenho?",
+      "alternativas": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "resposta": "4",
+      "explicacao": "COP = Qq/W = 600/150 = 4."
+    }
+  ]
+}
