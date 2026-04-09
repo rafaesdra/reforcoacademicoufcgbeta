@@ -1,0 +1,99 @@
+{
+  "id": "produto_escalar_interpretacao_geometrica",
+  "disciplina": "Álgebra Vetorial e Geometria Analítica",
+  "assunto": "Produto Escalar - Interpretação Geométrica",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "A interpretação geométrica do produto escalar relaciona vetores com o ângulo entre eles e suas projeções.",
+
+    "explicacao": "O produto escalar possui uma importante interpretação geométrica.\n\nEle pode ser definido como:\nA · B = |A| |B| cos(θ)\n\nOnde:\n- |A| e |B| são os módulos dos vetores\n- θ é o ângulo entre eles\n\nInterpretação:\nO produto escalar mede o quanto um vetor está projetado na direção do outro.\n\nCasos importantes:\n\n1) θ = 0° (vetores na mesma direção):\ncos(0) = 1 → produto máximo\n\n2) θ = 90° (vetores perpendiculares):\ncos(90°) = 0 → produto escalar = 0\n\n3) θ = 180° (vetores opostos):\ncos(180°) = -1 → produto negativo\n\nProjeção:\nO produto escalar também está relacionado à projeção de um vetor sobre outro.\n\nExemplo:\nSe A está na direção de B, então A · B será grande.\nSe A é perpendicular a B, não há projeção.\n\nEssa interpretação é essencial para entender ângulos e relações geométricas entre vetores.",
+
+    "intuicao": "O produto escalar indica o quanto dois vetores 'apontam' na mesma direção.",
+
+    "analogia": "Imagine empurrar um objeto: só a parte da força na direção do movimento realmente contribui — isso é o que o produto escalar mede.",
+
+    "aplicacoes": [
+      "Cálculo do ângulo entre vetores",
+      "Projeção de forças em Física"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que o produto escalar depende do ângulo entre os vetores",
+      "Achar que produto escalar zero significa vetor nulo (na verdade indica perpendicularidade)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois vetores são perpendiculares, qual é o valor do produto escalar?",
+      "alternativas": [
+        "0",
+        "1",
+        "-1",
+        "Depende do vetor"
+      ],
+      "resposta": "0",
+      "explicacao": "Vetores perpendiculares formam 90°, e cos(90°) = 0."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o ângulo entre dois vetores é 0°, o produto escalar é:",
+      "alternativas": [
+        "Máximo positivo",
+        "Zero",
+        "Negativo",
+        "Indefinido"
+      ],
+      "resposta": "Máximo positivo",
+      "explicacao": "cos(0°) = 1, então o produto escalar é máximo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A · B < 0, o ângulo entre os vetores é:",
+      "alternativas": [
+        "Obtuso",
+        "Agudo",
+        "Reto",
+        "Zero"
+      ],
+      "resposta": "Obtuso",
+      "explicacao": "Produto escalar negativo indica ângulo maior que 90°."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O produto escalar está relacionado diretamente com:",
+      "alternativas": [
+        "Cosseno do ângulo entre vetores",
+        "Seno do ângulo",
+        "Tangente do ângulo",
+        "Área do paralelogramo"
+      ],
+      "resposta": "Cosseno do ângulo entre vetores",
+      "explicacao": "A fórmula envolve o cosseno do ângulo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se A · B = |A||B|, o que podemos afirmar sobre os vetores?",
+      "alternativas": [
+        "São paralelos e têm mesma direção",
+        "São perpendiculares",
+        "São opostos",
+        "São independentes"
+      ],
+      "resposta": "São paralelos e têm mesma direção",
+      "explicacao": "Isso ocorre quando cos(θ) = 1 → θ = 0°."
+    }
+  ]
+}
