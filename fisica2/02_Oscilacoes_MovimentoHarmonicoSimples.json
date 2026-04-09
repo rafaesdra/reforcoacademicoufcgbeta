@@ -1,0 +1,102 @@
+{
+  "id": "02_Oscilacoes_MovimentoHarmonicoSimples",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Movimento Harmônico Simples",
+  "ordem": 2,
+
+  "teoria": {
+    "resumo": "O Movimento Harmônico Simples é um tipo de oscilação em que a força restauradora é proporcional ao deslocamento e atua em direção ao equilíbrio.",
+
+    "explicacao": "O Movimento Harmônico Simples (MHS) é o modelo mais importante no estudo das oscilações. Ele descreve sistemas em que existe uma força restauradora que tenta trazer o corpo de volta à posição de equilíbrio.\n\nEssa força possui duas características fundamentais:\n- É proporcional ao deslocamento\n- Atua sempre em sentido oposto ao deslocamento\n\nMatematicamente, isso é descrito por:\nF = -kx\n\nEsse tipo de força gera um movimento oscilatório regular, que pode ser descrito por funções trigonométricas (seno e cosseno).\n\nA posição do corpo ao longo do tempo é dada por:\nx(t) = A cos(ωt + φ)\n\nOnde:\n- A é a amplitude\n- ω é a frequência angular\n- φ é a fase inicial\n\nA velocidade e a aceleração são dadas por:\nv(t) = -Aω sen(ωt + φ)\na(t) = -ω²x\n\nA relação entre frequência angular, frequência e período é:\nω = 2πf\nT = 1/f\n\nNo MHS, o movimento é periódico e contínuo, e o corpo passa pela posição de equilíbrio com velocidade máxima e atinge velocidade zero nos extremos.\n\nEsse modelo aparece em diversos sistemas físicos, como molas, pêndulos (para pequenos ângulos) e vibrações em geral.\n\nO MHS é fundamental porque serve como base para entender fenômenos mais complexos como ondas, ressonância e até circuitos elétricos.",
+
+    "intuicao": "Sempre que algo é puxado e solto e fica indo e voltando de forma regular, existe uma força tentando trazê-lo de volta — isso é MHS.",
+
+    "analogia": "É como uma mola: quanto mais você puxa, mais forte ela tenta voltar. Esse 'puxar de volta' gera a oscilação.",
+
+    "aplicacoes": [
+      "Sistemas massa-mola em engenharia",
+      "Vibrações mecânicas e estruturas",
+      "Modelagem de ondas e fenômenos periódicos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o sinal negativo na força restauradora (F = -kx)",
+      "Confundir frequência com frequência angular",
+      "Achar que velocidade é máxima nos extremos (ela é zero nos extremos)",
+      "Não perceber que aceleração é proporcional ao deslocamento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a principal característica do Movimento Harmônico Simples?",
+      "alternativas": [
+        "Velocidade constante",
+        "Força constante",
+        "Força proporcional ao deslocamento e contrária a ele",
+        "Movimento em linha reta uniforme"
+      ],
+      "resposta": "Força proporcional ao deslocamento e contrária a ele",
+      "explicacao": "No MHS, a força restauradora segue a forma F = -kx."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a velocidade é máxima no MHS?",
+      "alternativas": [
+        "Nos extremos",
+        "Na posição de equilíbrio",
+        "Em qualquer ponto",
+        "Depende da massa"
+      ],
+      "resposta": "Na posição de equilíbrio",
+      "explicacao": "No equilíbrio, toda energia é cinética, então a velocidade é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão da força no MHS?",
+      "alternativas": [
+        "F = kx",
+        "F = -kx",
+        "F = mv",
+        "F = ma²"
+      ],
+      "resposta": "F = -kx",
+      "explicacao": "O sinal negativo indica que a força aponta para o equilíbrio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a frequência de um MHS é 2 Hz, qual é o período?",
+      "alternativas": [
+        "2 s",
+        "1 s",
+        "0,5 s",
+        "4 s"
+      ],
+      "resposta": "0,5 s",
+      "explicacao": "T = 1/f = 1/2 = 0,5 s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No MHS, qual é a relação correta entre aceleração e posição?",
+      "alternativas": [
+        "a = kx",
+        "a = -ω²x",
+        "a = ωx",
+        "a = constante"
+      ],
+      "resposta": "a = -ω²x",
+      "explicacao": "A aceleração é proporcional ao deslocamento e sempre aponta para o equilíbrio."
+    }
+  ]
+}
