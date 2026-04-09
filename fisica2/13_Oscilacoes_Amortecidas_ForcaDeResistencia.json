@@ -1,0 +1,102 @@
+{
+  "id": "13_Oscilacoes_Amortecidas_ForcaDeResistencia",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações amortecidas - Força de resistência",
+  "ordem": 13,
+
+  "teoria": {
+    "resumo": "A força de resistência atua contra o movimento e causa a diminuição gradual da amplitude em sistemas oscilatórios.",
+
+    "explicacao": "Em sistemas reais, sempre existem forças dissipativas, como atrito ou resistência do ar, que retiram energia do sistema ao longo do tempo.\n\nEssas forças são chamadas de forças de resistência e são responsáveis pelo amortecimento das oscilações.\n\nA forma mais comum de modelar essa força é:\nF = -bv\n\nOnde:\n- b é o coeficiente de resistência (ou amortecimento)\n- v é a velocidade\n\nO sinal negativo indica que a força sempre atua em sentido oposto ao movimento.\n\nAo incluir essa força no sistema massa-mola, temos:\nF = -kx - bv\n\nAplicando a segunda lei de Newton:\nm a = -kx - bv\n\nEssa equação descreve um movimento oscilatório com perda de energia ao longo do tempo.\n\nPrincipais efeitos da força de resistência:\n- A amplitude diminui com o tempo\n- A energia do sistema diminui\n- O movimento pode deixar de ser periódico (dependendo do amortecimento)\n\nA energia mecânica não é mais conservada, pois parte dela é dissipada (geralmente em forma de calor).\n\nA intensidade do amortecimento depende do valor de b:\n- Pequeno b → pouca resistência\n- Grande b → forte amortecimento\n\nEsse modelo é essencial para descrever sistemas reais, onde sempre existe algum tipo de perda de energia.",
+
+    "intuicao": "Quanto maior a resistência, mais rápido o movimento 'morre' até parar.",
+
+    "analogia": "É como empurrar um objeto dentro da água: ele rapidamente perde velocidade devido à resistência do meio.",
+
+    "aplicacoes": [
+      "Amortecedores de veículos",
+      "Controle de vibrações em estruturas",
+      "Sistemas mecânicos com atrito"
+    ],
+
+    "erros_comuns": [
+      "Achar que o MHS real não perde energia",
+      "Esquecer que a força de resistência depende da velocidade",
+      "Ignorar o sinal negativo da força",
+      "Confundir força de resistência com força elástica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão mais comum para a força de resistência?",
+      "alternativas": [
+        "F = kx",
+        "F = mv",
+        "F = -bv",
+        "F = mg"
+      ],
+      "resposta": "F = -bv",
+      "explicacao": "A força de resistência é proporcional à velocidade e oposta ao movimento."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o efeito da força de resistência em um sistema oscilatório?",
+      "alternativas": [
+        "Aumenta a amplitude",
+        "Mantém a energia constante",
+        "Diminui a amplitude ao longo do tempo",
+        "Elimina a força elástica"
+      ],
+      "resposta": "Diminui a amplitude ao longo do tempo",
+      "explicacao": "A resistência dissipa energia, reduzindo a amplitude."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação descreve o sistema massa-mola com resistência?",
+      "alternativas": [
+        "ma = -kx",
+        "ma = -bv",
+        "ma = -kx - bv",
+        "ma = kx + bv"
+      ],
+      "resposta": "ma = -kx - bv",
+      "explicacao": "A força total inclui a força elástica e a força de resistência."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a energia do sistema com resistência?",
+      "alternativas": [
+        "Permanece constante",
+        "Aumenta",
+        "Diminui com o tempo",
+        "Zera instantaneamente"
+      ],
+      "resposta": "Diminui com o tempo",
+      "explicacao": "A energia é dissipada, geralmente em forma de calor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator determina a intensidade do amortecimento?",
+      "alternativas": [
+        "A massa",
+        "A posição",
+        "O coeficiente b",
+        "A gravidade"
+      ],
+      "resposta": "O coeficiente b",
+      "explicacao": "O coeficiente b define o nível de resistência do sistema."
+    }
+  ]
+}
