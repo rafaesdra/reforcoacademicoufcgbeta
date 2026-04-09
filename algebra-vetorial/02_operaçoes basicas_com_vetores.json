@@ -2,7 +2,7 @@
   "id": "operacoes_basicas_vetores",
   "disciplina": "Algebra Vetorial",
   "assunto": "Operacoes basicas com vetores",
-  "ordem": 1,
+  "ordem": 2,
 
   "teoria": {
     "resumo": "Operacoes basicas com vetores envolvem soma, subtracao, multiplicacao por escalar e combinacoes lineares.",
