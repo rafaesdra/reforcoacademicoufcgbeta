@@ -1,0 +1,102 @@
+{
+  "id": "26_Ondas_VelocidadeDaOnda_Aplicacoes",
+  "disciplina": "Física 2",
+  "assunto": "Ondas - Velocidade da onda (aplicações e dependência do meio)",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "A velocidade da onda depende das propriedades do meio e pode ser determinada por diferentes modelos físicos.",
+
+    "explicacao": "A velocidade da onda depende das propriedades físicas do meio em que ela se propaga, principalmente da elasticidade e da densidade.\n\nDe forma geral:\n\nv depende de (elasticidade / densidade)\n\nIsso significa:\n- Meios mais rígidos → maior velocidade\n- Meios mais densos → menor velocidade (em geral)\n\nExemplos importantes:\n\n1) Ondas em cordas:\nA velocidade depende da tensão (T) e da densidade linear (μ):\n\nv = √(T/μ)\n\nOnde:\n- T é a tensão na corda\n- μ é a massa por unidade de comprimento\n\n2) Som no ar:\nDepende da temperatura e das propriedades do gás.\n\n3) Ondas eletromagnéticas:\nNo vácuo:\n\nc ≈ 3 × 10⁸ m/s\n\nEm outros meios, a velocidade é menor.\n\nMudança de meio:\nQuando a onda passa de um meio para outro:\n- A velocidade muda\n- O comprimento de onda muda\n- A frequência permanece constante\n\nIsso explica fenômenos como refração.\n\nA velocidade da onda é essencial para entender como a energia se propaga e como as ondas interagem com diferentes materiais.",
+
+    "intuicao": "Ondas andam mais rápido em meios mais 'rígidos' e mais devagar em meios mais 'pesados'.",
+
+    "analogia": "É como correr:\n- Em piso firme → rápido\n- Em areia → mais lento",
+
+    "aplicacoes": [
+      "Propagação do som em diferentes materiais",
+      "Ondas em cordas e instrumentos musicais",
+      "Estudo de refração e transmissão de ondas"
+    ],
+
+    "erros_comuns": [
+      "Achar que a velocidade depende da frequência",
+      "Confundir velocidade com energia",
+      "Ignorar a influência do meio",
+      "Achar que a velocidade é sempre constante"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende a velocidade da onda?",
+      "alternativas": [
+        "Da frequência",
+        "Do meio",
+        "Do tempo",
+        "Da posição"
+      ],
+      "resposta": "Do meio",
+      "explicacao": "A velocidade depende das propriedades do meio."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator aumenta a velocidade em uma corda?",
+      "alternativas": [
+        "Diminuir a tensão",
+        "Aumentar a tensão",
+        "Aumentar a massa",
+        "Diminuir a frequência"
+      ],
+      "resposta": "Aumentar a tensão",
+      "explicacao": "v = √(T/μ), então aumentar T aumenta v."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com a frequência ao mudar de meio?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece constante",
+        "Zera"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "A frequência depende da fonte, não do meio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a velocidade da luz no vácuo?",
+      "alternativas": [
+        "3 × 10⁵ m/s",
+        "3 × 10⁶ m/s",
+        "3 × 10⁸ m/s",
+        "3 × 10⁹ m/s"
+      ],
+      "resposta": "3 × 10⁸ m/s",
+      "explicacao": "Essa é a velocidade da luz no vácuo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a densidade linear de uma corda aumenta, o que acontece com a velocidade?",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Como v = √(T/μ), aumentar μ diminui v."
+    }
+  ]
+}
