@@ -1,0 +1,103 @@
+{
+  "id": "37_Ondas_Som_RessonanciaEmTubos",
+  "disciplina": "Física 2",
+  "assunto": "Ondas sonoras - Ressonância em tubos",
+  "ordem": 37,
+
+  "teoria": {
+    "resumo": "A ressonância em tubos ocorre quando ondas sonoras formam padrões estacionários dentro de colunas de ar.",
+
+    "explicacao": "A ressonância em tubos ocorre quando ondas sonoras refletem nas extremidades de um tubo e formam ondas estacionárias.\n\nEsses padrões dependem do tipo de tubo:\n\n1) Tubo aberto nas duas extremidades:\n\n- Há ventres nas duas extremidades\n- Os modos permitidos são:\n\nλₙ = 2L/n\n\nfₙ = n(v/2L)\n\nOnde n = 1, 2, 3...\n\n2) Tubo fechado em uma extremidade:\n\n- Nó na extremidade fechada\n- Ventre na extremidade aberta\n\nApenas harmônicos ímpares são permitidos:\n\nλₙ = 4L/n\n\nfₙ = n(v/4L)\n\nOnde n = 1, 3, 5...\n\nCaracterísticas importantes:\n\n- A frequência depende do comprimento do tubo\n- Tubos mais longos → sons mais graves\n- Tubos mais curtos → sons mais agudos\n\nA velocidade do som no ar é aproximadamente:\n\nv ≈ 340 m/s\n\nEsses padrões explicam o funcionamento de instrumentos como:\n\n- Flauta (tubo aberto)\n- Clarinete (tubo fechado)\n\nA ressonância permite amplificar certas frequências e produzir sons característicos.\n\nEsse fenômeno é fundamental na acústica e na engenharia de som.",
+
+    "intuicao": "O ar dentro do tubo vibra apenas em padrões específicos que 'encaixam' no comprimento do tubo.",
+
+    "analogia": "É como uma corda: só certas ondas cabem exatamente dentro do comprimento disponível.",
+
+    "aplicacoes": [
+      "Instrumentos de sopro",
+      "Acústica de ambientes",
+      "Engenharia de som",
+      "Sistemas de ressonância"
+    ],
+
+    "erros_comuns": [
+      "Confundir tubo aberto com fechado",
+      "Esquecer que tubos fechados só têm harmônicos ímpares",
+      "Aplicar fórmulas incorretas para o tipo de tubo",
+      "Ignorar a posição de nós e ventres"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que ocorre em um tubo aberto nas extremidades?",
+      "alternativas": [
+        "Nós nas extremidades",
+        "Ventres nas extremidades",
+        "Sem vibração",
+        "Som zero"
+      ],
+      "resposta": "Ventres nas extremidades",
+      "explicacao": "O ar vibra livremente nas extremidades abertas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que ocorre na extremidade fechada?",
+      "alternativas": [
+        "Ventre",
+        "Movimento máximo",
+        "Nó",
+        "Alta frequência"
+      ],
+      "resposta": "Nó",
+      "explicacao": "A extremidade fechada impede o movimento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quais harmônicos existem em um tubo fechado?",
+      "alternativas": [
+        "Todos",
+        "Apenas pares",
+        "Apenas ímpares",
+        "Nenhum"
+      ],
+      "resposta": "Apenas ímpares",
+      "explicacao": "Somente harmônicos ímpares são permitidos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o comprimento do tubo aumenta, o som:",
+      "alternativas": [
+        "Fica mais agudo",
+        "Fica mais grave",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Fica mais grave",
+      "explicacao": "Comprimento maior → menor frequência."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a frequência fundamental de um tubo fechado?",
+      "alternativas": [
+        "v/2L",
+        "v/L",
+        "v/4L",
+        "2v/L"
+      ],
+      "resposta": "v/4L",
+      "explicacao": "Essa é a frequência do primeiro harmônico em tubo fechado."
+    }
+  ]
+}
