@@ -1,0 +1,101 @@
+{
+  "id": "vetores_geometria_analitica_vetor_nulo",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Vetor nulo",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "O vetor nulo e aquele que possui todas as componentes iguais a zero e modulo igual a zero.",
+
+    "explicacao": "O vetor nulo e um vetor especial na Algebra Vetorial, representado por (0, 0) no plano ou (0, 0, 0) no espaco.\n\nEle possui modulo igual a zero, ou seja, nao possui comprimento.\n\nDiferente de outros vetores, o vetor nulo nao possui direcao nem sentido definidos.\n\nEle funciona como o elemento neutro da soma vetorial, ou seja, ao somar um vetor qualquer com o vetor nulo, o resultado sera o proprio vetor.\n\nPor exemplo: v + 0 = v.\n\nEsse conceito e fundamental para operacoes vetoriais e para a estrutura matematica dos vetores.",
+
+    "intuicao": "O vetor nulo representa a ausencia de movimento ou deslocamento.",
+
+    "analogia": "E como ficar parado no mesmo lugar: nao ha deslocamento, nem direcao, nem sentido.",
+
+    "aplicacoes": [
+      "Elemento neutro em operacoes com vetores",
+      "Representacao de equilibrio em sistemas fisicos",
+      "Base para definicao de espacos vetoriais"
+    ],
+
+    "erros_comuns": [
+      "Achar que o vetor nulo possui direcao",
+      "Confundir vetor nulo com vetor unitario",
+      "Esquecer que seu modulo e zero"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa o vetor nulo em R2?",
+      "alternativas": [
+        "(0, 0)",
+        "(1, 0)",
+        "(0, 1)",
+        "(1, 1)"
+      ],
+      "resposta": "(0, 0)",
+      "explicacao": "O vetor nulo possui todas as componentes iguais a zero."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual e o modulo do vetor nulo?",
+      "alternativas": [
+        "1",
+        "-1",
+        "0",
+        "Nao existe"
+      ],
+      "resposta": "0",
+      "explicacao": "O vetor nulo possui comprimento igual a zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade o vetor nulo possui na soma vetorial?",
+      "alternativas": [
+        "Elemento inverso",
+        "Elemento neutro",
+        "Elemento multiplicador",
+        "Elemento oposto"
+      ],
+      "resposta": "Elemento neutro",
+      "explicacao": "Somar o vetor nulo a qualquer vetor nao altera o vetor."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual afirmacao e correta sobre o vetor nulo?",
+      "alternativas": [
+        "Possui direcao definida",
+        "Possui sentido definido",
+        "Nao possui direcao nem sentido definidos",
+        "Possui modulo igual a 1"
+      ],
+      "resposta": "Nao possui direcao nem sentido definidos",
+      "explicacao": "Como nao ha deslocamento, nao ha direcao nem sentido."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v + w = 0, o que podemos afirmar sobre v e w?",
+      "alternativas": [
+        "v = w",
+        "v e w sao iguais",
+        "v e w sao opostos",
+        "v e w sao nulos"
+      ],
+      "resposta": "v e w sao opostos",
+      "explicacao": "Se a soma de dois vetores e o vetor nulo, entao um e o oposto do outro."
+    }
+  ]
+}
