@@ -1,0 +1,102 @@
+{
+  "id": "08_Oscilacoes_PenduloSimples",
+  "disciplina": "Física 2",
+  "assunto": "Oscilações - Pêndulo simples",
+  "ordem": 8,
+
+  "teoria": {
+    "resumo": "O pêndulo simples realiza Movimento Harmônico Simples para pequenos ângulos, com período dependente do comprimento e da gravidade.",
+
+    "explicacao": "O pêndulo simples consiste em uma massa puntiforme presa a um fio ideal (inextensível e sem massa), que oscila sob a ação da gravidade.\n\nQuando deslocamos o pêndulo de sua posição de equilíbrio e o soltamos, ele passa a oscilar devido à componente do peso que atua ao longo do arco.\n\nA força restauradora é dada por:\nF = -mg sen(θ)\n\nPara pequenos ângulos (θ pequeno, em radianos), usamos a aproximação:\nsen(θ) ≈ θ\n\nAssim, a equação se torna semelhante à do MHS:\nF ≈ -mgθ\n\nComo o deslocamento ao longo do arco é proporcional ao ângulo, o movimento passa a ser um Movimento Harmônico Simples.\n\nA frequência angular do pêndulo é:\nω = √(g/L)\n\nE o período é dado por:\nT = 2π√(L/g)\n\nOnde:\n- L é o comprimento do fio\n- g é a aceleração da gravidade\n\nCaracterísticas importantes:\n- O período não depende da massa\n- O período depende apenas de L e g\n- A aproximação de MHS só vale para pequenos ângulos (geralmente θ < 15°)\n\nSe o ângulo for grande, o movimento deixa de ser exatamente harmônico e o período aumenta.\n\nO pêndulo simples é um dos sistemas mais importantes da física, sendo usado historicamente para medir o tempo e estudar a gravidade.",
+
+    "intuicao": "Quanto maior o fio, mais lento o pêndulo; quanto maior a gravidade, mais rápido ele oscila.",
+
+    "analogia": "É como um balanço: um balanço mais longo demora mais para ir e voltar, enquanto um mais curto é mais rápido.",
+
+    "aplicacoes": [
+      "Relógios de pêndulo",
+      "Medição da aceleração da gravidade",
+      "Estudo de oscilações em sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Achar que a massa influencia o período",
+      "Usar a fórmula do período para ângulos grandes",
+      "Esquecer que θ deve estar em radianos",
+      "Confundir comprimento do fio com altura do movimento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "De que depende o período do pêndulo simples?",
+      "alternativas": [
+        "Da massa e do comprimento",
+        "Da massa e da velocidade",
+        "Do comprimento e da gravidade",
+        "Apenas da massa"
+      ],
+      "resposta": "Do comprimento e da gravidade",
+      "explicacao": "T = 2π√(L/g), então depende apenas de L e g."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o pêndulo pode ser aproximado como MHS?",
+      "alternativas": [
+        "Para qualquer ângulo",
+        "Para ângulos pequenos",
+        "Somente em repouso",
+        "Somente com atrito"
+      ],
+      "resposta": "Para ângulos pequenos",
+      "explicacao": "A aproximação sen(θ) ≈ θ só vale para pequenos ângulos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão do período do pêndulo simples?",
+      "alternativas": [
+        "T = 2π√(g/L)",
+        "T = √(L/g)",
+        "T = 2π√(L/g)",
+        "T = L/g"
+      ],
+      "resposta": "T = 2π√(L/g)",
+      "explicacao": "Essa é a fórmula correta para pequenos ângulos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que acontece com o período se o comprimento do fio dobrar?",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Aumenta por √2",
+        "Permanece igual"
+      ],
+      "resposta": "Aumenta por √2",
+      "explicacao": "T ∝ √L, então dobrar L multiplica o período por √2."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que o pêndulo deixa de ser MHS para ângulos grandes?",
+      "alternativas": [
+        "Porque a gravidade muda",
+        "Porque a massa muda",
+        "Porque sen(θ) ≠ θ",
+        "Porque o fio estica"
+      ],
+      "resposta": "Porque sen(θ) ≠ θ",
+      "explicacao": "A aproximação sen(θ) ≈ θ deixa de ser válida para ângulos grandes."
+    }
+  ]
+}
