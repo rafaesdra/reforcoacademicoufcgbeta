@@ -1,20 +1,32 @@
 // main.js - Inicialização da aplicação
-import { carregarUsuarios, mostrarDashboard, gerarCalendario, mostrarMeta, atualizarMeta, definirUsuarioAtivo } from './user.js';
+import { carregarUsuarios, mostrarDashboard, gerarCalendario, mostrarMeta, atualizarMeta, definirUsuarioAtivo, atualizarRanking, loginUsuario, criarUsuario, logout, mostrarCriarConta, obterRankingAtual } from './user.js';
 import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
 import './disciplinas.js';
 import './exercicios.js';
 
 // === INICIALIZAÇÃO ===
 async function iniciar() {
+  if(window.location.protocol === 'file:') {
+    alert('O site deve ser executado a partir de um servidor HTTP. Use Live Server ou execute um servidor local para acessar os assuntos e exercícios.');
+    return;
+  }
+
   // Wait for Firebase to be initialized
   while(!window.db || !window.auth) {
     await new Promise(resolve => setTimeout(resolve, 100));
   }
 
   await carregarUsuarios();
-  gerarCalendario();
   mostrarMeta();
   atualizarMeta();
+
+  // Tornar funções disponíveis globalmente para o HTML
+  window.loginUsuario = loginUsuario;
+  window.criarUsuario = criarUsuario;
+  window.logout = logout;
+  window.mostrarCriarConta = mostrarCriarConta;
+  window.atualizarRanking = atualizarRanking;
+  window.obterRankingAtual = obterRankingAtual;
 
   // Listen for authentication state changes
   onAuthStateChanged(window.auth, async (user) => {

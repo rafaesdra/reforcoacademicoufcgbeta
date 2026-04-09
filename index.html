@@ -6,34 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reforço Acadêmico Engenharia</title>
 <link rel="icon" href="logo.png" type="image/png">
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        ufcg: "#003366",
-        raio: "#FFD100"
-      },
-      animation: {
-        'fade-in': 'fadeIn 0.5s ease-in-out',
-        'slide-up': 'slideUp 0.3s ease-out'
-      },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' }
-        },
-        slideUp: {
-          '0%': { transform: 'translateY(20px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' }
-        }
-      }
-    }
-  }
-}
-</script>
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-analytics.js";
@@ -73,7 +47,7 @@ tailwind.config = {
   <div id="loginCard" class="bg-white rounded-2xl shadow-2xl p-8 mt-8 max-w-md mx-auto border border-gray-200 animate-fade-in">
     <div class="text-center mb-6">
       <i class="fas fa-bolt text-4xl text-raio mb-2"></i>
-      <h1 class="text-3xl font-bold text-ufcg mb-2">⚡ Reforço Acadêmico</h1>
+      <h1 class="text-3xl font-bold text-ufcg mb-2">Reforço Acadêmico</h1>
       <p class="text-gray-600">Engenharia Elétrica • UFCG</p>
     </div>
 
@@ -100,7 +74,7 @@ tailwind.config = {
     </div>
 
     <div class="mt-6 space-y-3">
-      <button onclick="loginUsuario()" class="w-full bg-ufcg hover:bg-blue-800 text-white p-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
+      <button onclick="loginUsuario()" class="w-full bg-ufcg hover:bg-ufcg-dark text-white p-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-sign-in-alt mr-2"></i>Entrar
       </button>
       <button onclick="mostrarCriarConta()" class="w-full bg-raio hover:bg-yellow-400 text-black p-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
@@ -117,13 +91,13 @@ tailwind.config = {
   <div id="dashboard" class="hidden space-y-6 animate-slide-up">
 
     <!-- HEADER -->
-    <div class="bg-gradient-to-r from-ufcg to-blue-700 text-white rounded-2xl p-6 shadow-2xl flex items-center justify-between">
+    <div class="bg-ufcg text-white rounded-2xl p-6 shadow-2xl flex items-center justify-between">
       <div class="flex items-center gap-4">
         <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
           <i class="fas fa-graduation-cap text-2xl text-ufcg"></i>
         </div>
         <div>
-          <h1 class="text-2xl font-bold">⚡ Reforço Acadêmico</h1>
+          <h1 class="text-2xl font-bold">Reforço Acadêmico</h1>
           <p class="text-sm opacity-90">Engenharia Elétrica • UFCG</p>
         </div>
       </div>
@@ -143,10 +117,14 @@ tailwind.config = {
             <i class="fas fa-calendar-alt text-raio mr-2"></i>Metas de Estudo 2026
           </h2>
           <div class="flex gap-3 mb-4">
-            <input id="metaDiaria" type="text" placeholder="Ex: Estudar 2 assuntos hoje"
-              class="border-2 border-gray-200 p-3 rounded-xl w-full focus:border-raio focus:outline-none transition-colors">
-            <button onclick="salvarMeta()" class="bg-ufcg hover:bg-blue-800 text-white px-6 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
-              <i class="fas fa-save mr-1"></i>Salvar
+            <select id="metaDiaria" class="border-2 border-gray-200 p-3 rounded-xl w-full focus:border-raio focus:outline-none transition-colors bg-white">
+              <option value="3">3 questões/dia (Leve)</option>
+              <option value="5" selected>5 questões/dia (Moderado)</option>
+              <option value="7">7 questões/dia (Intenso)</option>
+              <option value="10">10 questões/dia (Extremo)</option>
+            </select>
+            <button onclick="salvarMeta()" class="bg-ufcg hover:bg-ufcg-dark text-white px-6 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
+              <i class="fas fa-save mr-1"></i>Definir Meta
             </button>
           </div>
           <p id="metaAtual" class="text-gray-600 mb-4 italic text-sm"></p>
@@ -158,14 +136,14 @@ tailwind.config = {
             <p id="xpUsuario" class="text-3xl font-bold text-ufcg">0</p>
           </div>
           <div class="bg-gradient-to-r from-orange-400 to-red-400 p-4 rounded-xl text-center shadow-lg">
-            <h3 class="font-bold text-white text-lg">Streak</h3>
+            <h3 class="font-bold text-white text-lg">Sequência de dias</h3>
             <p id="streakUsuario" class="text-3xl font-bold text-white">0 <i class="fas fa-fire ml-1"></i></p>
           </div>
           <div class="bg-white p-4 rounded-xl shadow-lg border border-gray-200">
             <h3 class="font-bold text-gray-800 mb-2 flex items-center">
               <i class="fas fa-trophy text-raio mr-2"></i>Ranking Histórico
             </h3>
-            <ol id="rankingHistorico" class="list-decimal pl-5 text-gray-700 space-y-1"></ol>
+            <div id="rankingHistorico" class="space-y-2"></div>
           </div>
         </div>
       </div>
@@ -190,7 +168,7 @@ tailwind.config = {
         </button>
       </div>
       <div class="bg-gradient-to-r from-raio/20 to-yellow-100 rounded-xl h-6 overflow-hidden mb-6 shadow-inner">
-        <div id="progressBar" class="bg-gradient-to-r from-ufcg to-blue-600 h-full rounded-xl transition-all duration-500"></div>
+        <div id="progressBar" class="bg-gradient-to-r from-ufcg to-ufcg h-full rounded-xl transition-all duration-500"></div>
       </div>
       <div id="motivacao" class="italic text-center text-gray-600 mb-6 p-4 bg-gray-50 rounded-xl font-medium"></div>
       <div id="listaAssuntos" class="grid gap-3"></div>
@@ -228,7 +206,7 @@ tailwind.config = {
       <p id="pergunta" class="text-center mb-6 text-lg font-medium bg-blue-50 p-6 rounded-xl shadow-inner"></p>
       <div id="opcoes" class="space-y-3 mb-6"></div>
       <div class="text-center space-y-3">
-        <button onclick="verificar()" class="bg-ufcg hover:bg-blue-800 text-white py-4 px-8 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
+        <button id="btnConfirmar" onclick="verificar()" class="bg-ufcg hover:bg-ufcg-dark text-white py-4 px-8 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
           <i class="fas fa-check mr-2"></i>Confirmar resposta
         </button>
         <div id="feedback" class="text-center font-bold mt-4 p-4 rounded-xl"></div>

@@ -1,9 +1,18 @@
 // exercicios.js - Lógica de exercícios e questões
-import { usuarioAtivo, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia } from './user.js';
+import { usuarioAtivo, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia, atualizarPosicaoUsuario } from './user.js';
 import { construirCaminho, atualizarProgresso } from './disciplinas.js';
 import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
 
 let respostaSelecionada = null;
+
+function xpPorNivel(nivel){
+  switch((nivel || '').toLowerCase()){
+    case 'facil': return 5;
+    case 'medio': return 10;
+    case 'dificil': return 20;
+    default: return 10;
+  }
+}
 
 function renderQuestao(){
   const questoesAtivas = window.questoesAtivas || [];
@@ -12,6 +21,7 @@ function renderQuestao(){
   let questao = questoesAtivas[questaoIndex];
   document.getElementById("questaoMeta").innerText = `Pergunta ${questaoIndex + 1} de ${questoesAtivas.length} • Nível: ${questao.nivel.charAt(0).toUpperCase() + questao.nivel.slice(1)}`;
   document.getElementById("pergunta").innerText = questao.pergunta;
+  document.getElementById("btnConfirmar").disabled = false;
 
   let opcoesDiv = document.getElementById("opcoes");
   opcoesDiv.innerHTML = "";
@@ -31,7 +41,6 @@ function renderQuestao(){
 }
 
 function mostrarExercicio(){
-  console.log('mostrarExercicio called');
   document.getElementById("conteudoCard").style.display = "none";
   document.getElementById("exercicioCard").style.display = "block";
   renderQuestao();
@@ -58,25 +67,62 @@ async function verificar(){
   let selecionada = questao.alternativas[respostaSelecionada];
   let feedback = document.getElementById("feedback");
   feedback.innerText = "";
+
+  const disciplinaAtual = window.disciplinaAtual || "";
+  const assuntoId = window.assuntoId || "";
+  const questaoId = questao.id || `${disciplinaAtual}:${questaoIndex}`;
+  const questionKey = `${assuntoId}|${questaoId}`;
+
+  if(!usuarioAtivo.progresso) usuarioAtivo.progresso = {};
+  if(!usuarioAtivo.acertos) usuarioAtivo.acertos = 0;
+  if(!usuarioAtivo.erros) usuarioAtivo.erros = 0;
+  if(!usuarioAtivo.questoesRespondidas) usuarioAtivo.questoesRespondidas = [];
+
+  if(usuarioAtivo.questoesRespondidas.includes(questionKey)){
+    feedback.innerText = "Você já respondeu esta questão antes. Nenhuma pontuação adicional será registrada.";
+    feedback.style.color = "orange";
+    document.getElementById("btnConfirmar").disabled = true;
+    document.getElementById("voltarAssuntosBtn").classList.remove("hidden");
+    document.getElementById("proximaQuestaoBtn").classList.add("hidden");
+    return;
+  }
+
+  const xpBase = xpPorNivel(questao.nivel);
+  let bonus = 0;
+
   if(selecionada === correta){
-    feedback.innerText = "Resposta correta ✅";
-    feedback.style.color = "green";
+    atualizarStreak();
+    if(usuarioAtivo.streak >= 3) {
+      bonus = 5;
+    }
+
+    usuarioAtivo.acertos += 1;
+    usuarioAtivo.progresso[disciplinaAtual] = (usuarioAtivo.progresso[disciplinaAtual] || 0) + 1;
+    usuarioAtivo.xp += xpBase + bonus;
+    usuarioAtivo.questoesRespondidas.push(questionKey);
 
     registrarQuestaoDoDia();
 
-    const disciplinaAtual = window.disciplinaAtual || "";
-    usuarioAtivo.progresso[disciplinaAtual] = (usuarioAtivo.progresso[disciplinaAtual] || 0) + 1;
-    usuarioAtivo.xp += 10;
-    atualizarStreak();
-
+    feedback.innerText = `Resposta correta ✅ (+${xpBase} XP${bonus ? ` +${bonus} bônus de streak` : ''})`;
+    feedback.style.color = "green";
   } else {
+    usuarioAtivo.erros += 1;
+    usuarioAtivo.questoesRespondidas.push(questionKey);
     feedback.innerText = `Resposta incorreta ❌ (Resposta correta: ${correta})`;
     feedback.style.color = "red";
   }
+  document.getElementById("btnConfirmar").disabled = true;
 
   try {
     if(window.db && usuarioAtivo.id) {
-      await updateDoc(doc(window.db, 'usuarios', usuarioAtivo.id), usuarioAtivo);
+      console.log("Salvando progresso: ID =", usuarioAtivo.id, "XP =", usuarioAtivo.xp);
+      const { id, ...usuarioDados } = usuarioAtivo;
+      await updateDoc(doc(window.db, 'usuarios', usuarioAtivo.id), usuarioDados);
+
+      // Atualizar o objeto local usuarioAtivo com os dados salvos
+      // Isso garante que usuarioAtivo reflita as mudanças mais recentes
+      Object.assign(usuarioAtivo, usuarioDados);
+      console.log("Progresso salvo: ID ainda é", usuarioAtivo.id, "XP =", usuarioAtivo.xp);
     }
   } catch(error) {
     console.error("Erro ao atualizar progresso:", error);
@@ -88,10 +134,11 @@ async function verificar(){
     document.getElementById("proximaQuestaoBtn").classList.remove("hidden");
   } else {
     document.getElementById("proximaQuestaoBtn").classList.add("hidden");
+    document.getElementById("feedback").innerText += "\nVocê concluiu todas as questões deste assunto.";
   }
   atualizarProgresso();
   atualizarXPStreak();
-  await atualizarRanking();
+  await atualizarPosicaoUsuario(); // Atualização mais eficiente da posição
 }
 
 function proximaQuestao(){

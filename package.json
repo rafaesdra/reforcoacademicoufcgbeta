@@ -1,0 +1,12 @@
+{
+  "name": "reforcoacademicoufcgbeta",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./styles.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./styles.css --watch"
+  }
+}

@@ -2,23 +2,23 @@
   "disciplinas": [
     {
       "nome": "Pré-Cálculo",
-      "path": "pré-calculo/index.json"
+      "path": "disciplinas/pré-calculo/index.json"
     },
     {
       "nome": "Cálculo I",
-      "path": "calculo1/index.json"
+      "path": "disciplinas/calculo1/index.json"
     },
     {
       "nome": "Álgebra Vetorial",
-      "path": "algebra-vetorial/index.json"
+      "path": "disciplinas/algebra-vetorial/index.json"
     },
     {
       "nome": "Cálculo II",
-      "path": "calculo2/index.json"
+      "path": "disciplinas/calculo2/index.json"
     },
     {
       "nome": "Álgebra Linear",
-      "path": "algebra-linear/index.json"
+      "path": "disciplinas/algebra-linear/index.json"
     }
   ]
 }

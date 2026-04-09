@@ -5,6 +5,10 @@ let dados, indice, respostaSelecionada = null, disciplinaAtual = "", basePath = 
 let questoesAtivas = [];
 let questaoIndex = 0;
 
+function criarChaveQuestao(assuntoId, questaoId){
+  return `${assuntoId}|${questaoId}`;
+}
+
 function construirCaminho(path){
   if(/^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith("/")) return path;
   return basePath + path;
@@ -12,7 +16,7 @@ function construirCaminho(path){
 
 // === DISCIPLINAS DINÂMICAS ===
 function carregarDisciplinas(){
-  fetch("disciplinas.json")
+  fetch(encodeURI("disciplinas.json"))
   .then(res=>res.json())
   .then(data=>{
     let container = document.getElementById("disciplinasContainer");
@@ -38,7 +42,7 @@ const frases=["Continue estudando, cada passo conta.","Grandes engenheiros foram
 function motivacao(){ document.getElementById("motivacao").innerText = frases[Math.floor(Math.random()*frases.length)]; }
 
 function carregarDisciplina(indexPath){
-  fetch(indexPath)
+  fetch(encodeURI(indexPath))
   .then(res=>res.json())
   .then(data=>{
     disciplinaAtual = indexPath;
@@ -60,6 +64,10 @@ function carregarDisciplina(indexPath){
     });
     motivacao();
     atualizarProgresso();
+  })
+  .catch(error=>{
+    console.error("Erro ao carregar disciplina:", error);
+    alert("Não foi possível carregar a disciplina. Verifique o console para mais detalhes.");
   });
 }
 
@@ -68,9 +76,17 @@ function abrirAssunto(i, path){
   indice=i;
   // Set onclick immediately
   document.getElementById("btnExercicio").onclick = window.mostrarExercicio;
-  fetch(construirCaminho(path))
+  fetch(encodeURI(construirCaminho(path)))
   .then(res=>res.json())
   .then(assunto=>{
+    const assuntoId = assunto.id || path;
+    const respondidasRaw = usuarioAtivo && usuarioAtivo.questoesRespondidas;
+    const respondidasList = Array.isArray(respondidasRaw) ? respondidasRaw : Object.values(respondidasRaw || {});
+    const respondidas = new Set(respondidasList);
+    questoesAtivas = (assunto.questoes || []).filter(q => !respondidas.has(criarChaveQuestao(assuntoId, q.id)));
+    window.questoesAtivas = questoesAtivas;
+    window.assuntoId = assuntoId;
+
     document.getElementById("assuntosCard").style.display = "none";
     document.getElementById("conteudoCard").style.display = "block";
 
@@ -83,13 +99,21 @@ function abrirAssunto(i, path){
     document.getElementById("conteudo").innerText = conteudo;
 
     let btn = document.getElementById("btnExercicio");
-    btn.disabled = false;
+    if(questoesAtivas.length === 0){
+      btn.disabled = true;
+      btn.innerText = "Nenhuma questão nova disponível";
+    } else {
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fas fa-play mr-2"></i>Ir para exercício';
+    }
 
-    questoesAtivas = assunto.questoes || [];
-    window.questoesAtivas = questoesAtivas;
     questaoIndex = 0;
     window.questaoIndex = 0;
     document.getElementById("voltarAssuntosBtn").classList.add("hidden");
+  })
+  .catch(error=>{
+    console.error("Erro ao abrir assunto:", error);
+    alert("Não foi possível carregar o assunto. Verifique o console para mais detalhes.");
   });
 }
 
