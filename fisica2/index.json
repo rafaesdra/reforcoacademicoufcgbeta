@@ -37,7 +37,7 @@
     {"titulo": "Ondas Sonoras - Intensidade e Sensação Sonora", "path": "34_Ondas_Som_IntensidadeESensacaoSonora.json"},
     {"titulo": "Ondas Sonoras - Nível em Decibéis", "path": "35_Ondas_Som_NivelEmDecibeis.json"},
     {"titulo": "Ondas Sonoras - Efeito Doppler", "path": "36_Ondas_Som_EfeitoDoppler.json"},
-    {"titulo": "Ondas Sonoras - Ressonância em Tubos", "path": "37_Ondas_Som_RessonanciaEmTubos.json"}
+    {"titulo": "Ondas Sonoras - Ressonância em Tubos", "path": "37_Ondas_Som_RessonanciaEmTubos.json"},
     {"titulo": "Termodinâmica - Temperatura e Escalas Termométricas", "path": "38_Termodinamica_TemperaturaEscalasTermometricas.json"},
     {"titulo": "Termodinâmica - Dilatação Térmica", "path": "39_Termodinamica_DilatacaoTermica.json"},
     {"titulo": "Termodinâmica - Calor e Calor Específico", "path": "40_Termodinamica_Calor_CalorEspecifico.json"},
@@ -60,7 +60,7 @@
     {"titulo": "Termodinâmica - Bombas de Calor", "path": "57_Termodinamica_BombasDeCalor.json"},
     {"titulo": "Termodinâmica - Processos Reversíveis e Irreversíveis", "path": "58_Termodinamica_ProcessosReversiveisEIrreversiveis.json"},
     {"titulo": "Termodinâmica - Entropia Aplicada", "path": "59_Termodinamica_EntropiaAplicada.json"},
-    {"titulo": "Termodinâmica - Revisão Geral", "path": "60_Termodinamica_RevisaoGeral.json"}
+    {"titulo": "Termodinâmica - Revisão Geral", "path": "60_Termodinamica_RevisaoGeral.json"},
     {"titulo": "Fluidos - Propriedades dos Fluidos: Densidade", "path": "61_Fluidos_Propriedades_Densidade.json"},
     {"titulo": "Fluidos - Propriedades dos Fluidos: Pressão", "path": "62_Fluidos_Propriedades_Pressao.json"},
     {"titulo": "Fluidos - Hidrostática: Pressão Hidrostática", "path": "63_Fluidos_Hidrostatica_PressaoHidrostatica.json"},
