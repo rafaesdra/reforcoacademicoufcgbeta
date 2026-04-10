@@ -1,0 +1,107 @@
+{
+  "id": "tecnicas_basicas_preparo_solucoes",
+  "disciplina": "Química Geral I",
+  "assunto": "Laboratório — Técnicas Básicas de Preparo de Soluções",
+  "ordem": 44,
+
+  "teoria": {
+    "resumo": "O preparo de soluções é uma técnica fundamental em laboratório, exigindo precisão, conhecimento das unidades de concentração e o uso adequado das vidrarias.",
+
+    "explicacao": "O preparo de soluções é uma das práticas mais importantes em laboratórios de Química. Ele consiste em dissolver uma quantidade específica de soluto em um solvente para obter uma solução de concentração definida. A precisão nesse processo é essencial para garantir a confiabilidade dos resultados experimentais.\n\n---\n\nCONCEITO DE SOLUÇÃO:\n\nUma solução é uma mistura homogênea formada por:\n\n✔ Soluto: substância dissolvida.\n✔ Solvente: substância que dissolve o soluto.\n\nExemplo:\nNaCl dissolvido em água.\n\n---\n\nPRINCIPAIS UNIDADES DE CONCENTRAÇÃO:\n\n✔ Molaridade (mol/L)\n✔ Concentração comum (g/L)\n✔ Porcentagem em massa (% m/m)\n✔ Partes por milhão (ppm)\n\n---\n\nMATERIAIS UTILIZADOS:\n\n✔ Balança analítica\n✔ Béquer\n✔ Bastão de vidro\n✔ Funil\n✔ Balão volumétrico\n✔ Pipeta volumétrica\n✔ Proveta\n✔ Pisseta com água destilada\n✔ Espátula\n✔ Vidro de relógio\n\n---\n\nPREPARO DE SOLUÇÃO A PARTIR DE UM SOLUTO SÓLIDO:\n\n1) Calcular a massa necessária do soluto.\n\nm = M × MM × V\n\nOnde:\n✔ m = massa (g)\n✔ M = molaridade (mol/L)\n✔ MM = massa molar (g/mol)\n✔ V = volume (L)\n\n2) Pesar o soluto em balança analítica.\n\n3) Dissolver o soluto em um béquer com pequena quantidade de solvente.\n\n4) Transferir a solução para um balão volumétrico com auxílio de um funil.\n\n5) Completar o volume com água destilada até a marca de aferição.\n\n6) Homogeneizar a solução.\n\n---\n\nPREPARO DE SOLUÇÃO POR DILUIÇÃO:\n\nA diluição consiste em reduzir a concentração de uma solução pela adição de solvente.\n\nEquação da diluição:\n\nM₁V₁ = M₂V₂\n\nPassos:\n\n1) Calcular o volume da solução concentrada necessário.\n2) Medir o volume com uma pipeta volumétrica.\n3) Transferir para um balão volumétrico.\n4) Completar com solvente até a marca.\n5) Homogeneizar a solução.\n\n---\n\nEXEMPLO 1 — PREPARO DE SOLUÇÃO:\n\nPreparar 250 mL de NaCl 0,5 mol/L.\n\nm = M × MM × V\nm = 0,5 × 58,5 × 0,25\nm = 7,31 g\n\n---\n\nEXEMPLO 2 — DILUIÇÃO:\n\nPreparar 100 mL de solução 0,5 mol/L a partir de uma solução 2,0 mol/L.\n\nM₁V₁ = M₂V₂\n2,0 × V₁ = 0,5 × 100\nV₁ = 25 mL\n\n---\n\nBOAS PRÁTICAS DE LABORATÓRIO:\n\n✔ Utilizar equipamentos de proteção individual.\n✔ Empregar água destilada ou deionizada.\n✔ Verificar a limpeza das vidrarias.\n✔ Identificar corretamente as soluções preparadas.\n✔ Evitar contaminações.\n✔ Registrar os dados experimentais.\n\n---\n\nIDENTIFICAÇÃO DAS SOLUÇÕES:\n\nO rótulo deve conter:\n\n✔ Nome da substância\n✔ Concentração\n✔ Data de preparo\n✔ Responsável\n✔ Informações de segurança\n\n---\n\nAPLICAÇÕES:\n\n✔ Análises químicas laboratoriais\n✔ Indústria farmacêutica\n✔ Indústria alimentícia\n✔ Pesquisa científica\n✔ Tratamento de água\n✔ Controle de qualidade\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Determinar a concentração desejada.\n2) Calcular a quantidade de soluto.\n3) Selecionar as vidrarias adequadas.\n4) Preparar a solução com precisão.\n5) Homogeneizar e rotular corretamente.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Nunca adicionar água ao ácido; adicionar o ácido à água.\n✔ Ler o menisco ao nível dos olhos.\n✔ Utilizar pipetas adequadas para medições precisas.\n✔ Evitar perdas durante a transferência.\n✔ Conferir os cálculos antes do preparo.\n\n---\n\nIDEIA CENTRAL:\n\nO preparo correto de soluções garante a precisão dos experimentos e a confiabilidade dos resultados em análises químicas."
+    ,
+
+    "intuicao": "Preparar uma solução é medir e misturar substâncias com precisão para obter a concentração desejada.",
+
+    "analogia": "Assim como em uma receita culinária, a quantidade exata de ingredientes determina o sucesso do resultado final.",
+
+    "aplicacoes": [
+      "Preparação de reagentes laboratoriais",
+      "Produção de medicamentos",
+      "Análises químicas e ambientais",
+      "Controle de qualidade industrial",
+      "Ensino e pesquisa científica"
+    ],
+
+    "erros_comuns": [
+      "Não converter corretamente as unidades",
+      "Ler o menisco de forma incorreta",
+      "Utilizar vidrarias inadequadas",
+      "Não homogeneizar a solução",
+      "Esquecer de rotular a solução",
+      "Adicionar água ao ácido incorretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual vidraria é utilizada para preparar soluções com alta precisão?",
+      "alternativas": [
+        "Béquer",
+        "Proveta",
+        "Balão volumétrico",
+        "Erlenmeyer"
+      ],
+      "resposta": "Balão volumétrico",
+      "explicacao": "O balão volumétrico permite preparar soluções com volume exato."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação é utilizada no preparo de soluções por diluição?",
+      "alternativas": [
+        "PV = nRT",
+        "Q = mcΔT",
+        "M₁V₁ = M₂V₂",
+        "ΔH = q + w"
+      ],
+      "resposta": "M₁V₁ = M₂V₂",
+      "explicacao": "Essa equação expressa a conservação da quantidade de soluto durante a diluição."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual massa de NaCl é necessária para preparar 1,0 L de solução 0,5 mol/L? (MM = 58,5 g/mol)",
+      "alternativas": [
+        "14,6 g",
+        "29,25 g",
+        "58,5 g",
+        "7,31 g"
+      ],
+      "resposta": "29,25 g",
+      "explicacao": "m = M × MM × V = 0,5 × 58,5 × 1,0 = 29,25 g."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume necessário de uma solução 2,0 mol/L para preparar 100 mL de solução 0,5 mol/L?",
+      "alternativas": [
+        "10 mL",
+        "20 mL",
+        "25 mL",
+        "50 mL"
+      ],
+      "resposta": "25 mL",
+      "explicacao": "M₁V₁ = M₂V₂ → 2,0V₁ = 0,5 × 100 → V₁ = 25 mL."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual procedimento é correto ao preparar uma solução ácida?",
+      "alternativas": [
+        "Adicionar água ao ácido",
+        "Adicionar o ácido à água",
+        "Misturar rapidamente sem agitação",
+        "Aquecer a solução imediatamente"
+      ],
+      "resposta": "Adicionar o ácido à água",
+      "explicacao": "Essa prática evita respingos e acidentes devido à liberação de calor."
+    }
+  ]
+}
