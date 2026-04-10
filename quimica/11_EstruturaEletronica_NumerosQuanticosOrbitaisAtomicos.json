@@ -1,0 +1,110 @@
+{
+  "id": "numeros_quanticos_orbitais_atomicos",
+  "disciplina": "Química Geral I",
+  "assunto": "Números Quânticos e Orbitais Atômicos",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "Apresenta os números quânticos e os orbitais atômicos, fundamentais para descrever a posição, a energia e o comportamento dos elétrons nos átomos.",
+
+    "explicacao": "No modelo quântico do átomo, a posição e a energia dos elétrons são descritas por números quânticos. Esses números definem completamente o estado de um elétron em um átomo e resultam da solução da equação de Schrödinger.\n\nCada elétron é caracterizado por quatro números quânticos:\n\n1. Número Quântico Principal (n):\nIndica o nível de energia e a distância média do elétron em relação ao núcleo. Assume valores inteiros positivos (n = 1, 2, 3, ...). Quanto maior o valor de n, maior a energia e o tamanho do orbital.\n\n2. Número Quântico Secundário ou Azimutal (l):\nDefine o subnível de energia e o formato do orbital. Seus valores variam de 0 a (n − 1).\n\nValores de l e seus respectivos subníveis:\n- l = 0 → subnível s\n- l = 1 → subnível p\n- l = 2 → subnível d\n- l = 3 → subnível f\n\n3. Número Quântico Magnético (mₗ):\nDetermina a orientação espacial do orbital. Seus valores variam de −l até +l.\n\nQuantidade de orbitais por subnível:\n- s: 1 orbital\n- p: 3 orbitais\n- d: 5 orbitais\n- f: 7 orbitais\n\n4. Número Quântico de Spin (mₛ):\nIndica o sentido da rotação do elétron, podendo assumir os valores +1/2 ou −1/2. Cada orbital comporta no máximo dois elétrons com spins opostos.\n\nOs orbitais atômicos são regiões do espaço onde há maior probabilidade de encontrar um elétron. Eles apresentam diferentes formas:\n- Orbital s: esférico.\n- Orbital p: formato de halteres.\n- Orbitais d e f: formas mais complexas.\n\nA capacidade máxima de elétrons em cada subnível é:\n- s: 2 elétrons\n- p: 6 elétrons\n- d: 10 elétrons\n- f: 14 elétrons\n\nEsses conceitos são fundamentais para compreender a distribuição eletrônica, as propriedades periódicas e as ligações químicas.",
+
+    "intuicao": "Os números quânticos funcionam como um endereço para os elétrons, indicando em que nível de energia eles se encontram, qual é o formato do orbital e como estão orientados no espaço.",
+
+    "analogia": "Podemos comparar os números quânticos a um sistema de endereçamento de um prédio: o número principal representa o andar, o número azimutal indica o tipo de apartamento, o número magnético define sua posição e o número de spin identifica o morador.",
+
+    "aplicacoes": [
+      "Determinação da configuração eletrônica dos elementos.",
+      "Compreensão das propriedades periódicas.",
+      "Estudo das ligações químicas e da estrutura molecular.",
+      "Desenvolvimento da espectroscopia atômica.",
+      "Aplicações em física quântica e nanotecnologia."
+    ],
+
+    "erros_comuns": [
+      "Confundir órbitas com orbitais.",
+      "Acreditar que os elétrons possuem trajetórias definidas.",
+      "Esquecer os limites dos números quânticos.",
+      "Supor que um orbital comporta mais de dois elétrons.",
+      "Confundir subníveis com níveis de energia."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual número quântico indica o nível de energia do elétron?",
+      "opcoes": [
+        "Número quântico magnético",
+        "Número quântico de spin",
+        "Número quântico principal",
+        "Número quântico azimutal",
+        "Número quântico orbital"
+      ],
+      "resposta": 2,
+      "explicacao": "O número quântico principal (n) indica o nível de energia e a distância média do elétron ao núcleo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual subnível possui formato esférico?",
+      "opcoes": [
+        "p",
+        "d",
+        "f",
+        "s",
+        "g"
+      ],
+      "resposta": 3,
+      "explicacao": "O subnível s possui formato esférico."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos orbitais existem no subnível p?",
+      "opcoes": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "resposta": 2,
+      "explicacao": "O subnível p possui três orbitais orientados nos eixos x, y e z."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos elétrons podem ocupar o subnível d?",
+      "opcoes": [
+        "2",
+        "6",
+        "8",
+        "10",
+        "14"
+      ],
+      "resposta": 3,
+      "explicacao": "O subnível d possui cinco orbitais, cada um comportando dois elétrons, totalizando 10 elétrons."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual conjunto representa corretamente os quatro números quânticos de um elétron?",
+      "opcoes": [
+        "n, l, mₗ e mₛ",
+        "n, p, d e f",
+        "Z, A, n e e⁻",
+        "n, λ, c e h",
+        "A, Z, m e q"
+      ],
+      "resposta": 0,
+      "explicacao": "Os quatro números quânticos são: principal (n), azimutal (l), magnético (mₗ) e spin (mₛ)."
+    }
+  ]
+}
