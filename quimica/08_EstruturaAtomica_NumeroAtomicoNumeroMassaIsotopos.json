@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Número Atômico, Número de Massa e Isótopos",
   "ordem": 8,
-
   "teoria": {
     "resumo": "Apresenta os conceitos de número atômico, número de massa, isótopos, isóbaros e isótonos, fundamentais para a compreensão da estrutura atômica e da identificação dos elementos químicos.",
-
     "explicacao": "O estudo da estrutura atômica permite identificar e diferenciar os elementos químicos por meio de grandezas fundamentais, como o número atômico e o número de massa.\n\nO número atômico (Z) corresponde à quantidade de prótons presentes no núcleo do átomo. Esse número define o elemento químico e sua posição na Tabela Periódica. Em um átomo eletricamente neutro, o número de prótons é igual ao número de elétrons.\n\nO número de massa (A) corresponde à soma do número de prótons (Z) e nêutrons (n) presentes no núcleo do átomo, sendo expresso pela relação:\n\nA = Z + n\n\nAssim, é possível determinar o número de nêutrons por meio da expressão:\n\nn = A − Z\n\nA representação simbólica de um átomo é dada por:\n\nA/Z X\n\nonde:\n- X representa o símbolo do elemento químico;\n- Z é o número atômico;\n- A é o número de massa.\n\nPor exemplo:\n- ¹²₆C (Carbono-12)\n- ²³₁₁Na (Sódio-23)\n- ⁵⁶₂₆Fe (Ferro-56)\n\nOs átomos podem ser classificados de acordo com suas características nucleares:\n\nIsótopos:\nSão átomos de um mesmo elemento químico que possuem o mesmo número atômico (Z) e diferentes números de massa (A), devido à variação no número de nêutrons. Exemplos incluem o Hidrogênio-1 (Prótio), Hidrogênio-2 (Deutério) e Hidrogênio-3 (Trítio).\n\nIsóbaros:\nSão átomos de elementos diferentes que apresentam o mesmo número de massa (A), mas números atômicos distintos. Exemplo: ¹⁴₆C e ¹⁴₇N.\n\nIsótonos:\nSão átomos de elementos diferentes que possuem o mesmo número de nêutrons. Exemplo: ¹⁴₆C e ¹⁵₇N.\n\nIsoeletrônicos:\nSão espécies químicas que apresentam o mesmo número de elétrons, como Ne, Na⁺ e F⁻.\n\nA massa atômica de um elemento químico corresponde à média ponderada das massas de seus isótopos naturais, levando em consideração suas abundâncias relativas.\n\nEsses conceitos são fundamentais para o estudo da radioatividade, da química nuclear, da espectrometria de massas e das aplicações tecnológicas e médicas dos radioisótopos.",
-
     "intuicao": "O número atômico funciona como a identidade de um elemento químico, enquanto o número de massa representa o 'peso' do núcleo. Já os isótopos podem ser entendidos como versões do mesmo elemento com massas diferentes.",
-
     "analogia": "Os isótopos podem ser comparados a diferentes edições de um mesmo livro: o conteúdo principal permanece o mesmo, mas o número de páginas varia.",
-
     "aplicacoes": [
       "Datação de fósseis por carbono-14.",
       "Produção de energia em reatores nucleares.",
@@ -20,7 +15,6 @@
       "Radioterapia no tratamento do câncer.",
       "Estudos de composição e origem de materiais."
     ],
-
     "erros_comuns": [
       "Confundir número de massa com massa atômica.",
       "Acreditar que isótopos pertencem a elementos diferentes.",
@@ -29,82 +23,81 @@
       "Interpretar a massa atômica como um número inteiro exato."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "O número atômico (Z) corresponde à quantidade de:",
-      "opcoes": [
+      "resposta": "Prótons",
+      "explicacao": "O número atômico representa a quantidade de prótons no núcleo do átomo e identifica o elemento químico.",
+      "alternativas": [
         "Nêutrons",
         "Prótons",
         "Elétrons e nêutrons",
         "Nucleons",
         "Moléculas"
-      ],
-      "resposta": 1,
-      "explicacao": "O número atômico representa a quantidade de prótons no núcleo do átomo e identifica o elemento químico."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "O número de massa (A) é determinado pela soma de:",
-      "opcoes": [
+      "resposta": "Prótons e nêutrons",
+      "explicacao": "O número de massa corresponde à soma dos prótons e nêutrons presentes no núcleo.",
+      "alternativas": [
         "Prótons e elétrons",
         "Elétrons e nêutrons",
         "Prótons e nêutrons",
         "Prótons e íons",
         "Elétrons e fótons"
-      ],
-      "resposta": 2,
-      "explicacao": "O número de massa corresponde à soma dos prótons e nêutrons presentes no núcleo."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Dois átomos com o mesmo número atômico e diferentes números de massa são denominados:",
-      "opcoes": [
+      "resposta": "Isótopos",
+      "explicacao": "Isótopos possuem o mesmo número de prótons, mas diferentes números de nêutrons.",
+      "alternativas": [
         "Isóbaros",
         "Isótonos",
         "Isoeletrônicos",
         "Isótopos",
         "Alótropos"
-      ],
-      "resposta": 3,
-      "explicacao": "Isótopos possuem o mesmo número de prótons, mas diferentes números de nêutrons."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Quantos nêutrons possui o átomo ²³₁₁Na?",
-      "opcoes": [
+      "resposta": "12",
+      "explicacao": "O número de nêutrons é dado por n = A − Z = 23 − 11 = 12.",
+      "alternativas": [
         "10",
         "11",
         "12",
         "13",
         "23"
-      ],
-      "resposta": 2,
-      "explicacao": "O número de nêutrons é dado por n = A − Z = 23 − 11 = 12."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Assinale a alternativa que apresenta um par de isóbaros.",
-      "opcoes": [
+      "resposta": "¹⁶₈O e ¹⁶₇N",
+      "explicacao": "Isóbaros possuem o mesmo número de massa e diferentes números atômicos, como ¹⁶₈O e ¹⁶₇N.",
+      "alternativas": [
         "¹⁴₆C e ¹²₆C",
         "¹⁶₈O e ¹⁶₇N",
         "²³₁₁Na e ²⁴₁₂Mg",
         "¹²₆C e ¹⁴₇N",
         "³⁵₁₇Cl e ³⁷₁₇Cl"
-      ],
-      "resposta": 1,
-      "explicacao": "Isóbaros possuem o mesmo número de massa e diferentes números atômicos, como ¹⁶₈O e ¹⁶₇N."
+      ]
     }
   ]
 }
