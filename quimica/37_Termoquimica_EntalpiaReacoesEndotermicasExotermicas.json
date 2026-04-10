@@ -1,0 +1,105 @@
+{
+  "id": "entalpia_reacoes_endotermicas_exotermicas",
+  "disciplina": "Química Geral I",
+  "assunto": "Termoquímica — Entalpia e Reações Endotérmicas e Exotérmicas",
+  "ordem": 37,
+
+  "teoria": {
+    "resumo": "A entalpia mede a variação de energia térmica em processos químicos a pressão constante, permitindo classificar as reações em endotérmicas e exotérmicas.",
+
+    "explicacao": "A Termoquímica estuda as trocas de energia envolvidas nas reações químicas. Um dos conceitos fundamentais é a entalpia, que representa o conteúdo de energia térmica de um sistema em condições de pressão constante.\n\n---\n\nENTALPIA (H):\n\nA entalpia é uma função de estado associada à energia interna de um sistema.\n\nSua variação é dada por:\n\nΔH = H_final − H_inicial\n\nEm processos a pressão constante, a variação de entalpia corresponde ao calor trocado com a vizinhança.\n\n---\n\nEQUAÇÃO FUNDAMENTAL:\n\nΔH = q_p\n\nOnde:\n✔ ΔH = variação de entalpia\n✔ q_p = calor trocado a pressão constante\n\n---\n\nREAÇÕES EXOTÉRMICAS:\n\nSão aquelas que liberam calor para o ambiente.\n\nCaracterísticas:\n\n✔ ΔH < 0\n✔ A temperatura da vizinhança aumenta\n✔ Os produtos possuem menor energia que os reagentes\n\nExemplos:\n\n✔ Combustão do metano\n✔ Reações de neutralização ácido-base\n✔ Respiração celular\n\nEquação exemplo:\n\nCH₄ + 2O₂ → CO₂ + 2H₂O + calor\n\n---\n\nREAÇÕES ENDOTÉRMICAS:\n\nSão aquelas que absorvem calor do ambiente.\n\nCaracterísticas:\n\n✔ ΔH > 0\n✔ A temperatura da vizinhança diminui\n✔ Os produtos possuem maior energia que os reagentes\n\nExemplos:\n\n✔ Fotossíntese\n✔ Decomposição térmica do carbonato de cálcio\n✔ Fusão do gelo\n\nEquação exemplo:\n\nCaCO₃ + calor → CaO + CO₂\n\n---\n\nDIAGRAMAS DE ENTALPIA:\n\nOs diagramas de energia representam a variação de entalpia durante uma reação química.\n\n✔ Reações exotérmicas: os produtos apresentam menor energia que os reagentes.\n✔ Reações endotérmicas: os produtos apresentam maior energia que os reagentes.\n\n---\n\nENERGIA DE ATIVAÇÃO:\n\nÉ a energia mínima necessária para que uma reação química ocorra.\n\nMesmo reações exotérmicas necessitam de energia inicial para serem iniciadas.\n\n---\n\nUNIDADES DE ENTALPIA:\n\n✔ Joule (J)\n✔ Quilojoule (kJ)\n✔ kJ/mol\n\n---\n\nEXEMPLO 1:\n\nSe uma reação libera 250 kJ de energia:\n\nΔH = −250 kJ\n\nTrata-se de uma reação exotérmica.\n\n---\n\nEXEMPLO 2:\n\nSe uma reação absorve 180 kJ de energia:\n\nΔH = +180 kJ\n\nTrata-se de uma reação endotérmica.\n\n---\n\nAPLICAÇÕES:\n\n✔ Combustíveis e geração de energia\n✔ Processos industriais\n✔ Produção de alimentos e medicamentos\n✔ Refrigeração e bolsas térmicas instantâneas\n✔ Estudos ambientais e energéticos\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar os reagentes e produtos.\n\n2) Verificar se há absorção ou liberação de calor.\n\n3) Determinar o sinal da variação de entalpia.\n\n4) Classificar a reação como endotérmica ou exotérmica.\n\n5) Interpretar o diagrama energético.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ ΔH negativo indica liberação de calor.\n✔ ΔH positivo indica absorção de calor.\n✔ A entalpia é uma função de estado.\n✔ Reações exotérmicas liberam energia para o ambiente.\n✔ Reações endotérmicas absorvem energia do ambiente.\n\n---\n\nIDEIA CENTRAL:\n\nA variação de entalpia permite compreender e quantificar a energia envolvida nas transformações químicas, classificando-as como endotérmicas ou exotérmicas.",
+
+    "intuicao": "Quando uma reação libera calor, ela aquece o ambiente; quando absorve calor, ela o resfria.",
+
+    "analogia": "Uma fogueira libera calor como uma reação exotérmica, enquanto o derretimento do gelo absorve calor, semelhante a uma reação endotérmica.",
+
+    "aplicacoes": [
+      "Combustão de combustíveis",
+      "Produção industrial de substâncias químicas",
+      "Bolsas térmicas instantâneas",
+      "Sistemas de refrigeração",
+      "Processos biológicos e ambientais"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Acreditar que reações exotérmicas possuem ΔH positivo",
+      "Ignorar o sinal da variação de entalpia",
+      "Confundir energia de ativação com entalpia",
+      "Esquecer que a entalpia é uma função de estado"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma reação com ΔH negativo é classificada como:",
+      "alternativas": [
+        "Endotérmica",
+        "Isotérmica",
+        "Exotérmica",
+        "Adiabática"
+      ],
+      "resposta": "Exotérmica",
+      "explicacao": "ΔH negativo indica liberação de calor para o ambiente."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A entalpia é definida como:",
+      "alternativas": [
+        "A quantidade de matéria de um sistema",
+        "O conteúdo de energia térmica de um sistema",
+        "A velocidade de uma reação química",
+        "A densidade de uma substância"
+      ],
+      "resposta": "O conteúdo de energia térmica de um sistema",
+      "explicacao": "A entalpia representa a energia térmica de um sistema a pressão constante."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual processo é endotérmico?",
+      "alternativas": [
+        "Combustão da gasolina",
+        "Solidificação da água",
+        "Fotossíntese",
+        "Respiração celular"
+      ],
+      "resposta": "Fotossíntese",
+      "explicacao": "A fotossíntese absorve energia luminosa para produzir glicose."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma reação absorve 120 kJ de energia, o valor de ΔH será:",
+      "alternativas": [
+        "-120 kJ",
+        "0 kJ",
+        "+120 kJ",
+        "120 J"
+      ],
+      "resposta": "+120 kJ",
+      "explicacao": "Reações endotérmicas apresentam ΔH positivo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa descreve corretamente uma reação exotérmica?",
+      "alternativas": [
+        "Absorve calor e apresenta ΔH positivo",
+        "Libera calor e apresenta ΔH negativo",
+        "Não troca energia com o ambiente",
+        "Ocorre apenas em sistemas isolados"
+      ],
+      "resposta": "Libera calor e apresenta ΔH negativo",
+      "explicacao": "Reações exotérmicas liberam energia para o ambiente e possuem ΔH negativo."
+    }
+  ]
+}
