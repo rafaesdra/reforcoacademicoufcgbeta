@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Introdução à Química e Método Científico",
   "ordem": 1,
-
   "teoria": {
     "resumo": "Apresenta os conceitos fundamentais da Química, sua importância e as etapas do método científico utilizadas na construção do conhecimento científico.",
-
     "explicacao": "A Química é a ciência que estuda a matéria, suas propriedades, composição, estrutura e as transformações que ela sofre, bem como a energia envolvida nesses processos.\n\nEssa ciência está presente em praticamente todos os aspectos da vida cotidiana, desde a respiração e a digestão até a produção de combustíveis, medicamentos e novos materiais.\n\nA Química é tradicionalmente dividida em cinco grandes áreas: Química Geral, Química Orgânica, Química Inorgânica, Físico-Química e Química Analítica.\n\nO desenvolvimento do conhecimento químico baseia-se no método científico, um conjunto de etapas sistemáticas utilizadas para investigar fenômenos naturais e propor explicações confiáveis. As principais etapas do método científico são:\n\n1. Observação: identificação de um fenômeno ou problema.\n2. Formulação do problema: definição clara da questão a ser investigada.\n3. Hipótese: elaboração de uma possível explicação.\n4. Experimentação: realização de testes controlados.\n5. Análise dos resultados: interpretação dos dados obtidos.\n6. Conclusão: verificação da validade da hipótese.\n7. Teoria e Lei Científica: consolidação do conhecimento quando comprovado repetidamente.\n\nUma lei científica descreve um fenômeno natural, geralmente por meio de relações matemáticas, enquanto uma teoria científica explica por que o fenômeno ocorre. Ambas são baseadas em evidências experimentais e podem ser aprimoradas com novos estudos.\n\nO Sistema Internacional de Unidades (SI) é utilizado para padronizar medições em experimentos científicos, garantindo precisão e reprodutibilidade dos resultados.",
-
     "intuicao": "A Química pode ser entendida como a ciência que explica do que o mundo é feito e como ele se transforma. O método científico funciona como um roteiro confiável para descobrir e validar essas explicações.",
-
     "analogia": "O método científico pode ser comparado a uma investigação policial: observa-se o ocorrido, levantam-se hipóteses, coletam-se evidências e chega-se a uma conclusão baseada em provas.",
-
     "aplicacoes": [
       "Desenvolvimento de medicamentos e vacinas.",
       "Produção de combustíveis e fontes de energia.",
@@ -20,7 +15,6 @@
       "Fabricação de fertilizantes e aumento da produtividade agrícola.",
       "Desenvolvimento de novos materiais e tecnologias industriais."
     ],
-
     "erros_comuns": [
       "Acreditar que teoria científica é apenas uma suposição sem comprovação.",
       "Confundir leis científicas com teorias.",
@@ -29,82 +23,81 @@
       "Acreditar que o método científico segue sempre uma ordem rígida e imutável."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é o principal objeto de estudo da Química?",
-      "opcoes": [
+      "resposta": "A matéria, suas propriedades e transformações.",
+      "explicacao": "A Química estuda a matéria, sua composição, propriedades e as transformações que ela sofre, bem como a energia envolvida nesses processos.",
+      "alternativas": [
         "O movimento dos corpos celestes.",
         "A matéria, suas propriedades e transformações.",
         "Os seres vivos e suas estruturas.",
         "Os fenômenos sociais.",
         "As formas geométricas."
-      ],
-      "resposta": 1,
-      "explicacao": "A Química estuda a matéria, sua composição, propriedades e as transformações que ela sofre, bem como a energia envolvida nesses processos."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual das alternativas apresenta a sequência correta do método científico?",
-      "opcoes": [
+      "resposta": "Observação, hipótese, experimentação e conclusão.",
+      "explicacao": "O método científico segue, em geral, as etapas: observação, formulação de hipóteses, experimentação, análise dos resultados e conclusão.",
+      "alternativas": [
         "Hipótese, observação, conclusão e experimentação.",
         "Observação, hipótese, experimentação e conclusão.",
         "Conclusão, hipótese, observação e experimentação.",
         "Experimentação, observação, teoria e lei.",
         "Observação, teoria, lei e hipótese."
-      ],
-      "resposta": 1,
-      "explicacao": "O método científico segue, em geral, as etapas: observação, formulação de hipóteses, experimentação, análise dos resultados e conclusão."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual alternativa descreve corretamente uma lei científica?",
-      "opcoes": [
+      "resposta": "Uma descrição baseada em evidências experimentais, frequentemente expressa matematicamente.",
+      "explicacao": "Uma lei científica descreve um fenômeno natural com base em evidências experimentais, geralmente por meio de relações matemáticas.",
+      "alternativas": [
         "Uma explicação provisória sem base experimental.",
         "Uma descrição baseada em evidências experimentais, frequentemente expressa matematicamente.",
         "Uma hipótese não testada.",
         "Uma opinião aceita pela comunidade científica.",
         "Uma explicação filosófica da natureza."
-      ],
-      "resposta": 1,
-      "explicacao": "Uma lei científica descreve um fenômeno natural com base em evidências experimentais, geralmente por meio de relações matemáticas."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual das alternativas representa uma aplicação da Química no cotidiano?",
-      "opcoes": [
+      "resposta": "A fabricação de medicamentos.",
+      "explicacao": "A produção de medicamentos é uma das principais aplicações da Química na sociedade.",
+      "alternativas": [
         "O estudo das órbitas planetárias.",
         "A fabricação de medicamentos.",
         "A análise de textos literários.",
         "A elaboração de teorias sociológicas.",
         "A interpretação de mapas históricos."
-      ],
-      "resposta": 1,
-      "explicacao": "A produção de medicamentos é uma das principais aplicações da Química na sociedade."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a função da hipótese no método científico?",
-      "opcoes": [
+      "resposta": "Fornecer uma explicação provisória que pode ser testada.",
+      "explicacao": "A hipótese é uma explicação provisória para um fenômeno, que deve ser testada por meio de experimentos.",
+      "alternativas": [
         "Estabelecer uma lei definitiva.",
         "Substituir a experimentação.",
         "Fornecer uma explicação provisória que pode ser testada.",
         "Encerrar a investigação científica.",
         "Registrar dados experimentais."
-      ],
-      "resposta": 2,
-      "explicacao": "A hipótese é uma explicação provisória para um fenômeno, que deve ser testada por meio de experimentos."
+      ]
     }
   ]
 }
