@@ -1,0 +1,106 @@
+{
+  "id": "equacao_gases_ideais_aplicacoes",
+  "disciplina": "Química Geral I",
+  "assunto": "Estados Físicos — Equação dos Gases Ideais e Aplicações",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "A equação dos gases ideais relaciona pressão, volume, temperatura e quantidade de matéria, permitindo prever e analisar o comportamento dos gases em diversas situações.",
+
+    "explicacao": "A equação dos gases ideais descreve o comportamento de um gás em condições ideais, estabelecendo uma relação matemática entre suas variáveis fundamentais: pressão, volume, temperatura e quantidade de matéria.\n\n---\n\nEQUAÇÃO DOS GASES IDEAIS:\n\nPV = nRT\n\nOnde:\n\n✔ P = pressão\n✔ V = volume\n✔ n = número de mols\n✔ R = constante universal dos gases\n✔ T = temperatura absoluta (Kelvin)\n\n---\n\nCONSTANTE UNIVERSAL DOS GASES (R):\n\n✔ R = 0,082 atm·L·mol⁻¹·K⁻¹\n✔ R = 8,314 J·mol⁻¹·K⁻¹\n✔ R = 62,3 mmHg·L·mol⁻¹·K⁻¹\n\nA escolha do valor de R depende das unidades utilizadas no problema.\n\n---\n\nTEMPERATURA EM KELVIN:\n\nT(K) = T(°C) + 273\n\n---\n\nCONDIÇÕES NORMAIS DE TEMPERATURA E PRESSÃO (CNTP):\n\n✔ Temperatura: 273 K\n✔ Pressão: 1 atm\n✔ Volume molar: 22,4 L/mol\n\n---\n\nAPLICAÇÕES DA EQUAÇÃO DOS GASES IDEAIS:\n\n✔ Determinação do volume de gases\n✔ Cálculo da quantidade de matéria\n✔ Determinação da pressão ou temperatura\n✔ Estudo de reações químicas envolvendo gases\n✔ Análise de processos industriais\n\n---\n\nEXEMPLO 1 — CÁLCULO DO VOLUME:\n\nQual é o volume ocupado por 1 mol de gás a CNTP?\n\nV = nRT / P\n\nV = (1 × 0,082 × 273) / 1\n\nV = 22,4 L\n\n---\n\nEXEMPLO 2 — CÁLCULO DO NÚMERO DE MOLS:\n\nQuantos mols existem em 49,2 L de um gás a CNTP?\n\nn = V / 22,4\n\nn = 49,2 / 22,4\n\nn ≈ 2,2 mol\n\n---\n\nEXEMPLO 3 — CÁLCULO DA PRESSÃO:\n\nQual a pressão exercida por 2 mol de um gás em um recipiente de 10 L a 300 K?\n\nP = nRT / V\n\nP = (2 × 0,082 × 300) / 10\n\nP = 4,92 atm\n\n---\n\nDENSIDADE DOS GASES:\n\nA equação dos gases ideais também permite calcular a densidade de um gás:\n\nd = PM / RT\n\nOnde:\n\n✔ d = densidade\n✔ M = massa molar\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar as variáveis fornecidas.\n2) Converter as unidades para o Sistema Internacional.\n3) Transformar a temperatura para Kelvin.\n4) Escolher o valor adequado de R.\n5) Aplicar a equação dos gases ideais.\n6) Resolver e interpretar o resultado.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre utilizar a temperatura em Kelvin.\n✔ Verificar a consistência das unidades.\n✔ Escolher corretamente o valor da constante R.\n✔ Utilizar CNTP quando indicado.\n✔ Organizar os cálculos cuidadosamente.\n\n---\n\nIDEIA CENTRAL:\n\nA equação dos gases ideais permite prever o comportamento dos gases por meio da relação entre pressão, volume, temperatura e quantidade de matéria.",
+
+    "intuicao": "O comportamento de um gás pode ser previsto ao relacionar suas variáveis fundamentais em uma única equação matemática.",
+
+    "analogia": "A equação dos gases ideais funciona como uma receita: ao conhecer os ingredientes corretos — pressão, volume, temperatura e quantidade de matéria — é possível determinar qualquer variável desconhecida.",
+
+    "aplicacoes": [
+      "Balões meteorológicos",
+      "Cilindros de oxigênio hospitalar",
+      "Motores a combustão",
+      "Indústria petroquímica",
+      "Sistemas de refrigeração",
+      "Análises laboratoriais"
+    ],
+
+    "erros_comuns": [
+      "Utilizar temperatura em graus Celsius em vez de Kelvin",
+      "Empregar unidades inconsistentes",
+      "Escolher incorretamente o valor da constante R",
+      "Ignorar as condições CNTP",
+      "Aplicar incorretamente a equação dos gases ideais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação dos gases ideais?",
+      "alternativas": [
+        "P/V = nRT",
+        "PV = nRT",
+        "PV = RT",
+        "P = nRT"
+      ],
+      "resposta": "PV = nRT",
+      "explicacao": "A equação dos gases ideais relaciona pressão, volume, temperatura e quantidade de matéria."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual deve ser a unidade da temperatura na equação dos gases ideais?",
+      "alternativas": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Rankine"
+      ],
+      "resposta": "Kelvin",
+      "explicacao": "A equação dos gases ideais exige que a temperatura seja expressa em Kelvin."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume ocupado por 1 mol de gás ideal nas CNTP?",
+      "alternativas": [
+        "11,2 L",
+        "22,4 L",
+        "44,8 L",
+        "1,0 L"
+      ],
+      "resposta": "22,4 L",
+      "explicacao": "Nas CNTP, 1 mol de gás ocupa 22,4 L."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a pressão exercida por 1 mol de um gás em 10 L a 300 K? (R = 0,082 atm·L·mol⁻¹·K⁻¹)",
+      "alternativas": [
+        "1,23 atm",
+        "2,46 atm",
+        "3,69 atm",
+        "4,92 atm"
+      ],
+      "resposta": "2,46 atm",
+      "explicacao": "P = nRT/V = (1 × 0,082 × 300)/10 = 2,46 atm."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a densidade de um gás de massa molar 44 g/mol a 1 atm e 273 K? (R = 0,082 atm·L·mol⁻¹·K⁻¹)",
+      "alternativas": [
+        "0,98 g/L",
+        "1,96 g/L",
+        "2,50 g/L",
+        "3,20 g/L"
+      ],
+      "resposta": "1,96 g/L",
+      "explicacao": "d = PM/RT = (1 × 44)/(0,082 × 273) ≈ 1,96 g/L."
+    }
+  ]
+}
