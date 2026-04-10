@@ -1,0 +1,105 @@
+{
+  "id": "calorimetria",
+  "disciplina": "Química Geral I",
+  "assunto": "Termoquímica — Calorimetria",
+  "ordem": 38,
+
+  "teoria": {
+    "resumo": "A calorimetria estuda a quantidade de calor envolvida em processos físicos e químicos, permitindo medir variações de energia em sistemas isolados.",
+
+    "explicacao": "A calorimetria é o ramo da Termoquímica responsável pela medição das trocas de calor em transformações físicas e químicas. Essas medições são realizadas com o auxílio de um dispositivo chamado calorímetro.\n\n---\n\nCALOR:\n\nCalor é a transferência de energia térmica entre corpos devido à diferença de temperatura.\n\nUnidade no Sistema Internacional:\n\n✔ Joule (J)\n\nRelação entre unidades:\n\n✔ 1 cal = 4,184 J\n\n---\n\nPRINCÍPIO DA CALORIMETRIA:\n\nA calorimetria baseia-se na conservação da energia:\n\nQcedido + Qrecebido = 0\n\nOu:\n\nQcedido = −Qrecebido\n\nIsso significa que o calor perdido por um corpo é igual ao calor ganho por outro.\n\n---\n\nCAPACIDADE CALORÍFICA (C):\n\nÉ a quantidade de calor necessária para elevar a temperatura de um corpo em 1°C.\n\nC = Q / ΔT\n\nOnde:\n\n✔ C = capacidade calorífica (J/°C)\n✔ Q = quantidade de calor\n✔ ΔT = variação de temperatura\n\n---\n\nCALOR ESPECÍFICO (c):\n\nÉ a quantidade de calor necessária para elevar em 1°C a temperatura de 1 g de uma substância.\n\nQ = mcΔT\n\nOnde:\n\n✔ Q = quantidade de calor\n✔ m = massa\n✔ c = calor específico\n✔ ΔT = variação de temperatura\n\n---\n\nCALOR LATENTE:\n\nDurante as mudanças de estado físico, a temperatura permanece constante.\n\nQ = mL\n\nOnde:\n\n✔ L = calor latente\n\n---\n\nTIPOS DE CALORÍMETROS:\n\n✔ Calorímetro de pressão constante (copo de café): utilizado para medir a variação de entalpia.\n✔ Calorímetro de bomba: utilizado para medir a energia liberada em combustões.\n\n---\n\nCALORÍMETRO IDEAL:\n\nEm um sistema ideal, não há troca de calor com o ambiente externo.\n\n---\n\nEXEMPLO 1 — CALOR SENSÍVEL:\n\nQuantidade de calor necessária para aquecer 100 g de água de 20°C para 30°C:\n\nc = 4,18 J/g°C\n\nQ = mcΔT\nQ = 100 × 4,18 × 10\nQ = 4180 J\n\n---\n\nEXEMPLO 2 — EQUILÍBRIO TÉRMICO:\n\nUm corpo quente é colocado em contato com um corpo frio. O calor perdido pelo corpo quente é igual ao calor ganho pelo corpo frio.\n\n---\n\nEXEMPLO 3 — CALOR LATENTE:\n\nQuantidade de calor necessária para fundir 50 g de gelo:\n\nL_fusão = 334 J/g\n\nQ = 50 × 334 = 16 700 J\n\n---\n\nAPLICAÇÕES:\n\n✔ Determinação de calor de reações químicas\n✔ Estudos de combustão\n✔ Produção de combustíveis\n✔ Indústria alimentícia\n✔ Engenharia térmica\n✔ Estudos ambientais\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar o tipo de processo térmico.\n\n2) Determinar os dados fornecidos.\n\n3) Selecionar a equação adequada.\n\n4) Substituir os valores corretamente.\n\n5) Resolver e interpretar o resultado.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Utilize sempre unidades do Sistema Internacional.\n✔ Verifique os sinais de ganho e perda de calor.\n✔ Converta temperaturas corretamente.\n✔ Diferencie calor sensível de calor latente.\n✔ Considere o equilíbrio térmico nos cálculos.\n\n---\n\nIDEIA CENTRAL:\n\nA calorimetria permite quantificar as trocas de calor em processos físicos e químicos, sendo essencial para o estudo das transformações energéticas.",
+
+    "intuicao": "O calor sempre flui do corpo mais quente para o mais frio até que seja atingido o equilíbrio térmico.",
+
+    "analogia": "Assim como a água se nivela quando colocada em recipientes conectados, o calor se distribui até atingir o equilíbrio entre os corpos.",
+
+    "aplicacoes": [
+      "Medição da energia liberada em reações químicas",
+      "Determinação do valor energético de combustíveis e alimentos",
+      "Projetos de sistemas de aquecimento e refrigeração",
+      "Indústria química e petroquímica",
+      "Estudos ambientais e energéticos"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Ignorar o princípio da conservação de energia",
+      "Esquecer de converter unidades",
+      "Desconsiderar o equilíbrio térmico",
+      "Aplicar incorretamente as fórmulas da calorimetria"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual instrumento é utilizado para medir trocas de calor?",
+      "alternativas": [
+        "Termômetro",
+        "Barômetro",
+        "Calorímetro",
+        "Manômetro"
+      ],
+      "resposta": "Calorímetro",
+      "explicacao": "O calorímetro é utilizado para medir a quantidade de calor envolvida em processos físicos e químicos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade de calor no Sistema Internacional?",
+      "alternativas": [
+        "Caloria",
+        "Joule",
+        "Watt",
+        "Kelvin"
+      ],
+      "resposta": "Joule",
+      "explicacao": "No Sistema Internacional, o calor é medido em joules."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual quantidade de calor é necessária para aquecer 50 g de água de 20°C para 30°C? (c = 4,18 J/g°C)",
+      "alternativas": [
+        "1045 J",
+        "2090 J",
+        "4180 J",
+        "8360 J"
+      ],
+      "resposta": "2090 J",
+      "explicacao": "Q = mcΔT = 50 × 4,18 × 10 = 2090 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Durante uma mudança de estado físico, a temperatura:",
+      "alternativas": [
+        "Aumenta continuamente",
+        "Diminui continuamente",
+        "Permanece constante",
+        "Torna-se negativa"
+      ],
+      "resposta": "Permanece constante",
+      "explicacao": "Durante a mudança de fase, o calor é utilizado para alterar o estado físico, não a temperatura."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um bloco de metal perde 500 J de calor em um calorímetro ideal. Qual é o calor absorvido pela água?",
+      "alternativas": [
+        "-500 J",
+        "0 J",
+        "250 J",
+        "500 J"
+      ],
+      "resposta": "500 J",
+      "explicacao": "Pela conservação da energia, o calor perdido pelo metal é igual ao calor absorvido pela água."
+    }
+  ]
+}
