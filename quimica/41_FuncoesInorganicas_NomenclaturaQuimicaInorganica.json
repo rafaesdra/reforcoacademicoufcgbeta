@@ -1,0 +1,105 @@
+{
+  "id": "nomenclatura_quimica_inorganica",
+  "disciplina": "Química Geral I",
+  "assunto": "Funções Inorgânicas — Nomenclatura Química Inorgânica",
+  "ordem": 41,
+
+  "teoria": {
+    "resumo": "A nomenclatura química inorgânica estabelece regras sistemáticas para nomear compostos como ácidos, bases, sais e óxidos, permitindo sua identificação universal.",
+
+    "explicacao": "A nomenclatura química inorgânica é o conjunto de regras estabelecidas pela IUPAC (União Internacional de Química Pura e Aplicada) para nomear os compostos químicos de maneira padronizada e universal. Essas regras permitem identificar a composição e as propriedades das substâncias.\n\n---\n\nNOMENCLATURA DOS ÁCIDOS:\n\nOs ácidos são classificados em hidrácidos e oxiácidos.\n\n✔ Hidrácidos (sem oxigênio):\nRegra: Ácido + radical + ídrico\n\nExemplos:\nHCl → ácido clorídrico\nHBr → ácido bromídrico\nHF → ácido fluorídrico\nH₂S → ácido sulfídrico\n\n✔ Oxiácidos (com oxigênio):\n\nPrefixos e sufixos:\n-ato → ácido ...ico\n-ito → ácido ...oso\nper-ato → ácido per...ico\nhipo-ito → ácido hipo...oso\n\nExemplos:\nH₂SO₄ → ácido sulfúrico\nH₂SO₃ → ácido sulfuroso\nHNO₃ → ácido nítrico\nHNO₂ → ácido nitroso\nHClO₄ → ácido perclórico\nHClO → ácido hipocloroso\n\n---\n\nNOMENCLATURA DAS BASES:\n\nAs bases são nomeadas pela expressão \"hidróxido de\" seguida do nome do metal.\n\nQuando o metal possui mais de um estado de oxidação, utiliza-se a notação de Stock.\n\nExemplos:\nNaOH → hidróxido de sódio\nKOH → hidróxido de potássio\nCa(OH)₂ → hidróxido de cálcio\nFe(OH)₂ → hidróxido de ferro(II)\nFe(OH)₃ → hidróxido de ferro(III)\nAl(OH)₃ → hidróxido de alumínio\n\n---\n\nNOMENCLATURA DOS SAIS:\n\nOs sais são nomeados a partir do ácido de origem.\n\nRegras:\n\n✔ Ácidos terminados em \"ídrico\" → sais terminados em \"eto\"\nHCl → cloreto\nHBr → brometo\n\n✔ Oxiácidos:\n-ato → ...ato\n-ito → ...ito\n\nExemplos:\nNaCl → cloreto de sódio\nNa₂SO₄ → sulfato de sódio\nNa₂SO₃ → sulfito de sódio\nKNO₃ → nitrato de potássio\nCaCO₃ → carbonato de cálcio\nFeCl₃ → cloreto de ferro(III)\n\n---\n\nNOMENCLATURA DOS ÓXIDOS:\n\nOs óxidos são compostos binários formados por oxigênio e outro elemento.\n\n✔ Óxidos metálicos:\nÓxido de + metal\n\nExemplos:\nNa₂O → óxido de sódio\nCaO → óxido de cálcio\nFeO → óxido de ferro(II)\nFe₂O₃ → óxido de ferro(III)\n\n✔ Óxidos não metálicos (anidridos):\nUtilizam-se prefixos gregos.\n\nCO₂ → dióxido de carbono\nCO → monóxido de carbono\nSO₂ → dióxido de enxofre\nSO₃ → trióxido de enxofre\n\nPrefixos utilizados:\nmono-, di-, tri-, tetra-, penta-, hexa-, hepta-, octa-, nona-, deca-\n\n---\n\nNOMENCLATURA DE PERÓXIDOS:\n\nApresentam ligação O–O.\n\nExemplos:\nH₂O₂ → peróxido de hidrogênio\nNa₂O₂ → peróxido de sódio\n\n---\n\nNOMENCLATURA DE HIDRETOS:\n\nSão compostos formados por hidrogênio e um metal.\n\nExemplos:\nNaH → hidreto de sódio\nCaH₂ → hidreto de cálcio\n\n---\n\nSISTEMAS DE NOMENCLATURA:\n\n✔ Nomenclatura de Stock: utiliza números romanos para indicar o estado de oxidação.\n✔ Nomenclatura Sistemática: utiliza prefixos numéricos.\n✔ Nomenclatura Tradicional: baseada em sufixos clássicos.\n\n---\n\nAPLICAÇÕES:\n\n✔ Comunicação científica universal\n✔ Identificação de substâncias químicas\n✔ Indústria farmacêutica e alimentícia\n✔ Pesquisa e ensino em química\n✔ Normatização internacional\n\n---\n\nPASSO A PASSO PARA IDENTIFICAÇÃO:\n\n1) Identificar os elementos presentes no composto.\n2) Determinar a função inorgânica.\n3) Verificar o número de oxidação.\n4) Aplicar as regras de nomenclatura adequadas.\n5) Escrever corretamente o nome do composto.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Utilize a nomenclatura de Stock para metais com múltiplos estados de oxidação.\n✔ Memorize os principais ânions e cátions.\n✔ Identifique corretamente a função química.\n✔ Atente para os prefixos e sufixos.\n✔ Consulte a tabela periódica quando necessário.\n\n---\n\nIDEIA CENTRAL:\n\nA nomenclatura química inorgânica padroniza a identificação dos compostos, garantindo clareza e precisão na comunicação científica.",
+
+    "intuicao": "Nomear corretamente uma substância permite compreender sua composição e prever suas propriedades.",
+
+    "analogia": "Assim como cada pessoa possui um nome único para ser identificada, cada composto químico possui uma nomenclatura específica e padronizada.",
+
+    "aplicacoes": [
+      "Identificação de compostos químicos",
+      "Comunicação científica internacional",
+      "Ensino e pesquisa em química",
+      "Indústria farmacêutica e química",
+      "Rotulagem de produtos industriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir sufixos de oxiácidos (-ico e -oso)",
+      "Omitir o número de oxidação na nomenclatura de Stock",
+      "Confundir óxidos com peróxidos",
+      "Aplicar incorretamente prefixos gregos",
+      "Identificar erroneamente a função inorgânica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o nome do composto HCl?",
+      "alternativas": [
+        "Ácido clórico",
+        "Ácido clorídrico",
+        "Cloreto de hidrogênio",
+        "Ácido hipocloroso"
+      ],
+      "resposta": "Ácido clorídrico",
+      "explicacao": "O HCl em solução aquosa é denominado ácido clorídrico."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o nome do composto NaOH?",
+      "alternativas": [
+        "Óxido de sódio",
+        "Hidreto de sódio",
+        "Hidróxido de sódio",
+        "Sulfato de sódio"
+      ],
+      "resposta": "Hidróxido de sódio",
+      "explicacao": "O NaOH é uma base formada por sódio e hidroxila."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o nome do composto FeCl₃?",
+      "alternativas": [
+        "Cloreto de ferro",
+        "Cloreto ferroso",
+        "Cloreto de ferro(III)",
+        "Cloreto de ferro(II)"
+      ],
+      "resposta": "Cloreto de ferro(III)",
+      "explicacao": "O ferro apresenta estado de oxidação +3 neste composto."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o nome do composto CO₂?",
+      "alternativas": [
+        "Monóxido de carbono",
+        "Óxido de carbono",
+        "Dióxido de carbono",
+        "Trióxido de carbono"
+      ],
+      "resposta": "Dióxido de carbono",
+      "explicacao": "O prefixo \"di\" indica a presença de dois átomos de oxigênio."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o nome do composto H₂SO₃?",
+      "alternativas": [
+        "Ácido sulfúrico",
+        "Ácido sulfuroso",
+        "Ácido sulfídrico",
+        "Sulfato de hidrogênio"
+      ],
+      "resposta": "Ácido sulfuroso",
+      "explicacao": "O sufixo \"-oso\" indica menor número de oxigênios em relação ao ácido sulfúrico."
+    }
+  ]
+}
