@@ -1,0 +1,111 @@
+{
+  "id": "ligacoes_hidrogenio_propriedades_substancias",
+  "disciplina": "Química Geral I",
+  "assunto": "Ligações de Hidrogênio e Propriedades das Substâncias",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "Estuda as ligações de hidrogênio e sua influência nas propriedades físicas e químicas das substâncias, especialmente na água e em sistemas biológicos.",
+
+    "explicacao": "As ligações de hidrogênio são interações intermoleculares intensas que ocorrem quando um átomo de hidrogênio está ligado covalentemente a um átomo altamente eletronegativo, como flúor (F), oxigênio (O) ou nitrogênio (N), e é atraído pelo par de elétrons não ligantes de outro átomo eletronegativo.\n\nEssas interações são mais fortes que as forças dipolo-dipolo e as forças de dispersão de London, mas mais fracas que as ligações covalentes e iônicas.\n\nCondições para a formação de ligações de hidrogênio:\n- Presença de hidrogênio ligado a F, O ou N.\n- Alta diferença de eletronegatividade.\n- Existência de pares de elétrons livres no átomo eletronegativo.\n\nExemplos de substâncias que apresentam ligações de hidrogênio:\n- Água (H2O)\n- Amônia (NH3)\n- Fluoreto de hidrogênio (HF)\n- Álcoois, como o etanol\n- Ácidos carboxílicos\n\nPropriedades resultantes das ligações de hidrogênio:\n\nElevado ponto de ebulição:\nA água possui ponto de ebulição elevado em comparação com outras substâncias de massa molar semelhante devido às ligações de hidrogênio.\n\nAlta tensão superficial:\nResponsável pela formação de gotas e pela capacidade de alguns insetos caminharem sobre a água.\n\nCapilaridade:\nPermite a ascensão da água em tubos finos e em tecidos vegetais.\n\nAlto calor específico:\nA água absorve grandes quantidades de calor sem apresentar variações significativas de temperatura.\n\nAlto calor de vaporização:\nImportante para a regulação térmica dos organismos vivos.\n\nEstrutura do gelo:\nAs ligações de hidrogênio formam uma rede cristalina aberta, tornando o gelo menos denso que a água líquida.\n\nSolubilidade de substâncias polares:\nAs ligações de hidrogênio favorecem a dissolução de compostos polares em água.\n\nImportância biológica:\n- Estabilização da estrutura do DNA.\n- Formação da estrutura secundária das proteínas.\n- Manutenção das propriedades dos sistemas biológicos.\n\nEssas interações desempenham papel essencial na Química, na Biologia e em diversas aplicações tecnológicas.",
+
+    "intuicao": "As ligações de hidrogênio funcionam como pontes intermoleculares que mantêm as moléculas unidas, influenciando diretamente suas propriedades físicas.",
+
+    "analogia": "Podem ser comparadas a pequenos ímãs que conectam moléculas vizinhas, aumentando a coesão e a estabilidade do sistema.",
+
+    "aplicacoes": [
+      "Regulação da temperatura em organismos vivos.",
+      "Estabilidade das moléculas de DNA e proteínas.",
+      "Dissolução de substâncias em água.",
+      "Processos industriais e farmacêuticos.",
+      "Desenvolvimento de materiais e biomoléculas.",
+      "Fenômenos naturais como a capilaridade e a tensão superficial."
+    ],
+
+    "erros_comuns": [
+      "Confundir ligações de hidrogênio com ligações covalentes.",
+      "Acreditar que qualquer molécula contendo hidrogênio apresenta esse tipo de interação.",
+      "Ignorar a necessidade de ligação com F, O ou N.",
+      "Considerar as ligações de hidrogênio mais fortes que ligações iônicas.",
+      "Desconsiderar sua importância em sistemas biológicos."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As ligações de hidrogênio ocorrem quando o hidrogênio está ligado a:",
+      "opcoes": [
+        "Carbono, enxofre ou fósforo",
+        "Flúor, oxigênio ou nitrogênio",
+        "Sódio, potássio ou cálcio",
+        "Ferro, cobre ou zinco",
+        "Cloro, bromo ou iodo"
+      ],
+      "resposta": 1,
+      "explicacao": "As ligações de hidrogênio ocorrem quando o hidrogênio está ligado a átomos altamente eletronegativos, como F, O ou N."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual substância apresenta ligações de hidrogênio?",
+      "opcoes": [
+        "CH4",
+        "CO2",
+        "H2O",
+        "O2",
+        "N2"
+      ],
+      "resposta": 2,
+      "explicacao": "A água apresenta ligações de hidrogênio devido à ligação entre hidrogênio e oxigênio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade da água é consequência direta das ligações de hidrogênio?",
+      "opcoes": [
+        "Baixo ponto de ebulição",
+        "Baixa tensão superficial",
+        "Alta densidade no estado sólido",
+        "Alto calor específico",
+        "Baixa solubilidade de substâncias polares"
+      ],
+      "resposta": 3,
+      "explicacao": "As ligações de hidrogênio conferem à água alto calor específico, permitindo absorver grandes quantidades de calor."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fenômeno explica o fato de o gelo flutuar na água?",
+      "opcoes": [
+        "Densidade elevada do gelo",
+        "Forças de London",
+        "Estrutura cristalina aberta formada por ligações de hidrogênio",
+        "Interações iônicas",
+        "Ligação covalente apolar"
+      ],
+      "resposta": 2,
+      "explicacao": "No gelo, as ligações de hidrogênio formam uma estrutura cristalina aberta, tornando-o menos denso que a água líquida."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das moléculas abaixo NÃO apresenta ligações de hidrogênio entre suas próprias moléculas?",
+      "opcoes": [
+        "NH3",
+        "HF",
+        "H2O",
+        "CH3OH",
+        "CH4"
+      ],
+      "resposta": 4,
+      "explicacao": "O metano (CH4) não apresenta ligações de hidrogênio, pois o hidrogênio não está ligado a F, O ou N."
+    }
+  ]
+}
