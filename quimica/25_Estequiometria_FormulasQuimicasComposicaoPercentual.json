@@ -1,0 +1,105 @@
+{
+  "id": "formulas_quimicas_composicao_percentual",
+  "disciplina": "Química Geral I",
+  "assunto": "Estequiometria — Fórmulas Químicas e Composição Percentual",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "A composição percentual e a determinação de fórmulas químicas permitem identificar a proporção dos elementos em uma substância e estabelecer suas fórmulas empíricas e moleculares.",
+
+    "explicacao": "A Estequiometria também envolve a determinação da composição das substâncias e de suas fórmulas químicas. Por meio da análise percentual dos elementos, é possível determinar a fórmula empírica e a fórmula molecular de um composto.\n\n---\n\nFÓRMULAS QUÍMICAS:\n\n✔ Fórmula Empírica: representa a proporção mais simples entre os átomos de um composto.\n✔ Fórmula Molecular: indica o número real de átomos na molécula.\n✔ Fórmula Estrutural: mostra a organização dos átomos e das ligações químicas.\n\nExemplo:\n\n✔ Fórmula empírica da glicose: CH₂O\n✔ Fórmula molecular da glicose: C₆H₁₂O₆\n\n---\n\nCOMPOSIÇÃO PERCENTUAL:\n\nA composição percentual em massa indica a porcentagem de cada elemento presente em um composto.\n\nFórmula:\n\n% elemento = (massa do elemento / massa molar do composto) × 100\n\n---\n\nEXEMPLO 1 — COMPOSIÇÃO PERCENTUAL DA ÁGUA (H₂O):\n\nMassa molar da água:\n\nH: 2 × 1 = 2 g/mol\nO: 16 g/mol\n\nM(H₂O) = 18 g/mol\n\nCálculo das porcentagens:\n\n%H = (2 / 18) × 100 = 11,11%\n%O = (16 / 18) × 100 = 88,89%\n\n---\n\nDETERMINAÇÃO DA FÓRMULA EMPÍRICA:\n\nPassos:\n\n1) Considerar 100 g de substância.\n2) Converter as porcentagens em massa.\n3) Converter as massas em mol.\n4) Dividir todos os valores pelo menor número de mol.\n5) Ajustar para obter números inteiros.\n\n---\n\nEXEMPLO 2:\n\nUm composto apresenta:\n\n✔ 40% de carbono\n✔ 6,67% de hidrogênio\n✔ 53,33% de oxigênio\n\nConsiderando 100 g:\n\nC: 40 g → 40/12 = 3,33 mol\nH: 6,67 g → 6,67/1 = 6,67 mol\nO: 53,33 g → 53,33/16 = 3,33 mol\n\nDividindo pelo menor valor (3,33):\n\nC: 1\nH: 2\nO: 1\n\nFórmula empírica: CH₂O\n\n---\n\nDETERMINAÇÃO DA FÓRMULA MOLECULAR:\n\nFórmula:\n\nn = Massa molar experimental / Massa molar da fórmula empírica\n\nFórmula molecular = (Fórmula empírica) × n\n\nExemplo:\n\nSe a massa molar for 180 g/mol:\n\nn = 180 / 30 = 6\n\nFórmula molecular: C₆H₁₂O₆\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Determinar a composição percentual.\n2) Converter os valores em mol.\n3) Encontrar a fórmula empírica.\n4) Determinar a fórmula molecular.\n5) Verificar a coerência dos resultados.\n\n---\n\nAPLICAÇÕES:\n\n✔ Identificação de compostos químicos\n✔ Análises laboratoriais\n✔ Indústria farmacêutica\n✔ Química ambiental\n✔ Bioquímica e ciência dos materiais\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Considere sempre 100 g de amostra.\n✔ Utilize massas molares corretas.\n✔ Arredonde com cuidado.\n✔ Ajuste os índices para números inteiros.\n✔ Verifique a soma das porcentagens.\n\n---\n\nIDEIA CENTRAL:\n\nA composição percentual permite determinar a proporção dos elementos em um composto, possibilitando a obtenção de suas fórmulas empírica e molecular.",
+
+    "intuicao": "A composição percentual revela quanto cada elemento contribui para a massa total de uma substância.",
+
+    "analogia": "Assim como uma receita culinária indica a proporção dos ingredientes, a composição percentual indica a proporção dos elementos em um composto.",
+
+    "aplicacoes": [
+      "Determinação de fórmulas químicas",
+      "Identificação de substâncias desconhecidas",
+      "Análises laboratoriais",
+      "Indústria farmacêutica",
+      "Controle de qualidade de materiais"
+    ],
+
+    "erros_comuns": [
+      "Não converter corretamente porcentagens em mol",
+      "Utilizar massas atômicas incorretas",
+      "Arredondar valores de forma inadequada",
+      "Confundir fórmula empírica com molecular",
+      "Esquecer de dividir pelo menor número de mol"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que representa a fórmula empírica de um composto?",
+      "alternativas": [
+        "A massa molar do composto",
+        "A estrutura tridimensional da molécula",
+        "A proporção mais simples entre os átomos",
+        "O número real de átomos na molécula"
+      ],
+      "resposta": "A proporção mais simples entre os átomos",
+      "explicacao": "A fórmula empírica expressa a menor razão inteira entre os átomos de um composto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A composição percentual indica:",
+      "alternativas": [
+        "O volume de cada elemento",
+        "A porcentagem em massa de cada elemento no composto",
+        "O número de mols da substância",
+        "A densidade do composto"
+      ],
+      "resposta": "A porcentagem em massa de cada elemento no composto",
+      "explicacao": "A composição percentual expressa a fração em massa de cada elemento presente em um composto."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a porcentagem de hidrogênio na água (H₂O)?",
+      "alternativas": [
+        "5,56%",
+        "11,11%",
+        "22,22%",
+        "33,33%"
+      ],
+      "resposta": "11,11%",
+      "explicacao": "A porcentagem de hidrogênio é (2/18) × 100 = 11,11%."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A fórmula empírica da glicose (C₆H₁₂O₆) é:",
+      "alternativas": [
+        "CHO",
+        "CH₂O",
+        "C₂H₄O₂",
+        "C₃H₆O₃"
+      ],
+      "resposta": "CH₂O",
+      "explicacao": "Dividindo os índices por 6, obtém-se a proporção mais simples: CH₂O."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um composto apresenta 40% de carbono, 6,67% de hidrogênio e 53,33% de oxigênio. Qual é sua fórmula empírica?",
+      "alternativas": [
+        "CHO",
+        "CH₂O",
+        "C₂H₄O₂",
+        "C₃H₆O₃"
+      ],
+      "resposta": "CH₂O",
+      "explicacao": "Após converter as porcentagens em mol e dividir pelo menor valor, obtém-se a proporção CH₂O."
+    }
+  ]
+}
