@@ -1,0 +1,99 @@
+{
+  "id": "base_dimensao",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Base e Dimensão",
+  "ordem": 60,
+
+  "teoria": {
+    "resumo": "Base é um conjunto de vetores linearmente independentes que geram um espaço, e dimensão é a quantidade de vetores dessa base.",
+
+    "explicacao": "Uma base de um espaço vetorial é um conjunto de vetores que satisfaz duas condições fundamentais:\n\n1) São linearmente independentes\n2) Geram todo o espaço vetorial\n\nIsso significa que qualquer vetor do espaço pode ser escrito como combinação linear dos vetores da base.\n\nA dimensão de um espaço vetorial é o número de vetores em uma base.\n\nExemplo no plano (R²):\nOs vetores (1,0) e (0,1) formam uma base do plano.\n\nQualquer vetor (x,y) pode ser escrito como:\nx*(1,0) + y*(0,1)\n\nLogo, a dimensão de R² é 2.\n\nExemplo no espaço (R³):\nA base padrão é:\n(1,0,0), (0,1,0), (0,0,1)\n\nQualquer vetor (x,y,z) pode ser escrito como combinação desses três vetores.\n\nLogo, a dimensão de R³ é 3.\n\nImportante:\n- Se houver mais vetores do que a dimensão, eles serão dependentes.\n- Se houver menos vetores, não será possível gerar todo o espaço.",
+
+    "intuicao": "A base é o conjunto mínimo de 'direções' necessárias para construir qualquer vetor do espaço.",
+
+    "analogia": "Pense em direções no espaço: frente/trás, esquerda/direita e cima/baixo. Com essas três direções você consegue chegar a qualquer ponto — isso é uma base do espaço tridimensional.",
+
+    "aplicacoes": [
+      "Representação de vetores em diferentes sistemas de coordenadas",
+      "Redução de dimensionalidade em computação e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Achar que qualquer conjunto de vetores forma uma base",
+      "Esquecer que os vetores precisam ser independentes e gerar todo o espaço"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos vetores tem uma base do plano R²?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "resposta": "2",
+      "explicacao": "A dimensão do plano é 2, então sua base tem 2 vetores."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (0,1) formam:",
+      "alternativas": [
+        "Uma base de R²",
+        "Um conjunto dependente",
+        "Vetores paralelos",
+        "Vetores colineares"
+      ],
+      "resposta": "Uma base de R²",
+      "explicacao": "Eles são independentes e geram todo o plano."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das opções pode formar uma base de R³?",
+      "alternativas": [
+        "(1,0,0), (0,1,0)",
+        "(1,0,0), (0,1,0), (0,0,1)",
+        "(1,1,1), (2,2,2), (3,3,3)",
+        "(0,0,0), (1,0,0), (0,1,0)"
+      ],
+      "resposta": "(1,0,0), (0,1,0), (0,0,1)",
+      "explicacao": "São três vetores independentes que geram todo o espaço R³."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um espaço tem dimensão 3, então:",
+      "alternativas": [
+        "Sua base tem 2 vetores",
+        "Sua base tem 3 vetores",
+        "Sua base tem infinitos vetores obrigatoriamente",
+        "Não possui base"
+      ],
+      "resposta": "Sua base tem 3 vetores",
+      "explicacao": "A dimensão é definida pelo número de vetores da base."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0,0), (0,1,0), (1,1,0) podem formar uma base de R³?",
+      "alternativas": [
+        "Sim, pois são três vetores",
+        "Não, pois são dependentes e não geram R³",
+        "Sim, pois geram o plano",
+        "Não, pois têm coordenadas inteiras"
+      ],
+      "resposta": "Não, pois são dependentes e não geram R³",
+      "explicacao": "(1,1,0) = (1,0,0) + (0,1,0), então há dependência e os vetores não cobrem a direção do eixo z."
+    }
+  ]
+}
