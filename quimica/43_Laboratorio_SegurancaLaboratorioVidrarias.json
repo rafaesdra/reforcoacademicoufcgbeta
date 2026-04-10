@@ -1,1 +1,105 @@
+{
+  "id": "seguranca_laboratorio_vidrarias",
+  "disciplina": "Química Geral I",
+  "assunto": "Laboratório — Segurança em Laboratório e Vidrarias",
+  "ordem": 43,
 
+  "teoria": {
+    "resumo": "A segurança em laboratório e o conhecimento das vidrarias são essenciais para a realização correta e segura de experimentos químicos.",
+
+    "explicacao": "O laboratório de Química é um ambiente de aprendizado e pesquisa que exige organização, responsabilidade e o cumprimento rigoroso das normas de segurança. O uso adequado das vidrarias e dos equipamentos é fundamental para garantir resultados confiáveis e prevenir acidentes.\n\n---\n\nIMPORTÂNCIA DA SEGURANÇA NO LABORATÓRIO:\n\nA segurança é indispensável para proteger os usuários e evitar danos materiais e ambientais.\n\n✔ Prevenção de acidentes\n✔ Proteção da saúde\n✔ Preservação dos equipamentos\n✔ Garantia da confiabilidade dos experimentos\n\n---\n\nEQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL (EPIs):\n\n✔ Jaleco: protege a pele e as roupas.\n✔ Óculos de segurança: evitam respingos nos olhos.\n✔ Luvas: protegem contra substâncias químicas.\n✔ Máscaras e respiradores: evitam a inalação de vapores tóxicos.\n✔ Sapatos fechados: previnem acidentes com materiais derramados.\n\n---\n\nEQUIPAMENTOS DE PROTEÇÃO COLETIVA (EPCs):\n\n✔ Capela de exaustão\n✔ Chuveiro de emergência\n✔ Lava-olhos\n✔ Extintores de incêndio\n✔ Manta antichamas\n✔ Kit de primeiros socorros\n\n---\n\nNORMAS BÁSICAS DE SEGURANÇA:\n\n✔ Nunca comer ou beber no laboratório.\n✔ Não pipetar líquidos com a boca.\n✔ Manter cabelos presos.\n✔ Utilizar sempre os EPIs.\n✔ Ler os rótulos dos reagentes antes do uso.\n✔ Identificar corretamente todas as soluções.\n✔ Descartar resíduos de forma adequada.\n✔ Manter o ambiente limpo e organizado.\n✔ Seguir as orientações do professor ou responsável.\n\n---\n\nSÍMBOLOS DE RISCO QUÍMICO:\n\n✔ Inflamável\n✔ Corrosivo\n✔ Tóxico\n✔ Explosivo\n✔ Oxidante\n✔ Irritante\n✔ Perigoso ao meio ambiente\n\nEsses símbolos seguem o Sistema Globalmente Harmonizado (GHS).\n\n---\n\nPRINCIPAIS VIDRARIAS DE LABORATÓRIO:\n\n✔ Béquer: utilizado para dissolução e aquecimento de substâncias.\n✔ Erlenmeyer: usado em titulações e misturas.\n✔ Proveta: mede volumes com precisão intermediária.\n✔ Balão volumétrico: prepara soluções com alta precisão.\n✔ Pipeta volumétrica: mede volumes exatos.\n✔ Pipeta graduada: mede volumes variáveis.\n✔ Bureta: utilizada em titulações.\n✔ Funil: auxilia na filtração e transferência de líquidos.\n✔ Tubo de ensaio: empregado em pequenas reações.\n✔ Bastão de vidro: utilizado para agitação.\n✔ Kitassato: usado em filtração a vácuo.\n✔ Dessecador: empregado para secagem e armazenamento de substâncias.\n\n---\n\nCLASSIFICAÇÃO DAS VIDRARIAS:\n\n✔ Vidrarias volumétricas: medem volumes com alta precisão.\n- Balão volumétrico\n- Pipeta volumétrica\n- Bureta\n\n✔ Vidrarias não volumétricas: utilizadas em procedimentos gerais.\n- Béquer\n- Erlenmeyer\n- Tubo de ensaio\n- Funil\n\n---\n\nBOAS PRÁTICAS DE LABORATÓRIO:\n\n✔ Rotular corretamente os recipientes.\n✔ Verificar se as vidrarias estão limpas e íntegras.\n✔ Evitar choques térmicos em vidrarias.\n✔ Utilizar pinças para manusear materiais aquecidos.\n✔ Manter reagentes devidamente armazenados.\n✔ Registrar os procedimentos realizados.\n\n---\n\nAPLICAÇÕES:\n\n✔ Ensino e pesquisa científica\n✔ Análises químicas laboratoriais\n✔ Indústria farmacêutica e alimentícia\n✔ Controle de qualidade\n✔ Monitoramento ambiental\n\n---\n\nPASSO A PASSO PARA UMA PRÁTICA SEGURA:\n\n1) Vestir os equipamentos de proteção individual.\n2) Ler o roteiro experimental.\n3) Separar os materiais e reagentes necessários.\n4) Verificar a integridade das vidrarias.\n5) Realizar o experimento com atenção.\n6) Descartar os resíduos corretamente.\n7) Limpar e organizar o local de trabalho.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Nunca misture reagentes sem orientação.\n✔ Em caso de acidente, comunique imediatamente o responsável.\n✔ Conheça a localização dos equipamentos de emergência.\n✔ Utilize a capela ao trabalhar com substâncias voláteis.\n✔ Evite o desperdício de reagentes.\n\n---\n\nIDEIA CENTRAL:\n\nO conhecimento das normas de segurança e das vidrarias de laboratório é essencial para garantir experimentos precisos, eficientes e seguros."
+,
+    "intuicao": "A segurança no laboratório previne acidentes e assegura a qualidade dos resultados experimentais.",
+
+    "analogia": "Assim como um piloto precisa conhecer os instrumentos da aeronave para voar com segurança, o químico deve dominar as vidrarias e as normas de segurança para trabalhar corretamente.",
+
+    "aplicacoes": [
+      "Realização de experimentos acadêmicos",
+      "Análises químicas e ambientais",
+      "Controle de qualidade industrial",
+      "Pesquisa científica",
+      "Desenvolvimento de medicamentos"
+    ],
+
+    "erros_comuns": [
+      "Não utilizar equipamentos de proteção individual",
+      "Confundir vidrarias volumétricas com não volumétricas",
+      "Pipetar substâncias com a boca",
+      "Não rotular soluções corretamente",
+      "Descartar resíduos de forma inadequada"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equipamento de proteção individual é indispensável em laboratório?",
+      "alternativas": [
+        "Chapéu",
+        "Jaleco",
+        "Relógio",
+        "Gravata"
+      ],
+      "resposta": "Jaleco",
+      "explicacao": "O jaleco protege o usuário contra respingos e contaminações."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual vidraria é utilizada para preparar soluções com alta precisão?",
+      "alternativas": [
+        "Béquer",
+        "Proveta",
+        "Balão volumétrico",
+        "Erlenmeyer"
+      ],
+      "resposta": "Balão volumétrico",
+      "explicacao": "O balão volumétrico permite a preparação de soluções com volume exato."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equipamento é utilizado em titulações para medir volumes com precisão?",
+      "alternativas": [
+        "Bureta",
+        "Funil",
+        "Béquer",
+        "Dessecador"
+      ],
+      "resposta": "Bureta",
+      "explicacao": "A bureta é empregada em titulações para medir volumes com alta precisão."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equipamento de proteção coletiva é utilizado para manipular substâncias voláteis?",
+      "alternativas": [
+        "Capela de exaustão",
+        "Proveta",
+        "Pipeta",
+        "Termômetro"
+      ],
+      "resposta": "Capela de exaustão",
+      "explicacao": "A capela remove vapores tóxicos e protege o usuário."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa apresenta apenas vidrarias volumétricas?",
+      "alternativas": [
+        "Béquer, Erlenmeyer e funil",
+        "Proveta, bureta e pipeta volumétrica",
+        "Tubo de ensaio, bastão de vidro e béquer",
+        "Erlenmeyer, kitassato e dessecador"
+      ],
+      "resposta": "Proveta, bureta e pipeta volumétrica",
+      "explicacao": "Essas vidrarias são utilizadas para medir volumes com precisão, sendo classificadas como volumétricas."
+    }
+  ]
+}
