@@ -1,0 +1,105 @@
+{
+  "id": "conceito_mol_numero_avogadro",
+  "disciplina": "Química Geral I",
+  "assunto": "Estequiometria — Conceito de Mol e Número de Avogadro",
+  "ordem": 23,
+
+  "teoria": {
+    "resumo": "O mol é a unidade do SI utilizada para quantificar matéria, relacionando massa, número de partículas e volume por meio do Número de Avogadro.",
+
+    "explicacao": "A Estequiometria é o ramo da Química que estuda as relações quantitativas entre reagentes e produtos em uma reação química. Para isso, utiliza-se o conceito de mol, que permite contar partículas microscópicas de forma prática.\n\n---\n\nCONCEITO DE MOL:\n\nO mol é a quantidade de matéria que contém exatamente 6,022 × 10²³ entidades elementares.\n\nEssas entidades podem ser:\n\n✔ Átomos\n✔ Moléculas\n✔ Íons\n✔ Elétrons\n✔ Fórmulas unitárias\n\nEsse valor é conhecido como Número de Avogadro.\n\n---\n\nNÚMERO DE AVOGADRO:\n\nNA = 6,022 × 10²³ partículas/mol\n\nEle estabelece a ponte entre o mundo microscópico e o macroscópico.\n\n---\n\nRELAÇÕES FUNDAMENTAIS:\n\n1) Relação entre quantidade de matéria e número de partículas:\n\nn = N / NA\n\nonde:\n✔ n = número de mols\n✔ N = número de partículas\n✔ NA = Número de Avogadro\n\n---\n\n2) Relação entre massa e quantidade de matéria:\n\nn = m / M\n\nonde:\n✔ m = massa (g)\n✔ M = massa molar (g/mol)\n\n---\n\n3) Relação entre volume e quantidade de matéria (CNTP):\n\nn = V / 22,4\n\nonde:\n✔ V = volume em litros\n\nEssa relação é válida para gases em Condições Normais de Temperatura e Pressão (CNTP).\n\n---\n\nEXEMPLO 1:\n\n1 mol de H₂O contém 6,022 × 10²³ moléculas.\n\n---\n\nEXEMPLO 2:\n\nQuantos mols existem em 18 g de água?\n\nM(H₂O) = 18 g/mol\n\nn = 18 / 18 = 1 mol\n\n---\n\nEXEMPLO 3:\n\nQuantas moléculas existem em 2 mols de CO₂?\n\nN = 2 × 6,022 × 10²³\n\nN = 1,2044 × 10²⁴ moléculas\n\n---\n\nMASSA MOLAR:\n\nA massa molar corresponde à massa de 1 mol de uma substância e é numericamente igual à sua massa atômica ou molecular.\n\nExemplos:\n\n✔ H₂O = 18 g/mol\n✔ CO₂ = 44 g/mol\n✔ NaCl = 58,5 g/mol\n✔ O₂ = 32 g/mol\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar os dados fornecidos.\n\n2) Determinar a massa molar da substância.\n\n3) Aplicar a fórmula adequada.\n\n4) Efetuar os cálculos corretamente.\n\n5) Interpretar o resultado e indicar a unidade.\n\n---\n\nAPLICAÇÕES:\n\n✔ Cálculos estequiométricos\n✔ Produção industrial\n✔ Farmacologia\n✔ Análises laboratoriais\n✔ Engenharia química\n\n---\n\nIDEIA CENTRAL:\n\nO mol permite contar partículas microscópicas utilizando grandezas macroscópicas como massa e volume.",
+
+    "intuicao": "O mol funciona como uma 'dúzia' da Química, permitindo contar partículas extremamente pequenas de maneira prática.",
+
+    "analogia": "Assim como uma dúzia representa 12 unidades, um mol representa 6,022 × 10²³ partículas.",
+
+    "aplicacoes": [
+      "Cálculos estequiométricos",
+      "Produção de medicamentos",
+      "Processos industriais",
+      "Análises químicas laboratoriais",
+      "Engenharia química"
+    ],
+
+    "erros_comuns": [
+      "Confundir mol com massa",
+      "Esquecer o Número de Avogadro",
+      "Utilizar incorretamente a massa molar",
+      "Não converter unidades corretamente",
+      "Aplicar a relação de gases fora da CNTP"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O valor do Número de Avogadro é:",
+      "alternativas": [
+        "6,022 × 10²²",
+        "6,022 × 10²³",
+        "3,0 × 10⁸",
+        "1,0 × 10²³"
+      ],
+      "resposta": "6,022 × 10²³",
+      "explicacao": "Esse valor representa a quantidade de partículas existentes em 1 mol."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O mol é utilizado para medir:",
+      "alternativas": [
+        "Energia",
+        "Quantidade de matéria",
+        "Temperatura",
+        "Pressão"
+      ],
+      "resposta": "Quantidade de matéria",
+      "explicacao": "O mol é a unidade do SI utilizada para medir a quantidade de matéria."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantas moléculas existem em 1 mol de uma substância?",
+      "alternativas": [
+        "3,011 × 10²³",
+        "6,022 × 10²³",
+        "1,204 × 10²⁴",
+        "6,022 × 10²²"
+      ],
+      "resposta": "6,022 × 10²³",
+      "explicacao": "Por definição, 1 mol contém 6,022 × 10²³ partículas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos mols existem em 44 g de CO₂?",
+      "alternativas": [
+        "0,5 mol",
+        "1 mol",
+        "2 mol",
+        "44 mol"
+      ],
+      "resposta": "1 mol",
+      "explicacao": "A massa molar do CO₂ é 44 g/mol, portanto 44 g correspondem a 1 mol."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantas moléculas existem em 0,5 mol de H₂O?",
+      "alternativas": [
+        "3,011 × 10²³",
+        "6,022 × 10²³",
+        "1,204 × 10²⁴",
+        "9,033 × 10²³"
+      ],
+      "resposta": "3,011 × 10²³",
+      "explicacao": "Multiplicando 0,5 pelo Número de Avogadro: 0,5 × 6,022 × 10²³ = 3,011 × 10²³ moléculas."
+    }
+  ]
+}
