@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Leis Ponderais e Teoria Atômica",
   "ordem": 5,
-
   "teoria": {
     "resumo": "Apresenta as leis ponderais que fundamentam a Química moderna e a Teoria Atômica de Dalton, explicando a composição da matéria e as relações quantitativas das reações químicas.",
-
     "explicacao": "O desenvolvimento da Química como ciência quantitativa baseia-se nas leis ponderais, que descrevem as relações entre as massas das substâncias envolvidas nas reações químicas. Essas leis foram essenciais para a formulação da Teoria Atômica.\n\nA Lei da Conservação da Massa, proposta por Antoine Lavoisier, estabelece que a massa total dos reagentes é igual à massa total dos produtos em uma reação química. Em outras palavras, a matéria não é criada nem destruída, apenas transformada.\n\nA Lei das Proporções Definidas, formulada por Joseph Proust, afirma que uma substância composta é sempre formada pelos mesmos elementos químicos combinados em proporções fixas e constantes em massa. Por exemplo, a água é sempre formada por hidrogênio e oxigênio na proporção de 1:8 em massa.\n\nA Lei das Proporções Múltiplas, proposta por John Dalton, estabelece que quando dois elementos formam mais de um composto, as massas de um deles que se combinam com uma massa fixa do outro estão entre si em uma razão de números inteiros pequenos. Um exemplo clássico é a formação do monóxido de carbono (CO) e do dióxido de carbono (CO2).\n\nCom base nessas leis, Dalton formulou a Teoria Atômica, cujos principais postulados são:\n\n1. Toda matéria é constituída por partículas indivisíveis chamadas átomos.\n2. Átomos de um mesmo elemento são idênticos em massa e propriedades.\n3. Átomos de elementos diferentes possuem massas e propriedades distintas.\n4. Compostos são formados pela combinação de átomos em proporções definidas.\n5. Em uma reação química, os átomos apenas se reorganizam, não sendo criados nem destruídos.\n\nEmbora alguns postulados tenham sido posteriormente aprimorados pela descoberta das partículas subatômicas e dos isótopos, a teoria de Dalton permanece como a base da Química moderna.\n\nEsses princípios são fundamentais para o entendimento da estequiometria, do balanceamento de equações químicas e da estrutura da matéria.",
-
     "intuicao": "As leis ponderais mostram que a natureza segue padrões matemáticos. Sempre que uma substância é formada, os elementos se combinam em proporções fixas, revelando a organização microscópica da matéria.",
-
     "analogia": "A formação de compostos químicos pode ser comparada a uma receita culinária: para obter o mesmo prato, é necessário utilizar os ingredientes nas mesmas proporções. Alterar essas proporções resulta em um produto diferente.",
-
     "aplicacoes": [
       "Cálculo de reagentes e produtos em reações químicas.",
       "Produção industrial de substâncias químicas.",
@@ -20,7 +15,6 @@
       "Análise laboratorial e controle de qualidade.",
       "Estudos de composição de materiais e minerais."
     ],
-
     "erros_comuns": [
       "Acreditar que a massa pode ser criada ou destruída em uma reação química.",
       "Confundir a Lei das Proporções Definidas com a Lei das Proporções Múltiplas.",
@@ -29,82 +23,81 @@
       "Confundir proporções em massa com proporções em quantidade de substância."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual cientista formulou a Lei da Conservação da Massa?",
-      "opcoes": [
+      "resposta": "Antoine Lavoisier",
+      "explicacao": "Antoine Lavoisier estabeleceu que a massa se conserva em uma reação química.",
+      "alternativas": [
         "John Dalton",
         "Joseph Proust",
         "Antoine Lavoisier",
         "Niels Bohr",
         "J. J. Thomson"
-      ],
-      "resposta": 2,
-      "explicacao": "Antoine Lavoisier estabeleceu que a massa se conserva em uma reação química."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "A Lei das Proporções Definidas afirma que:",
-      "opcoes": [
+      "resposta": "Uma substância composta possui sempre a mesma proporção em massa de seus elementos.",
+      "explicacao": "A Lei de Proust estabelece que os compostos possuem composição fixa e constante.",
+      "alternativas": [
         "Os átomos são indivisíveis.",
         "As substâncias se combinam em proporções variáveis.",
         "Uma substância composta possui sempre a mesma proporção em massa de seus elementos.",
         "A massa é destruída nas reações químicas.",
         "Os elementos existem apenas no estado gasoso."
-      ],
-      "resposta": 2,
-      "explicacao": "A Lei de Proust estabelece que os compostos possuem composição fixa e constante."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Os compostos CO e CO2 exemplificam qual lei ponderal?",
-      "opcoes": [
+      "resposta": "Lei das Proporções Múltiplas",
+      "explicacao": "CO e CO2 demonstram que os elementos podem se combinar em diferentes proporções inteiras simples.",
+      "alternativas": [
         "Lei da Conservação da Massa",
         "Lei das Proporções Definidas",
         "Lei das Proporções Múltiplas",
         "Lei de Avogadro",
         "Lei de Boyle"
-      ],
-      "resposta": 2,
-      "explicacao": "CO e CO2 demonstram que os elementos podem se combinar em diferentes proporções inteiras simples."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual das alternativas é um postulado da Teoria Atômica de Dalton?",
-      "opcoes": [
+      "resposta": "A matéria é composta por átomos que se rearranjam durante as reações químicas.",
+      "explicacao": "Dalton propôs que os átomos se reorganizam nas reações químicas sem serem criados ou destruídos.",
+      "alternativas": [
         "Os átomos podem ser divididos em prótons e elétrons.",
         "Os elétrons orbitam o núcleo em níveis de energia quantizados.",
         "A matéria é composta por átomos que se rearranjam durante as reações químicas.",
         "O núcleo do átomo é composto por prótons e nêutrons.",
         "Os elétrons possuem natureza dual."
-      ],
-      "resposta": 2,
-      "explicacao": "Dalton propôs que os átomos se reorganizam nas reações químicas sem serem criados ou destruídos."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Se 12 g de carbono reagem com 32 g de oxigênio para formar CO2, qual lei é comprovada?",
-      "opcoes": [
+      "resposta": "Lei das Proporções Definidas",
+      "explicacao": "A proporção fixa entre carbono e oxigênio comprova a Lei das Proporções Definidas.",
+      "alternativas": [
         "Lei de Boyle",
         "Lei das Proporções Definidas",
         "Lei de Charles",
         "Lei de Avogadro",
         "Lei de Hess"
-      ],
-      "resposta": 1,
-      "explicacao": "A proporção fixa entre carbono e oxigênio comprova a Lei das Proporções Definidas."
+      ]
     }
   ]
 }
