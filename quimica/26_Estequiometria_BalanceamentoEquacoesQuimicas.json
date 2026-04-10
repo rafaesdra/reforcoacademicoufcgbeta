@@ -1,0 +1,105 @@
+{
+  "id": "balanceamento_equacoes_quimicas",
+  "disciplina": "Química Geral I",
+  "assunto": "Estequiometria — Balanceamento de Equações Químicas",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "O balanceamento de equações químicas ajusta os coeficientes das substâncias para garantir a conservação do número de átomos de cada elemento na reação.",
+
+    "explicacao": "O balanceamento de equações químicas é uma etapa fundamental da Estequiometria. Ele consiste em ajustar os coeficientes numéricos das fórmulas químicas para que o número de átomos de cada elemento seja o mesmo nos reagentes e nos produtos.\n\n---\n\nIDEIA PRINCIPAL:\n\nEm uma reação química, os átomos não são criados nem destruídos.\n\nIsso está de acordo com a Lei da Conservação da Massa, proposta por Lavoisier.\n\n---\n\nOBJETIVO DO BALANCEAMENTO:\n\n✔ Igualar o número de átomos de cada elemento nos dois lados da equação\n✔ Representar corretamente a proporção entre reagentes e produtos\n✔ Permitir a realização de cálculos estequiométricos\n\n---\n\nCOMO FAZER O BALANCEAMENTO:\n\n1) Escrever corretamente a equação química.\n\n2) Contar o número de átomos de cada elemento nos reagentes e nos produtos.\n\n3) Ajustar apenas os coeficientes das fórmulas.\n\n4) Nunca alterar os índices das fórmulas químicas.\n\n5) Conferir ao final se todos os elementos ficaram balanceados.\n\n---\n\nEXEMPLO 1:\n\nH₂ + O₂ → H₂O\n\nContagem inicial:\n\nReagentes:\n✔ H = 2\n✔ O = 2\n\nProdutos:\n✔ H = 2\n✔ O = 1\n\nAjustando:\n\n2H₂ + O₂ → 2H₂O\n\nAgora:\n\nReagentes:\n✔ H = 4\n✔ O = 2\n\nProdutos:\n✔ H = 4\n✔ O = 2\n\nEquação balanceada.\n\n---\n\nEXEMPLO 2:\n\nN₂ + H₂ → NH₃\n\nAjustando:\n\nN₂ + 3H₂ → 2NH₃\n\nConferindo:\n\nReagentes:\n✔ N = 2\n✔ H = 6\n\nProdutos:\n✔ N = 2\n✔ H = 6\n\n---\n\nEXEMPLO 3:\n\nFe + O₂ → Fe₂O₃\n\nAjustando:\n\n4Fe + 3O₂ → 2Fe₂O₃\n\nConferindo:\n\nReagentes:\n✔ Fe = 4\n✔ O = 6\n\nProdutos:\n✔ Fe = 4\n✔ O = 6\n\n---\n\nREGRAS IMPORTANTES:\n\n✔ Balancear primeiro os elementos que aparecem em menos substâncias\n✔ Deixar hidrogênio e oxigênio por último, quando possível\n✔ Se surgir fração, multiplicar toda a equação para eliminar\n✔ Sempre simplificar os coeficientes finais, se possível\n\n---\n\nO QUE NÃO FAZER:\n\n✘ Não mudar os índices das fórmulas\n✘ Não inventar novas substâncias\n✘ Não esquecer de conferir todos os elementos ao final\n\n---\n\nIMPORTÂNCIA DO BALANCEAMENTO:\n\n✔ Permite cálculos estequiométricos corretos\n✔ Representa corretamente as reações químicas\n✔ É essencial em laboratório e na indústria\n✔ Garante a conservação da matéria\n\n---\n\nPASSO A PASSO:\n\n1) Escrever a equação\n\n2) Contar os átomos\n\n3) Ajustar coeficientes\n\n4) Conferir todos os elementos\n\n5) Simplificar, se necessário\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Observe primeiro os elementos que aparecem uma vez de cada lado\n✔ Evite começar por hidrogênio e oxigênio em equações mais complexas\n✔ Faça a conferência final com calma\n✔ Lembre-se: só os coeficientes podem ser alterados\n\n---\n\nIDEIA CENTRAL:\n\nBalancear uma equação química é garantir que a quantidade de átomos de cada elemento seja preservada durante a reação.",
+
+    "intuicao": "Balancear uma equação é como equilibrar os dois lados de uma balança: a quantidade de cada tipo de átomo deve ser igual antes e depois da reação.",
+
+    "analogia": "É como organizar times em uma partida: o número de jogadores de cada lado precisa estar correto para o jogo ficar equilibrado.",
+
+    "aplicacoes": [
+      "Cálculos estequiométricos",
+      "Previsão de quantidades de reagentes e produtos",
+      "Processos industriais",
+      "Experimentos laboratoriais",
+      "Controle de qualidade químico"
+    ],
+
+    "erros_comuns": [
+      "Alterar os índices das fórmulas",
+      "Esquecer de conferir todos os elementos",
+      "Balancear apenas parte da equação",
+      "Ignorar a conservação da massa",
+      "Não simplificar os coeficientes finais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No balanceamento de equações químicas, o que pode ser alterado?",
+      "alternativas": [
+        "Os índices das fórmulas",
+        "Os coeficientes das substâncias",
+        "Os símbolos dos elementos",
+        "Os estados físicos"
+      ],
+      "resposta": "Os coeficientes das substâncias",
+      "explicacao": "No balanceamento, apenas os coeficientes podem ser modificados."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma balanceada da equação H₂ + O₂ → H₂O?",
+      "alternativas": [
+        "H₂ + O₂ → H₂O",
+        "2H₂ + O₂ → 2H₂O",
+        "H₂ + 2O₂ → H₂O",
+        "2H₂ + 2O₂ → 2H₂O"
+      ],
+      "resposta": "2H₂ + O₂ → 2H₂O",
+      "explicacao": "Essa é a forma correta de igualar os átomos de hidrogênio e oxigênio nos dois lados."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma balanceada da equação N₂ + H₂ → NH₃?",
+      "alternativas": [
+        "N₂ + H₂ → NH₃",
+        "N₂ + 2H₂ → 2NH₃",
+        "N₂ + 3H₂ → 2NH₃",
+        "2N₂ + 3H₂ → 2NH₃"
+      ],
+      "resposta": "N₂ + 3H₂ → 2NH₃",
+      "explicacao": "Essa forma iguala 2 átomos de nitrogênio e 6 de hidrogênio em ambos os lados."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei fundamenta o balanceamento de equações químicas?",
+      "alternativas": [
+        "Lei de Avogadro",
+        "Lei da Conservação da Massa",
+        "Lei de Boyle",
+        "Lei de Hess"
+      ],
+      "resposta": "Lei da Conservação da Massa",
+      "explicacao": "O balanceamento se baseia na ideia de que a matéria não é criada nem destruída."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma balanceada da equação Fe + O₂ → Fe₂O₃?",
+      "alternativas": [
+        "2Fe + O₂ → Fe₂O₃",
+        "4Fe + 3O₂ → 2Fe₂O₃",
+        "Fe + O₂ → Fe₂O₃",
+        "2Fe + 3O₂ → 2Fe₂O₃"
+      ],
+      "resposta": "4Fe + 3O₂ → 2Fe₂O₃",
+      "explicacao": "Essa forma garante 4 átomos de ferro e 6 átomos de oxigênio em ambos os lados."
+    }
+  ]
+}
