@@ -1,0 +1,105 @@
+{
+  "id": "massa_molar_conversoes_estequiometricas",
+  "disciplina": "Química Geral I",
+  "assunto": "Estequiometria — Massa Molar e Conversões Estequiométricas",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "A massa molar permite converter massa, mol e número de partículas, sendo essencial para resolver cálculos estequiométricos em reações químicas.",
+
+    "explicacao": "A Estequiometria é o ramo da Química que estuda as relações quantitativas entre reagentes e produtos em uma reação química. Para realizar esses cálculos, é fundamental compreender a massa molar e as conversões entre diferentes unidades.\n\n---\n\nMASSA MOLAR:\n\nA massa molar (M) corresponde à massa de 1 mol de uma substância e é expressa em g/mol. Ela é obtida somando-se as massas atômicas dos elementos presentes na fórmula química.\n\nExemplos:\n\n✔ H₂O: (2 × 1) + 16 = 18 g/mol\n✔ CO₂: 12 + (2 × 16) = 44 g/mol\n✔ NaCl: 23 + 35,5 = 58,5 g/mol\n✔ CaCO₃: 40 + 12 + (3 × 16) = 100 g/mol\n\n---\n\nCONVERSÕES FUNDAMENTAIS:\n\n1) Massa para mol:\n\nn = m / M\n\nonde:\n✔ n = número de mols\n✔ m = massa (g)\n✔ M = massa molar (g/mol)\n\n---\n\n2) Mol para número de partículas:\n\nN = n × NA\n\nonde:\n✔ NA = 6,022 × 10²³ partículas/mol\n\n---\n\n3) Mol para volume de gases (CNTP):\n\nV = n × 22,4 L\n\nEssa relação é válida para gases nas Condições Normais de Temperatura e Pressão.\n\n---\n\nEQUAÇÃO QUÍMICA BALANCEADA:\n\nAntes de realizar qualquer cálculo estequiométrico, a equação deve ser balanceada, respeitando a Lei da Conservação da Massa.\n\nExemplo:\n\n2H₂ + O₂ → 2H₂O\n\nEssa equação indica que:\n\n✔ 2 mols de H₂ reagem com 1 mol de O₂\n✔ Produzem 2 mols de H₂O\n\n---\n\nEXEMPLO 1 — MASSA PARA MOL:\n\nQuantos mols existem em 36 g de água?\n\nM(H₂O) = 18 g/mol\n\nn = 36 / 18 = 2 mol\n\n---\n\nEXEMPLO 2 — MOL PARA MASSA:\n\nQual a massa de 3 mols de CO₂?\n\nm = n × M\nm = 3 × 44\nm = 132 g\n\n---\n\nEXEMPLO 3 — CÁLCULO ESTEQUIOMÉTRICO:\n\nQual a massa de água formada pela reação de 4 g de H₂?\n\n2H₂ + O₂ → 2H₂O\n\nM(H₂) = 2 g/mol\n\nn(H₂) = 4 / 2 = 2 mol\n\nProporção:\n2 mol H₂ → 2 mol H₂O\n\nLogo, formam-se 2 mol de H₂O.\n\nm(H₂O) = 2 × 18 = 36 g\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Escrever e balancear a equação química.\n\n2) Calcular a massa molar das substâncias envolvidas.\n\n3) Converter os dados para mol.\n\n4) Aplicar a proporção estequiométrica.\n\n5) Converter para a unidade desejada.\n\n---\n\nAPLICAÇÕES:\n\n✔ Produção industrial de substâncias químicas\n✔ Engenharia química e farmacêutica\n✔ Análises laboratoriais\n✔ Controle de qualidade\n✔ Processos ambientais e energéticos\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre balanceie a equação química.\n✔ Utilize corretamente as massas molares.\n✔ Mantenha atenção às unidades.\n✔ Use o Número de Avogadro corretamente.\n✔ Organize os cálculos passo a passo.\n\n---\n\nIDEIA CENTRAL:\n\nA massa molar é a base das conversões estequiométricas, permitindo relacionar massa, mol e número de partículas em reações químicas.",
+
+    "intuicao": "A massa molar funciona como uma ponte entre o mundo microscópico das partículas e o mundo macroscópico das medições em laboratório.",
+
+    "analogia": "Assim como uma dúzia representa 12 unidades, o mol representa 6,022 × 10²³ partículas, permitindo realizar contagens químicas precisas.",
+
+    "aplicacoes": [
+      "Cálculos estequiométricos",
+      "Produção industrial de compostos químicos",
+      "Desenvolvimento de medicamentos",
+      "Análises laboratoriais",
+      "Engenharia química"
+    ],
+
+    "erros_comuns": [
+      "Não balancear a equação química",
+      "Confundir mol com massa",
+      "Utilizar massa molar incorreta",
+      "Ignorar as proporções estequiométricas",
+      "Esquecer de converter unidades"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a massa molar do dióxido de carbono (CO₂)?",
+      "alternativas": [
+        "28 g/mol",
+        "32 g/mol",
+        "44 g/mol",
+        "48 g/mol"
+      ],
+      "resposta": "44 g/mol",
+      "explicacao": "A massa molar do CO₂ é 12 + (2 × 16) = 44 g/mol."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos mols existem em 18 g de H₂O?",
+      "alternativas": [
+        "0,5 mol",
+        "1 mol",
+        "2 mol",
+        "18 mol"
+      ],
+      "resposta": "1 mol",
+      "explicacao": "A massa molar da água é 18 g/mol, portanto n = 18/18 = 1 mol."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantas moléculas existem em 2 mols de uma substância?",
+      "alternativas": [
+        "3,011 × 10²³",
+        "6,022 × 10²³",
+        "1,204 × 10²⁴",
+        "2,000 × 10²³"
+      ],
+      "resposta": "1,204 × 10²⁴",
+      "explicacao": "Multiplicando 2 pelo Número de Avogadro: 2 × 6,022 × 10²³."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual a massa de 3 mols de O₂?",
+      "alternativas": [
+        "32 g",
+        "48 g",
+        "64 g",
+        "96 g"
+      ],
+      "resposta": "96 g",
+      "explicacao": "A massa molar do O₂ é 32 g/mol. Logo, m = 3 × 32 = 96 g."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual a massa de H₂O formada pela reação de 4 g de H₂?\n2H₂ + O₂ → 2H₂O",
+      "alternativas": [
+        "9 g",
+        "18 g",
+        "36 g",
+        "72 g"
+      ],
+      "resposta": "36 g",
+      "explicacao": "4 g de H₂ correspondem a 2 mols, que produzem 2 mols de H₂O, equivalentes a 36 g."
+    }
+  ]
+}
