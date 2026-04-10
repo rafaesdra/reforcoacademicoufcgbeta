@@ -1,0 +1,99 @@
+{
+  "id": "vetores_dependentes_independentes",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Vetores Linearmente Dependentes e Independentes",
+  "ordem": 59,
+
+  "teoria": {
+    "resumo": "Vetores são dependentes quando um pode ser escrito como combinação dos outros, e independentes caso contrário.",
+
+    "explicacao": "Um conjunto de vetores é linearmente dependente quando pelo menos um vetor pode ser expresso como combinação linear dos demais.\n\nIsso significa que existe uma equação do tipo:\n\na1*v1 + a2*v2 + ... + an*vn = 0\n\ncom pelo menos um coeficiente diferente de zero.\n\nCaso a única solução dessa equação seja a trivial (todos os coeficientes iguais a zero), os vetores são linearmente independentes.\n\nExemplo de dependência:\nv1 = (1,2) e v2 = (2,4)\n\nComo v2 = 2*v1, os vetores são dependentes.\n\nExemplo de independência:\nv1 = (1,0) e v2 = (0,1)\n\nNenhum pode ser escrito como combinação do outro, logo são independentes.\n\nNo espaço tridimensional:\nTrês vetores são independentes se não estiverem no mesmo plano (não coplanares).",
+
+    "intuicao": "Se um vetor pode ser 'construído' a partir dos outros, ele não traz informação nova — então há dependência.",
+
+    "analogia": "Pense em ferramentas: se você já tem uma chave de fenda e outra igual só que maior, a segunda não adiciona uma função nova — isso é dependência.",
+
+    "aplicacoes": [
+      "Determinação de bases e dimensão de espaços vetoriais",
+      "Análise de soluções de sistemas lineares"
+    ],
+
+    "erros_comuns": [
+      "Confundir vetores paralelos com independentes",
+      "Achar que apenas vetores iguais são dependentes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (2,4) e (1,2) são:",
+      "alternativas": [
+        "Independentes",
+        "Dependentes",
+        "Ortogonais",
+        "Unitários"
+      ],
+      "resposta": "Dependentes",
+      "explicacao": "(2,4) é múltiplo de (1,2), então são dependentes."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0,0), (0,1,0) e (0,0,1) são:",
+      "alternativas": [
+        "Dependentes",
+        "Independentes",
+        "Colineares",
+        "Paralelos"
+      ],
+      "resposta": "Independentes",
+      "explicacao": "Cada vetor representa um eixo diferente, não podendo ser obtido a partir dos outros."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v1 = (1,1) e v2 = (2,2), qual a relação entre eles?",
+      "alternativas": [
+        "Independentes",
+        "Dependentes",
+        "Ortogonais",
+        "Perpendiculares"
+      ],
+      "resposta": "Dependentes",
+      "explicacao": "v2 = 2*v1, logo há dependência linear."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição indica independência linear?",
+      "alternativas": [
+        "Existe solução não trivial para a combinação linear igual a zero",
+        "A única solução da combinação linear igual a zero é trivial",
+        "Os vetores são paralelos",
+        "Os vetores têm módulo igual"
+      ],
+      "resposta": "A única solução da combinação linear igual a zero é trivial",
+      "explicacao": "Essa é a definição formal de independência linear."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,2,3), (0,1,1) e (1,3,4) são:",
+      "alternativas": [
+        "Linearmente independentes",
+        "Linearmente dependentes",
+        "Paralelos",
+        "Colineares"
+      ],
+      "resposta": "Linearmente dependentes",
+      "explicacao": "Note que (1,3,4) = (1,2,3) + (0,1,1), então um vetor é combinação dos outros, caracterizando dependência."
+    }
+  ]
+}
