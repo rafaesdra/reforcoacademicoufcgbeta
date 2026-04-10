@@ -1,0 +1,110 @@
+{
+  "id": "ligacao_ionica",
+  "disciplina": "Química Geral I",
+  "assunto": "Ligação Iônica",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "Estuda a ligação iônica, formada pela transferência de elétrons entre átomos, resultando na formação de íons e compostos iônicos estáveis.",
+
+    "explicacao": "A ligação iônica ocorre quando há transferência de elétrons de um átomo para outro, formando íons de cargas opostas que se atraem por forças eletrostáticas. Esse tipo de ligação é comum entre metais e ametais, devido à grande diferença de eletronegatividade entre eles.\n\nOs metais tendem a perder elétrons, formando cátions (íons positivos), enquanto os ametais tendem a ganhar elétrons, formando ânions (íons negativos). A atração entre essas cargas opostas resulta na formação de compostos iônicos.\n\nPor exemplo, na formação do cloreto de sódio (NaCl):\n- O sódio (Na) perde um elétron e forma o cátion Na⁺.\n- O cloro (Cl) ganha um elétron e forma o ânion Cl⁻.\n- A atração eletrostática entre Na⁺ e Cl⁻ forma o composto iônico NaCl.\n\nEsse processo pode ser representado pelas equações:\nNa → Na⁺ + e⁻\nCl + e⁻ → Cl⁻\nNa⁺ + Cl⁻ → NaCl\n\nOs compostos iônicos organizam-se em estruturas tridimensionais chamadas retículos cristalinos, que garantem estabilidade ao sólido. Nessas estruturas, cada íon é rodeado por íons de carga oposta.\n\nA estabilidade da ligação iônica está associada à energia reticular, que corresponde à energia liberada na formação do sólido cristalino a partir de íons no estado gasoso.\n\nPrincipais características dos compostos iônicos:\n- Altos pontos de fusão e ebulição.\n- Estrutura cristalina organizada.\n- Elevada dureza e fragilidade.\n- Conduzem eletricidade quando fundidos ou dissolvidos em água.\n- Geralmente são solúveis em solventes polares.\n\nA ligação iônica está diretamente relacionada à regra do octeto, segundo a qual os átomos tendem a adquirir a configuração eletrônica estável dos gases nobres.\n\nExemplos de compostos iônicos:\n- NaCl (cloreto de sódio)\n- KBr (brometo de potássio)\n- MgO (óxido de magnésio)\n- CaCl₂ (cloreto de cálcio)\n- LiF (fluoreto de lítio)",
+
+    "intuicao": "A ligação iônica ocorre porque os átomos buscam estabilidade eletrônica. Ao perder ou ganhar elétrons, eles adquirem uma configuração semelhante à dos gases nobres.",
+
+    "analogia": "A ligação iônica pode ser comparada à atração entre ímãs: polos opostos se atraem e permanecem unidos por forças eletrostáticas.",
+
+    "aplicacoes": [
+      "Produção de sal de cozinha (NaCl).",
+      "Fabricação de fertilizantes agrícolas.",
+      "Produção de cerâmicas e materiais refratários.",
+      "Eletrólise em processos industriais.",
+      "Funcionamento de baterias e células eletroquímicas."
+    ],
+
+    "erros_comuns": [
+      "Confundir ligação iônica com ligação covalente.",
+      "Acreditar que elétrons são compartilhados em ligações iônicas.",
+      "Supor que compostos iônicos conduzem eletricidade no estado sólido.",
+      "Ignorar a formação de retículos cristalinos.",
+      "Pensar que toda ligação entre dois elementos é iônica."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A ligação iônica ocorre por meio de:",
+      "opcoes": [
+        "Compartilhamento de elétrons",
+        "Transferência de elétrons",
+        "Compartilhamento de prótons",
+        "Transferência de nêutrons",
+        "Sobreposição de orbitais"
+      ],
+      "resposta": 1,
+      "explicacao": "A ligação iônica ocorre pela transferência de elétrons entre átomos, formando íons de cargas opostas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual composto apresenta ligação predominantemente iônica?",
+      "opcoes": [
+        "H₂O",
+        "CO₂",
+        "NaCl",
+        "CH₄",
+        "NH₃"
+      ],
+      "resposta": 2,
+      "explicacao": "O NaCl é formado pela transferência de elétrons entre o sódio e o cloro."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa corretamente um cátion?",
+      "opcoes": [
+        "Cl⁻",
+        "O²⁻",
+        "Na⁺",
+        "F⁻",
+        "S²⁻"
+      ],
+      "resposta": 2,
+      "explicacao": "O cátion possui carga positiva; o Na⁺ é um exemplo típico."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma característica dos compostos iônicos é:",
+      "opcoes": [
+        "Baixo ponto de fusão",
+        "Má organização estrutural",
+        "Condução elétrica no estado sólido",
+        "Altos pontos de fusão e ebulição",
+        "Insolubilidade em água"
+      ],
+      "resposta": 3,
+      "explicacao": "Os compostos iônicos apresentam fortes interações eletrostáticas, resultando em altos pontos de fusão e ebulição."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual par de elementos tende a formar uma ligação iônica?",
+      "opcoes": [
+        "H e O",
+        "C e H",
+        "Na e Cl",
+        "N e O",
+        "Cl e Cl"
+      ],
+      "resposta": 2,
+      "explicacao": "O sódio é um metal e o cloro é um ametal, favorecendo a transferência de elétrons e a formação de ligação iônica."
+    }
+  ]
+}
