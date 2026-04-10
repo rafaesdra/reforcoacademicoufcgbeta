@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Distribuição Eletrônica e Diagrama de Pauling",
   "ordem": 12,
-
   "teoria": {
     "resumo": "Apresenta os princípios que regem a distribuição eletrônica dos átomos e o uso do Diagrama de Pauling para determinar a configuração eletrônica dos elementos.",
-
     "explicacao": "A distribuição eletrônica descreve como os elétrons estão organizados nos níveis e subníveis de energia de um átomo. Esse conceito é fundamental para compreender as propriedades químicas dos elementos, sua posição na Tabela Periódica e a formação de ligações químicas.\n\nA configuração eletrônica é baseada no modelo quântico do átomo e segue três princípios fundamentais:\n\n1. Princípio da Construção (Aufbau):\nOs elétrons ocupam primeiramente os orbitais de menor energia, preenchendo progressivamente os de maior energia.\n\n2. Princípio da Exclusão de Pauli:\nUm orbital pode acomodar no máximo dois elétrons com spins opostos.\n\n3. Regra de Hund:\nEm orbitais de mesma energia, os elétrons ocupam inicialmente orbitais separados com spins paralelos, minimizando a repulsão eletrônica.\n\nA ordem de preenchimento dos subníveis é determinada pelo Diagrama de Pauling, que segue a sequência crescente de energia:\n\n1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p.\n\nA capacidade máxima de elétrons em cada subnível é:\n- s: 2 elétrons\n- p: 6 elétrons\n- d: 10 elétrons\n- f: 14 elétrons\n\nExemplos de distribuições eletrônicas:\n\nHidrogênio (Z = 1):\n1s¹\n\nCarbono (Z = 6):\n1s² 2s² 2p²\n\nOxigênio (Z = 8):\n1s² 2s² 2p⁴\n\nSódio (Z = 11):\n1s² 2s² 2p⁶ 3s¹\n\nFerro (Z = 26):\n1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶\n\nA notação condensada, ou notação do gás nobre, simplifica a escrita da configuração eletrônica. Por exemplo:\n\nFerro (Z = 26):\n[Ar] 4s² 3d⁶\n\nEm íons, os elétrons são removidos ou adicionados ao subnível de maior energia. Nos metais de transição, os elétrons do subnível 4s são removidos antes dos do subnível 3d.\n\nExemplo:\nFe: [Ar] 4s² 3d⁶\nFe²⁺: [Ar] 3d⁶\n\nA distribuição eletrônica permite determinar os elétrons de valência, prever a reatividade dos elementos e compreender suas propriedades químicas.",
-
     "intuicao": "Os elétrons ocupam os níveis de energia como pessoas em um edifício: primeiro preenchem os andares mais baixos antes de ocupar os superiores.",
-
     "analogia": "O Diagrama de Pauling pode ser comparado a uma escada em diagonal, onde os elétrons sobem degrau por degrau, sempre ocupando os níveis de menor energia primeiro.",
-
     "aplicacoes": [
       "Determinação da posição dos elementos na Tabela Periódica.",
       "Previsão das propriedades químicas e da reatividade dos elementos.",
@@ -20,7 +15,6 @@
       "Estudo de materiais e semicondutores.",
       "Análise espectroscópica de átomos e íons."
     ],
-
     "erros_comuns": [
       "Confundir níveis de energia com subníveis.",
       "Ignorar a Regra de Hund.",
@@ -29,82 +23,81 @@
       "Remover elétrons incorretamente na formação de cátions de metais de transição."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a configuração eletrônica do oxigênio (Z = 8)?",
-      "opcoes": [
+      "resposta": "1s² 2s² 2p⁴",
+      "explicacao": "O oxigênio possui oito elétrons, distribuídos como 1s² 2s² 2p⁴.",
+      "alternativas": [
         "1s² 2s² 2p²",
         "1s² 2s² 2p⁴",
         "1s² 2s² 2p⁶",
         "1s² 2s² 2p³",
         "1s² 2p⁶"
-      ],
-      "resposta": 1,
-      "explicacao": "O oxigênio possui oito elétrons, distribuídos como 1s² 2s² 2p⁴."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Quantos elétrons podem ocupar o subnível d?",
-      "opcoes": [
+      "resposta": "10",
+      "explicacao": "O subnível d comporta no máximo 10 elétrons.",
+      "alternativas": [
         "2",
         "6",
         "10",
         "14",
         "18"
-      ],
-      "resposta": 2,
-      "explicacao": "O subnível d comporta no máximo 10 elétrons."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual princípio afirma que dois elétrons não podem possuir os mesmos quatro números quânticos?",
-      "opcoes": [
+      "resposta": "Princípio da Exclusão de Pauli",
+      "explicacao": "O Princípio da Exclusão de Pauli estabelece que dois elétrons não podem ter os mesmos quatro números quânticos.",
+      "alternativas": [
         "Princípio da Incerteza",
         "Princípio da Construção",
         "Princípio da Exclusão de Pauli",
         "Regra de Hund",
         "Lei de Dalton"
-      ],
-      "resposta": 2,
-      "explicacao": "O Princípio da Exclusão de Pauli estabelece que dois elétrons não podem ter os mesmos quatro números quânticos."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a configuração eletrônica do sódio (Z = 11)?",
-      "opcoes": [
+      "resposta": "1s² 2s² 2p⁶ 3s¹",
+      "explicacao": "O sódio possui 11 elétrons, com configuração 1s² 2s² 2p⁶ 3s¹.",
+      "alternativas": [
         "1s² 2s² 2p⁶ 3s¹",
         "1s² 2s² 2p⁵ 3s²",
         "1s² 2s² 2p⁶ 3p¹",
         "1s² 2s² 2p⁶ 3s²",
         "1s² 2s² 2p⁶"
-      ],
-      "resposta": 0,
-      "explicacao": "O sódio possui 11 elétrons, com configuração 1s² 2s² 2p⁶ 3s¹."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a configuração eletrônica condensada do ferro (Z = 26)?",
-      "opcoes": [
+      "resposta": "[Ar] 4s² 3d⁶",
+      "explicacao": "A configuração eletrônica do ferro é [Ar] 4s² 3d⁶.",
+      "alternativas": [
         "[Ne] 3s² 3p⁶ 3d⁶",
         "[Ar] 3d⁶ 4p²",
         "[Ar] 4s² 3d⁶",
         "[Kr] 4d⁶",
         "[Ar] 4s² 3p⁶"
-      ],
-      "resposta": 2,
-      "explicacao": "A configuração eletrônica do ferro é [Ar] 4s² 3d⁶."
+      ]
     }
   ]
 }
