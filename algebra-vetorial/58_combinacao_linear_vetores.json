@@ -1,0 +1,99 @@
+{
+  "id": "combinacao_linear_vetores",
+  "disciplina": "Algebra Veotiral e Geometria Analitica",
+  "assunto": "Combinação Linear",
+  "ordem": 58,
+
+  "teoria": {
+    "resumo": "Combinação linear é a soma de vetores multiplicados por escalares.",
+
+    "explicacao": "Uma combinação linear de vetores ocorre quando multiplicamos vetores por números (escalares) e somamos os resultados.\n\nDado um conjunto de vetores v1, v2, ..., vn, qualquer vetor da forma:\n\na1*v1 + a2*v2 + ... + an*vn\n\né uma combinação linear desses vetores.\n\nExemplo:\nConsidere v1 = (1,0) e v2 = (0,1).\n\nUma combinação linear seria:\n2*v1 + 3*v2 = 2*(1,0) + 3*(0,1) = (2,3)\n\nLogo, o vetor (2,3) é uma combinação linear de v1 e v2.\n\nOutro exemplo:\nSe v1 = (1,2) e v2 = (3,4), então:\n\n-1*v1 + 2*v2 = -1*(1,2) + 2*(3,4) = (-1,-2) + (6,8) = (5,6)\n\nIsso mostra como diferentes combinações geram diferentes vetores.",
+
+    "intuicao": "Combinação linear é como 'misturar' vetores em diferentes quantidades para formar novos vetores.",
+
+    "analogia": "Imagine cores de tinta: você pode misturar vermelho e azul em diferentes proporções para obter novas cores — isso é uma combinação linear.",
+
+    "aplicacoes": [
+      "Construção de espaços vetoriais e bases",
+      "Modelagem em computação gráfica e física"
+    ],
+
+    "erros_comuns": [
+      "Achar que combinação linear é apenas soma simples de vetores",
+      "Esquecer de multiplicar os vetores pelos escalares corretamente"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é uma combinação linear de (1,0) e (0,1)?",
+      "alternativas": [
+        "(2,3)",
+        "(1,0,0)",
+        "(0,0,1)",
+        "(1)"
+      ],
+      "resposta": "(2,3)",
+      "explicacao": "(2,3) pode ser escrito como 2*(1,0) + 3*(0,1)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A expressão 3v1 + 2v2 representa:",
+      "alternativas": [
+        "Produto escalar",
+        "Produto vetorial",
+        "Combinação linear",
+        "Dependência linear"
+      ],
+      "resposta": "Combinação linear",
+      "explicacao": "É uma soma de vetores multiplicados por escalares."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor (4,5) pode ser escrito como combinação linear de (1,0) e (0,1) como:",
+      "alternativas": [
+        "4*(1,0) + 5*(0,1)",
+        "5*(1,0) + 4*(0,1)",
+        "(1,0) + (0,1)",
+        "2*(1,1)"
+      ],
+      "resposta": "4*(1,0) + 5*(0,1)",
+      "explicacao": "Multiplicando corretamente os vetores base, obtemos (4,5)."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se v1 = (1,2) e v2 = (3,4), qual é o resultado de 2v1 + v2?",
+      "alternativas": [
+        "(5,8)",
+        "(2,4)",
+        "(3,6)",
+        "(7,10)"
+      ],
+      "resposta": "(5,8)",
+      "explicacao": "2*(1,2) = (2,4), somando com (3,4) resulta em (5,8)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O vetor (1,1,1) pode ser escrito como combinação linear de (1,0,0), (0,1,0) e (0,0,1)?",
+      "alternativas": [
+        "Não, pois são vetores diferentes",
+        "Sim, como 1*(1,0,0) + 1*(0,1,0) + 1*(0,0,1)",
+        "Sim, como (1,1,1)*(1,0,0)",
+        "Não, pois não existe solução"
+      ],
+      "resposta": "Sim, como 1*(1,0,0) + 1*(0,1,0) + 1*(0,0,1)",
+      "explicacao": "O vetor (1,1,1) é obtido somando os três vetores base multiplicados por 1."
+    }
+  ]
+}
