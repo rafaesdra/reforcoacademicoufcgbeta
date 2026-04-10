@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Modelos Atômicos",
   "ordem": 6,
-
   "teoria": {
     "resumo": "Apresenta a evolução histórica dos modelos atômicos, desde Dalton até o modelo quântico, evidenciando como experimentos científicos contribuíram para a compreensão da estrutura do átomo.",
-
     "explicacao": "O conceito de átomo evoluiu ao longo da história por meio de experimentos e observações científicas. Os modelos atômicos foram propostos para explicar a estrutura da matéria e suas propriedades.\n\nO primeiro modelo científico foi proposto por John Dalton, no início do século XIX. Conhecido como 'modelo da bola de bilhar', afirmava que o átomo era uma esfera maciça, indivisível e indestrutível. Dalton também postulou que átomos de um mesmo elemento eram idênticos e que compostos eram formados pela combinação de átomos em proporções fixas.\n\nEm 1897, J. J. Thomson descobriu o elétron por meio de experimentos com raios catódicos. Ele propôs o modelo do 'pudim de passas', no qual o átomo seria uma esfera de carga positiva com elétrons incrustados em seu interior.\n\nEm 1911, Ernest Rutherford realizou o experimento da lâmina de ouro, que demonstrou que a maior parte do átomo é constituída de espaço vazio. Ele concluiu que o átomo possui um pequeno núcleo central, denso e positivamente carregado, onde se concentra quase toda a massa, enquanto os elétrons orbitam ao seu redor. Esse modelo ficou conhecido como modelo nuclear ou planetário.\n\nEm 1913, Niels Bohr aperfeiçoou o modelo de Rutherford ao propor que os elétrons se movem em órbitas estacionárias com níveis de energia quantizados. Ao absorver ou emitir energia, os elétrons saltam entre esses níveis, explicando o espectro do átomo de hidrogênio.\n\nO modelo atômico moderno, baseado na mecânica quântica, foi desenvolvido ao longo do século XX por cientistas como Schrödinger e Heisenberg. Nesse modelo, os elétrons não possuem trajetória definida, mas são descritos por orbitais, regiões de maior probabilidade de localização. Esse modelo é conhecido como modelo da nuvem eletrônica.\n\nResumo dos modelos atômicos:\n- Dalton: átomo maciço e indivisível.\n- Thomson: descoberta do elétron e estrutura divisível.\n- Rutherford: núcleo denso e espaço vazio.\n- Bohr: níveis de energia quantizados.\n- Modelo Quântico: orbitais e natureza probabilística do elétron.\n\nA evolução dos modelos atômicos demonstra o caráter dinâmico da ciência, que se aprimora com base em novas evidências experimentais.",
-
     "intuicao": "Os modelos atômicos podem ser entendidos como representações progressivamente mais precisas da estrutura da matéria, cada uma baseada em descobertas experimentais que ampliaram o conhecimento científico.",
-
     "analogia": "A evolução dos modelos atômicos pode ser comparada à melhoria das imagens de um planeta: inicialmente uma esfera indistinta, depois com detalhes da superfície e, por fim, com mapas precisos obtidos por tecnologia avançada.",
-
     "aplicacoes": [
       "Desenvolvimento da física nuclear e da energia atômica.",
       "Criação de tecnologias eletrônicas e semicondutores.",
@@ -20,7 +15,6 @@
       "Produção de lasers e dispositivos ópticos.",
       "Avanços na medicina, como radioterapia e diagnóstico por imagem."
     ],
-
     "erros_comuns": [
       "Acreditar que os modelos atômicos são representações definitivas e imutáveis.",
       "Confundir órbitas de Bohr com orbitais quânticos.",
@@ -29,82 +23,81 @@
       "Supor que os modelos mais antigos estão completamente errados, em vez de limitados."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual cientista propôs o modelo atômico conhecido como 'bola de bilhar'?",
-      "opcoes": [
+      "resposta": "John Dalton",
+      "explicacao": "John Dalton propôs o primeiro modelo científico do átomo, representando-o como uma esfera maciça e indivisível.",
+      "alternativas": [
         "Ernest Rutherford",
         "Niels Bohr",
         "John Dalton",
         "J. J. Thomson",
         "Erwin Schrödinger"
-      ],
-      "resposta": 2,
-      "explicacao": "John Dalton propôs o primeiro modelo científico do átomo, representando-o como uma esfera maciça e indivisível."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "A descoberta do elétron foi realizada por:",
-      "opcoes": [
+      "resposta": "J. J. Thomson",
+      "explicacao": "J. J. Thomson descobriu o elétron por meio de experimentos com raios catódicos.",
+      "alternativas": [
         "John Dalton",
         "J. J. Thomson",
         "Ernest Rutherford",
         "Niels Bohr",
         "James Chadwick"
-      ],
-      "resposta": 1,
-      "explicacao": "J. J. Thomson descobriu o elétron por meio de experimentos com raios catódicos."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual modelo atômico introduziu a existência de um núcleo pequeno, denso e positivo?",
-      "opcoes": [
+      "resposta": "Modelo de Rutherford",
+      "explicacao": "Rutherford demonstrou, por meio do experimento da lâmina de ouro, a existência do núcleo atômico.",
+      "alternativas": [
         "Modelo de Dalton",
         "Modelo de Thomson",
         "Modelo de Rutherford",
         "Modelo de Bohr",
         "Modelo Quântico"
-      ],
-      "resposta": 2,
-      "explicacao": "Rutherford demonstrou, por meio do experimento da lâmina de ouro, a existência do núcleo atômico."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "O modelo de Bohr explica corretamente:",
-      "opcoes": [
+      "resposta": "Os níveis de energia quantizados dos elétrons.",
+      "explicacao": "Bohr propôs que os elétrons ocupam níveis de energia quantizados ao redor do núcleo.",
+      "alternativas": [
         "A indivisibilidade do átomo.",
         "A existência do núcleo atômico.",
         "Os níveis de energia quantizados dos elétrons.",
         "A descoberta do nêutron.",
         "A natureza probabilística do elétron."
-      ],
-      "resposta": 2,
-      "explicacao": "Bohr propôs que os elétrons ocupam níveis de energia quantizados ao redor do núcleo."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "O modelo atômico moderno descreve os elétrons como:",
-      "opcoes": [
+      "resposta": "Distribuições de probabilidade chamadas orbitais.",
+      "explicacao": "No modelo quântico, os elétrons são descritos por orbitais, regiões onde há maior probabilidade de serem encontrados.",
+      "alternativas": [
         "Partículas fixas no núcleo.",
         "Esferas maciças indivisíveis.",
         "Partículas em órbitas circulares definidas.",
         "Distribuições de probabilidade chamadas orbitais.",
         "Cargas positivas dispersas no átomo."
-      ],
-      "resposta": 3,
-      "explicacao": "No modelo quântico, os elétrons são descritos por orbitais, regiões onde há maior probabilidade de serem encontrados."
+      ]
     }
   ]
 }
