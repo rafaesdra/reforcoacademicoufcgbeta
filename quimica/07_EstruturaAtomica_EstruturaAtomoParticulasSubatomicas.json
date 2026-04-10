@@ -1,0 +1,110 @@
+{
+  "id": "estrutura_atomo_particulas_subatomicas",
+  "disciplina": "Química Geral I",
+  "assunto": "Estrutura do Átomo e Partículas Subatômicas",
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "Apresenta a estrutura do átomo, as características das partículas subatômicas e a organização do núcleo e da eletrosfera.",
+
+    "explicacao": "O átomo é a menor unidade da matéria que mantém as propriedades químicas de um elemento. Ele é constituído por partículas subatômicas fundamentais: prótons, nêutrons e elétrons.\n\nA estrutura do átomo é dividida em duas regiões principais: o núcleo e a eletrosfera.\n\nO núcleo é a região central do átomo, extremamente densa e carregada positivamente. Nele estão localizados os prótons e os nêutrons, sendo responsável por quase toda a massa do átomo.\n\nA eletrosfera é a região ao redor do núcleo onde se encontram os elétrons, partículas de carga negativa que se distribuem em níveis de energia.\n\nAs principais características das partículas subatômicas são:\n\n- Próton:\n  Carga elétrica: +1\n  Massa aproximada: 1 unidade de massa atômica (1 u)\n  Localização: núcleo\n\n- Nêutron:\n  Carga elétrica: 0\n  Massa aproximada: 1 unidade de massa atômica (1 u)\n  Localização: núcleo\n\n- Elétron:\n  Carga elétrica: -1\n  Massa aproximada: 1/1836 da massa do próton\n  Localização: eletrosfera\n\nA neutralidade elétrica do átomo ocorre quando o número de prótons é igual ao número de elétrons.\n\nO número de prótons determina o número atômico (Z), que identifica o elemento químico. Já a soma dos prótons e nêutrons resulta no número de massa (A).\n\nAs relações fundamentais são:\n\nZ = número de prótons\nA = número de prótons + número de nêutrons\nn = A − Z\n\nQuando um átomo perde ou ganha elétrons, forma-se um íon. A perda de elétrons origina um cátion (carga positiva), enquanto o ganho de elétrons origina um ânion (carga negativa).\n\nA compreensão da estrutura atômica é essencial para o estudo das propriedades periódicas, das ligações químicas e das transformações da matéria.",
+
+    "intuicao": "O átomo pode ser imaginado como um sistema organizado, no qual o núcleo representa a região central e os elétrons se distribuem ao seu redor, determinando o comportamento químico dos elementos.",
+
+    "analogia": "Uma analogia útil é comparar o átomo a um sistema planetário: o núcleo representa o Sol, enquanto os elétrons orbitam ao seu redor como planetas. Embora simplificada, essa comparação auxilia na visualização da estrutura atômica.",
+
+    "aplicacoes": [
+      "Identificação e classificação dos elementos químicos.",
+      "Desenvolvimento de tecnologias nucleares e energéticas.",
+      "Produção de radioisótopos para aplicações médicas.",
+      "Estudo das ligações químicas e das propriedades dos materiais.",
+      "Desenvolvimento de semicondutores e dispositivos eletrônicos."
+    ],
+
+    "erros_comuns": [
+      "Acreditar que os elétrons possuem massa igual à dos prótons.",
+      "Confundir número de massa com número atômico.",
+      "Pensar que o núcleo ocupa a maior parte do volume do átomo.",
+      "Ignorar a presença dos nêutrons no núcleo.",
+      "Acreditar que íons são formados pela perda ou ganho de prótons."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual partícula subatômica possui carga elétrica positiva?",
+      "opcoes": [
+        "Elétron",
+        "Nêutron",
+        "Próton",
+        "Fóton",
+        "Íon"
+      ],
+      "resposta": 2,
+      "explicacao": "O próton possui carga positiva e está localizado no núcleo do átomo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual partícula subatômica apresenta massa desprezível em comparação com as demais?",
+      "opcoes": [
+        "Próton",
+        "Nêutron",
+        "Elétron",
+        "Núcleo",
+        "Íon"
+      ],
+      "resposta": 2,
+      "explicacao": "O elétron possui massa aproximadamente 1/1836 da massa do próton."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um átomo possui número atômico 12 e número de massa 24. Quantos nêutrons ele possui?",
+      "opcoes": [
+        "10",
+        "12",
+        "14",
+        "24",
+        "36"
+      ],
+      "resposta": 1,
+      "explicacao": "O número de nêutrons é dado por n = A − Z = 24 − 12 = 12."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando um átomo perde elétrons, ele se transforma em:",
+      "opcoes": [
+        "Ânion",
+        "Cátion",
+        "Nêutron",
+        "Isótopo",
+        "Molécula"
+      ],
+      "resposta": 1,
+      "explicacao": "A perda de elétrons resulta na formação de um cátion, que possui carga positiva."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa descreve corretamente a estrutura do átomo?",
+      "opcoes": [
+        "O núcleo é negativo e a eletrosfera é positiva.",
+        "Prótons e elétrons localizam-se no núcleo.",
+        "O átomo é constituído apenas por prótons e elétrons.",
+        "O núcleo contém prótons e nêutrons, enquanto os elétrons ocupam a eletrosfera.",
+        "Os elétrons possuem carga positiva."
+      ],
+      "resposta": 3,
+      "explicacao": "O núcleo contém prótons e nêutrons, e os elétrons ocupam a eletrosfera."
+    }
+  ]
+}
