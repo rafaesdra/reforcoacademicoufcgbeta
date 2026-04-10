@@ -1,0 +1,99 @@
+{
+  "id": "superficies_no_espaco",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Superfícies no Espaço",
+  "ordem": 64,
+
+  "teoria": {
+    "resumo": "Superfícies no espaço são conjuntos de pontos no R³ que satisfazem uma equação envolvendo x, y e z.",
+
+    "explicacao": "Superfícies no espaço tridimensional são generalizações de curvas do plano para o espaço R³.\n\nElas são descritas por equações que envolvem três variáveis: x, y e z.\n\nExemplos importantes de superfícies:\n\n1) Plano:\nAx + By + Cz + D = 0\nRepresenta uma superfície plana infinita no espaço.\n\n2) Esfera:\n(x - a)² + (y - b)² + (z - c)² = r²\nConjunto de pontos equidistantes de um centro.\n\n3) Paraboloide elíptico:\nz = x² + y²\nSuperfície em forma de “tigela”.\n\n4) Paraboloide hiperbólico:\nz = x² - y²\nSuperfície em forma de sela.\n\n5) Cilindro:\nx² + y² = r²\nRepresenta uma superfície que se estende ao longo de um eixo.\n\nEssas superfícies são fundamentais para modelagem em física, engenharia e computação gráfica.\n\nExemplo:\nz = x² + y²\nEsse gráfico forma uma superfície curva que cresce à medida que x e y aumentam.",
+
+    "intuicao": "Superfícies no espaço são como formas 3D contínuas formadas por todos os pontos que satisfazem uma equação.",
+
+    "analogia": "Imagine moldar argila no espaço: dependendo da forma da equação, você cria uma superfície diferente — plana, curva, em forma de tigela ou sela.",
+
+    "aplicacoes": [
+      "Modelagem de terrenos e superfícies em computação gráfica",
+      "Estudo de campos físicos e superfícies de energia na física"
+    ],
+
+    "erros_comuns": [
+      "Confundir superfícies 3D com curvas 2D no plano",
+      "Errar a interpretação das variáveis x, y e z nas equações"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa um plano no espaço?",
+      "alternativas": [
+        "x² + y² + z² = r²",
+        "Ax + By + Cz + D = 0",
+        "z = x² + y²",
+        "x² - y² = 1"
+      ],
+      "resposta": "Ax + By + Cz + D = 0",
+      "explicacao": "Essa é a forma geral da equação de um plano."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação (x - a)² + (y - b)² + (z - c)² = r² representa:",
+      "alternativas": [
+        "Plano",
+        "Esfera",
+        "Parábola",
+        "Cilindro"
+      ],
+      "resposta": "Esfera",
+      "explicacao": "É a definição de uma esfera no espaço."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A superfície z = x² + y² é chamada de:",
+      "alternativas": [
+        "Paraboloide elíptico",
+        "Paraboloide hiperbólico",
+        "Esfera",
+        "Plano"
+      ],
+      "resposta": "Paraboloide elíptico",
+      "explicacao": "Essa equação descreve uma superfície em forma de tigela."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x² + y² = r² no espaço representa:",
+      "alternativas": [
+        "Cilindro",
+        "Esfera",
+        "Plano",
+        "Cone"
+      ],
+      "resposta": "Cilindro",
+      "explicacao": "Como não há z, a forma se estende ao longo do eixo z, formando um cilindro."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual superfície é representada por z = x² - y²?",
+      "alternativas": [
+        "Paraboloide elíptico",
+        "Paraboloide hiperbólico",
+        "Esfera",
+        "Cilindro"
+      ],
+      "resposta": "Paraboloide hiperbólico",
+      "explicacao": "Essa equação gera uma superfície em forma de sela."
+    }
+  ]
+}
