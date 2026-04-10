@@ -1,0 +1,110 @@
+{
+  "id": "polaridade_ligacoes_moleculas",
+  "disciplina": "Química Geral I",
+  "assunto": "Polaridade das Ligações e das Moléculas",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "Apresenta os conceitos de polaridade das ligações e das moléculas, relacionando-os à eletronegatividade e à geometria molecular.",
+
+    "explicacao": "A polaridade das ligações químicas está relacionada à diferença de eletronegatividade entre os átomos envolvidos. A eletronegatividade é a capacidade de um átomo atrair para si os elétrons de uma ligação química.\n\nQuando dois átomos apresentam eletronegatividades iguais ou muito próximas, os elétrons são compartilhados de maneira uniforme, originando uma ligação covalente apolar. Por outro lado, quando há diferença significativa de eletronegatividade, ocorre uma distribuição desigual dos elétrons, resultando em uma ligação covalente polar.\n\nA polaridade pode ser classificada da seguinte forma:\n\nLigação Covalente Apolar:\n- Ocorre entre átomos com diferença de eletronegatividade próxima de zero.\n- Não há formação de dipolo elétrico.\n- Exemplos: H₂, O₂, N₂ e Cl₂.\n\nLigação Covalente Polar:\n- Ocorre entre átomos com diferença moderada de eletronegatividade.\n- Há formação de polos elétricos positivo (δ⁺) e negativo (δ⁻).\n- Exemplos: H₂O, HCl e NH₃.\n\nLigação Iônica:\n- Ocorre quando a diferença de eletronegatividade é muito elevada, resultando na transferência de elétrons.\n- Exemplo: NaCl.\n\nUma referência comum para a diferença de eletronegatividade (Δχ) é:\n- Δχ ≈ 0: ligação covalente apolar.\n- 0 < Δχ < 1,7: ligação covalente polar.\n- Δχ ≥ 1,7: ligação predominantemente iônica.\n\nMomento Dipolar:\nA polaridade de uma ligação é quantificada pelo momento dipolar (μ), que mede a separação de cargas elétricas em uma molécula. Quanto maior a diferença de eletronegatividade e a distância entre as cargas, maior será o momento dipolar.\n\nPolaridade Molecular:\nA polaridade de uma molécula depende não apenas da polaridade das ligações, mas também de sua geometria molecular. Mesmo que uma molécula possua ligações polares, ela pode ser apolar se os vetores de dipolo se anularem devido à simetria.\n\nExemplos:\n- CO₂: molécula apolar devido à geometria linear e simétrica.\n- H₂O: molécula polar devido à geometria angular.\n- CH₄: molécula apolar devido à geometria tetraédrica simétrica.\n- NH₃: molécula polar devido à geometria piramidal trigonal.\n\nConsequências da Polaridade:\n- Determina a solubilidade das substâncias.\n- Influencia as forças intermoleculares.\n- Afeta os pontos de fusão e ebulição.\n\nRegra geral de solubilidade:\n'Semelhante dissolve semelhante', ou seja, substâncias polares dissolvem substâncias polares, enquanto substâncias apolares dissolvem substâncias apolares.",
+
+    "intuicao": "A polaridade pode ser entendida como uma distribuição desigual de cargas elétricas em uma ligação ou molécula, resultando em regiões parcialmente positivas e negativas.",
+
+    "analogia": "A polaridade molecular pode ser comparada a um cabo de guerra: quando um dos lados puxa com mais força, ocorre um deslocamento em sua direção, representando a atração dos elétrons pelo átomo mais eletronegativo.",
+
+    "aplicacoes": [
+      "Previsão da solubilidade de substâncias.",
+      "Desenvolvimento de medicamentos e solventes.",
+      "Estudo das forças intermoleculares.",
+      "Compreensão de processos biológicos e químicos.",
+      "Produção de materiais industriais e produtos químicos."
+    ],
+
+    "erros_comuns": [
+      "Confundir polaridade da ligação com polaridade da molécula.",
+      "Ignorar a geometria molecular ao determinar a polaridade.",
+      "Acreditar que toda molécula com ligações polares é polar.",
+      "Desconsiderar a diferença de eletronegatividade.",
+      "Confundir ligação covalente polar com ligação iônica."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das moléculas abaixo é apolar?",
+      "opcoes": [
+        "H₂O",
+        "NH₃",
+        "HCl",
+        "CO₂",
+        "SO₂"
+      ],
+      "resposta": 3,
+      "explicacao": "O CO₂ é apolar devido à sua geometria linear e simétrica, que cancela os dipolos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator determina principalmente a polaridade de uma ligação química?",
+      "opcoes": [
+        "Número de prótons",
+        "Número de nêutrons",
+        "Diferença de eletronegatividade",
+        "Número de massa",
+        "Volume atômico"
+      ],
+      "resposta": 2,
+      "explicacao": "A polaridade de uma ligação depende da diferença de eletronegatividade entre os átomos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual molécula é polar?",
+      "opcoes": [
+        "CH₄",
+        "CO₂",
+        "BF₃",
+        "H₂O",
+        "CCl₄"
+      ],
+      "resposta": 3,
+      "explicacao": "A molécula de água é polar devido à sua geometria angular e à diferença de eletronegatividade entre O e H."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual expressão resume corretamente a regra de solubilidade?",
+      "opcoes": [
+        "Metais dissolvem ametais.",
+        "Ácidos dissolvem bases.",
+        "Semelhante dissolve semelhante.",
+        "Substâncias densas não se dissolvem.",
+        "Solventes orgânicos dissolvem qualquer substância."
+      ],
+      "resposta": 2,
+      "explicacao": "Substâncias polares dissolvem substâncias polares, e substâncias apolares dissolvem substâncias apolares."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas apresenta apenas moléculas apolares?",
+      "opcoes": [
+        "H₂O e NH₃",
+        "CO₂ e CH₄",
+        "HCl e HF",
+        "SO₂ e NO₂",
+        "NH₃ e H₂O"
+      ],
+      "resposta": 1,
+      "explicacao": "CO₂ e CH₄ são moléculas apolares devido à sua simetria molecular."
+    }
+  ]
+}
