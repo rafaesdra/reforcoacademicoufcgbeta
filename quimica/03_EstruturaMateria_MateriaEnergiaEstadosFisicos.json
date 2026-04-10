@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Matéria, Energia e Estados Físicos",
   "ordem": 3,
-
   "teoria": {
     "resumo": "Apresenta os conceitos fundamentais de matéria e energia, suas propriedades e os estados físicos, incluindo suas transformações e características principais.",
-
     "explicacao": "A Química estuda a matéria e as transformações que ela sofre, bem como a energia envolvida nesses processos. A compreensão desses conceitos é essencial para o entendimento dos fenômenos naturais e tecnológicos.\n\nMatéria é tudo aquilo que possui massa e ocupa lugar no espaço. Ela pode ser observada em diferentes formas e apresenta propriedades específicas que permitem sua identificação.\n\nAs propriedades da matéria podem ser classificadas em:\n\nPropriedades gerais:\n- Massa\n- Volume\n- Inércia\n- Impenetrabilidade\n- Divisibilidade\n- Compressibilidade\n- Elasticidade\n\nPropriedades específicas:\n- Físicas: densidade, ponto de fusão, ponto de ebulição e solubilidade.\n- Químicas: capacidade de sofrer reações, como combustão e oxidação.\n\nEnergia é a capacidade de realizar trabalho ou provocar transformações. Nos processos químicos, a energia pode ser absorvida ou liberada. As principais formas de energia incluem:\n- Energia térmica\n- Energia química\n- Energia elétrica\n- Energia luminosa\n- Energia cinética\n- Energia potencial\n\nA matéria apresenta-se em diferentes estados físicos, que dependem da organização e da energia das partículas.\n\nEstado sólido:\n- Possui forma e volume definidos.\n- Apresenta partículas fortemente organizadas.\n- Baixa compressibilidade.\n\nEstado líquido:\n- Possui volume definido e forma variável.\n- As partículas apresentam mobilidade intermediária.\n\nEstado gasoso:\n- Não possui forma nem volume definidos.\n- Alta compressibilidade e grande expansibilidade.\n- As partículas encontram-se em movimento desordenado.\n\nAlém desses, existem estados especiais da matéria, como:\n- Plasma: gás ionizado presente em estrelas e lâmpadas fluorescentes.\n- Condensado de Bose-Einstein: observado em temperaturas próximas do zero absoluto.\n\nAs mudanças de estado físico são chamadas de transformações físicas, pois não alteram a composição química da substância. As principais são:\n- Fusão: sólido para líquido.\n- Solidificação: líquido para sólido.\n- Vaporização: líquido para gasoso (evaporação, ebulição e calefação).\n- Condensação ou liquefação: gasoso para líquido.\n- Sublimação: sólido para gasoso.\n- Ressublimação ou deposição: gasoso para sólido.\n\nDurante as mudanças de estado, a temperatura permanece constante enquanto ocorre a absorção ou liberação de calor, caracterizando o calor latente.",
-
     "intuicao": "A matéria pode ser entendida como os 'blocos de construção' do universo, enquanto a energia é o que permite que esses blocos se movimentem e se transformem.",
-
     "analogia": "Os estados físicos da matéria podem ser comparados ao comportamento de pessoas em diferentes situações: em um sólido, elas permanecem organizadas como em uma fila; em um líquido, movem-se com certa liberdade; e em um gás, espalham-se livremente por todo o ambiente.",
-
     "aplicacoes": [
       "Produção e armazenamento de combustíveis.",
       "Mudanças de estado utilizadas em sistemas de refrigeração e ar-condicionado.",
@@ -20,7 +15,6 @@
       "Fabricação de materiais industriais e tecnológicos.",
       "Liquefação de gases para uso medicinal e industrial."
     ],
-
     "erros_comuns": [
       "Acreditar que gases não possuem massa.",
       "Confundir vapor com gás.",
@@ -29,82 +23,81 @@
       "Confundir propriedades físicas com propriedades químicas."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual das alternativas define corretamente a matéria?",
-      "opcoes": [
+      "resposta": "Tudo aquilo que possui massa e ocupa lugar no espaço.",
+      "explicacao": "Matéria é tudo que possui massa e ocupa lugar no espaço.",
+      "alternativas": [
         "Tudo aquilo que possui energia.",
         "Tudo aquilo que possui massa e ocupa lugar no espaço.",
         "Tudo aquilo que pode ser visto a olho nu.",
         "Tudo aquilo que apresenta movimento.",
         "Tudo aquilo que emite luz."
-      ],
-      "resposta": 1,
-      "explicacao": "Matéria é tudo que possui massa e ocupa lugar no espaço."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual estado físico da matéria possui forma e volume definidos?",
-      "opcoes": [
+      "resposta": "Sólido",
+      "explicacao": "Os sólidos apresentam forma e volume definidos devido à forte interação entre suas partículas.",
+      "alternativas": [
         "Gasoso",
         "Líquido",
         "Plasma",
         "Sólido",
         "Vapor"
-      ],
-      "resposta": 3,
-      "explicacao": "Os sólidos apresentam forma e volume definidos devido à forte interação entre suas partículas."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual das alternativas representa uma transformação física?",
-      "opcoes": [
+      "resposta": "Fusão do gelo",
+      "explicacao": "A fusão do gelo é uma mudança de estado físico que não altera a composição química da substância.",
+      "alternativas": [
         "Combustão da madeira",
         "Oxidação do ferro",
         "Digestão dos alimentos",
         "Fusão do gelo",
         "Fermentação do açúcar"
-      ],
-      "resposta": 3,
-      "explicacao": "A fusão do gelo é uma mudança de estado físico que não altera a composição química da substância."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual alternativa apresenta corretamente uma forma de energia?",
-      "opcoes": [
+      "resposta": "Energia térmica",
+      "explicacao": "Energia térmica é uma forma de energia associada à agitação das partículas.",
+      "alternativas": [
         "Volume",
         "Massa",
         "Energia térmica",
         "Densidade",
         "Pressão"
-      ],
-      "resposta": 2,
-      "explicacao": "Energia térmica é uma forma de energia associada à agitação das partículas."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "O processo de passagem direta do estado sólido para o gasoso é denominado:",
-      "opcoes": [
+      "resposta": "Sublimação",
+      "explicacao": "A sublimação ocorre quando uma substância passa diretamente do estado sólido para o gasoso.",
+      "alternativas": [
         "Fusão",
         "Vaporização",
         "Condensação",
         "Sublimação",
         "Solidificação"
-      ],
-      "resposta": 3,
-      "explicacao": "A sublimação ocorre quando uma substância passa diretamente do estado sólido para o gasoso."
+      ]
     }
   ]
 }
