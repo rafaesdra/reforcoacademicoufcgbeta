@@ -1,0 +1,110 @@
+{
+  "id": "forcas_intermoleculares",
+  "disciplina": "Química Geral I",
+  "assunto": "Forças Intermoleculares",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "Apresenta os principais tipos de forças intermoleculares e sua influência nas propriedades físicas das substâncias.",
+
+    "explicacao": "As forças intermoleculares são interações de atração que ocorrem entre moléculas. Embora sejam mais fracas que as ligações químicas, desempenham um papel fundamental na determinação das propriedades físicas das substâncias, como pontos de fusão e ebulição, solubilidade, viscosidade e tensão superficial.\n\nEssas forças surgem devido à interação entre dipolos elétricos permanentes ou temporários e podem ser classificadas em três tipos principais:\n\nForças de Dispersão de London:\nTambém conhecidas como dipolo induzido–dipolo induzido, estão presentes em todas as moléculas, sendo as únicas forças intermoleculares em substâncias apolares. Resultam da movimentação dos elétrons, que gera dipolos instantâneos.\n\nCaracterísticas:\n- Presentes em todas as substâncias.\n- Predominantes em moléculas apolares.\n- Aumentam com a massa molar e a polarizabilidade.\n\nExemplos: CH₄, CO₂, O₂ e gases nobres.\n\nForças Dipolo–Dipolo:\nOcorrem entre moléculas polares, nas quais há uma distribuição desigual de cargas elétricas.\n\nCaracterísticas:\n- Mais fortes que as forças de London.\n- Dependem da polaridade da molécula.\n\nExemplos: HCl, SO₂ e CH₃Cl.\n\nLigações de Hidrogênio:\nSão interações intermoleculares particularmente fortes, que ocorrem quando o hidrogênio está ligado diretamente a átomos altamente eletronegativos: flúor (F), oxigênio (O) ou nitrogênio (N).\n\nCaracterísticas:\n- Mais intensas entre as forças intermoleculares.\n- Responsáveis por propriedades especiais da água.\n\nExemplos: H₂O, NH₃ e HF.\n\nResumo das forças intermoleculares em ordem crescente de intensidade:\n- Forças de Dispersão de London\n- Interações Dipolo–Dipolo\n- Ligações de Hidrogênio\n\nInfluência nas propriedades físicas:\n- Quanto mais intensas as forças intermoleculares, maiores os pontos de fusão e ebulição.\n- Substâncias com ligações de hidrogênio apresentam maior viscosidade e tensão superficial.\n- A solubilidade segue o princípio: 'semelhante dissolve semelhante'.\n\nComparação com ligações químicas:\n- Ligações químicas: ocorrem dentro das moléculas (intramoleculares).\n- Forças intermoleculares: ocorrem entre moléculas.\n\nEssas interações são essenciais para compreender fenômenos naturais e aplicações tecnológicas, como a evaporação, a capilaridade e a formação de soluções.",
+
+    "intuicao": "As forças intermoleculares funcionam como uma atração sutil entre moléculas, mantendo-as próximas umas das outras, mesmo sem formar ligações químicas.",
+
+    "analogia": "Podem ser comparadas a ímãs fracos que mantêm folhas de papel juntas: a atração existe, mas é mais fraca do que uma ligação permanente.",
+
+    "aplicacoes": [
+      "Determinação dos pontos de fusão e ebulição das substâncias.",
+      "Explicação da tensão superficial da água.",
+      "Desenvolvimento de fármacos e materiais poliméricos.",
+      "Processos de evaporação e condensação.",
+      "Estudo da solubilidade em sistemas químicos e biológicos."
+    ],
+
+    "erros_comuns": [
+      "Confundir forças intermoleculares com ligações químicas.",
+      "Acreditar que substâncias apolares não apresentam interações intermoleculares.",
+      "Considerar a ligação de hidrogênio uma ligação química covalente.",
+      "Ignorar a influência da massa molar nas forças de London.",
+      "Supor que todas as forças intermoleculares possuem a mesma intensidade."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a força intermolecular predominante nas moléculas apolares?",
+      "opcoes": [
+        "Ligação de hidrogênio",
+        "Interação íon-dipolo",
+        "Força dipolo–dipolo",
+        "Força de dispersão de London",
+        "Ligação covalente"
+      ],
+      "resposta": 3,
+      "explicacao": "As forças de dispersão de London predominam em moléculas apolares."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias apresenta ligação de hidrogênio?",
+      "opcoes": [
+        "CH₄",
+        "CO₂",
+        "H₂O",
+        "O₂",
+        "N₂"
+      ],
+      "resposta": 2,
+      "explicacao": "A água apresenta ligações de hidrogênio devido à ligação entre hidrogênio e oxigênio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas apresenta as forças intermoleculares em ordem crescente de intensidade?",
+      "opcoes": [
+        "Dipolo–dipolo < London < Ligação de hidrogênio",
+        "London < Dipolo–dipolo < Ligação de hidrogênio",
+        "Ligação de hidrogênio < Dipolo–dipolo < London",
+        "London < Ligação iônica < Covalente",
+        "Dipolo–dipolo < Ligação de hidrogênio < London"
+      ],
+      "resposta": 1,
+      "explicacao": "A intensidade crescente é: forças de London, dipolo–dipolo e ligações de hidrogênio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade é diretamente influenciada pelas forças intermoleculares?",
+      "opcoes": [
+        "Número atômico",
+        "Ponto de ebulição",
+        "Carga nuclear",
+        "Número de prótons",
+        "Estrutura do núcleo"
+      ],
+      "resposta": 1,
+      "explicacao": "As forças intermoleculares influenciam diretamente os pontos de fusão e ebulição."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias apresenta predominantemente forças de dispersão de London?",
+      "opcoes": [
+        "NH₃",
+        "HCl",
+        "H₂O",
+        "CO₂",
+        "HF"
+      ],
+      "resposta": 3,
+      "explicacao": "O CO₂ é uma molécula apolar e apresenta forças de dispersão de London."
+    }
+  ]
+}
