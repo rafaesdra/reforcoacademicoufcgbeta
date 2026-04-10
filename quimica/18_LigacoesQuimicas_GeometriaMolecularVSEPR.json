@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Geometria Molecular e Teoria VSEPR",
   "ordem": 18,
-
   "teoria": {
     "resumo": "Apresenta a geometria molecular das substâncias e a Teoria da Repulsão dos Pares Eletrônicos da Camada de Valência (VSEPR), utilizada para prever a forma das moléculas.",
-
     "explicacao": "A geometria molecular descreve a disposição tridimensional dos átomos em uma molécula. Essa organização influencia propriedades como polaridade, reatividade e interações intermoleculares.\n\nA principal teoria utilizada para prever a geometria molecular é a Teoria da Repulsão dos Pares Eletrônicos da Camada de Valência, conhecida como VSEPR (Valence Shell Electron Pair Repulsion). Segundo essa teoria, os pares de elétrons ao redor do átomo central se repelem e se organizam de modo a minimizar essa repulsão, resultando em uma estrutura mais estável.\n\nOs pares eletrônicos podem ser:\n- Ligantes: envolvidos na formação de ligações químicas.\n- Não ligantes (livres): pertencentes apenas ao átomo central.\n\nA presença de pares não ligantes altera os ângulos de ligação, pois exercem maior repulsão que os pares ligantes.\n\nGeometrias moleculares mais comuns:\n\nGeometria Linear:\n- Número de pares eletrônicos: 2\n- Ângulo de ligação: 180°\n- Exemplo: CO₂.\n\nGeometria Trigonal Plana:\n- Número de pares eletrônicos: 3\n- Ângulo de ligação: 120°\n- Exemplo: BF₃.\n\nGeometria Angular:\n- Derivada da trigonal plana ou tetraédrica devido à presença de pares livres.\n- Exemplos: SO₂ e H₂O.\n\nGeometria Tetraédrica:\n- Número de pares eletrônicos: 4\n- Ângulo de ligação: 109,5°\n- Exemplo: CH₄.\n\nGeometria Piramidal Trigonal:\n- Possui um par de elétrons não ligante.\n- Exemplo: NH₃.\n\nGeometria Bipiramidal Trigonal:\n- Número de pares eletrônicos: 5\n- Ângulos de ligação: 90° e 120°.\n- Exemplo: PCl₅.\n\nGeometria Octaédrica:\n- Número de pares eletrônicos: 6\n- Ângulo de ligação: 90°.\n- Exemplo: SF₆.\n\nResumo das principais geometrias:\n- AX₂: Linear\n- AX₃: Trigonal plana\n- AX₂E: Angular\n- AX₄: Tetraédrica\n- AX₃E: Piramidal trigonal\n- AX₂E₂: Angular\n- AX₅: Bipiramidal trigonal\n- AX₆: Octaédrica\n\nA notação AXE é utilizada para representar as moléculas, onde:\n- A representa o átomo central;\n- X representa os átomos ligados;\n- E representa os pares de elétrons não ligantes.\n\nO estudo da geometria molecular é essencial para compreender a polaridade das moléculas, as forças intermoleculares e os mecanismos de reação.",
-
     "intuicao": "Os pares de elétrons se organizam como pessoas em um espaço limitado, afastando-se ao máximo para evitar repulsões.",
-
     "analogia": "A geometria molecular pode ser comparada à disposição de balões inflados amarrados a um ponto central. Eles se afastam entre si para ocupar o maior espaço possível.",
-
     "aplicacoes": [
       "Previsão da polaridade molecular.",
       "Estudo das ligações químicas e reatividade.",
@@ -20,7 +15,6 @@
       "Compreensão das propriedades físicas das substâncias.",
       "Modelagem molecular e nanotecnologia."
     ],
-
     "erros_comuns": [
       "Confundir geometria eletrônica com geometria molecular.",
       "Ignorar a influência dos pares de elétrons não ligantes.",
@@ -29,82 +23,81 @@
       "Acreditar que todas as moléculas tetraédricas possuem ângulo exatamente igual a 109,5°."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a geometria molecular do dióxido de carbono (CO₂)?",
-      "opcoes": [
+      "resposta": "Linear",
+      "explicacao": "O CO₂ apresenta dois pares ligantes e nenhum par livre no átomo central, resultando em geometria linear.",
+      "alternativas": [
         "Angular",
         "Trigonal plana",
         "Linear",
         "Tetraédrica",
         "Octaédrica"
-      ],
-      "resposta": 2,
-      "explicacao": "O CO₂ apresenta dois pares ligantes e nenhum par livre no átomo central, resultando em geometria linear."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a geometria molecular do metano (CH₄)?",
-      "opcoes": [
+      "resposta": "Tetraédrica",
+      "explicacao": "O metano possui quatro pares ligantes e nenhum par livre, apresentando geometria tetraédrica.",
+      "alternativas": [
         "Trigonal plana",
         "Angular",
         "Piramidal trigonal",
         "Tetraédrica",
         "Linear"
-      ],
-      "resposta": 3,
-      "explicacao": "O metano possui quatro pares ligantes e nenhum par livre, apresentando geometria tetraédrica."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual molécula apresenta geometria piramidal trigonal?",
-      "opcoes": [
+      "resposta": "NH₃",
+      "explicacao": "A amônia possui três ligações e um par de elétrons não ligante, resultando em geometria piramidal trigonal.",
+      "alternativas": [
         "NH₃",
         "BF₃",
         "CO₂",
         "CH₄",
         "SF₆"
-      ],
-      "resposta": 0,
-      "explicacao": "A amônia possui três ligações e um par de elétrons não ligante, resultando em geometria piramidal trigonal."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a geometria molecular do hexafluoreto de enxofre (SF₆)?",
-      "opcoes": [
+      "resposta": "Octaédrica",
+      "explicacao": "O SF₆ possui seis pares ligantes ao redor do átomo central, apresentando geometria octaédrica.",
+      "alternativas": [
         "Tetraédrica",
         "Octaédrica",
         "Linear",
         "Bipiramidal trigonal",
         "Angular"
-      ],
-      "resposta": 1,
-      "explicacao": "O SF₆ possui seis pares ligantes ao redor do átomo central, apresentando geometria octaédrica."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual teoria é utilizada para prever a geometria molecular?",
-      "opcoes": [
+      "resposta": "Teoria VSEPR",
+      "explicacao": "A Teoria VSEPR prevê a geometria molecular com base na repulsão entre os pares eletrônicos da camada de valência.",
+      "alternativas": [
         "Teoria do Octeto",
         "Teoria de Bohr",
         "Teoria VSEPR",
         "Teoria de Dalton",
         "Teoria da Relatividade"
-      ],
-      "resposta": 2,
-      "explicacao": "A Teoria VSEPR prevê a geometria molecular com base na repulsão entre os pares eletrônicos da camada de valência."
+      ]
     }
   ]
 }
