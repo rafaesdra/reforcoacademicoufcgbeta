@@ -27,6 +27,10 @@
     {
       "nome": "Física 2",
       "path": "fisica2/index.json"
+    },
+    {
+      "nome": "Química Geral 1",
+      "path": "quimica/index.json"
     }
   ]
 }
