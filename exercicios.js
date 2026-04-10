@@ -95,6 +95,7 @@ progressoTopico.total = 5;
  if (!Array.isArray(usuarioAtivo.questoesRespondidas)) {
   usuarioAtivo.questoesRespondidas = Object.keys(usuarioAtivo.questoesRespondidas || {});
 }
+  if(usuarioAtivo.questoesRespondidas.includes(questionKey)){
     feedback.innerText = "Você já respondeu esta questão antes. Nenhuma pontuação adicional será registrada.";
     feedback.style.color = "orange";
     document.getElementById("btnConfirmar").disabled = true;
@@ -162,10 +163,9 @@ progressoTopico.erros += 1;
 
 
   atualizarXPStreak();
-await atualizarPosicaoUsuario();
-
-atualizarProgresso();
-carregarDisciplina(disciplinaAtual);
+  await atualizarPosicaoUsuario();
+  atualizarProgresso();
+  carregarDisciplina(disciplinaAtual);
 }
 
 function proximaQuestao(){
