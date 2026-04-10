@@ -1,0 +1,110 @@
+{
+  "id": "ligacao_covalente_estruturas_lewis",
+  "disciplina": "Química Geral I",
+  "assunto": "Ligação Covalente e Estruturas de Lewis",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "Estuda a ligação covalente, caracterizada pelo compartilhamento de elétrons entre átomos, e a representação das moléculas por meio das estruturas de Lewis.",
+
+    "explicacao": "A ligação covalente ocorre quando dois átomos compartilham pares de elétrons com o objetivo de atingir a estabilidade eletrônica, geralmente obedecendo à regra do octeto. Esse tipo de ligação é comum entre ametais e resulta na formação de moléculas.\n\nDiferentemente da ligação iônica, na qual há transferência de elétrons, na ligação covalente ocorre o compartilhamento de pares eletrônicos entre os átomos envolvidos.\n\nExemplos de formação de ligações covalentes:\n\n- Molécula de hidrogênio (H₂):\nCada átomo de hidrogênio compartilha um elétron, formando uma ligação simples.\n\n- Molécula de oxigênio (O₂):\nOs átomos compartilham dois pares de elétrons, formando uma ligação dupla.\n\n- Molécula de nitrogênio (N₂):\nOs átomos compartilham três pares de elétrons, formando uma ligação tripla.\n\nTipos de ligações covalentes:\n- Ligação simples: compartilhamento de um par de elétrons.\n- Ligação dupla: compartilhamento de dois pares de elétrons.\n- Ligação tripla: compartilhamento de três pares de elétrons.\n\nAs estruturas de Lewis são representações que utilizam pontos para indicar os elétrons da camada de valência e traços para representar pares de elétrons compartilhados.\n\nEtapas para construir estruturas de Lewis:\n1. Determinar o número total de elétrons de valência.\n2. Identificar o átomo central (geralmente o menos eletronegativo).\n3. Distribuir os elétrons para formar ligações simples.\n4. Completar os octetos dos átomos periféricos.\n5. Ajustar ligações múltiplas, se necessário.\n\nExemplos de estruturas de Lewis:\n- H₂O (água): duas ligações simples e dois pares de elétrons não ligantes no oxigênio.\n- CO₂ (dióxido de carbono): duas ligações duplas.\n- NH₃ (amônia): três ligações simples e um par de elétrons livres.\n- CH₄ (metano): quatro ligações simples.\n\nExceções à regra do octeto:\n- Octeto incompleto: BeCl₂ e BF₃.\n- Número ímpar de elétrons: NO e NO₂.\n- Octeto expandido: PCl₅ e SF₆.\n\nA ligação covalente pode ser classificada em:\n- Covalente apolar: ocorre entre átomos com eletronegatividades semelhantes.\n- Covalente polar: ocorre entre átomos com diferença moderada de eletronegatividade.\n\nEsses conceitos são fundamentais para a compreensão da geometria molecular, polaridade e reatividade das substâncias.",
+
+    "intuicao": "Na ligação covalente, os átomos compartilham elétrons para alcançar estabilidade, semelhante a uma parceria em que ambos se beneficiam.",
+
+    "analogia": "A ligação covalente pode ser comparada a duas pessoas dividindo um par de fones de ouvido: ambas compartilham o recurso para atingir um objetivo comum.",
+
+    "aplicacoes": [
+      "Formação de moléculas essenciais à vida, como a água e o DNA.",
+      "Desenvolvimento de fármacos e compostos orgânicos.",
+      "Produção de polímeros e plásticos.",
+      "Fabricação de combustíveis e materiais sintéticos.",
+      "Estudo da estrutura e reatividade das substâncias químicas."
+    ],
+
+    "erros_comuns": [
+      "Confundir ligação covalente com ligação iônica.",
+      "Esquecer de contabilizar todos os elétrons de valência.",
+      "Ignorar pares de elétrons não ligantes nas estruturas de Lewis.",
+      "Aplicar incorretamente a regra do octeto.",
+      "Escolher incorretamente o átomo central."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A ligação covalente ocorre por meio de:",
+      "opcoes": [
+        "Transferência de elétrons",
+        "Compartilhamento de elétrons",
+        "Transferência de prótons",
+        "Compartilhamento de nêutrons",
+        "Perda simultânea de elétrons"
+      ],
+      "resposta": 1,
+      "explicacao": "A ligação covalente ocorre quando dois átomos compartilham pares de elétrons."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias apresenta ligação covalente?",
+      "opcoes": [
+        "NaCl",
+        "KBr",
+        "H₂O",
+        "CaO",
+        "MgCl₂"
+      ],
+      "resposta": 2,
+      "explicacao": "A água é formada por ligações covalentes entre hidrogênio e oxigênio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos pares de elétrons são compartilhados em uma ligação dupla?",
+      "opcoes": [
+        "Um",
+        "Dois",
+        "Três",
+        "Quatro",
+        "Seis"
+      ],
+      "resposta": 1,
+      "explicacao": "Uma ligação dupla envolve o compartilhamento de dois pares de elétrons."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual molécula apresenta uma ligação tripla?",
+      "opcoes": [
+        "O₂",
+        "H₂O",
+        "CO₂",
+        "N₂",
+        "CH₄"
+      ],
+      "resposta": 3,
+      "explicacao": "A molécula de N₂ possui uma ligação tripla entre os átomos de nitrogênio."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma exceção à regra do octeto?",
+      "opcoes": [
+        "CH₄",
+        "NH₃",
+        "H₂O",
+        "CO₂",
+        "BF₃"
+      ],
+      "resposta": 4,
+      "explicacao": "No BF₃, o boro apresenta apenas seis elétrons em sua camada de valência, configurando uma exceção ao octeto."
+    }
+  ]
+}
