@@ -92,7 +92,9 @@ progressoTopico.total = 5;
   if(!usuarioAtivo.erros) usuarioAtivo.erros = 0;
   if(!usuarioAtivo.questoesRespondidas) usuarioAtivo.questoesRespondidas = [];
 
-  if(usuarioAtivo.questoesRespondidas.includes(questionKey)){
+ if (!Array.isArray(usuarioAtivo.questoesRespondidas)) {
+  usuarioAtivo.questoesRespondidas = Object.keys(usuarioAtivo.questoesRespondidas || {});
+}
     feedback.innerText = "Você já respondeu esta questão antes. Nenhuma pontuação adicional será registrada.";
     feedback.style.color = "orange";
     document.getElementById("btnConfirmar").disabled = true;
