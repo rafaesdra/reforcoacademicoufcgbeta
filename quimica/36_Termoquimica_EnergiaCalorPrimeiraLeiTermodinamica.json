@@ -1,0 +1,106 @@
+{
+  "id": "energia_calor_primeira_lei_termodinamica",
+  "disciplina": "Química Geral I",
+  "assunto": "Termoquímica — Energia, Calor e a Primeira Lei da Termodinâmica",
+  "ordem": 36,
+
+  "teoria": {
+    "resumo": "A Termoquímica estuda as trocas de energia nas reações químicas, destacando os conceitos de calor, trabalho e a Primeira Lei da Termodinâmica.",
+
+    "explicacao": "A Termoquímica é o ramo da Química que estuda as transformações de energia associadas às reações químicas e aos processos físicos. Essas transformações envolvem principalmente calor e trabalho, sendo regidas pela Primeira Lei da Termodinâmica.\n\n---\n\nCONCEITO DE ENERGIA:\n\nEnergia é a capacidade de realizar trabalho ou transferir calor. Nos sistemas químicos, ela pode se manifestar de diversas formas.\n\nTipos de energia:\n\n✔ Energia cinética: associada ao movimento das partículas.\n✔ Energia potencial: associada às interações e posições das partículas.\n✔ Energia térmica: relacionada à agitação molecular.\n✔ Energia química: armazenada nas ligações químicas.\n\n---\n\nSISTEMA E VIZINHANÇA:\n\n✔ Sistema: parte do universo em estudo.\n✔ Vizinhança: tudo aquilo que envolve o sistema.\n\nTipos de sistemas:\n\n✔ Sistema aberto: troca matéria e energia com a vizinhança.\n✔ Sistema fechado: troca apenas energia.\n✔ Sistema isolado: não troca matéria nem energia.\n\n---\n\nCALOR (q):\n\nCalor é a transferência de energia térmica entre corpos devido à diferença de temperatura.\n\n✔ Unidade no SI: joule (J)\n✔ 1 cal = 4,184 J\n\n---\n\nTRABALHO (w):\n\nO trabalho ocorre quando uma força provoca deslocamento. Em sistemas gasosos, está associado à expansão ou compressão.\n\nw = -PΔV\n\nOnde:\n✔ P = pressão externa\n✔ ΔV = variação de volume\n\n---\n\nENERGIA INTERNA (U):\n\nA energia interna é a soma de todas as formas de energia presentes em um sistema.\n\nSua variação é representada por ΔU.\n\n---\n\nPRIMEIRA LEI DA TERMODINÂMICA:\n\nA energia não pode ser criada nem destruída, apenas transformada.\n\nΔU = q + w\n\nOnde:\n✔ ΔU = variação da energia interna\n✔ q = calor trocado\n✔ w = trabalho realizado\n\n---\n\nINTERPRETAÇÃO DOS SINAIS:\n\n✔ q > 0: sistema absorve calor (processo endotérmico).\n✔ q < 0: sistema libera calor (processo exotérmico).\n✔ w > 0: trabalho realizado sobre o sistema.\n✔ w < 0: trabalho realizado pelo sistema.\n\n---\n\nPROCESSOS TERMODINÂMICOS:\n\n✔ Processo endotérmico: absorve calor.\n✔ Processo exotérmico: libera calor.\n✔ Processo isotérmico: ocorre a temperatura constante.\n✔ Processo isobárico: ocorre a pressão constante.\n✔ Processo isocórico: ocorre a volume constante.\n✔ Processo adiabático: não há troca de calor.\n\n---\n\nEXEMPLO 1:\n\nUm sistema absorve 500 J de calor e realiza 200 J de trabalho.\n\nΔU = q + w\nΔU = 500 + (-200)\nΔU = 300 J\n\n---\n\nEXEMPLO 2:\n\nUm sistema libera 250 J de calor e recebe 100 J de trabalho.\n\nΔU = -250 + 100 = -150 J\n\n---\n\nCAPACIDADE CALORÍFICA E CALOR ESPECÍFICO:\n\nQ = mcΔT\n\nOnde:\n✔ Q = quantidade de calor\n✔ m = massa\n✔ c = calor específico\n✔ ΔT = variação de temperatura\n\n---\n\nAPLICAÇÕES:\n\n✔ Motores térmicos\n✔ Reações químicas industriais\n✔ Calorimetria\n✔ Produção de energia\n✔ Sistemas de refrigeração\n✔ Processos metalúrgicos\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar o sistema e a vizinhança.\n2) Determinar as trocas de calor e trabalho.\n3) Aplicar a Primeira Lei da Termodinâmica.\n4) Utilizar corretamente as unidades.\n5) Interpretar o resultado obtido.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Utilize sempre as unidades do Sistema Internacional.\n✔ Atente para os sinais de calor e trabalho.\n✔ Diferencie processos endotérmicos e exotérmicos.\n✔ Identifique corretamente o tipo de sistema.\n✔ Organize os cálculos cuidadosamente.\n\n---\n\nIDEIA CENTRAL:\n\nA Primeira Lei da Termodinâmica estabelece que a energia total do universo é conservada, sendo apenas transformada durante processos físicos e químicos.",
+
+    "intuicao": "A energia em uma reação química não desaparece, mas é transformada em calor, trabalho ou outras formas de energia.",
+
+    "analogia": "Assim como o dinheiro em uma conta bancária pode ser transferido ou convertido, mas nunca criado do nada, a energia apenas se transforma e se conserva.",
+
+    "aplicacoes": [
+      "Estudo de reações químicas",
+      "Motores e turbinas",
+      "Calorimetria",
+      "Indústria química e petroquímica",
+      "Produção e armazenamento de energia",
+      "Sistemas de refrigeração"
+    ],
+
+    "erros_comuns": [
+      "Confundir calor com temperatura",
+      "Ignorar a convenção de sinais de q e w",
+      "Acreditar que a energia pode ser criada ou destruída",
+      "Esquecer de converter unidades",
+      "Aplicar incorretamente a Primeira Lei da Termodinâmica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Primeira Lei da Termodinâmica afirma que:",
+      "alternativas": [
+        "A energia pode ser criada e destruída",
+        "A energia é sempre constante em qualquer sistema isolado",
+        "A energia não pode ser criada nem destruída, apenas transformada",
+        "O calor flui do corpo frio para o quente"
+      ],
+      "resposta": "A energia não pode ser criada nem destruída, apenas transformada",
+      "explicacao": "Esse é o princípio da conservação da energia."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade de calor no Sistema Internacional?",
+      "alternativas": [
+        "Caloria",
+        "Joule",
+        "Watt",
+        "Atmosfera"
+      ],
+      "resposta": "Joule",
+      "explicacao": "No SI, o calor é medido em joules (J)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um sistema absorve 200 J de calor e realiza 50 J de trabalho, qual é a variação da energia interna?",
+      "alternativas": [
+        "150 J",
+        "200 J",
+        "250 J",
+        "-150 J"
+      ],
+      "resposta": "150 J",
+      "explicacao": "ΔU = q + w = 200 + (-50) = 150 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa a Primeira Lei da Termodinâmica?",
+      "alternativas": [
+        "PV = nRT",
+        "Q = mcΔT",
+        "ΔU = q + w",
+        "E = mc²"
+      ],
+      "resposta": "ΔU = q + w",
+      "explicacao": "Essa equação expressa a conservação da energia."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um sistema libera 300 J de calor e sofre compressão recebendo 120 J de trabalho. Qual é a variação da energia interna?",
+      "alternativas": [
+        "-420 J",
+        "-180 J",
+        "180 J",
+        "420 J"
+      ],
+      "resposta": "-180 J",
+      "explicacao": "ΔU = q + w = (-300) + 120 = -180 J."
+    }
+  ]
+}
