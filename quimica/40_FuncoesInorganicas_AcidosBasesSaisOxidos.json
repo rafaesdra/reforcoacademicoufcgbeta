@@ -1,0 +1,105 @@
+{
+  "id": "funcoes_inorganicas_acidos_bases_sais_oxidos",
+  "disciplina": "Química Geral I",
+  "assunto": "Funções Inorgânicas — Ácidos, Bases, Sais e Óxidos",
+  "ordem": 40,
+
+  "teoria": {
+    "resumo": "As funções inorgânicas classificam os compostos em ácidos, bases, sais e óxidos, de acordo com suas propriedades químicas e comportamentos em solução aquosa.",
+
+    "explicacao": "As funções inorgânicas representam uma das formas fundamentais de classificação dos compostos químicos. Elas são divididas em quatro grupos principais: ácidos, bases, sais e óxidos. Essa classificação facilita o estudo das propriedades e reações das substâncias.\n\n---\n\nÁCIDOS:\n\nSegundo Arrhenius, ácidos são substâncias que liberam íons H⁺ em solução aquosa.\n\nExemplos:\n\n✔ HCl — ácido clorídrico\n✔ H₂SO₄ — ácido sulfúrico\n✔ HNO₃ — ácido nítrico\n✔ H₃PO₄ — ácido fosfórico\n\nClassificação dos ácidos:\n\n✔ Quanto à presença de oxigênio:\n- Hidrácidos: não possuem oxigênio (HCl, HBr).\n- Oxiácidos: possuem oxigênio (H₂SO₄, HNO₃).\n\n✔ Quanto à força:\n- Fortes: HCl, HNO₃, H₂SO₄.\n- Fracos: HF, H₂CO₃, H₃PO₄.\n\n✔ Quanto ao número de hidrogênios ionizáveis:\n- Monoácidos: HCl.\n- Diácidos: H₂SO₄.\n- Triácidos: H₃PO₄.\n\n---\n\nBASES:\n\nSegundo Arrhenius, bases são substâncias que liberam íons OH⁻ em solução aquosa.\n\nExemplos:\n\n✔ NaOH — hidróxido de sódio\n✔ KOH — hidróxido de potássio\n✔ Ca(OH)₂ — hidróxido de cálcio\n✔ Al(OH)₃ — hidróxido de alumínio\n\nClassificação das bases:\n\n✔ Quanto à força:\n- Fortes: hidróxidos de metais alcalinos e alcalino-terrosos.\n- Fracas: NH₄OH e hidróxidos pouco solúveis.\n\n✔ Quanto ao número de hidroxilas:\n- Monobases: NaOH.\n- Dibases: Ca(OH)₂.\n- Tribases: Al(OH)₃.\n\n---\n\nSAIS:\n\nSão compostos formados pela reação entre um ácido e uma base, processo denominado neutralização.\n\nReação geral:\n\nÁcido + Base → Sal + Água\n\nExemplo:\n\nHCl + NaOH → NaCl + H₂O\n\nClassificação dos sais:\n\n✔ Sais neutros: NaCl.\n✔ Sais ácidos: NaHSO₄.\n✔ Sais básicos: Mg(OH)Cl.\n✔ Sais duplos e hidratados.\n\n---\n\nÓXIDOS:\n\nSão compostos binários formados pela combinação do oxigênio com outro elemento químico.\n\nClassificação dos óxidos:\n\n✔ Óxidos básicos: reagem com ácidos (CaO).\n✔ Óxidos ácidos (anidridos): reagem com bases (CO₂, SO₃).\n✔ Óxidos anfóteros: reagem com ácidos e bases (Al₂O₃, ZnO).\n✔ Óxidos neutros: não reagem com água, ácidos ou bases (CO, NO).\n✔ Peróxidos e superóxidos: possuem ligações especiais com oxigênio.\n\n---\n\nRELAÇÃO ENTRE AS FUNÇÕES INORGÂNICAS:\n\n✔ Óxido básico + Água → Base\n✔ Óxido ácido + Água → Ácido\n✔ Ácido + Base → Sal + Água\n\nExemplos:\n\nCaO + H₂O → Ca(OH)₂\nSO₃ + H₂O → H₂SO₄\nHCl + NaOH → NaCl + H₂O\n\n---\n\nAPLICAÇÕES:\n\n✔ Produção de fertilizantes\n✔ Indústria farmacêutica\n✔ Tratamento de água\n✔ Produção de materiais de construção\n✔ Indústria alimentícia\n✔ Controle de pH em processos químicos\n\n---\n\nPASSO A PASSO PARA IDENTIFICAÇÃO:\n\n1) Verificar a composição química do composto.\n2) Identificar o íon característico.\n3) Classificar a substância na função correspondente.\n4) Avaliar suas propriedades químicas.\n5) Relacionar com suas aplicações práticas.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Ácidos liberam H⁺ em solução aquosa.\n✔ Bases liberam OH⁻ em solução aquosa.\n✔ Sais resultam de reações de neutralização.\n✔ Óxidos são compostos binários com oxigênio.\n✔ A classificação auxilia na previsão de reações químicas.\n\n---\n\nIDEIA CENTRAL:\n\nAs funções inorgânicas organizam os compostos químicos em categorias fundamentais, permitindo compreender suas propriedades e aplicações."
+,
+    "intuicao": "Cada função inorgânica possui características próprias que determinam seu comportamento químico.",
+
+    "analogia": "Assim como os seres vivos são classificados em reinos e espécies, os compostos químicos são organizados em funções inorgânicas para facilitar seu estudo.",
+
+    "aplicacoes": [
+      "Produção de fertilizantes agrícolas",
+      "Tratamento e purificação da água",
+      "Fabricação de medicamentos e produtos de limpeza",
+      "Indústria de materiais e construção civil",
+      "Controle de acidez e alcalinidade em processos industriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir bases com sais",
+      "Acreditar que todo composto com hidrogênio é ácido",
+      "Confundir óxidos com peróxidos",
+      "Ignorar a classificação dos óxidos",
+      "Não reconhecer reações de neutralização"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias abaixo é um ácido?",
+      "alternativas": [
+        "NaOH",
+        "HCl",
+        "CaO",
+        "NaCl"
+      ],
+      "resposta": "HCl",
+      "explicacao": "O HCl libera íons H⁺ em solução aquosa, caracterizando-se como um ácido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias abaixo é uma base?",
+      "alternativas": [
+        "H₂SO₄",
+        "CO₂",
+        "NaOH",
+        "HNO₃"
+      ],
+      "resposta": "NaOH",
+      "explicacao": "O NaOH libera íons OH⁻ em solução aquosa."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual composto é formado pela neutralização entre um ácido e uma base?",
+      "alternativas": [
+        "Óxido",
+        "Sal",
+        "Base",
+        "Peróxido"
+      ],
+      "resposta": "Sal",
+      "explicacao": "A reação entre ácido e base produz sal e água."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual dos seguintes compostos é um óxido ácido?",
+      "alternativas": [
+        "CaO",
+        "Na₂O",
+        "CO₂",
+        "KOH"
+      ],
+      "resposta": "CO₂",
+      "explicacao": "O CO₂ é um óxido ácido, pois reage com a água formando ácido carbônico."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa apresenta corretamente um óxido anfótero?",
+      "alternativas": [
+        "Na₂O",
+        "CO",
+        "Al₂O₃",
+        "SO₃"
+      ],
+      "resposta": "Al₂O₃",
+      "explicacao": "O Al₂O₃ reage tanto com ácidos quanto com bases, sendo classificado como anfótero."
+    }
+  ]
+}
