@@ -1,0 +1,110 @@
+{
+  "id": "ressonancia_carga_formal_regra_octeto",
+  "disciplina": "Química Geral I",
+  "assunto": "Ressonância, Carga Formal e Regra do Octeto",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "Aborda a regra do octeto, o cálculo da carga formal e o conceito de ressonância, fundamentais para a correta representação das estruturas de Lewis.",
+
+    "explicacao": "A regra do octeto estabelece que os átomos tendem a ganhar, perder ou compartilhar elétrons para atingir oito elétrons na camada de valência, adquirindo uma configuração eletrônica semelhante à dos gases nobres. Essa regra é essencial para compreender a estabilidade das ligações químicas.\n\nEmbora amplamente aplicável, a regra do octeto apresenta exceções importantes:\n\nOcteto incompleto:\nAlguns átomos, como berílio e boro, podem apresentar menos de oito elétrons na camada de valência.\nExemplos: BeCl₂ e BF₃.\n\nNúmero ímpar de elétrons:\nMoléculas como NO e NO₂ não obedecem ao octeto em todos os átomos.\n\nOcteto expandido:\nElementos do terceiro período em diante podem acomodar mais de oito elétrons devido à disponibilidade de orbitais d.\nExemplos: PCl₅ e SF₆.\n\nCarga Formal:\nA carga formal é utilizada para determinar a estrutura de Lewis mais estável de uma molécula. Ela representa a diferença entre o número de elétrons de valência de um átomo isolado e o número de elétrons atribuídos a ele em uma molécula.\n\nA carga formal é calculada pela expressão:\n\nCF = EV − (ENL + 1/2 EL)\n\nonde:\n- CF = carga formal;\n- EV = elétrons de valência do átomo isolado;\n- ENL = elétrons não ligantes;\n- EL = elétrons ligantes.\n\nA estrutura mais estável é aquela que apresenta:\n- Menores valores de carga formal;\n- Soma das cargas igual à carga total da molécula;\n- Cargas negativas nos átomos mais eletronegativos.\n\nRessonância:\nA ressonância ocorre quando uma molécula pode ser representada por duas ou mais estruturas de Lewis válidas que diferem apenas na distribuição dos elétrons. A estrutura real é um híbrido dessas formas, chamado híbrido de ressonância.\n\nExemplos clássicos de ressonância:\n- Íon nitrato (NO₃⁻);\n- Íon carbonato (CO₃²⁻);\n- Íon nitrito (NO₂⁻);\n- Benzeno (C₆H₆);\n- Ozônio (O₃).\n\nA ressonância aumenta a estabilidade da molécula ao promover a deslocalização eletrônica.\n\nEsses conceitos são fundamentais para prever a geometria molecular, a polaridade, a reatividade e a estabilidade das substâncias químicas.",
+
+    "intuicao": "A regra do octeto orienta a estabilidade dos átomos, enquanto a carga formal ajuda a escolher a melhor estrutura de Lewis. A ressonância, por sua vez, indica que os elétrons podem estar distribuídos entre várias estruturas equivalentes.",
+
+    "analogia": "A ressonância pode ser comparada a um híbrido musical: a versão final resulta da combinação de diferentes interpretações. Da mesma forma, a estrutura real de uma molécula é uma média das estruturas de ressonância.",
+
+    "aplicacoes": [
+      "Previsão da estabilidade molecular.",
+      "Estudo da reatividade química e dos mecanismos de reação.",
+      "Determinação da geometria molecular.",
+      "Compreensão das propriedades de compostos orgânicos e inorgânicos.",
+      "Desenvolvimento de fármacos e materiais avançados."
+    ],
+
+    "erros_comuns": [
+      "Acreditar que a regra do octeto é universal e não possui exceções.",
+      "Confundir carga formal com carga real do íon.",
+      "Ignorar a deslocalização eletrônica em estruturas de ressonância.",
+      "Desconsiderar a eletronegatividade ao avaliar estruturas.",
+      "Representar incorretamente moléculas com octeto expandido."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A regra do octeto afirma que os átomos tendem a adquirir:",
+      "opcoes": [
+        "Dois elétrons na camada de valência",
+        "Seis elétrons na camada de valência",
+        "Oito elétrons na camada de valência",
+        "Dez elétrons na camada de valência",
+        "Doze elétrons na camada de valência"
+      ],
+      "resposta": 2,
+      "explicacao": "A regra do octeto estabelece que os átomos buscam estabilidade com oito elétrons na camada de valência."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das substâncias apresenta octeto incompleto?",
+      "opcoes": [
+        "CO₂",
+        "NH₃",
+        "BF₃",
+        "H₂O",
+        "CH₄"
+      ],
+      "resposta": 2,
+      "explicacao": "No BF₃, o boro possui apenas seis elétrons na camada de valência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das espécies apresenta estruturas de ressonância?",
+      "opcoes": [
+        "CH₄",
+        "H₂O",
+        "NH₃",
+        "CO₃²⁻",
+        "HCl"
+      ],
+      "resposta": 3,
+      "explicacao": "O íon carbonato apresenta três estruturas de ressonância equivalentes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a carga formal do oxigênio em H₂O?",
+      "opcoes": [
+        "−2",
+        "−1",
+        "0",
+        "+1",
+        "+2"
+      ],
+      "resposta": 2,
+      "explicacao": "No H₂O, o oxigênio possui carga formal zero, indicando estabilidade na estrutura."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual molécula apresenta octeto expandido?",
+      "opcoes": [
+        "NH₃",
+        "CO₂",
+        "SF₆",
+        "CH₄",
+        "H₂O"
+      ],
+      "resposta": 2,
+      "explicacao": "O enxofre em SF₆ acomoda mais de oito elétrons, caracterizando um octeto expandido."
+    }
+  ]
+}
