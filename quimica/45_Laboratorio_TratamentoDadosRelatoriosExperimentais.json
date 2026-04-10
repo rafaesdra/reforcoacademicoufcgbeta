@@ -1,0 +1,106 @@
+{
+  "id": "tratamento_dados_relatorios_experimentais",
+  "disciplina": "Química Geral I",
+  "assunto": "Laboratório — Tratamento de Dados e Relatórios Experimentais",
+  "ordem": 45,
+
+  "teoria": {
+    "resumo": "O tratamento de dados e a elaboração de relatórios experimentais são etapas essenciais para a análise, interpretação e comunicação dos resultados obtidos em laboratório.",
+
+    "explicacao": "O tratamento de dados experimentais é fundamental para garantir a confiabilidade dos resultados obtidos em atividades laboratoriais. Ele envolve a organização, análise e interpretação das informações coletadas durante os experimentos. Já o relatório experimental é o documento que registra e comunica os resultados de forma clara e científica.\n\n---\n\nIMPORTÂNCIA DO TRATAMENTO DE DADOS:\n\n✔ Garante a precisão e confiabilidade dos resultados.\n✔ Permite a interpretação correta dos experimentos.\n✔ Facilita a comunicação científica.\n✔ Possibilita a reprodução dos procedimentos.\n✔ Contribui para o desenvolvimento do pensamento crítico.\n\n---\n\nTIPOS DE DADOS EXPERIMENTAIS:\n\n✔ Dados qualitativos: descrevem características observáveis.\nExemplo: mudança de cor e formação de precipitado.\n\n✔ Dados quantitativos: expressos numericamente.\nExemplo: massa, volume, temperatura e pressão.\n\n---\n\nALGARISMOS SIGNIFICATIVOS:\n\nSão os dígitos que representam a precisão de uma medida.\n\nRegras básicas:\n\n✔ Todos os dígitos diferentes de zero são significativos.\n✔ Zeros entre algarismos significativos também são.\n✔ Zeros à esquerda não são significativos.\n✔ Zeros à direita são significativos quando há vírgula decimal.\n\nExemplos:\n\n✔ 0,0025 → 2 algarismos significativos.\n✔ 2,50 → 3 algarismos significativos.\n✔ 105 → 3 algarismos significativos.\n\n---\n\nARREDONDAMENTO DE DADOS:\n\n✔ Se o próximo dígito for menor que 5, mantém-se o número.\n✔ Se for maior ou igual a 5, aumenta-se uma unidade.\n\nExemplo:\n\n✔ 2,346 → 2,35\n\n---\n\nNOTAÇÃO CIENTÍFICA:\n\nUtilizada para representar números muito grandes ou pequenos.\n\nExemplos:\n\n✔ 0,00025 = 2,5 × 10⁻⁴\n✔ 25000 = 2,5 × 10⁴\n\n---\n\nERROS EXPERIMENTAIS:\n\nOs erros são inevitáveis em qualquer medição e podem ser classificados em:\n\n✔ Erro sistemático: associado a falhas de calibração ou método.\n✔ Erro aleatório: decorrente de variações imprevisíveis.\n✔ Erro grosseiro: causado por falhas humanas.\n\n---\n\nEXATIDÃO E PRECISÃO:\n\n✔ Exatidão: proximidade do valor real.\n✔ Precisão: reprodutibilidade das medidas.\n\n---\n\nCÁLCULO DO ERRO PERCENTUAL:\n\nErro (%) = |Valor experimental − Valor teórico| / Valor teórico × 100\n\n---\n\nMÉDIA ARITMÉTICA:\n\nA média é utilizada para representar um conjunto de medidas.\n\nMédia = (x₁ + x₂ + x₃ + ... + xₙ) / n\n\n---\n\nDESVIO MÉDIO:\n\nIndica a dispersão dos dados em relação à média.\n\n---\n\nREPRESENTAÇÃO GRÁFICA:\n\n✔ Gráficos de linhas\n✔ Gráficos de barras\n✔ Gráficos de dispersão\n\nEsses recursos facilitam a análise e a interpretação dos resultados.\n\n---\n\nESTRUTURA DE UM RELATÓRIO EXPERIMENTAL:\n\n1) Título\n2) Objetivo\n3) Introdução teórica\n4) Materiais e reagentes\n5) Procedimento experimental\n6) Resultados\n7) Tratamento de dados\n8) Discussão\n9) Conclusão\n10) Referências bibliográficas\n\n---\n\nBOAS PRÁTICAS NA ELABORAÇÃO DO RELATÓRIO:\n\n✔ Utilizar linguagem científica clara e objetiva.\n✔ Registrar os dados com precisão.\n✔ Apresentar cálculos organizados.\n✔ Empregar unidades do Sistema Internacional.\n✔ Incluir tabelas e gráficos quando necessário.\n✔ Citar corretamente as fontes utilizadas.\n\n---\n\nAPLICAÇÕES:\n\n✔ Ensino e pesquisa científica.\n✔ Indústria química e farmacêutica.\n✔ Controle de qualidade.\n✔ Análises laboratoriais.\n✔ Monitoramento ambiental.\n\n---\n\nPASSO A PASSO PARA O TRATAMENTO DE DADOS:\n\n1) Registrar as medidas experimentais.\n2) Organizar os dados em tabelas.\n3) Realizar cálculos e conversões.\n4) Determinar médias e erros.\n5) Construir gráficos.\n6) Interpretar os resultados.\n7) Elaborar o relatório final.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Utilize sempre unidades do Sistema Internacional.\n✔ Revise os cálculos antes da entrega.\n✔ Evite rasuras e inconsistências.\n✔ Mantenha a clareza na apresentação dos dados.\n✔ Compare os resultados com valores teóricos.\n\n---\n\nIDEIA CENTRAL:\n\nO tratamento adequado dos dados experimentais e a elaboração de relatórios científicos garantem a confiabilidade, a reprodutibilidade e a comunicação eficaz dos resultados obtidos em laboratório.",
+
+    "intuicao": "A análise cuidadosa dos dados permite transformar observações experimentais em conhecimento científico confiável.",
+
+    "analogia": "Assim como um contador organiza informações financeiras para interpretar resultados, o químico organiza dados experimentais para compreender fenômenos científicos.",
+
+    "aplicacoes": [
+      "Elaboração de relatórios científicos",
+      "Análises laboratoriais",
+      "Controle de qualidade industrial",
+      "Pesquisa acadêmica",
+      "Desenvolvimento tecnológico"
+    ],
+
+    "erros_comuns": [
+      "Ignorar algarismos significativos",
+      "Não indicar unidades de medida",
+      "Erros de arredondamento",
+      "Interpretação incorreta dos dados",
+      "Ausência de análise crítica dos resultados",
+      "Não comparar valores experimentais com teóricos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a finalidade do tratamento de dados experimentais?",
+      "alternativas": [
+        "Eliminar resultados obtidos",
+        "Organizar e interpretar informações",
+        "Substituir experimentos",
+        "Ignorar erros de medição"
+      ],
+      "resposta": "Organizar e interpretar informações",
+      "explicacao": "O tratamento de dados permite analisar e compreender os resultados experimentais."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual tipo de dado é representado por números?",
+      "alternativas": [
+        "Qualitativo",
+        "Subjetivo",
+        "Quantitativo",
+        "Descritivo"
+      ],
+      "resposta": "Quantitativo",
+      "explicacao": "Dados quantitativos são expressos numericamente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o erro percentual para um valor experimental de 9,5 e um valor teórico de 10,0?",
+      "alternativas": [
+        "2,5%",
+        "5%",
+        "10%",
+        "15%"
+      ],
+      "resposta": "5%",
+      "explicacao": "Erro (%) = |9,5 − 10,0| / 10,0 × 100 = 5%."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual item faz parte da estrutura de um relatório experimental?",
+      "alternativas": [
+        "Resumo literário",
+        "Objetivo",
+        "Propaganda científica",
+        "Hipótese fictícia"
+      ],
+      "resposta": "Objetivo",
+      "explicacao": "O objetivo descreve a finalidade do experimento."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O número 0,00450 possui quantos algarismos significativos?",
+      "alternativas": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "resposta": "3",
+      "explicacao": "Os dígitos significativos são 4, 5 e o zero final, totalizando três algarismos significativos."
+    }
+  ]
+}
