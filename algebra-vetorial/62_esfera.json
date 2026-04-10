@@ -1,0 +1,99 @@
+{
+  "id": "esfera",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Esfera",
+  "ordem": 62,
+
+  "teoria": {
+    "resumo": "Esfera é o conjunto de pontos do espaço que estão a uma mesma distância de um ponto fixo chamado centro.",
+
+    "explicacao": "Na geometria analítica, a esfera é a generalização tridimensional da circunferência.\n\nEla é definida como o conjunto de todos os pontos do espaço que estão a uma distância fixa (raio) de um ponto fixo (centro).\n\nA equação reduzida da esfera é:\n\n(x - a)² + (y - b)² + (z - c)² = r²\n\nOnde:\n- (a, b, c) é o centro da esfera\n- r é o raio\n\nExemplo:\n(x - 1)² + (y - 2)² + (z - 3)² = 16\n\nCentro: (1,2,3)\nRaio: 4\n\nA equação geral da esfera é dada por:\n\nx² + y² + z² + Ax + By + Cz + D = 0\n\nPara encontrar centro e raio a partir da forma geral, usamos o processo de completar quadrados.\n\nExemplo:\nx² + y² + z² - 2x - 4y - 6z + 9 = 0\n\nAgrupando:\n(x² - 2x) + (y² - 4y) + (z² - 6z) = -9\n\nCompletando quadrados:\n(x - 1)² + (y - 2)² + (z - 3)² = 1\n\nCentro: (1,2,3)\nRaio: 1",
+
+    "intuicao": "A esfera é como uma bola perfeita no espaço: todos os pontos da superfície estão igualmente distantes do centro.",
+
+    "analogia": "Imagine um balão sendo inflado: conforme ele cresce, todos os pontos da superfície ficam igualmente distantes do centro, formando uma esfera perfeita.",
+
+    "aplicacoes": [
+      "Modelagem de planetas e corpos celestes na física e astronomia",
+      "Computação gráfica e simulações tridimensionais"
+    ],
+
+    "erros_comuns": [
+      "Confundir esfera (superfície) com bola (região interna)",
+      "Errar o processo de completar quadrados na equação geral"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação (x - 2)² + (y - 1)² + (z - 3)² = 9, qual é o raio?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "9"
+      ],
+      "resposta": "3",
+      "explicacao": "O raio é a raiz de 9, portanto r = 3."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o centro da esfera (x + 1)² + (y - 2)² + (z + 3)² = 16?",
+      "alternativas": [
+        "(-1,2,-3)",
+        "(1,-2,3)",
+        "(-1,-2,-3)",
+        "(1,2,3)"
+      ],
+      "resposta": "(-1,2,-3)",
+      "explicacao": "O centro é obtido invertendo os sinais dentro dos parênteses."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação da esfera de centro (0,0,0) e raio 5?",
+      "alternativas": [
+        "x² + y² + z² = 5",
+        "x² + y² + z² = 10",
+        "x² + y² + z² = 25",
+        "(x - 5)² + y² + z² = 0"
+      ],
+      "resposta": "x² + y² + z² = 25",
+      "explicacao": "A equação é x² + y² + z² = r², então r² = 25."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x² + y² + z² - 4x - 6y - 8z + 9 = 0 tem centro:",
+      "alternativas": [
+        "(2,3,4)",
+        "(-2,-3,-4)",
+        "(4,6,8)",
+        "(1,2,3)"
+      ],
+      "resposta": "(2,3,4)",
+      "explicacao": "Completando quadrados: (x-2)² + (y-3)² + (z-4)² = 4."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o raio da esfera x² + y² + z² + 2x - 4y + 6z - 11 = 0?",
+      "alternativas": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "resposta": "4",
+      "explicacao": "Completando quadrados: (x+1)² + (y-2)² + (z+3)² = 16, então r = 4."
+    }
+  ]
+}
