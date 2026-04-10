@@ -31,7 +31,7 @@
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
-      "pergunta": "Qual e o modulo do vetor v = (3, 4)?",
+      "pergunta": "Qual é o modulo do vetor v = (3, 4)?",
       "alternativas": [
         "5",
         "7",
@@ -45,7 +45,7 @@
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
-      "pergunta": "Qual dos vetores abaixo e um versor?",
+      "pergunta": "Qual dos vetores abaixo é um versor?",
       "alternativas": [
         "(2,0)",
         "(1,1)",
@@ -73,7 +73,7 @@
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
-      "pergunta": "Qual e o versor do vetor v = (3, 0, 4)?",
+      "pergunta": "Qual é o versor do vetor v = (3, 0, 4)?",
       "alternativas": [
         "(3,0,4)",
         "(1,0,1)",
@@ -81,13 +81,13 @@
         "(4/5,0,3/5)"
       ],
       "resposta": "(3/5,0,4/5)",
-      "explicacao": "O modulo e 5, entao o versor e (3/5, 0, 4/5)."
+      "explicacao": "O módulo é 5, então o versor é (3/5, 0, 4/5)."
     },
     {
       "id": "q5",
       "nivel": "dificil",
       "tipo": "multipla_escolha",
-      "pergunta": "Se v = (x, y) e um versor e x = 3/5, qual o valor de y?",
+      "pergunta": "Se v = (x, y) e um versor é x = 3/5, qual o valor de y?",
       "alternativas": [
         "4/5",
         "-4/5",
