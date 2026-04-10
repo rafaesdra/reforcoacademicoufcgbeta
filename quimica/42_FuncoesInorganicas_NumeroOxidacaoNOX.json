@@ -1,0 +1,105 @@
+{
+  "id": "numero_oxidacao_nox",
+  "disciplina": "Química Geral I",
+  "assunto": "Funções Inorgânicas — Número de Oxidação (NOX)",
+  "ordem": 42,
+
+  "teoria": {
+    "resumo": "O Número de Oxidação (NOX) representa a carga elétrica real ou aparente de um átomo em uma substância, sendo essencial para o estudo das reações químicas e da nomenclatura inorgânica.",
+
+    "explicacao": "O Número de Oxidação (NOX) corresponde à carga elétrica que um átomo adquire ao perder ou ganhar elétrons durante uma ligação química. Esse conceito é fundamental para compreender reações de oxirredução, prever comportamentos químicos e nomear compostos inorgânicos.\n\n---\n\nDEFINIÇÃO:\n\nO NOX indica o estado de oxidação de um elemento em uma substância, representando a tendência de perder ou ganhar elétrons.\n\n✔ Perda de elétrons → NOX positivo\n✔ Ganho de elétrons → NOX negativo\n\n---\n\nREGRAS PARA DETERMINAÇÃO DO NOX:\n\n1) Substâncias simples possuem NOX igual a zero.\n\nExemplos:\nH₂, O₂, N₂, Cl₂, Fe, Cu.\n\n---\n\n2) Metais alcalinos (Grupo 1) possuem NOX +1.\n\nExemplos:\nNa⁺, K⁺, Li⁺.\n\n---\n\n3) Metais alcalino-terrosos (Grupo 2) possuem NOX +2.\n\nExemplos:\nMg²⁺, Ca²⁺, Ba²⁺.\n\n---\n\n4) O alumínio apresenta NOX +3 em seus compostos.\n\nExemplo:\nAl₂O₃.\n\n---\n\n5) O hidrogênio possui:\n\n✔ NOX +1 com ametais.\n✔ NOX −1 com metais (hidretos).\n\nExemplos:\nHCl (H = +1)\nNaH (H = −1)\n\n---\n\n6) O oxigênio apresenta:\n\n✔ NOX −2 na maioria dos compostos.\n✔ NOX −1 nos peróxidos.\n✔ NOX −1/2 nos superóxidos.\n✔ NOX positivo em compostos com flúor.\n\nExemplos:\nH₂O (O = −2)\nH₂O₂ (O = −1)\nOF₂ (O = +2)\n\n---\n\n7) O flúor apresenta sempre NOX −1.\n\n---\n\n8) Halogênios (Cl, Br, I) apresentam NOX −1 quando ligados a metais e hidrogênio, podendo assumir valores positivos em compostos com oxigênio.\n\n---\n\n9) A soma dos NOX em uma molécula neutra é igual a zero.\n\nExemplo:\nH₂O → 2(+1) + (−2) = 0\n\n---\n\n10) A soma dos NOX em um íon é igual à sua carga elétrica.\n\nExemplo:\nSO₄²⁻ → S + 4(−2) = −2\nS = +6\n\n---\n\nEXEMPLOS PRÁTICOS:\n\n✔ NaCl:\nNa = +1\nCl = −1\n\n✔ H₂SO₄:\nH = +1\nO = −2\nS = +6\n\n✔ NH₃:\nH = +1\nN = −3\n\n✔ Fe₂O₃:\nO = −2\nFe = +3\n\n✔ KMnO₄:\nK = +1\nO = −2\nMn = +7\n\n---\n\nIMPORTÂNCIA DO NOX:\n\n✔ Identificação de reações de oxirredução\n✔ Balanceamento de equações químicas\n✔ Determinação de agentes oxidantes e redutores\n✔ Nomenclatura de compostos inorgânicos\n✔ Estudos em eletroquímica\n\n---\n\nPASSO A PASSO PARA DETERMINAR O NOX:\n\n1) Identificar os elementos da substância.\n\n2) Aplicar as regras conhecidas.\n\n3) Atribuir valores aos elementos mais previsíveis.\n\n4) Utilizar a soma dos NOX para encontrar o valor desconhecido.\n\n5) Verificar a coerência do resultado.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ O flúor possui sempre NOX −1.\n✔ O oxigênio geralmente apresenta NOX −2.\n✔ O hidrogênio possui NOX +1 com ametais.\n✔ Metais alcalinos possuem NOX +1.\n✔ A soma dos NOX deve respeitar a carga total da espécie química.\n\n---\n\nIDEIA CENTRAL:\n\nO Número de Oxidação permite compreender a distribuição eletrônica nos compostos e é essencial para o estudo das reações químicas e da nomenclatura inorgânica.",
+
+    "intuicao": "O NOX indica a tendência de um átomo perder ou ganhar elétrons ao formar compostos químicos.",
+
+    "analogia": "Assim como um saldo bancário indica crédito ou débito, o NOX revela se um átomo perdeu ou ganhou elétrons.",
+
+    "aplicacoes": [
+      "Balanceamento de reações de oxirredução",
+      "Estudo de pilhas e baterias",
+      "Corrosão de metais",
+      "Processos industriais e metalúrgicos",
+      "Eletroquímica e galvanoplastia"
+    ],
+
+    "erros_comuns": [
+      "Confundir NOX com carga elétrica do íon",
+      "Ignorar exceções do oxigênio e do hidrogênio",
+      "Esquecer que a soma dos NOX deve igualar a carga da espécie",
+      "Atribuir NOX incorreto aos halogênios",
+      "Não considerar peróxidos e superóxidos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o NOX do oxigênio na maioria dos compostos?",
+      "alternativas": [
+        "+2",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "resposta": "-2",
+      "explicacao": "O oxigênio apresenta NOX −2 na maioria dos compostos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o NOX do sódio no composto NaCl?",
+      "alternativas": [
+        "+1",
+        "-1",
+        "0",
+        "+2"
+      ],
+      "resposta": "+1",
+      "explicacao": "O sódio é um metal alcalino e apresenta NOX +1."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o NOX do enxofre no H₂SO₄?",
+      "alternativas": [
+        "+2",
+        "+4",
+        "+6",
+        "-2"
+      ],
+      "resposta": "+6",
+      "explicacao": "2(+1) + S + 4(−2) = 0, logo S = +6."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o NOX do nitrogênio na amônia (NH₃)?",
+      "alternativas": [
+        "-3",
+        "+3",
+        "+5",
+        "-1"
+      ],
+      "resposta": "-3",
+      "explicacao": "3(+1) + N = 0, portanto N = −3."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o NOX do manganês no KMnO₄?",
+      "alternativas": [
+        "+2",
+        "+4",
+        "+6",
+        "+7"
+      ],
+      "resposta": "+7",
+      "explicacao": "K = +1, O = −2. Assim, +1 + Mn + 4(−2) = 0, resultando em Mn = +7."
+    }
+  ]
+}
