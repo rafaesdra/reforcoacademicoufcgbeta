@@ -1,0 +1,105 @@
+{
+  "id": "propriedades_coligativas",
+  "disciplina": "Química Geral I",
+  "assunto": "Soluções — Propriedades Coligativas",
+  "ordem": 35,
+
+  "teoria": {
+    "resumo": "As propriedades coligativas dependem do número de partículas de soluto dissolvidas na solução, e não de sua natureza química.",
+
+    "explicacao": "As propriedades coligativas são características das soluções que dependem exclusivamente da quantidade de partículas de soluto presentes, independentemente de sua composição química. Essas propriedades são fundamentais em diversos fenômenos naturais e aplicações tecnológicas.\n\n---\n\nPRINCÍPIO FUNDAMENTAL:\n\nAs propriedades coligativas dependem do número de partículas dissolvidas.\n\nQuanto maior a quantidade de partículas, maior será o efeito observado.\n\n---\n\nFATOR DE VAN'T HOFF (i):\n\nRepresenta o número de partículas geradas pela dissociação do soluto em solução.\n\nExemplos:\n\n✔ Glicose (C₆H₁₂O₆): i = 1\n✔ NaCl: i ≈ 2\n✔ CaCl₂: i ≈ 3\n✔ Al₂(SO₄)₃: i ≈ 5\n\n---\n\nPRINCIPAIS PROPRIEDADES COLIGATIVAS:\n\n1) Tonoscopia — Diminuição da pressão de vapor\n2) Ebulioscopia — Elevação do ponto de ebulição\n3) Crioscopia — Diminuição do ponto de congelamento\n4) Osmose — Pressão osmótica\n\n---\n\nTONOSCOPIA:\n\nA adição de um soluto não volátil diminui a pressão de vapor do solvente.\n\nLei de Raoult:\n\nΔP = P₀ − P\n\nou\n\nP = X_solvente · P₀\n\n---\n\nEBULIOSCOPIA:\n\nOcorre a elevação da temperatura de ebulição da solução.\n\nΔTₑ = i · Kₑ · m\n\nOnde:\n\n✔ ΔTₑ = elevação do ponto de ebulição\n✔ Kₑ = constante ebulioscópica\n✔ m = molalidade\n✔ i = fator de Van't Hoff\n\n---\n\nCRIOSCOPIA:\n\nConsiste na diminuição da temperatura de congelamento da solução.\n\nΔT𝒸 = i · K𝒸 · m\n\nOnde:\n\n✔ ΔT𝒸 = abaixamento do ponto de congelamento\n✔ K𝒸 = constante crioscópica\n\n---\n\nOSMOSE:\n\nÉ o fluxo de solvente através de uma membrana semipermeável do meio menos concentrado para o mais concentrado.\n\nPressão osmótica:\n\nπ = i · M · R · T\n\nOnde:\n\n✔ π = pressão osmótica\n✔ M = molaridade\n✔ R = constante dos gases\n✔ T = temperatura em Kelvin\n\n---\n\nEXEMPLOS DO COTIDIANO:\n\n✔ Adição de sal para derreter gelo em estradas\n✔ Uso de anticongelantes em radiadores\n✔ Conservação de alimentos com sal e açúcar\n✔ Soro fisiológico em aplicações médicas\n✔ Dessalinização da água do mar\n\n---\n\nAPLICAÇÕES:\n\n✔ Indústria farmacêutica\n✔ Engenharia química\n✔ Biologia e medicina\n✔ Indústria alimentícia\n✔ Tratamento de água\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar a propriedade coligativa envolvida.\n\n2) Determinar a molalidade ou molaridade da solução.\n\n3) Identificar o fator de Van't Hoff.\n\n4) Aplicar a equação correspondente.\n\n5) Interpretar o resultado obtido.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ As propriedades coligativas dependem do número de partículas.\n✔ Solutos iônicos produzem efeitos mais intensos.\n✔ Utilizar a temperatura em Kelvin nos cálculos de osmose.\n✔ Verificar as unidades das constantes.\n✔ Considerar o fator de Van't Hoff corretamente.\n\n---\n\nIDEIA CENTRAL:\n\nAs propriedades coligativas descrevem como a presença de solutos altera as propriedades físicas do solvente em função do número de partículas dissolvidas.",
+
+    "intuicao": "Quanto maior a quantidade de partículas dissolvidas, maior será a alteração nas propriedades físicas da solução.",
+
+    "analogia": "Adicionar soluto a um solvente é como colocar obstáculos em um caminho: quanto mais obstáculos, maior a interferência no movimento do sistema.",
+
+    "aplicacoes": [
+      "Produção de anticongelantes automotivos",
+      "Conservação de alimentos com sal e açúcar",
+      "Preparação de soluções isotônicas",
+      "Dessalinização por osmose reversa",
+      "Determinação de massas molares"
+    ],
+
+    "erros_comuns": [
+      "Confundir molaridade com molalidade",
+      "Ignorar o fator de Van't Hoff",
+      "Esquecer de utilizar a temperatura em Kelvin",
+      "Aplicar incorretamente as fórmulas",
+      "Acreditar que as propriedades coligativas dependem da natureza do soluto"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As propriedades coligativas dependem principalmente:",
+      "alternativas": [
+        "Da massa molar do solvente",
+        "Da natureza química do soluto",
+        "Do número de partículas dissolvidas",
+        "Da cor da solução"
+      ],
+      "resposta": "Do número de partículas dissolvidas",
+      "explicacao": "As propriedades coligativas dependem apenas da quantidade de partículas em solução."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade coligativa está relacionada à diminuição da pressão de vapor?",
+      "alternativas": [
+        "Crioscopia",
+        "Tonoscopia",
+        "Osmose",
+        "Ebulioscopia"
+      ],
+      "resposta": "Tonoscopia",
+      "explicacao": "A tonoscopia estuda a diminuição da pressão de vapor de um solvente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade coligativa explica o uso de sal para derreter gelo em estradas?",
+      "alternativas": [
+        "Tonoscopia",
+        "Osmose",
+        "Crioscopia",
+        "Ebulioscopia"
+      ],
+      "resposta": "Crioscopia",
+      "explicacao": "A adição de sal reduz o ponto de congelamento da água."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o fator de Van't Hoff para o NaCl em solução aquosa ideal?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "resposta": "2",
+      "explicacao": "O NaCl se dissocia em Na⁺ e Cl⁻, formando duas partículas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade coligativa é descrita pela equação π = iMRT?",
+      "alternativas": [
+        "Tonoscopia",
+        "Ebulioscopia",
+        "Crioscopia",
+        "Pressão osmótica"
+      ],
+      "resposta": "Pressão osmótica",
+      "explicacao": "A equação π = iMRT descreve a pressão osmótica de uma solução."
+    }
+  ]
+}
