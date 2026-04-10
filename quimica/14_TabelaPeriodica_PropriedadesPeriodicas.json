@@ -1,0 +1,110 @@
+{
+  "id": "propriedades_periodicas",
+  "disciplina": "Química Geral I",
+  "assunto": "Propriedades Periódicas",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "Apresenta as principais propriedades periódicas dos elementos químicos e suas variações ao longo dos períodos e grupos da Tabela Periódica.",
+
+    "explicacao": "As propriedades periódicas são características dos elementos químicos que variam de maneira regular e previsível na Tabela Periódica. Essas variações estão diretamente relacionadas ao número atômico e à configuração eletrônica dos átomos.\n\nAs principais propriedades periódicas são:\n\nRaio Atômico:\nO raio atômico corresponde à distância média entre o núcleo e a camada mais externa do átomo.\n- Aumenta de cima para baixo nos grupos devido ao acréscimo de níveis de energia.\n- Diminui da esquerda para a direita nos períodos em razão do aumento da carga nuclear efetiva.\n\nRaio Iônico:\nRefere-se ao tamanho de um íon.\n- Cátions possuem raio menor que o átomo neutro.\n- Ânions possuem raio maior que o átomo neutro.\n\nEnergia de Ionização:\nÉ a energia necessária para remover um elétron de um átomo no estado gasoso.\n- Aumenta da esquerda para a direita nos períodos.\n- Diminui de cima para baixo nos grupos.\n\nAfinidade Eletrônica:\nÉ a energia liberada quando um átomo recebe um elétron.\n- Em geral, aumenta ao longo dos períodos.\n- Diminui ao descer nos grupos.\n\nEletronegatividade:\nRepresenta a capacidade de um átomo atrair elétrons em uma ligação química.\n- Aumenta da esquerda para a direita.\n- Diminui de cima para baixo.\n- O flúor é o elemento mais eletronegativo da Tabela Periódica.\n\nCaráter Metálico:\nIndica a tendência de um elemento perder elétrons e formar cátions.\n- Aumenta de cima para baixo e da direita para a esquerda.\n\nCaráter Ametálico:\nRefere-se à tendência de um elemento ganhar elétrons.\n- Aumenta da esquerda para a direita e de baixo para cima.\n\nCarga Nuclear Efetiva:\nÉ a força de atração exercida pelo núcleo sobre os elétrons da camada de valência. Essa grandeza explica a variação das propriedades periódicas ao longo da Tabela Periódica.\n\nResumo das tendências periódicas:\n- Raio Atômico: aumenta para baixo e para a esquerda.\n- Energia de Ionização: aumenta para cima e para a direita.\n- Eletronegatividade: aumenta para cima e para a direita.\n- Afinidade Eletrônica: aumenta para cima e para a direita.\n- Caráter Metálico: aumenta para baixo e para a esquerda.\n\nO entendimento dessas propriedades permite prever a reatividade e o comportamento químico dos elementos.",
+
+    "intuicao": "As propriedades periódicas seguem padrões previsíveis. Quanto mais próximo do flúor um elemento estiver na Tabela Periódica, maior será sua tendência de atrair elétrons.",
+
+    "analogia": "A Tabela Periódica pode ser comparada a um mapa de relevo: ao subir e avançar para a direita, aumenta a força de atração do núcleo; ao descer e mover-se para a esquerda, os átomos tornam-se maiores e mais metálicos.",
+
+    "aplicacoes": [
+      "Previsão da reatividade dos elementos químicos.",
+      "Determinação do tipo de ligação química.",
+      "Desenvolvimento de novos materiais e ligas metálicas.",
+      "Estudo de propriedades de semicondutores.",
+      "Aplicações em química industrial e farmacêutica."
+    ],
+
+    "erros_comuns": [
+      "Confundir afinidade eletrônica com eletronegatividade.",
+      "Acreditar que o raio atômico aumenta da esquerda para a direita.",
+      "Ignorar a influência da carga nuclear efetiva.",
+      "Supor que todos os elementos seguem rigorosamente as tendências sem exceções.",
+      "Confundir caráter metálico com massa atômica."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade aumenta ao longo de um período da esquerda para a direita?",
+      "opcoes": [
+        "Raio atômico",
+        "Caráter metálico",
+        "Eletronegatividade",
+        "Volume atômico",
+        "Raio iônico dos cátions"
+      ],
+      "resposta": 2,
+      "explicacao": "A eletronegatividade aumenta ao longo de um período devido ao aumento da carga nuclear efetiva."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual elemento apresenta maior eletronegatividade?",
+      "opcoes": [
+        "Oxigênio",
+        "Cloro",
+        "Flúor",
+        "Nitrogênio",
+        "Bromo"
+      ],
+      "resposta": 2,
+      "explicacao": "O flúor é o elemento mais eletronegativo da Tabela Periódica."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Ao descer em um grupo da Tabela Periódica, o raio atômico:",
+      "opcoes": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Desaparece",
+        "Duplica"
+      ],
+      "resposta": 2,
+      "explicacao": "O raio atômico aumenta devido ao acréscimo de camadas eletrônicas."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A energia necessária para remover um elétron de um átomo no estado gasoso é chamada de:",
+      "opcoes": [
+        "Afinidade eletrônica",
+        "Eletronegatividade",
+        "Energia de ionização",
+        "Potencial elétrico",
+        "Raio atômico"
+      ],
+      "resposta": 2,
+      "explicacao": "A energia de ionização corresponde à energia necessária para remover um elétron de um átomo isolado no estado gasoso."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual elemento possui maior raio atômico?",
+      "opcoes": [
+        "Sódio (Na)",
+        "Cloro (Cl)",
+        "Flúor (F)",
+        "Oxigênio (O)",
+        "Nitrogênio (N)"
+      ],
+      "resposta": 0,
+      "explicacao": "O sódio possui maior raio atômico por estar mais à esquerda e em período inferior em relação aos demais."
+    }
+  ]
+}
