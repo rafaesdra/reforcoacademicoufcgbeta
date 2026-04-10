@@ -1,0 +1,99 @@
+{
+  "id": "conicas",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Cônicas",
+  "ordem": 63,
+
+  "teoria": {
+    "resumo": "Cônicas são curvas obtidas pela interseção de um plano com um cone duplo, incluindo circunferência, elipse, parábola e hipérbole.",
+
+    "explicacao": "As cônicas são curvas estudadas na geometria analítica que surgem quando um plano intersecta um cone duplo em diferentes ângulos.\n\nExistem quatro tipos principais de cônicas:\n\n1) Circunferência: ocorre quando o plano corta perpendicularmente o eixo do cone.\n2) Elipse: ocorre quando o plano corta o cone de forma inclinada, sem passar por todas as geratrizes.\n3) Parábola: ocorre quando o plano é paralelo a uma geratriz do cone.\n4) Hipérbole: ocorre quando o plano corta as duas partes do cone.\n\nEquações padrão:\n\n- Circunferência: (x - a)² + (y - b)² = r²\n- Elipse: (x²/a²) + (y²/b²) = 1\n- Parábola: y² = 4px ou x² = 4py\n- Hipérbole: (x²/a²) - (y²/b²) = 1\n\nExemplo de elipse:\n(x²/9) + (y²/4) = 1\n\nIsso representa uma elipse centrada na origem com semi-eixos 3 e 2.\n\nExemplo de parábola:\ny² = 8x\n\nAqui, p = 2, e a parábola abre para a direita.",
+
+    "intuicao": "Cônicas são diferentes 'cortes' de uma mesma forma geométrica (o cone), gerando curvas com comportamentos distintos.",
+
+    "analogia": "Imagine um cone de sorvete sendo cortado por uma faca em diferentes ângulos: cada corte cria uma forma diferente — círculo, elipse, parábola ou hipérbole.",
+
+    "aplicacoes": [
+      "Órbitas de planetas e satélites (elipses)",
+      "Movimento de projéteis e antenas parabólicas (parábolas)"
+    ],
+
+    "erros_comuns": [
+      "Confundir os tipos de cônicas e suas condições geométricas",
+      "Errar a identificação da equação padrão de cada cônica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das opções é uma cônica?",
+      "alternativas": [
+        "Quadrado",
+        "Elipse",
+        "Triângulo",
+        "Pentágono"
+      ],
+      "resposta": "Elipse",
+      "explicacao": "Elipse é um dos quatro tipos principais de cônicas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação (x - a)² + (y - b)² = r² representa:",
+      "alternativas": [
+        "Elipse",
+        "Hipérbole",
+        "Circunferência",
+        "Parábola"
+      ],
+      "resposta": "Circunferência",
+      "explicacao": "Essa é a forma padrão da circunferência."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x²/a² + y²/b² = 1 representa:",
+      "alternativas": [
+        "Parábola",
+        "Hipérbole",
+        "Elipse",
+        "Circunferência"
+      ],
+      "resposta": "Elipse",
+      "explicacao": "Essa é a forma padrão de uma elipse."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição gera uma parábola?",
+      "alternativas": [
+        "Plano paralelo a uma geratriz do cone",
+        "Plano perpendicular ao eixo do cone",
+        "Plano cortando as duas bases do cone",
+        "Plano horizontal distante do cone"
+      ],
+      "resposta": "Plano paralelo a uma geratriz do cone",
+      "explicacao": "Esse corte gera uma parábola."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x²/9 - y²/4 = 1 representa:",
+      "alternativas": [
+        "Elipse",
+        "Hipérbole",
+        "Parábola",
+        "Circunferência"
+      ],
+      "resposta": "Hipérbole",
+      "explicacao": "A diferença de quadrados caracteriza uma hipérbole."
+    }
+  ]
+}
