@@ -1,0 +1,105 @@
+{
+  "id": "unidades_concentracao",
+  "disciplina": "Química Geral I",
+  "assunto": "Soluções — Unidades de Concentração",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "As unidades de concentração expressam a quantidade de soluto dissolvido em uma determinada quantidade de solução ou solvente.",
+
+    "explicacao": "A concentração de uma solução indica a quantidade de soluto presente em uma determinada quantidade de solvente ou de solução. Esse conceito é fundamental em análises químicas, processos industriais e aplicações farmacêuticas.\n\n---\n\nPRINCIPAIS UNIDADES DE CONCENTRAÇÃO:\n\n✔ Concentração Comum\n✔ Molaridade\n✔ Molalidade\n✔ Fração Molar\n✔ Título em Massa\n✔ Partes por Milhão (ppm)\n✔ Partes por Bilhão (ppb)\n\n---\n\nCONCENTRAÇÃO COMUM (C):\n\nIndica a massa do soluto em relação ao volume da solução.\n\nC = m / V\n\nOnde:\n✔ C = concentração comum (g/L)\n✔ m = massa do soluto (g)\n✔ V = volume da solução (L)\n\n---\n\nMOLARIDADE (M):\n\nIndica a quantidade de mols de soluto por litro de solução.\n\nM = n / V\n\nOnde:\n✔ M = molaridade (mol/L)\n✔ n = número de mols do soluto\n✔ V = volume da solução (L)\n\n---\n\nMOLALIDADE (m):\n\nRelaciona o número de mols do soluto com a massa do solvente em quilogramas.\n\nm = n / m_solvente\n\nOnde:\n✔ m = molalidade (mol/kg)\n✔ n = número de mols do soluto\n✔ m_solvente = massa do solvente (kg)\n\n---\n\nFRAÇÃO MOLAR (X):\n\nExpressa a razão entre o número de mols de um componente e o número total de mols da solução.\n\nX = n_componente / n_total\n\n---\n\nTÍTULO EM MASSA (T):\n\nIndica a razão entre a massa do soluto e a massa da solução.\n\nT = m_soluto / m_solucao\n\nPorcentagem em massa:\n\n% m/m = T × 100\n\n---\n\nPARTES POR MILHÃO (ppm):\n\nUtilizada para soluções extremamente diluídas.\n\nppm = (massa do soluto / massa da solução) × 10⁶\n\n---\n\nPARTES POR BILHÃO (ppb):\n\nEmpregada em análises ambientais e toxicológicas.\n\nppb = (massa do soluto / massa da solução) × 10⁹\n\n---\n\nEXEMPLO 1 — MOLARIDADE:\n\nQual a molaridade de uma solução contendo 1 mol de NaCl em 1 L de solução?\n\nM = 1 / 1 = 1 mol/L\n\n---\n\nEXEMPLO 2 — CONCENTRAÇÃO COMUM:\n\nUma solução contém 10 g de soluto em 2 L.\n\nC = 10 / 2 = 5 g/L\n\n---\n\nEXEMPLO 3 — FRAÇÃO MOLAR:\n\nSe uma solução possui 2 mol de soluto e 8 mol de solvente:\n\nX_soluto = 2 / (2 + 8) = 0,2\n\n---\n\nAPLICAÇÕES:\n\n✔ Preparação de soluções em laboratório\n✔ Indústria farmacêutica\n✔ Indústria alimentícia\n✔ Controle ambiental\n✔ Tratamento de água\n✔ Análises clínicas\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar os dados fornecidos.\n\n2) Converter as unidades para o Sistema Internacional.\n\n3) Determinar a unidade de concentração adequada.\n\n4) Aplicar a fórmula correspondente.\n\n5) Interpretar o resultado.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Converter mililitros para litros.\n✔ Converter gramas para quilogramas quando necessário.\n✔ Utilizar corretamente a massa molar.\n✔ Verificar as unidades finais.\n✔ Manter atenção aos cálculos.\n\n---\n\nIDEIA CENTRAL:\n\nAs unidades de concentração permitem quantificar a quantidade de soluto presente em uma solução, sendo essenciais para cálculos químicos e aplicações práticas.",
+
+    "intuicao": "A concentração indica o quão 'forte' ou 'diluída' é uma solução.",
+
+    "analogia": "Assim como a quantidade de açúcar determina o sabor de um suco, a quantidade de soluto determina a concentração de uma solução.",
+
+    "aplicacoes": [
+      "Preparação de soluções químicas",
+      "Produção de medicamentos",
+      "Controle de qualidade industrial",
+      "Análises ambientais",
+      "Tratamento de água e efluentes"
+    ],
+
+    "erros_comuns": [
+      "Confundir molaridade com molalidade",
+      "Esquecer de converter unidades",
+      "Utilizar massa molar incorreta",
+      "Confundir concentração comum com título em massa",
+      "Aplicar fórmulas inadequadas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A molaridade é definida como:",
+      "alternativas": [
+        "Massa do soluto por volume do solvente",
+        "Mols do soluto por litro de solução",
+        "Massa do solvente por litro de solução",
+        "Mols do solvente por litro de solução"
+      ],
+      "resposta": "Mols do soluto por litro de solução",
+      "explicacao": "A molaridade expressa a quantidade de mols de soluto por litro de solução."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A unidade da concentração comum é:",
+      "alternativas": [
+        "mol/L",
+        "g/L",
+        "mol/kg",
+        "atm"
+      ],
+      "resposta": "g/L",
+      "explicacao": "A concentração comum é expressa em gramas por litro."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a molaridade de uma solução contendo 2 mol de soluto em 0,5 L de solução?",
+      "alternativas": [
+        "0,5 mol/L",
+        "1,0 mol/L",
+        "2,0 mol/L",
+        "4,0 mol/L"
+      ],
+      "resposta": "4,0 mol/L",
+      "explicacao": "M = n/V = 2/0,5 = 4,0 mol/L."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A molalidade é expressa em:",
+      "alternativas": [
+        "mol/L",
+        "g/L",
+        "mol/kg",
+        "kg/L"
+      ],
+      "resposta": "mol/kg",
+      "explicacao": "A molalidade corresponde ao número de mols de soluto por quilograma de solvente."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma solução contém 5 g de soluto em 500 g de solução. Qual é a porcentagem em massa (% m/m)?",
+      "alternativas": [
+        "0,5%",
+        "1%",
+        "5%",
+        "10%"
+      ],
+      "resposta": "1%",
+      "explicacao": "A porcentagem em massa é (% m/m) = (5/500) × 100 = 1%."
+    }
+  ]
+}
