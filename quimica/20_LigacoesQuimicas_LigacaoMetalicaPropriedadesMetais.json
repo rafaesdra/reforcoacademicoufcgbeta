@@ -1,0 +1,110 @@
+{
+  "id": "ligacao_metalica_propriedades_metais",
+  "disciplina": "Química Geral I",
+  "assunto": "Ligação Metálica e Propriedades dos Metais",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "Estuda a ligação metálica, caracterizada pela presença de elétrons deslocalizados, e as propriedades físicas e químicas dos metais.",
+
+    "explicacao": "A ligação metálica ocorre entre átomos de metais e é responsável por diversas propriedades características desses elementos, como condutividade elétrica, maleabilidade e ductilidade. Nesse tipo de ligação, os átomos metálicos liberam seus elétrons de valência, formando uma rede de cátions imersos em um 'mar de elétrons' deslocalizados.\n\nEsse modelo é conhecido como modelo do mar de elétrons. Nele, os elétrons movem-se livremente por toda a estrutura cristalina, mantendo os íons metálicos unidos por forças eletrostáticas.\n\nCaracterísticas da ligação metálica:\n- Presença de elétrons livres e deslocalizados.\n- Estrutura cristalina organizada.\n- Forte atração entre os cátions metálicos e os elétrons móveis.\n- Alta estabilidade estrutural.\n\nPrincipais propriedades dos metais:\n\nCondutividade elétrica:\nOs metais conduzem corrente elétrica devido à mobilidade dos elétrons livres em sua estrutura.\n\nCondutividade térmica:\nOs elétrons deslocalizados facilitam a transferência de calor, tornando os metais bons condutores térmicos.\n\nMaleabilidade:\nCapacidade de serem moldados em lâminas sem se romperem, devido ao deslizamento das camadas atômicas.\n\nDuctilidade:\nCapacidade de serem transformados em fios.\n\nBrilho metálico:\nOs elétrons livres refletem a luz incidente, conferindo brilho característico aos metais.\n\nElevados pontos de fusão e ebulição:\nA forte interação entre os átomos metálicos exige grande quantidade de energia para ser rompida.\n\nFormação de ligas metálicas:\nAs ligas são misturas homogêneas de dois ou mais elementos, sendo pelo menos um deles metálico. Elas são produzidas para melhorar propriedades mecânicas e químicas.\n\nExemplos de ligas metálicas:\n- Aço (ferro e carbono).\n- Bronze (cobre e estanho).\n- Latão (cobre e zinco).\n- Ouro 18 quilates (ouro e outros metais).\n\nTipos de estruturas cristalinas metálicas:\n- Cúbica de corpo centrado (CCC).\n- Cúbica de face centrada (CFC).\n- Hexagonal compacta (HC).\n\nEssas estruturas influenciam diretamente as propriedades mecânicas e físicas dos metais.\n\nAplicações dos metais incluem a fabricação de fios elétricos, estruturas de construção, utensílios domésticos, veículos e componentes eletrônicos.",
+
+    "intuicao": "Os metais podem ser entendidos como uma rede de íons positivos imersos em um mar de elétrons livres, responsáveis por suas propriedades características.",
+
+    "analogia": "A ligação metálica pode ser comparada a pessoas (cátions metálicos) mergulhadas em uma piscina de bolinhas (elétrons livres). As bolinhas mantêm todos conectados e permitem movimento sem que a estrutura se desfaça.",
+
+    "aplicacoes": [
+      "Fabricação de cabos elétricos de cobre e alumínio.",
+      "Construção civil e estruturas metálicas.",
+      "Produção de ligas metálicas para a indústria.",
+      "Desenvolvimento de componentes eletrônicos.",
+      "Fabricação de veículos, aeronaves e equipamentos industriais."
+    ],
+
+    "erros_comuns": [
+      "Confundir ligação metálica com ligação iônica ou covalente.",
+      "Acreditar que os elétrons nos metais permanecem fixos.",
+      "Supor que todos os metais possuem a mesma resistência e dureza.",
+      "Ignorar a importância das ligas metálicas.",
+      "Pensar que apenas o cobre conduz eletricidade."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A ligação metálica é caracterizada pela presença de:",
+      "opcoes": [
+        "Íons negativos fixos",
+        "Elétrons compartilhados em pares",
+        "Elétrons deslocalizados",
+        "Prótons livres",
+        "Nêutrons móveis"
+      ],
+      "resposta": 2,
+      "explicacao": "Na ligação metálica, os elétrons encontram-se deslocalizados, formando um mar de elétrons."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade dos metais permite que sejam transformados em fios?",
+      "opcoes": [
+        "Maleabilidade",
+        "Ductilidade",
+        "Densidade",
+        "Solubilidade",
+        "Eletronegatividade"
+      ],
+      "resposta": 1,
+      "explicacao": "A ductilidade é a capacidade de um material ser estirado em fios."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma liga metálica?",
+      "opcoes": [
+        "NaCl",
+        "H₂O",
+        "Bronze",
+        "CO₂",
+        "NH₃"
+      ],
+      "resposta": 2,
+      "explicacao": "O bronze é uma liga metálica formada por cobre e estanho."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade dos metais está diretamente relacionada à mobilidade dos elétrons livres?",
+      "opcoes": [
+        "Condutividade elétrica",
+        "Elasticidade",
+        "Solubilidade",
+        "Compressibilidade",
+        "Viscosidade"
+      ],
+      "resposta": 0,
+      "explicacao": "A condutividade elétrica dos metais deve-se à presença de elétrons livres em sua estrutura."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas apresenta apenas metais?",
+      "opcoes": [
+        "Ferro, cobre e alumínio",
+        "Carbono, oxigênio e nitrogênio",
+        "Cloro, flúor e bromo",
+        "Sódio, enxofre e fósforo",
+        "Hélio, neônio e argônio"
+      ],
+      "resposta": 0,
+      "explicacao": "Ferro, cobre e alumínio são elementos metálicos."
+    }
+  ]
+}
