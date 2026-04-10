@@ -1,0 +1,105 @@
+{
+  "id": "liquidos_solidos_mudancas_fase",
+  "disciplina": "Química Geral I",
+  "assunto": "Estados Físicos — Líquidos, Sólidos e Mudanças de Fase",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "Os estados físicos líquido e sólido e suas mudanças de fase são explicados pelas interações intermoleculares e pela variação de energia térmica.",
+
+    "explicacao": "A matéria pode existir em diferentes estados físicos, sendo os principais: sólido, líquido e gasoso. As transições entre esses estados são chamadas de mudanças de fase e ocorrem devido à variação de temperatura e pressão.\n\n---\n\nESTADO SÓLIDO:\n\nOs sólidos apresentam forma e volume definidos, pois suas partículas estão fortemente unidas e organizadas.\n\nCaracterísticas:\n\n✔ Forma e volume constantes\n✔ Alta organização estrutural\n✔ Baixa compressibilidade\n✔ Forte interação intermolecular\n\nTipos de sólidos:\n\n✔ Sólidos cristalinos: possuem estrutura ordenada (NaCl, quartzo).\n✔ Sólidos amorfos: não possuem estrutura regular (vidro, plástico).\n\n---\n\nESTADO LÍQUIDO:\n\nOs líquidos possuem volume definido, mas não apresentam forma própria, adaptando-se ao recipiente.\n\nCaracterísticas:\n\n✔ Volume constante\n✔ Forma variável\n✔ Fluidez\n✔ Baixa compressibilidade\n✔ Interações intermoleculares moderadas\n\nPropriedades dos líquidos:\n\n✔ Viscosidade: resistência ao escoamento.\n✔ Tensão superficial: tendência de minimizar a área da superfície.\n✔ Capilaridade: capacidade de subir em tubos estreitos.\n\n---\n\nMUDANÇAS DE FASE:\n\nAs mudanças de estado físico ocorrem com absorção ou liberação de calor.\n\nPrincipais transformações:\n\n✔ Fusão: sólido → líquido\n✔ Solidificação: líquido → sólido\n✔ Vaporização: líquido → gasoso\n✔ Condensação: gasoso → líquido\n✔ Sublimação: sólido → gasoso\n✔ Deposição ou Ressublimação: gasoso → sólido\n\n---\n\nTIPOS DE VAPORIZAÇÃO:\n\n✔ Evaporação: ocorre lentamente na superfície do líquido.\n✔ Ebulição: ocorre rapidamente em toda a massa do líquido.\n✔ Calefação: ocorre quando o líquido entra em contato com uma superfície muito quente.\n\n---\n\nDIAGRAMA DE FASE:\n\nO diagrama de fase representa as condições de temperatura e pressão em que uma substância existe em cada estado físico.\n\nPontos importantes:\n\n✔ Ponto Triplo: coexistência dos três estados físicos.\n✔ Ponto Crítico: limite entre as fases líquida e gasosa.\n\n---\n\nCALOR LATENTE:\n\nDurante as mudanças de fase, a temperatura permanece constante enquanto a substância absorve ou libera energia.\n\nFórmula:\n\nQ = mL\n\nOnde:\n\n✔ Q = quantidade de calor\n✔ m = massa\n✔ L = calor latente\n\n---\n\nEXEMPLOS DO COTIDIANO:\n\n✔ Gelo derretendo (fusão)\n✔ Água fervendo (ebulição)\n✔ Formação do orvalho (condensação)\n✔ Gelo seco sublimando\n✔ Formação da geada (deposição)\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar o estado físico inicial e final.\n\n2) Determinar o tipo de mudança de fase.\n\n3) Verificar se há absorção ou liberação de calor.\n\n4) Aplicar a equação do calor latente, quando necessário.\n\n5) Interpretar o fenômeno observado.\n\n---\n\nAPLICAÇÕES:\n\n✔ Sistemas de refrigeração\n✔ Destilação industrial\n✔ Conservação de alimentos\n✔ Meteorologia e climatologia\n✔ Engenharia de materiais\n\n---\n\nDICAS IMPORTANTES:\n\n✔ A temperatura permanece constante durante a mudança de fase.\n✔ As forças intermoleculares influenciam os pontos de fusão e ebulição.\n✔ Substâncias puras apresentam pontos de fusão e ebulição definidos.\n✔ A pressão influencia as transições de fase.\n✔ Utilize corretamente os conceitos do diagrama de fases.\n\n---\n\nIDEIA CENTRAL:\n\nOs estados físicos e as mudanças de fase da matéria dependem da energia térmica e das forças intermoleculares que atuam entre as partículas.",
+
+    "intuicao": "Ao aquecer uma substância, suas partículas se movem mais rapidamente, enfraquecendo as interações intermoleculares e promovendo mudanças de fase.",
+
+    "analogia": "O comportamento das partículas pode ser comparado a pessoas em um ambiente: organizadas e imóveis em um sólido, mais livres em um líquido e totalmente dispersas em um gás.",
+
+    "aplicacoes": [
+      "Refrigeração e ar-condicionado",
+      "Destilação de substâncias químicas",
+      "Previsão do clima",
+      "Produção de materiais industriais",
+      "Conservação de alimentos"
+    ],
+
+    "erros_comuns": [
+      "Confundir evaporação com ebulição",
+      "Acreditar que a temperatura varia durante a mudança de fase",
+      "Ignorar a influência da pressão",
+      "Confundir sólidos amorfos com cristalinos",
+      "Não reconhecer a sublimação e a deposição"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual mudança de fase ocorre quando um sólido passa para o estado líquido?",
+      "alternativas": [
+        "Condensação",
+        "Sublimação",
+        "Fusão",
+        "Solidificação"
+      ],
+      "resposta": "Fusão",
+      "explicacao": "A fusão é a passagem do estado sólido para o estado líquido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade mede a resistência de um líquido ao escoamento?",
+      "alternativas": [
+        "Densidade",
+        "Viscosidade",
+        "Pressão",
+        "Capilaridade"
+      ],
+      "resposta": "Viscosidade",
+      "explicacao": "A viscosidade é a medida da resistência de um líquido ao escoamento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual processo ocorre quando o vapor de água se transforma em líquido?",
+      "alternativas": [
+        "Fusão",
+        "Condensação",
+        "Sublimação",
+        "Calefação"
+      ],
+      "resposta": "Condensação",
+      "explicacao": "A condensação é a passagem do estado gasoso para o estado líquido."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa o cálculo do calor latente?",
+      "alternativas": [
+        "Q = mcΔT",
+        "Q = mL",
+        "PV = nRT",
+        "E = mc²"
+      ],
+      "resposta": "Q = mL",
+      "explicacao": "A equação Q = mL é utilizada para calcular o calor envolvido nas mudanças de fase."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fenômeno ocorre quando o dióxido de carbono sólido (gelo seco) passa diretamente para o estado gasoso?",
+      "alternativas": [
+        "Condensação",
+        "Fusão",
+        "Sublimação",
+        "Solidificação"
+      ],
+      "resposta": "Sublimação",
+      "explicacao": "O gelo seco sofre sublimação, passando diretamente do estado sólido para o gasoso."
+    }
+  ]
+}
