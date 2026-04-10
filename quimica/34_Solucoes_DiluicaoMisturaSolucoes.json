@@ -1,0 +1,105 @@
+{
+  "id": "diluicao_mistura_solucoes",
+  "disciplina": "Química Geral I",
+  "assunto": "Soluções — Diluição e Mistura de Soluções",
+  "ordem": 34,
+
+  "teoria": {
+    "resumo": "A diluição e a mistura de soluções permitem ajustar concentrações e obter soluções com propriedades específicas por meio de relações quantitativas.",
+
+    "explicacao": "Em Química, é comum modificar a concentração de uma solução ou combinar diferentes soluções para obter uma concentração desejada. Esses processos são conhecidos como diluição e mistura de soluções.\n\n---\n\nDILUIÇÃO DE SOLUÇÕES:\n\nA diluição consiste na adição de solvente a uma solução, diminuindo sua concentração sem alterar a quantidade de soluto.\n\nDurante a diluição, o número de mols de soluto permanece constante.\n\n---\n\nEQUAÇÃO DA DILUIÇÃO:\n\nM₁V₁ = M₂V₂\n\nOnde:\n\n✔ M₁ = concentração inicial\n✔ V₁ = volume inicial\n✔ M₂ = concentração final\n✔ V₂ = volume final\n\n---\n\nEXEMPLO 1 — DILUIÇÃO:\n\nUma solução de concentração 2,0 mol/L é diluída para 1,0 mol/L. Se o volume inicial é 100 mL, qual será o volume final?\n\nM₁V₁ = M₂V₂\n\n2,0 × 100 = 1,0 × V₂\n\nV₂ = 200 mL\n\n---\n\nMISTURA DE SOLUÇÕES DE MESMO SOLUTO:\n\nQuando soluções contendo o mesmo soluto são misturadas, a concentração final pode ser calculada pela relação:\n\nM_f = (M₁V₁ + M₂V₂) / (V₁ + V₂)\n\n---\n\nEXEMPLO 2 — MISTURA DE SOLUÇÕES:\n\nMisturam-se 200 mL de uma solução 1,0 mol/L com 300 mL de uma solução 2,0 mol/L.\n\nM_f = (1,0 × 200 + 2,0 × 300) / (200 + 300)\n\nM_f = (200 + 600) / 500\n\nM_f = 1,6 mol/L\n\n---\n\nMISTURA DE SOLUÇÕES COM CONCENTRAÇÕES DIFERENTES:\n\nEsse procedimento é amplamente utilizado em laboratórios e na indústria para preparar soluções com concentrações específicas.\n\n---\n\nAPLICAÇÕES PRÁTICAS:\n\n✔ Preparação de medicamentos\n✔ Análises químicas laboratoriais\n✔ Indústria alimentícia\n✔ Tratamento de água\n✔ Processos industriais\n✔ Produção de soluções padrão\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar os dados fornecidos.\n\n2) Verificar se o processo é diluição ou mistura.\n\n3) Converter as unidades para o Sistema Internacional.\n\n4) Aplicar a equação apropriada.\n\n5) Realizar os cálculos corretamente.\n\n6) Interpretar o resultado obtido.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Na diluição, a quantidade de soluto permanece constante.\n✔ Sempre converter mililitros para litros quando necessário.\n✔ Garantir que as soluções possuam o mesmo soluto antes da mistura.\n✔ Utilizar unidades consistentes nos cálculos.\n✔ Verificar os resultados obtidos.\n\n---\n\nIDEIA CENTRAL:\n\nA diluição e a mistura de soluções permitem controlar a concentração de substâncias, sendo essenciais em análises químicas e processos industriais.",
+
+    "intuicao": "Adicionar solvente torna a solução menos concentrada, enquanto misturar soluções permite ajustar a concentração desejada.",
+
+    "analogia": "Diluir uma solução é como adicionar água a um suco concentrado, tornando-o mais fraco; misturar soluções é como combinar dois sucos de intensidades diferentes para obter um sabor intermediário.",
+
+    "aplicacoes": [
+      "Preparação de soluções padrão em laboratório",
+      "Produção de medicamentos e vacinas",
+      "Tratamento de água e efluentes",
+      "Indústria alimentícia",
+      "Processos químicos industriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir diluição com mistura de soluções",
+      "Não converter corretamente as unidades de volume",
+      "Aplicar incorretamente a equação M₁V₁ = M₂V₂",
+      "Misturar soluções com solutos diferentes",
+      "Desconsiderar o volume final após a diluição"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Durante uma diluição, o que permanece constante?",
+      "alternativas": [
+        "O volume da solução",
+        "A concentração da solução",
+        "A quantidade de soluto",
+        "A massa do solvente"
+      ],
+      "resposta": "A quantidade de soluto",
+      "explicacao": "Na diluição, apenas o solvente é adicionado, mantendo constante a quantidade de soluto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual equação representa corretamente a diluição de soluções?",
+      "alternativas": [
+        "PV = nRT",
+        "M₁V₁ = M₂V₂",
+        "Q = mcΔT",
+        "C = m/V"
+      ],
+      "resposta": "M₁V₁ = M₂V₂",
+      "explicacao": "Essa equação expressa a conservação da quantidade de soluto durante a diluição."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual será o volume final ao diluir 100 mL de uma solução 2,0 mol/L para 1,0 mol/L?",
+      "alternativas": [
+        "50 mL",
+        "100 mL",
+        "200 mL",
+        "300 mL"
+      ],
+      "resposta": "200 mL",
+      "explicacao": "Aplicando M₁V₁ = M₂V₂: 2,0 × 100 = 1,0 × V₂, logo V₂ = 200 mL."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual será a concentração final ao misturar 200 mL de uma solução 1,0 mol/L com 300 mL de uma solução 2,0 mol/L?",
+      "alternativas": [
+        "1,2 mol/L",
+        "1,4 mol/L",
+        "1,6 mol/L",
+        "2,0 mol/L"
+      ],
+      "resposta": "1,6 mol/L",
+      "explicacao": "M_f = (M₁V₁ + M₂V₂)/(V₁ + V₂) = (1,0×200 + 2,0×300)/500 = 1,6 mol/L."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual volume de uma solução 6,0 mol/L é necessário para preparar 300 mL de uma solução 2,0 mol/L?",
+      "alternativas": [
+        "50 mL",
+        "75 mL",
+        "100 mL",
+        "150 mL"
+      ],
+      "resposta": "100 mL",
+      "explicacao": "Aplicando M₁V₁ = M₂V₂: 6,0×V₁ = 2,0×300; V₁ = 600/6 = 100 mL."
+    }
+  ]
+}
