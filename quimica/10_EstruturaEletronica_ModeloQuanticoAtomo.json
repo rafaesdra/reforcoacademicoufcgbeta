@@ -1,0 +1,110 @@
+{
+  "id": "modelo_quantico_atomo",
+  "disciplina": "Química Geral I",
+  "assunto": "Modelo Quântico do Átomo",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "Apresenta os fundamentos do modelo quântico do átomo, descrevendo o comportamento dos elétrons em termos probabilísticos e introduzindo o conceito de orbitais atômicos.",
+
+    "explicacao": "O modelo quântico do átomo representa a descrição mais moderna e precisa da estrutura atômica. Desenvolvido no início do século XX, baseia-se nos princípios da mecânica quântica e substitui a ideia de órbitas definidas por regiões de probabilidade chamadas orbitais.\n\nDiferentemente do modelo de Bohr, que propunha trajetórias circulares para os elétrons, o modelo quântico afirma que não é possível determinar simultaneamente a posição e a velocidade de um elétron. Esse princípio foi estabelecido por Werner Heisenberg e ficou conhecido como Princípio da Incerteza.\n\nOutro conceito fundamental é a dualidade onda-partícula, proposta por Louis de Broglie, que afirma que o elétron possui comportamento tanto de partícula quanto de onda.\n\nO modelo quântico foi desenvolvido matematicamente por Erwin Schrödinger, cuja equação descreve o comportamento dos elétrons em termos de funções de onda. A solução dessa equação fornece regiões do espaço onde há maior probabilidade de encontrar o elétron, denominadas orbitais atômicos.\n\nAs principais características do modelo quântico incluem:\n- O elétron não possui trajetória definida.\n- A posição do elétron é descrita por probabilidades.\n- Os níveis de energia são quantizados.\n- Cada orbital comporta no máximo dois elétrons com spins opostos.\n\nOs orbitais atômicos apresentam diferentes formas e energias:\n- Orbital s: forma esférica.\n- Orbital p: forma de halteres.\n- Orbital d e f: formas mais complexas.\n\nO modelo quântico é fundamental para explicar a distribuição eletrônica, as propriedades periódicas e as ligações químicas.\n\nPrincipais contribuições científicas:\n- Max Planck: quantização da energia.\n- Albert Einstein: efeito fotoelétrico.\n- Louis de Broglie: dualidade onda-partícula.\n- Werner Heisenberg: princípio da incerteza.\n- Erwin Schrödinger: equação de onda.\n\nEsse modelo constitui a base da Química Moderna e possibilita o desenvolvimento de tecnologias avançadas, como lasers, semicondutores e espectroscopia.",
+
+    "intuicao": "No modelo quântico, os elétrons não giram ao redor do núcleo como planetas. Em vez disso, eles ocupam regiões onde há maior probabilidade de serem encontrados.",
+
+    "analogia": "O elétron pode ser comparado a um ventilador em funcionamento: suas pás se movem tão rapidamente que formam uma região difusa. Da mesma forma, os elétrons são descritos como nuvens de probabilidade.",
+
+    "aplicacoes": [
+      "Desenvolvimento de semicondutores e dispositivos eletrônicos.",
+      "Funcionamento de lasers e fibras ópticas.",
+      "Espectroscopia para identificação de elementos químicos.",
+      "Tecnologia de ressonância magnética.",
+      "Estudo das ligações químicas e propriedades dos materiais."
+    ],
+
+    "erros_comuns": [
+      "Acreditar que os elétrons possuem órbitas fixas como no modelo de Bohr.",
+      "Confundir órbitas com orbitais.",
+      "Pensar que é possível determinar simultaneamente a posição e a velocidade do elétron.",
+      "Imaginar o orbital como uma trajetória do elétron.",
+      "Supor que o modelo quântico invalida completamente os modelos anteriores."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quem desenvolveu a equação fundamental do modelo quântico do átomo?",
+      "opcoes": [
+        "Niels Bohr",
+        "Ernest Rutherford",
+        "Erwin Schrödinger",
+        "John Dalton",
+        "J. J. Thomson"
+      ],
+      "resposta": 2,
+      "explicacao": "Erwin Schrödinger desenvolveu a equação de onda que fundamenta o modelo quântico do átomo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O Princípio da Incerteza foi proposto por:",
+      "opcoes": [
+        "Max Planck",
+        "Albert Einstein",
+        "Werner Heisenberg",
+        "Louis de Broglie",
+        "James Chadwick"
+      ],
+      "resposta": 2,
+      "explicacao": "Werner Heisenberg estabeleceu que não é possível determinar simultaneamente a posição e a velocidade de um elétron."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No modelo quântico, os elétrons são descritos como:",
+      "opcoes": [
+        "Partículas em órbitas circulares fixas.",
+        "Esferas maciças.",
+        "Nuvens de probabilidade denominadas orbitais.",
+        "Partículas localizadas no núcleo.",
+        "Ondas estacionárias sem energia."
+      ],
+      "resposta": 2,
+      "explicacao": "Os elétrons ocupam regiões chamadas orbitais, onde há maior probabilidade de serem encontrados."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual cientista propôs a dualidade onda-partícula do elétron?",
+      "opcoes": [
+        "Niels Bohr",
+        "Louis de Broglie",
+        "Ernest Rutherford",
+        "Max Planck",
+        "Isaac Newton"
+      ],
+      "resposta": 1,
+      "explicacao": "Louis de Broglie propôs que o elétron possui natureza dual, comportando-se como partícula e onda."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual orbital possui formato esférico?",
+      "opcoes": [
+        "Orbital p",
+        "Orbital d",
+        "Orbital f",
+        "Orbital s",
+        "Orbital híbrido"
+      ],
+      "resposta": 3,
+      "explicacao": "O orbital s possui formato esférico e está presente em todos os níveis de energia."
+    }
+  ]
+}
