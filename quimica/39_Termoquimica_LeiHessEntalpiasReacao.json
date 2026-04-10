@@ -1,0 +1,105 @@
+{
+  "id": "lei_hess_entalpias_reacao",
+  "disciplina": "Química Geral I",
+  "assunto": "Termoquímica — Lei de Hess e Entalpias de Reação",
+  "ordem": 39,
+
+  "teoria": {
+    "resumo": "A Lei de Hess estabelece que a variação de entalpia de uma reação depende apenas dos estados inicial e final, sendo independente do caminho percorrido.",
+
+    "explicacao": "A Lei de Hess é um dos princípios fundamentais da Termoquímica. Ela afirma que a variação de entalpia de uma reação química é a mesma, independentemente das etapas intermediárias pelas quais a reação ocorre. Esse princípio decorre do fato de que a entalpia é uma função de estado.\n\n---\n\nLEI DE HESS:\n\n\"A variação de entalpia de uma reação química depende apenas dos estados inicial e final, não do caminho percorrido.\"\n\nMatematicamente:\n\nΔH_total = ΣΔH_etapas\n\n---\n\nFUNÇÃO DE ESTADO:\n\nUma função de estado depende apenas das condições inicial e final do sistema.\n\nExemplos:\n\n✔ Entalpia (H)\n✔ Energia interna (U)\n✔ Entropia (S)\n✔ Energia livre de Gibbs (G)\n\n---\n\nMANIPULAÇÃO DE EQUAÇÕES TERMOQUÍMICAS:\n\nPara aplicar a Lei de Hess, é necessário realizar operações com equações químicas:\n\n✔ Inversão da reação: troca o sinal de ΔH.\n✔ Multiplicação da equação: multiplica-se o valor de ΔH.\n✔ Soma das equações: somam-se as equações e seus respectivos ΔH.\n\n---\n\nEXEMPLO 1:\n\nC(s) + O₂(g) → CO₂(g)  ΔH = −393,5 kJ\n\nC(s) + 1/2 O₂(g) → CO(g) ΔH = −110,5 kJ\n\nCO(g) + 1/2 O₂(g) → CO₂(g) ΔH = −283,0 kJ\n\nA soma das duas últimas equações resulta na primeira, confirmando a Lei de Hess.\n\n---\n\nEXEMPLO 2 — CÁLCULO DA ENTALPIA DE REAÇÃO:\n\nDeterminar ΔH para a reação:\n\nC(s) + 1/2 O₂(g) → CO(g)\n\nA partir de:\n\nC(s) + O₂(g) → CO₂(g)  ΔH = −393,5 kJ\nCO(g) + 1/2 O₂(g) → CO₂(g) ΔH = −283,0 kJ\n\nInvertendo a segunda equação:\n\nCO₂(g) → CO(g) + 1/2 O₂(g) ΔH = +283,0 kJ\n\nSomando:\n\nC(s) + 1/2 O₂(g) → CO(g)\n\nΔH = −393,5 + 283,0 = −110,5 kJ\n\n---\n\nENTALPIA PADRÃO DE FORMAÇÃO (ΔH°f):\n\nÉ a variação de entalpia na formação de 1 mol de uma substância a partir de seus elementos em seus estados padrão.\n\nA entalpia de reação pode ser calculada por:\n\nΔH°reação = ΣΔH°f(produtos) − ΣΔH°f(reagentes)\n\n---\n\nEXEMPLO 3:\n\nCH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)\n\nΔH°reação = [(-393,5) + 2(-285,8)] − [(-74,8)]\n\nΔH°reação = −890,3 kJ\n\n---\n\nAPLICAÇÕES:\n\n✔ Determinação de entalpias de reações difíceis de medir diretamente\n✔ Cálculo da energia de combustíveis\n✔ Processos industriais\n✔ Estudos ambientais\n✔ Engenharia química\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar a reação desejada.\n\n2) Organizar as equações termoquímicas fornecidas.\n\n3) Ajustar as equações conforme necessário.\n\n4) Somar as equações intermediárias.\n\n5) Somar os valores de ΔH.\n\n6) Verificar a coerência do resultado.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Inverta o sinal de ΔH ao inverter a equação.\n✔ Multiplique ΔH ao multiplicar a equação.\n✔ Certifique-se de que as equações intermediárias se cancelam corretamente.\n✔ Utilize unidades consistentes.\n✔ Lembre-se de que a entalpia é uma função de estado.\n\n---\n\nIDEIA CENTRAL:\n\nA Lei de Hess permite determinar a variação de entalpia de uma reação por meio da soma das entalpias de reações intermediárias."
+,
+    "intuicao": "Assim como a diferença de altitude entre dois pontos independe do caminho percorrido, a variação de entalpia depende apenas dos estados inicial e final.",
+
+    "analogia": "Viajar de uma cidade a outra pode envolver diferentes rotas, mas a diferença de altitude entre os dois pontos permanece a mesma.",
+
+    "aplicacoes": [
+      "Cálculo da energia de combustíveis",
+      "Determinação de entalpias de formação",
+      "Processos industriais e metalúrgicos",
+      "Estudos ambientais e energéticos",
+      "Engenharia química"
+    ],
+
+    "erros_comuns": [
+      "Não inverter o sinal de ΔH ao inverter a equação",
+      "Esquecer de multiplicar ΔH ao ajustar os coeficientes",
+      "Somar equações incorretamente",
+      "Confundir entalpia de formação com entalpia de reação",
+      "Não cancelar corretamente as substâncias intermediárias"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Lei de Hess afirma que a variação de entalpia de uma reação:",
+      "alternativas": [
+        "Depende da velocidade da reação",
+        "Depende do catalisador utilizado",
+        "Depende apenas dos estados inicial e final",
+        "Depende da massa do reagente"
+      ],
+      "resposta": "Depende apenas dos estados inicial e final",
+      "explicacao": "A entalpia é uma função de estado e independe do caminho da reação."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que ocorre com o valor de ΔH quando uma equação química é invertida?",
+      "alternativas": [
+        "Permanece inalterado",
+        "É multiplicado por dois",
+        "Tem seu sinal invertido",
+        "Torna-se zero"
+      ],
+      "resposta": "Tem seu sinal invertido",
+      "explicacao": "Ao inverter a equação, o sinal da variação de entalpia também se inverte."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma equação termoquímica é multiplicada por 2, o valor de ΔH:",
+      "alternativas": [
+        "Permanece constante",
+        "É dividido por dois",
+        "É multiplicado por dois",
+        "Torna-se nulo"
+      ],
+      "resposta": "É multiplicado por dois",
+      "explicacao": "A entalpia varia proporcionalmente aos coeficientes estequiométricos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão correta para calcular a entalpia de reação a partir das entalpias de formação?",
+      "alternativas": [
+        "ΔH = produtos + reagentes",
+        "ΔH = reagentes − produtos",
+        "ΔH = ΣΔHf(produtos) − ΣΔHf(reagentes)",
+        "ΔH = ΣΔHf(reagentes) − ΣΔHf(produtos)"
+      ],
+      "resposta": "ΔH = ΣΔHf(produtos) − ΣΔHf(reagentes)",
+      "explicacao": "A entalpia de reação é obtida pela diferença entre as entalpias de formação dos produtos e dos reagentes."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Considerando ΔHf°(CO₂) = −393,5 kJ/mol e ΔHf°(CO) = −110,5 kJ/mol, qual é a variação de entalpia para a reação CO(g) + 1/2 O₂(g) → CO₂(g)?",
+      "alternativas": [
+        "-283,0 kJ/mol",
+        "-110,5 kJ/mol",
+        "-393,5 kJ/mol",
+        "+283,0 kJ/mol"
+      ],
+      "resposta": "-283,0 kJ/mol",
+      "explicacao": "ΔH = −393,5 − (−110,5) = −283,0 kJ/mol."
+    }
+  ]
+}
