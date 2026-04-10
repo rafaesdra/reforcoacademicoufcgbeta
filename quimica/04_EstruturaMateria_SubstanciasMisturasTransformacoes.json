@@ -1,0 +1,110 @@
+{
+  "id": "substancias_misturas_transformacoes",
+  "disciplina": "Química Geral I",
+  "assunto": "Substâncias, Misturas e Transformações da Matéria",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Apresenta a classificação da matéria em substâncias puras e misturas, bem como as transformações físicas e químicas e os principais métodos de separação.",
+
+    "explicacao": "A matéria pode ser classificada de acordo com sua composição em substâncias puras e misturas. Essa classificação é fundamental para o estudo da Química e para a compreensão dos processos naturais e industriais.\n\nSubstâncias puras são aquelas que possuem composição química fixa e propriedades bem definidas. Elas podem ser classificadas em:\n\n- Substâncias simples: formadas por um único elemento químico, como O2, N2 e Fe.\n- Substâncias compostas: formadas por dois ou mais elementos químicos, como H2O, CO2 e NaCl.\n\nAs substâncias puras apresentam propriedades físicas constantes, como ponto de fusão e ponto de ebulição definidos.\n\nMisturas são formadas pela combinação de duas ou mais substâncias e possuem composição variável. Elas podem ser classificadas em:\n\nMisturas homogêneas:\n- Apresentam apenas uma fase visível.\n- Também são chamadas de soluções.\n- Exemplos: ar atmosférico, água salgada e ligas metálicas.\n\nMisturas heterogêneas:\n- Apresentam duas ou mais fases visíveis.\n- Exemplos: água e óleo, granito e água com areia.\n\nFase é cada porção homogênea e visível de um sistema.\n\nAs misturas podem ser separadas por métodos físicos, sem alterar a natureza química de seus componentes. Os principais métodos de separação são:\n\n- Filtração: separa sólidos de líquidos.\n- Decantação: separa substâncias com diferentes densidades.\n- Destilação simples: separa sólidos dissolvidos em líquidos.\n- Destilação fracionada: separa líquidos com diferentes pontos de ebulição.\n- Centrifugação: acelera o processo de sedimentação.\n- Peneiração: separa sólidos de diferentes tamanhos.\n- Imantação: separa materiais magnéticos.\n- Cristalização: purifica substâncias sólidas.\n\nAs transformações da matéria podem ser físicas ou químicas.\n\nTransformações físicas:\n- Não alteram a composição química da substância.\n- Exemplos: fusão do gelo, evaporação da água e dissolução do açúcar.\n\nTransformações químicas:\n- Alteram a composição da matéria, formando novas substâncias.\n- Exemplos: combustão, oxidação e fermentação.\n\nEvidências de uma reação química incluem:\n- Mudança de cor.\n- Liberação de gás.\n- Formação de precipitado.\n- Emissão de luz.\n- Variação de temperatura.\n\nEsses conceitos são essenciais para o estudo da Química e para aplicações em indústrias, laboratórios e no cotidiano.",
+
+    "intuicao": "A classificação da matéria permite compreender como os materiais são formados e como podem ser separados ou transformados, facilitando a análise dos fenômenos químicos do dia a dia.",
+
+    "analogia": "Uma mistura pode ser comparada a uma salada de frutas: cada componente mantém suas características e pode ser separado. Já uma substância composta se assemelha a um bolo, no qual os ingredientes se transformam em um novo produto.",
+
+    "aplicacoes": [
+      "Purificação da água para consumo humano.",
+      "Refino do petróleo por destilação fracionada.",
+      "Separação de minérios na indústria metalúrgica.",
+      "Produção de medicamentos e produtos químicos.",
+      "Reciclagem e tratamento de resíduos industriais."
+    ],
+
+    "erros_comuns": [
+      "Confundir substância pura com mistura homogênea.",
+      "Acreditar que toda mistura homogênea é uma substância pura.",
+      "Pensar que a dissolução do açúcar em água é uma transformação química.",
+      "Confundir fase com componente.",
+      "Acreditar que mudanças de estado físico são reações químicas."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma substância composta?",
+      "opcoes": [
+        "O2",
+        "N2",
+        "H2O",
+        "Fe",
+        "He"
+      ],
+      "resposta": 2,
+      "explicacao": "A água (H2O) é formada por hidrogênio e oxigênio, sendo classificada como substância composta."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual alternativa apresenta uma mistura homogênea?",
+      "opcoes": [
+        "Água e óleo",
+        "Areia e água",
+        "Granito",
+        "Ar atmosférico",
+        "Enxofre e ferro"
+      ],
+      "resposta": 3,
+      "explicacao": "O ar atmosférico é uma mistura homogênea de gases."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual método é mais adequado para separar água e sal dissolvido?",
+      "opcoes": [
+        "Filtração",
+        "Decantação",
+        "Destilação simples",
+        "Peneiração",
+        "Imantação"
+      ],
+      "resposta": 2,
+      "explicacao": "A destilação simples permite separar a água do sal, recuperando o solvente por evaporação e condensação."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma transformação química?",
+      "opcoes": [
+        "Fusão do gelo",
+        "Evaporação da água",
+        "Combustão da madeira",
+        "Dissolução do açúcar",
+        "Sublimação do gelo seco"
+      ],
+      "resposta": 2,
+      "explicacao": "A combustão da madeira produz novas substâncias, caracterizando uma transformação química."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma mistura formada por água, óleo e areia apresenta quantas fases?",
+      "opcoes": [
+        "Uma fase",
+        "Duas fases",
+        "Três fases",
+        "Quatro fases",
+        "Cinco fases"
+      ],
+      "resposta": 2,
+      "explicacao": "A mistura apresenta três fases visíveis: água, óleo e areia."
+    }
+  ]
+}
