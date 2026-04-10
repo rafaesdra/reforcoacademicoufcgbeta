@@ -1,0 +1,105 @@
+{
+  "id": "reagente_limitante_excesso_rendimento",
+  "disciplina": "Química Geral I",
+  "assunto": "Estequiometria — Reagente Limitante, Excesso e Rendimento",
+  "ordem": 27,
+
+  "teoria": {
+    "resumo": "O reagente limitante determina a quantidade máxima de produto formada em uma reação, enquanto o rendimento mede a eficiência do processo químico.",
+
+    "explicacao": "Em uma reação química, os reagentes nem sempre estão presentes nas proporções exatas indicadas pela equação balanceada. Assim, um deles é consumido primeiro, limitando a quantidade de produto formada. Esse reagente é denominado reagente limitante.\n\n---\n\nREAGENTE LIMITANTE:\n\nÉ o reagente que se esgota primeiro e determina a quantidade máxima de produto formado.\n\n---\n\nREAGENTE EM EXCESSO:\n\nÉ o reagente que permanece após o término da reação por estar presente em quantidade superior à necessária.\n\n---\n\nEXEMPLO:\n\n2H₂ + O₂ → 2H₂O\n\nSe houver:\n\n✔ 4 mol de H₂\n✔ 1 mol de O₂\n\nCálculo:\n\nH₂: 4 ÷ 2 = 2\nO₂: 1 ÷ 1 = 1\n\nO menor valor indica o reagente limitante.\n\nLogo, o O₂ é o reagente limitante.\n\n---\n\nRENDIMENTO TEÓRICO:\n\nÉ a quantidade máxima de produto prevista pelos cálculos estequiométricos, considerando condições ideais.\n\n---\n\nRENDIMENTO REAL:\n\nÉ a quantidade efetivamente obtida em laboratório ou na indústria.\n\n---\n\nRENDIMENTO PERCENTUAL:\n\nO rendimento percentual indica a eficiência da reação e é calculado por:\n\nRendimento (%) = (Rendimento Real / Rendimento Teórico) × 100\n\n---\n\nEXEMPLO DE RENDIMENTO:\n\nSe o rendimento teórico for 50 g e o rendimento real for 40 g:\n\nRendimento (%) = (40 / 50) × 100 = 80%\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Balancear a equação química.\n\n2) Converter os dados para mol.\n\n3) Determinar o reagente limitante.\n\n4) Calcular o rendimento teórico.\n\n5) Determinar o rendimento percentual.\n\n---\n\nIMPORTÂNCIA NA INDÚSTRIA:\n\n✔ Otimização de processos químicos\n✔ Redução de desperdícios\n✔ Diminuição de custos\n✔ Aumento da eficiência produtiva\n✔ Controle de qualidade\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre utilize a equação balanceada.\n✔ Trabalhe em mol antes de converter unidades.\n✔ Identifique corretamente o reagente limitante.\n✔ Não confunda rendimento real com teórico.\n✔ Verifique as unidades utilizadas.\n\n---\n\nIDEIA CENTRAL:\n\nO reagente limitante controla a quantidade de produto formado, enquanto o rendimento mede a eficiência da reação química.",
+
+    "intuicao": "A reação ocorre até que um dos reagentes se esgote, determinando a quantidade máxima de produto formada.",
+
+    "analogia": "Preparar sanduíches exige pão e queijo. Se o pão acabar primeiro, ele limitará a quantidade de sanduíches — assim como o reagente limitante em uma reação química.",
+
+    "aplicacoes": [
+      "Produção industrial de substâncias químicas",
+      "Controle de qualidade em processos industriais",
+      "Desenvolvimento de medicamentos",
+      "Análises laboratoriais",
+      "Otimização de recursos e redução de desperdícios"
+    ],
+
+    "erros_comuns": [
+      "Não balancear a equação química",
+      "Confundir reagente limitante com reagente em excesso",
+      "Esquecer de converter massas em mol",
+      "Calcular incorretamente o rendimento percentual",
+      "Confundir rendimento real com rendimento teórico"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O reagente limitante é aquele que:",
+      "alternativas": [
+        "Está em maior quantidade",
+        "Se esgota primeiro na reação",
+        "Permanece inalterado",
+        "Aumenta o rendimento da reação"
+      ],
+      "resposta": "Se esgota primeiro na reação",
+      "explicacao": "O reagente limitante é consumido primeiro e determina a quantidade máxima de produto."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O rendimento percentual é calculado por:",
+      "alternativas": [
+        "Rendimento = Teórico × Real",
+        "Rendimento = Real − Teórico",
+        "Rendimento (%) = (Real / Teórico) × 100",
+        "Rendimento = Teórico / Real"
+      ],
+      "resposta": "Rendimento (%) = (Real / Teórico) × 100",
+      "explicacao": "O rendimento percentual corresponde à razão entre o rendimento real e o teórico multiplicada por 100."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na reação 2H₂ + O₂ → 2H₂O, qual é o reagente limitante quando reagem 2 mol de H₂ e 1 mol de O₂?",
+      "alternativas": [
+        "H₂",
+        "O₂",
+        "H₂O",
+        "Nenhum"
+      ],
+      "resposta": "Nenhum",
+      "explicacao": "As quantidades estão em proporção estequiométrica, portanto não há reagente limitante."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o rendimento teórico de uma reação é 80 g e o rendimento real é 60 g, o rendimento percentual será:",
+      "alternativas": [
+        "60%",
+        "70%",
+        "75%",
+        "80%"
+      ],
+      "resposta": "75%",
+      "explicacao": "Rendimento (%) = (60/80) × 100 = 75%."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos gramas de H₂O podem ser formados pela reação de 4 g de H₂ com excesso de O₂?\n2H₂ + O₂ → 2H₂O",
+      "alternativas": [
+        "9 g",
+        "18 g",
+        "36 g",
+        "72 g"
+      ],
+      "resposta": "36 g",
+      "explicacao": "4 g de H₂ correspondem a 2 mols, que produzem 2 mols de H₂O, equivalentes a 36 g."
+    }
+  ]
+}
