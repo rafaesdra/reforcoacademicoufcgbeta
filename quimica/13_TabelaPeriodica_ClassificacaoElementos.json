@@ -1,0 +1,110 @@
+{
+  "id": "tabela_periodica_classificacao_elementos",
+  "disciplina": "Química Geral I",
+  "assunto": "Tabela Periódica e Classificação dos Elementos",
+  "ordem": 13,
+
+  "teoria": {
+    "resumo": "Apresenta a organização da Tabela Periódica e a classificação dos elementos químicos em grupos e períodos, relacionando suas propriedades com a estrutura eletrônica.",
+
+    "explicacao": "A Tabela Periódica é uma das ferramentas mais importantes da Química, pois organiza os elementos químicos de acordo com seus números atômicos e propriedades periódicas. Sua estrutura permite prever comportamentos químicos e físicos, facilitando o estudo da matéria.\n\nA organização moderna da Tabela Periódica foi proposta por Henry Moseley em 1913, que demonstrou que os elementos deveriam ser dispostos em ordem crescente de número atômico (Z), e não de massa atômica, como sugerido anteriormente por Dmitri Mendeleev.\n\nA Tabela Periódica está estruturada em linhas horizontais chamadas períodos e colunas verticais chamadas grupos ou famílias.\n\nPeríodos:\n- Existem sete períodos.\n- Indicam o número de níveis de energia ocupados pelos elétrons.\n- Os elementos são dispostos da esquerda para a direita em ordem crescente de número atômico.\n\nGrupos ou Famílias:\n- Existem 18 grupos.\n- Reúnem elementos com propriedades químicas semelhantes.\n- Os elementos de um mesmo grupo possuem o mesmo número de elétrons de valência.\n\nPrincipais famílias da Tabela Periódica:\n- Grupo 1: Metais Alcalinos.\n- Grupo 2: Metais Alcalino-Terrosos.\n- Grupos 3 a 12: Metais de Transição.\n- Grupo 13: Família do Boro.\n- Grupo 14: Família do Carbono.\n- Grupo 15: Família do Nitrogênio.\n- Grupo 16: Calcogênios.\n- Grupo 17: Halogênios.\n- Grupo 18: Gases Nobres.\n\nClassificação dos elementos:\n\nMetais:\n- Bons condutores de calor e eletricidade.\n- Apresentam brilho metálico.\n- São maleáveis e dúcteis.\n- Tendem a perder elétrons, formando cátions.\n\nAmetais (Não Metais):\n- Maus condutores de calor e eletricidade.\n- Não possuem brilho metálico.\n- Tendem a ganhar elétrons, formando ânions.\n\nSemimetais (Metaloides):\n- Apresentam propriedades intermediárias entre metais e ametais.\n- Exemplos: B, Si, Ge, As, Sb e Te.\n\nHidrogênio:\n- Possui características únicas e não se enquadra perfeitamente em nenhuma família.\n\nA Tabela Periódica também é dividida em blocos eletrônicos, de acordo com o subnível mais energético ocupado pelo elétron:\n- Bloco s: Grupos 1 e 2.\n- Bloco p: Grupos 13 a 18.\n- Bloco d: Metais de transição.\n- Bloco f: Lantanídeos e actinídeos.\n\nEssa organização permite compreender e prever as propriedades químicas dos elementos, sendo essencial para o estudo das ligações químicas, da reatividade e da estrutura da matéria.",
+
+    "intuicao": "A Tabela Periódica funciona como um mapa da Química, permitindo identificar rapidamente as propriedades e o comportamento dos elementos.",
+
+    "analogia": "Assim como uma biblioteca organiza livros por categorias e assuntos, a Tabela Periódica organiza os elementos de acordo com suas propriedades e estruturas eletrônicas.",
+
+    "aplicacoes": [
+      "Previsão das propriedades químicas dos elementos.",
+      "Desenvolvimento de novos materiais e ligas metálicas.",
+      "Estudo da reatividade e das ligações químicas.",
+      "Aplicações em indústrias farmacêuticas e tecnológicas.",
+      "Ensino e pesquisa em Química e áreas correlatas."
+    ],
+
+    "erros_comuns": [
+      "Acreditar que a Tabela Periódica é organizada pela massa atômica.",
+      "Confundir grupos com períodos.",
+      "Pensar que todos os elementos de um grupo possuem propriedades idênticas.",
+      "Desconsiderar a importância do número atômico.",
+      "Confundir metais de transição com semimetais."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Tabela Periódica moderna está organizada em ordem crescente de:",
+      "opcoes": [
+        "Massa atômica",
+        "Número de massa",
+        "Número atômico",
+        "Volume atômico",
+        "Densidade"
+      ],
+      "resposta": 2,
+      "explicacao": "A Tabela Periódica moderna organiza os elementos em ordem crescente de número atômico, conforme estabelecido por Moseley."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos grupos existem na Tabela Periódica moderna?",
+      "opcoes": [
+        "7",
+        "8",
+        "16",
+        "18",
+        "20"
+      ],
+      "resposta": 3,
+      "explicacao": "A Tabela Periódica moderna possui 18 grupos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os elementos do grupo 17 são conhecidos como:",
+      "opcoes": [
+        "Calcogênios",
+        "Metais alcalinos",
+        "Halogênios",
+        "Gases nobres",
+        "Metais de transição"
+      ],
+      "resposta": 2,
+      "explicacao": "Os elementos do grupo 17 são chamados de halogênios."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas apresenta um semimetal?",
+      "opcoes": [
+        "Sódio",
+        "Cloro",
+        "Silício",
+        "Ferro",
+        "Hélio"
+      ],
+      "resposta": 2,
+      "explicacao": "O silício é classificado como semimetal ou metaloide."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os elementos do bloco s pertencem aos grupos:",
+      "opcoes": [
+        "1 e 2",
+        "3 a 12",
+        "13 a 18",
+        "17 e 18",
+        "2 e 13"
+      ],
+      "resposta": 0,
+      "explicacao": "O bloco s corresponde aos grupos 1 e 2 da Tabela Periódica."
+    }
+  ]
+}
