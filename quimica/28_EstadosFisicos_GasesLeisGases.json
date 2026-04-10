@@ -1,0 +1,105 @@
+{
+  "id": "gases_leis_dos_gases",
+  "disciplina": "Química Geral I",
+  "assunto": "Estados Físicos — Gases e as Leis dos Gases",
+  "ordem": 28,
+
+  "teoria": {
+    "resumo": "As leis dos gases descrevem o comportamento das variáveis pressão, volume, temperatura e quantidade de matéria em sistemas gasosos.",
+
+    "explicacao": "Os gases constituem um dos estados físicos da matéria e apresentam características próprias, como compressibilidade, expansibilidade e baixa densidade. Seu comportamento pode ser descrito por relações matemáticas conhecidas como leis dos gases.\n\n---\n\nCARACTERÍSTICAS DOS GASES:\n\n✔ Não possuem forma nem volume definidos\n✔ Ocupam todo o recipiente disponível\n✔ São altamente compressíveis\n✔ Apresentam baixa densidade\n✔ Difundem-se rapidamente\n\n---\n\nVARIÁVEIS DE ESTADO DOS GASES:\n\n✔ Pressão (P): força exercida por unidade de área\n✔ Volume (V): espaço ocupado pelo gás\n✔ Temperatura (T): medida da energia cinética das partículas\n✔ Quantidade de matéria (n): número de mols do gás\n\nUnidades usuais:\n\n✔ Pressão: atm, mmHg ou Pa\n✔ Volume: litros (L)\n✔ Temperatura: Kelvin (K)\n\nConversões importantes:\n\n✔ 1 atm = 760 mmHg\n✔ 1 atm = 101325 Pa\n✔ T(K) = T(°C) + 273\n\n---\n\nLEI DE BOYLE:\n\nPara uma quantidade fixa de gás a temperatura constante:\n\nP₁V₁ = P₂V₂\n\nA pressão é inversamente proporcional ao volume.\n\n---\n\nLEI DE CHARLES:\n\nPara uma quantidade fixa de gás a pressão constante:\n\nV₁/T₁ = V₂/T₂\n\nO volume é diretamente proporcional à temperatura absoluta.\n\n---\n\nLEI DE GAY-LUSSAC:\n\nPara um gás a volume constante:\n\nP₁/T₁ = P₂/T₂\n\nA pressão é diretamente proporcional à temperatura absoluta.\n\n---\n\nLEI GERAL DOS GASES:\n\nCombina as três leis anteriores:\n\n(P₁V₁)/T₁ = (P₂V₂)/T₂\n\n---\n\nEQUAÇÃO DOS GASES IDEAIS:\n\nPV = nRT\n\nonde:\n\n✔ P = pressão\n✔ V = volume\n✔ n = número de mols\n✔ R = constante universal dos gases\n✔ T = temperatura em Kelvin\n\nValor de R:\n\n✔ R = 0,082 atm·L/mol·K\n\n---\n\nCONDIÇÕES NORMAIS DE TEMPERATURA E PRESSÃO (CNTP):\n\n✔ Temperatura: 273 K (0°C)\n✔ Pressão: 1 atm\n✔ Volume molar: 22,4 L/mol\n\n---\n\nEXEMPLO 1 — LEI DE BOYLE:\n\nUm gás ocupa 4 L a 2 atm. Qual será o volume a 1 atm?\n\nP₁V₁ = P₂V₂\n\n2 × 4 = 1 × V₂\n\nV₂ = 8 L\n\n---\n\nEXEMPLO 2 — EQUAÇÃO DOS GASES IDEAIS:\n\nQual o volume ocupado por 1 mol de gás a CNTP?\n\nV = nRT / P\n\nV = 1 × 0,082 × 273 / 1\n\nV = 22,4 L\n\n---\n\nPASSO A PASSO PARA RESOLUÇÃO:\n\n1) Identificar as variáveis do problema.\n\n2) Converter as unidades para o SI.\n\n3) Escolher a lei adequada.\n\n4) Substituir os valores na equação.\n\n5) Resolver e interpretar o resultado.\n\n---\n\nAPLICAÇÕES:\n\n✔ Balões e dirigíveis\n✔ Motores a combustão\n✔ Cilindros de oxigênio\n✔ Sistemas de refrigeração\n✔ Meteorologia e climatologia\n\n---\n\nDICAS IMPORTANTES:\n\n✔ Sempre utilizar a temperatura em Kelvin.\n✔ Verificar a consistência das unidades.\n✔ Identificar corretamente a lei aplicável.\n✔ Utilizar a equação dos gases ideais quando necessário.\n✔ Atentar para as condições CNTP.\n\n---\n\nIDEIA CENTRAL:\n\nO comportamento dos gases pode ser previsto por relações matemáticas que conectam pressão, volume, temperatura e quantidade de matéria.",
+
+    "intuicao": "Quando aquecido, um gás se expande; quando comprimido, seu volume diminui.",
+
+    "analogia": "Um balão aumenta de tamanho quando aquecido e diminui quando pressionado, ilustrando o comportamento dos gases.",
+
+    "aplicacoes": [
+      "Balões meteorológicos",
+      "Cilindros de gases medicinais",
+      "Motores a combustão",
+      "Indústria química",
+      "Refrigeração e climatização"
+    ],
+
+    "erros_comuns": [
+      "Utilizar temperatura em graus Celsius em vez de Kelvin",
+      "Esquecer de converter unidades de pressão",
+      "Aplicar a lei incorreta ao problema",
+      "Ignorar as condições CNTP",
+      "Utilizar incorretamente a constante dos gases"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual lei estabelece a relação inversa entre pressão e volume?",
+      "alternativas": [
+        "Lei de Charles",
+        "Lei de Boyle",
+        "Lei de Gay-Lussac",
+        "Lei de Avogadro"
+      ],
+      "resposta": "Lei de Boyle",
+      "explicacao": "A Lei de Boyle afirma que a pressão é inversamente proporcional ao volume."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o volume ocupado por 1 mol de gás nas CNTP?",
+      "alternativas": [
+        "11,2 L",
+        "22,4 L",
+        "44,8 L",
+        "1,0 L"
+      ],
+      "resposta": "22,4 L",
+      "explicacao": "Nas CNTP, 1 mol de gás ocupa 22,4 L."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a temperatura em Kelvin correspondente a 27°C?",
+      "alternativas": [
+        "246 K",
+        "273 K",
+        "300 K",
+        "310 K"
+      ],
+      "resposta": "300 K",
+      "explicacao": "T(K) = 27 + 273 = 300 K."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação dos gases ideais?",
+      "alternativas": [
+        "P/V = nRT",
+        "PV = nRT",
+        "PV = RT",
+        "P = nRT"
+      ],
+      "resposta": "PV = nRT",
+      "explicacao": "Essa equação relaciona pressão, volume, temperatura e número de mols."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual volume é ocupado por 2 mol de um gás ideal a CNTP?",
+      "alternativas": [
+        "11,2 L",
+        "22,4 L",
+        "44,8 L",
+        "89,6 L"
+      ],
+      "resposta": "44,8 L",
+      "explicacao": "Nas CNTP, 1 mol ocupa 22,4 L. Portanto, 2 mol ocupam 44,8 L."
+    }
+  ]
+}
