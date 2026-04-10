@@ -1,0 +1,106 @@
+{
+  "id": "diagramas_fase_propriedades_estados_fisicos",
+  "disciplina": "Química Geral I",
+  "assunto": "Estados Físicos — Diagramas de Fase e Propriedades dos Estados Físicos",
+  "ordem": 31,
+
+  "teoria": {
+    "resumo": "Os diagramas de fase representam as condições de temperatura e pressão nas quais uma substância existe nos estados sólido, líquido e gasoso.",
+
+    "explicacao": "Os estados físicos da matéria — sólido, líquido e gasoso — dependem das condições de temperatura e pressão. O diagrama de fases é uma representação gráfica que mostra em quais condições cada estado é estável e como ocorrem as transições entre eles.\n\n---\n\nESTADOS FÍSICOS DA MATÉRIA:\n\nSólido:\n✔ Forma e volume definidos\n✔ Alta organização molecular\n✔ Baixa compressibilidade\n✔ Fortes interações intermoleculares\n\nLíquido:\n✔ Volume definido e forma variável\n✔ Partículas com mobilidade moderada\n✔ Fluidez\n✔ Compressibilidade muito baixa\n\nGasoso:\n✔ Forma e volume variáveis\n✔ Alta compressibilidade\n✔ Partículas em movimento livre\n✔ Fracas interações intermoleculares\n\n---\n\nDIAGRAMA DE FASE:\n\nO diagrama de fase é um gráfico que relaciona pressão e temperatura, indicando as regiões em que cada estado físico é estável.\n\nEixos do diagrama:\n✔ Eixo vertical: Pressão\n✔ Eixo horizontal: Temperatura\n\nCada região do gráfico representa um estado físico da substância.\n\n---\n\nLINHAS DE EQUILÍBRIO:\n\n✔ Curva de fusão: separa as fases sólida e líquida.\n✔ Curva de vaporização: separa as fases líquida e gasosa.\n✔ Curva de sublimação: separa as fases sólida e gasosa.\n\nEssas curvas indicam condições de equilíbrio entre duas fases.\n\n---\n\nPONTO TRIPLO:\n\nÉ o ponto em que os três estados físicos coexistem em equilíbrio.\n\nExemplo: água em condições específicas de pressão e temperatura.\n\n---\n\nPONTO CRÍTICO:\n\nÉ o ponto acima do qual não há distinção entre as fases líquida e gasosa, formando um fluido supercrítico.\n\nAplicações incluem extração com dióxido de carbono supercrítico.\n\n---\n\nPROPRIEDADES DOS ESTADOS FÍSICOS:\n\nPropriedades dos sólidos:\n✔ Rigidez\n✔ Alta densidade\n✔ Estrutura cristalina ou amorfa\n\nPropriedades dos líquidos:\n✔ Viscosidade\n✔ Tensão superficial\n✔ Capilaridade\n\nPropriedades dos gases:\n✔ Expansibilidade\n✔ Difusibilidade\n✔ Compressibilidade\n\n---\n\nEXEMPLO ESPECIAL — A ÁGUA:\n\nA água apresenta comportamento anômalo. No seu diagrama de fases, a curva de fusão possui inclinação negativa, indicando que o aumento da pressão diminui o ponto de fusão do gelo.\n\nIsso ocorre porque o gelo é menos denso que a água líquida.\n\n---\n\nAPLICAÇÕES DOS DIAGRAMAS DE FASE:\n\n✔ Previsão de mudanças de estado\n✔ Processos de destilação\n✔ Engenharia de materiais\n✔ Meteorologia\n✔ Indústria química e farmacêutica\n✔ Criogenia e refrigeração\n\n---\n\nPASSO A PASSO PARA INTERPRETAÇÃO:\n\n1) Identificar os eixos de pressão e temperatura.\n\n2) Localizar o ponto desejado no gráfico.\n\n3) Determinar a fase correspondente.\n\n4) Verificar as curvas de equilíbrio.\n\n5) Identificar pontos triplo e crítico.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ O aumento da pressão favorece o estado mais denso.\n✔ Substâncias puras possuem diagramas bem definidos.\n✔ A temperatura influencia diretamente as mudanças de fase.\n✔ O ponto crítico define o limite entre líquido e gás.\n✔ O ponto triplo é único para cada substância.\n\n---\n\nIDEIA CENTRAL:\n\nOs diagramas de fase permitem compreender e prever o comportamento da matéria em diferentes condições de temperatura e pressão.",
+
+    "intuicao": "A variação de temperatura e pressão altera a organização das partículas, determinando o estado físico da matéria.",
+
+    "analogia": "O diagrama de fases funciona como um mapa climático, indicando em quais condições a matéria assume diferentes estados.",
+
+    "aplicacoes": [
+      "Engenharia de materiais",
+      "Indústria química e farmacêutica",
+      "Criogenia e refrigeração",
+      "Previsão meteorológica",
+      "Processos de destilação e purificação",
+      "Produção de fluidos supercríticos"
+    ],
+
+    "erros_comuns": [
+      "Confundir ponto crítico com ponto triplo",
+      "Ignorar a influência da pressão nas mudanças de fase",
+      "Interpretar incorretamente as regiões do diagrama",
+      "Acreditar que todas as substâncias possuem o mesmo comportamento da água",
+      "Não identificar corretamente as curvas de equilíbrio"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O diagrama de fases representa a relação entre:",
+      "alternativas": [
+        "Massa e volume",
+        "Temperatura e densidade",
+        "Pressão e temperatura",
+        "Energia e massa"
+      ],
+      "resposta": "Pressão e temperatura",
+      "explicacao": "O diagrama de fases relaciona pressão e temperatura para indicar o estado físico de uma substância."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ponto em que sólido, líquido e gás coexistem em equilíbrio é chamado de:",
+      "alternativas": [
+        "Ponto crítico",
+        "Ponto triplo",
+        "Ponto de fusão",
+        "Ponto de ebulição"
+      ],
+      "resposta": "Ponto triplo",
+      "explicacao": "O ponto triplo corresponde ao equilíbrio simultâneo entre as três fases."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "O ponto crítico é definido como:",
+      "alternativas": [
+        "A temperatura mínima de um gás",
+        "O ponto em que ocorre a sublimação",
+        "A condição em que não há distinção entre líquido e gás",
+        "A condição de fusão do sólido"
+      ],
+      "resposta": "A condição em que não há distinção entre líquido e gás",
+      "explicacao": "Acima do ponto crítico, a substância se comporta como um fluido supercrítico."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual propriedade é característica dos líquidos?",
+      "alternativas": [
+        "Alta compressibilidade",
+        "Forma e volume definidos",
+        "Tensão superficial",
+        "Ausência de volume definido"
+      ],
+      "resposta": "Tensão superficial",
+      "explicacao": "A tensão superficial é uma propriedade típica dos líquidos."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual característica distingue o diagrama de fases da água?",
+      "alternativas": [
+        "Curva de vaporização negativa",
+        "Curva de fusão com inclinação negativa",
+        "Ausência de ponto crítico",
+        "Inexistência de ponto triplo"
+      ],
+      "resposta": "Curva de fusão com inclinação negativa",
+      "explicacao": "A água apresenta uma curva de fusão com inclinação negativa, pois o gelo é menos denso que a água líquida."
+    }
+  ]
+}
