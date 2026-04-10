@@ -1,0 +1,110 @@
+{
+  "id": "grandezas_unidades_algarismos_significativos",
+  "disciplina": "Química Geral I",
+  "assunto": "Grandezas, Unidades e Algarismos Significativos",
+  "ordem": 2,
+
+  "teoria": {
+    "resumo": "Apresenta os conceitos de grandezas físicas, unidades do Sistema Internacional, notação científica e regras de algarismos significativos utilizadas em medições e cálculos científicos.",
+
+    "explicacao": "A Química é uma ciência experimental baseada em medições precisas. Para garantir a padronização e a confiabilidade dos resultados, utilizam-se grandezas físicas e unidades definidas pelo Sistema Internacional de Unidades (SI).\n\nUma grandeza física é qualquer propriedade que pode ser medida e expressa numericamente. Elas podem ser classificadas em fundamentais e derivadas.\n\nAs grandezas fundamentais do SI são:\n- Comprimento: metro (m)\n- Massa: quilograma (kg)\n- Tempo: segundo (s)\n- Temperatura: kelvin (K)\n- Quantidade de matéria: mol (mol)\n- Corrente elétrica: ampere (A)\n- Intensidade luminosa: candela (cd)\n\nGrandezas derivadas são obtidas a partir das fundamentais, como:\n- Volume (m³ ou L)\n- Densidade (kg/m³ ou g/cm³)\n- Velocidade (m/s)\n- Pressão (Pa)\n\nA notação científica é utilizada para representar números muito grandes ou muito pequenos, sendo expressa na forma:\n\nN = a × 10ⁿ\n\nem que 1 ≤ a < 10 e n é um número inteiro.\n\nExemplos:\n- 0,00045 = 4,5 × 10⁻⁴\n- 3.200.000 = 3,2 × 10⁶\n\nOs algarismos significativos representam a precisão de uma medida. As principais regras são:\n1. Todos os dígitos diferentes de zero são significativos.\n2. Zeros entre dígitos significativos também são significativos.\n3. Zeros à esquerda não são significativos.\n4. Zeros à direita são significativos quando há vírgula decimal.\n5. Em notação científica, apenas os dígitos do coeficiente são significativos.\n\nExemplos:\n- 0,0045 possui 2 algarismos significativos.\n- 2,50 possui 3 algarismos significativos.\n- 1,030 possui 4 algarismos significativos.\n\nRegras para operações:\n- Multiplicação e divisão: o resultado deve ter o mesmo número de algarismos significativos que o valor menos preciso.\n- Adição e subtração: o resultado deve apresentar o menor número de casas decimais entre os valores envolvidos.\n\nA análise dimensional é utilizada para verificar a consistência das equações e realizar conversões de unidades corretamente.",
+
+    "intuicao": "Medir com precisão é essencial na ciência. As unidades funcionam como uma linguagem universal, enquanto os algarismos significativos indicam o grau de confiança de uma medição.",
+
+    "analogia": "Utilizar unidades padronizadas é como usar uma régua comum em todo o mundo. Já os algarismos significativos são semelhantes à nitidez de uma fotografia: quanto maior a precisão, mais detalhada é a informação.",
+
+    "aplicacoes": [
+      "Determinação precisa da massa de reagentes em laboratório.",
+      "Cálculo da concentração de soluções químicas.",
+      "Conversão de unidades em processos industriais.",
+      "Controle de qualidade na indústria farmacêutica.",
+      "Análise de dados experimentais em pesquisas científicas."
+    ],
+
+    "erros_comuns": [
+      "Confundir massa com peso.",
+      "Ignorar as unidades durante os cálculos.",
+      "Arredondar valores de forma incorreta.",
+      "Considerar zeros à esquerda como significativos.",
+      "Misturar unidades sem realizar a conversão adequada."
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas apresenta uma grandeza fundamental do Sistema Internacional de Unidades?",
+      "opcoes": [
+        "Volume",
+        "Densidade",
+        "Temperatura",
+        "Pressão",
+        "Velocidade"
+      ],
+      "resposta": 2,
+      "explicacao": "A temperatura é uma grandeza fundamental do SI, cuja unidade padrão é o kelvin (K)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A representação em notação científica de 0,00072 é:",
+      "opcoes": [
+        "7,2 × 10²",
+        "7,2 × 10⁻⁴",
+        "72 × 10⁻⁵",
+        "0,72 × 10⁻³",
+        "7,2 × 10⁴"
+      ],
+      "resposta": 1,
+      "explicacao": "Ao deslocar a vírgula quatro casas para a direita, obtém-se 7,2 × 10⁻⁴."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quantos algarismos significativos possui o número 0,00560?",
+      "opcoes": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "1"
+      ],
+      "resposta": 1,
+      "explicacao": "Os zeros à esquerda não são significativos. Os dígitos significativos são 5, 6 e o zero final, totalizando três."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o resultado da operação 2,34 + 1,2 considerando as regras de algarismos significativos?",
+      "opcoes": [
+        "3,54",
+        "3,5",
+        "3,540",
+        "3,6",
+        "3,50"
+      ],
+      "resposta": 1,
+      "explicacao": "Na adição, o resultado deve apresentar o menor número de casas decimais. Assim, 2,34 + 1,2 = 3,5."
+    },
+    {
+      "id": "q5",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade do Sistema Internacional para a quantidade de matéria?",
+      "opcoes": [
+        "Grama",
+        "Mol",
+        "Kelvin",
+        "Litro",
+        "Pascal"
+      ],
+      "resposta": 1,
+      "explicacao": "A unidade do Sistema Internacional para a quantidade de matéria é o mol (mol)."
+    }
+  ]
+}
