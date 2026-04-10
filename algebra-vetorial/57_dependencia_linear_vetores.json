@@ -1,0 +1,99 @@
+{
+  "id": "dependencia_linear_vetores",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Dependência Linear",
+  "ordem": 57,
+
+  "teoria": {
+    "resumo": "Dependência linear ocorre quando um vetor pode ser escrito como combinação linear de outros.",
+
+    "explicacao": "Um conjunto de vetores é dito linearmente dependente quando pelo menos um deles pode ser escrito como combinação linear dos outros.\n\nFormalmente, os vetores v1, v2, ..., vn são linearmente dependentes se existirem escalares, não todos nulos, tais que:\n\n a1*v1 + a2*v2 + ... + an*vn = 0\n\nCaso a única solução seja a trivial (todos os coeficientes iguais a zero), os vetores são linearmente independentes.\n\nExemplo:\nConsidere os vetores v1 = (1,2) e v2 = (2,4).\n\nNote que:\nv2 = 2*v1\n\nLogo, v2 depende de v1, então os vetores são linearmente dependentes.\n\nOutro exemplo:\nv1 = (1,0) e v2 = (0,1)\n\nNenhum deles pode ser escrito como combinação do outro → são linearmente independentes.",
+
+    "intuicao": "Se um vetor não traz 'informação nova' porque pode ser construído a partir dos outros, então há dependência linear.",
+
+    "analogia": "Imagine receitas: se você já sabe fazer um prato e outro é apenas o mesmo com o dobro dos ingredientes, você não aprendeu nada novo — isso é dependência linear.",
+
+    "aplicacoes": [
+      "Determinação de base e dimensão de espaços vetoriais",
+      "Resolução de sistemas lineares e análise de soluções"
+    ],
+
+    "erros_comuns": [
+      "Achar que vetores proporcionais são independentes",
+      "Esquecer que a combinação linear igual a zero deve considerar coeficientes não todos nulos"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,2) e (2,4) são:",
+      "alternativas": [
+        "Linearmente independentes",
+        "Ortogonais",
+        "Linearmente dependentes",
+        "Unitários"
+      ],
+      "resposta": "Linearmente dependentes",
+      "explicacao": "O vetor (2,4) é o dobro de (1,2), então há dependência linear."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,0) e (0,1) são:",
+      "alternativas": [
+        "Dependentes",
+        "Independentes",
+        "Colineares",
+        "Paralelos"
+      ],
+      "resposta": "Independentes",
+      "explicacao": "Nenhum pode ser escrito como múltiplo do outro, então são independentes."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,2,3), (2,4,6) e (3,6,9) são:",
+      "alternativas": [
+        "Linearmente independentes",
+        "Linearmente dependentes",
+        "Ortogonais",
+        "Unitários"
+      ],
+      "resposta": "Linearmente dependentes",
+      "explicacao": "Todos são múltiplos de (1,2,3), logo são dependentes."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual condição caracteriza dependência linear?",
+      "alternativas": [
+        "Todos os vetores são diferentes",
+        "Existe combinação linear igual a zero com coeficientes não todos nulos",
+        "Os vetores têm módulo igual a 1",
+        "Os vetores são ortogonais"
+      ],
+      "resposta": "Existe combinação linear igual a zero com coeficientes não todos nulos",
+      "explicacao": "Essa é a definição formal de dependência linear."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Os vetores (1,1,0), (1,0,1) e (0,1,1) são:",
+      "alternativas": [
+        "Linearmente dependentes",
+        "Linearmente independentes",
+        "Paralelos",
+        "Colineares"
+      ],
+      "resposta": "Linearmente independentes",
+      "explicacao": "Nenhum dos vetores pode ser escrito como combinação dos outros dois. O sistema associado possui apenas a solução trivial, logo são independentes."
+    }
+  ]
+}
