@@ -1,0 +1,105 @@
+{
+  "id": "conceito_solucao_solubilidade",
+  "disciplina": "Química Geral I",
+  "assunto": "Soluções — Conceito de Solução e Solubilidade",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "As soluções são misturas homogêneas formadas por soluto e solvente, cuja solubilidade depende de fatores como temperatura, pressão e natureza das substâncias.",
+
+    "explicacao": "As soluções são misturas homogêneas constituídas por duas ou mais substâncias. Elas desempenham um papel fundamental na Química, na Biologia, na Medicina e em diversas aplicações industriais.\n\n---\n\nCONCEITO DE SOLUÇÃO:\n\nUma solução é formada por:\n\n✔ Soluto: substância dissolvida, geralmente em menor quantidade.\n✔ Solvente: substância que dissolve o soluto, geralmente em maior quantidade.\n\nExemplo:\n\nNaCl dissolvido em água.\n✔ Soluto: NaCl\n✔ Solvente: H₂O\n\n---\n\nCLASSIFICAÇÃO DAS SOLUÇÕES:\n\nQuanto ao estado físico:\n\n✔ Soluções sólidas: ligas metálicas, como o bronze.\n✔ Soluções líquidas: sal ou açúcar dissolvidos em água.\n✔ Soluções gasosas: o ar atmosférico.\n\nQuanto à concentração:\n\n✔ Solução diluída: pequena quantidade de soluto.\n✔ Solução concentrada: grande quantidade de soluto.\n✔ Solução saturada: contém a quantidade máxima de soluto dissolvido.\n✔ Solução insaturada: contém menos soluto que o limite de solubilidade.\n✔ Solução supersaturada: contém mais soluto que o limite de solubilidade.\n\n---\n\nSOLUBILIDADE:\n\nA solubilidade é a quantidade máxima de soluto que pode ser dissolvida em uma determinada quantidade de solvente, em condições específicas de temperatura e pressão.\n\nGeralmente é expressa em g de soluto por 100 g de solvente.\n\n---\n\nREGRA GERAL DE SOLUBILIDADE:\n\n\"Semelhante dissolve semelhante\".\n\n✔ Substâncias polares dissolvem substâncias polares.\n✔ Substâncias apolares dissolvem substâncias apolares.\n\n---\n\nFATORES QUE INFLUENCIAM A SOLUBILIDADE:\n\n1) Natureza do soluto e do solvente:\n✔ Compostos iônicos e polares dissolvem-se em solventes polares.\n\n2) Temperatura:\n✔ Para sólidos, a solubilidade geralmente aumenta com a temperatura.\n✔ Para gases, a solubilidade diminui com o aumento da temperatura.\n\n3) Pressão:\n✔ Afeta principalmente a solubilidade dos gases.\n✔ Descrita pela Lei de Henry.\n\n---\n\nLEI DE HENRY:\n\nA solubilidade de um gás em um líquido é diretamente proporcional à pressão exercida sobre ele.\n\n---\n\nCURVAS DE SOLUBILIDADE:\n\nAs curvas de solubilidade representam graficamente a variação da solubilidade em função da temperatura.\n\nInterpretação:\n\n✔ Abaixo da curva: solução insaturada.\n✔ Sobre a curva: solução saturada.\n✔ Acima da curva: solução supersaturada.\n\n---\n\nEXEMPLOS DO COTIDIANO:\n\n✔ Açúcar dissolvido em café.\n✔ Sal dissolvido em água.\n✔ Refrigerantes gaseificados.\n✔ Soro fisiológico.\n✔ Ligas metálicas utilizadas na indústria.\n\n---\n\nAPLICAÇÕES:\n\n✔ Preparação de medicamentos.\n✔ Indústria alimentícia.\n✔ Tratamento de água.\n✔ Processos químicos industriais.\n✔ Análises laboratoriais.\n\n---\n\nPASSO A PASSO PARA IDENTIFICAÇÃO:\n\n1) Identificar o soluto e o solvente.\n2) Verificar o estado físico da solução.\n3) Determinar o tipo de solução quanto à saturação.\n4) Avaliar os fatores que influenciam a solubilidade.\n5) Interpretar curvas de solubilidade, quando disponíveis.\n\n---\n\nDICAS IMPORTANTES:\n\n✔ A temperatura influencia a dissolução de sólidos e gases.\n✔ A pressão afeta principalmente os gases.\n✔ Nem todas as substâncias são solúveis em água.\n✔ Soluções supersaturadas são instáveis.\n✔ A polaridade é essencial para prever a solubilidade.\n\n---\n\nIDEIA CENTRAL:\n\nA solubilidade determina a capacidade de dissolução das substâncias e é fundamental para compreender fenômenos naturais e aplicações tecnológicas.",
+
+    "intuicao": "Uma substância se dissolve quando suas partículas interagem de forma favorável com as do solvente.",
+
+    "analogia": "Assim como o açúcar se dissolve no café, mas não no óleo, a solubilidade depende da compatibilidade entre as substâncias.",
+
+    "aplicacoes": [
+      "Preparação de soluções farmacêuticas",
+      "Produção de bebidas e alimentos",
+      "Tratamento de água e efluentes",
+      "Processos industriais químicos",
+      "Análises laboratoriais"
+    ],
+
+    "erros_comuns": [
+      "Confundir solução saturada com concentrada",
+      "Acreditar que todos os sólidos aumentam sua solubilidade com a temperatura",
+      "Ignorar a influência da pressão na solubilidade dos gases",
+      "Confundir dissolução com reação química",
+      "Interpretar incorretamente curvas de solubilidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma solução é definida como:",
+      "alternativas": [
+        "Uma mistura heterogênea",
+        "Uma mistura homogênea",
+        "Um composto puro",
+        "Uma substância simples"
+      ],
+      "resposta": "Uma mistura homogênea",
+      "explicacao": "As soluções são misturas homogêneas formadas por soluto e solvente."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma solução aquosa de NaCl, a água é o:",
+      "alternativas": [
+        "Soluto",
+        "Solvente",
+        "Catalisador",
+        "Reagente"
+      ],
+      "resposta": "Solvente",
+      "explicacao": "O solvente é a substância que dissolve o soluto."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma solução que contém a quantidade máxima de soluto dissolvido é denominada:",
+      "alternativas": [
+        "Diluída",
+        "Insaturada",
+        "Saturada",
+        "Supersaturada"
+      ],
+      "resposta": "Saturada",
+      "explicacao": "Uma solução saturada contém o máximo de soluto que pode ser dissolvido em determinadas condições."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator influencia principalmente a solubilidade dos gases em líquidos?",
+      "alternativas": [
+        "Volume",
+        "Pressão",
+        "Massa molar",
+        "Densidade"
+      ],
+      "resposta": "Pressão",
+      "explicacao": "De acordo com a Lei de Henry, a solubilidade dos gases aumenta com a pressão."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Segundo a regra \"semelhante dissolve semelhante\", qual substância é mais solúvel em benzeno (C₆H₆)?",
+      "alternativas": [
+        "NaCl",
+        "H₂O",
+        "CO₂",
+        "I₂"
+      ],
+      "resposta": "I₂",
+      "explicacao": "O benzeno é apolar; portanto, dissolve melhor substâncias apolares como o iodo (I₂)."
+    }
+  ]
+}
