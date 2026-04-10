@@ -3,16 +3,11 @@
   "disciplina": "Química Geral I",
   "assunto": "Radiação Eletromagnética e Quantização de Energia",
   "ordem": 9,
-
   "teoria": {
     "resumo": "Apresenta os conceitos fundamentais da radiação eletromagnética, suas propriedades e o princípio da quantização da energia, essenciais para a compreensão da estrutura eletrônica dos átomos.",
-
     "explicacao": "A radiação eletromagnética é uma forma de energia que se propaga pelo espaço na forma de ondas. Ela desempenha um papel fundamental na compreensão da estrutura atômica e do comportamento dos elétrons.\n\nAs ondas eletromagnéticas são caracterizadas por três grandezas principais:\n- Comprimento de onda (λ): distância entre dois picos consecutivos da onda.\n- Frequência (ν): número de oscilações por unidade de tempo.\n- Velocidade da luz (c): velocidade de propagação da radiação no vácuo.\n\nA relação entre essas grandezas é dada por:\n\nc = λν\n\nonde:\n- c = 3,0 × 10⁸ m/s\n- λ = comprimento de onda\n- ν = frequência\n\nO conjunto de todas as radiações eletromagnéticas constitui o espectro eletromagnético, que inclui:\n- Ondas de rádio\n- Micro-ondas\n- Infravermelho\n- Luz visível\n- Ultravioleta\n- Raios X\n- Raios gama\n\nA luz visível corresponde à faixa do espectro perceptível ao olho humano, variando do violeta ao vermelho.\n\nNo final do século XIX, a física clássica não conseguia explicar certos fenômenos, como a radiação do corpo negro. Em 1900, Max Planck propôs que a energia é emitida e absorvida em quantidades discretas chamadas quanta. Essa ideia deu origem ao conceito de quantização da energia.\n\nA energia de um quantum é dada pela equação:\n\nE = hν\n\nonde:\n- E é a energia\n- h é a constante de Planck (6,626 × 10⁻³⁴ J·s)\n- ν é a frequência da radiação\n\nPosteriormente, Albert Einstein aplicou esse conceito para explicar o efeito fotoelétrico, demonstrando que a luz possui natureza corpuscular e é composta por partículas chamadas fótons.\n\nA energia de um fóton também pode ser expressa como:\n\nE = hc/λ\n\nEsses conceitos foram fundamentais para o desenvolvimento da mecânica quântica e para a compreensão da estrutura eletrônica dos átomos, incluindo os espectros de emissão e absorção.\n\nO estudo da radiação eletromagnética possui diversas aplicações tecnológicas e científicas, como na espectroscopia, em exames médicos e em sistemas de telecomunicações.",
-
     "intuicao": "Quanto maior a frequência da radiação eletromagnética, maior é sua energia. Assim, radiações como os raios X possuem mais energia que a luz visível.",
-
     "analogia": "A quantização da energia pode ser comparada a uma escada: não é possível permanecer entre dois degraus. Da mesma forma, a energia é absorvida ou emitida em valores discretos.",
-
     "aplicacoes": [
       "Espectroscopia para identificação de elementos químicos.",
       "Radiografias médicas por meio de raios X.",
@@ -20,7 +15,6 @@
       "Transmissão de dados por rádio e micro-ondas.",
       "Esterilização de materiais com radiação ultravioleta."
     ],
-
     "erros_comuns": [
       "Confundir frequência com comprimento de onda.",
       "Acreditar que toda radiação eletromagnética é visível.",
@@ -29,82 +23,81 @@
       "Ignorar a relação inversa entre frequência e comprimento de onda."
     ]
   },
-
   "questoes": [
     {
       "id": "q1",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "Qual é a velocidade da luz no vácuo?",
-      "opcoes": [
+      "resposta": "3,0 × 10⁸ m/s",
+      "explicacao": "A velocidade da luz no vácuo é aproximadamente 3,0 × 10⁸ m/s.",
+      "alternativas": [
         "3,0 × 10⁶ m/s",
         "3,0 × 10⁸ m/s",
         "3,0 × 10¹⁰ m/s",
         "6,626 × 10⁻³⁴ m/s",
         "1,0 × 10⁸ m/s"
-      ],
-      "resposta": 1,
-      "explicacao": "A velocidade da luz no vácuo é aproximadamente 3,0 × 10⁸ m/s."
+      ]
     },
     {
       "id": "q2",
       "nivel": "facil",
       "tipo": "multipla_escolha",
       "pergunta": "A equação que relaciona a velocidade da luz, o comprimento de onda e a frequência é:",
-      "opcoes": [
+      "resposta": "c = λν",
+      "explicacao": "A equação c = λν relaciona a velocidade da luz com o comprimento de onda e a frequência.",
+      "alternativas": [
         "E = mc²",
         "c = λν",
         "PV = nRT",
         "E = hν",
         "F = ma"
-      ],
-      "resposta": 1,
-      "explicacao": "A equação c = λν relaciona a velocidade da luz com o comprimento de onda e a frequência."
+      ]
     },
     {
       "id": "q3",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Quem propôs que a energia é quantizada?",
-      "opcoes": [
+      "resposta": "Max Planck",
+      "explicacao": "Max Planck propôs que a energia é emitida em pacotes discretos chamados quanta.",
+      "alternativas": [
         "Isaac Newton",
         "Niels Bohr",
         "Max Planck",
         "Ernest Rutherford",
         "John Dalton"
-      ],
-      "resposta": 2,
-      "explicacao": "Max Planck propôs que a energia é emitida em pacotes discretos chamados quanta."
+      ]
     },
     {
       "id": "q4",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "Qual radiação possui maior energia?",
-      "opcoes": [
+      "resposta": "Raios gama",
+      "explicacao": "Os raios gama possuem maior frequência e, consequentemente, maior energia.",
+      "alternativas": [
         "Ondas de rádio",
         "Micro-ondas",
         "Luz visível",
         "Raios X",
         "Raios gama"
-      ],
-      "resposta": 4,
-      "explicacao": "Os raios gama possuem maior frequência e, consequentemente, maior energia."
+      ]
     },
     {
       "id": "q5",
       "nivel": "medio",
       "tipo": "multipla_escolha",
       "pergunta": "A energia de um fóton é calculada por:",
-      "opcoes": [
+      "resposta": "E = hν",
+      "explicacao": "A equação E = hν determina a energia de um fóton, onde h é a constante de Planck.",
+      "alternativas": [
         "E = mc²",
         "E = hν",
         "c = λν",
         "PV = nRT",
         "E = mgh"
-      ],
-      "resposta": 1,
-      "explicacao": "A equação E = hν determina a energia de um fóton, onde h é a constante de Planck."
+      ]
     }
   ]
 }
