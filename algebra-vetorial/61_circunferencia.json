@@ -1,0 +1,99 @@
+{
+  "id": "circunferencia",
+  "disciplina": "Algebra Vetorial e Geometria Analitica",
+  "assunto": "Circunferência",
+  "ordem": 61,
+
+  "teoria": {
+    "resumo": "Circunferência é o conjunto de pontos do plano que estão a uma mesma distância de um ponto fixo chamado centro.",
+
+    "explicacao": "Na geometria analítica, a circunferência é definida como o conjunto de todos os pontos que estão a uma distância fixa (raio) de um ponto fixo (centro).\n\nA equação reduzida da circunferência é:\n\n(x - a)² + (y - b)² = r²\n\nOnde:\n- (a, b) é o centro\n- r é o raio\n\nExemplo:\n(x - 2)² + (y - 3)² = 16\n\nCentro: (2,3)\nRaio: 4\n\nEquação geral:\n\nx² + y² + Dx + Ey + F = 0\n\nPara encontrar o centro e o raio a partir da equação geral, é necessário completar quadrados.\n\nExemplo:\nx² + y² - 4x - 6y + 9 = 0\n\nAgrupando:\n(x² - 4x) + (y² - 6y) = -9\n\nCompletando quadrados:\n(x - 2)² + (y - 3)² = 4\n\nCentro: (2,3)\nRaio: 2",
+
+    "intuicao": "Uma circunferência é como todos os pontos que estão igualmente distantes de um centro, formando um círculo perfeito.",
+
+    "analogia": "Imagine um compasso desenhando um círculo: a ponta fixa é o centro e o lápis gira mantendo sempre a mesma distância — isso gera a circunferência.",
+
+    "aplicacoes": [
+      "Modelagem de movimentos circulares na física",
+      "Computação gráfica e desenho de formas geométricas"
+    ],
+
+    "erros_comuns": [
+      "Confundir circunferência (linha) com círculo (região interna)",
+      "Errar o processo de completar quadrados ao transformar a equação geral"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na equação (x - 1)² + (y - 2)² = 9, qual é o raio?",
+      "alternativas": [
+        "1",
+        "2",
+        "3",
+        "9"
+      ],
+      "resposta": "3",
+      "explicacao": "O raio é a raiz de 9, ou seja, r = 3."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o centro da circunferência (x - 4)² + (y + 1)² = 16?",
+      "alternativas": [
+        "(4,1)",
+        "(4,-1)",
+        "(-4,1)",
+        "(-4,-1)"
+      ],
+      "resposta": "(4,-1)",
+      "explicacao": "A equação está na forma (x - a)² + (y - b)², então o centro é (4,-1)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a equação da circunferência de centro (0,0) e raio 5?",
+      "alternativas": [
+        "x² + y² = 5",
+        "x² + y² = 25",
+        "(x - 5)² + y² = 0",
+        "x² + y² = 10"
+      ],
+      "resposta": "x² + y² = 25",
+      "explicacao": "A equação é x² + y² = r², então r² = 25."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A equação x² + y² - 2x - 4y + 4 = 0 representa uma circunferência de centro:",
+      "alternativas": [
+        "(1,2)",
+        "(-1,-2)",
+        "(2,1)",
+        "(0,0)"
+      ],
+      "resposta": "(1,2)",
+      "explicacao": "Completando quadrados: (x-1)² + (y-2)² = 1, então o centro é (1,2)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o raio da circunferência dada por x² + y² + 6x - 8y + 9 = 0?",
+      "alternativas": [
+        "5",
+        "3",
+        "√10",
+        "4"
+      ],
+      "resposta": "4",
+      "explicacao": "Completando quadrados: (x+3)² + (y-4)² = 16, então o raio é 4."
+    }
+  ]
+}
