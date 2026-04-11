@@ -24,7 +24,7 @@
     <div class="space-y-4">
       <!-- Campos para login -->
       <div id="loginFields">
-        <input id="username" name="username" type="text" autocomplete="username" placeholder="Nome de usuário ou email" class="w-full p-4 rounded-xl border-2 border-gray-200 focus:border-raio focus:outline-none transition-colors">
+        <input id="username" name="username" type="email" autocomplete="email" placeholder="Email" class="w-full p-4 rounded-xl border-2 border-gray-200 focus:border-raio focus:outline-none transition-colors">
       </div>
 
       <!-- Campo adicional para criar conta -->
@@ -53,7 +53,7 @@
       <button id="btnCriarConta" onclick="if(window.mostrarCriarConta) window.mostrarCriarConta(); else alert('Sistema ainda carregando...')" class="w-full bg-raio hover:bg-yellow-400 text-black p-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-user-plus mr-2"></i>Criar Usuário
       </button>
-      <p class="text-sm text-gray-500 text-center">Escolha usuário/senha com cadastro por email, ou use Google para criar conta e entrar direto com usuário aleatório.</p>
+      <p class="text-sm text-gray-500 text-center">Entre com email e senha ou clique em Google para login rápido.</p>
       <button id="btnVoltarLogin" onclick="if(window.mostrarLogin) window.mostrarLogin(); else alert('Sistema ainda carregando...')" class="hidden w-full bg-gray-500 hover:bg-gray-600 text-white p-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-arrow-left mr-2"></i>Voltar ao Login
       </button>
@@ -253,75 +253,6 @@
   background: #eff6ff;
 }
 </style>
-
-<script>
-// Função para detectar se o input é de um usuário Google e ajustar a interface
-async function verificarTipoUsuario() {
-  const input = document.getElementById("username").value.trim();
-  const passwordField = document.getElementById("passwordField");
-  const passwordInput = document.getElementById("password");
-
-  if (!input || !window.db) return;
-
-  try {
-    let isGoogleUser = false;
-
-    // Primeiro tentar como username
-    const usernameRef = window.doc ? window.doc(window.db, 'usernames', input) : null;
-    if (usernameRef) {
-      const usernameSnap = await window.getDoc(usernameRef);
-      if (usernameSnap.exists()) {
-        isGoogleUser = usernameSnap.data().provider === 'google';
-      }
-    }
-
-    // Se não encontrou como username, verificar se é email
-    if (!isGoogleUser) {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (emailRegex.test(input)) {
-        const googleUserQuery = window.query && window.collection && window.where ?
-          window.query(
-            window.collection(window.db, 'usernames'),
-            window.where('email', '==', input),
-            window.where('provider', '==', 'google')
-          ) : null;
-
-        if (googleUserQuery) {
-          const googleUserSnap = await window.getDocs(googleUserQuery);
-          isGoogleUser = !googleUserSnap.empty;
-        }
-      }
-    }
-
-    // Ajustar interface baseado no tipo de usuário
-    if (isGoogleUser) {
-      passwordField.style.display = 'none';
-      passwordInput.required = false;
-      passwordInput.value = ''; // Limpar senha se estava preenchida
-      document.getElementById("password").placeholder = "Usuários Google não precisam de senha";
-    } else {
-      passwordField.style.display = 'block';
-      passwordInput.required = true;
-      document.getElementById("password").placeholder = "Senha";
-    }
-  } catch (error) {
-    console.error("Erro ao verificar tipo de usuário:", error);
-    // Em caso de erro, mostrar campo de senha por segurança
-    passwordField.style.display = 'block';
-    passwordInput.required = true;
-    document.getElementById("password").placeholder = "Senha";
-  }
-}
-
-// Adicionar listener para detectar mudanças no campo username
-document.addEventListener('DOMContentLoaded', function() {
-  const usernameInput = document.getElementById("username");
-  if (usernameInput) {
-    usernameInput.addEventListener('input', verificarTipoUsuario);
-    usernameInput.addEventListener('blur', verificarTipoUsuario);
-  }
-});
-</script>
 
 <script type="module" src="main.js"></script>
 </body>

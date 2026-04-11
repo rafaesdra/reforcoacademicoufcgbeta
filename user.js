@@ -108,7 +108,7 @@ async function criarUsuario(){
 
     console.log("Salvando mapeamento nome -> email...");
     try {
-      await setDoc(usernameRef, { email: email, uid: user.uid });
+      await setDoc(usernameRef, { email: email, uid: user.uid, provider: 'email' });
       console.log("Mapeamento salvo.");
     } catch(error) {
       console.error("Erro ao salvar mapeamento:", error);
@@ -126,7 +126,8 @@ async function criarUsuario(){
         ultimaData: null,
         progresso: {},
         id: user.uid,
-        emailVerificado: false
+        emailVerificado: false,
+        provider: 'email'
       };
       await setDoc(doc(window.db, 'usuarios', user.uid), userData);
       console.log("Dados do usuário salvos.");
@@ -170,11 +171,17 @@ async function loginUsuario(){
       return;
     }
 
-    let input = document.getElementById("username").value.trim();
-    let senha = document.getElementById("password").value.trim();
+    const email = document.getElementById("username").value.trim().toLowerCase();
+    const senha = document.getElementById("password").value.trim();
 
-    if(!input) {
-      document.getElementById("loginMsg").innerText="Preencha nome de usuário ou email.";
+    if(!email) {
+      document.getElementById("loginMsg").innerText="Preencha seu email.";
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      document.getElementById("loginMsg").innerText="Email inválido.";
       return;
     }
 
@@ -190,92 +197,6 @@ async function loginUsuario(){
       return;
     }
 
-    let email = input;
-    let isGoogleUser = false;
-
-    console.log("🔍 Verificando se é um username...");
-
-    // Primeiro tentar como username
-    const usernameRef = doc(window.db, 'usernames', input);
-    const usernameSnap = await getDoc(usernameRef);
-
-    if(usernameSnap.exists()){
-      // É um username válido
-      email = usernameSnap.data().email;
-      isGoogleUser = usernameSnap.data().provider === 'google';
-      console.log("✅ Login via username:", input, "-> email:", email, "Google user:", isGoogleUser);
-    } else {
-      // Não é username, verificar se é email válido
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(input)) {
-        document.getElementById("loginMsg").innerText="Nome de usuário não encontrado ou email inválido.";
-        console.log("❌ Input não é username nem email válido:", input);
-        return;
-      }
-
-      // Verificar se é um usuário Google pelo email
-      const googleUserQuery = query(
-        collection(window.db, 'usernames'),
-        where('email', '==', input),
-        where('provider', '==', 'google')
-      );
-      const googleUserSnap = await getDocs(googleUserQuery);
-      isGoogleUser = !googleUserSnap.empty;
-
-      console.log("📧 Login via email direto:", input, "Google user:", isGoogleUser);
-    }
-
-    console.log("📝 Input fornecido:", input ? "presente" : "ausente");
-    console.log("🔑 Senha fornecida:", senha ? "presente" : "ausente");
-
-    if(!input) {
-      document.getElementById("loginMsg").innerText="Preencha nome de usuário ou email.";
-      return;
-    }
-
-    if(!window.auth) {
-      document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado.";
-      console.error("❌ Firebase Auth não está disponível");
-      return;
-    }
-
-    if(!window.db) {
-      document.getElementById("loginMsg").innerText="Erro: Firestore não inicializado.";
-      console.error("❌ Firestore não está disponível");
-      return;
-    }
-
-    // Para usuários Google, não precisa de senha
-    if (isGoogleUser) {
-      if (senha) {
-        document.getElementById("loginMsg").innerText="Usuários do Google não precisam de senha. Clique em 'Entrar com Google' ou use apenas o username/email.";
-        return;
-      }
-
-      // Fazer sign-in anônimo temporário ou usar uma abordagem diferente
-      // Como usuários Google já estão autenticados no Firebase Auth,
-      // vamos buscar o usuário atual
-      const currentUser = window.auth.currentUser;
-      if (!currentUser || currentUser.email !== email) {
-        document.getElementById("loginMsg").innerText="Para usuários do Google, clique em 'Entrar com Google' para fazer login.";
-        return;
-      }
-
-      // Usuário Google já autenticado, carregar dados
-      const userRef = doc(window.db, 'usuarios', currentUser.uid);
-      const userSnap = await getDoc(userRef);
-
-      if(!userSnap.exists()){
-        document.getElementById("loginMsg").innerText="Dados do usuário não encontrados. Tente fazer login com Google novamente.";
-        return;
-      }
-
-      const userData = userSnap.data();
-      definirUsuarioAtivo({id: currentUser.uid, ...userData});
-      return;
-    }
-
-    // Para usuários tradicionais, senha é obrigatória
     if(!senha) {
       document.getElementById("loginMsg").innerText="Preencha a senha.";
       console.log("❌ Senha não fornecida");
@@ -284,7 +205,6 @@ async function loginUsuario(){
 
     console.log("🔐 Fazendo login com Firebase Auth para email:", email);
 
-    // Fazer login com Firebase Auth usando o email encontrado
     const userCredential = await signInWithEmailAndPassword(window.auth, email, senha);
     const user = userCredential.user;
 
@@ -344,10 +264,8 @@ async function loginUsuario(){
     console.error("Mensagem do erro:", error.message);
 
     let msg = "Erro ao fazer login.";
-    if(error.code === 'auth/user-not-found') {
-      msg = "Usuário não encontrado.";
-    } else if(error.code === 'auth/wrong-password') {
-      msg = "Senha incorreta.";
+    if(error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+      msg = "Email ou senha incorretos. Se você usa login via Google, clique em 'Entrar com Google'.";
     } else if(error.code === 'auth/invalid-email') {
       msg = "Email inválido.";
     } else if(error.code === 'auth/quota-exceeded') {
@@ -1060,13 +978,6 @@ function mostrarCriarConta(){
   document.getElementById("createFields").classList.remove("hidden");
   document.getElementById("confirmPasswordField").classList.remove("hidden");
   document.getElementById("btnVoltarLogin").classList.remove("hidden");
-  
-  // Preencher displayName com o valor de username se estiver preenchido e o campo estiver vazio
-  const usernameValue = document.getElementById("username").value.trim();
-  const displayNameField = document.getElementById("displayName");
-  if (usernameValue && !displayNameField.value.trim()) {
-    displayNameField.value = usernameValue;
-  }
   
   // Esconder o botão de login no modo de criação de conta
   const btnEntrar = document.getElementById('btnEntrar');

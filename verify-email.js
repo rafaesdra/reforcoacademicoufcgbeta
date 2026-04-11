@@ -1,4 +1,5 @@
 import { auth } from './firebase-init.js';
+import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
 import { reenviarEmail, verificarEmailAtual } from './auth.js';
 
 const btnResend = document.getElementById('btnResendEmail');
@@ -31,7 +32,7 @@ async function atualizarInterface() {
   }
 
   setLoading(true);
-  auth.onAuthStateChanged((userState) => {
+  onAuthStateChanged(auth, (userState) => {
     setLoading(false);
     if (userState && userState.email) {
       emailText.innerText = userState.email;
