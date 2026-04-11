@@ -1,0 +1,99 @@
+{
+  "id": "fisica_colisoes",
+  "disciplina": "Física Geral 1",
+  "assunto": "Colisões",
+  "ordem": 21,
+
+  "teoria": {
+    "resumo": "Colisões são interações entre corpos onde há troca de momento e, dependendo do tipo, de energia.",
+
+    "explicacao": "Colisões ocorrem quando dois ou mais corpos interagem por um curto intervalo de tempo, exercendo forças entre si.\n\nDurante uma colisão, o momento linear total do sistema é sempre conservado (se o sistema for isolado).\n\nTipos de colisões:\n\n1) Colisão elástica:\n- Conserva momento linear\n- Conserva energia cinética\n\n2) Colisão inelástica:\n- Conserva momento linear\n- Parte da energia cinética é transformada em outras formas (calor, som, deformação)\n\n3) Colisão perfeitamente inelástica:\n- Os corpos permanecem juntos após a colisão\n- Máxima perda de energia cinética\n\nEquação geral da conservação do momento:\n\nm1·v1 + m2·v2 = m1·v1' + m2·v2'\n\nExemplo:\nDois corpos colidem e ficam juntos:\n\nm1·v1 + m2·v2 = (m1 + m2)·v\n\nEsse tipo de análise é essencial para estudar impactos e movimentos após colisões.",
+
+    "intuicao": "Quando objetos colidem, eles trocam movimento entre si.",
+
+    "analogia": "É como bolas de sinuca: ao colidir, uma transfere movimento para a outra.",
+
+    "aplicacoes": [
+      "Análise de acidentes de trânsito",
+      "Estudo de interações em esportes e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Achar que energia sempre se conserva nas colisões",
+      "Esquecer que o momento sempre se conserva em sistemas isolados"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que sempre se conserva em uma colisão (sem forças externas)?",
+      "alternativas": [
+        "Energia cinética",
+        "Velocidade",
+        "Momento linear",
+        "Aceleração"
+      ],
+      "resposta": "Momento linear",
+      "explicacao": "O momento linear total sempre se conserva em sistemas isolados."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em qual tipo de colisão a energia cinética é conservada?",
+      "alternativas": [
+        "Inelástica",
+        "Perfeitamente inelástica",
+        "Elástica",
+        "Nenhuma"
+      ],
+      "resposta": "Elástica",
+      "explicacao": "Somente nas colisões elásticas a energia cinética se conserva."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois corpos ficam unidos após a colisão. Que tipo de colisão ocorreu?",
+      "alternativas": [
+        "Elástica",
+        "Inelástica",
+        "Perfeitamente inelástica",
+        "Parcial"
+      ],
+      "resposta": "Perfeitamente inelástica",
+      "explicacao": "Nesse tipo, os corpos permanecem juntos após a colisão."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 2 kg a 3 m/s colide com outro de 1 kg em repouso e ficam juntos. Qual é a velocidade final?",
+      "alternativas": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "resposta": "2 m/s",
+      "explicacao": "p = 2×3 = 6. Massa total = 3 kg. v = 6/3 = 2 m/s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma colisão, observa-se perda de energia cinética. O que podemos afirmar?",
+      "alternativas": [
+        "O momento não se conserva",
+        "A colisão é elástica",
+        "A colisão é inelástica",
+        "Não há interação"
+      ],
+      "resposta": "A colisão é inelástica",
+      "explicacao": "Se há perda de energia cinética, a colisão não é elástica."
+    }
+  ]
+}
