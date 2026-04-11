@@ -1,0 +1,99 @@
+{
+  "id": "fisica_orbitas",
+  "disciplina": "Física Geral 1",
+  "assunto": "Gravitação - Órbitas",
+  "ordem": 34,
+
+  "teoria": {
+    "resumo": "Órbitas são trajetórias de corpos sob a ação da gravidade de outro corpo mais massivo.",
+
+    "explicacao": "Órbitas ocorrem quando um corpo se move sob a influência da gravidade de outro corpo, mantendo um movimento contínuo ao redor dele.\n\nA força gravitacional atua como força centrípeta:\n\nF = m · v² / r = G · (M · m) / r²\n\nDaí podemos obter a velocidade orbital:\n\nv = √(G · M / r)\n\nCaracterísticas das órbitas:\n\n- Podem ser circulares ou elípticas\n- Quanto maior a distância, menor a velocidade orbital\n\nPeríodo orbital (tempo de uma volta):\n\nT² ∝ r³ (Lei de Kepler)\n\nTipos de órbitas:\n\n- Órbita circular: raio constante\n- Órbita elíptica: distância varia ao longo da trajetória\n\nExemplo:\nSatélites artificiais orbitam a Terra devido ao equilíbrio entre velocidade tangencial e força gravitacional.\n\nSe a velocidade for muito pequena → o corpo cai\nSe for muito grande → escapa da órbita\n\nEsse conceito é fundamental para entender planetas, satélites e missões espaciais.",
+
+    "intuicao": "Órbita é o resultado de cair continuamente ao redor de um corpo sem nunca atingir sua superfície.",
+
+    "analogia": "É como lançar uma pedra com velocidade suficiente: ela continua 'caindo', mas ao redor da Terra.",
+
+    "aplicacoes": [
+      "Satélites artificiais e GPS",
+      "Movimento de planetas e luas"
+    ],
+
+    "erros_comuns": [
+      "Achar que não há gravidade no espaço",
+      "Confundir velocidade orbital com velocidade de escape"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que mantém um satélite em órbita?",
+      "alternativas": [
+        "A ausência de gravidade",
+        "A força gravitacional",
+        "A força do vento",
+        "A energia térmica"
+      ],
+      "resposta": "A força gravitacional",
+      "explicacao": "A gravidade fornece a força centrípeta necessária."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a distância orbital aumenta, a velocidade do satélite:",
+      "alternativas": [
+        "Aumenta",
+        "Permanece igual",
+        "Diminui",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "v = √(GM/r), então maior r implica menor v."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a forma mais comum das órbitas planetárias?",
+      "alternativas": [
+        "Circular",
+        "Elíptica",
+        "Quadrada",
+        "Irregular"
+      ],
+      "resposta": "Elíptica",
+      "explicacao": "Segundo Kepler, as órbitas são elipses."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a velocidade de um satélite diminuir muito, o que acontece?",
+      "alternativas": [
+        "Ele escapa",
+        "Ele permanece em órbita",
+        "Ele cai",
+        "Ele para"
+      ],
+      "resposta": "Ele cai",
+      "explicacao": "Sem velocidade suficiente, a gravidade faz o satélite cair."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o raio orbital de um planeta dobra, seu período orbital:",
+      "alternativas": [
+        "Dobra",
+        "Triplica",
+        "Aumenta mais que o dobro",
+        "Permanece igual"
+      ],
+      "resposta": "Aumenta mais que o dobro",
+      "explicacao": "Pela 3ª lei de Kepler: T² ∝ r³, então T cresce mais que proporcionalmente."
+    }
+  ]
+}
