@@ -1,0 +1,99 @@
+{
+  "id": "fisica_gravitacao_universal",
+  "disciplina": "Física Geral 1",
+  "assunto": "Gravitação - Lei da Gravitação Universal",
+  "ordem": 31,
+
+  "teoria": {
+    "resumo": "A Lei da Gravitação Universal descreve a força de atração entre dois corpos com massa.",
+
+    "explicacao": "A Lei da Gravitação Universal, proposta por Newton, afirma que todos os corpos com massa se atraem mutuamente.\n\nA fórmula é:\n\nF = G · (m1 · m2) / r²\n\nOnde:\n- F é a força gravitacional (N)\n- G é a constante gravitacional (6,67 × 10⁻¹¹ N·m²/kg²)\n- m1 e m2 são as massas dos corpos (kg)\n- r é a distância entre os centros de massa (m)\n\nCaracterísticas importantes:\n\n- A força é sempre atrativa\n- Aumenta com as massas\n- Diminui com o quadrado da distância\n\nExemplo:\nA atração entre a Terra e a Lua mantém a Lua em órbita.\n\nRelação com o peso:\n\nP = m · g\n\nEssa equação é um caso particular da gravitação universal aplicada à Terra.\n\nEsse conceito é essencial para entender órbitas, planetas e satélites.",
+
+    "intuicao": "Todo objeto com massa atrai outro, mesmo que a força seja muito pequena.",
+
+    "analogia": "É como se todos os objetos puxassem uns aos outros com uma força invisível.",
+
+    "aplicacoes": [
+      "Movimento de planetas e satélites",
+      "Cálculo de órbitas e missões espaciais"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que a força depende de 1/r²",
+      "Achar que a gravidade só existe na Terra"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A força gravitacional entre dois corpos é sempre:",
+      "alternativas": [
+        "Repulsiva",
+        "Nula",
+        "Atrativa",
+        "Variável"
+      ],
+      "resposta": "Atrativa",
+      "explicacao": "A gravidade sempre atua como força de atração."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a distância entre dois corpos dobra, a força gravitacional:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Cai pela metade",
+        "Diminui por um fator de 4"
+      ],
+      "resposta": "Diminui por um fator de 4",
+      "explicacao": "Como F ∝ 1/r², dobrar r reduz F em 4 vezes."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se uma das massas dobra, o que acontece com a força gravitacional?",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Dobra",
+        "Quadruplica"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "A força é diretamente proporcional à massa."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade da constante gravitacional G?",
+      "alternativas": [
+        "N/kg",
+        "m/s²",
+        "N·m²/kg²",
+        "kg·m/s"
+      ],
+      "resposta": "N·m²/kg²",
+      "explicacao": "Essa é a unidade no Sistema Internacional."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois corpos têm massas m e 2m e estão separados por distância r. Qual será a nova força se a distância passar a ser 2r?",
+      "alternativas": [
+        "F",
+        "2F",
+        "F/2",
+        "F/4"
+      ],
+      "resposta": "F/2",
+      "explicacao": "Nova força = G·(m·2m)/(2r)² = 2Gm²/4r² = (1/2)(Gm²/r²) = F/2."
+    }
+  ]
+}
