@@ -1,8 +1,11 @@
 // user.js - Gerenciamento de usuários, login e progresso
 import { collection, doc, setDoc, getDoc, getDocs, updateDoc, query, orderBy, where } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendEmailVerification, reload, GoogleAuthProvider, signInWithPopup } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
+import { actionCodeSettings, usuarioVerificado, reenviarEmail } from './auth.js';
+import './firebase-init.js';
 let usuarioAtivo = null;
 let metaDiaria = 5;
+let criandoUsuario = false;
 
 function normalizarUsuario(usuario = {}){
   let respondidas = usuario.questoesRespondidas;
@@ -30,20 +33,31 @@ function normalizarUsuario(usuario = {}){
 }
 
 // === USUÁRIOS / LOGIN ===
-async function carregarUsuarios(){
-  // Not needed for Firestore
-}
-
 async function criarUsuario(){
+  if (criandoUsuario) {
+    console.log("Já existe uma criação de usuário em andamento.");
+    return;
+  }
+
+  const btnCriar = document.getElementById('btnCriarConta');
+  if (btnCriar) {
+    btnCriar.disabled = true;
+  }
+  criandoUsuario = true;
+
+  console.log("Iniciando criação de usuário...");
+  console.log("Firebase Auth inicializado:", !!window.auth);
+  console.log("Firestore inicializado:", !!window.db);
+
   try {
     let displayName = document.getElementById("displayName").value.trim();
     let email = document.getElementById("userEmail").value.trim();
     let senha = document.getElementById("password").value.trim();
     let confirmSenha = document.getElementById("confirmPassword").value.trim();
-    
-    if(!displayName || !email || !senha || !confirmSenha){ 
-      document.getElementById("loginMsg").innerText="Preencha nome, email, senha e confirmação de senha."; 
-      return; 
+
+    if(!displayName || !email || !senha || !confirmSenha){
+      document.getElementById("loginMsg").innerText="Preencha nome, email, senha e confirmação de senha.";
+      return;
     }
     if(senha !== confirmSenha) {
       document.getElementById("loginMsg").innerText="As senhas não coincidem.";
@@ -57,36 +71,73 @@ async function criarUsuario(){
 
     if(!window.auth) { document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado."; return; }
 
-    // Verificar se nome de usuário já existe (verificação extra)
-    const usernameRef = doc(window.db, 'usernames', displayName);
-    const usernameSnap = await getDoc(usernameRef);
-    if(usernameSnap.exists()){
-      document.getElementById("loginMsg").innerText="Este nome de usuário já está em uso.";
+    // Verificar se o email já existe em outra conta
+    const emailQuery = query(collection(window.db, 'usernames'), where('email', '==', email));
+    const emailSnap = await getDocs(emailQuery);
+    if (!emailSnap.empty) {
+      document.getElementById("loginMsg").innerText = "Este email já está vinculado a outra conta.";
       return;
     }
 
-    // Criar usuário no Firebase Auth
+    const usernameRef = doc(window.db, 'usernames', displayName);
+    console.log("Verificando se nome de usuário já existe...");
+    try {
+      const usernameSnap = await getDoc(usernameRef);
+      if(usernameSnap.exists()){
+        document.getElementById("loginMsg").innerText="Este nome de usuário já está em uso.";
+        console.log("Nome de usuário já existe:", displayName);
+        return;
+      }
+      console.log("Nome de usuário disponível:", displayName);
+    } catch(error) {
+      console.error("Erro ao verificar nome de usuário:", error);
+      document.getElementById("loginMsg").innerText="Erro ao verificar disponibilidade do nome. Tente novamente.";
+      return;
+    }
+
     const userCredential = await createUserWithEmailAndPassword(window.auth, email, senha);
     const user = userCredential.user;
+    console.log("Usuário criado no Auth:", user.uid);
 
-    // Salvar mapeamento nome de usuário -> email
-    await setDoc(usernameRef, { email: email, uid: user.uid });
+    try {
+      await sendEmailVerification(user);
+      console.log("Email de verificação enviado.");
+    } catch(error) {
+      console.error("Erro ao enviar email de verificação:", error);
+    }
 
-    // Criar documento no Firestore com dados adicionais
-    const userData = {
-      email: email,
-      nome: displayName,
-      xp: 0,
-      streak: 0,
-      ultimaData: null,
-      progresso: {},
-      id: user.uid // Salva o ID no documento também para consistência
-    };
-    await setDoc(doc(window.db, 'usuarios', user.uid), userData);
+    console.log("Salvando mapeamento nome -> email...");
+    try {
+      await setDoc(usernameRef, { email: email, uid: user.uid });
+      console.log("Mapeamento salvo.");
+    } catch(error) {
+      console.error("Erro ao salvar mapeamento:", error);
+      document.getElementById("loginMsg").innerText="Erro ao salvar dados do usuário. Conta criada, mas tente fazer login.";
+      return;
+    }
 
-    document.getElementById("loginMsg").innerText="Usuário criado! Agora faça login.";
-    // Voltar para tela de login após criar conta
-    mostrarLogin();
+    console.log("Salvando dados do usuário no Firestore...");
+    try {
+      const userData = {
+        email: email,
+        nome: displayName,
+        xp: 0,
+        streak: 0,
+        ultimaData: null,
+        progresso: {},
+        id: user.uid,
+        emailVerificado: false
+      };
+      await setDoc(doc(window.db, 'usuarios', user.uid), userData);
+      console.log("Dados do usuário salvos.");
+    } catch(error) {
+      console.error("Erro ao salvar dados do usuário:", error);
+      document.getElementById("loginMsg").innerText="Erro ao salvar dados do usuário. Conta criada, mas tente fazer login.";
+      return;
+    }
+
+    window.location.href = '/verificar-email.html';
+    return;
   } catch(error) {
     console.error("Erro ao criar usuário:", error);
     let msg = "Erro ao criar usuário.";
@@ -96,37 +147,115 @@ async function criarUsuario(){
       msg = "A senha deve ter pelo menos 6 caracteres.";
     } else if(error.code === 'auth/invalid-email') {
       msg = "Email inválido.";
+    } else if(error.code) {
+      msg += " Código: " + error.code;
     }
     document.getElementById("loginMsg").innerText = msg;
+  } finally {
+    criandoUsuario = false;
+    if (btnCriar) {
+      btnCriar.disabled = false;
+    }
   }
 }
 
 async function loginUsuario(){
   try {
-    let username = document.getElementById("username").value.trim();
+    let input = document.getElementById("username").value.trim();
     let senha = document.getElementById("password").value.trim();
 
-    if(!username || !senha) {
-      document.getElementById("loginMsg").innerText="Preencha nome de usuário e senha.";
+    if(!input) {
+      document.getElementById("loginMsg").innerText="Preencha nome de usuário ou email.";
       return;
     }
 
     if(!window.auth) { document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado."; return; }
 
-    // Buscar email pelo nome de usuário
-    const usernameRef = doc(window.db, 'usernames', username);
+    let email = input;
+    let isGoogleUser = false;
+
+    // Primeiro tentar como username
+    const usernameRef = doc(window.db, 'usernames', input);
     const usernameSnap = await getDoc(usernameRef);
 
-    if(!usernameSnap.exists()){
-      document.getElementById("loginMsg").innerText="Nome de usuário não encontrado.";
+    if(usernameSnap.exists()){
+      // É um username válido
+      email = usernameSnap.data().email;
+      isGoogleUser = usernameSnap.data().provider === 'google';
+      console.log("Login via username:", input, "-> email:", email, "Google user:", isGoogleUser);
+    } else {
+      // Não é username, verificar se é email válido
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(input)) {
+        document.getElementById("loginMsg").innerText="Nome de usuário não encontrado ou email inválido.";
+        return;
+      }
+
+      // Verificar se é um usuário Google pelo email
+      const googleUserQuery = query(
+        collection(window.db, 'usernames'),
+        where('email', '==', input),
+        where('provider', '==', 'google')
+      );
+      const googleUserSnap = await getDocs(googleUserQuery);
+      isGoogleUser = !googleUserSnap.empty;
+
+      console.log("Login via email direto:", input, "Google user:", isGoogleUser);
+    }
+
+    // Para usuários Google, não precisa de senha
+    if (isGoogleUser) {
+      if (senha) {
+        document.getElementById("loginMsg").innerText="Usuários do Google não precisam de senha. Clique em 'Entrar com Google' ou use apenas o username/email.";
+        return;
+      }
+
+      // Fazer sign-in anônimo temporário ou usar uma abordagem diferente
+      // Como usuários Google já estão autenticados no Firebase Auth,
+      // vamos buscar o usuário atual
+      const currentUser = window.auth.currentUser;
+      if (!currentUser || currentUser.email !== email) {
+        document.getElementById("loginMsg").innerText="Para usuários do Google, clique em 'Entrar com Google' para fazer login.";
+        return;
+      }
+
+      // Usuário Google já autenticado, carregar dados
+      const userRef = doc(window.db, 'usuarios', currentUser.uid);
+      const userSnap = await getDoc(userRef);
+
+      if(!userSnap.exists()){
+        document.getElementById("loginMsg").innerText="Dados do usuário não encontrados. Tente fazer login com Google novamente.";
+        return;
+      }
+
+      const userData = userSnap.data();
+      definirUsuarioAtivo({id: currentUser.uid, ...userData});
       return;
     }
 
-    const email = usernameSnap.data().email;
+    // Para usuários tradicionais, senha é obrigatória
+    if(!senha) {
+      document.getElementById("loginMsg").innerText="Preencha a senha.";
+      return;
+    }
 
     // Fazer login com Firebase Auth usando o email encontrado
     const userCredential = await signInWithEmailAndPassword(window.auth, email, senha);
     const user = userCredential.user;
+
+    if (!user.emailVerified) {
+      document.getElementById("loginMsg").innerText="Verifique seu email antes de fazer login. Um novo link foi enviado.";
+      try {
+        await sendEmailVerification(user, actionCodeSettings);
+      } catch(error) {
+        console.error("Erro ao reenviar email de verificação:", error);
+      }
+      window.location.href = '/verificar-email.html';
+      return;
+    }
+
+    // Esconder botão de reenviar se estava visível
+    document.getElementById("btnReenviarVerificacao").classList.add("hidden");
 
     // Carregar dados do usuário do Firestore
     const userRef = doc(window.db, 'usuarios', user.uid);
@@ -137,7 +266,13 @@ async function loginUsuario(){
       return;
     }
 
-    definirUsuarioAtivo({id: user.uid, ...userSnap.data()});
+    // Atualizar status de verificação no Firestore se necessário
+    const userData = userSnap.data();
+    if (!userData.emailVerificado) {
+      await updateDoc(userRef, { emailVerificado: true });
+    }
+
+    definirUsuarioAtivo({id: user.uid, ...userData, emailVerificado: true});
     // mostrarDashboard() será chamado pelo onAuthStateChanged no main.js
   } catch(error) {
     console.error("Erro ao fazer login:", error);
@@ -150,6 +285,111 @@ async function loginUsuario(){
       msg = "Email inválido.";
     }
     document.getElementById("loginMsg").innerText = msg;
+  }
+}
+
+async function loginComGoogle(){
+  try {
+    if(!window.auth) {
+      document.getElementById("loginMsg").innerText = "Erro: Firebase Auth não inicializado.";
+      return;
+    }
+
+    const provider = new GoogleAuthProvider();
+    const result = await signInWithPopup(window.auth, provider);
+    const user = result.user;
+
+    if(!user) {
+      document.getElementById("loginMsg").innerText = "Não foi possível autenticar com Google.";
+      return;
+    }
+
+    const email = user.email || '';
+    const existingEmailQuery = query(collection(window.db, 'usernames'), where('email', '==', email));
+    const existingEmailSnap = await getDocs(existingEmailQuery);
+    if (!existingEmailSnap.empty) {
+      const existingData = existingEmailSnap.docs[0].data();
+      if (existingData.provider !== 'google' || existingData.uid !== user.uid) {
+        document.getElementById("loginMsg").innerText = "Este email já está cadastrado com outro método. Use login por email e senha ou vincule o Google à conta existente.";
+        return;
+      }
+    }
+
+    // Criar username automático baseado no displayName
+    const baseUsername = (user.displayName || user.email.split('@')[0] || 'usuario').toLowerCase()
+      .replace(/[^a-z0-9]/g, '') // Remove caracteres especiais
+      .substring(0, 20); // Limita tamanho
+
+    let username = baseUsername;
+    let counter = 1;
+
+    // Verificar se username já existe e criar versão única se necessário
+    while (true) {
+      const usernameRef = doc(window.db, 'usernames', username);
+      const usernameSnap = await getDoc(usernameRef);
+
+      if (!usernameSnap.exists()) {
+        break; // Username disponível
+      }
+
+      // Se já existe mas é do mesmo usuário, está ok
+      if (usernameSnap.data().uid === user.uid) {
+        break;
+      }
+
+      // Criar novo username com contador
+      username = `${baseUsername}${counter}`;
+      counter++;
+
+      if (counter > 100) { // Prevenção de loop infinito
+        username = `${baseUsername}_${Date.now()}`;
+        break;
+      }
+    }
+
+    // Salvar mapeamento username -> email/uid
+    const usernameRef = doc(window.db, 'usernames', username);
+    await setDoc(usernameRef, {
+      email: user.email,
+      uid: user.uid,
+      provider: 'google'
+    });
+
+    const userRef = doc(window.db, 'usuarios', user.uid);
+    const userSnap = await getDoc(userRef);
+    const userData = {
+      id: user.uid,
+      nome: user.displayName || 'Usuário Google',
+      email: user.email || '',
+      username: username, // Salvar username para referência
+      xp: userSnap.exists() ? userSnap.data().xp || 0 : 0,
+      streak: userSnap.exists() ? userSnap.data().streak || 0 : 0,
+      ultimaData: userSnap.exists() ? userSnap.data().ultimaData || null : null,
+      progresso: userSnap.exists() ? userSnap.data().progresso || {} : {},
+      emailVerificado: user.emailVerified === true,
+      provider: 'google'
+    };
+
+    await setDoc(userRef, userData, { merge: true });
+
+    definirUsuarioAtivo(userData);
+    document.getElementById("loginMsg").innerText = `Conta criada via Google! Você já está logado e seu usuário aleatório é "${username}".`;
+    mostrarDashboard();
+  } catch(error) {
+    console.error("Erro ao entrar com Google:", error.code, error.message);
+    let msg = "Erro ao entrar com Google.";
+    if(error.code === 'auth/popup-closed-by-user') {
+      msg = "Popup fechado antes de concluir o login.";
+    } else if(error.code === 'auth/cancelled-popup-request') {
+      msg = "Solicitação de login cancelada. Tente novamente.";
+    } else if(error.code === 'auth/popup-blocked') {
+      msg = "O popup de login foi bloqueado pelo navegador. Permita popups e tente novamente.";
+    } else if(error.code === 'auth/operation-not-allowed') {
+      msg = "Login com Google não está habilitado no Firebase. Ative Google Sign-In no console do Firebase.";
+    } else if(error.code === 'auth/unauthorized-domain') {
+      msg = "Domínio não autorizado. Adicione localhost ao domínio autorizado no console do Firebase.";
+    }
+    document.getElementById("loginMsg").innerText = `${msg} ${error.message || ''}`.trim();
   }
 }
 
@@ -193,6 +433,11 @@ async function mostrarDashboard(){
     return;
   }
 
+  if (!window.auth?.currentUser?.emailVerified) {
+    window.location.href = '/verificar-email.html';
+    return;
+  }
+
   document.getElementById("loginCard").style.display = "none";
   document.getElementById("dashboard").style.display = "block";
   document.getElementById("usuarioAtivo").innerText = usuarioAtivo.nome;
@@ -221,7 +466,7 @@ function atualizarXPStreak(){
 // Atualiza ranking histórico
 async function atualizarRanking(){
   try {
-    if(!window.db || !usuarioAtivo) return;
+    if(!window.db || !usuarioAtivo || !usuarioVerificado()) return;
 
     const q = query(collection(window.db, 'usuarios'), orderBy('xp', 'desc'));
     const querySnapshot = await getDocs(q);
@@ -338,7 +583,7 @@ async function atualizarRanking(){
 
 // Obter lista atual do ranking diretamente do Firestore
 async function obterRankingAtual(){
-  if(!window.db) return [];
+  if(!window.db || !usuarioVerificado()) return [];
 
   const q = query(collection(window.db, 'usuarios'), orderBy('xp', 'desc'));
   const querySnapshot = await getDocs(q);
@@ -387,7 +632,7 @@ function pararSincronizacaoRanking(){
 // Função otimizada para obter apenas a posição do usuário atual
 async function obterPosicaoUsuario(){
   try {
-    if(!window.db || !usuarioAtivo) return 1;
+    if(!window.db || !usuarioAtivo || !usuarioVerificado()) return 1;
 
     console.log("obterPosicaoUsuario: usuarioAtivo.id =", usuarioAtivo.id, "xp =", usuarioAtivo.xp);
 
@@ -434,8 +679,8 @@ async function obterPosicaoUsuario(){
 // Função para atualizar apenas a posição do usuário (mais eficiente)
 async function atualizarPosicaoUsuario(){
   try {
-    if(!usuarioAtivo) {
-      console.log("atualizarPosicaoUsuario: usuarioAtivo não disponível");
+    if(!usuarioAtivo || !usuarioVerificado()) {
+      console.log("atualizarPosicaoUsuario: usuário não verificado ou indisponível");
       return;
     }
 
@@ -520,7 +765,7 @@ function atualizarStreak(){
 
 // === META AUTOMÁTICA ===
 function registrarQuestaoDoDia(){
-  if(!usuarioAtivo || !usuarioAtivo.id) return;
+  if(!usuarioAtivo || !usuarioAtivo.id || !usuarioVerificado()) return;
 
   let hoje = new Date().toDateString();
   let chaveProgresso = `progressoHoje_${usuarioAtivo.id}`;
@@ -559,6 +804,10 @@ async function salvarMeta(){
   const novaMeta = parseInt(document.getElementById("metaDiaria").value) || 5;
   const metaAlterada = novaMeta !== metaDiaria;
   metaDiaria = novaMeta;
+
+  if (!usuarioVerificado()) {
+    return;
+  }
 
   // Salvar meta no Firebase se usuário estiver logado
   try {
@@ -656,7 +905,7 @@ function gerarCalendario(){
   }
 }
 
-export { usuarioAtivo, metaDiaria, carregarUsuarios, criarUsuario, loginUsuario, logout, mostrarDashboard, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia, atualizarMeta, salvarMeta, mostrarMeta, gerarCalendario, definirUsuarioAtivo, obterPosicaoUsuario, atualizarPosicaoUsuario, obterRankingAtual, mostrarCriarConta };
+export { usuarioAtivo, metaDiaria, criarUsuario, loginUsuario, logout, mostrarDashboard, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia, atualizarMeta, salvarMeta, mostrarMeta, gerarCalendario, definirUsuarioAtivo, obterPosicaoUsuario, atualizarPosicaoUsuario, obterRankingAtual, mostrarCriarConta, reenviarVerificacao };
 
 // === CONTROLE DE FORMULÁRIO ===
 async function verificarNomeUsuario(){
@@ -697,35 +946,35 @@ function mostrarCriarConta(){
   document.getElementById("createFields").classList.remove("hidden");
   document.getElementById("confirmPasswordField").classList.remove("hidden");
   document.getElementById("btnVoltarLogin").classList.remove("hidden");
-  document.getElementById("loginMsg").innerText = "";
   
-  // Limpar campos
-  document.getElementById("username").value = "";
-  document.getElementById("password").value = "";
-  document.getElementById("displayName").value = "";
-  document.getElementById("userEmail").value = "";
-  document.getElementById("confirmPassword").value = "";
+  // Preencher displayName com o valor de username se estiver preenchido e o campo estiver vazio
+  const usernameValue = document.getElementById("username").value.trim();
+  const displayNameField = document.getElementById("displayName");
+  if (usernameValue && !displayNameField.value.trim()) {
+    displayNameField.value = usernameValue;
+  }
   
   // Esconder o botão de login no modo de criação de conta
-  const btnEntrar = document.querySelector('button[onclick="loginUsuario()"]');
+  const btnEntrar = document.getElementById('btnEntrar');
   if(btnEntrar) {
     btnEntrar.classList.add('hidden');
   }
 
   // Alterar texto do botão secundário para criar conta
-  const btnCriar = document.querySelector('button[onclick="mostrarCriarConta()"]');
+  const btnCriar = document.getElementById('btnCriarConta');
   if(btnCriar) {
     btnCriar.innerHTML = '<i class="fas fa-user-plus mr-2"></i>Criar Conta';
     btnCriar.setAttribute("onclick", "criarUsuario()");
   }
 }
 
-function mostrarLogin(){
+function mostrarLogin(mensagem = ""){
   document.getElementById("loginFields").classList.remove("hidden");
   document.getElementById("createFields").classList.add("hidden");
   document.getElementById("confirmPasswordField").classList.add("hidden");
   document.getElementById("btnVoltarLogin").classList.add("hidden");
-  document.getElementById("loginMsg").innerText = "";
+  document.getElementById("btnReenviarVerificacao").classList.add("hidden");
+  document.getElementById("loginMsg").innerText = mensagem;
   
   // Limpar campos
   document.getElementById("username").value = "";
@@ -735,25 +984,42 @@ function mostrarLogin(){
   document.getElementById("confirmPassword").value = "";
   
   // Mostrar o botão de login novamente
-  const btnEntrar = document.querySelector('button[onclick="loginUsuario()"]');
+  const btnEntrar = document.getElementById('btnEntrar');
   if(btnEntrar) {
     btnEntrar.classList.remove('hidden');
   }
 
   // Resetar botão secundário para mostrar a tela de criar conta
-  const btnCriar = document.querySelector('button[onclick="criarUsuario()"]');
+  const btnCriar = document.getElementById('btnCriarConta');
   if(btnCriar) {
     btnCriar.innerHTML = '<i class="fas fa-user-plus mr-2"></i>Criar Usuário';
     btnCriar.setAttribute("onclick", "mostrarCriarConta()");
   }
 }
 
+async function reenviarVerificacao(){
+  try {
+    if(!window.auth?.currentUser) {
+      document.getElementById("loginMsg").innerText="Faça login primeiro para reenviar o email de verificação.";
+      return;
+    }
+
+    await reenviarEmail();
+    document.getElementById("loginMsg").innerText="Email de verificação reenviado. Verifique sua caixa de entrada.";
+  } catch(error) {
+    console.error("Erro ao reenviar verificação:", error);
+    document.getElementById("loginMsg").innerText="Não foi possível reenviar o email. Tente novamente.";
+  }
+}
+
 // Tornar funções globais para onclick no HTML
 window.criarUsuario = criarUsuario;
 window.loginUsuario = loginUsuario;
+window.loginComGoogle = loginComGoogle;
 window.logout = logout;
 window.salvarMeta = salvarMeta;
 window.mostrarCriarConta = mostrarCriarConta;
 window.mostrarLogin = mostrarLogin;
+window.reenviarVerificacao = reenviarVerificacao;
 window.mostrarDashboard = mostrarDashboard;
 window.verificarNomeUsuario = verificarNomeUsuario;

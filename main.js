@@ -1,35 +1,109 @@
 // main.js - Inicialização da aplicação
-import { carregarUsuarios, mostrarDashboard, gerarCalendario, mostrarMeta, atualizarMeta, definirUsuarioAtivo, atualizarRanking, loginUsuario, criarUsuario, logout, mostrarCriarConta, obterRankingAtual } from './user.js';
-import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
-import { doc, getDoc } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
+import './firebase-init.js';
+import { mostrarDashboard, gerarCalendario, mostrarMeta, atualizarMeta, definirUsuarioAtivo, atualizarRanking, loginUsuario, criarUsuario, logout, mostrarCriarConta, obterRankingAtual, reenviarVerificacao } from './user.js';
+import { onAuthStateChanged, applyActionCode } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
+import { verificarAcessoUsuario } from './auth.js';
+import { doc, getDoc, updateDoc, query, collection, where, getDocs } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
 import './disciplinas.js';
 import './exercicios.js';
 
 // === INICIALIZAÇÃO ===
+console.log("📦 main.js carregado");
 let authStateUnsubscribe = null;
+let sistemaPronto = false;
+
+// Definir funções globais imediatamente
+window.loginUsuario = () => sistemaPronto ? loginUsuario() : alert('Sistema ainda carregando...');
+window.criarUsuario = () => sistemaPronto ? criarUsuario() : alert('Sistema ainda carregando...');
+window.logout = () => sistemaPronto ? logout() : alert('Sistema ainda carregando...');
+window.mostrarCriarConta = () => sistemaPronto ? mostrarCriarConta() : alert('Sistema ainda carregando...');
+window.reenviarVerificacao = () => sistemaPronto ? reenviarVerificacao() : alert('Sistema ainda carregando...');
+window.atualizarRanking = () => sistemaPronto ? atualizarRanking() : alert('Sistema ainda carregando...');
+window.obterRankingAtual = () => sistemaPronto ? obterRankingAtual() : alert('Sistema ainda carregando...');
+
+// Exportar funções do Firestore para uso no script inline
+window.doc = doc;
+window.getDoc = getDoc;
+window.query = query;
+window.collection = collection;
+window.where = where;
+window.getDocs = getDocs;
+
+async function processActionCodeFromUrl() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const mode = params.get('mode');
+    const actionCode = params.get('oobCode');
+    if (mode !== 'verifyEmail' || !actionCode) return;
+
+    await applyActionCode(window.auth, actionCode);
+    if (window.auth.currentUser) {
+      await window.auth.currentUser.reload();
+      
+      // Atualizar o status de verificação no Firestore
+      const userRef = doc(window.db, 'usuarios', window.auth.currentUser.uid);
+      await updateDoc(userRef, {
+        emailVerificado: true
+      });
+      console.log("Email verificado e status atualizado no Firestore");
+    }
+    document.getElementById('loginMsg').innerText = 'Email verificado com sucesso! Faça login para continuar.';
+    window.history.replaceState({}, document.title, window.location.pathname);
+  } catch (error) {
+    console.error('Erro ao processar link de verificação:', error);
+    document.getElementById('loginMsg').innerText = 'Não foi possível processar o link de verificação. Tente novamente.';
+  }
+}
 
 async function iniciar() {
+  console.log("🚀 Iniciando aplicação...");
+  
+  // Aguardar DOM estar pronto
+  if (document.readyState === 'loading') {
+    await new Promise(resolve => {
+      document.addEventListener('DOMContentLoaded', resolve);
+    });
+  }
+  console.log("📄 DOM pronto");
+  
   if(window.location.protocol === 'file:') {
-    alert('O site deve ser executado a partir de um servidor HTTP. Use Live Server ou execute um servidor local para acessar os assuntos e exercícios.');
-    return;
+    console.warn('⚠️ O site está sendo executado localmente. Os assuntos e exercícios podem não carregar corretamente. Use Live Server para acesso completo.');
+    // Não retornar, permitir que o sistema seja inicializado para login
   }
 
-  // Wait for Firebase to be initialized
-  while(!window.db || !window.auth) {
-    await new Promise(resolve => setTimeout(resolve, 100));
+  console.log("🔥 Firebase inicializado via import");
+
+
+  console.log("🔗 Processando códigos de ação da URL...");
+  try {
+    await processActionCodeFromUrl();
+    console.log("✅ Códigos processados");
+  } catch (error) {
+    console.error("❌ Erro ao processar códigos de ação:", error);
+  }
+  console.log("�📊 Mostrando meta...");
+  try {
+    mostrarMeta();
+    atualizarMeta();
+    console.log("✅ Meta atualizada");
+  } catch (error) {
+    console.error("❌ Erro ao atualizar meta:", error);
   }
 
-  await carregarUsuarios();
-  mostrarMeta();
-  atualizarMeta();
-
-  // Tornar funções disponíveis globalmente para o HTML
+  // Marcar sistema como pronto
+  sistemaPronto = true;
+  console.log("🎉 Sistema pronto!");
+  
+  // Agora sobrescrever as funções com as reais
   window.loginUsuario = loginUsuario;
   window.criarUsuario = criarUsuario;
   window.logout = logout;
   window.mostrarCriarConta = mostrarCriarConta;
+  window.reenviarVerificacao = reenviarVerificacao;
   window.atualizarRanking = atualizarRanking;
   window.obterRankingAtual = obterRankingAtual;
+  
+  // ... resto do código
 
   // Limpar listener anterior se existir
   if (authStateUnsubscribe) {
@@ -39,7 +113,12 @@ async function iniciar() {
   // Listen for authentication state changes
   authStateUnsubscribe = onAuthStateChanged(window.auth, async (user) => {
     if (user) {
-      // User is signed in, load their data from Firestore
+      if (!await verificarAcessoUsuario(user)) {
+        console.log("Usuário logado mas email não verificado");
+        return;
+      }
+
+      // User is signed in and email verificado, load their data from Firestore
       try {
         const userRef = doc(window.db, 'usuarios', user.uid);
         const userSnap = await getDoc(userRef);
@@ -72,4 +151,9 @@ function limparAuthListener() {
 // Tornar função global
 window.limparAuthListener = limparAuthListener;
 
-window.onload = iniciar;
+// Iniciar aplicação quando DOM estiver pronto
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', iniciar);
+} else {
+  iniciar();
+}

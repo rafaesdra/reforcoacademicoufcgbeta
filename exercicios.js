@@ -1,7 +1,9 @@
 // exercicios.js - Lógica de exercícios e questões
 import { usuarioAtivo, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia, atualizarPosicaoUsuario } from './user.js';
+import { usuarioVerificado } from './auth.js';
 import { construirCaminho, atualizarProgresso, carregarDisciplina } from './disciplinas.js';
 import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
+import './firebase-init.js';
 
 let respostaSelecionada = null;
 
@@ -55,6 +57,12 @@ function selecionar(elemento,index){
 async function verificar(){
   if(respostaSelecionada===null){
     document.getElementById("feedback").innerText="Escolha uma alternativa.";
+    return;
+  }
+
+  if (!usuarioVerificado()) {
+    document.getElementById("feedback").innerText = "Verifique seu email antes de ganhar XP e progresso.";
+    document.getElementById("feedback").style.color = "orange";
     return;
   }
 
