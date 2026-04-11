@@ -58,99 +58,140 @@ async function processActionCodeFromUrl() {
 async function iniciar() {
   console.log("🚀 Iniciando aplicação...");
 
-  // Verificar se estamos na página correta (index.html)
-  if (!window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
-    console.log("Não estamos na página principal, pulando inicialização automática");
-    return;
-  }
-
-  // Aguardar DOM estar pronto
-  if (document.readyState === 'loading') {
-    await new Promise(resolve => {
-      document.addEventListener('DOMContentLoaded', resolve);
-    });
-  }
-  console.log("📄 DOM pronto");
-  
-  if(window.location.protocol === 'file:') {
-    console.warn('⚠️ O site está sendo executado localmente. Os assuntos e exercícios podem não carregar corretamente. Use Live Server para acesso completo.');
-    // Não retornar, permitir que o sistema seja inicializado para login
-  }
-
-  console.log("🔥 Firebase inicializado via import");
-
-
-  console.log("🔗 Processando códigos de ação da URL...");
   try {
-    await processActionCodeFromUrl();
-    console.log("✅ Códigos processados");
-  } catch (error) {
-    console.error("❌ Erro ao processar códigos de ação:", error);
-  }
-  console.log("�📊 Mostrando meta...");
-  try {
-    mostrarMeta();
-    atualizarMeta();
-    console.log("✅ Meta atualizada");
-  } catch (error) {
-    console.error("❌ Erro ao atualizar meta:", error);
-  }
-
-  // Marcar sistema como pronto
-  sistemaPronto = true;
-  console.log("🎉 Sistema pronto!");
-  
-  // Agora sobrescrever as funções com as reais
-  window.loginUsuario = loginUsuario;
-  window.criarUsuario = criarUsuario;
-  window.logout = logout;
-  window.mostrarCriarConta = mostrarCriarConta;
-  window.reenviarVerificacao = reenviarVerificacao;
-  window.atualizarRanking = atualizarRanking;
-  window.obterRankingAtual = obterRankingAtual;
-  
-  // ... resto do código
-
-  // Limpar listener anterior se existir
-  if (authStateUnsubscribe) {
-    authStateUnsubscribe();
-  }
-
-  // Listen for authentication state changes
-  authStateUnsubscribe = onAuthStateChanged(window.auth, async (user) => {
-    // Só fazer verificações se estamos na página principal
+    // Verificar se estamos na página correta (index.html)
     if (!window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
-      console.log("Estamos em uma página específica, pulando verificações automáticas");
+      console.log("Não estamos na página principal, pulando inicialização automática");
       return;
     }
 
-    if (user) {
-      if (!await verificarAcessoUsuario(user, false)) {
-        console.log("Usuário logado mas email não verificado - não redirecionando automaticamente");
+    // Aguardar DOM estar pronto
+    if (document.readyState === 'loading') {
+      console.log("⏳ Aguardando DOM carregar...");
+      await new Promise(resolve => {
+        document.addEventListener('DOMContentLoaded', resolve);
+      });
+    }
+    console.log("📄 DOM pronto");
+
+    if(window.location.protocol === 'file:') {
+      console.warn('⚠️ O site está sendo executado localmente. Os assuntos e exercícios podem não carregar corretamente. Use Live Server para acesso completo.');
+      // Não retornar, permitir que o sistema seja inicializado para login
+    }
+
+    // Verificar se Firebase está disponível
+    console.log("🔥 Verificando Firebase...");
+    if (!window.auth || !window.db) {
+      console.error("❌ Firebase não está inicializado!");
+      setTimeout(() => {
+        console.log("🔄 Tentando inicializar novamente...");
+        iniciar();
+      }, 1000);
+      return;
+    }
+    console.log("✅ Firebase inicializado");
+
+    console.log("🔗 Processando códigos de ação da URL...");
+    try {
+      await processActionCodeFromUrl();
+      console.log("✅ Códigos processados");
+    } catch (error) {
+      console.error("❌ Erro ao processar códigos de ação:", error);
+    }
+
+    console.log("📊 Mostrando meta...");
+    try {
+      mostrarMeta();
+      atualizarMeta();
+      console.log("✅ Meta atualizada");
+    } catch (error) {
+      console.error("❌ Erro ao atualizar meta:", error);
+    }
+
+    // Marcar sistema como pronto
+    sistemaPronto = true;
+    window.sistemaPronto = true; // Também definir globalmente
+    console.log("🎉 Sistema pronto!");
+
+    // Agora sobrescrever as funções com as reais
+    window.loginUsuario = loginUsuario;
+    window.criarUsuario = criarUsuario;
+    window.logout = logout;
+    window.mostrarCriarConta = mostrarCriarConta;
+    window.reenviarVerificacao = reenviarVerificacao;
+    window.atualizarRanking = atualizarRanking;
+    window.obterRankingAtual = obterRankingAtual;
+
+    console.log("🔄 Configurando listener de autenticação...");
+
+    // Limpar listener anterior se existir
+    if (authStateUnsubscribe) {
+      authStateUnsubscribe();
+    }
+
+    // Listen for authentication state changes
+    authStateUnsubscribe = onAuthStateChanged(window.auth, async (user) => {
+      console.log("👤 Estado de autenticação mudou:", user ? "logado" : "deslogado");
+
+      // Só fazer verificações se estamos na página principal
+      if (!window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+        console.log("Estamos em uma página específica, pulando verificações automáticas");
         return;
       }
 
-      // User is signed in and email verificado, load their data from Firestore
-      try {
-        const userRef = doc(window.db, 'usuarios', user.uid);
-        const userSnap = await getDoc(userRef);
+      if (user) {
+        console.log("🔍 Verificando email do usuário:", user.email, "Verificado:", user.emailVerified);
 
-        if(userSnap.exists()){
-          definirUsuarioAtivo({id: user.uid, ...userSnap.data()});
-          mostrarDashboard();
-        } else {
-          // Dados não encontrados - usuário deve criar conta primeiro
-          console.error("Dados do usuário não encontrados no Firestore");
-          // Não mostrar dashboard, manter na tela de login
+        // Verificar se o email está verificado no Firebase Auth
+        if (!user.emailVerified) {
+          console.log("Usuário logado mas email não verificado - não redirecionando automaticamente");
+          return;
         }
-      } catch(error) {
-        console.error("Erro ao carregar dados do usuário:", error);
+
+        // User is signed in and email verificado, load their data from Firestore
+        try {
+          console.log("📊 Carregando dados do usuário do Firestore...");
+          const userRef = doc(window.db, 'usuarios', user.uid);
+          const userSnap = await getDoc(userRef);
+
+          if(userSnap.exists()){
+            const userData = userSnap.data();
+            console.log("✅ Dados do usuário encontrados");
+
+            // Atualizar status de verificação no Firestore se necessário
+            if (!userData.emailVerificado) {
+              console.log("🔄 Atualizando status de verificação no Firestore");
+              await updateDoc(userRef, { emailVerificado: true });
+              userData.emailVerificado = true;
+            }
+
+            definirUsuarioAtivo({id: user.uid, ...userData});
+            mostrarDashboard();
+            console.log("🎯 Dashboard mostrado");
+          } else {
+            // Dados não encontrados - usuário deve criar conta primeiro
+            console.error("❌ Dados do usuário não encontrados no Firestore");
+            // Não mostrar dashboard, manter na tela de login
+          }
+        } catch(error) {
+          console.error("❌ Erro ao carregar dados do usuário:", error);
+        }
+      } else {
+        console.log("🚪 Usuário deslogado");
+        // User is signed out
+        // Dashboard will remain hidden, login form will be shown
       }
-    } else {
-      // User is signed out
-      // Dashboard will remain hidden, login form will be shown
-    }
-  });
+    });
+
+    console.log("✅ Inicialização completa!");
+  } catch (error) {
+    console.error("❌ Erro crítico na inicialização:", error);
+    // Tentar novamente em caso de erro
+    setTimeout(() => {
+      console.log("🔄 Tentando reinicializar...");
+      iniciar();
+    }, 2000);
+  }
 }
 
 function limparAuthListener() {
@@ -165,7 +206,29 @@ window.limparAuthListener = limparAuthListener;
 
 // Iniciar aplicação quando DOM estiver pronto
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', iniciar);
+  document.addEventListener('DOMContentLoaded', () => {
+    iniciar();
+  });
 } else {
   iniciar();
 }
+
+// Timeout de segurança - marcar como pronto após 10 segundos mesmo se houver problemas
+setTimeout(() => {
+  if (!sistemaPronto) {
+    console.warn("⚠️ Timeout de segurança: marcando sistema como pronto");
+    sistemaPronto = true;
+    window.sistemaPronto = true;
+
+    // Sobrescrever funções com as reais
+    window.loginUsuario = loginUsuario;
+    window.criarUsuario = criarUsuario;
+    window.logout = logout;
+    window.mostrarCriarConta = mostrarCriarConta;
+    window.reenviarVerificacao = reenviarVerificacao;
+    window.atualizarRanking = atualizarRanking;
+    window.obterRankingAtual = obterRankingAtual;
+
+    console.log("✅ Sistema marcado como pronto por timeout de segurança");
+  }
+}, 10000);

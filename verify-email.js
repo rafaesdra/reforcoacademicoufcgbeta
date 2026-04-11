@@ -62,7 +62,7 @@ async function handleChecked() {
     const verified = await verificarEmailAtual();
     if (verified) {
       setStatus('Email verificado! Redirecionando para o dashboard...', 'success');
-      window.location.href = '/index.html';
+      window.location.href = '../index.html';
       return;
     }
     setStatus('Ainda não encontramos a confirmação. Abra o email e clique no link.', 'error');

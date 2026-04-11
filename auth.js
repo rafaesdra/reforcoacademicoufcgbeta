@@ -41,7 +41,7 @@ async function verificarAcessoUsuario(user, autoRedirect = false) {
   await reload(user);
   if (!user.emailVerified) {
     if (autoRedirect) {
-      window.location.href = '/pages/verificar-email.html';
+      window.location.href = 'pages/verificar-email.html';
     }
     return false;
   }

@@ -136,7 +136,7 @@ async function criarUsuario(){
       return;
     }
 
-    window.location.href = '/pages/verificar-email.html';
+    window.location.href = 'pages/verificar-email.html';
     return;
   } catch(error) {
     console.error("Erro ao criar usuário:", error);
@@ -161,6 +161,15 @@ async function criarUsuario(){
 
 async function loginUsuario(){
   try {
+    console.log("🔐 Iniciando processo de login...");
+
+    // Verificar se o sistema está pronto
+    if (!window.sistemaPronto) {
+      document.getElementById("loginMsg").innerText="Sistema ainda carregando. Aguarde alguns segundos e tente novamente.";
+      console.log("⏳ Sistema ainda não está pronto");
+      return;
+    }
+
     let input = document.getElementById("username").value.trim();
     let senha = document.getElementById("password").value.trim();
 
@@ -169,10 +178,22 @@ async function loginUsuario(){
       return;
     }
 
-    if(!window.auth) { document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado."; return; }
+    if(!window.auth) {
+      document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado.";
+      console.error("❌ Firebase Auth não está disponível");
+      return;
+    }
+
+    if(!window.db) {
+      document.getElementById("loginMsg").innerText="Erro: Firestore não inicializado.";
+      console.error("❌ Firestore não está disponível");
+      return;
+    }
 
     let email = input;
     let isGoogleUser = false;
+
+    console.log("🔍 Verificando se é um username...");
 
     // Primeiro tentar como username
     const usernameRef = doc(window.db, 'usernames', input);
@@ -182,12 +203,13 @@ async function loginUsuario(){
       // É um username válido
       email = usernameSnap.data().email;
       isGoogleUser = usernameSnap.data().provider === 'google';
-      console.log("Login via username:", input, "-> email:", email, "Google user:", isGoogleUser);
+      console.log("✅ Login via username:", input, "-> email:", email, "Google user:", isGoogleUser);
     } else {
       // Não é username, verificar se é email válido
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(input)) {
         document.getElementById("loginMsg").innerText="Nome de usuário não encontrado ou email inválido.";
+        console.log("❌ Input não é username nem email válido:", input);
         return;
       }
 
@@ -200,7 +222,27 @@ async function loginUsuario(){
       const googleUserSnap = await getDocs(googleUserQuery);
       isGoogleUser = !googleUserSnap.empty;
 
-      console.log("Login via email direto:", input, "Google user:", isGoogleUser);
+      console.log("📧 Login via email direto:", input, "Google user:", isGoogleUser);
+    }
+
+    console.log("📝 Input fornecido:", input ? "presente" : "ausente");
+    console.log("🔑 Senha fornecida:", senha ? "presente" : "ausente");
+
+    if(!input) {
+      document.getElementById("loginMsg").innerText="Preencha nome de usuário ou email.";
+      return;
+    }
+
+    if(!window.auth) {
+      document.getElementById("loginMsg").innerText="Erro: Firebase Auth não inicializado.";
+      console.error("❌ Firebase Auth não está disponível");
+      return;
+    }
+
+    if(!window.db) {
+      document.getElementById("loginMsg").innerText="Erro: Firestore não inicializado.";
+      console.error("❌ Firestore não está disponível");
+      return;
     }
 
     // Para usuários Google, não precisa de senha
@@ -236,26 +278,36 @@ async function loginUsuario(){
     // Para usuários tradicionais, senha é obrigatória
     if(!senha) {
       document.getElementById("loginMsg").innerText="Preencha a senha.";
+      console.log("❌ Senha não fornecida");
       return;
     }
+
+    console.log("🔐 Fazendo login com Firebase Auth para email:", email);
 
     // Fazer login com Firebase Auth usando o email encontrado
     const userCredential = await signInWithEmailAndPassword(window.auth, email, senha);
     const user = userCredential.user;
 
+    console.log("✅ Login no Firebase Auth bem-sucedido para:", user.email);
+    console.log("📧 Email verificado:", user.emailVerified);
+
     if (!user.emailVerified) {
       document.getElementById("loginMsg").innerText="Verifique seu email antes de fazer login. Um novo link foi enviado.";
+      console.log("⚠️ Email não verificado, enviando novo link de verificação");
       try {
         await sendEmailVerification(user, actionCodeSettings);
+        console.log("✅ Link de verificação enviado");
       } catch(error) {
-        console.error("Erro ao reenviar email de verificação:", error);
+        console.error("❌ Erro ao reenviar email de verificação:", error);
       }
-      window.location.href = '/pages/verificar-email.html';
+      window.location.href = 'pages/verificar-email.html';
       return;
     }
 
     // Esconder botão de reenviar se estava visível
     document.getElementById("btnReenviarVerificacao").classList.add("hidden");
+
+    console.log("📊 Carregando dados do usuário do Firestore...");
 
     // Carregar dados do usuário do Firestore
     const userRef = doc(window.db, 'usuarios', user.uid);
@@ -263,19 +315,34 @@ async function loginUsuario(){
 
     if(!userSnap.exists()){
       document.getElementById("loginMsg").innerText="Dados do usuário não encontrados. Tente criar uma nova conta.";
+      console.error("❌ Dados do usuário não encontrados no Firestore para UID:", user.uid);
       return;
     }
 
+    console.log("✅ Dados do usuário encontrados no Firestore");
+
     // Atualizar status de verificação no Firestore se necessário
     const userData = userSnap.data();
-    if (!userData.emailVerificado) {
+
+    console.log("🔍 Status de verificação - Firebase Auth:", user.emailVerified, "Firestore:", userData.emailVerificado);
+
+    // Para usuários existentes, ser mais tolerante - se o Firebase Auth diz que está verificado, aceitar
+    if (!userData.emailVerificado && user.emailVerified) {
+      console.log("🔄 Atualizando status de verificação no Firestore para usuário existente");
       await updateDoc(userRef, { emailVerificado: true });
+      userData.emailVerificado = true;
     }
 
+    console.log("🎯 Definindo usuário ativo e mostrando dashboard");
     definirUsuarioAtivo({id: user.uid, ...userData, emailVerificado: true});
-    // mostrarDashboard() será chamado pelo onAuthStateChanged no main.js
+    console.log("🔄 Chamando mostrarDashboard...");
+    mostrarDashboard();
+    console.log("✅ Login completado com sucesso!");
   } catch(error) {
-    console.error("Erro ao fazer login:", error);
+    console.error("❌ Erro ao fazer login:", error);
+    console.error("Código do erro:", error.code);
+    console.error("Mensagem do erro:", error.message);
+
     let msg = "Erro ao fazer login.";
     if(error.code === 'auth/user-not-found') {
       msg = "Usuário não encontrado.";
@@ -283,6 +350,18 @@ async function loginUsuario(){
       msg = "Senha incorreta.";
     } else if(error.code === 'auth/invalid-email') {
       msg = "Email inválido.";
+    } else if(error.code === 'auth/quota-exceeded') {
+      msg = "Muitas tentativas de login. Aguarde alguns minutos antes de tentar novamente.";
+    } else if(error.code === 'auth/too-many-requests') {
+      msg = "Muitas tentativas de login. Aguarde alguns minutos antes de tentar novamente.";
+    } else if(error.code === 'auth/user-disabled') {
+      msg = "Esta conta foi desativada.";
+    } else if(error.code === 'auth/network-request-failed') {
+      msg = "Erro de conexão. Verifique sua internet.";
+    } else if(error.code === 'auth/invalid-credential') {
+      msg = "Credenciais inválidas.";
+    } else {
+      msg = `Erro: ${error.message}`;
     }
     document.getElementById("loginMsg").innerText = msg;
   }
@@ -428,34 +507,51 @@ async function logout(){
 
 // === DASHBOARD ===
 async function mostrarDashboard(){
+  console.log("🚀 mostrarDashboard chamado");
+  console.log("👤 usuarioAtivo:", usuarioAtivo);
+
   if (!usuarioAtivo) {
-    console.error("Tentando mostrar dashboard sem usuário ativo");
+    console.error("❌ Tentando mostrar dashboard sem usuário ativo");
     return;
   }
 
+  console.log("✅ Usuário ativo encontrado, mostrando dashboard...");
+
   // Não fazer redirecionamento automático aqui - deixar para o fluxo normal
   if (!window.auth?.currentUser?.emailVerified) {
-    console.log("Email não verificado - mostrando mensagem em vez de redirecionar");
+    console.log("⚠️ Email não verificado - mostrando mensagem em vez de redirecionar");
     // Não redirecionar automaticamente, deixar o usuário decidir
   }
 
+  console.log("🔄 Ocultando loginCard e mostrando dashboard...");
   document.getElementById("loginCard").style.display = "none";
   document.getElementById("dashboard").style.display = "block";
   document.getElementById("usuarioAtivo").innerText = usuarioAtivo.nome;
+
+  console.log("📊 Atualizando XP e streak...");
   atualizarXPStreak();
+
+  console.log("🎯 Atualizando meta...");
   atualizarMeta(); // Atualizar meta diária do usuário
+
+  console.log("🏆 Atualizando ranking...");
   await atualizarRanking(); // Ranking completo no login
 
   // Iniciar sincronização automática da posição
+  console.log("🔄 Iniciando sincronização de ranking...");
   iniciarSincronizacaoRanking();
 
   // Gerar calendário quando o dashboard é mostrado
+  console.log("📅 Gerando calendário...");
   gerarCalendario();
 
   // Carregar disciplinas quando o dashboard é mostrado
+  console.log("📚 Carregando disciplinas...");
   if(window.carregarDisciplinas){
     window.carregarDisciplinas();
   }
+
+  console.log("✅ Dashboard mostrado com sucesso!");
 }
 
 // Atualiza XP e streak
@@ -908,7 +1004,24 @@ function gerarCalendario(){
 
 export { usuarioAtivo, metaDiaria, criarUsuario, loginUsuario, logout, mostrarDashboard, atualizarXPStreak, atualizarRanking, atualizarStreak, registrarQuestaoDoDia, atualizarMeta, salvarMeta, mostrarMeta, gerarCalendario, definirUsuarioAtivo, obterPosicaoUsuario, atualizarPosicaoUsuario, obterRankingAtual, mostrarCriarConta, reenviarVerificacao };
 
-// === CONTROLE DE FORMULÁRIO ===
+// === DEBUG FUNCTIONS ===
+window.debugLogin = async function() {
+  console.log("🔍 === DEBUG LOGIN ===");
+  console.log("Firebase Auth:", !!window.auth);
+  console.log("Firestore:", !!window.db);
+  console.log("Sistema Pronto (local):", sistemaPronto);
+  console.log("Sistema Pronto (global):", window.sistemaPronto);
+  console.log("Current User:", window.auth?.currentUser);
+
+  if (window.auth?.currentUser) {
+    console.log("User Email:", window.auth.currentUser.email);
+    console.log("Email Verified:", window.auth.currentUser.emailVerified);
+    console.log("User UID:", window.auth.currentUser.uid);
+  }
+
+  console.log("Usuario Ativo:", usuarioAtivo);
+  console.log("=====================");
+};
 async function verificarNomeUsuario(){
   const displayName = document.getElementById("displayName").value.trim();
   const statusDiv = document.getElementById("usernameStatus");

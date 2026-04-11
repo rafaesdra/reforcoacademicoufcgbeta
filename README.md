@@ -1,13 +1,18 @@
-# Reforço Acadêmico UFCG
+# 📚 Reforço Acadêmico UFCG
 
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/rafaesdra/reforcoacademicoufcgbeta)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-orange.svg)](https://rafaesdra.github.io/reforcoacademicoufcgbeta/)
 
-Uma plataforma web interativa de reforço acadêmico desenvolvida especificamente para estudantes de Engenharia da Universidade Federal de Campina Grande (UFCG). O projeto oferece exercícios, conteúdos teóricos e acompanhamento de progresso em diversas disciplinas do curso de Engenharia.
+Uma plataforma web interativa de reforço acadêmico desenvolvida especificamente para estudantes de Engenharia da Universidade Federal de Campina Grande (UFCG). Oferece exercícios, conteúdos teóricos e acompanhamento de progresso em diversas disciplinas do curso de Engenharia.
 
-## 🚀 Funcionalidades
+## 🎯 Demonstração
 
-### 📚 Disciplinas Disponíveis
+Acesse a versão online: **[reforcoacademicoufcgbeta.github.io](https://rafaesdra.github.io/reforcoacademicoufcgbeta/)**
+
+## ✨ Funcionalidades
+
+### 📖 Disciplinas Disponíveis
 - **Pré-Cálculo**: Fundamentos matemáticos essenciais
 - **Cálculo I**: Limites, derivadas e integrais
 - **Cálculo II**: Técnicas de integração e séries
@@ -15,179 +20,224 @@ Uma plataforma web interativa de reforço acadêmico desenvolvida especificament
 - **Álgebra Vetorial**: Geometria analítica e espaços vetoriais
 - **Física 1**: Mecânica clássica
 - **Física 2**: Eletromagnetismo e ondas
+- **Química**: Noções básicas de química
 
-### 🎯 Recursos Principais
-- **Sistema de Autenticação**: Login seguro com Firebase Auth
+### 🎮 Recursos Principais
+- **Sistema de Autenticação Seguro**: Login com email/senha ou Google
 - **Ranking de Usuários**: Competição saudável entre estudantes
-- **Acompanhamento de Progresso**: XP e níveis por disciplina
-- **Exercícios Interativos**: Questões com feedback imediato
-- **Interface Responsiva**: Compatível com desktop e mobile
-- **Conteúdo Estruturado**: Assuntos organizados por dificuldade
+- **Acompanhamento de Progresso**: XP, níveis e estatísticas por disciplina
+- **Exercícios Interativos**: Questões com feedback imediato e explicações
+- **Interface Responsiva**: Compatível com desktop, tablet e mobile
+- **Conteúdo Estruturado**: Assuntos organizados por dificuldade crescente
 
-### 📊 Dashboard
-- Visualização de progresso por disciplina
-- Ranking global de usuários
-- Estatísticas pessoais (XP, nível, posição)
+### 📊 Dashboard do Usuário
+- Visualização de progresso por disciplina com barras de progresso
+- Ranking global e histórico de usuários
+- Estatísticas pessoais (XP total, sequência de dias, posição)
+- Calendário de atividades com metas diárias
 - Navegação intuitiva entre conteúdos
 
-## 🌐 Deploy no GitHub Pages
+## 🛠️ Tecnologias Utilizadas
 
-### Configuração
-1. No repositório do GitHub, vá para **Settings** > **Pages**
-2. Em **Source**, selecione **Deploy from a branch**
-3. Em **Branch**, selecione **main** (ou sua branch principal)
-4. **Importante**: Certifique-se de que a página inicial está configurada para `index.html`
+### 🎨 Frontend
+- **HTML5**: Estrutura semântica da aplicação
+- **CSS3 + Tailwind CSS**: Estilização moderna e responsiva
+- **JavaScript (ES6+)**: Lógica de aplicação com módulos
+- **Font Awesome**: Ícones vetoriais
 
-### Arquivos de Configuração
-O projeto inclui arquivos específicos para GitHub Pages:
-- `_config.yml`: Configuração para usar `index.html` como página padrão
-- `.nojekyll`: Permite arquivos que começam com underscore
+### ☁️ Backend & Banco de Dados
+- **Firebase Authentication**: Sistema de login e registro seguro
+- **Firestore**: Banco de dados NoSQL para usuários e progresso
+- **Firebase Hosting**: Hospedagem via GitHub Pages
 
-### URL do Site
-Após o deploy, o site estará disponível em: `https://[seu-usuario].github.io/[nome-do-repositorio]/`
+### 🛠️ Ferramentas de Desenvolvimento
+- **Tailwind CSS**: Framework CSS utilitário
+- **NPM**: Gerenciamento de dependências
+- **ESLint**: Padronização de código JavaScript
+- **Git**: Controle de versão
 
-### Solução de Problemas
-Se o site abrir na página de verificação de email:
-1. Verifique se o `_config.yml` está na raiz do repositório
-2. Certifique-se de que o GitHub Pages está configurado para usar `index.html`
-3. Aguarde alguns minutos após o commit para que as mudanças sejam aplicadas
+## 🚀 Como Executar Localmente
 
-## 📁 Estrutura do Projeto
-
-```
-reforcoacademicoufcgbeta-main/
-├── index.html                 # Página principal da aplicação
-├── main.js                    # Inicialização e configuração Firebase
-├── user.js                    # Gerenciamento de usuários e ranking
-├── disciplinas.js             # Lógica de disciplinas e navegação
-├── exercicios.js              # Sistema de exercícios e questões
-├── styles.css                 # Estilos compilados (Tailwind)
-├── tailwind.config.js         # Configuração Tailwind CSS
-├── package.json               # Dependências e scripts
-├── disciplinas.json           # Configuração das disciplinas
-├── README.md                  # Este arquivo
-├── logo.png                   # Logo da aplicação
-└── [disciplinas]/             # Conteúdo específico por disciplina
-    ├── pre-calculo/
-    ├── calculo1/
-    ├── calculo2/
-    ├── algebra-linear/
-    ├── algebra-vetorial/
-    ├── fisica1/
-    └── fisica2/
-```
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-- Node.js (versão 14 ou superior)
+### 📋 Pré-requisitos
+- Node.js (versão 16 ou superior)
 - Navegador web moderno
 - Conexão com internet (para Firebase)
 
-### Instalação e Execução
+### 📦 Instalação e Execução
 
-1. **Clone o repositório**
+1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/your-username/reforcoacademicoufcgbeta.git
+   git clone https://github.com/rafaesdra/reforcoacademicoufcgbeta.git
    cd reforcoacademicoufcgbeta
    ```
 
-2. **Instale as dependências**
+2. **Instale as dependências:**
    ```bash
    npm install
    ```
 
-3. **Compile os estilos CSS**
+3. **Execute o servidor local:**
    ```bash
-   npm run build:css
+   # Opção 1: Usando Python (recomendado)
+   python -m http.server 8000
+
+   # Opção 2: Usando Node.js
+   npx http-server -p 8000
+
+   # Opção 3: Usando PHP
+   php -S localhost:8000
    ```
 
-4. **Para desenvolvimento (watch mode)**
-   ```bash
-   npm run watch:css
+4. **Acesse no navegador:**
+   ```
+   http://localhost:8000
    ```
 
-5. **Execute a aplicação**
-   - Abra `index.html` diretamente no navegador, ou
-   - Use um servidor local:
-     ```bash
-     python -m http.server 8000
-     ```
-     Acesse: `http://localhost:8000`
+## 🌐 Deploy no GitHub Pages
+
+### Configuração Automática
+1. No repositório do GitHub, vá para **Settings** → **Pages**
+2. Em **Source**, selecione **Deploy from a branch**
+3. Em **Branch**, selecione **main** (ou sua branch principal)
+4. Clique em **Save**
+
+### Arquivos de Configuração
+O projeto inclui arquivos específicos para GitHub Pages:
+- `.nojekyll`: Permite arquivos que começam com underscore
+- Estrutura organizada com `pages/` para rotas específicas
+
+### URL do Site
+Após o deploy, o site estará disponível em:
+```
+https://[seu-usuario].github.io/[nome-do-repositorio]/
+```
+
+### 🚨 Solução de Problemas
+- **Página não carrega**: Verifique se o arquivo `.nojekyll` está na raiz
+- **Página de verificação abre primeiro**: Aguarde alguns minutos após o commit
+- **Firebase não conecta**: Verifique as configurações no console do Firebase
+- **Erro "Sistema ainda carregando"**: Aguarde alguns segundos ou recarregue a página
+
+## 📁 Estrutura do Projeto
+
+```
+reforcoacademicoufcgbeta/
+├── 📄 index.html                 # Página principal (login/dashboard)
+├── 📄 README.md                  # Este arquivo
+├── 📄 package.json              # Dependências do projeto
+├── 📄 tailwind.config.js        # Configuração do Tailwind CSS
+├── 📄 .nojekyll                 # Configuração GitHub Pages
+├── 📁 pages/                    # Páginas específicas
+│   └── 📄 verificar-email.html  # Página de verificação de email
+├── 📁 src/                      # Recursos estáticos
+├── 📁 algebra-linear/           # Exercícios de Álgebra Linear
+├── 📁 algebra-vetorial/         # Exercícios de Álgebra Vetorial
+├── 📁 calculo1/                 # Exercícios de Cálculo I
+├── 📁 calculo2/                 # Exercícios de Cálculo II
+├── 📁 fisica1/                  # Exercícios de Física I
+├── 📁 fisica2/                  # Exercícios de Física II
+├── 📁 quimica/                  # Exercícios de Química
+├── 📁 pré-calculo/              # Exercícios de Pré-Cálculo
+├── 📄 auth.js                   # Utilitários de autenticação
+├── 📄 firebase-init.js          # Configuração do Firebase
+├── 📄 user.js                   # Gerenciamento de usuários
+├── 📄 main.js                   # Inicialização da aplicação
+├── 📄 disciplinas.js            # Configuração das disciplinas
+├── 📄 exercicios.js             # Lógica dos exercícios
+├── 📄 verify-email.js           # Lógica da verificação de email
+└── 📄 styles.css                # Estilos customizados
+```
 
 ## 🔧 Configuração do Firebase
 
-Para configurar o Firebase em seu ambiente:
+### 1. Criar Projeto no Firebase
+1. Acesse [Firebase Console](https://console.firebase.google.com/)
+2. Clique em "Criar um projeto"
+3. Defina um nome para o projeto
+4. Ative o Google Analytics (opcional)
 
-1. Crie um projeto no [Firebase Console](https://console.firebase.google.com/)
-2. Ative Authentication e Firestore
-3. Configure as regras de segurança do Firestore
-4. Atualize as credenciais em `main.js`
+### 2. Configurar Authentication
+1. No menu lateral, clique em **Authentication**
+2. Vá para **Sign-in method**
+3. Ative os provedores:
+   - **Email/Password**
+   - **Google**
+4. Configure o domínio autorizado como `localhost` para desenvolvimento
 
-## 📖 Como Usar
+### 3. Configurar Firestore
+1. No menu lateral, clique em **Firestore Database**
+2. Clique em **Criar banco de dados**
+3. Escolha **Iniciar no modo de teste** (para desenvolvimento)
+4. Selecione uma localização para o banco
 
-1. **Registro/Login**: Crie uma conta ou faça login
-2. **Seleção de Disciplina**: Escolha a disciplina desejada
-3. **Navegação por Assuntos**: Explore os tópicos disponíveis
-4. **Exercícios**: Responda questões e ganhe XP
-5. **Acompanhamento**: Monitore seu progresso no dashboard
+### 4. Obter Configurações
+1. Clique no ícone de engrenagem → **Configurações do projeto**
+2. Role para baixo até "Seus apps"
+3. Clique em **Adicionar app** → **Web**
+4. Copie as configurações do Firebase para `firebase-init.js`
 
 ## 🤝 Como Contribuir
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+### 📝 Passos para Contribuir
+1. **Fork** o projeto
+2. **Clone** seu fork: `git clone https://github.com/seu-usuario/reforcoacademicoufcgbeta.git`
+3. **Crie uma branch** para sua feature: `git checkout -b feature/nova-feature`
+4. **Faça suas alterações** e teste localmente
+5. **Commit** suas mudanças: `git commit -m 'Adiciona nova feature'`
+6. **Push** para o repositório: `git push origin feature/nova-feature`
+7. **Abra um Pull Request** no GitHub
 
-### Diretrizes de Contribuição
-- Siga os padrões de código existentes
-- Adicione testes quando possível
-- Atualize a documentação conforme necessário
-- Mantenha commits pequenos e descritivos
+### 🐛 Relatando Bugs
+- Use as **Issues** do GitHub para reportar bugs
+- Inclua passos para reproduzir o problema
+- Descreva o comportamento esperado vs. observado
+- Adicione screenshots se possível
 
-## 📝 Adicionando Novo Conteúdo
+### 💡 Sugestões de Melhorias
+- **Novas disciplinas**: Adicione exercícios em novas pastas seguindo o padrão existente
+- **Melhorias na UI**: Sugestões de design e usabilidade
+- **Novos recursos**: Ideias para funcionalidades adicionais
+- **Correções de conteúdo**: Revisão de exercícios e explicações
 
-### Nova Disciplina
-1. Crie uma pasta em `[disciplinas]/`
-2. Adicione arquivos JSON com conteúdo teórico
-3. Atualize `disciplinas.json` com a nova disciplina
-4. Teste a integração com a interface
+## 📊 Status do Projeto
 
-### Novo Exercício
-1. Adicione questões ao arquivo JSON da disciplina
-2. Siga o formato existente de questões
-3. Teste a funcionalidade de resposta
+### ✅ Implementado
+- Sistema completo de autenticação (email/senha + Google)
+- Dashboard com estatísticas e ranking
+- 8 disciplinas com exercícios interativos
+- Interface responsiva e moderna
+- Deploy automático no GitHub Pages
 
-## 🐛 Reportando Problemas
+### 🚧 Em Desenvolvimento
+- Sistema de conquistas e badges
+- Modo offline para exercícios
+- Integração com ferramentas educacionais
+- Análise de desempenho por assunto
 
-Para reportar bugs ou solicitar features:
-
-1. Verifique se o problema já foi reportado
-2. Use o template de issue apropriado
-3. Forneça detalhes completos:
-   - Passos para reproduzir
-   - Comportamento esperado vs atual
-   - Ambiente (navegador, SO, etc.)
-   - Logs de erro (se aplicável)
+### 📋 Planejado
+- Gamificação avançada
+- Sistema de tutoria
+- Relatórios de progresso para professores
+- API para integração com outros sistemas
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👥 Equipe
-
-- **Desenvolvimento**: Soares, Kogiso, Holanda. 
-- **Orientação**: UFCG - Universidade Federal de Campina Grande
-- **Colaboradores**: Comunidade acadêmica
-
-## 🙏 Agradecimentos
-
-- Universidade Federal de Campina Grande (UFCG)
-- Comunidade de estudantes de Engenharia
-- Firebase por fornecer infraestrutura gratuita
-- Tailwind CSS pela excelente ferramenta de estilização
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-**Nota**: Este projeto foi desenvolvido como ferramenta educacional e não substitui o acompanhamento acadêmico oficial da UFCG.
+## 👥 Sobre o Projeto
+
+Este projeto foi desenvolvido por estudantes de Engenharia Elétrica da UFCG, com o objetivo de auxiliar colegas na revisão e reforço de conteúdos matemáticos e científicos essenciais para o curso.
+
+### 🎓 Desenvolvedor
+**Rafael Silva** - Engenharia Elétrica - UFCG
+
+### 🙏 Agradecimentos
+- Universidade Federal de Campina Grande (UFCG)
+- Professores e colegas do curso de Engenharia Elétrica
+- Comunidade open source
+
+---
+
+**⭐ Se este projeto te ajudou, dê uma estrela no GitHub!**
