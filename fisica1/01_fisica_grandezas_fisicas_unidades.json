@@ -1,0 +1,99 @@
+{
+  "id": "fisica_grandezas_fisicas_unidades",
+  "disciplina": "Física Geral 1",
+  "assunto": "Grandezas Físicas e Unidades",
+  "ordem": 1,
+
+  "teoria": {
+    "resumo": "Grandezas físicas são propriedades mensuráveis e unidades são padrões usados para medi-las.",
+
+    "explicacao": "Grandezas físicas são tudo aquilo que pode ser medido, como comprimento, massa, tempo, temperatura e velocidade.\n\nEssas grandezas são classificadas em dois tipos principais:\n\n- Grandezas fundamentais: são independentes e não dependem de outras (ex: comprimento, massa, tempo).\n- Grandezas derivadas: são obtidas a partir das fundamentais (ex: velocidade = espaço/tempo, força = massa × aceleração).\n\nPara medir uma grandeza, utilizamos uma unidade padrão. O sistema mais utilizado é o Sistema Internacional de Unidades (SI).\n\nExemplos de unidades no SI:\n- Comprimento → metro (m)\n- Massa → quilograma (kg)\n- Tempo → segundo (s)\n\nExemplo prático:\nSe um carro percorre 100 metros em 10 segundos, sua velocidade é:\n\nv = 100 / 10 = 10 m/s\n\nAlém disso, é importante saber converter unidades, como de km/h para m/s.\n\nExemplo:\n72 km/h = 20 m/s (dividindo por 3,6)",
+
+    "intuicao": "Grandezas físicas são características do mundo que podemos medir, e unidades são a forma padronizada de expressar essas medidas.",
+
+    "analogia": "É como medir ingredientes em uma receita: a quantidade é a grandeza e a xícara ou colher usada é a unidade.",
+
+    "aplicacoes": [
+      "Cálculo de velocidade em veículos",
+      "Medição de tempo em experimentos científicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir grandeza com unidade (ex: achar que metro é uma grandeza)",
+      "Esquecer de converter unidades antes de resolver problemas"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma grandeza física fundamental?",
+      "alternativas": [
+        "Velocidade",
+        "Força",
+        "Tempo",
+        "Energia"
+      ],
+      "resposta": "Tempo",
+      "explicacao": "Tempo é uma grandeza fundamental do SI, enquanto velocidade, força e energia são derivadas."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade de medida de massa no Sistema Internacional?",
+      "alternativas": [
+        "Grama (g)",
+        "Quilograma (kg)",
+        "Tonelada (t)",
+        "Libra (lb)"
+      ],
+      "resposta": "Quilograma (kg)",
+      "explicacao": "No SI, a unidade padrão de massa é o quilograma (kg)."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "A velocidade é classificada como:",
+      "alternativas": [
+        "Grandeza fundamental",
+        "Grandeza derivada",
+        "Unidade fundamental",
+        "Unidade derivada"
+      ],
+      "resposta": "Grandeza derivada",
+      "explicacao": "Velocidade depende de comprimento e tempo, portanto é uma grandeza derivada."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor de 36 km/h em m/s?",
+      "alternativas": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "resposta": "10 m/s",
+      "explicacao": "Para converter km/h em m/s, divide-se por 3,6: 36 / 3,6 = 10 m/s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto percorre 180 km em 2 horas. Qual é sua velocidade em m/s?",
+      "alternativas": [
+        "15 m/s",
+        "20 m/s",
+        "25 m/s",
+        "30 m/s"
+      ],
+      "resposta": "25 m/s",
+      "explicacao": "Primeiro calculamos a velocidade em km/h: 180 / 2 = 90 km/h. Depois convertemos: 90 / 3,6 = 25 m/s."
+    }
+  ]
+}
