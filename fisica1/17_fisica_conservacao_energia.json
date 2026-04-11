@@ -1,0 +1,99 @@
+{
+  "id": "fisica_conservacao_energia",
+  "disciplina": "Física Geral 1",
+  "assunto": "Conservação da Energia",
+  "ordem": 17,
+
+  "teoria": {
+    "resumo": "A conservação da energia afirma que a energia total de um sistema isolado permanece constante.",
+
+    "explicacao": "O princípio da conservação da energia é um dos mais importantes da física.\n\nEle afirma que:\n\n\"A energia não pode ser criada nem destruída, apenas transformada.\"\n\nNa mecânica, analisamos principalmente a energia mecânica:\n\nEm = Ec + Ep\n\nOnde:\n- Em é a energia mecânica total\n- Ec é a energia cinética\n- Ep é a energia potencial\n\nSe não houver forças dissipativas (como atrito), a energia mecânica se conserva:\n\nEm(inicial) = Em(final)\n\nExemplo:\nUma bola no alto possui energia potencial. Ao cair:\n- A energia potencial diminui\n- A energia cinética aumenta\n\nNo ponto mais baixo:\n- Energia cinética máxima\n- Energia potencial mínima\n\nSe houver atrito:\n- Parte da energia é transformada em calor\n- A energia mecânica não se conserva, mas a energia total sim\n\nEsse princípio permite resolver problemas sem usar diretamente as leis do movimento.",
+
+    "intuicao": "A energia só muda de forma, mas nunca desaparece.",
+
+    "analogia": "É como dinheiro: você pode trocar por produtos, mas o valor total continua existindo.",
+
+    "aplicacoes": [
+      "Análise de movimentos sem atrito",
+      "Estudo de sistemas como montanhas-russas e quedas livres"
+    ],
+
+    "erros_comuns": [
+      "Achar que energia desaparece",
+      "Esquecer de considerar perdas por atrito"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O princípio da conservação da energia afirma que:",
+      "alternativas": [
+        "A energia pode ser destruída",
+        "A energia pode ser criada do nada",
+        "A energia se conserva",
+        "A energia depende do tempo"
+      ],
+      "resposta": "A energia se conserva",
+      "explicacao": "A energia total permanece constante, apenas se transforma."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A energia mecânica é a soma de:",
+      "alternativas": [
+        "Força e velocidade",
+        "Massa e aceleração",
+        "Energia cinética e potencial",
+        "Trabalho e força"
+      ],
+      "resposta": "Energia cinética e potencial",
+      "explicacao": "Em = Ec + Ep."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma bola cai sem resistência do ar. O que acontece com suas energias?",
+      "alternativas": [
+        "Ec diminui e Ep aumenta",
+        "Ec e Ep aumentam",
+        "Ec aumenta e Ep diminui",
+        "Ambas diminuem"
+      ],
+      "resposta": "Ec aumenta e Ep diminui",
+      "explicacao": "A energia potencial se transforma em energia cinética."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando há atrito, a energia mecânica:",
+      "alternativas": [
+        "Se conserva",
+        "Aumenta",
+        "Diminui",
+        "Fica constante"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "Parte da energia é transformada em calor."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo tem energia mecânica total de 100 J. Em certo ponto, sua energia potencial é 30 J. Qual é sua energia cinética?",
+      "alternativas": [
+        "30 J",
+        "50 J",
+        "70 J",
+        "100 J"
+      ],
+      "resposta": "70 J",
+      "explicacao": "Ec = Em - Ep = 100 - 30 = 70 J."
+    }
+  ]
+}
