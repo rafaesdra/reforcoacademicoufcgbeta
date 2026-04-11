@@ -40,7 +40,7 @@ async function verificarAcessoUsuario(user) {
   }
   await reload(user);
   if (!user.emailVerified) {
-    window.location.href = '/verificar-email.html';
+    window.location.href = '/pages/verificar-email.html';
     return false;
   }
   return true;

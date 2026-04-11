@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verifique seu email - Reforço Acadêmico</title>
+<link rel="icon" href="../logo.png" type="image/png">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen font-sans">
+  <div class="flex min-h-screen items-center justify-center px-4 py-10">
+    <div class="w-full max-w-2xl">
+      <div class="bg-white rounded-[32px] shadow-2xl border border-gray-200 overflow-hidden animate-fade-in">
+        <div class="bg-gradient-to-r from-ufcg via-raio to-yellow-100 p-6">
+          <div class="flex items-center gap-4">
+            <div class="rounded-3xl bg-white/20 p-4 shadow-lg">
+              <i class="fas fa-envelope-open-text text-4xl text-ufcg"></i>
+            </div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.2em] text-white/80">Reforço Acadêmico</p>
+              <h1 class="mt-2 text-3xl font-bold text-white">Verificação de email</h1>
+              <p class="mt-2 text-sm text-white/80 max-w-xl">Confirme seu email para acessar o conteúdo e continuar seus estudos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 sm:p-10 space-y-8">
+          <div class="rounded-[28px] border border-gray-200 bg-gray-50 p-6 shadow-sm">
+            <p class="text-base font-semibold text-gray-800">Email registrado</p>
+            <p id="verifyEmail" class="mt-3 text-gray-700 font-medium"></p>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <button id="btnResendEmail" class="w-full bg-ufcg hover:bg-ufcg-dark text-white p-4 rounded-2xl font-semibold transition-all transform hover:scale-105 shadow-lg">
+              <i class="fas fa-paper-plane mr-2"></i>Reenviar email
+            </button>
+            <button id="btnEmailChecked" class="w-full bg-raio hover:bg-yellow-400 text-black p-4 rounded-2xl font-semibold transition-all transform hover:scale-105 shadow-lg">
+              <i class="fas fa-check mr-2"></i>Já verifiquei
+            </button>
+          </div>
+
+          <div class="rounded-3xl border border-ufcg/10 bg-white p-5 text-gray-700 shadow-sm">
+            <p class="font-semibold text-ufcg">Próximos passos</p>
+            <ol class="mt-4 list-decimal list-inside space-y-3 text-sm text-gray-600">
+              <li>Abra seu email registrado.</li>
+              <li>Clique no link de verificação.</li>
+              <li>Volte para esta página e toque em "Já verifiquei".</li>
+            </ol>
+          </div>
+
+          <div id="verifyStatus" class="min-h-[3rem] text-center text-gray-700 text-sm font-medium"></div>
+
+          <div id="verifyLoader" class="hidden text-center">
+            <div class="inline-flex items-center gap-2 text-gray-700">
+              <div class="animate-spin rounded-full h-5 w-5 border-2 border-raio border-t-transparent"></div>
+              Verificando...
+            </div>
+          </div>
+
+          <div class="text-center text-sm text-gray-500">
+            <p>Se não receber o email, aguarde alguns minutos ou tente reenviar.</p>
+            <p class="mt-2"><a href="../index.html" class="font-semibold text-ufcg hover:text-ufcg-dark">Voltar ao login</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="../verify-email.js"></script>
+</body>
+</html>

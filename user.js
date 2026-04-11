@@ -136,7 +136,7 @@ async function criarUsuario(){
       return;
     }
 
-    window.location.href = '/verificar-email.html';
+    window.location.href = '/pages/verificar-email.html';
     return;
   } catch(error) {
     console.error("Erro ao criar usuário:", error);
@@ -250,7 +250,7 @@ async function loginUsuario(){
       } catch(error) {
         console.error("Erro ao reenviar email de verificação:", error);
       }
-      window.location.href = '/verificar-email.html';
+      window.location.href = '/pages/verificar-email.html';
       return;
     }
 
@@ -434,7 +434,7 @@ async function mostrarDashboard(){
   }
 
   if (!window.auth?.currentUser?.emailVerified) {
-    window.location.href = '/verificar-email.html';
+    window.location.href = '/pages/verificar-email.html';
     return;
   }
 
