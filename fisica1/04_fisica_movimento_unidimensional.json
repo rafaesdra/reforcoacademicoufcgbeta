@@ -1,0 +1,99 @@
+{
+  "id": "fisica_movimento_unidimensional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Movimento Unidimensional",
+  "ordem": 4,
+
+  "teoria": {
+    "resumo": "Movimento unidimensional é aquele que ocorre ao longo de uma única direção ou eixo.",
+
+    "explicacao": "O movimento unidimensional ocorre quando um objeto se desloca ao longo de uma linha reta, ou seja, apenas em uma dimensão (eixo x, por exemplo).\n\nNesse tipo de movimento, utilizamos um sistema de referência com origem (ponto inicial) e um sentido positivo.\n\nPrincipais conceitos:\n\n- Posição (s): localização do objeto ao longo da trajetória.\n- Deslocamento (Δs): diferença entre posição final e inicial.\nΔs = s - s0\n\n- Velocidade média:\nvm = Δs / Δt\n\n- Velocidade pode ser:\nPositiva → movimento no sentido da orientação escolhida\nNegativa → movimento no sentido oposto\n\n- Aceleração:\nIndica a variação da velocidade ao longo do tempo.\n\nTipos de movimento no eixo:\n\n1) Movimento progressivo: posição aumenta com o tempo.\n2) Movimento retrógrado: posição diminui com o tempo.\n\nExemplo:\nUm móvel parte da posição 10 m e vai para 30 m:\nΔs = 30 - 10 = 20 m (movimento progressivo)\n\nSe vai de 30 m para 10 m:\nΔs = 10 - 30 = -20 m (movimento retrógrado)\n\nEsse tipo de análise é base para resolver problemas de deslocamento, velocidade e aceleração em linha reta.",
+
+    "intuicao": "É o tipo mais simples de movimento: tudo acontece em linha reta, indo para frente ou para trás.",
+
+    "analogia": "É como um carro andando em uma estrada reta: ele só pode ir para frente ou para trás, sem sair da linha.",
+
+    "aplicacoes": [
+      "Estudo do movimento de veículos em linha reta",
+      "Análise de queda de objetos na vertical"
+    ],
+
+    "erros_comuns": [
+      "Confundir deslocamento com distância percorrida",
+      "Ignorar o sinal (positivo ou negativo) da velocidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O movimento unidimensional ocorre em:",
+      "alternativas": [
+        "Duas direções",
+        "Três dimensões",
+        "Uma única direção",
+        "Movimentos circulares"
+      ],
+      "resposta": "Uma única direção",
+      "explicacao": "Esse tipo de movimento acontece ao longo de apenas um eixo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um móvel vai da posição 5 m para 15 m, qual é o deslocamento?",
+      "alternativas": [
+        "5 m",
+        "10 m",
+        "15 m",
+        "-10 m"
+      ],
+      "resposta": "10 m",
+      "explicacao": "Δs = 15 - 5 = 10 m."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um móvel vai de 20 m para 5 m. Qual é o deslocamento?",
+      "alternativas": [
+        "15 m",
+        "-15 m",
+        "25 m",
+        "-25 m"
+      ],
+      "resposta": "-15 m",
+      "explicacao": "Δs = 5 - 20 = -15 m, indicando movimento retrógrado."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um móvel percorre -40 m em 8 s. Qual é sua velocidade média?",
+      "alternativas": [
+        "-5 m/s",
+        "5 m/s",
+        "-32 m/s",
+        "32 m/s"
+      ],
+      "resposta": "-5 m/s",
+      "explicacao": "vm = Δs / Δt = -40 / 8 = -5 m/s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um móvel parte da posição 0 m, vai até 50 m e retorna até 20 m. Qual é o deslocamento total?",
+      "alternativas": [
+        "70 m",
+        "50 m",
+        "20 m",
+        "-30 m"
+      ],
+      "resposta": "20 m",
+      "explicacao": "Deslocamento depende apenas da posição final e inicial: Δs = 20 - 0 = 20 m."
+    }
+  ]
+}
