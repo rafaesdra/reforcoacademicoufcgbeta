@@ -1,0 +1,99 @@
+{
+  "id": "fisica_equilibrio_torques",
+  "disciplina": "Física Geral 1",
+  "assunto": "Estática - Equilíbrio de Torques",
+  "ordem": 29,
+
+  "teoria": {
+    "resumo": "O equilíbrio de torques ocorre quando a soma dos torques em um corpo é zero, impedindo a rotação.",
+
+    "explicacao": "O equilíbrio de torques está relacionado à ausência de rotação em um corpo.\n\nPara que um corpo esteja em equilíbrio rotacional:\n\nΣτ = 0\n\nIsso significa que os torques que giram no sentido horário devem ser iguais aos que giram no sentido anti-horário.\n\nLembrando a fórmula do torque:\n\nτ = F · d\n\nOnde:\n- F é a força\n- d é a distância ao eixo (braço de alavanca)\n\nCondições de equilíbrio completo:\n\n- ΣF = 0 (equilíbrio translacional)\n- Στ = 0 (equilíbrio rotacional)\n\nExemplo:\nUma gangorra em equilíbrio:\n- Criança mais leve senta mais longe\n- Criança mais pesada senta mais perto\n\nIsso garante que os torques se equilibrem.\n\nOutro exemplo:\nUma régua apoiada no centro com pesos diferentes em cada lado.\n\nEsse conceito é essencial para resolver problemas envolvendo alavancas e estruturas.",
+
+    "intuicao": "Para não girar, as forças devem 'equilibrar' o giro para os dois lados.",
+
+    "analogia": "É como uma gangorra equilibrada: o peso e a distância determinam o equilíbrio.",
+
+    "aplicacoes": [
+      "Projeto de alavancas e ferramentas",
+      "Equilíbrio de estruturas e pontes"
+    ],
+
+    "erros_comuns": [
+      "Considerar apenas forças e esquecer os torques",
+      "Ignorar a distância ao eixo de rotação"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para não haver rotação, a soma dos torques deve ser:",
+      "alternativas": [
+        "Maior que zero",
+        "Menor que zero",
+        "Igual a zero",
+        "Igual à força"
+      ],
+      "resposta": "Igual a zero",
+      "explicacao": "O equilíbrio rotacional ocorre quando Στ = 0."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O torque depende de:",
+      "alternativas": [
+        "Apenas da força",
+        "Força e distância ao eixo",
+        "Apenas da massa",
+        "Velocidade"
+      ],
+      "resposta": "Força e distância ao eixo",
+      "explicacao": "τ = F·d, então depende dessas duas grandezas."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 10 N atua a 2 m do eixo. Qual é o torque?",
+      "alternativas": [
+        "5 N·m",
+        "10 N·m",
+        "20 N·m",
+        "40 N·m"
+      ],
+      "resposta": "20 N·m",
+      "explicacao": "τ = F·d = 10 × 2 = 20 N·m."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma gangorra, uma criança de 20 kg está a 2 m do eixo. Onde uma criança de 40 kg deve sentar para equilibrar?",
+      "alternativas": [
+        "0,5 m",
+        "1 m",
+        "2 m",
+        "4 m"
+      ],
+      "resposta": "1 m",
+      "explicacao": "20×2 = 40×d → 40 = 40d → d = 1 m."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Duas forças atuam em sentidos opostos: 15 N a 2 m e 10 N a 3 m do eixo. O sistema está em equilíbrio?",
+      "alternativas": [
+        "Sim, pois as forças são iguais",
+        "Sim, pois os torques são iguais",
+        "Não, pois os torques são diferentes",
+        "Não, pois falta força"
+      ],
+      "resposta": "Sim, pois os torques são iguais",
+      "explicacao": "τ1 = 15×2 = 30 e τ2 = 10×3 = 30, portanto estão equilibrados."
+    }
+  ]
+}
