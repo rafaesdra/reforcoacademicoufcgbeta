@@ -1,0 +1,99 @@
+{
+  "id": "fisica_primeira_lei_newton",
+  "disciplina": "Física Geral 1",
+  "assunto": "Leis de Newton - Primeira Lei (Lei da Inércia)",
+  "ordem": 9,
+
+  "teoria": {
+    "resumo": "A Primeira Lei de Newton afirma que um corpo tende a manter seu estado de repouso ou movimento uniforme, a menos que uma força resultante atue sobre ele.",
+
+    "explicacao": "A Primeira Lei de Newton, também chamada de Lei da Inércia, descreve o comportamento natural dos corpos quando nenhuma força resultante atua sobre eles.\n\nEnunciado:\n\"Um corpo em repouso permanece em repouso, e um corpo em movimento permanece em movimento retilíneo uniforme, a menos que uma força resultante atue sobre ele.\"\n\nConceitos importantes:\n\n- Inércia: é a tendência de um corpo resistir a mudanças em seu estado de movimento.\n- Quanto maior a massa de um corpo, maior sua inércia.\n\nSituações possíveis:\n\n1) Força resultante nula (FR = 0):\n- Corpo em repouso permanece parado\n- Corpo em movimento continua com velocidade constante\n\n2) Força resultante diferente de zero:\n- O corpo sofre aceleração (muda velocidade ou direção)\n\nExemplo:\nQuando um carro freia bruscamente, os passageiros tendem a continuar em movimento para frente. Isso ocorre devido à inércia.\n\nA Primeira Lei estabelece a base para o estudo da dinâmica, mostrando que forças são necessárias para alterar o movimento, não para mantê-lo.",
+
+    "intuicao": "Objetos não mudam seu estado sozinhos — eles precisam de uma força para isso.",
+
+    "analogia": "É como um livro sobre a mesa: ele só se move se alguém empurrar. E se estiver deslizando, só para se algo o frear.",
+
+    "aplicacoes": [
+      "Uso de cintos de segurança em veículos",
+      "Análise de movimento em superfícies com pouco atrito"
+    ],
+
+    "erros_comuns": [
+      "Achar que é necessária força para manter um corpo em movimento",
+      "Confundir ausência de movimento com ausência de forças (podem existir forças que se anulam)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Primeira Lei de Newton também é conhecida como:",
+      "alternativas": [
+        "Lei da Gravidade",
+        "Lei da Inércia",
+        "Lei da Ação e Reação",
+        "Lei da Aceleração"
+      ],
+      "resposta": "Lei da Inércia",
+      "explicacao": "A Primeira Lei é chamada de Lei da Inércia pois descreve a resistência à mudança de movimento."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a força resultante sobre um corpo é nula, ele pode:",
+      "alternativas": [
+        "Apenas ficar parado",
+        "Apenas acelerar",
+        "Ficar parado ou em movimento uniforme",
+        "Parar obrigatoriamente"
+      ],
+      "resposta": "Ficar parado ou em movimento uniforme",
+      "explicacao": "Com força resultante nula, o corpo mantém seu estado atual."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual grandeza está diretamente relacionada à inércia de um corpo?",
+      "alternativas": [
+        "Velocidade",
+        "Aceleração",
+        "Massa",
+        "Força"
+      ],
+      "resposta": "Massa",
+      "explicacao": "A massa mede a resistência do corpo à mudança de movimento."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto está em movimento retilíneo uniforme. O que podemos afirmar?",
+      "alternativas": [
+        "Existe uma força resultante atuando",
+        "A força resultante é nula",
+        "O objeto está acelerando",
+        "O objeto está desacelerando"
+      ],
+      "resposta": "A força resultante é nula",
+      "explicacao": "Movimento uniforme indica velocidade constante, logo força resultante igual a zero."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um bloco está em repouso sobre uma mesa. Existem forças atuando nele?",
+      "alternativas": [
+        "Não, pois está parado",
+        "Sim, mas não se anulam",
+        "Sim, e se anulam",
+        "Apenas força peso atua"
+      ],
+      "resposta": "Sim, e se anulam",
+      "explicacao": "O peso e a força normal se equilibram, resultando em força resultante nula."
+    }
+  ]
+}
