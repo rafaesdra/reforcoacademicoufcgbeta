@@ -1,0 +1,99 @@
+{
+  "id": "fisica_trabalho",
+  "disciplina": "Física Geral 1",
+  "assunto": "Trabalho (Física)",
+  "ordem": 14,
+
+  "teoria": {
+    "resumo": "Trabalho é a energia transferida quando uma força atua sobre um corpo e provoca deslocamento.",
+
+    "explicacao": "Na Física, o trabalho está relacionado à ação de uma força que provoca deslocamento em um corpo.\n\nA fórmula do trabalho é:\n\nW = F · d · cos(θ)\n\nOnde:\n- W é o trabalho (em joules - J)\n- F é a força aplicada (em newtons - N)\n- d é o deslocamento (em metros - m)\n- θ é o ângulo entre a força e o deslocamento\n\nCasos importantes:\n\n1) Força na mesma direção do movimento (θ = 0°):\nW = F · d (trabalho positivo)\n\n2) Força oposta ao movimento (θ = 180°):\nW = -F · d (trabalho negativo)\n\n3) Força perpendicular ao movimento (θ = 90°):\nW = 0 (não realiza trabalho)\n\nExemplo:\nUma força de 10 N desloca um objeto por 5 m na mesma direção:\n\nW = 10 × 5 = 50 J\n\nO trabalho está diretamente ligado à transferência de energia e é fundamental para o estudo da energia mecânica.",
+
+    "intuicao": "Só há trabalho quando uma força realmente faz o objeto se mover.",
+
+    "analogia": "Empurrar uma parede não realiza trabalho se ela não se move, mas empurrar uma caixa sim.",
+
+    "aplicacoes": [
+      "Cálculo de energia em máquinas e sistemas físicos",
+      "Análise de movimento com forças aplicadas"
+    ],
+
+    "erros_comuns": [
+      "Achar que sempre há trabalho quando existe força",
+      "Ignorar o ângulo entre força e deslocamento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade de trabalho no SI?",
+      "alternativas": [
+        "Newton (N)",
+        "Metro (m)",
+        "Joule (J)",
+        "Watt (W)"
+      ],
+      "resposta": "Joule (J)",
+      "explicacao": "A unidade de trabalho no SI é o joule (J)."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o trabalho é nulo?",
+      "alternativas": [
+        "Quando há força",
+        "Quando há deslocamento",
+        "Quando a força é perpendicular ao deslocamento",
+        "Quando a força é grande"
+      ],
+      "resposta": "Quando a força é perpendicular ao deslocamento",
+      "explicacao": "Se θ = 90°, cos(θ) = 0, então o trabalho é zero."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 20 N desloca um objeto por 3 m na mesma direção. Qual é o trabalho realizado?",
+      "alternativas": [
+        "10 J",
+        "20 J",
+        "60 J",
+        "80 J"
+      ],
+      "resposta": "60 J",
+      "explicacao": "W = F·d = 20 × 3 = 60 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força atua no sentido oposto ao movimento. O trabalho é:",
+      "alternativas": [
+        "Positivo",
+        "Nulo",
+        "Negativo",
+        "Constante"
+      ],
+      "resposta": "Negativo",
+      "explicacao": "Quando a força é oposta ao deslocamento, o trabalho é negativo."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 10 N atua formando um ângulo de 60° com o deslocamento de 4 m. Qual é o trabalho realizado?",
+      "alternativas": [
+        "10 J",
+        "20 J",
+        "30 J",
+        "40 J"
+      ],
+      "resposta": "20 J",
+      "explicacao": "W = F·d·cos(θ) = 10 × 4 × cos(60°) = 40 × 0,5 = 20 J."
+    }
+  ]
+}
