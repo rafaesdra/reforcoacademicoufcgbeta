@@ -1,0 +1,99 @@
+{
+  "id": "fisica_rolamento",
+  "disciplina": "Física Geral 1",
+  "assunto": "Rolamento",
+  "ordem": 27,
+
+  "teoria": {
+    "resumo": "Rolamento é o movimento que combina translação e rotação sem deslizamento.",
+
+    "explicacao": "O rolamento ocorre quando um corpo (como uma roda ou esfera) se move girando e se deslocando ao mesmo tempo.\n\nNo rolamento sem deslizamento, existe uma relação importante:\n\nv = ω · R\n\nOnde:\n- v é a velocidade do centro de massa\n- ω é a velocidade angular\n- R é o raio do corpo\n\nCaracterísticas importantes:\n\n- O ponto de contato com o solo tem velocidade instantânea zero\n- O movimento combina:\n  - Energia cinética de translação\n  - Energia cinética de rotação\n\nEnergia total:\n\nE = (1/2)mv² + (1/2)Iω²\n\nExemplo:\nUma roda rolando sem escorregar tem parte da energia no movimento linear e parte na rotação.\n\nSe houver deslizamento:\n- A relação v = ωR não é válida\n\nO rolamento é muito comum no cotidiano e importante em sistemas mecânicos.",
+
+    "intuicao": "O objeto está ao mesmo tempo andando e girando.",
+
+    "analogia": "É como uma bola rolando no chão: ela se move para frente enquanto gira.",
+
+    "aplicacoes": [
+      "Movimento de rodas de veículos",
+      "Estudo de esferas e cilindros em planos inclinados"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que há duas energias (translação e rotação)",
+      "Aplicar v = ωR em casos com deslizamento"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O rolamento combina quais tipos de movimento?",
+      "alternativas": [
+        "Apenas rotação",
+        "Apenas translação",
+        "Translação e rotação",
+        "Movimento uniforme apenas"
+      ],
+      "resposta": "Translação e rotação",
+      "explicacao": "No rolamento, o corpo gira e se desloca ao mesmo tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação no rolamento sem deslizamento?",
+      "alternativas": [
+        "v = R / ω",
+        "v = ω · R",
+        "v = ω²R",
+        "v = R²ω"
+      ],
+      "resposta": "v = ω · R",
+      "explicacao": "Essa é a condição de rolamento sem escorregamento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma roda de raio 0,5 m gira com ω = 4 rad/s. Qual é a velocidade do centro?",
+      "alternativas": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "resposta": "2 m/s",
+      "explicacao": "v = ωR = 4 × 0,5 = 2 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "No rolamento sem deslizamento, a velocidade do ponto de contato com o solo é:",
+      "alternativas": [
+        "Máxima",
+        "Igual à do centro",
+        "Zero",
+        "Negativa"
+      ],
+      "resposta": "Zero",
+      "explicacao": "O ponto de contato está momentaneamente em repouso."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo possui velocidade do centro 6 m/s e raio 2 m. Qual é sua velocidade angular?",
+      "alternativas": [
+        "1 rad/s",
+        "2 rad/s",
+        "3 rad/s",
+        "4 rad/s"
+      ],
+      "resposta": "3 rad/s",
+      "explicacao": "ω = v/R = 6/2 = 3 rad/s."
+    }
+  ]
+}
