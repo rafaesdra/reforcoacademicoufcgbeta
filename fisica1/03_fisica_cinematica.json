@@ -1,0 +1,99 @@
+{
+  "id": "fisica_cinematica",
+  "disciplina": "Física Geral 1",
+  "assunto": "Cinemática",
+  "ordem": 3,
+
+  "teoria": {
+    "resumo": "Cinemática é a parte da física que estuda o movimento dos corpos sem considerar suas causas.",
+
+    "explicacao": "A Cinemática analisa como os corpos se movem, descrevendo posições, velocidades e acelerações ao longo do tempo.\n\nPrincipais conceitos:\n\n- Posição (s): indica onde o objeto está.\n- Deslocamento (Δs): variação da posição.\n- Velocidade média (vm): razão entre deslocamento e tempo.\n\nvm = Δs / Δt\n\n- Aceleração média (am): variação da velocidade ao longo do tempo.\n\nam = Δv / Δt\n\nTipos de movimento:\n\n1) Movimento Uniforme (MU):\n- Velocidade constante\n- Equação: s = s0 + vt\n\n2) Movimento Uniformemente Variado (MUV):\n- Aceleração constante\n- Equações:\ns = s0 + v0t + (1/2)at²\nv = v0 + at\n\nExemplo:\nUm carro parte do repouso (v0 = 0) e acelera a 2 m/s² por 5 s:\n\nv = 0 + 2×5 = 10 m/s\n\ns = 0 + 0 + (1/2)×2×25 = 25 m\n\nEssas equações permitem prever o movimento dos corpos ao longo do tempo.",
+
+    "intuicao": "Cinemática é basicamente descrever como algo se move ao longo do tempo.",
+
+    "analogia": "É como acompanhar um carro no GPS: você vê onde ele está, quão rápido está indo e se está acelerando ou freando.",
+
+    "aplicacoes": [
+      "Análise do movimento de veículos",
+      "Estudo de quedas livres e lançamentos"
+    ],
+
+    "erros_comuns": [
+      "Confundir velocidade com aceleração",
+      "Esquecer de usar a equação correta (MU ou MUV)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Cinemática estuda:",
+      "alternativas": [
+        "As causas do movimento",
+        "A energia dos corpos",
+        "O movimento sem considerar suas causas",
+        "As forças atuantes"
+      ],
+      "resposta": "O movimento sem considerar suas causas",
+      "explicacao": "A Cinemática descreve o movimento sem analisar suas causas, que são estudadas pela Dinâmica."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da velocidade média?",
+      "alternativas": [
+        "v = at",
+        "v = Δs / Δt",
+        "v = s × t",
+        "v = a / t"
+      ],
+      "resposta": "v = Δs / Δt",
+      "explicacao": "Velocidade média é a razão entre o deslocamento e o tempo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um móvel percorre 100 m em 20 s. Qual é sua velocidade média?",
+      "alternativas": [
+        "2 m/s",
+        "5 m/s",
+        "10 m/s",
+        "20 m/s"
+      ],
+      "resposta": "5 m/s",
+      "explicacao": "vm = 100 / 20 = 5 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo parte do repouso com aceleração de 4 m/s² por 3 s. Qual é sua velocidade final?",
+      "alternativas": [
+        "7 m/s",
+        "10 m/s",
+        "12 m/s",
+        "15 m/s"
+      ],
+      "resposta": "12 m/s",
+      "explicacao": "v = v0 + at = 0 + 4×3 = 12 m/s."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um móvel tem velocidade inicial de 2 m/s e aceleração de 3 m/s² durante 4 s. Qual é o deslocamento?",
+      "alternativas": [
+        "32 m",
+        "40 m",
+        "48 m",
+        "56 m"
+      ],
+      "resposta": "32 m",
+      "explicacao": "s = s0 + v0t + (1/2)at² = 0 + 2×4 + (1/2)×3×16 = 8 + 24 = 32 m."
+    }
+  ]
+}
