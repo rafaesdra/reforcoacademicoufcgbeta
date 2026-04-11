@@ -1,0 +1,99 @@
+{
+  "id": "fisica_momento_inercia",
+  "disciplina": "Física Geral 1",
+  "assunto": "Momento de Inércia",
+  "ordem": 25,
+
+  "teoria": {
+    "resumo": "O momento de inércia mede a resistência de um corpo à rotação.",
+
+    "explicacao": "O momento de inércia (I) é a grandeza que mede a dificuldade de um corpo em mudar seu estado de rotação.\n\nEle é o equivalente rotacional da massa no movimento linear.\n\nFórmula geral:\n\nI = Σ m · r²\n\nOnde:\n- I é o momento de inércia (kg·m²)\n- m é a massa\n- r é a distância ao eixo de rotação\n\nCaracterísticas importantes:\n\n- Quanto maior a massa, maior o momento de inércia\n- Quanto mais distante a massa estiver do eixo, maior o momento de inércia\n\nExemplos comuns:\n\n- Anel: I = mR²\n- Disco: I = (1/2)mR²\n\nRelação com torque:\n\nτ = I · α\n\nOnde α é a aceleração angular.\n\nExemplo:\nUm corpo com grande parte da massa longe do eixo é mais difícil de girar.\n\nEsse conceito é essencial para entender rotação e dinâmica rotacional.",
+
+    "intuicao": "Quanto mais espalhada a massa, mais difícil é fazer o objeto girar.",
+
+    "analogia": "Abrir um guarda-chuva é mais difícil do que girar um bastão fino, pois a massa está mais afastada do eixo.",
+
+    "aplicacoes": [
+      "Projeto de rodas, discos e engrenagens",
+      "Análise de movimentos rotacionais em engenharia"
+    ],
+
+    "erros_comuns": [
+      "Achar que só a massa importa (a distribuição também importa)",
+      "Confundir momento de inércia com massa"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O momento de inércia está relacionado a qual tipo de movimento?",
+      "alternativas": [
+        "Linear",
+        "Rotacional",
+        "Uniforme",
+        "Acelerado"
+      ],
+      "resposta": "Rotacional",
+      "explicacao": "O momento de inércia mede a resistência à rotação."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que aumenta o momento de inércia?",
+      "alternativas": [
+        "Diminuir a massa",
+        "Aproximar a massa do eixo",
+        "Aumentar a distância da massa ao eixo",
+        "Diminuir o raio"
+      ],
+      "resposta": "Aumentar a distância da massa ao eixo",
+      "explicacao": "Como I = m·r², o aumento de r aumenta bastante o momento de inércia."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o momento de inércia de um anel de massa 2 kg e raio 1 m?",
+      "alternativas": [
+        "1 kg·m²",
+        "2 kg·m²",
+        "3 kg·m²",
+        "4 kg·m²"
+      ],
+      "resposta": "2 kg·m²",
+      "explicacao": "I = mR² = 2 × 1² = 2 kg·m²."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre torque e momento de inércia?",
+      "alternativas": [
+        "τ = I / α",
+        "τ = I · α",
+        "τ = α / I",
+        "τ = I + α"
+      ],
+      "resposta": "τ = I · α",
+      "explicacao": "Essa é a segunda lei de Newton para rotação."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um disco de massa 4 kg e raio 2 m tem momento de inércia igual a:",
+      "alternativas": [
+        "4 kg·m²",
+        "8 kg·m²",
+        "16 kg·m²",
+        "32 kg·m²"
+      ],
+      "resposta": "8 kg·m²",
+      "explicacao": "I = (1/2)mR² = (1/2) × 4 × 4 = 2 × 4 = 8 kg·m²."
+    }
+  ]
+}
