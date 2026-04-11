@@ -1,0 +1,99 @@
+{
+  "id": "fisica_conservacao_momento",
+  "disciplina": "Física Geral 1",
+  "assunto": "Conservação do Momento Linear",
+  "ordem": 20,
+
+  "teoria": {
+    "resumo": "A conservação do momento afirma que o momento total de um sistema isolado permanece constante.",
+
+    "explicacao": "O princípio da conservação do momento linear afirma que, em um sistema isolado (sem forças externas), a quantidade de movimento total permanece constante.\n\nMatematicamente:\n\np_inicial = p_final\n\nOu:\n\nm1·v1 + m2·v2 = m1·v1' + m2·v2'\n\nOnde:\n- m é a massa\n- v é a velocidade antes da interação\n- v' é a velocidade após a interação\n\nEsse princípio é muito utilizado em colisões.\n\nTipos de colisões:\n\n1) Colisão elástica:\n- Conserva momento e energia cinética\n\n2) Colisão inelástica:\n- Conserva momento\n- Parte da energia cinética é dissipada\n\n3) Colisão perfeitamente inelástica:\n- Os corpos ficam juntos após a colisão\n\nExemplo:\nDois corpos colidem e ficam juntos:\n\nm1·v1 + m2·v2 = (m1 + m2)·v_final\n\nEsse princípio é fundamental para resolver problemas sem precisar analisar todas as forças envolvidas.",
+
+    "intuicao": "A quantidade total de movimento de um sistema não muda se nada externo interferir.",
+
+    "analogia": "É como duas pessoas em patins se empurrando: o movimento de uma afeta a outra, mas o total se mantém.",
+
+    "aplicacoes": [
+      "Análise de colisões entre veículos",
+      "Estudo de explosões e sistemas isolados"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que o sistema precisa ser isolado",
+      "Confundir conservação de momento com conservação de energia"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O momento linear se conserva quando:",
+      "alternativas": [
+        "Há força externa",
+        "O sistema é isolado",
+        "Há atrito",
+        "O corpo está parado"
+      ],
+      "resposta": "O sistema é isolado",
+      "explicacao": "Sem forças externas, o momento total permanece constante."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma colisão perfeitamente inelástica:",
+      "alternativas": [
+        "Os corpos se separam",
+        "A energia aumenta",
+        "Os corpos ficam juntos",
+        "Não há movimento"
+      ],
+      "resposta": "Os corpos ficam juntos",
+      "explicacao": "Na colisão perfeitamente inelástica, os corpos permanecem unidos."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 2 kg com velocidade de 4 m/s colide com outro de 2 kg em repouso e ficam juntos. Qual é a velocidade final?",
+      "alternativas": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "resposta": "2 m/s",
+      "explicacao": "p inicial = 2×4 = 8. Massa total = 4 kg. v = 8/4 = 2 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em uma colisão elástica, quais grandezas se conservam?",
+      "alternativas": [
+        "Apenas energia",
+        "Apenas momento",
+        "Momento e energia cinética",
+        "Nenhuma"
+      ],
+      "resposta": "Momento e energia cinética",
+      "explicacao": "Colisões elásticas conservam ambas as grandezas."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 3 kg com velocidade de 2 m/s colide com outro de 1 kg em repouso e passam a se mover juntos. Qual é a velocidade final?",
+      "alternativas": [
+        "0,5 m/s",
+        "1 m/s",
+        "1,5 m/s",
+        "2 m/s"
+      ],
+      "resposta": "1,5 m/s",
+      "explicacao": "p = 3×2 = 6. Massa total = 4 kg. v = 6/4 = 1,5 m/s."
+    }
+  ]
+}
