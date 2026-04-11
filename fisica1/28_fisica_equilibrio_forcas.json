@@ -1,0 +1,99 @@
+{
+  "id": "fisica_equilibrio_forcas",
+  "disciplina": "Física Geral 1",
+  "assunto": "Estática - Equilíbrio de Forças",
+  "ordem": 28,
+
+  "teoria": {
+    "resumo": "O equilíbrio de forças ocorre quando a soma das forças que atuam em um corpo é zero.",
+
+    "explicacao": "A estática estuda corpos em equilíbrio, ou seja, sem aceleração.\n\nPara que um corpo esteja em equilíbrio translacional, é necessário que:\n\nΣF = 0\n\nIsso significa que a soma de todas as forças que atuam no corpo é nula.\n\nCondições de equilíbrio:\n\n1) Equilíbrio translacional:\n- Não há movimento ou há movimento com velocidade constante\n- ΣFx = 0\n- ΣFy = 0\n\n2) Equilíbrio rotacional:\n- Não há rotação\n- Στ = 0\n\nTipos de equilíbrio:\n\n- Estático: corpo em repouso\n- Dinâmico: corpo em movimento com velocidade constante\n\nExemplo:\nUm livro sobre a mesa:\n- Peso para baixo\n- Normal para cima\n- As forças se anulam → equilíbrio\n\nOutro exemplo:\nUm objeto pendurado por cordas com tensões equilibrando o peso.\n\nEsse conceito é essencial para resolver problemas de forças em repouso.",
+
+    "intuicao": "Quando todas as forças se equilibram, nada muda no movimento do objeto.",
+
+    "analogia": "É como um cabo de guerra equilibrado: as forças se anulam e ninguém se move.",
+
+    "aplicacoes": [
+      "Análise de estruturas como pontes e prédios",
+      "Estudo de objetos em repouso ou equilíbrio"
+    ],
+
+    "erros_comuns": [
+      "Achar que equilíbrio significa ausência de forças",
+      "Esquecer de considerar todas as direções (x e y)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para que um corpo esteja em equilíbrio, a soma das forças deve ser:",
+      "alternativas": [
+        "Maior que zero",
+        "Menor que zero",
+        "Igual a zero",
+        "Igual à massa"
+      ],
+      "resposta": "Igual a zero",
+      "explicacao": "O equilíbrio ocorre quando ΣF = 0."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo em equilíbrio pode estar:",
+      "alternativas": [
+        "Acelerando",
+        "Apenas parado",
+        "Parado ou com velocidade constante",
+        "Em movimento acelerado"
+      ],
+      "resposta": "Parado ou com velocidade constante",
+      "explicacao": "Equilíbrio pode ser estático ou dinâmico."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo sofre duas forças opostas de 10 N cada. Qual é a força resultante?",
+      "alternativas": [
+        "0 N",
+        "10 N",
+        "20 N",
+        "5 N"
+      ],
+      "resposta": "0 N",
+      "explicacao": "As forças se anulam, resultando em equilíbrio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Além do equilíbrio de forças, para não haver rotação é necessário:",
+      "alternativas": [
+        "Velocidade constante",
+        "Aceleração zero",
+        "Soma dos torques igual a zero",
+        "Força máxima"
+      ],
+      "resposta": "Soma dos torques igual a zero",
+      "explicacao": "Equilíbrio rotacional exige Στ = 0."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto está sujeito a três forças: 5 N para a direita, 3 N para a esquerda e 2 N para a esquerda. Qual é a resultante?",
+      "alternativas": [
+        "0 N",
+        "2 N para a direita",
+        "2 N para a esquerda",
+        "10 N para a direita"
+      ],
+      "resposta": "0 N",
+      "explicacao": "Somando: 5 - 3 - 2 = 0 N, portanto está em equilíbrio."
+    }
+  ]
+}
