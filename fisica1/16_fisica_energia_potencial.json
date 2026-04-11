@@ -1,0 +1,99 @@
+{
+  "id": "fisica_energia_potencial",
+  "disciplina": "Física Geral 1",
+  "assunto": "Energia Potencial",
+  "ordem": 16,
+
+  "teoria": {
+    "resumo": "Energia potencial é a energia armazenada em um corpo devido à sua posição ou configuração.",
+
+    "explicacao": "A energia potencial é a energia que um corpo possui devido à sua posição ou estado.\n\nExistem dois tipos principais:\n\n1) Energia potencial gravitacional:\n- Associada à altura em relação a um referencial\n- Fórmula:\nEp = m · g · h\n\nOnde:\n- m é a massa (kg)\n- g é a gravidade (≈ 10 m/s²)\n- h é a altura (m)\n\n2) Energia potencial elástica:\n- Associada à deformação de molas\n- Fórmula:\nEp = (1/2) · k · x²\n\nOnde:\n- k é a constante elástica\n- x é a deformação\n\nCaracterísticas:\n\n- Quanto maior a altura, maior a energia potencial gravitacional\n- Quanto maior a deformação, maior a energia potencial elástica\n\nExemplo:\nUm corpo de 2 kg a 5 m de altura:\n\nEp = 2 × 10 × 5 = 100 J\n\nA energia potencial pode se transformar em energia cinética, como em uma queda livre.",
+
+    "intuicao": "Energia potencial é energia 'guardada', pronta para virar movimento.",
+
+    "analogia": "É como uma mola comprimida ou uma bola no alto: ambas têm energia armazenada pronta para ser liberada.",
+
+    "aplicacoes": [
+      "Funcionamento de usinas hidrelétricas",
+      "Armazenamento de energia em molas e sistemas mecânicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir energia potencial com cinética",
+      "Esquecer que a altura depende do referencial escolhido"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da energia potencial gravitacional?",
+      "alternativas": [
+        "Ep = m · v",
+        "Ep = (1/2)mv²",
+        "Ep = m · g · h",
+        "Ep = k · x"
+      ],
+      "resposta": "Ep = m · g · h",
+      "explicacao": "Essa é a expressão da energia potencial gravitacional."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A energia potencial depende diretamente de:",
+      "alternativas": [
+        "Velocidade",
+        "Altura",
+        "Tempo",
+        "Aceleração apenas"
+      ],
+      "resposta": "Altura",
+      "explicacao": "Quanto maior a altura, maior a energia potencial gravitacional."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto de 3 kg está a 4 m de altura (g = 10 m/s²). Qual é sua energia potencial?",
+      "alternativas": [
+        "60 J",
+        "100 J",
+        "120 J",
+        "140 J"
+      ],
+      "resposta": "120 J",
+      "explicacao": "Ep = m·g·h = 3 × 10 × 4 = 120 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma mola é comprimida, sua energia potencial:",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Quanto maior a deformação, maior a energia armazenada."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma mola de constante k = 200 N/m é comprimida 0,2 m. Qual é a energia potencial elástica armazenada?",
+      "alternativas": [
+        "2 J",
+        "4 J",
+        "8 J",
+        "16 J"
+      ],
+      "resposta": "4 J",
+      "explicacao": "Ep = (1/2)kx² = (1/2) × 200 × (0,2²) = 100 × 0,04 = 4 J."
+    }
+  ]
+}
