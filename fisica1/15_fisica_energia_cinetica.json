@@ -1,0 +1,99 @@
+{
+  "id": "fisica_energia_cinetica",
+  "disciplina": "Física Geral 1",
+  "assunto": "Energia Cinética",
+  "ordem": 15,
+
+  "teoria": {
+    "resumo": "Energia cinética é a energia associada ao movimento de um corpo.",
+
+    "explicacao": "A energia cinética é a energia que um corpo possui devido ao seu movimento.\n\nSua fórmula é:\n\nEc = (1/2) · m · v²\n\nOnde:\n- Ec é a energia cinética (em joules - J)\n- m é a massa (em kg)\n- v é a velocidade (em m/s)\n\nCaracterísticas importantes:\n\n- Quanto maior a massa, maior a energia cinética\n- Quanto maior a velocidade, maior a energia cinética\n- A velocidade tem influência quadrática (v²), ou seja, dobrar a velocidade quadruplica a energia\n\nExemplo:\nUm corpo de 2 kg com velocidade de 3 m/s:\n\nEc = (1/2) × 2 × 9 = 9 J\n\nA energia cinética está diretamente relacionada ao trabalho realizado sobre um corpo.\n\nTeorema do trabalho-energia:\nO trabalho da força resultante é igual à variação da energia cinética.",
+
+    "intuicao": "Quanto mais rápido e mais pesado um objeto, mais energia ele tem em movimento.",
+
+    "analogia": "Um carro em alta velocidade causa mais impacto que um devagar porque possui mais energia cinética.",
+
+    "aplicacoes": [
+      "Análise de colisões e impactos",
+      "Estudo de movimento em sistemas mecânicos"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o quadrado da velocidade na fórmula",
+      "Confundir energia cinética com velocidade"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da energia cinética?",
+      "alternativas": [
+        "Ec = m · v",
+        "Ec = (1/2) · m · v²",
+        "Ec = m · g · h",
+        "Ec = v² / m"
+      ],
+      "resposta": "Ec = (1/2) · m · v²",
+      "explicacao": "Essa é a expressão correta da energia cinética."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a velocidade de um corpo dobra, sua energia cinética:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Quadruplica",
+        "Diminui"
+      ],
+      "resposta": "Quadruplica",
+      "explicacao": "Como Ec depende de v², dobrar v multiplica Ec por 4."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 4 kg move-se a 2 m/s. Qual é sua energia cinética?",
+      "alternativas": [
+        "4 J",
+        "8 J",
+        "16 J",
+        "32 J"
+      ],
+      "resposta": "8 J",
+      "explicacao": "Ec = (1/2) × 4 × (2²) = 2 × 4 = 8 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator influencia mais a energia cinética?",
+      "alternativas": [
+        "A massa, pois está ao quadrado",
+        "A velocidade, pois está ao quadrado",
+        "Ambos igualmente",
+        "Nenhum deles"
+      ],
+      "resposta": "A velocidade, pois está ao quadrado",
+      "explicacao": "A velocidade tem maior impacto porque aparece ao quadrado na fórmula."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo tem energia cinética de 50 J e massa de 2 kg. Qual é sua velocidade?",
+      "alternativas": [
+        "5 m/s",
+        "7 m/s",
+        "10 m/s",
+        "√50 m/s"
+      ],
+      "resposta": "7 m/s",
+      "explicacao": "Ec = (1/2)mv² → 50 = (1/2)×2×v² → 50 = v² → v = √50 ≈ 7 m/s."
+    }
+  ]
+}
