@@ -1,0 +1,99 @@
+{
+  "id": "fisica_cinematica_rotacional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Rotação - Cinemática Rotacional",
+  "ordem": 23,
+
+  "teoria": {
+    "resumo": "A cinemática rotacional descreve o movimento de rotação de corpos em torno de um eixo.",
+
+    "explicacao": "A cinemática rotacional estuda o movimento de corpos que giram em torno de um eixo.\n\nGrandezas principais:\n\n- Deslocamento angular (θ): medido em radianos\n- Velocidade angular (ω):\nω = Δθ / Δt\n\n- Aceleração angular (α):\nα = Δω / Δt\n\nEquações do movimento rotacional (análogas ao MUV):\n\nθ = θ0 + ω0t + (1/2)αt²\nω = ω0 + αt\n\nRelações com o movimento linear:\n\nv = ωR\na = αR\n\nOnde R é o raio da trajetória.\n\nExemplo:\nUma roda gira com velocidade angular de 2 rad/s e raio de 0,5 m:\n\nv = 2 × 0,5 = 1 m/s\n\nEssas relações permitem conectar o movimento circular ao movimento linear.",
+
+    "intuicao": "Movimento rotacional é como o movimento linear, mas acontecendo em torno de um eixo.",
+
+    "analogia": "É como os ponteiros de um relógio: eles giram, mas cada ponto deles também tem uma velocidade linear.",
+
+    "aplicacoes": [
+      "Funcionamento de rodas, engrenagens e motores",
+      "Análise de movimento de objetos em rotação"
+    ],
+
+    "erros_comuns": [
+      "Confundir velocidade angular com linear",
+      "Esquecer a relação entre grandezas lineares e angulares"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a unidade do deslocamento angular?",
+      "alternativas": [
+        "Metro",
+        "Segundo",
+        "Radiano",
+        "Newton"
+      ],
+      "resposta": "Radiano",
+      "explicacao": "O deslocamento angular é medido em radianos no SI."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da velocidade angular?",
+      "alternativas": [
+        "ω = v · R",
+        "ω = Δθ / Δt",
+        "ω = R / t",
+        "ω = v² / R"
+      ],
+      "resposta": "ω = Δθ / Δt",
+      "explicacao": "Velocidade angular é a variação do ângulo no tempo."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma roda gira com ω = 4 rad/s e raio 0,5 m. Qual é a velocidade linear?",
+      "alternativas": [
+        "1 m/s",
+        "2 m/s",
+        "4 m/s",
+        "8 m/s"
+      ],
+      "resposta": "2 m/s",
+      "explicacao": "v = ωR = 4 × 0,5 = 2 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a aceleração angular é constante, o movimento é:",
+      "alternativas": [
+        "Circular uniforme",
+        "Circular variado",
+        "Uniformemente variado angular",
+        "Linear uniforme"
+      ],
+      "resposta": "Uniformemente variado angular",
+      "explicacao": "A aceleração angular constante caracteriza o MCUV (rotacional)."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um disco parte do repouso com aceleração angular de 2 rad/s² durante 3 s. Qual é sua velocidade angular final?",
+      "alternativas": [
+        "2 rad/s",
+        "4 rad/s",
+        "6 rad/s",
+        "8 rad/s"
+      ],
+      "resposta": "6 rad/s",
+      "explicacao": "ω = ω0 + αt = 0 + 2 × 3 = 6 rad/s."
+    }
+  ]
+}
