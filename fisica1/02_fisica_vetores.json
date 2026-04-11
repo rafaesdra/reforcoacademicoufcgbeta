@@ -1,0 +1,99 @@
+{
+  "id": "fisica_vetores",
+  "disciplina": "Física Geral 1",
+  "assunto": "Vetores",
+  "ordem": 2,
+
+  "teoria": {
+    "resumo": "Vetores são grandezas que possuem módulo, direção e sentido.",
+
+    "explicacao": "Na Física, existem dois tipos de grandezas: escalares e vetoriais.\n\n- Grandezas escalares: possuem apenas valor numérico (módulo), como massa, tempo e temperatura.\n- Grandezas vetoriais: possuem módulo, direção e sentido, como força, velocidade e deslocamento.\n\nUm vetor é representado por uma seta.\n\nElementos de um vetor:\n- Módulo: intensidade do vetor (valor numérico).\n- Direção: orientação (horizontal, vertical, inclinada).\n- Sentido: para onde o vetor aponta (direita, esquerda, cima, baixo).\n\nOperações com vetores:\n\n1) Soma de vetores:\n- Método gráfico (regra do polígono ou do paralelogramo).\n- Método analítico (somando componentes).\n\nExemplo:\nSe dois vetores estão na mesma direção e sentido:\nA = 3 m\nB = 2 m\nR = A + B = 5 m\n\nSe estiverem em sentidos opostos:\nR = 3 - 2 = 1 m\n\n2) Decomposição de vetores:\nUm vetor pode ser dividido em componentes nos eixos x e y.\n\nExemplo:\nUm vetor de 10 m formando 30° com a horizontal:\nVx = 10 cos(30°)\nVy = 10 sen(30°)\n\nEssas operações são fundamentais para resolver problemas de movimento e forças.",
+
+    "intuicao": "Vetores são usados quando não basta saber 'quanto', mas também 'para onde'.",
+
+    "analogia": "É como dar uma instrução de GPS: não basta dizer 5 km, você precisa dizer a direção e o sentido (ex: 5 km ao norte).",
+
+    "aplicacoes": [
+      "Cálculo de forças em estruturas e movimentos",
+      "Análise de trajetórias e deslocamentos"
+    ],
+
+    "erros_comuns": [
+      "Ignorar direção e sentido ao somar vetores",
+      "Confundir grandezas escalares com vetoriais"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual das alternativas representa uma grandeza vetorial?",
+      "alternativas": [
+        "Massa",
+        "Tempo",
+        "Força",
+        "Temperatura"
+      ],
+      "resposta": "Força",
+      "explicacao": "Força é uma grandeza vetorial pois possui módulo, direção e sentido."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um vetor é completamente definido por:",
+      "alternativas": [
+        "Apenas seu valor numérico",
+        "Módulo, direção e sentido",
+        "Apenas direção",
+        "Apenas sentido"
+      ],
+      "resposta": "Módulo, direção e sentido",
+      "explicacao": "Esses três elementos são necessários para definir completamente um vetor."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores de mesma direção e mesmo sentido possuem módulos 4 e 6. Qual é o módulo do vetor resultante?",
+      "alternativas": [
+        "2",
+        "10",
+        "24",
+        "1"
+      ],
+      "resposta": "10",
+      "explicacao": "Como estão na mesma direção e sentido, somamos diretamente: 4 + 6 = 10."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois vetores de mesma direção e sentidos opostos possuem módulos 8 e 3. Qual é o módulo do vetor resultante?",
+      "alternativas": [
+        "11",
+        "5",
+        "24",
+        "0"
+      ],
+      "resposta": "5",
+      "explicacao": "Como os vetores têm sentidos opostos, subtraímos: 8 - 3 = 5."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um vetor de módulo 10 forma um ângulo de 60° com o eixo horizontal. Qual é o valor de sua componente vertical?",
+      "alternativas": [
+        "5",
+        "10",
+        "5√3",
+        "10√3"
+      ],
+      "resposta": "5√3",
+      "explicacao": "A componente vertical é dada por Vy = V·sen(60°) = 10 × (√3/2) = 5√3."
+    }
+  ]
+}
