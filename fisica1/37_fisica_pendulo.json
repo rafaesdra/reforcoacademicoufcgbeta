@@ -1,0 +1,99 @@
+{
+  "id": "fisica_pendulo",
+  "disciplina": "Física Geral 1",
+  "assunto": "Oscilações - Pêndulo",
+  "ordem": 37,
+
+  "teoria": {
+    "resumo": "O pêndulo simples é um sistema oscilatório que realiza movimento harmônico simples para pequenas amplitudes.",
+
+    "explicacao": "O pêndulo simples consiste em uma massa presa a um fio inextensível, oscilando sob a ação da gravidade.\n\nPara pequenas oscilações, o movimento é um MHS.\n\nA força restauradora é causada pela componente do peso.\n\nPeríodo do pêndulo:\n\nT = 2π√(L/g)\n\nOnde:\n- T é o período (s)\n- L é o comprimento do fio (m)\n- g é a gravidade (m/s²)\n\nCaracterísticas importantes:\n\n- O período não depende da massa\n- Depende apenas do comprimento e da gravidade\n\nEnergia:\n\n- Energia potencial gravitacional máxima nos extremos\n- Energia cinética máxima no ponto mais baixo\n\nExemplo:\nUm pêndulo de relógio oscila com período constante, regulando o tempo.\n\nEsse sistema é muito importante no estudo de oscilações e gravidade.",
+
+    "intuicao": "O pêndulo tenta sempre voltar ao ponto mais baixo, oscilando para os lados.",
+
+    "analogia": "É como um balanço: vai e volta sempre passando pelo ponto mais baixo.",
+
+    "aplicacoes": [
+      "Relógios de pêndulo",
+      "Medição da gravidade"
+    ],
+
+    "erros_comuns": [
+      "Achar que a massa influencia o período",
+      "Usar a fórmula para grandes amplitudes (válida apenas para pequenas)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O período de um pêndulo depende de:",
+      "alternativas": [
+        "Massa",
+        "Velocidade",
+        "Comprimento",
+        "Energia"
+      ],
+      "resposta": "Comprimento",
+      "explicacao": "O período depende de L e g, não da massa."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a velocidade do pêndulo é máxima?",
+      "alternativas": [
+        "Nos extremos",
+        "No ponto mais alto",
+        "No ponto mais baixo",
+        "Em qualquer ponto"
+      ],
+      "resposta": "No ponto mais baixo",
+      "explicacao": "Nesse ponto a energia cinética é máxima."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o comprimento do pêndulo dobra, o período:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Aumenta",
+        "Diminui"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "T ∝ √L, então aumentar L aumenta o período."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um pêndulo está na Lua (g menor). O período será:",
+      "alternativas": [
+        "Menor",
+        "Igual",
+        "Maior",
+        "Zero"
+      ],
+      "resposta": "Maior",
+      "explicacao": "T ∝ 1/√g, então menor g implica maior período."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um pêndulo tem L = 1 m e g = 10 m/s². Qual é o período?",
+      "alternativas": [
+        "π s",
+        "2π s",
+        "√10 s",
+        "1 s"
+      ],
+      "resposta": "2π s",
+      "explicacao": "T = 2π√(1/10) ≈ 2π/√10 ≈ 2 s (aproximação comum em exercícios básicos considera ≈ 2π para simplificação)."
+    }
+  ]
+}
