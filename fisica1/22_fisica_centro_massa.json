@@ -1,0 +1,99 @@
+{
+  "id": "fisica_centro_massa",
+  "disciplina": "Física Geral 1",
+  "assunto": "Centro de Massa",
+  "ordem": 22,
+
+  "teoria": {
+    "resumo": "O centro de massa é o ponto onde podemos considerar concentrada toda a massa de um sistema.",
+
+    "explicacao": "O centro de massa é um ponto que representa a posição média da massa de um sistema.\n\nPara um sistema de partículas, ele é calculado por:\n\nxcm = (m1·x1 + m2·x2 + ...)/(m1 + m2 + ...)\n\nycm = (m1·y1 + m2·y2 + ...)/(m1 + m2 + ...)\n\nOnde:\n- m são as massas\n- x e y são as posições\n\nPara corpos simétricos:\n- O centro de massa coincide com o centro geométrico\n\nExemplo:\nDois corpos de mesma massa em posições diferentes:\n- O centro de massa fica no ponto médio entre eles\n\nCaracterísticas importantes:\n\n- O movimento do sistema pode ser analisado pelo movimento do centro de massa\n- Mesmo que as partes do sistema se movam de forma complexa, o centro de massa segue um comportamento mais simples\n\nExemplo prático:\nUma pessoa saltando: o centro de massa segue uma trajetória parabólica, mesmo com movimentos dos braços e pernas.\n\nEsse conceito é muito útil em problemas de dinâmica e colisões.",
+
+    "intuicao": "É como se toda a massa do sistema estivesse concentrada em um único ponto.",
+
+    "analogia": "É o ponto de equilíbrio de um objeto: onde ele pode ser apoiado sem cair.",
+
+    "aplicacoes": [
+      "Análise de equilíbrio de corpos",
+      "Estudo de movimento em sistemas complexos"
+    ],
+
+    "erros_comuns": [
+      "Achar que o centro de massa sempre está dentro do objeto",
+      "Confundir centro de massa com centro geométrico em sistemas não uniformes"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O centro de massa representa:",
+      "alternativas": [
+        "A velocidade do sistema",
+        "A posição média da massa",
+        "A força total",
+        "A energia do sistema"
+      ],
+      "resposta": "A posição média da massa",
+      "explicacao": "O centro de massa indica onde a massa pode ser considerada concentrada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para um corpo homogêneo e simétrico, o centro de massa:",
+      "alternativas": [
+        "Está fora do corpo",
+        "Está no centro geométrico",
+        "Depende da velocidade",
+        "Não existe"
+      ],
+      "resposta": "Está no centro geométrico",
+      "explicacao": "Em corpos uniformes, o centro de massa coincide com o centro geométrico."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois corpos de mesma massa estão em x = 0 m e x = 4 m. Onde está o centro de massa?",
+      "alternativas": [
+        "0 m",
+        "2 m",
+        "4 m",
+        "1 m"
+      ],
+      "resposta": "2 m",
+      "explicacao": "Como as massas são iguais, o centro de massa fica no ponto médio."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se um dos corpos tem maior massa, o centro de massa fica:",
+      "alternativas": [
+        "Mais próximo do corpo mais leve",
+        "Mais próximo do corpo mais pesado",
+        "Exatamente no meio",
+        "Fora do sistema"
+      ],
+      "resposta": "Mais próximo do corpo mais pesado",
+      "explicacao": "O centro de massa se desloca em direção à maior massa."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Dois corpos estão em x = 0 m (massa 2 kg) e x = 6 m (massa 4 kg). Qual é a posição do centro de massa?",
+      "alternativas": [
+        "2 m",
+        "3 m",
+        "4 m",
+        "5 m"
+      ],
+      "resposta": "4 m",
+      "explicacao": "xcm = (2×0 + 4×6)/(2+4) = 24/6 = 4 m."
+    }
+  ]
+}
