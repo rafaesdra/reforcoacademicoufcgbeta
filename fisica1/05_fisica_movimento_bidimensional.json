@@ -1,0 +1,99 @@
+{
+  "id": "fisica_movimento_bidimensional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Movimento Bidimensional",
+  "ordem": 5,
+
+  "teoria": {
+    "resumo": "Movimento bidimensional é aquele que ocorre em duas direções simultaneamente, geralmente nos eixos x e y.",
+
+    "explicacao": "O movimento bidimensional acontece quando um corpo se desloca em um plano, ou seja, em duas dimensões ao mesmo tempo.\n\nNesse caso, analisamos o movimento separando-o em duas direções independentes:\n\n- Eixo horizontal (x)\n- Eixo vertical (y)\n\nCada direção pode ser estudada separadamente.\n\nExemplo clássico: lançamento oblíquo.\n\nNo eixo x:\n- Movimento uniforme (velocidade constante)\n- vx = constante\n\nNo eixo y:\n- Movimento uniformemente variado (aceleração da gravidade)\n- vy varia com o tempo\n\nEquações importantes:\n\nx = v0x · t\n\ny = v0y · t - (1/2) g t²\n\nAs componentes da velocidade inicial são:\n\nv0x = v0 cos(θ)\nv0y = v0 sen(θ)\n\nExemplo:\nUm objeto é lançado com velocidade de 20 m/s a 30°:\n\nv0x = 20 cos(30°)\nv0y = 20 sen(30°)\n\nEsse tipo de análise permite determinar alcance, altura máxima e tempo de voo.",
+
+    "intuicao": "O movimento bidimensional pode ser entendido como dois movimentos independentes acontecendo ao mesmo tempo.",
+
+    "analogia": "É como jogar uma bola: ela vai para frente enquanto sobe e depois desce ao mesmo tempo.",
+
+    "aplicacoes": [
+      "Análise de lançamentos de projéteis",
+      "Estudo de trajetórias em esportes e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Misturar os movimentos dos eixos x e y",
+      "Esquecer que no eixo horizontal não há aceleração (sem resistência do ar)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O movimento bidimensional ocorre em:",
+      "alternativas": [
+        "Apenas uma direção",
+        "Duas direções",
+        "Três dimensões",
+        "Nenhuma direção"
+      ],
+      "resposta": "Duas direções",
+      "explicacao": "Ele ocorre em um plano, envolvendo dois eixos, geralmente x e y."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No lançamento oblíquo, o movimento no eixo horizontal é:",
+      "alternativas": [
+        "Uniformemente variado",
+        "Acelerado",
+        "Uniforme",
+        "Retardado"
+      ],
+      "resposta": "Uniforme",
+      "explicacao": "Sem resistência do ar, não há aceleração no eixo horizontal."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto é lançado horizontalmente. Qual grandeza permanece constante?",
+      "alternativas": [
+        "Velocidade vertical",
+        "Aceleração vertical",
+        "Velocidade horizontal",
+        "Posição vertical"
+      ],
+      "resposta": "Velocidade horizontal",
+      "explicacao": "No eixo x, a velocidade permanece constante pois não há aceleração."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão correta da posição vertical no movimento bidimensional?",
+      "alternativas": [
+        "y = v0t",
+        "y = v0t + gt",
+        "y = v0y t - (1/2)gt²",
+        "y = v0x t"
+      ],
+      "resposta": "y = v0y t - (1/2)gt²",
+      "explicacao": "Essa é a equação do movimento vertical com aceleração da gravidade."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um projétil é lançado com velocidade inicial de 10 m/s formando 30° com a horizontal. Qual é sua componente vertical inicial?",
+      "alternativas": [
+        "10 m/s",
+        "5 m/s",
+        "5√3 m/s",
+        "10√3 m/s"
+      ],
+      "resposta": "5 m/s",
+      "explicacao": "v0y = v0·sen(30°) = 10 × 0,5 = 5 m/s."
+    }
+  ]
+}
