@@ -1,0 +1,99 @@
+{
+  "id": "fisica_campo_gravitacional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Gravitação - Campo Gravitacional",
+  "ordem": 32,
+
+  "teoria": {
+    "resumo": "O campo gravitacional é a região ao redor de um corpo onde ele exerce força gravitacional.",
+
+    "explicacao": "O campo gravitacional representa a influência que um corpo com massa exerce ao seu redor.\n\nEle é definido como a força por unidade de massa:\n\ng = F / m\n\nPara um corpo de massa M:\n\ng = G · M / r²\n\nOnde:\n- g é o campo gravitacional (m/s² ou N/kg)\n- G é a constante gravitacional\n- M é a massa que gera o campo\n- r é a distância ao centro da massa\n\nCaracterísticas importantes:\n\n- O campo aponta sempre para o centro da massa\n- Quanto maior a massa, maior o campo\n- Quanto maior a distância, menor o campo\n\nRelação com o peso:\n\nP = m · g\n\nExemplo:\nNa superfície da Terra, g ≈ 10 m/s²\n\nIsso significa que cada quilograma sofre uma força de aproximadamente 10 N.\n\nO campo gravitacional permite estudar forças sem precisar considerar diretamente a interação entre dois corpos.",
+
+    "intuicao": "O campo gravitacional mostra como a gravidade 'atua no espaço' ao redor de um corpo.",
+
+    "analogia": "É como um campo invisível ao redor da Terra que puxa tudo em direção ao seu centro.",
+
+    "aplicacoes": [
+      "Cálculo do peso em diferentes planetas",
+      "Estudo de órbitas e movimentos celestes"
+    ],
+
+    "erros_comuns": [
+      "Confundir campo gravitacional com força",
+      "Esquecer que o campo depende da distância ao centro"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O campo gravitacional representa:",
+      "alternativas": [
+        "A massa do corpo",
+        "A força total",
+        "A força por unidade de massa",
+        "A energia potencial"
+      ],
+      "resposta": "A força por unidade de massa",
+      "explicacao": "g = F/m define o campo gravitacional."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A direção do campo gravitacional é:",
+      "alternativas": [
+        "Horizontal",
+        "Para fora do corpo",
+        "Para o centro da massa",
+        "Aleatória"
+      ],
+      "resposta": "Para o centro da massa",
+      "explicacao": "O campo gravitacional sempre aponta para o centro do corpo que o gera."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a distância ao centro da Terra dobra, o campo gravitacional:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Diminui pela metade",
+        "Diminui por um fator de 4"
+      ],
+      "resposta": "Diminui por um fator de 4",
+      "explicacao": "Como g ∝ 1/r², dobrar a distância reduz o campo a 1/4."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o valor aproximado de g na superfície da Terra?",
+      "alternativas": [
+        "5 m/s²",
+        "10 m/s²",
+        "15 m/s²",
+        "20 m/s²"
+      ],
+      "resposta": "10 m/s²",
+      "explicacao": "Esse é o valor aproximado utilizado em exercícios."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um planeta tem massa 4 vezes maior que a Terra e mesmo raio. Qual será o campo gravitacional em sua superfície?",
+      "alternativas": [
+        "g",
+        "2g",
+        "4g",
+        "g/4"
+      ],
+      "resposta": "4g",
+      "explicacao": "g = GM/R². Se M quadruplica e R é o mesmo, g também quadruplica."
+    }
+  ]
+}
