@@ -30,23 +30,27 @@ Uma plataforma web interativa de reforço acadêmico desenvolvida especificament
 - Estatísticas pessoais (XP, nível, posição)
 - Navegação intuitiva entre conteúdos
 
-## 🛠️ Tecnologias Utilizadas
+## 🌐 Deploy no GitHub Pages
 
-### Frontend
-- **HTML5**: Estrutura semântica da aplicação
-- **CSS3 + Tailwind CSS**: Estilização moderna e responsiva
-- **JavaScript (ES6+)**: Lógica de aplicação com módulos
-- **Font Awesome**: Ícones vetoriais
+### Configuração
+1. No repositório do GitHub, vá para **Settings** > **Pages**
+2. Em **Source**, selecione **Deploy from a branch**
+3. Em **Branch**, selecione **main** (ou sua branch principal)
+4. **Importante**: Certifique-se de que a página inicial está configurada para `index.html`
 
-### Backend & Banco de Dados
-- **Firebase Authentication**: Sistema de login e registro
-- **Firestore**: Banco de dados NoSQL para usuários e progresso
-- **Firebase Analytics**: Acompanhamento de uso
+### Arquivos de Configuração
+O projeto inclui arquivos específicos para GitHub Pages:
+- `_config.yml`: Configuração para usar `index.html` como página padrão
+- `.nojekyll`: Permite arquivos que começam com underscore
 
-### Ferramentas de Desenvolvimento
-- **Tailwind CSS**: Framework CSS utilitário
-- **NPM**: Gerenciamento de dependências
-- **ESLint**: Padronização de código JavaScript
+### URL do Site
+Após o deploy, o site estará disponível em: `https://[seu-usuario].github.io/[nome-do-repositorio]/`
+
+### Solução de Problemas
+Se o site abrir na página de verificação de email:
+1. Verifique se o `_config.yml` está na raiz do repositório
+2. Certifique-se de que o GitHub Pages está configurado para usar `index.html`
+3. Aguarde alguns minutos após o commit para que as mudanças sejam aplicadas
 
 ## 📁 Estrutura do Projeto
 

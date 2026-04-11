@@ -1,0 +1,7 @@
+# GitHub Pages configuration
+# Force index.html as the default page
+include:
+  - index.html
+
+# Don't treat this as a Jekyll site
+plugins: []

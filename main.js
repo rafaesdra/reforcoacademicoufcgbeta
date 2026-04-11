@@ -57,7 +57,13 @@ async function processActionCodeFromUrl() {
 
 async function iniciar() {
   console.log("🚀 Iniciando aplicação...");
-  
+
+  // Verificar se estamos na página correta (index.html)
+  if (!window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+    console.log("Não estamos na página principal, pulando inicialização automática");
+    return;
+  }
+
   // Aguardar DOM estar pronto
   if (document.readyState === 'loading') {
     await new Promise(resolve => {
@@ -112,6 +118,12 @@ async function iniciar() {
 
   // Listen for authentication state changes
   authStateUnsubscribe = onAuthStateChanged(window.auth, async (user) => {
+    // Só fazer verificações se estamos na página principal
+    if (!window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+      console.log("Estamos em uma página específica, pulando verificações automáticas");
+      return;
+    }
+
     if (user) {
       if (!await verificarAcessoUsuario(user)) {
         console.log("Usuário logado mas email não verificado");
