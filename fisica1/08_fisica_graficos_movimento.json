@@ -1,0 +1,99 @@
+{
+  "id": "fisica_graficos_movimento",
+  "disciplina": "Física Geral 1",
+  "assunto": "Gráficos do Movimento",
+  "ordem": 8,
+
+  "teoria": {
+    "resumo": "Gráficos do movimento representam relações entre posição, velocidade e tempo.",
+
+    "explicacao": "Os gráficos do movimento são ferramentas importantes para analisar como um corpo se move ao longo do tempo.\n\nPrincipais tipos de gráficos:\n\n1) Gráfico posição x tempo (s × t):\n- Indica como a posição varia com o tempo\n- A inclinação da reta representa a velocidade\n\nExemplo:\n- Reta inclinada → velocidade constante\n- Reta horizontal → corpo em repouso\n\n2) Gráfico velocidade x tempo (v × t):\n- Indica como a velocidade varia com o tempo\n- A inclinação representa a aceleração\n- A área sob o gráfico representa o deslocamento\n\n3) Gráfico aceleração x tempo (a × t):\n- Indica como a aceleração varia\n- A área sob o gráfico representa a variação da velocidade\n\nExemplo prático:\nSe um gráfico v × t é uma reta crescente, isso indica aceleração constante (MUV).\n\nEsses gráficos permitem interpretar o movimento sem precisar das equações diretamente.",
+
+    "intuicao": "Os gráficos são como desenhos do movimento ao longo do tempo.",
+
+    "analogia": "É como ver um gráfico de crescimento de seguidores: você entende o comportamento sem ver cada dado individual.",
+
+    "aplicacoes": [
+      "Análise de movimentos em física experimental",
+      "Interpretação de dados em engenharia e tecnologia"
+    ],
+
+    "erros_comuns": [
+      "Confundir inclinação com área do gráfico",
+      "Interpretar errado o significado de cada eixo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No gráfico posição x tempo, o que a inclinação representa?",
+      "alternativas": [
+        "Aceleração",
+        "Velocidade",
+        "Tempo",
+        "Deslocamento"
+      ],
+      "resposta": "Velocidade",
+      "explicacao": "A inclinação do gráfico s × t indica a velocidade do corpo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No gráfico velocidade x tempo, o que a área representa?",
+      "alternativas": [
+        "Velocidade",
+        "Aceleração",
+        "Deslocamento",
+        "Tempo"
+      ],
+      "resposta": "Deslocamento",
+      "explicacao": "A área sob o gráfico v × t corresponde ao deslocamento."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um gráfico posição x tempo é uma linha horizontal. O que isso indica?",
+      "alternativas": [
+        "Movimento acelerado",
+        "Velocidade constante",
+        "Corpo em repouso",
+        "Movimento retrógrado"
+      ],
+      "resposta": "Corpo em repouso",
+      "explicacao": "Se a posição não varia com o tempo, o corpo está parado."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um gráfico velocidade x tempo é uma reta crescente. O que isso indica?",
+      "alternativas": [
+        "Velocidade constante",
+        "Aceleração constante",
+        "Corpo em repouso",
+        "Deslocamento nulo"
+      ],
+      "resposta": "Aceleração constante",
+      "explicacao": "Uma reta inclinada no gráfico v × t indica aceleração constante."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um gráfico v × t mostra velocidade constante de 5 m/s durante 4 s. Qual é o deslocamento?",
+      "alternativas": [
+        "5 m",
+        "9 m",
+        "20 m",
+        "25 m"
+      ],
+      "resposta": "20 m",
+      "explicacao": "Deslocamento = área = v × t = 5 × 4 = 20 m."
+    }
+  ]
+}
