@@ -1,0 +1,99 @@
+{
+  "id": "fisica_torque",
+  "disciplina": "Física Geral 1",
+  "assunto": "Torque (Momento de Força)",
+  "ordem": 24,
+
+  "teoria": {
+    "resumo": "Torque é a grandeza que mede a capacidade de uma força provocar rotação em um corpo.",
+
+    "explicacao": "O torque (ou momento de força) é a grandeza responsável por causar rotação em torno de um eixo.\n\nSua fórmula é:\n\nτ = F · d · sen(θ)\n\nOnde:\n- τ é o torque (N·m)\n- F é a força aplicada (N)\n- d é a distância até o eixo de rotação (m)\n- θ é o ângulo entre a força e o braço de alavanca\n\nCasos importantes:\n\n1) Força perpendicular (θ = 90°):\nτ = F · d (máximo torque)\n\n2) Força paralela (θ = 0°):\nτ = 0 (não há rotação)\n\nCaracterísticas:\n\n- Quanto maior a força, maior o torque\n- Quanto maior a distância ao eixo, maior o torque\n\nEquilíbrio rotacional:\n\nUm corpo está em equilíbrio quando a soma dos torques é zero:\n\nΣτ = 0\n\nExemplo:\nAbrir uma porta é mais fácil empurrando longe da dobradiça, pois aumenta o torque.\n\nO torque é fundamental no estudo de rotação e equilíbrio de corpos.",
+
+    "intuicao": "Não basta aplicar força — importa onde e como você aplica para fazer girar.",
+
+    "analogia": "Empurrar uma porta perto da dobradiça é difícil, mas longe dela é fácil, pois o torque é maior.",
+
+    "aplicacoes": [
+      "Uso de chaves de roda e ferramentas",
+      "Análise de equilíbrio em estruturas e máquinas"
+    ],
+
+    "erros_comuns": [
+      "Ignorar a distância ao eixo de rotação",
+      "Achar que qualquer força gera rotação (depende do ângulo)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O torque está relacionado a qual tipo de movimento?",
+      "alternativas": [
+        "Movimento linear",
+        "Movimento uniforme",
+        "Movimento rotacional",
+        "Movimento oscilatório"
+      ],
+      "resposta": "Movimento rotacional",
+      "explicacao": "O torque é responsável por provocar rotação."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual fator aumenta o torque?",
+      "alternativas": [
+        "Diminuir a força",
+        "Diminuir a distância",
+        "Aumentar a distância ao eixo",
+        "Aplicar força paralela"
+      ],
+      "resposta": "Aumentar a distância ao eixo",
+      "explicacao": "Quanto maior a distância, maior o torque gerado."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 10 N é aplicada perpendicularmente a 2 m do eixo. Qual é o torque?",
+      "alternativas": [
+        "5 N·m",
+        "10 N·m",
+        "20 N·m",
+        "40 N·m"
+      ],
+      "resposta": "20 N·m",
+      "explicacao": "τ = F·d = 10 × 2 = 20 N·m."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando o torque é nulo?",
+      "alternativas": [
+        "Quando a força é máxima",
+        "Quando a distância é grande",
+        "Quando a força é paralela ao braço",
+        "Quando há movimento"
+      ],
+      "resposta": "Quando a força é paralela ao braço",
+      "explicacao": "Se θ = 0°, sen(θ) = 0, então o torque é zero."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 20 N atua formando 30° com uma barra de 1 m. Qual é o torque?",
+      "alternativas": [
+        "5 N·m",
+        "10 N·m",
+        "15 N·m",
+        "20 N·m"
+      ],
+      "resposta": "10 N·m",
+      "explicacao": "τ = F·d·sen(θ) = 20 × 1 × sen(30°) = 20 × 0,5 = 10 N·m."
+    }
+  ]
+}
