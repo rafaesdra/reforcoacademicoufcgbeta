@@ -1,0 +1,99 @@
+{
+  "id": "fisica_queda_livre",
+  "disciplina": "Física Geral 1",
+  "assunto": "Queda Livre",
+  "ordem": 7,
+
+  "teoria": {
+    "resumo": "Queda livre é o movimento de um corpo sob a ação exclusiva da gravidade.",
+
+    "explicacao": "A queda livre é um caso particular do movimento uniformemente variado (MUV), onde a única força atuante é a gravidade.\n\nNesse tipo de movimento:\n- A aceleração é constante e igual à aceleração da gravidade (g ≈ 9,8 m/s², geralmente aproximada para 10 m/s²).\n- O movimento ocorre na vertical.\n\nEquações principais:\n\nv = v0 + gt\ns = s0 + v0t + (1/2)gt²\nv² = v0² + 2gΔs\n\nCaracterísticas importantes:\n\n- Quando o objeto é solto (queda livre): v0 = 0\n- Quando é lançado para cima:\n  - A velocidade diminui até chegar a zero no ponto mais alto\n  - Depois aumenta no sentido da queda\n\nExemplo:\nUm objeto é solto do repouso durante 2 s:\n\nv = 0 + 10×2 = 20 m/s\ns = (1/2)×10×4 = 20 m\n\nA queda livre desconsidera a resistência do ar e é uma boa aproximação para muitos problemas físicos.",
+
+    "intuicao": "Tudo que cai acelera para baixo por causa da gravidade, ficando cada vez mais rápido.",
+
+    "analogia": "É como soltar uma bola: no início ela cai devagar, mas vai ganhando velocidade até atingir o chão.",
+
+    "aplicacoes": [
+      "Estudo de objetos em queda (como pedras ou bolas)",
+      "Cálculo de tempo de queda em construções e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Esquecer que a aceleração da gravidade é constante",
+      "Usar sinal errado para a gravidade (principalmente quando o eixo é positivo para cima)"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na queda livre, qual é a única aceleração considerada?",
+      "alternativas": [
+        "Aceleração do vento",
+        "Aceleração da gravidade",
+        "Aceleração do movimento",
+        "Aceleração nula"
+      ],
+      "resposta": "Aceleração da gravidade",
+      "explicacao": "Na queda livre, desprezamos a resistência do ar e consideramos apenas a gravidade."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto é solto (v0 = 0). O que acontece com sua velocidade?",
+      "alternativas": [
+        "Permanece constante",
+        "Diminui",
+        "Aumenta com o tempo",
+        "Fica zero"
+      ],
+      "resposta": "Aumenta com o tempo",
+      "explicacao": "Devido à aceleração da gravidade, a velocidade aumenta continuamente."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto cai por 3 s (g = 10 m/s²). Qual é sua velocidade final?",
+      "alternativas": [
+        "10 m/s",
+        "20 m/s",
+        "30 m/s",
+        "40 m/s"
+      ],
+      "resposta": "30 m/s",
+      "explicacao": "v = gt = 10 × 3 = 30 m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto é solto do repouso por 4 s. Qual é a distância percorrida? (g = 10 m/s²)",
+      "alternativas": [
+        "40 m",
+        "80 m",
+        "20 m",
+        "160 m"
+      ],
+      "resposta": "80 m",
+      "explicacao": "s = (1/2)gt² = (1/2)×10×16 = 80 m."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto é lançado verticalmente para cima com velocidade inicial de 20 m/s. Qual é o tempo para atingir a altura máxima? (g = 10 m/s²)",
+      "alternativas": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "resposta": "2 s",
+      "explicacao": "No ponto mais alto v = 0. Então: 0 = 20 - 10t → t = 2 s."
+    }
+  ]
+}
