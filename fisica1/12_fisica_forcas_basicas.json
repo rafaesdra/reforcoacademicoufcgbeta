@@ -1,0 +1,99 @@
+{
+  "id": "fisica_forcas_basicas",
+  "disciplina": "Física Geral 1",
+  "assunto": "Forças: Peso, Normal, Tensão e Atrito",
+  "ordem": 12,
+
+  "teoria": {
+    "resumo": "As forças peso, normal, tensão e atrito são as principais forças que atuam nos corpos no dia a dia.",
+
+    "explicacao": "Na dinâmica, diversas forças podem atuar sobre um corpo. As mais comuns são:\n\n1) Força Peso (P):\n- É a força de atração gravitacional da Terra\n- Fórmula: P = m · g\n- Direção: vertical\n- Sentido: para baixo\n\n2) Força Normal (N):\n- É a força de reação de uma superfície sobre um corpo\n- Direção: perpendicular à superfície\n\n3) Força de Tensão (T):\n- Presente em cordas, cabos ou fios\n- Sempre atua ao longo do fio\n- Puxa o objeto\n\n4) Força de Atrito (Fat):\n- Surge entre superfícies em contato\n- Oposição ao movimento\n- Tipos:\n  - Atrito estático: impede o início do movimento\n  - Atrito cinético: atua durante o movimento\n\nFórmula do atrito:\nFat = μ · N\n\nOnde μ é o coeficiente de atrito.\n\nExemplo:\nUm bloco sobre uma mesa sofre ação do peso para baixo e da normal para cima.\n\nEssas forças devem ser analisadas em conjunto para determinar a força resultante e o movimento do corpo.",
+
+    "intuicao": "Forças são interações que empurram ou puxam objetos.",
+
+    "analogia": "É como puxar uma caixa com uma corda: você aplica tensão, o chão reage com normal e o atrito tenta impedir o movimento.",
+
+    "aplicacoes": [
+      "Análise de movimento em superfícies com atrito",
+      "Estudo de sistemas com cordas e polias"
+    ],
+
+    "erros_comuns": [
+      "Confundir peso com massa",
+      "Achar que a força normal é sempre igual ao peso"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da força peso?",
+      "alternativas": [
+        "P = m + g",
+        "P = m · g",
+        "P = m / g",
+        "P = g / m"
+      ],
+      "resposta": "P = m · g",
+      "explicacao": "O peso é o produto da massa pela aceleração da gravidade."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A força normal é sempre:",
+      "alternativas": [
+        "Paralela à superfície",
+        "Perpendicular à superfície",
+        "Igual ao peso",
+        "Nula"
+      ],
+      "resposta": "Perpendicular à superfície",
+      "explicacao": "A força normal sempre atua perpendicularmente à superfície de contato."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 2 kg está sobre uma superfície horizontal (g = 10 m/s²). Qual é o valor do peso?",
+      "alternativas": [
+        "5 N",
+        "10 N",
+        "20 N",
+        "30 N"
+      ],
+      "resposta": "20 N",
+      "explicacao": "P = m·g = 2 × 10 = 20 N."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um bloco sofre força normal de 50 N e coeficiente de atrito 0,2. Qual é a força de atrito?",
+      "alternativas": [
+        "5 N",
+        "10 N",
+        "20 N",
+        "25 N"
+      ],
+      "resposta": "10 N",
+      "explicacao": "Fat = μ·N = 0,2 × 50 = 10 N."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo está apoiado em um plano inclinado sem atrito. Quais forças atuam nele?",
+      "alternativas": [
+        "Apenas peso",
+        "Peso e atrito",
+        "Peso e normal",
+        "Peso, normal e atrito"
+      ],
+      "resposta": "Peso e normal",
+      "explicacao": "Sem atrito, apenas o peso e a força normal atuam no corpo."
+    }
+  ]
+}
