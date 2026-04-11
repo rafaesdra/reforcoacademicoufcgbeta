@@ -1,0 +1,99 @@
+{
+  "id": "fisica_movimento_circular",
+  "disciplina": "Física Geral 1",
+  "assunto": "Movimento Circular",
+  "ordem": 6,
+
+  "teoria": {
+    "resumo": "Movimento circular é aquele em que um corpo descreve uma trajetória circular ao longo do tempo.",
+
+    "explicacao": "O movimento circular ocorre quando um objeto se desloca ao longo de uma circunferência.\n\nPrincipais grandezas:\n\n- Ângulo (θ): medida do deslocamento angular.\n- Velocidade angular (ω): taxa de variação do ângulo.\nω = Δθ / Δt\n\n- Velocidade linear (v): velocidade tangencial ao movimento.\nv = ωR\n\n- Aceleração centrípeta (ac): aponta para o centro da trajetória.\nac = v² / R\n\nTipos de movimento circular:\n\n1) Movimento Circular Uniforme (MCU):\n- Velocidade angular constante\n- Módulo da velocidade constante\n- Aceleração centrípeta presente\n\n2) Movimento Circular Uniformemente Variado (MCUV):\n- Velocidade angular varia com o tempo\n\nExemplo:\nUm objeto gira com velocidade de 10 m/s em uma trajetória de raio 2 m:\n\nac = v² / R = 100 / 2 = 50 m/s²\n\nMesmo com velocidade constante, existe aceleração, pois a direção do movimento muda continuamente.",
+
+    "intuicao": "Mesmo que a velocidade não mude de valor, o corpo acelera porque está sempre mudando de direção.",
+
+    "analogia": "É como um carro fazendo uma curva: mesmo mantendo a mesma velocidade, você sente uma força puxando para o lado.",
+
+    "aplicacoes": [
+      "Movimento de planetas e satélites",
+      "Curvas em estradas e pistas de corrida"
+    ],
+
+    "erros_comuns": [
+      "Achar que não existe aceleração quando a velocidade é constante",
+      "Confundir velocidade linear com velocidade angular"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No movimento circular uniforme, o que permanece constante?",
+      "alternativas": [
+        "A direção da velocidade",
+        "A aceleração",
+        "O módulo da velocidade",
+        "A posição"
+      ],
+      "resposta": "O módulo da velocidade",
+      "explicacao": "No MCU, o valor da velocidade é constante, mas sua direção muda."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Para onde aponta a aceleração centrípeta?",
+      "alternativas": [
+        "Para fora da trajetória",
+        "Para frente",
+        "Para o centro da circunferência",
+        "Para trás"
+      ],
+      "resposta": "Para o centro da circunferência",
+      "explicacao": "A aceleração centrípeta sempre aponta para o centro da trajetória circular."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a relação entre velocidade linear e velocidade angular?",
+      "alternativas": [
+        "v = ω / R",
+        "v = ωR",
+        "v = R / ω",
+        "v = ω²R"
+      ],
+      "resposta": "v = ωR",
+      "explicacao": "A velocidade linear é o produto da velocidade angular pelo raio da trajetória."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto move-se com velocidade de 8 m/s em uma circunferência de raio 2 m. Qual é a aceleração centrípeta?",
+      "alternativas": [
+        "16 m/s²",
+        "32 m/s²",
+        "4 m/s²",
+        "64 m/s²"
+      ],
+      "resposta": "32 m/s²",
+      "explicacao": "ac = v² / R = 64 / 2 = 32 m/s²."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto realiza MCU com velocidade angular de 4 rad/s em uma trajetória de raio 3 m. Qual é sua velocidade linear?",
+      "alternativas": [
+        "7 m/s",
+        "12 m/s",
+        "1.33 m/s",
+        "16 m/s"
+      ],
+      "resposta": "12 m/s",
+      "explicacao": "v = ωR = 4 × 3 = 12 m/s."
+    }
+  ]
+}
