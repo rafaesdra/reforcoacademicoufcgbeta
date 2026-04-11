@@ -1,0 +1,99 @@
+{
+  "id": "fisica_energia_potencial_gravitacional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Gravitação - Energia Potencial Gravitacional",
+  "ordem": 33,
+
+  "teoria": {
+    "resumo": "A energia potencial gravitacional é a energia associada à posição de um corpo em um campo gravitacional.",
+
+    "explicacao": "A energia potencial gravitacional está relacionada à posição de um corpo em relação a outro corpo massivo.\n\nExistem duas formas principais:\n\n1) Próximo à superfície da Terra:\n\nEp = m · g · h\n\nOnde:\n- m é a massa (kg)\n- g é a gravidade (~10 m/s²)\n- h é a altura (m)\n\n2) Forma geral (gravitação universal):\n\nEp = - G · (M · m) / r\n\nOnde:\n- G é a constante gravitacional\n- M e m são as massas\n- r é a distância entre os centros\n\nCaracterísticas importantes:\n\n- O sinal negativo indica que a energia é zero no infinito\n- Quanto mais próximo os corpos, mais negativa a energia\n\nExemplo:\nUm objeto elevado possui energia potencial que pode se transformar em energia cinética ao cair.\n\nEsse conceito é fundamental para estudar órbitas e sistemas gravitacionais.",
+
+    "intuicao": "Quanto mais alto ou mais longe de um corpo massivo, maior a energia armazenada.",
+
+    "analogia": "É como uma pedra no alto de uma montanha: ela tem energia pronta para se transformar em movimento.",
+
+    "aplicacoes": [
+      "Estudo de órbitas de planetas e satélites",
+      "Cálculo de energia em campos gravitacionais"
+    ],
+
+    "erros_comuns": [
+      "Ignorar o sinal negativo na fórmula geral",
+      "Confundir a fórmula da superfície com a geral"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da energia potencial gravitacional próxima à Terra?",
+      "alternativas": [
+        "Ep = (1/2)mv²",
+        "Ep = m · g · h",
+        "Ep = GmM/r²",
+        "Ep = m · v"
+      ],
+      "resposta": "Ep = m · g · h",
+      "explicacao": "Essa é a expressão válida para alturas próximas à superfície da Terra."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando um objeto sobe, sua energia potencial gravitacional:",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "Quanto maior a altura, maior a energia potencial."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto de 2 kg está a 10 m de altura (g = 10 m/s²). Qual é sua energia potencial?",
+      "alternativas": [
+        "100 J",
+        "150 J",
+        "200 J",
+        "250 J"
+      ],
+      "resposta": "200 J",
+      "explicacao": "Ep = m·g·h = 2 × 10 × 10 = 200 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Na fórmula geral da energia potencial gravitacional, o sinal é negativo porque:",
+      "alternativas": [
+        "A energia é sempre negativa",
+        "A força é repulsiva",
+        "A energia é zero no infinito",
+        "Depende da massa"
+      ],
+      "resposta": "A energia é zero no infinito",
+      "explicacao": "O referencial escolhido considera Ep = 0 no infinito."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a distância entre dois corpos dobra, o valor da energia potencial gravitacional (em módulo):",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Cai pela metade",
+        "Cai por um fator de 4"
+      ],
+      "resposta": "Cai pela metade",
+      "explicacao": "Ep = -GmM/r, então dobrar r reduz o valor absoluto pela metade."
+    }
+  ]
+}
