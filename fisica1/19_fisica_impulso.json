@@ -1,0 +1,99 @@
+{
+  "id": "fisica_impulso",
+  "disciplina": "Física Geral 1",
+  "assunto": "Impulso",
+  "ordem": 19,
+
+  "teoria": {
+    "resumo": "Impulso é a grandeza que relaciona força aplicada e o intervalo de tempo em que ela atua.",
+
+    "explicacao": "O impulso é uma grandeza física que mede o efeito de uma força aplicada durante um certo intervalo de tempo.\n\nSua fórmula é:\n\nI = F · Δt\n\nOnde:\n- I é o impulso (N·s ou kg·m/s)\n- F é a força (N)\n- Δt é o intervalo de tempo (s)\n\nRelação com o momento linear:\n\nO impulso é igual à variação do momento linear:\n\nI = Δp\n\nOu seja:\n\nF · Δt = m · v - m · v0\n\nIsso mostra que o impulso altera o movimento de um corpo.\n\nExemplo:\nUma força de 10 N atua durante 2 s:\n\nI = 10 × 2 = 20 N·s\n\nQuanto maior o tempo de aplicação da força, maior o impulso.\n\nEsse conceito é muito importante em colisões e impactos.",
+
+    "intuicao": "Quanto mais tempo você aplica uma força, maior é o efeito dela no movimento.",
+
+    "analogia": "Empurrar um carrinho por mais tempo faz ele ganhar mais velocidade do que um empurrão rápido.",
+
+    "aplicacoes": [
+      "Análise de colisões em veículos",
+      "Uso de airbags e cintos de segurança para reduzir impactos"
+    ],
+
+    "erros_comuns": [
+      "Confundir impulso com força",
+      "Esquecer que o tempo influencia diretamente no impulso"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do impulso?",
+      "alternativas": [
+        "I = m · v",
+        "I = F · Δt",
+        "I = F / t",
+        "I = m · a"
+      ],
+      "resposta": "I = F · Δt",
+      "explicacao": "O impulso é o produto da força pelo intervalo de tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O impulso está diretamente relacionado com:",
+      "alternativas": [
+        "Energia cinética",
+        "Velocidade",
+        "Momento linear",
+        "Altura"
+      ],
+      "resposta": "Momento linear",
+      "explicacao": "O impulso é igual à variação do momento linear."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 8 N atua durante 5 s. Qual é o impulso?",
+      "alternativas": [
+        "13 N·s",
+        "20 N·s",
+        "40 N·s",
+        "80 N·s"
+      ],
+      "resposta": "40 N·s",
+      "explicacao": "I = F·Δt = 8 × 5 = 40 N·s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se o tempo de aplicação da força dobra, o impulso:",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Dobra",
+        "Zera"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "Como I = F·Δt, dobrar o tempo dobra o impulso."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 2 kg tem sua velocidade aumentada de 3 m/s para 7 m/s. Qual é o impulso sofrido?",
+      "alternativas": [
+        "4 N·s",
+        "6 N·s",
+        "8 N·s",
+        "10 N·s"
+      ],
+      "resposta": "8 N·s",
+      "explicacao": "I = Δp = m(v - v0) = 2 × (7 - 3) = 2 × 4 = 8 N·s."
+    }
+  ]
+}
