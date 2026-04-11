@@ -1,0 +1,99 @@
+{
+  "id": "fisica_diagrama_corpo_livre",
+  "disciplina": "Física Geral 1",
+  "assunto": "Diagramas de Corpo Livre",
+  "ordem": 13,
+
+  "teoria": {
+    "resumo": "Diagramas de corpo livre representam todas as forças que atuam em um objeto isolado.",
+
+    "explicacao": "O Diagrama de Corpo Livre (DCL) é uma ferramenta fundamental na física para analisar forças.\n\nEle consiste em representar um corpo isolado do restante do sistema e desenhar todas as forças que atuam sobre ele.\n\nPassos para construir um DCL:\n\n1) Isolar o corpo de interesse\n2) Representá-lo como um ponto ou bloco\n3) Desenhar todas as forças atuantes:\n   - Peso (P)\n   - Normal (N)\n   - Tensão (T)\n   - Atrito (Fat)\n   - Outras forças aplicadas\n\n4) Indicar direção e sentido de cada força\n\nImportante:\n- Só devem ser incluídas forças que atuam SOBRE o corpo\n- Não incluir forças que o corpo exerce em outros objetos\n\nExemplo:\nUm bloco sobre uma mesa:\n- Peso para baixo\n- Normal para cima\n\nSe houver movimento:\n- Atrito contrário ao movimento\n\nO DCL é essencial para aplicar corretamente as Leis de Newton e resolver problemas de dinâmica.",
+
+    "intuicao": "É como fazer um 'mapa das forças' que atuam em um objeto.",
+
+    "analogia": "É como tirar uma foto do objeto e desenhar todas as 'setas' das forças agindo nele.",
+
+    "aplicacoes": [
+      "Resolução de problemas de dinâmica",
+      "Análise de sistemas com múltiplas forças"
+    ],
+
+    "erros_comuns": [
+      "Incluir forças que não atuam no corpo",
+      "Esquecer alguma força importante, como o peso ou o atrito"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O que é um diagrama de corpo livre?",
+      "alternativas": [
+        "Um gráfico de movimento",
+        "Um desenho com todas as forças que atuam em um corpo",
+        "Uma equação física",
+        "Um tipo de velocidade"
+      ],
+      "resposta": "Um desenho com todas as forças que atuam em um corpo",
+      "explicacao": "O DCL representa todas as forças que atuam sobre um corpo isolado."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual força sempre atua em um corpo próximo à superfície da Terra?",
+      "alternativas": [
+        "Tensão",
+        "Atrito",
+        "Peso",
+        "Normal"
+      ],
+      "resposta": "Peso",
+      "explicacao": "O peso sempre atua devido à gravidade, independentemente da situação."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um bloco sobre uma superfície horizontal sem movimento, quais forças atuam?",
+      "alternativas": [
+        "Apenas peso",
+        "Peso e normal",
+        "Peso, normal e atrito",
+        "Apenas normal"
+      ],
+      "resposta": "Peso e normal",
+      "explicacao": "Sem movimento e sem forças horizontais, apenas peso e normal atuam."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a direção da força normal em um DCL?",
+      "alternativas": [
+        "Sempre horizontal",
+        "Sempre vertical para baixo",
+        "Perpendicular à superfície",
+        "Paralela à superfície"
+      ],
+      "resposta": "Perpendicular à superfície",
+      "explicacao": "A força normal sempre atua perpendicularmente à superfície de contato."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um bloco é puxado por uma corda em uma superfície com atrito. Quais forças devem aparecer no DCL?",
+      "alternativas": [
+        "Peso, normal e tensão",
+        "Peso, normal e atrito",
+        "Peso, normal, tensão e atrito",
+        "Apenas tensão"
+      ],
+      "resposta": "Peso, normal, tensão e atrito",
+      "explicacao": "Todas essas forças atuam sobre o bloco: peso (para baixo), normal (para cima), tensão (puxando) e atrito (opondo o movimento)."
+    }
+  ]
+}
