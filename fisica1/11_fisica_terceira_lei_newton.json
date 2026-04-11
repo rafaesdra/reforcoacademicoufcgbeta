@@ -1,0 +1,99 @@
+{
+  "id": "fisica_terceira_lei_newton",
+  "disciplina": "Física Geral 1",
+  "assunto": "Leis de Newton - Terceira Lei (Ação e Reação)",
+  "ordem": 11,
+
+  "teoria": {
+    "resumo": "A Terceira Lei de Newton afirma que toda ação gera uma reação de mesma intensidade e direção, mas em sentido oposto.",
+
+    "explicacao": "A Terceira Lei de Newton descreve a interação entre dois corpos.\n\nEnunciado:\n\"Para toda ação existe uma reação de mesma intensidade, mesma direção e sentido oposto.\"\n\nIsso significa que as forças sempre aparecem em pares.\n\nCaracterísticas importantes:\n\n- As forças de ação e reação:\n  - Têm mesma intensidade\n  - Têm mesma direção\n  - Têm sentidos opostos\n  - Atuam em corpos diferentes\n\nExemplo:\nQuando você empurra uma parede, ela exerce uma força de mesma intensidade em você, no sentido oposto.\n\nOutro exemplo:\nUm foguete sobe porque os gases são expelidos para baixo, gerando uma força de reação para cima.\n\nImportante:\n- As forças não se anulam, pois atuam em corpos diferentes\n- Sempre que há interação entre dois corpos, há um par ação-reação\n\nEssa lei é fundamental para entender interações e forças em sistemas físicos.",
+
+    "intuicao": "Sempre que você empurra algo, esse algo também 'empurra de volta'.",
+
+    "analogia": "É como pular de um barco: você vai para frente e o barco vai para trás.",
+
+    "aplicacoes": [
+      "Propulsão de foguetes e aviões",
+      "Movimento ao caminhar (empurrando o chão)"
+    ],
+
+    "erros_comuns": [
+      "Achar que ação e reação se anulam",
+      "Pensar que as forças atuam no mesmo corpo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A Terceira Lei de Newton é conhecida como:",
+      "alternativas": [
+        "Lei da Inércia",
+        "Lei da Gravidade",
+        "Lei da Ação e Reação",
+        "Lei da Aceleração"
+      ],
+      "resposta": "Lei da Ação e Reação",
+      "explicacao": "Essa lei descreve pares de forças entre dois corpos."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "As forças de ação e reação possuem:",
+      "alternativas": [
+        "Intensidades diferentes",
+        "Mesma direção e mesmo sentido",
+        "Mesma intensidade e sentidos opostos",
+        "Sentidos iguais"
+      ],
+      "resposta": "Mesma intensidade e sentidos opostos",
+      "explicacao": "Essa é a característica principal da Terceira Lei de Newton."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Por que ação e reação não se anulam?",
+      "alternativas": [
+        "Porque têm sentidos iguais",
+        "Porque atuam no mesmo corpo",
+        "Porque atuam em corpos diferentes",
+        "Porque têm intensidades diferentes"
+      ],
+      "resposta": "Porque atuam em corpos diferentes",
+      "explicacao": "As forças não se anulam pois estão aplicadas em corpos distintos."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando uma pessoa caminha, o que acontece?",
+      "alternativas": [
+        "Ela empurra o ar",
+        "O chão empurra a pessoa para frente",
+        "Não há forças envolvidas",
+        "A pessoa se move sem interação"
+      ],
+      "resposta": "O chão empurra a pessoa para frente",
+      "explicacao": "A pessoa empurra o chão para trás, e o chão reage empurrando-a para frente."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um livro está apoiado sobre uma mesa. Qual é o par de ação e reação relacionado ao peso do livro?",
+      "alternativas": [
+        "Peso do livro e força normal da mesa",
+        "Força do livro na Terra e força da Terra no livro",
+        "Força da mesa no livro e peso do livro",
+        "Não há par de ação e reação"
+      ],
+      "resposta": "Força do livro na Terra e força da Terra no livro",
+      "explicacao": "O peso é a força da Terra no livro, e a reação é a força do livro na Terra."
+    }
+  ]
+}
