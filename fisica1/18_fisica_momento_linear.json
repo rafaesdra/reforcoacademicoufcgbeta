@@ -1,0 +1,99 @@
+{
+  "id": "fisica_momento_linear",
+  "disciplina": "Física Geral 1",
+  "assunto": "Quantidade de Movimento - Momento Linear",
+  "ordem": 18,
+
+  "teoria": {
+    "resumo": "O momento linear é uma grandeza vetorial que representa a quantidade de movimento de um corpo.",
+
+    "explicacao": "O momento linear (ou quantidade de movimento) é uma grandeza que relaciona a massa e a velocidade de um corpo.\n\nSua fórmula é:\n\np = m · v\n\nOnde:\n- p é o momento linear (kg·m/s)\n- m é a massa (kg)\n- v é a velocidade (m/s)\n\nCaracterísticas importantes:\n\n- É uma grandeza vetorial (possui direção e sentido)\n- Quanto maior a massa ou a velocidade, maior o momento\n\nImpulso:\n\nO impulso de uma força é dado por:\n\nI = F · Δt\n\nE está relacionado à variação do momento:\n\nI = Δp\n\nOu seja, a força aplicada durante um intervalo de tempo altera o momento do corpo.\n\nExemplo:\nUm corpo de 2 kg com velocidade de 3 m/s:\n\np = 2 × 3 = 6 kg·m/s\n\nO conceito de momento é fundamental para o estudo de colisões e conservação do movimento.",
+
+    "intuicao": "Objetos mais pesados ou mais rápidos são mais difíceis de parar porque têm mais momento.",
+
+    "analogia": "É mais difícil parar um caminhão em movimento do que uma bicicleta, mesmo na mesma velocidade.",
+
+    "aplicacoes": [
+      "Análise de colisões entre veículos",
+      "Estudo de impacto em esportes e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Confundir momento com energia cinética",
+      "Esquecer que o momento é uma grandeza vetorial"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do momento linear?",
+      "alternativas": [
+        "p = m · v",
+        "p = m · a",
+        "p = v / m",
+        "p = m + v"
+      ],
+      "resposta": "p = m · v",
+      "explicacao": "O momento linear é o produto da massa pela velocidade."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O momento linear é uma grandeza:",
+      "alternativas": [
+        "Escalar",
+        "Vetorial",
+        "Constante",
+        "Nula"
+      ],
+      "resposta": "Vetorial",
+      "explicacao": "O momento possui direção e sentido, pois depende da velocidade."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 5 kg move-se a 2 m/s. Qual é seu momento linear?",
+      "alternativas": [
+        "5 kg·m/s",
+        "7 kg·m/s",
+        "10 kg·m/s",
+        "12 kg·m/s"
+      ],
+      "resposta": "10 kg·m/s",
+      "explicacao": "p = m·v = 5 × 2 = 10 kg·m/s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a velocidade de um corpo dobra, seu momento linear:",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Dobra",
+        "Quadruplica"
+      ],
+      "resposta": "Dobra",
+      "explicacao": "Como p = m·v, dobrar v dobra o momento."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma força de 5 N atua durante 2 s em um corpo inicialmente em repouso. Qual é a variação do momento linear?",
+      "alternativas": [
+        "2 kg·m/s",
+        "5 kg·m/s",
+        "10 kg·m/s",
+        "20 kg·m/s"
+      ],
+      "resposta": "10 kg·m/s",
+      "explicacao": "Impulso I = F·Δt = 5 × 2 = 10 kg·m/s, que é igual à variação do momento."
+    }
+  ]
+}
