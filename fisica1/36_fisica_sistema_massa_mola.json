@@ -1,0 +1,99 @@
+{
+  "id": "fisica_sistema_massa_mola",
+  "disciplina": "Física Geral 1",
+  "assunto": "Oscilações - Sistema Massa-Mola",
+  "ordem": 36,
+
+  "teoria": {
+    "resumo": "O sistema massa-mola é um exemplo clássico de movimento harmônico simples, onde a força restauradora é proporcional ao deslocamento.",
+
+    "explicacao": "O sistema massa-mola consiste em uma massa presa a uma mola que pode oscilar quando deslocada da posição de equilíbrio.\n\nA força elástica é dada pela Lei de Hooke:\n\nF = -k · x\n\nOnde:\n- k é a constante elástica (N/m)\n- x é o deslocamento (m)\n\nEssa força gera um movimento harmônico simples (MHS).\n\nPeríodo do movimento:\n\nT = 2π√(m/k)\n\nFrequência:\n\nf = 1/T\n\nEnergia no sistema:\n\n- Energia potencial elástica:\nEp = (1/2)k·x²\n\n- Energia cinética:\nEc = (1/2)m·v²\n\n- Energia total constante (sem dissipação)\n\nCaracterísticas:\n\n- Movimento periódico\n- Oscilação ao redor da posição de equilíbrio\n- Troca contínua entre energia cinética e potencial\n\nExemplo:\nAo puxar uma mola e soltar, a massa oscila para frente e para trás.\n\nEsse sistema é base para o estudo de vibrações e ondas.",
+
+    "intuicao": "A mola puxa o objeto de volta sempre que ele sai do equilíbrio.",
+
+    "analogia": "É como um elástico esticado: ao soltar, ele tenta voltar ao seu tamanho original, oscilando.",
+
+    "aplicacoes": [
+      "Sistemas de suspensão em veículos",
+      "Análise de vibrações em estruturas"
+    ],
+
+    "erros_comuns": [
+      "Esquecer o sinal negativo na força (indica sentido oposto)",
+      "Confundir energia cinética com potencial elástica"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a força que atua em um sistema massa-mola?",
+      "alternativas": [
+        "Força gravitacional",
+        "Força elétrica",
+        "Força elástica",
+        "Força centrípeta"
+      ],
+      "resposta": "Força elástica",
+      "explicacao": "A força principal é a força elástica da mola."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula do período do sistema massa-mola?",
+      "alternativas": [
+        "T = 2π√(m/k)",
+        "T = m/k",
+        "T = k/m",
+        "T = 2πm/k"
+      ],
+      "resposta": "T = 2π√(m/k)",
+      "explicacao": "Essa é a fórmula do período no MHS para mola."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a massa aumenta, o período do sistema:",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Aumenta",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "T ∝ √m, então maior massa aumenta o período."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a constante elástica aumenta, o período:",
+      "alternativas": [
+        "Aumenta",
+        "Diminui",
+        "Permanece igual",
+        "Zera"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "T ∝ 1/√k, então maior k reduz o período."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um sistema massa-mola tem m = 1 kg e k = 9 N/m. Qual é o período?",
+      "alternativas": [
+        "π/3 s",
+        "2π/3 s",
+        "π s",
+        "3π s"
+      ],
+      "resposta": "2π/3 s",
+      "explicacao": "T = 2π√(1/9) = 2π × 1/3 = 2π/3 s."
+    }
+  ]
+}
