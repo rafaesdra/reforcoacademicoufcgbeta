@@ -1,0 +1,99 @@
+{
+  "id": "fisica_mhs",
+  "disciplina": "Física Geral 1",
+  "assunto": "Oscilações - Movimento Harmônico Simples",
+  "ordem": 35,
+
+  "teoria": {
+    "resumo": "O movimento harmônico simples é um movimento oscilatório periódico onde a força restauradora é proporcional ao deslocamento.",
+
+    "explicacao": "O Movimento Harmônico Simples (MHS) é um tipo de movimento periódico em que um corpo oscila em torno de uma posição de equilíbrio.\n\nA força restauradora é dada por:\n\nF = -k · x\n\nOnde:\n- k é a constante elástica\n- x é o deslocamento\n\nEquações importantes:\n\nx(t) = A cos(ωt)\n\nOnde:\n- A é a amplitude\n- ω é a frequência angular\n\nVelocidade e aceleração:\n\nv = ω√(A² - x²)\na = -ω²x\n\nPeríodo e frequência:\n\nT = 2π/ω\nf = 1/T\n\nPara mola:\n\nT = 2π√(m/k)\n\nPara pêndulo simples:\n\nT = 2π√(L/g)\n\nCaracterísticas:\n\n- Movimento periódico\n- Energia mecânica constante\n- Troca entre energia cinética e potencial\n\nExemplo:\nUma mola comprimida ou um pêndulo oscilando realizam MHS.\n\nEsse movimento é fundamental em vários fenômenos físicos.",
+
+    "intuicao": "O sistema sempre tenta voltar ao equilíbrio, oscilando para frente e para trás.",
+
+    "analogia": "É como um balanço: vai e volta repetidamente ao redor de uma posição central.",
+
+    "aplicacoes": [
+      "Funcionamento de molas e pêndulos",
+      "Oscilações em circuitos elétricos e sistemas físicos"
+    ],
+
+    "erros_comuns": [
+      "Confundir movimento periódico com uniforme",
+      "Esquecer que a força sempre aponta para o equilíbrio"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O MHS é caracterizado por:",
+      "alternativas": [
+        "Movimento linear constante",
+        "Movimento circular",
+        "Movimento oscilatório periódico",
+        "Movimento acelerado uniforme"
+      ],
+      "resposta": "Movimento oscilatório periódico",
+      "explicacao": "O MHS ocorre com oscilações repetitivas no tempo."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "No MHS, a força restauradora aponta:",
+      "alternativas": [
+        "Para longe do equilíbrio",
+        "Para o equilíbrio",
+        "Para cima",
+        "Para fora do sistema"
+      ],
+      "resposta": "Para o equilíbrio",
+      "explicacao": "A força sempre tenta trazer o sistema de volta à posição de equilíbrio."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é o período de um sistema massa-mola com m = 1 kg e k = 4 N/m?",
+      "alternativas": [
+        "π s",
+        "2π s",
+        "π/2 s",
+        "4π s"
+      ],
+      "resposta": "π s",
+      "explicacao": "T = 2π√(m/k) = 2π√(1/4) = 2π×1/2 = π s."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Onde a energia cinética é máxima no MHS?",
+      "alternativas": [
+        "Nos extremos",
+        "No equilíbrio",
+        "No meio do caminho",
+        "Em qualquer ponto"
+      ],
+      "resposta": "No equilíbrio",
+      "explicacao": "No ponto de equilíbrio a velocidade é máxima."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a constante elástica de uma mola dobra, o período do MHS:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Diminui",
+        "Aumenta"
+      ],
+      "resposta": "Diminui",
+      "explicacao": "T = 2π√(m/k). Se k aumenta, T diminui."
+    }
+  ]
+}
