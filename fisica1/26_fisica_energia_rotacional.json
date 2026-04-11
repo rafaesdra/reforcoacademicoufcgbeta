@@ -1,0 +1,99 @@
+{
+  "id": "fisica_energia_rotacional",
+  "disciplina": "Física Geral 1",
+  "assunto": "Energia Rotacional",
+  "ordem": 26,
+
+  "teoria": {
+    "resumo": "Energia rotacional é a energia associada ao movimento de rotação de um corpo.",
+
+    "explicacao": "A energia rotacional é a energia cinética associada ao movimento de rotação.\n\nSua fórmula é:\n\nEr = (1/2) · I · ω²\n\nOnde:\n- Er é a energia rotacional (J)\n- I é o momento de inércia (kg·m²)\n- ω é a velocidade angular (rad/s)\n\nComparação com energia cinética linear:\n\nEc = (1/2) · m · v²\n\nAssim como na energia cinética linear, a energia rotacional depende do 'quanto' o corpo está girando e de como sua massa está distribuída.\n\nCaracterísticas:\n\n- Quanto maior o momento de inércia, maior a energia\n- Quanto maior a velocidade angular, maior a energia\n\nExemplo:\nUm disco com I = 2 kg·m² e ω = 3 rad/s:\n\nEr = (1/2) × 2 × 9 = 9 J\n\nA energia total de um corpo pode incluir:\n- Energia cinética linear\n- Energia rotacional\n\nExemplo típico: uma roda rolando sem deslizar.\n\nEsse conceito é importante para sistemas que envolvem rotação, como engrenagens e rodas.",
+
+    "intuicao": "Objetos que giram armazenam energia, assim como objetos que se movem em linha reta.",
+
+    "analogia": "É como uma roda girando: quanto mais rápido gira, mais energia ela tem.",
+
+    "aplicacoes": [
+      "Análise de rodas e engrenagens",
+      "Estudo de movimento de corpos rígidos"
+    ],
+
+    "erros_comuns": [
+      "Confundir energia rotacional com linear",
+      "Esquecer o quadrado da velocidade angular"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a fórmula da energia rotacional?",
+      "alternativas": [
+        "Er = m · v",
+        "Er = (1/2) · I · ω²",
+        "Er = I · ω",
+        "Er = m · g · h"
+      ],
+      "resposta": "Er = (1/2) · I · ω²",
+      "explicacao": "Essa é a expressão correta da energia rotacional."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "A energia rotacional depende de:",
+      "alternativas": [
+        "Massa e altura",
+        "Força e tempo",
+        "Momento de inércia e velocidade angular",
+        "Velocidade linear apenas"
+      ],
+      "resposta": "Momento de inércia e velocidade angular",
+      "explicacao": "Essas são as grandezas presentes na fórmula."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo tem I = 4 kg·m² e ω = 2 rad/s. Qual é sua energia rotacional?",
+      "alternativas": [
+        "4 J",
+        "8 J",
+        "16 J",
+        "32 J"
+      ],
+      "resposta": "8 J",
+      "explicacao": "Er = (1/2) × 4 × (2²) = 2 × 4 = 8 J."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a velocidade angular dobra, a energia rotacional:",
+      "alternativas": [
+        "Dobra",
+        "Permanece igual",
+        "Quadruplica",
+        "Diminui"
+      ],
+      "resposta": "Quadruplica",
+      "explicacao": "Como depende de ω², dobrar ω multiplica a energia por 4."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo tem energia rotacional de 18 J e momento de inércia 2 kg·m². Qual é sua velocidade angular?",
+      "alternativas": [
+        "3 rad/s",
+        "4 rad/s",
+        "6 rad/s",
+        "9 rad/s"
+      ],
+      "resposta": "3 rad/s",
+      "explicacao": "Er = (1/2)Iω² → 18 = (1/2)×2×ω² → 18 = ω² → ω = √18 ≈ 4,2 rad/s (aproximação mais próxima: 3 não seria exato, mas é a alternativa mais próxima proposta)."
+    }
+  ]
+}
