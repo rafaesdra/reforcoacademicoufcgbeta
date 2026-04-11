@@ -1,0 +1,99 @@
+{
+  "id": "fisica_segunda_lei_newton",
+  "disciplina": "Física Geral 1",
+  "assunto": "Leis de Newton - Segunda Lei",
+  "ordem": 10,
+
+  "teoria": {
+    "resumo": "A Segunda Lei de Newton relaciona força, massa e aceleração, mostrando que a força resultante causa aceleração no corpo.",
+
+    "explicacao": "A Segunda Lei de Newton descreve quantitativamente como as forças afetam o movimento de um corpo.\n\nSua expressão matemática é:\n\nF = m · a\n\nOnde:\n- F é a força resultante (em newtons - N)\n- m é a massa do corpo (em kg)\n- a é a aceleração (em m/s²)\n\nInterpretação:\n- A aceleração é diretamente proporcional à força aplicada\n- A aceleração é inversamente proporcional à massa\n\nIsso significa:\n- Quanto maior a força, maior a aceleração\n- Quanto maior a massa, menor a aceleração\n\nExemplo:\nUm corpo de massa 2 kg sofre uma força de 10 N:\n\na = F/m = 10/2 = 5 m/s²\n\nImportante:\n- A força considerada é a força resultante (soma de todas as forças)\n- A direção da aceleração é a mesma da força resultante\n\nEssa lei é fundamental para analisar qualquer situação envolvendo forças e movimento.",
+
+    "intuicao": "Força é o que faz um objeto mudar sua velocidade (acelerar ou desacelerar).",
+
+    "analogia": "Empurrar um carrinho vazio é mais fácil do que um cheio: com a mesma força, o mais leve acelera mais.",
+
+    "aplicacoes": [
+      "Cálculo de aceleração em veículos",
+      "Projeto de máquinas e sistemas mecânicos"
+    ],
+
+    "erros_comuns": [
+      "Usar força individual em vez da força resultante",
+      "Esquecer que massa influencia na aceleração"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Qual é a expressão matemática da Segunda Lei de Newton?",
+      "alternativas": [
+        "F = m/a",
+        "F = m · a",
+        "F = a/m",
+        "F = m + a"
+      ],
+      "resposta": "F = m · a",
+      "explicacao": "A força resultante é o produto da massa pela aceleração."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se a força aplicada aumenta e a massa permanece constante, o que acontece com a aceleração?",
+      "alternativas": [
+        "Diminui",
+        "Permanece constante",
+        "Aumenta",
+        "Zera"
+      ],
+      "resposta": "Aumenta",
+      "explicacao": "A aceleração é diretamente proporcional à força."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de 4 kg sofre uma força resultante de 20 N. Qual é sua aceleração?",
+      "alternativas": [
+        "2 m/s²",
+        "4 m/s²",
+        "5 m/s²",
+        "10 m/s²"
+      ],
+      "resposta": "5 m/s²",
+      "explicacao": "a = F/m = 20/4 = 5 m/s²."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Se dois corpos recebem a mesma força, qual terá maior aceleração?",
+      "alternativas": [
+        "O de maior massa",
+        "O de menor massa",
+        "Ambos terão a mesma aceleração",
+        "Depende da velocidade"
+      ],
+      "resposta": "O de menor massa",
+      "explicacao": "Como a = F/m, quanto menor a massa, maior a aceleração."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um corpo de massa 2 kg está sujeito a duas forças: 10 N para a direita e 4 N para a esquerda. Qual é sua aceleração?",
+      "alternativas": [
+        "2 m/s²",
+        "3 m/s²",
+        "5 m/s²",
+        "7 m/s²"
+      ],
+      "resposta": "3 m/s²",
+      "explicacao": "Força resultante = 10 - 4 = 6 N. Então a = 6/2 = 3 m/s²."
+    }
+  ]
+}
