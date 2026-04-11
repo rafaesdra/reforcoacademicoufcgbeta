@@ -1,0 +1,99 @@
+{
+  "id": "fisica_centro_gravidade",
+  "disciplina": "Física Geral 1",
+  "assunto": "Estática - Centro de Gravidade",
+  "ordem": 30,
+
+  "teoria": {
+    "resumo": "O centro de gravidade é o ponto onde a força peso de um corpo pode ser considerada aplicada.",
+
+    "explicacao": "O centro de gravidade é o ponto de um corpo onde podemos considerar que todo o peso está concentrado.\n\nEm um campo gravitacional uniforme (como próximo à superfície da Terra), o centro de gravidade coincide com o centro de massa.\n\nCaracterísticas importantes:\n\n- É o ponto de aplicação da força peso\n- Depende da distribuição de massa do corpo\n\nEquilíbrio e estabilidade:\n\n- Um corpo está em equilíbrio estável quando seu centro de gravidade está baixo e dentro da base de apoio\n- Se o centro de gravidade ultrapassa a base de apoio, o corpo tomba\n\nExemplo:\n\n- Um objeto largo e baixo é mais estável\n- Um objeto alto e estreito é menos estável\n\nOutro exemplo:\nUma pessoa inclinando o corpo para frente altera a posição do centro de gravidade.\n\nEsse conceito é essencial para analisar estabilidade e equilíbrio de corpos.",
+
+    "intuicao": "É como o ponto onde o peso 'age' no corpo.",
+
+    "analogia": "É o ponto onde você pode equilibrar um objeto sem ele cair.",
+
+    "aplicacoes": [
+      "Projeto de estruturas estáveis",
+      "Análise de equilíbrio em esportes e engenharia"
+    ],
+
+    "erros_comuns": [
+      "Confundir centro de gravidade com centro geométrico",
+      "Achar que o centro de gravidade sempre está dentro do corpo"
+    ]
+  },
+
+  "questoes": [
+    {
+      "id": "q1",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "O centro de gravidade representa:",
+      "alternativas": [
+        "A velocidade do corpo",
+        "O ponto onde o peso atua",
+        "A massa total",
+        "A energia do corpo"
+      ],
+      "resposta": "O ponto onde o peso atua",
+      "explicacao": "O centro de gravidade é onde a força peso pode ser considerada aplicada."
+    },
+    {
+      "id": "q2",
+      "nivel": "facil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Em um campo gravitacional uniforme, o centro de gravidade coincide com:",
+      "alternativas": [
+        "Centro geométrico",
+        "Centro de massa",
+        "Ponto de apoio",
+        "Eixo de rotação"
+      ],
+      "resposta": "Centro de massa",
+      "explicacao": "Nessas condições, os dois pontos coincidem."
+    },
+    {
+      "id": "q3",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Um objeto é mais estável quando seu centro de gravidade está:",
+      "alternativas": [
+        "Alto",
+        "Fora da base",
+        "Baixo e dentro da base",
+        "Em movimento"
+      ],
+      "resposta": "Baixo e dentro da base",
+      "explicacao": "Isso reduz a chance de tombamento."
+    },
+    {
+      "id": "q4",
+      "nivel": "medio",
+      "tipo": "multipla_escolha",
+      "pergunta": "Quando um corpo tomba?",
+      "alternativas": [
+        "Quando está em repouso",
+        "Quando o peso é zero",
+        "Quando o centro de gravidade sai da base de apoio",
+        "Quando há equilíbrio"
+      ],
+      "resposta": "Quando o centro de gravidade sai da base de apoio",
+      "explicacao": "Isso gera um torque que causa a queda."
+    },
+    {
+      "id": "q5",
+      "nivel": "dificil",
+      "tipo": "multipla_escolha",
+      "pergunta": "Uma caixa alta e estreita e outra baixa e larga são comparadas. Qual é mais estável?",
+      "alternativas": [
+        "A alta e estreita",
+        "A baixa e larga",
+        "Ambas iguais",
+        "Depende da massa"
+      ],
+      "resposta": "A baixa e larga",
+      "explicacao": "Possui centro de gravidade mais baixo e base maior, aumentando a estabilidade."
+    }
+  ]
+}
