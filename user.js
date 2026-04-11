@@ -433,9 +433,10 @@ async function mostrarDashboard(){
     return;
   }
 
+  // Não fazer redirecionamento automático aqui - deixar para o fluxo normal
   if (!window.auth?.currentUser?.emailVerified) {
-    window.location.href = '/pages/verificar-email.html';
-    return;
+    console.log("Email não verificado - mostrando mensagem em vez de redirecionar");
+    // Não redirecionar automaticamente, deixar o usuário decidir
   }
 
   document.getElementById("loginCard").style.display = "none";

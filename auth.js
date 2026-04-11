@@ -34,13 +34,15 @@ async function verificarEmailAtual() {
   return auth.currentUser.emailVerified === true;
 }
 
-async function verificarAcessoUsuario(user) {
+async function verificarAcessoUsuario(user, autoRedirect = false) {
   if (!user) {
     return false;
   }
   await reload(user);
   if (!user.emailVerified) {
-    window.location.href = '/pages/verificar-email.html';
+    if (autoRedirect) {
+      window.location.href = '/pages/verificar-email.html';
+    }
     return false;
   }
   return true;

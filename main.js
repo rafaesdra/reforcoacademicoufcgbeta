@@ -125,8 +125,8 @@ async function iniciar() {
     }
 
     if (user) {
-      if (!await verificarAcessoUsuario(user)) {
-        console.log("Usuário logado mas email não verificado");
+      if (!await verificarAcessoUsuario(user, false)) {
+        console.log("Usuário logado mas email não verificado - não redirecionando automaticamente");
         return;
       }
 
