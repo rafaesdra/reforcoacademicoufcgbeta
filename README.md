@@ -231,7 +231,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 Este projeto foi desenvolvido por estudantes de Engenharia Elétrica da UFCG, com o objetivo de auxiliar colegas na revisão e reforço de conteúdos matemáticos e científicos essenciais para o curso.
 
 ### 🎓 Desenvolvedor
-**Rafael Silva** - Engenharia Elétrica - UFCG
+**Hugo Kogiso,Rafael Soares,Yago Holanda** - Engenharia Elétrica - UFCG
 
 ### 🙏 Agradecimentos
 - Universidade Federal de Campina Grande (UFCG)
