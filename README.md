@@ -9,7 +9,7 @@ Uma plataforma web interativa de reforço acadêmico desenvolvida especificament
 ## 🎯 Demonstração
 
 Acesse a versão online: **[reforcoacademicoufcgbeta.github.io](https://rafaesdra.github.io/reforcoacademicoufcgbeta/)**
-**(https://reforcoacademicoufcg.vercel.app/)**
+**reforcoacademicoufcg.vercel.app/**
 ## ✨ Funcionalidades
 
 ### 📖 Disciplinas Disponíveis
